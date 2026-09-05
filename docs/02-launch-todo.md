@@ -10,7 +10,7 @@ Legend: `[ ]` open, `[x]` done, `(owner)` to be assigned.
 - [x] Contact email. `contactuncfund@gmail.com` created 2026-09-05. Use it as the public address until Workspace is on the domain, then forward it.
 - [ ] Claim `uncfund` on Instagram (profile not found as of today).
 - [ ] Claim `@uncfund` on TikTok (account not found as of today).
-- [ ] Claim `uncfund` on GitHub as an org (API returns 404, so it is free).
+- [x] GitHub: `UncFund` organization created and the repo pushed to https://github.com/UncFund/unc-fund on 2026-09-05.
 - [ ] Claim `@uncfund` on YouTube.
 - [ ] Claim LinkedIn company page "Unc Fund". LinkedIn could not be checked without a login.
 - [ ] Claim `uncfund` on Farcaster/Warpcast and Lens if we are serious about the crypto audience. Also `unc.eth` and `uncfund.eth` on ENS.

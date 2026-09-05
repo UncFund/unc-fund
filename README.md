@@ -6,7 +6,7 @@ Started as a joke. Now it has a domain (unc.fund), an X account, and a plan. Str
 
 ## This repo
 
-Standalone project. Nothing here is shared with any other project.
+Standalone project. Nothing here is shared with any other project. Hosted at https://github.com/UncFund/unc-fund under the UncFund organization.
 
 | Path | What it is |
 |---|---|

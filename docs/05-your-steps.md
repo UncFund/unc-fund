@@ -6,30 +6,16 @@ Where things stand: your other business code lives on Bitbucket, and this projec
 
 ---
 
-## 1. GitHub for Unc Fund (10 minutes, free)
+## 1. GitHub for Unc Fund — DONE 2026-09-05
 
-Keep it fully separate from the business by giving Unc Fund its own GitHub organization.
-
-1. Sign in to GitHub with whichever account you want to own this. If you would rather keep it off your personal account entirely, create a new account first with contactuncfund@gmail.com at https://github.com/signup
-2. Create an organization: https://github.com/organizations/plan (choose Free). Name it `uncfund`.
-3. In the new org, click **New repository**: https://github.com/organizations/uncfund/repositories/new
-   - Name: `unc-fund`
-   - Private
-   - Do **not** add a README, .gitignore or license (the repo already has them)
-4. Send me the repository URL (it will look like `https://github.com/uncfund/unc-fund.git`) and I will push the commit.
-
-If you prefer to push yourself:
-
-```bash
-cd C:\Users\rand\code\unc-fund && git remote add origin https://github.com/uncfund/unc-fund.git && git push -u origin master
-```
+The repo lives at https://github.com/UncFund/unc-fund under its own `UncFund` organization. The local folder tracks `main`. Nothing here is connected to the Bitbucket business repos.
 
 ---
 
 ## 2. Vercel hosting (15 minutes, free tier)
 
 1. Sign up or sign in at https://vercel.com/signup using **Continue with GitHub** and pick the `uncfund` org when it asks which GitHub account to connect.
-2. Click **Add New > Project**, import `uncfund/unc-fund`.
+2. Click **Add New > Project**, import `UncFund/unc-fund`. If Vercel does not list the org, click **Adjust GitHub App Permissions** and grant it access to the `UncFund` organization.
 3. On the configure screen set **Root Directory** to `site`. Leave the framework as Next.js. Click **Deploy**. The first deploy will work but the forms will only log, not email, until steps 3 and 4 are done.
 4. In the project, open **Storage > Create Database > Blob**, name it `unc-decks`, connect it to the project. This adds `BLOB_READ_WRITE_TOKEN` automatically.
 5. Open **Settings > Environment Variables** and add:
