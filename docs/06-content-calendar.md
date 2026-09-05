@@ -1,5 +1,7 @@
 # @UncFund content: launch posts and the first two weeks
 
+**Status 2026-09-05:** hello world posted and pinned (x.com/UncFund/status/2096316216902357376), seven-post launch thread posted (starts at status 2096316962167287952), and all 22 launch-weekend + week-1 posts scheduled in X (Sat Sep 5 6pm through Sun Sep 13 4pm, Pacific). Week 2 is not scheduled yet.
+
 Voice rules: first person, short sentences, sincere under the jokes, never punch at founders. Every post is Unc talking. No hashtags except when a post is literally about one. Links only in the launch thread and the pitch reminders.
 
 Cadence: 3 posts a day on weekdays, 2 on weekends. Roughly 9am, 1pm, 6pm Pacific. Post types rotate: a take, a bit, a call to pitch.
