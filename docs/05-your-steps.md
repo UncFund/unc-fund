@@ -12,7 +12,9 @@ The repo lives at https://github.com/UncFund/unc-fund under its own `UncFund` or
 
 ---
 
-## 2. Vercel hosting (15 minutes, free tier)
+## 2. Vercel hosting (15 minutes, $20/month Pro)
+
+Vercel's free Hobby plan cannot deploy a private repo owned by a GitHub organization, and it is for non-commercial use anyway. Upgrade the Vercel team to Pro first (team name top-left > Settings > Billing), then continue. The free alternatives are making the repo public (still non-commercial terms) or moving to Netlify or Cloudflare Pages, which needs the deck storage swapped.
 
 1. Sign in at https://vercel.com/login. The account was created with email/Google on 2026-09-05, which is fine: GitHub gets connected in the next step. If the GitHub option never appears on the import page, connect it at https://vercel.com/account/login-connections first.
 2. Go to https://vercel.com/new and under **Import Git Repository** click **Continue with GitHub**. GitHub asks where to install the Vercel app: pick the **UncFund** organization (not your personal account), choose **Only select repositories**, pick `unc-fund`, click **Install**. Back in Vercel, click **Import** next to `UncFund/unc-fund`. If the org is missing later, click **Adjust GitHub App Permissions** on that page.
