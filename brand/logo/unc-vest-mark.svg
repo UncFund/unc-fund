@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64" role="img" aria-label="Unc.Fund vest mark">
+  <title>Quilted puffer vest mark, half zipped. Favicon, app icon, embroidered patch.</title>
+  <rect width="64" height="64" rx="14" fill="#2F5D8A"/>
+  <!-- vest body -->
+  <path d="M16 17 Q32 9 48 17 L50 52 Q32 58 14 52 Z" fill="#F7F3EA"/>
+  <!-- quilted baffles -->
+  <g stroke="#2F5D8A" stroke-width="1.4" fill="none" opacity=".55">
+    <path d="M16 26 Q32 28 48 26"/>
+    <path d="M15.5 33 Q32 35 48.5 33"/>
+    <path d="M15 40 Q32 42 49 40"/>
+    <path d="M14.5 47 Q32 49 49.5 47"/>
+  </g>
+  <!-- armhole binding -->
+  <path d="M16 17 Q14 34 14 52" fill="none" stroke="#2F5D8A" stroke-width="2.4"/>
+  <path d="M48 17 Q50 34 50 52" fill="none" stroke="#2F5D8A" stroke-width="2.4"/>
+  <!-- stand-up collar -->
+  <path d="M18 17 Q32 10 46 17 L44 22 Q32 16 20 22 Z" fill="#DCE6F0"/>
+  <!-- open V -->
+  <path d="M26 16 L32 30 L38 16 Z" fill="#2F5D8A"/>
+  <!-- zipper -->
+  <line x1="32" y1="30" x2="32" y2="55" stroke="#2F5D8A" stroke-width="3.2"/>
+  <line x1="32" y1="30" x2="32" y2="55" stroke="#F7F3EA" stroke-width="1.2" stroke-dasharray="1.4 1.4"/>
+  <rect x="29.5" y="27" width="5" height="7" rx="1.5" fill="#7FA7CF" stroke="#2F5D8A" stroke-width=".8"/>
+  <!-- angled hand pockets -->
+  <path d="M18 40 L24 46" stroke="#2F5D8A" stroke-width="2.4" stroke-linecap="round"/>
+  <path d="M46 40 L40 46" stroke="#2F5D8A" stroke-width="2.4" stroke-linecap="round"/>
+  <!-- chest label, sunset bands -->
+  <rect x="37" y="30" width="8" height="5" rx=".8" fill="#F1EDE3" stroke="#2F5D8A" stroke-width=".6"/>
+  <rect x="37.6" y="30.6" width="6.8" height="1.2" fill="#E8742C"/>
+  <rect x="37.6" y="31.8" width="6.8" height="1.2" fill="#B0568A"/>
+  <path d="M37.6 34.4 L39 32.6 L40.2 33.6 L41.6 32 L43 33.4 L44.4 32.8 L44.4 34.4 Z" fill="#1E2430"/>
+</svg>

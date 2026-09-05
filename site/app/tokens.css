@@ -1,0 +1,47 @@
+/* Unc.Fund brand tokens. Source of truth for the site and every asset. */
+:root {
+  /* Color */
+  --unc-vest: #2F5D8A;         /* primary accent, the fleece */
+  --unc-vest-2: #7FA7CF;       /* fleece highlight, hover */
+  --unc-vest-soft: #E1EAF3;    /* tinted surfaces */
+  --unc-khaki: #D9C8A6;        /* secondary */
+  --unc-khaki-soft: #EEE4CC;   /* callout backgrounds */
+  --unc-cream: #F7F3EA;        /* page ground */
+  --unc-ink: #1E2430;          /* text */
+  --unc-ink-2: #4A5261;        /* secondary text */
+  --unc-line: #DACFB6;         /* rules and borders */
+  --unc-green: #2E8B57;        /* the money moment, once per page */
+  --unc-orange: #E8742C;       /* the one loud thing, sparingly */
+  --unc-card: #FFFDF8;
+
+  /* Character colors */
+  --unc-skin: #E8C4A0;
+  --unc-shirt: #BFD7EA;
+  --unc-shoe: #9AA3AD;
+  --unc-hair: #8C8F94;
+
+  /* Type */
+  --unc-font-display: "Fredoka", "Source Sans 3", "Segoe UI", system-ui, sans-serif;
+  --unc-font-body: "Source Sans 3", "Segoe UI", system-ui, sans-serif;
+  --unc-font-mono: "JetBrains Mono", ui-monospace, Consolas, monospace;
+
+  /* Scale */
+  --unc-radius: 8px;
+  --unc-radius-pill: 999px;
+}
+
+/* Dark: ink becomes the ground, cream becomes the text, vest lifts for contrast. */
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    --unc-vest: #5C8BC0; --unc-vest-2: #8FB4DA; --unc-vest-soft: #223247;
+    --unc-khaki: #8C7B58; --unc-khaki-soft: #2B2A22;
+    --unc-cream: #161B24; --unc-ink: #EFE9DC; --unc-ink-2: #B9B2A3; --unc-line: #333B48;
+    --unc-green: #4FBF80; --unc-orange: #F08A48; --unc-card: #1B2029;
+  }
+}
+:root[data-theme="dark"] {
+  --unc-vest: #5C8BC0; --unc-vest-2: #8FB4DA; --unc-vest-soft: #223247;
+  --unc-khaki: #8C7B58; --unc-khaki-soft: #2B2A22;
+  --unc-cream: #161B24; --unc-ink: #EFE9DC; --unc-ink-2: #B9B2A3; --unc-line: #333B48;
+  --unc-green: #4FBF80; --unc-orange: #F08A48; --unc-card: #1B2029;
+}

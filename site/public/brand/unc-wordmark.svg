@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 160" width="720" height="160" role="img" aria-label="UNC.FUND wordmark">
+  <title>UNC.FUND wordmark, light background. UNC heavy, FUND light, the dot is a zipper pull on a short run of teeth.</title>
+  <defs>
+    <pattern id="fleece-wm" width="6" height="6" patternUnits="userSpaceOnUse">
+      <circle cx="1.5" cy="1.5" r=".9" fill="#7FA7CF" opacity=".35"/>
+      <circle cx="4.5" cy="4.5" r=".9" fill="#7FA7CF" opacity=".22"/>
+    </pattern>
+  </defs>
+  <!-- UNC with a fleece texture pass so it reads as the vest -->
+  <text x="20" y="118" font-family="Fredoka, 'Source Sans 3', Arial, sans-serif" font-size="120" font-weight="700" letter-spacing="-4" fill="#2F5D8A">UNC</text>
+  <text x="20" y="118" font-family="Fredoka, 'Source Sans 3', Arial, sans-serif" font-size="120" font-weight="700" letter-spacing="-4" fill="url(#fleece-wm)">UNC</text>
+  <!-- the dot: zipper teeth running up from the baseline with a pull on top -->
+  <g transform="translate(300 0)">
+    <line x1="0" y1="118" x2="0" y2="84" stroke="#7FA7CF" stroke-width="7" stroke-dasharray="3 3"/>
+    <line x1="0" y1="118" x2="0" y2="84" stroke="#2F5D8A" stroke-width="1.5"/>
+    <rect x="-7" y="70" width="14" height="24" rx="4" fill="#2F5D8A"/>
+    <rect x="-4" y="94" width="8" height="12" rx="3" fill="#2F5D8A"/>
+    <rect x="-3" y="76" width="6" height="8" rx="2" fill="#F7F3EA"/>
+  </g>
+  <text x="326" y="118" font-family="Fredoka, 'Source Sans 3', Arial, sans-serif" font-size="120" font-weight="500" letter-spacing="-2" fill="#1E2430">FUND</text>
+  <!-- stitch underline -->
+  <line x1="24" y1="136" x2="640" y2="136" stroke="#7FA7CF" stroke-width="2" stroke-dasharray="6 5"/>
+</svg>

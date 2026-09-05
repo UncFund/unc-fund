@@ -1,0 +1,792 @@
+<title>Unc.Fund Launch Plan</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fredoka:wght@500;600;700&family=Source+Sans+3:ital,wght@0,400;0,600;1,400&family=JetBrains+Mono:wght@400;600&display=swap">
+<style>
+  :root {
+    --bg: #F7F3EA;
+    --bg-2: #EFE8D8;
+    --ink: #1E2430;
+    --ink-2: #4A5261;
+    --line: #DACFB6;
+    --vest: #2F5D8A;
+    --vest-2: #7FA7CF;
+    --vest-soft: #E1EAF3;
+    --khaki: #D9C8A6;
+    --khaki-soft: #EEE4CC;
+    --green: #2E8B57;
+    --orange: #E8742C;
+    --card: #FFFDF8;
+    --skin: #E8C4A0;
+    --shirt: #BFD7EA;
+    --shoe: #9AA3AD;
+    --hair: #8C8F94;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root:not([data-theme="light"]) {
+      --bg: #161B24; --bg-2: #1E2430; --ink: #EFE9DC; --ink-2: #B9B2A3; --line: #333B48;
+      --vest: #5C8BC0; --vest-2: #8FB4DA; --vest-soft: #223247; --khaki: #8C7B58; --khaki-soft: #2B2A22;
+      --green: #4FBF80; --orange: #F08A48; --card: #1B2029;
+    }
+  }
+  :root[data-theme="dark"] {
+    --bg: #161B24; --bg-2: #1E2430; --ink: #EFE9DC; --ink-2: #B9B2A3; --line: #333B48;
+    --vest: #5C8BC0; --vest-2: #8FB4DA; --vest-soft: #223247; --khaki: #8C7B58; --khaki-soft: #2B2A22;
+    --green: #4FBF80; --orange: #F08A48; --card: #1B2029;
+  }
+  * { box-sizing: border-box; }
+  body { margin: 0; background: var(--bg); color: var(--ink); font-family: "Source Sans 3", "Segoe UI", system-ui, sans-serif; font-size: 17px; line-height: 1.55; }
+  a { color: var(--vest); text-decoration-thickness: 1px; text-underline-offset: 2px; }
+  a:hover { color: var(--ink); }
+  :focus-visible { outline: 3px solid var(--orange); outline-offset: 2px; }
+  h1, h2, h3, .display { font-family: "Fredoka", "Source Sans 3", sans-serif; text-wrap: balance; letter-spacing: -0.01em; }
+  h1 { font-size: clamp(2.4rem, 6vw, 4rem); line-height: 1; margin: 0; font-weight: 700; }
+  h2 { font-size: 1.9rem; margin: 0 0 .3rem; font-weight: 600; }
+  h3 { font-size: 1.2rem; margin: 1.4rem 0 .4rem; font-weight: 600; }
+  p { margin: 0 0 1rem; max-width: 68ch; }
+  .mono { font-family: "JetBrains Mono", ui-monospace, Consolas, monospace; font-variant-numeric: tabular-nums; }
+  .eyebrow { font-family: "Fredoka", sans-serif; text-transform: uppercase; letter-spacing: .14em; font-size: .72rem; color: var(--vest); font-weight: 600; }
+
+  .wrap { max-width: 1120px; margin: 0 auto; padding: 0 24px; }
+  header.hero { border-bottom: 3px solid var(--vest); background: var(--bg); }
+  .hero-grid { display: grid; grid-template-columns: 1fr auto; gap: 32px; align-items: end; padding: 40px 0 0; }
+  .hero-copy { padding-bottom: 36px; }
+  .hero-copy p.lede { font-size: 1.2rem; color: var(--ink-2); max-width: 46ch; margin: 18px 0 20px; }
+  .wordmark { display: inline-flex; align-items: baseline; gap: 2px; }
+  .wordmark .light { font-weight: 500; color: var(--ink-2); }
+  .unc-figure { width: 220px; height: auto; display: block; }
+  .pills { display: flex; flex-wrap: wrap; gap: 8px; }
+  .pill { font-size: .85rem; padding: 5px 11px; border-radius: 999px; background: var(--vest-soft); color: var(--vest); font-weight: 600; }
+  .pill.warn { background: var(--khaki-soft); color: var(--ink); }
+  .pill.go { background: color-mix(in srgb, var(--green) 18%, transparent); color: var(--green); }
+
+  nav.toc { position: sticky; top: 0; z-index: 5; background: var(--bg); border-bottom: 1px solid var(--line); }
+  nav.toc ul { list-style: none; margin: 0; padding: 0; display: flex; gap: 4px; overflow-x: auto; }
+  nav.toc a { display: block; padding: 12px 12px; text-decoration: none; color: var(--ink-2); font-weight: 600; font-size: .95rem; white-space: nowrap; border-bottom: 3px solid transparent; }
+  nav.toc a:hover { color: var(--vest); border-bottom-color: var(--vest-2); }
+
+  section { padding: 44px 0 8px; border-bottom: 1px solid var(--line); }
+  section:last-of-type { border-bottom: 0; }
+  .sec-head { display: grid; grid-template-columns: 1fr; gap: 4px; margin-bottom: 20px; }
+  .sec-head p { color: var(--ink-2); margin: 0; }
+
+  table { border-collapse: collapse; width: 100%; font-size: .95rem; }
+  .tablewrap { overflow-x: auto; margin: 0 0 1.2rem; border: 1px solid var(--line); border-radius: 6px; background: var(--card); }
+  th, td { text-align: left; padding: 9px 12px; vertical-align: top; border-bottom: 1px solid var(--line); }
+  th { font-family: "Fredoka", sans-serif; font-weight: 600; font-size: .8rem; text-transform: uppercase; letter-spacing: .08em; color: var(--ink-2); background: var(--bg-2); }
+  tr:last-child td { border-bottom: 0; }
+
+  .cards { display: grid; grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); gap: 14px; margin-bottom: 1.4rem; }
+  .card { background: var(--card); border: 1px solid var(--line); border-radius: 8px; padding: 16px 18px; display: flex; flex-direction: column; gap: 6px; }
+  .card h3 { margin: 0; font-size: 1.15rem; }
+  .card .stack { font-size: .78rem; color: var(--ink-2); }
+  .card p { font-size: .95rem; margin: 0; }
+  .card .why { color: var(--ink-2); font-style: italic; }
+  .card a.site { font-size: .9rem; }
+
+  .findings { counter-reset: f; list-style: none; padding: 0; margin: 0 0 1.5rem; display: grid; gap: 10px; max-width: 70ch; }
+  .findings li { padding-left: 2.4rem; position: relative; }
+  .findings li::before { counter-increment: f; content: counter(f); position: absolute; left: 0; top: 0; width: 1.7rem; height: 1.7rem; border-radius: 50%; background: var(--vest); color: #fff; font-family: "Fredoka", sans-serif; font-weight: 700; display: grid; place-items: center; font-size: .9rem; }
+
+  .stackbars { display: grid; gap: 6px; max-width: 520px; margin-bottom: 1.4rem; }
+  .stackbars .row { display: grid; grid-template-columns: 110px 1fr 36px; align-items: center; gap: 10px; font-size: .92rem; }
+  .stackbars .bar { height: 14px; background: var(--vest); border-radius: 3px; }
+  .stackbars .row:nth-child(3) .bar { background: var(--vest-2); }
+  .stackbars .row:nth-child(4) .bar, .stackbars .row:nth-child(5) .bar, .stackbars .row:nth-child(6) .bar { background: var(--khaki); }
+
+  details { margin-bottom: 1.2rem; }
+  summary { cursor: pointer; font-weight: 600; color: var(--vest); }
+
+  /* checklist */
+  .phase { margin-bottom: 28px; }
+  .phase-head { display: flex; align-items: baseline; gap: 12px; flex-wrap: wrap; margin-bottom: 8px; }
+  .phase-head .count { color: var(--ink-2); font-size: .9rem; }
+  .todo { list-style: none; margin: 0; padding: 0; display: grid; gap: 2px; max-width: 76ch; }
+  .todo li { display: grid; grid-template-columns: 26px 1fr; gap: 10px; align-items: start; padding: 7px 8px; border-radius: 6px; }
+  .todo li:hover { background: var(--bg-2); }
+  .todo input { width: 20px; height: 20px; margin: 3px 0 0; accent-color: var(--green); cursor: pointer; }
+  .todo label { cursor: pointer; }
+  .todo li.done label { color: var(--ink-2); text-decoration: line-through; text-decoration-color: var(--green); }
+  .todo .sub { display: block; color: var(--ink-2); font-size: .9rem; }
+  .savestate { font-size: .85rem; color: var(--ink-2); display: flex; gap: 8px; align-items: center; margin-bottom: 18px; }
+  .savestate .dot { width: 9px; height: 9px; border-radius: 50%; background: var(--khaki); }
+  .savestate.shared .dot { background: var(--green); }
+  .progress { height: 8px; background: var(--bg-2); border-radius: 4px; overflow: hidden; max-width: 76ch; margin: 6px 0 22px; }
+  .progress > div { height: 100%; background: var(--green); width: 0; transition: width .3s; }
+
+  /* brand */
+  .swatches { display: grid; grid-template-columns: repeat(auto-fill, minmax(140px, 1fr)); gap: 10px; margin-bottom: 1.4rem; }
+  .swatch { border-radius: 8px; overflow: hidden; border: 1px solid var(--line); background: var(--card); }
+  .swatch .chip { height: 58px; }
+  .swatch .meta { padding: 8px 10px; font-size: .85rem; }
+  .swatch .meta b { display: block; font-family: "Fredoka", sans-serif; font-weight: 600; }
+  .voice { list-style: none; padding: 0; margin: 0 0 1.4rem; display: grid; gap: 10px; max-width: 64ch; }
+  .voice li { background: var(--card); border-left: 4px solid var(--vest); padding: 10px 14px; border-radius: 0 8px 8px 0; font-size: 1.05rem; }
+  .voice li::before { content: "“"; color: var(--vest-2); font-family: "Fredoka", sans-serif; font-size: 1.4em; line-height: 0; margin-right: 2px; }
+  .taglines { display: grid; grid-template-columns: repeat(auto-fill, minmax(240px, 1fr)); gap: 10px; margin-bottom: 1.4rem; }
+  .taglines div { background: var(--khaki-soft); padding: 14px 16px; border-radius: 8px; font-family: "Fredoka", sans-serif; font-weight: 600; font-size: 1.15rem; }
+  .taglines div.pick { background: var(--vest); color: #fff; }
+  .taglines small { display: block; font-family: "Source Sans 3", sans-serif; font-weight: 400; font-size: .85rem; opacity: .85; margin-top: 4px; }
+  .two { display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 24px; }
+  ul.plain { padding-left: 1.2rem; margin: 0 0 1rem; max-width: 68ch; }
+  ul.plain li { margin-bottom: 4px; }
+  .check-slider { background: var(--card); border: 1px solid var(--line); border-radius: 8px; padding: 16px 18px; max-width: 520px; margin-bottom: 1.4rem; }
+  .check-slider input[type=range] { width: 100%; accent-color: var(--vest); }
+  .check-slider .amt { font-size: 2rem; font-weight: 600; color: var(--green); }
+  .check-slider .say { min-height: 2.6em; color: var(--ink-2); }
+  pre.sitemap { background: var(--card); border: 1px solid var(--line); border-radius: 8px; padding: 14px 16px; overflow-x: auto; font-size: .9rem; line-height: 1.5; }
+  footer { padding: 36px 0 48px; color: var(--ink-2); font-size: .9rem; }
+  footer .sig { font-family: "Fredoka", sans-serif; color: var(--vest); font-size: 1.2rem; margin-bottom: 8px; }
+  .sources { columns: 2; column-gap: 32px; font-size: .88rem; }
+  .sources li { break-inside: avoid; margin-bottom: 4px; }
+  @media (max-width: 720px) {
+    .hero-grid { grid-template-columns: 1fr; }
+    .unc-figure { width: 160px; }
+    .sources { columns: 1; }
+  }
+  @media (prefers-reduced-motion: no-preference) {
+    .unc-figure .brow { transform-origin: center; animation: brow 6s ease-in-out infinite; }
+    .unc-figure .bubble { animation: bob 3s ease-in-out infinite; }
+    @keyframes brow { 0%, 88%, 100% { transform: translateY(0); } 92% { transform: translateY(-4px); } }
+    @keyframes bob { 0%, 100% { transform: translateY(0); } 50% { transform: translateY(-4px); } }
+  }
+</style>
+
+<header class="hero">
+  <div class="wrap hero-grid">
+    <div class="hero-copy">
+      <div class="eyebrow">Launch plan · Draft 3 · 5 Sep 2026</div>
+      <h1 class="wordmark">UNC<span class="light">.FUND</span></h1>
+      <p class="lede">Frontier-tech VC writing 3- and 4-figure checks into pre-pre-seed, pre-seed and seed teams in blockchain, AI, software and robotics. Started as a joke. The domain is real. This is the plan.</p>
+      <div class="pills">
+        <span class="pill go">unc.fund owned</span>
+        <span class="pill go">@uncfund secured</span>
+        <span class="pill go">contactuncfund@gmail.com live</span>
+        <span class="pill warn">Single-member LLC, forming</span>
+        <span class="pill">Brand: animated Unc in a fleece vest</span>
+      </div>
+    </div>
+    <svg class="unc-figure" viewBox="0 0 320 400" role="img" aria-label="Unc: a friendly uncle in a half-zipped fleece vest with an UNC patch"><defs>
+    <pattern id="fleece-hero" width="7" height="7" patternUnits="userSpaceOnUse">
+      <circle cx="2" cy="2" r="1" fill="#7FA7CF" opacity=".28"/>
+      <circle cx="5.5" cy="5.5" r="1" fill="#7FA7CF" opacity=".18"/>
+    </pattern>
+    <linearGradient id="skin-hero" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#E8C4A0"/>
+      <stop offset="1" stop-color="#DDB58E"/>
+    </linearGradient>
+  </defs>
+  <!-- ===== LEGS, BELT, SHOES ===== -->
+  <g id="legs">
+    <rect x="116" y="288" width="38" height="84" rx="11" fill="#D9C8A6" stroke="#1E2430" stroke-width="2.5"/>
+    <rect x="166" y="288" width="38" height="84" rx="11" fill="#D9C8A6" stroke="#1E2430" stroke-width="2.5"/>
+    <!-- creases -->
+    <line x1="135" y1="300" x2="135" y2="362" stroke="#C2AF89" stroke-width="2" stroke-linecap="round"/>
+    <line x1="185" y1="300" x2="185" y2="362" stroke="#C2AF89" stroke-width="2" stroke-linecap="round"/>
+    <!-- belt -->
+    <rect x="110" y="284" width="100" height="12" rx="3" fill="#6B4F3A" stroke="#1E2430" stroke-width="2"/>
+    <rect x="152" y="282" width="16" height="16" rx="3" fill="#C9A86A" stroke="#1E2430" stroke-width="2"/>
+    <rect x="158" y="286" width="4" height="8" fill="#6B4F3A"/>
+  </g>
+  <g id="shoes">
+    <!-- left sneaker -->
+    <path d="M104 372 Q104 360 118 358 L150 358 Q160 358 162 366 L164 380 Q164 386 156 386 L110 386 Q102 386 104 372 Z" fill="#9AA3AD" stroke="#1E2430" stroke-width="2.5"/>
+    <path d="M104 378 L164 378 L164 380 Q164 386 156 386 L110 386 Q102 386 104 378 Z" fill="#F1EDE3" stroke="#1E2430" stroke-width="2"/>
+    <path d="M122 364 L136 364 M124 369 L138 369" stroke="#F7F3EA" stroke-width="2" stroke-linecap="round"/>
+    <!-- right sneaker -->
+    <path d="M158 372 Q158 360 172 358 L204 358 Q214 358 216 366 L218 380 Q218 386 210 386 L164 386 Q156 386 158 372 Z" fill="#9AA3AD" stroke="#1E2430" stroke-width="2.5"/>
+    <path d="M158 378 L218 378 L218 380 Q218 386 210 386 L164 386 Q156 386 158 378 Z" fill="#F1EDE3" stroke="#1E2430" stroke-width="2"/>
+    <path d="M176 364 L190 364 M178 369 L192 369" stroke="#F7F3EA" stroke-width="2" stroke-linecap="round"/>
+  </g>
+
+  <!-- ===== ARMS ===== -->
+  <g id="arm-left">
+    <rect x="68" y="198" width="38" height="92" rx="19" fill="#BFD7EA" stroke="#1E2430" stroke-width="2.5"/>
+    <!-- cuff -->
+    <rect x="68" y="272" width="38" height="14" rx="4" fill="#E4EEF6" stroke="#1E2430" stroke-width="2"/>
+    <!-- watch -->
+    <rect x="66" y="262" width="42" height="9" rx="3" fill="#3A3F47"/>
+    <circle cx="87" cy="266" r="7" fill="#DDE6EE" stroke="#1E2430" stroke-width="2"/>
+    <line x1="87" y1="266" x2="87" y2="262" stroke="#1E2430" stroke-width="1.5"/>
+    <line x1="87" y1="266" x2="90" y2="267" stroke="#1E2430" stroke-width="1.5"/>
+    <!-- hand -->
+    <ellipse cx="87" cy="296" rx="15" ry="13" fill="url(#skin-hero)" stroke="#1E2430" stroke-width="2.5"/>
+    <path d="M78 300 L78 306 M85 303 L85 309 M92 303 L92 309 M99 299 L99 305" stroke="#1E2430" stroke-width="2" stroke-linecap="round"/>
+  </g>
+  <g id="arm-right">
+    <rect x="214" y="198" width="38" height="92" rx="19" fill="#BFD7EA" stroke="#1E2430" stroke-width="2.5"/>
+    <rect x="214" y="272" width="38" height="14" rx="4" fill="#E4EEF6" stroke="#1E2430" stroke-width="2"/>
+    <ellipse cx="233" cy="296" rx="15" ry="13" fill="url(#skin-hero)" stroke="#1E2430" stroke-width="2.5"/>
+    <path d="M224 300 L224 306 M231 303 L231 309 M238 303 L238 309 M245 299 L245 305" stroke="#1E2430" stroke-width="2" stroke-linecap="round"/>
+  </g>
+
+  <!-- ===== TORSO ===== -->
+  <g id="torso">
+    <!-- shirt -->
+    <rect x="94" y="186" width="132" height="124" rx="28" fill="#BFD7EA" stroke="#1E2430" stroke-width="2.5"/>
+    <!-- vest body -->
+    <path d="M108 190 Q160 174 212 190 L216 294 Q160 306 104 294 Z" fill="#2F5D8A" stroke="#1E2430" stroke-width="2.5"/>
+    <path d="M108 190 Q160 174 212 190 L216 294 Q160 306 104 294 Z" fill="url(#fleece-hero)"/>
+    <!-- stand-up fleece collar -->
+    <path d="M112 190 Q160 176 208 190 L204 200 Q160 188 116 200 Z" fill="#3E6C99" stroke="#1E2430" stroke-width="2.5"/>
+    <!-- open V showing shirt and collar -->
+    <path d="M148 192 L160 238 L172 192 Z" fill="#BFD7EA" stroke="#1E2430" stroke-width="2"/>
+    <path d="M140 186 L160 206 L180 186 L170 178 L160 190 L150 178 Z" fill="#E4EEF6" stroke="#1E2430" stroke-width="2"/>
+    <!-- zipper teeth and pull -->
+    <line x1="160" y1="238" x2="160" y2="300" stroke="#7FA7CF" stroke-width="4" stroke-dasharray="2.5 2.5"/>
+    <line x1="160" y1="238" x2="160" y2="300" stroke="#1E2430" stroke-width="1"/>
+    <rect x="156" y="232" width="8" height="14" rx="2.5" fill="#7FA7CF" stroke="#1E2430" stroke-width="1.5"/>
+    <rect x="158" y="246" width="4" height="8" rx="1.5" fill="#7FA7CF" stroke="#1E2430" stroke-width="1"/>
+    <!-- stitched edges -->
+    <path d="M112 196 L116 290" fill="none" stroke="#7FA7CF" stroke-width="1.2" stroke-dasharray="3 3"/>
+    <path d="M208 196 L204 290" fill="none" stroke="#7FA7CF" stroke-width="1.2" stroke-dasharray="3 3"/>
+    <!-- pockets -->
+    <path d="M110 254 Q122 250 134 258 L136 288 Q122 292 110 288 Z" fill="#2A5480" stroke="#1E2430" stroke-width="2"/>
+    <path d="M186 258 Q198 250 210 254 L210 288 Q198 292 184 288 Z" fill="#2A5480" stroke="#1E2430" stroke-width="2"/>
+    <line x1="112" y1="258" x2="134" y2="262" stroke="#7FA7CF" stroke-width="2.5" stroke-dasharray="2 2"/>
+    <line x1="186" y1="262" x2="208" y2="258" stroke="#7FA7CF" stroke-width="2.5" stroke-dasharray="2 2"/>
+    <!-- chest patch -->
+    <rect x="176" y="212" width="28" height="14" rx="3" fill="#F7F3EA" stroke="#1E2430" stroke-width="1.5"/>
+    <rect x="178" y="214" width="24" height="10" rx="2" fill="none" stroke="#7FA7CF" stroke-width="1" stroke-dasharray="1.5 1.5"/>
+    <text x="190" y="223" font-family="Fredoka, Arial, sans-serif" font-size="8" font-weight="700" text-anchor="middle" fill="#2F5D8A">UNC</text>
+  </g>
+
+  <!-- ===== HEAD ===== -->
+  <g id="head">
+    <!-- neck -->
+    <rect x="144" y="160" width="32" height="34" fill="url(#skin-hero)" stroke="#1E2430" stroke-width="2.5"/>
+    <!-- head with a soft jaw -->
+    <path d="M96 118 Q96 56 160 56 Q224 56 224 118 Q224 158 200 176 Q182 188 160 188 Q138 188 120 176 Q96 158 96 118 Z" fill="url(#skin-hero)" stroke="#1E2430" stroke-width="2.5"/>
+    <!-- ears -->
+    <ellipse cx="97" cy="126" rx="10" ry="13" fill="#E8C4A0" stroke="#1E2430" stroke-width="2.5"/>
+    <ellipse cx="223" cy="126" rx="10" ry="13" fill="#E8C4A0" stroke="#1E2430" stroke-width="2.5"/>
+    <path d="M94 120 Q100 124 96 132" fill="none" stroke="#C99A72" stroke-width="2" stroke-linecap="round"/>
+    <path d="M226 120 Q220 124 224 132" fill="none" stroke="#C99A72" stroke-width="2" stroke-linecap="round"/>
+    <!-- hair: side hair, thinning top, a comb-over -->
+    <path d="M100 116 Q100 76 138 64 Q160 58 182 64 Q220 76 220 116 Q206 100 160 98 Q114 100 100 116 Z" fill="#8C8F94" stroke="#1E2430" stroke-width="2.5"/>
+    <path d="M96 116 Q90 140 100 156 L106 122 Z" fill="#8C8F94" stroke="#1E2430" stroke-width="2.5"/>
+    <path d="M224 116 Q230 140 220 156 L214 122 Z" fill="#8C8F94" stroke="#1E2430" stroke-width="2.5"/>
+    <path d="M118 84 Q140 72 162 72 M128 76 Q150 66 172 68" fill="none" stroke="#B5B8BD" stroke-width="2" stroke-linecap="round"/>
+    <!-- readers pushed up on the forehead -->
+    <path d="M100 104 L122 98 M220 104 L198 98" stroke="#1E2430" stroke-width="3" stroke-linecap="round"/>
+    <rect x="120" y="88" width="32" height="18" rx="9" fill="#7FA7CF" fill-opacity=".25" stroke="#1E2430" stroke-width="3"/>
+    <rect x="168" y="88" width="32" height="18" rx="9" fill="#7FA7CF" fill-opacity=".25" stroke="#1E2430" stroke-width="3"/>
+    <line x1="152" y1="96" x2="168" y2="96" stroke="#1E2430" stroke-width="3"/>
+    <!-- forehead lines -->
+    <path d="M136 114 Q160 110 184 114" fill="none" stroke="#C99A72" stroke-width="1.5" stroke-linecap="round" opacity=".7"/>
+    <g class="brow"><path d="M120 128 Q134 114 152 122 Q138 122 124 132 Z" fill="#1E2430"/><path d="M200 128 Q186 114 168 122 Q182 122 196 132 Z" fill="#1E2430"/></g>
+    <!-- eyes -->
+    <g id="eye-left">
+      <ellipse cx="138" cy="138" rx="10" ry="8.5" fill="#FFFFFF" stroke="#1E2430" stroke-width="2"/>
+      <circle cx="139" cy="139" r="4.6" fill="#1E2430"/>
+      <circle cx="137.4" cy="137.2" r="1.5" fill="#FFFFFF"/>
+      <path d="M128 133 Q138 128 148 133" fill="none" stroke="#1E2430" stroke-width="2" stroke-linecap="round"/>
+    </g>
+    <g id="eye-right">
+      <ellipse cx="182" cy="138" rx="10" ry="8.5" fill="#FFFFFF" stroke="#1E2430" stroke-width="2"/>
+      <circle cx="183" cy="139" r="4.6" fill="#1E2430"/>
+      <circle cx="181.4" cy="137.2" r="1.5" fill="#FFFFFF"/>
+      <path d="M172 133 Q182 128 192 133" fill="none" stroke="#1E2430" stroke-width="2" stroke-linecap="round"/>
+    </g>
+    <!-- crow's feet and under-eye -->
+    <path d="M124 136 L118 134 M124 141 L118 143 M196 136 L202 134 M196 141 L202 143" stroke="#C99A72" stroke-width="1.8" stroke-linecap="round"/>
+    <path d="M130 150 Q138 153 146 150 M174 150 Q182 153 190 150" fill="none" stroke="#C99A72" stroke-width="1.5" stroke-linecap="round" opacity=".8"/>
+    <!-- cheeks -->
+    <ellipse cx="126" cy="154" rx="9" ry="6" fill="#E9A98D" opacity=".45"/>
+    <ellipse cx="194" cy="154" rx="9" ry="6" fill="#E9A98D" opacity=".45"/>
+    <!-- nose -->
+    <path d="M160 134 Q150 150 156 158 Q160 162 166 158 Q170 152 164 142" fill="#DDB58E" stroke="#1E2430" stroke-width="2.2" stroke-linejoin="round"/>
+    <!-- mustache -->
+    <path d="M130 166 Q146 154 160 164 Q174 154 190 166 Q176 178 160 170 Q144 178 130 166 Z" fill="#8C8F94" stroke="#1E2430" stroke-width="2"/>
+    <!-- smile -->
+    <path d="M140 178 Q160 190 180 178" fill="none" stroke="#1E2430" stroke-width="2.5" stroke-linecap="round"/>
+    <path d="M148 183 Q160 187 172 183" fill="none" stroke="#C99A72" stroke-width="1.5" stroke-linecap="round"/>
+  </g>
+<g class="bubble"><rect x="196" y="14" width="118" height="46" rx="12" fill="#FFFFFF" stroke="#1E2430" stroke-width="2"/><path d="M212 60 L206 76 L230 60 Z" fill="#FFFFFF" stroke="#1E2430" stroke-width="2"/><text x="255" y="42" font-family="Fredoka, Arial, sans-serif" font-size="12" font-weight="600" text-anchor="middle" fill="#1E2430">Proud of you.</text></g></svg>
+  </div>
+</header>
+
+<nav class="toc" aria-label="Sections">
+  <div class="wrap">
+    <ul>
+      <li><a href="#status">Status</a></li>
+      <li><a href="#research">VC research</a></li>
+      <li><a href="#todo">Launch checklist</a></li>
+      <li><a href="#brand">Brand</a></li>
+      <li><a href="#site">Website</a></li>
+      <li><a href="#sources">Sources</a></li>
+    </ul>
+  </div>
+</nav>
+
+<main class="wrap">
+
+<section id="status">
+  <div class="sec-head">
+    <span class="eyebrow">Where things stand</span>
+    <h2>Handles and domain, checked 5 Sep 2026</h2>
+    <p>"Free" means the platform said the account does not exist when checked without a login. Claim the open ones before the joke leaks.</p>
+  </div>
+  <div class="tablewrap">
+    <table>
+      <thead><tr><th>Platform</th><th>Handle</th><th>Result</th><th>Note</th></tr></thead>
+      <tbody>
+        <tr><td>Domain</td><td class="mono">unc.fund</td><td><span class="pill go">Owned</span></td><td>Currently a GoDaddy "Launching Soon" placeholder with a cookie banner. Move DNS when the site is ready.</td></tr>
+        <tr><td>X</td><td class="mono">@uncfund</td><td><span class="pill go">Secured</span></td><td>Done 5 Sep. Consider @unc_fund as a decoy.</td></tr>
+        <tr><td>Email</td><td class="mono">contactuncfund@gmail.com</td><td><span class="pill go">Live</span></td><td>Public contact address and the inbox the pitch form delivers to. Forward into Workspace on the domain later.</td></tr>
+        <tr><td>Entity</td><td class="mono">Unc Fund LLC</td><td><span class="pill warn">Forming</span></td><td>Plain single-member LLC, started personally, no partners at first.</td></tr>
+        <tr><td>Instagram</td><td class="mono">uncfund</td><td><span class="pill warn">Free</span></td><td>"Profile isn't available". Threads comes with it.</td></tr>
+        <tr><td>TikTok</td><td class="mono">@uncfund</td><td><span class="pill warn">Free</span></td><td>"Couldn't find this account".</td></tr>
+        <tr><td>GitHub</td><td class="mono">uncfund</td><td><span class="pill warn">Free</span></td><td>API returns 404. Create as an organization.</td></tr>
+        <tr><td>YouTube</td><td class="mono">@uncfund</td><td><span class="pill warn">Likely free</span></td><td>404 on the handle URL.</td></tr>
+        <tr><td>LinkedIn</td><td class="mono">unc-fund</td><td><span class="pill">Unknown</span></td><td>Cannot be checked without logging in.</td></tr>
+        <tr><td>Farcaster / ENS</td><td class="mono">uncfund · unc.eth</td><td><span class="pill">Unchecked</span></td><td>Worth it if the crypto side of the thesis is real.</td></tr>
+      </tbody>
+    </table>
+  </div>
+</section>
+
+<section id="research">
+  <div class="sec-head">
+    <span class="eyebrow">Due diligence on the competition</span>
+    <h2>How VC firms build their websites and marketing</h2>
+    <p>40 fund homepages were fetched and fingerprinted for their platform. Eleven of the playful or personality-first funds were read in full.</p>
+  </div>
+
+  <h3>Six things the scan says</h3>
+  <ol class="findings">
+    <li><b>Webflow is the default for small funds.</b> Banana, Shrug, Weekend, Hustle Fund, Afore, Homebrew, Betaworks, Craft and Moxxie all run on it. Framer is the challenger: Sequoia, Uncork, 20VC.</li>
+    <li><b>Big brands run WordPress or custom Next.js.</b> a16z, Founders Fund, USV, Lightspeed, Mayfield and Pear are WordPress. First Round and Contrary are Next.js. That is content volume, not taste.</li>
+    <li><b>Notion is the quiet backend.</b> Shrug, First Round, Long Journey, Ludlow and Pear embed Notion for portfolio lists and applications. Cheap and fine at our size.</li>
+    <li><b>Motion is table stakes at the top.</b> Homebrew and Moxxie use GSAP scroll animation, Unusual uses Lottie. Rive is the tool of choice for interactive mascots, which is exactly what an animated Unc needs.</li>
+    <li><b>Playful funds win on personality, not polish.</b> Banana Capital's site is a one-page letter with emoji. Shrug's is 100+ testimonials and a merch shop. Hustle Fund has a hippo. It works because the brand lives on X, not the website.</li>
+    <li><b>Media is the moat.</b> Not Boring (newsletter), 20VC (podcast), Banana (The Peel podcast plus memes), Ludlow (a car-ride video show). The website is a landing page for an audience built elsewhere.</li>
+  </ol>
+
+  <h3>Platform count across the 40 sites</h3>
+  <div class="stackbars" role="img" aria-label="WordPress 11, Webflow 10, custom 10, Framer 3, Next.js 3, Squarespace 3">
+    <div class="row"><span>WordPress</span><div class="bar" style="width:100%"></div><span class="mono">11</span></div>
+    <div class="row"><span>Webflow</span><div class="bar" style="width:91%"></div><span class="mono">10</span></div>
+    <div class="row"><span>Custom</span><div class="bar" style="width:91%"></div><span class="mono">10</span></div>
+    <div class="row"><span>Framer</span><div class="bar" style="width:27%"></div><span class="mono">3</span></div>
+    <div class="row"><span>Next.js</span><div class="bar" style="width:27%"></div><span class="mono">3</span></div>
+    <div class="row"><span>Squarespace</span><div class="bar" style="width:27%"></div><span class="mono">3</span></div>
+  </div>
+
+  <h3>The comical and personality-first funds</h3>
+  <div class="cards">
+    <div class="card"><h3>Banana Capital</h3><span class="stack">Webflow · one page</span><p>Turner Novak, self-styled "Chief Meme Officer". Grew a meme account into a $9.99M fund. Site is a first-person letter with 🍌🧢 and a portfolio list.</p><p class="why">Closest playbook: memes as deal sourcing, a persona as the brand, tiny website.</p><a class="site" href="https://www.bananacapital.vc">bananacapital.vc</a></div>
+    <div class="card"><h3>Shrug Capital</h3><span class="stack">Webflow + Notion · merch shop</span><p>Started as a joke tweet, became a $3M fund with Tony Hawk and The Chainsmokers as LPs. Logo is SHRUG². 100+ founder testimonials, "Drops", merch.</p><p class="why">Proof the joke can stay in the brand after the fund gets real.</p><a class="site" href="https://www.shrug.vc">shrug.vc</a></div>
+    <div class="card"><h3>Hustle Fund</h3><span class="stack">Webflow · mascots</span><p>"We invest in hilariously early startups." A dancing hippo and a yellow minivan, pixel art, "no spreadsheets were harmed". Angel Squad takes $1K checks.</p><p class="why">Best mascot-led VC brand in the market. Read their rebrand post.</p><a class="site" href="https://www.hustlefund.vc">hustlefund.vc</a></div>
+    <div class="card"><h3>VC Starter Kit</h3><span class="stack">Custom · parody store</span><p>"It's never been easier to look like a VC." Sells the uniform: Patagonia vest, Allbirds, Zero to One, a Tesla keychain. Profits to All Raise. Went viral in 2019.</p><p class="why">Our visual joke already has a proven audience.</p><a class="site" href="https://vcstarterkit.com">vcstarterkit.com</a></div>
+    <div class="card"><h3>Too Small to Fail</h3><span class="stack">Substack · satire</span><p>A parody pre-pre-seed fund whose CEO writes "novelty-sized tiny checks" as a "commitment to minimal financial impact".</p><p class="why">This is Unc Fund written by someone else as a joke. Be the real one.</p><a class="site" href="https://inthenoah.substack.com/p/introducing-too-small-to-fail-the">inthenoah.substack.com</a></div>
+    <div class="card"><h3>Ludlow Ventures · Carpool.VC</h3><span class="stack">Custom + Notion · video</span><p>Two GPs film honest, low-production conversations with founders in a car. Seventeen episodes, "pure cringe, weirdly honest".</p><p class="why">Cheapest content format that builds relationships and clips at once.</p><a class="site" href="https://www.ludlowventures.com/carpool">ludlowventures.com/carpool</a></div>
+    <div class="card"><h3>Weekend Fund</h3><span class="stack">Webflow</span><p>Ryan Hoover of Product Hunt. Site opens "Hello! I'm Ryan." Backs "weird consumer to boring B2B". Sells side tools from the fund site.</p><p class="why">First-person voice, no corporate we.</p><a class="site" href="https://www.weekend.fund">weekend.fund</a></div>
+    <div class="card"><h3>Not Boring Capital · 20VC</h3><span class="stack">Substack · Framer</span><p>Packy McCormick raised $8M off a newsletter. Harry Stebbings turned a podcast into a fund: "the intersection of venture capital and media."</p><p class="why">Content first, fund second.</p><a class="site" href="https://www.20vc.com">20vc.com</a></div>
+    <div class="card"><h3>Chaotic Capital · Mischief VC</h3><span class="stack">Custom · minimal</span><p>"Complexity brings chaos. Chaos presents opportunity." Mischief puts hand-drawn doodles beside testimonials and a lightning bolt in the footer.</p><p class="why">Attitude in the name, restraint on the page.</p><a class="site" href="https://mischief.vc">mischief.vc</a></div>
+  </div>
+
+  <h3>Serious funds worth stealing from</h3>
+  <ul class="plain">
+    <li><a href="https://www.sequoiacap.com">Sequoia</a> for restraint. <a href="https://firstround.com">First Round</a> for content architecture.</li>
+    <li><a href="https://foundersfund.com">Founders Fund</a> for the manifesto. A fund that writes like it has opinions.</li>
+    <li><a href="https://www.bvp.com/anti-portfolio">Bessemer's Anti-Portfolio</a>: a public list of deals they passed on. Self-deprecation as trust. Unc should have one from day one.</li>
+    <li><a href="https://www.pear.vc">Pear</a>, <a href="https://precursorvc.com">Precursor</a>, <a href="https://www.afore.vc">Afore</a> for pre-seed specialist positioning in plain words.</li>
+    <li><a href="https://uncorkcapital.com">Uncork Capital</a> and <a href="https://www.unusual.vc">Unusual Ventures</a>: name-adjacency warning. Do a trademark search before spending on brand.</li>
+  </ul>
+
+  <details>
+    <summary>Full platform scan, 40 sites</summary>
+    <div class="tablewrap" style="margin-top:10px">
+      <table>
+        <thead><tr><th>Site</th><th>Detected</th><th>Site</th><th>Detected</th></tr></thead>
+        <tbody>
+          <tr><td>a16z.com</td><td>WordPress</td><td>uncorkcapital.com</td><td>Framer</td></tr>
+          <tr><td>sequoiacap.com</td><td>Framer</td><td>unusual.vc</td><td>WordPress + Lottie</td></tr>
+          <tr><td>foundersfund.com</td><td>WordPress</td><td>precursorvc.com</td><td>Custom</td></tr>
+          <tr><td>firstround.com</td><td>Next.js + Sanity + Notion</td><td>afore.vc</td><td>Webflow</td></tr>
+          <tr><td>usv.com</td><td>WordPress</td><td>contrary.com</td><td>Next.js</td></tr>
+          <tr><td>hustlefund.vc</td><td>Webflow (+ Astro)</td><td>chapterone.com</td><td>Custom</td></tr>
+          <tr><td>bananacapital.vc</td><td>Webflow</td><td>indie.vc</td><td>Squarespace</td></tr>
+          <tr><td>shrug.vc</td><td>Webflow + Notion</td><td>tinyseed.com</td><td>Squarespace</td></tr>
+          <tr><td>weekend.fund</td><td>Webflow</td><td>slow.co</td><td>Custom</td></tr>
+          <tr><td>longjourney.vc</td><td>Squarespace + Notion</td><td>homebrew.co</td><td>Webflow + GSAP</td></tr>
+          <tr><td>bvp.com</td><td>Custom</td><td>776.vc</td><td>Custom</td></tr>
+          <tr><td>ludlowventures.com</td><td>Custom + Notion</td><td>harlem.capital</td><td>WordPress</td></tr>
+          <tr><td>backstagecapital.com</td><td>WordPress</td><td>20vc.com</td><td>Framer</td></tr>
+          <tr><td>betaworks.com</td><td>Webflow</td><td>chaotic.capital</td><td>Custom</td></tr>
+          <tr><td>vcstarterkit.com</td><td>Custom</td><td>craftventures.com</td><td>Webflow</td></tr>
+          <tr><td>nextview.vc</td><td>WordPress</td><td>mayfield.com</td><td>WordPress</td></tr>
+          <tr><td>pear.vc</td><td>WordPress + Notion</td><td>initialized.com</td><td>Next.js + WordPress</td></tr>
+          <tr><td>founderscollective.com</td><td>WordPress</td><td>lsvp.com</td><td>WordPress</td></tr>
+          <tr><td>nfx.com</td><td>Webflow + Next.js</td><td>mischief.vc</td><td>Custom</td></tr>
+          <tr><td>moxxie.vc</td><td>Webflow + GSAP</td><td>ycombinator.com</td><td>Custom</td></tr>
+        </tbody>
+      </table>
+    </div>
+  </details>
+</section>
+
+<section id="todo">
+  <div class="sec-head">
+    <span class="eyebrow">The build</span>
+    <h2>Launch checklist</h2>
+    <p>Ordered by dependency. Phase 0 is today. Phases 1 and 2 run in parallel. Phase 3 needs the brand. Phase 4 is launch week.</p>
+  </div>
+  <div class="savestate" id="savestate"><span class="dot"></span><span id="savestate-text">Ticks save in this browser only.</span></div>
+  <div class="progress" aria-hidden="true"><div id="progress-bar"></div></div>
+  <div id="phases"></div>
+</section>
+
+<section id="brand">
+  <div class="sec-head">
+    <span class="eyebrow">Identity</span>
+    <h2>Brand: meet Unc</h2>
+    <p>The uncle who doesn't fully get your startup but believes in you anyway, and he has a checkbook. This page is set in the proposed palette and type so you can judge it live.</p>
+  </div>
+
+  <div class="two">
+    <div>
+      <h3>The character</h3>
+      <ul class="plain">
+        <li><b>Who.</b> Mid-50s, comfortable, "did well in the '90s". Slightly behind on slang and uses it wrong on purpose. Extremely warm. Writes small checks fast because life is short and so is his attention span.</li>
+        <li><b>Wears.</b> Fleece vest zipped exactly halfway, small UNC patch where a firm logo would go. Light blue oxford, khakis, grey runners, readers pushed up on the forehead.</li>
+        <li><b>Shape.</b> Big head, small body, so he reads at avatar size. Eyebrows do the acting. Grey temples. Mustache, after debate.</li>
+        <li><b>Style.</b> Flat vector with hand-drawn line weight, not glossy 3D. A pixel-art variant for memes and Discord.</li>
+        <li><b>Rule.</b> The joke is always on Unc or on VC culture, never on the founder. "Unc" comes from a term of respect. Keep it affectionate.</li>
+      </ul>
+      <h3>Animated version, built in Rive</h3>
+      <ul class="plain">
+        <li><span class="mono">idle</span>: breathing, blinks, adjusts the vest</li>
+        <li><span class="mono">wave</span> on page load, <span class="mono">look</span> follows the cursor</li>
+        <li><span class="mono">think</span>: chin scratch while a form validates</li>
+        <li><span class="mono">approve</span>: thumbs up on form submit</li>
+        <li><span class="mono">check</span>: pulls a check from the vest and hands it forward</li>
+      </ul>
+      <h3>Ten poses to commission</h3>
+      <p>Hands in pockets. Wave. Thumbs up. Writing a check with a huge pen. Holding a novelty check for $500. Squinting at a phone ("what is a zk rollup"). Arms crossed, nodding slowly. Pointing at the camera. Sitting in a car. Asleep at a demo day.</p>
+    </div>
+    <div>
+      <h3>Voice</h3>
+      <ul class="voice">
+        <li>I don't understand your business. I like you. Here's $2,500.</li>
+        <li>Pre-seed? Son, this is pre-pre-seed. There's no seed yet. Just soil.</li>
+        <li>Rounds close fast. Unc closes faster.</li>
+        <li>Unc doesn't do 47-slide decks. Unc does a phone call.</li>
+        <li>If your grandfather could explain it, we're not interested. If your grandfather could fund it, we're not needed.</li>
+      </ul>
+      <p>Every email signs off: <b>"Proud of you. — Unc"</b></p>
+      <h3>Taglines</h3>
+      <div class="taglines">
+        <div class="pick">Small checks. Big uncle energy.<small>Recommended</small></div>
+        <div>The first check nobody else will write.</div>
+        <div>Too small to fail.<small>A wink at the satire, not a claim</small></div>
+        <div>Pre-pre-seed. Pre-pre-everything.</div>
+        <div>Unc believes in you.</div>
+        <div>Frontier tech. Family money. (Well, Unc's money.)</div>
+      </div>
+    </div>
+  </div>
+
+  <h3>Palette</h3>
+  <p>Warmer and dumber than the navy-and-white VC default. The vest is the accent. Green appears once per page, at the money moment. Orange is for the one loud thing on a page: an error, a "new" badge.</p>
+  <div class="swatches">
+    <div class="swatch"><div class="chip" style="background:#2F5D8A"></div><div class="meta"><b>Vest</b><span class="mono">#2F5D8A</span></div></div>
+    <div class="swatch"><div class="chip" style="background:#7FA7CF"></div><div class="meta"><b>Vest highlight</b><span class="mono">#7FA7CF</span></div></div>
+    <div class="swatch"><div class="chip" style="background:#D9C8A6"></div><div class="meta"><b>Khaki</b><span class="mono">#D9C8A6</span></div></div>
+    <div class="swatch"><div class="chip" style="background:#F7F3EA;border-bottom:1px solid #DACFB6"></div><div class="meta"><b>Cream</b><span class="mono">#F7F3EA</span></div></div>
+    <div class="swatch"><div class="chip" style="background:#1E2430"></div><div class="meta"><b>Ink</b><span class="mono">#1E2430</span></div></div>
+    <div class="swatch"><div class="chip" style="background:#2E8B57"></div><div class="meta"><b>Check green</b><span class="mono">#2E8B57</span></div></div>
+    <div class="swatch"><div class="chip" style="background:#E8742C"></div><div class="meta"><b>Alert orange</b><span class="mono">#E8742C</span></div></div>
+  </div>
+
+  <div class="two">
+    <div>
+      <h3>Type</h3>
+      <ul class="plain">
+        <li><b>A (this page, recommended):</b> Fredoka for the wordmark and headings, Source Sans 3 for body, JetBrains Mono for check amounts. Friendly, a little dad-like.</li>
+        <li><b>B:</b> Fraunces at display size plus JetBrains Mono. Reads like a family office that hired a designer.</li>
+        <li><b>C:</b> Full pixel system with Press Start 2P for accents only. Only if 8-bit becomes the whole brand.</li>
+      </ul>
+      <h3>Logo and wordmark</h3>
+      <ul class="plain">
+        <li><b>Wordmark:</b> UNC heavy, .FUND light, the dot drawn as a tiny zipper pull.</li>
+        <li><b>Avatar:</b> Unc's face in a circle, eyebrows up, half smile.</li>
+        <li><b>Favicon and patch:</b> a half-zipped vest silhouette in a rounded square.</li>
+        <li><b>Deal frame:</b> a tiny cheque with UNC on the signature line.</li>
+      </ul>
+    </div>
+    <div>
+      <h3>Merch that is also marketing</h3>
+      <ul class="plain">
+        <li>The Unc Vest: blank fleece with an embroidered UNC patch. Patagonia stopped co-branding for finance firms, so patch a blank one or use another supplier.</li>
+        <li>"Backed by Unc" laptop sticker for founders.</li>
+        <li>Dad hat: UNC on the front, .FUND on the back.</li>
+        <li>One novelty-sized cardboard check, reused in every deal photo.</li>
+        <li>"Proud of you" mug for LPs.</li>
+      </ul>
+      <h3>Meme formats Unc owns</h3>
+      <ul class="plain">
+        <li><b>Unc reads a term sheet.</b> Squinting at documents, caption is any confusing jargon.</li>
+        <li><b>Unc's take.</b> A serious frontier-tech opinion as a quote card. This one builds credibility.</li>
+        <li><b>Deal announcement.</b> Founder logo, Unc thumbs up, check amount shown proudly however small.</li>
+        <li><b>Pass announcement.</b> "Unc passed. Unc will be wrong." Links to the anti-portfolio.</li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<section id="site">
+  <div class="sec-head">
+    <span class="eyebrow">unc.fund</span>
+    <h2>Website plan</h2>
+    <p>Three visitors in priority order: a founder who wants to know if Unc will write a check, a friend or LP checking it is real, and someone who saw a meme. The site's job is the pitch form in under 30 seconds.</p>
+  </div>
+  <div class="two">
+    <div>
+      <h3>Stack</h3>
+      <ul class="plain">
+        <li><b>Build in code, not Webflow, because the mascot and the deck upload are the product.</b> Next.js on Vercel, Cloudflare DNS, plain CSS with the brand tokens. The codebase lives in the repo under <span class="mono">site/</span>.</li>
+        <li><b>Mascot:</b> animated inline SVG at launch (blinks, eyes follow the cursor, waves). Swap in a Rive state machine when the character sheet is final.</li>
+        <li><b>Content:</b> Markdown in the repo. Notion sync later if non-coders need to edit.</li>
+        <li><b>Pitch form:</b> native. Deck file uploads straight from the browser to Vercel Blob, then the fields plus the deck link are emailed to contactuncfund@gmail.com through Resend. A separate general contact form does the same without the pitch fields.</li>
+        <li><b>Analytics:</b> Plausible or Vercel Analytics, so no cookie banner.</li>
+        <li><b>Fallback:</b> Webflow plus a Rive embed still ships in a weekend if nobody wants to maintain code.</li>
+      </ul>
+      <h3>Site map</h3>
+<pre class="sitemap mono">/                Home: animated Unc, thesis, check slider, CTA
+/thesis          What Unc funds and why
+/pitch           The form plus "how it works" in 3 steps
+/portfolio       Companies backed ("coming soon" at launch)
+/anti-portfolio  Deals Unc passed on. Empty at launch, funny later
+/about           Who is behind Unc
+/notes           Unc's takes
+/merch           Link out to the store
+/contact         General contact form, optional file</pre>
+    </div>
+    <div>
+      <h3>The check slider, prototyped</h3>
+      <div class="check-slider">
+        <div class="eyebrow">How much does Unc believe in you?</div>
+        <div class="amt mono" id="amt">$2,500</div>
+        <input type="range" id="range" min="500" max="9999" step="1" value="2500" aria-label="Check size">
+        <div class="say" id="say">"That's a real check. Don't spend it all on a logo."</div>
+      </div>
+      <h3>Home page, section by section</h3>
+      <ol class="plain">
+        <li><b>Hero.</b> Wordmark, "Small checks. Big uncle energy.", one-sentence thesis, "Pitch Unc" and "Follow @uncfund". Unc waves on load, eyes follow the cursor.</li>
+        <li><b>Check slider.</b> Unc's face and caption change at $500, $2,500, $5,000 and $9,999.</li>
+        <li><b>What we fund.</b> Four tiles: Blockchain, AI, Software, Robotics. One line of thesis and one Unc-ism each.</li>
+        <li><b>How it works.</b> Form in 5 minutes, call in 20, money in a week. No 47-slide decks, no warm intro required.</li>
+        <li><b>Portfolio strip,</b> then the latest notes, then the footer: socials, newsletter, "Proud of you. — Unc", disclaimer.</li>
+      </ol>
+      <h3>Pitch form fields</h3>
+      <p>Name, X handle, email. Company and a 140-character one-liner. Category (Blockchain / AI / Software / Robotics / Unc won't get it but try). Stage. "What would you do with $2,500?" in 200 words. One link. Deck upload: PDF, PPTX or Keynote up to 25 MB, drag-and-drop. Checkbox: "I understand Unc's checks are small and his love is large."</p>
+    </div>
+  </div>
+</section>
+
+<section id="sources">
+  <div class="sec-head">
+    <span class="eyebrow">Reading list</span>
+    <h2>Sources</h2>
+  </div>
+  <ul class="sources plain">
+    <li><a href="https://techcrunch.com/2021/04/27/banana-capitals-fund-1-turner-novak/">TechCrunch on Banana Capital's first fund</a></li>
+    <li><a href="https://bryce.medium.com/going-bananas-w-turner-novak-founder-of-banana-capital-171b4c9e5442">Bryce Roberts interviews Turner Novak</a></li>
+    <li><a href="https://www.theinformation.com/articles/can-you-meme-your-way-into-venture-capital-maybe">The Information: can you meme your way into VC</a></li>
+    <li><a href="https://fortune.com/2022/01/13/litquidity-twitter-bain-venture-capital">Fortune on Litquidity and Bain Capital Ventures</a></li>
+    <li><a href="https://signal.nfx.com/firms/shrug-capital">Shrug Capital profile</a></li>
+    <li><a href="https://www.hustlefund.vc/blog-posts-founders/the-process-of-rebranding-everything">Hustle Fund: the process of rebranding everything</a></li>
+    <li><a href="https://dribbble.com/shots/19682358-Hustle-Fund-Rebrand">Hustle Fund rebrand on Dribbble</a></li>
+    <li><a href="https://www.hustlefund.vc/post/angel-squad-syndicate-investing-explained-how-angel-communities-pool-1k--100k-checks">Hustle Fund on $1K syndicate checks</a></li>
+    <li><a href="https://www.producthunt.com/products/carpool-vc">Carpool.VC on Product Hunt</a></li>
+    <li><a href="https://www.notboring.co/p/introducing-not-boring-capital">Introducing Not Boring Capital</a></li>
+    <li><a href="https://www.inc.com/talib-visram/vc-starter-kit-silicon-valley-unofficial-uniform.html">Inc. on the VC Starter Kit</a></li>
+    <li><a href="https://www.npr.org/2022/03/31/1089994672/patagonia-vest-tech-workers-san-francisco">NPR on the Patagonia vest</a></li>
+    <li><a href="https://fortune.com/2017/09/29/group-of-white-men-in-patagonia-vests-confused-for-vc-fund-raise-500-million">Fortune satire on vests raising $500M</a></li>
+    <li><a href="https://www.mentalfloss.com/language/slang/unc-meaning-explained">Mental Floss: what "unc" means</a></li>
+    <li><a href="https://aftermath.site/unc-aave-african-american-vernacular-english-slang-gen-z/">Aftermath: the AAVE roots of "unc"</a></li>
+    <li><a href="https://sydecar.io/learn/who-can-be-a-vc">Sydecar: who's allowed to be a VC</a></li>
+    <li><a href="https://www.angellist.com/funds/venture-funds">AngelList: start a venture fund</a></li>
+    <li><a href="https://www.allocations.com/blog/how-to-launch-a-micro-vc-fund-with-less-than-10m-(2026-guide)">Allocations: micro VC under $10M</a></li>
+    <li><a href="https://www.joinamply.com/post/best-vc-firm-website-examples">Amply: best VC websites 2026</a></li>
+    <li><a href="https://webflow.com/made-in-webflow/venture-capital">Webflow: VC sites made in Webflow</a></li>
+    <li><a href="https://mercury.com/blog/framer-vs-webflow-comparison">Mercury: Framer vs Webflow</a></li>
+    <li><a href="https://en.wikipedia.org/wiki/Uncork_Capital">Uncork Capital</a> and <a href="https://en.wikipedia.org/wiki/Unusual_Ventures">Unusual Ventures</a></li>
+  </ul>
+</section>
+
+</main>
+
+<footer>
+  <div class="wrap">
+    <div class="sig">Proud of you. — Unc</div>
+    Working docs live in the unc-fund repo: 01-vc-research, 02-launch-todo, 03-brand, 04-website-spec. Nothing on this page is legal advice. Talk to a lawyer before taking anyone's money.
+  </div>
+</footer>
+
+<script type="application/json" id="unc-state">{"done":{"p0-x":"2026-09-05","p0-mail":"2026-09-05","p1-vehicle":"2026-09-05"}}</script>
+<script>
+(function () {
+  var PHASES = [
+    { id: "p0", title: "Phase 0 · Lock it down (today)", items: [
+      ["p0-x", "Claim @uncfund on X.", "Secured 5 Sep. Consider @unc_fund as a decoy."],
+      ["p0-mail", "Public contact email.", "contactuncfund@gmail.com created 5 Sep. The pitch form delivers here."],
+      ["p0-ig", "Claim uncfund on Instagram (Threads comes with it)."],
+      ["p0-tt", "Claim @uncfund on TikTok."],
+      ["p0-gh", "Create the uncfund GitHub organization."],
+      ["p0-yt", "Claim @uncfund on YouTube."],
+      ["p0-li", "Create the LinkedIn company page."],
+      ["p0-web3", "Farcaster handle, unc.eth and uncfund.eth if the crypto side is real."],
+      ["p0-ws", "Google Workspace on unc.fund later: hello@, pitch@, unc@ (the mascot answers this one). Forward the Gmail into it."],
+      ["p0-2fa", "2FA on everything. Logins in a shared password vault, never in a group chat."],
+      ["p0-dom", "Defensive domains if cheap: uncfund.com, unc.vc, uncfund.vc."],
+      ["p0-tm", "Quick USPTO search on \"Unc Fund\" and \"Unc Capital\". Note Uncork and Unusual."]
+    ]},
+    { id: "p1", title: "Phase 1 · Decide what the fund actually is", items: [
+      ["p1-thesis", "Write the one-paragraph thesis.", "Draft: first small check into frontier-tech founders before anyone else will. $500 to $9,999. Same-week decisions. Unc shows up."],
+      ["p1-vehicle", "Pick the vehicle.", "Decided: a plain single-member LLC started personally, no partners at first, personal money via SAFEs. No outside LPs means no fund admin or Form D until that changes."],
+      ["p1-form", "Form Unc Fund LLC.", "Home state or Delaware. Registered agent, EIN, operating agreement. Stripe Atlas, Clerky, or the state site directly."],
+      ["p1-checks", "Set check sizes: $500 meme check, $2,500 standard, $9,999 max. Target 20 to 40 checks in year one."],
+      ["p1-safe", "Instrument: post-money SAFE. Uncapped with MFN for the smallest checks so nobody argues about a $500 valuation."],
+      ["p1-process", "Publish the decision process: one form, one call, answer in 7 days. That is the product."],
+      ["p1-value", "Define what Unc gives beyond money: intros, weekly office hours, portfolio group chat, an Unc vest."],
+      ["p1-legal", "One lawyer call before the first check.", "Confirm the LLC can hold SAFEs, that the website does not read as a public securities offering, and what changes the day someone else wants to put money in."],
+      ["p1-bank", "Business bank account (Mercury or Brex) once the LLC exists."],
+      ["p1-cap", "Cap table tracking: Carta, Cap Table Pro, or a spreadsheet."]
+    ]},
+    { id: "p2", title: "Phase 2 · Brand", items: [
+      ["p2-char", "Agree on the character: age, build, glasses, vest color, catchphrase, mustache."],
+      ["p2-illus", "Commission or draw the mascot.", "Dribbble or Behance character illustrator, $800 to $3,000 for a sheet of 6 to 10 poses. Or AI concept cleaned into vectors by a human."],
+      ["p2-rive", "Build the animated Unc in Rive: idle, wave, look, think, approve, check."],
+      ["p2-mark", "Wordmark: UNC heavy, .FUND light. Test the three type directions."],
+      ["p2-palette", "Lock the palette and write the tokens down."],
+      ["p2-social", "Social kit: avatar, banner, meme template, deal announcement, \"Unc's take\" quote card."],
+      ["p2-fav", "Favicon and OG image."],
+      ["p2-merch", "Merch mockups: vest first, then dad hat and \"Backed by Unc\" sticker."],
+      ["p2-memes", "Ten meme templates with Unc in them, ready for launch week."]
+    ]},
+    { id: "p3", title: "Phase 3 · Website", items: [
+      ["p3-stack", "Pick the stack: Astro or Next.js on Vercel with Rive, or Webflow as the no-code fallback."],
+      ["p3-dns", "Move DNS off the GoDaddy placeholder."],
+      ["p3-pages", "Launch pages: Home, Thesis, Pitch, Portfolio (coming soon), Team, Notes, Merch link."],
+      ["p3-form", "Pitch form with deck upload.", "Deck goes to Vercel Blob, fields plus deck link go to contactuncfund@gmail.com via Resend, founder gets a confirmation in Unc's voice. Needs BLOB_READ_WRITE_TOKEN and RESEND_API_KEY on Vercel."],
+      ["p3-contact", "General contact form with optional attachment."],
+      ["p3-hero", "Animated Unc on the hero: waves on load, eyes follow cursor, thumbs up on submit."],
+      ["p3-slider", "The check slider from $500 to $9,999."],
+      ["p3-anti", "Anti-portfolio page, blank at launch."],
+      ["p3-analytics", "Plausible or Vercel Analytics. Newsletter capture to Beehiiv or Substack."],
+      ["p3-seo", "Title, description, OG image, sitemap, robots."],
+      ["p3-legal", "Footer disclaimer reviewed by the lawyer."],
+      ["p3-qa", "Mobile pass, accessibility pass, Lighthouse 90+."]
+    ]},
+    { id: "p4", title: "Phase 4 · Content and launch week", items: [
+      ["p4-thread", "Launch thread on X: the origin story, what Unc funds, how to pitch. Pin it."],
+      ["p4-video", "30 to 60 second launch video. Carpool-style in a car is on brand and cheap."],
+      ["p4-memes", "First five memes scheduled."],
+      ["p4-first10", "Ask the first ten founders you know personally to pitch, so the form has traffic on day one."],
+      ["p4-li", "LinkedIn post in a straighter voice for the accredited crowd."],
+      ["p4-first", "Announce the first check with a novelty-sized check photo. The Too Small to Fail joke made real."],
+      ["p4-cadence", "Weekly cadence: one deal or pass story, one meme, one Unc's take."]
+    ]}
+  ];
+
+  var stateEl = document.getElementById("unc-state");
+  var state = { done: {} };
+  try { state = JSON.parse(stateEl.textContent) || state; if (!state.done) state.done = {}; } catch (e) {}
+  var storageKey = "uncfund-launch-plan";
+  var artifactApi = null;
+  var total = 0;
+
+  function readLocal() {
+    try { var s = localStorage.getItem(storageKey); if (s) { var o = JSON.parse(s); if (o && o.done) state.done = o.done; } } catch (e) {}
+  }
+  function writeLocal() {
+    try { localStorage.setItem(storageKey, JSON.stringify(state)); } catch (e) {}
+  }
+
+  function render() {
+    var root = document.getElementById("phases");
+    root.innerHTML = "";
+    total = 0; var doneCount = 0;
+    PHASES.forEach(function (ph) {
+      var wrap = document.createElement("div"); wrap.className = "phase";
+      var head = document.createElement("div"); head.className = "phase-head";
+      var h3 = document.createElement("h3"); h3.textContent = ph.title; h3.style.margin = "0";
+      var count = document.createElement("span"); count.className = "count mono";
+      var phDone = ph.items.filter(function (it) { return state.done[it[0]]; }).length;
+      count.textContent = phDone + " / " + ph.items.length;
+      head.appendChild(h3); head.appendChild(count); wrap.appendChild(head);
+      var ul = document.createElement("ul"); ul.className = "todo";
+      ph.items.forEach(function (it) {
+        total++;
+        var id = it[0], isDone = !!state.done[id]; if (isDone) doneCount++;
+        var li = document.createElement("li"); if (isDone) li.className = "done";
+        var cb = document.createElement("input"); cb.type = "checkbox"; cb.id = "cb-" + id; cb.checked = isDone;
+        cb.addEventListener("change", function () { toggle(id, cb.checked); });
+        var label = document.createElement("label"); label.htmlFor = cb.id; label.textContent = it[1];
+        if (it[2]) { var sub = document.createElement("span"); sub.className = "sub"; sub.textContent = it[2]; label.appendChild(sub); }
+        li.appendChild(cb); li.appendChild(label); ul.appendChild(li);
+      });
+      wrap.appendChild(ul); root.appendChild(wrap);
+    });
+    document.getElementById("progress-bar").style.width = (total ? Math.round(doneCount / total * 100) : 0) + "%";
+  }
+
+  var publishTimer = null;
+  function toggle(id, on) {
+    if (on) state.done[id] = new Date().toISOString().slice(0, 10); else delete state.done[id];
+    render();
+    if (artifactApi) {
+      clearTimeout(publishTimer);
+      publishTimer = setTimeout(publishState, 600);
+    } else {
+      writeLocal();
+    }
+  }
+
+  var sourceHtml = null;
+  function publishState() {
+    var run = function (html) {
+      var marker = /<script type="application\/json" id="unc-state">[\s\S]*?<\/script>/;
+      var next = html.replace(marker, '<script type="application/json" id="unc-state">' + JSON.stringify(state).replace(/</g, "\\u003c") + "<\/script>");
+      setSave("Saving for everyone…", true);
+      artifactApi.publish(next).then(function () { setSave("Saved for everyone who opens this page.", true); })
+        .catch(function (e) { setSave(e && e.code === "conflict" ? "Someone else saved first. Reloading." : "Could not save this tick. Try again.", true); });
+    };
+    if (sourceHtml) return run(sourceHtml);
+    fetch(location.href, { cache: "no-store" }).then(function (r) { return r.text(); }).then(function (t) { sourceHtml = t; run(t); })
+      .catch(function () { setSave("Could not read the page source to save.", true); });
+  }
+
+  function setSave(text, shared) {
+    var el = document.getElementById("savestate");
+    el.className = "savestate" + (shared ? " shared" : "");
+    document.getElementById("savestate-text").textContent = text;
+  }
+
+  readLocal();
+  render();
+
+  if (window.claude && typeof window.claude.use === "function") {
+    window.claude.use("artifact").then(function (api) {
+      if (!api) return;
+      artifactApi = api;
+      // The published state wins over anything cached in this browser.
+      try { var pub = JSON.parse(stateEl.textContent); if (pub && pub.done) { state.done = pub.done; render(); } } catch (e) {}
+      setSave("Ticks save into the page for everyone with edit access.", true);
+    }).catch(function () {});
+  }
+
+  // Check slider prototype
+  var range = document.getElementById("range"), amt = document.getElementById("amt"), say = document.getElementById("say");
+  function lines(v) {
+    if (v < 1000) return "\"Five hundred bucks. Buy the domain. Send me the link.\"";
+    if (v < 4000) return "\"That's a real check. Don't spend it all on a logo.\"";
+    if (v < 8000) return "\"Now we're talking. Unc wants a monthly update. Two sentences is fine.\"";
+    return "\"Nine thousand nine hundred ninety-nine. Unc is emotionally invested. Don't make him regret this.\"";
+  }
+  function fmt(v) { return "$" + Number(v).toLocaleString("en-US"); }
+  range.addEventListener("input", function () { amt.textContent = fmt(range.value); say.textContent = lines(+range.value); });
+})();
+</script>

@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 200" width="880" height="200" role="img" aria-label="Unc.Fund lockup">
+  <title>Horizontal lockup: vest mark plus wordmark plus tagline. Email signatures, decks, the site header at large sizes.</title>
+  <defs>
+    <pattern id="fleece-lk" width="3" height="3" patternUnits="userSpaceOnUse">
+      <circle cx="1" cy="1" r=".5" fill="#2F5D8A" opacity=".25"/>
+    </pattern>
+  </defs>
+  <g transform="translate(20 20) scale(2.5)">
+    <rect width="64" height="64" rx="14" fill="#2F5D8A"/>
+    <path d="M17 17 Q32 10 47 17 L49 51 Q32 57 15 51 Z" fill="#F7F3EA"/>
+    <path d="M17 17 Q32 10 47 17 L49 51 Q32 57 15 51 Z" fill="url(#fleece-lk)"/>
+    <path d="M18 17 Q32 12 46 17 L44 21 Q32 17 20 21 Z" fill="#DCE6F0"/>
+    <path d="M17 17 Q12 26 15 36 L20 36 Q18 27 22 18 Z" fill="#2F5D8A"/>
+    <path d="M47 17 Q52 26 49 36 L44 36 Q46 27 42 18 Z" fill="#2F5D8A"/>
+    <path d="M26 16 L32 30 L38 16 Z" fill="#2F5D8A"/>
+    <line x1="32" y1="30" x2="32" y2="54" stroke="#2F5D8A" stroke-width="3" stroke-dasharray="1.5 1.5"/>
+    <line x1="32" y1="30" x2="32" y2="54" stroke="#2F5D8A" stroke-width="1"/>
+    <rect x="29.5" y="27" width="5" height="7" rx="1.5" fill="#7FA7CF" stroke="#2F5D8A" stroke-width=".8"/>
+    <rect x="31" y="34" width="2" height="3.5" rx=".8" fill="#7FA7CF"/>
+    <path d="M18 40 L26 41 L26 50 L18 49 Z" fill="#DCE6F0"/>
+    <path d="M38 41 L46 40 L46 49 L38 50 Z" fill="#DCE6F0"/>
+    <rect x="37" y="30" width="8" height="4.5" rx="1" fill="#2F5D8A"/>
+  </g>
+  <text x="210" y="112" font-family="Fredoka, 'Source Sans 3', Arial, sans-serif" font-size="104" font-weight="700" letter-spacing="-3" fill="#2F5D8A">UNC<tspan font-weight="500" fill="#1E2430">.FUND</tspan></text>
+  <text x="214" y="156" font-family="Fredoka, Arial, sans-serif" font-size="28" font-weight="600" fill="#4A5261">Small checks. Big uncle energy.</text>
+</svg>

@@ -1,0 +1,81 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" width="1200" height="630" role="img" aria-label="Unc.Fund link preview">
+  <title>Open Graph image, 1200 by 630. Unc giving a thumbs up.</title>
+  <defs>
+    <pattern id="fleece" width="7" height="7" patternUnits="userSpaceOnUse">
+      <circle cx="2" cy="2" r="1" fill="#7FA7CF" opacity=".28"/>
+      <circle cx="5.5" cy="5.5" r="1" fill="#7FA7CF" opacity=".18"/>
+    </pattern>
+    <linearGradient id="skin" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#E8C4A0"/>
+      <stop offset="1" stop-color="#DDB58E"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="630" fill="#F7F3EA"/>
+  <rect x="0" y="574" width="1200" height="56" fill="#2F5D8A"/>
+  <line x1="0" y1="568" x2="1200" y2="568" stroke="#7FA7CF" stroke-width="3" stroke-dasharray="10 8"/>
+  <text x="80" y="226" font-family="Fredoka, 'Source Sans 3', Arial, sans-serif" font-size="130" font-weight="700" letter-spacing="-4" fill="#2F5D8A">UNC<tspan font-weight="500" fill="#1E2430">.FUND</tspan></text>
+  <text x="84" y="298" font-family="Fredoka, Arial, sans-serif" font-size="42" font-weight="600" fill="#1E2430">Small checks. Big uncle energy.</text>
+  <text x="84" y="350" font-family="'Source Sans 3', Arial, sans-serif" font-size="25" fill="#4A5261">Frontier-tech first checks. Blockchain, AI, software, robotics.</text>
+  <text x="84" y="388" font-family="'Source Sans 3', Arial, sans-serif" font-size="25" fill="#4A5261">$500 to $9,999. Decision in a week. Bring a deck.</text>
+  <text x="84" y="520" font-family="Fredoka, Arial, sans-serif" font-size="30" font-weight="600" fill="#2F5D8A">Proud of you. — Unc</text>
+  <g transform="translate(780 100) scale(1.15)">
+    <rect x="68" y="198" width="38" height="92" rx="19" fill="#BFD7EA" stroke="#1E2430" stroke-width="2.5"/>
+    <rect x="68" y="272" width="38" height="14" rx="4" fill="#E4EEF6" stroke="#1E2430" stroke-width="2"/>
+    <rect x="66" y="262" width="42" height="9" rx="3" fill="#3A3F47"/>
+    <circle cx="87" cy="266" r="7" fill="#DDE6EE" stroke="#1E2430" stroke-width="2"/>
+    <ellipse cx="87" cy="296" rx="15" ry="13" fill="url(#skin)" stroke="#1E2430" stroke-width="2.5"/>
+    <path d="M78 300 L78 306 M85 303 L85 309 M92 303 L92 309 M99 299 L99 305" stroke="#1E2430" stroke-width="2" stroke-linecap="round"/>
+    <g transform="rotate(-100 233 210)">
+      <rect x="214" y="198" width="38" height="82" rx="19" fill="#BFD7EA" stroke="#1E2430" stroke-width="2.5"/>
+      <rect x="214" y="262" width="38" height="14" rx="4" fill="#E4EEF6" stroke="#1E2430" stroke-width="2"/>
+    </g>
+    <ellipse cx="302" cy="214" rx="17" ry="15" fill="url(#skin)" stroke="#1E2430" stroke-width="2.5"/>
+    <rect x="296" y="178" width="13" height="30" rx="6.5" fill="#E8C4A0" stroke="#1E2430" stroke-width="2.5"/>
+    <path d="M290 212 L314 212 M290 220 L314 220" stroke="#1E2430" stroke-width="1.8" stroke-linecap="round"/>
+    <rect x="116" y="288" width="38" height="84" rx="11" fill="#D9C8A6" stroke="#1E2430" stroke-width="2.5"/>
+    <rect x="166" y="288" width="38" height="84" rx="11" fill="#D9C8A6" stroke="#1E2430" stroke-width="2.5"/>
+    <path d="M135 300 L135 362 M185 300 L185 362" stroke="#C2AF89" stroke-width="2" stroke-linecap="round"/>
+    <rect x="110" y="284" width="100" height="12" rx="3" fill="#6B4F3A" stroke="#1E2430" stroke-width="2"/>
+    <rect x="152" y="282" width="16" height="16" rx="3" fill="#C9A86A" stroke="#1E2430" stroke-width="2"/>
+    <path d="M104 372 Q104 360 118 358 L150 358 Q160 358 162 366 L164 380 Q164 386 156 386 L110 386 Q102 386 104 372 Z" fill="#9AA3AD" stroke="#1E2430" stroke-width="2.5"/>
+    <path d="M104 378 L164 378 L164 380 Q164 386 156 386 L110 386 Q102 386 104 378 Z" fill="#F1EDE3" stroke="#1E2430" stroke-width="2"/>
+    <path d="M158 372 Q158 360 172 358 L204 358 Q214 358 216 366 L218 380 Q218 386 210 386 L164 386 Q156 386 158 372 Z" fill="#9AA3AD" stroke="#1E2430" stroke-width="2.5"/>
+    <path d="M158 378 L218 378 L218 380 Q218 386 210 386 L164 386 Q156 386 158 378 Z" fill="#F1EDE3" stroke="#1E2430" stroke-width="2"/>
+    <rect x="94" y="186" width="132" height="124" rx="28" fill="#BFD7EA" stroke="#1E2430" stroke-width="2.5"/>
+    <path d="M108 190 Q160 174 212 190 L216 294 Q160 306 104 294 Z" fill="#2F5D8A" stroke="#1E2430" stroke-width="2.5"/>
+    <path d="M108 190 Q160 174 212 190 L216 294 Q160 306 104 294 Z" fill="url(#fleece)"/>
+    <path d="M112 190 Q160 176 208 190 L204 200 Q160 188 116 200 Z" fill="#3E6C99" stroke="#1E2430" stroke-width="2.5"/>
+    <path d="M148 192 L160 238 L172 192 Z" fill="#BFD7EA" stroke="#1E2430" stroke-width="2"/>
+    <path d="M140 186 L160 206 L180 186 L170 178 L160 190 L150 178 Z" fill="#E4EEF6" stroke="#1E2430" stroke-width="2"/>
+    <line x1="160" y1="238" x2="160" y2="300" stroke="#7FA7CF" stroke-width="4" stroke-dasharray="2.5 2.5"/>
+    <rect x="156" y="232" width="8" height="14" rx="2.5" fill="#7FA7CF" stroke="#1E2430" stroke-width="1.5"/>
+    <path d="M110 254 Q122 250 134 258 L136 288 Q122 292 110 288 Z" fill="#2A5480" stroke="#1E2430" stroke-width="2"/>
+    <path d="M186 258 Q198 250 210 254 L210 288 Q198 292 184 288 Z" fill="#2A5480" stroke="#1E2430" stroke-width="2"/>
+    <rect x="176" y="212" width="28" height="14" rx="3" fill="#F7F3EA" stroke="#1E2430" stroke-width="1.5"/>
+    <text x="190" y="223" font-family="Fredoka, Arial, sans-serif" font-size="8" font-weight="700" text-anchor="middle" fill="#2F5D8A">UNC</text>
+    <rect x="144" y="160" width="32" height="34" fill="url(#skin)" stroke="#1E2430" stroke-width="2.5"/>
+    <path d="M96 118 Q96 56 160 56 Q224 56 224 118 Q224 158 200 176 Q182 188 160 188 Q138 188 120 176 Q96 158 96 118 Z" fill="url(#skin)" stroke="#1E2430" stroke-width="2.5"/>
+    <ellipse cx="97" cy="126" rx="10" ry="13" fill="#E8C4A0" stroke="#1E2430" stroke-width="2.5"/>
+    <ellipse cx="223" cy="126" rx="10" ry="13" fill="#E8C4A0" stroke="#1E2430" stroke-width="2.5"/>
+    <path d="M100 116 Q100 76 138 64 Q160 58 182 64 Q220 76 220 116 Q206 100 160 98 Q114 100 100 116 Z" fill="#8C8F94" stroke="#1E2430" stroke-width="2.5"/>
+    <path d="M96 116 Q90 140 100 156 L106 122 Z" fill="#8C8F94" stroke="#1E2430" stroke-width="2.5"/>
+    <path d="M224 116 Q230 140 220 156 L214 122 Z" fill="#8C8F94" stroke="#1E2430" stroke-width="2.5"/>
+    <path d="M118 84 Q140 72 162 72 M128 76 Q150 66 172 68" fill="none" stroke="#B5B8BD" stroke-width="2" stroke-linecap="round"/>
+    <path d="M100 104 L122 98 M220 104 L198 98" stroke="#1E2430" stroke-width="3" stroke-linecap="round"/>
+    <rect x="120" y="88" width="32" height="18" rx="9" fill="#7FA7CF" fill-opacity=".25" stroke="#1E2430" stroke-width="3"/>
+    <rect x="168" y="88" width="32" height="18" rx="9" fill="#7FA7CF" fill-opacity=".25" stroke="#1E2430" stroke-width="3"/>
+    <line x1="152" y1="96" x2="168" y2="96" stroke="#1E2430" stroke-width="3"/>
+    <path d="M120 128 Q134 114 152 122 Q138 122 124 132 Z" fill="#1E2430"/>
+    <path d="M200 128 Q186 114 168 122 Q182 122 196 132 Z" fill="#1E2430"/>
+    <ellipse cx="138" cy="138" rx="10" ry="8.5" fill="#FFFFFF" stroke="#1E2430" stroke-width="2"/>
+    <circle cx="139" cy="139" r="4.6" fill="#1E2430"/><circle cx="137.4" cy="137.2" r="1.5" fill="#FFFFFF"/>
+    <ellipse cx="182" cy="138" rx="10" ry="8.5" fill="#FFFFFF" stroke="#1E2430" stroke-width="2"/>
+    <circle cx="183" cy="139" r="4.6" fill="#1E2430"/><circle cx="181.4" cy="137.2" r="1.5" fill="#FFFFFF"/>
+    <path d="M124 136 L118 134 M124 141 L118 143 M196 136 L202 134 M196 141 L202 143" stroke="#C99A72" stroke-width="1.8" stroke-linecap="round"/>
+    <ellipse cx="126" cy="154" rx="9" ry="6" fill="#E9A98D" opacity=".45"/>
+    <ellipse cx="194" cy="154" rx="9" ry="6" fill="#E9A98D" opacity=".45"/>
+    <path d="M160 134 Q150 150 156 158 Q160 162 166 158 Q170 152 164 142" fill="#DDB58E" stroke="#1E2430" stroke-width="2.2" stroke-linejoin="round"/>
+    <path d="M130 166 Q146 154 160 164 Q174 154 190 166 Q176 178 160 170 Q144 178 130 166 Z" fill="#8C8F94" stroke="#1E2430" stroke-width="2"/>
+    <path d="M136 176 Q160 198 184 176" fill="none" stroke="#1E2430" stroke-width="2.5" stroke-linecap="round"/>
+  </g>
+</svg>

@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 160" width="720" height="160" role="img" aria-label="UNC.FUND wordmark, reversed">
+  <title>UNC.FUND wordmark, dark background.</title>
+  <defs>
+    <pattern id="fleece-wm-r" width="6" height="6" patternUnits="userSpaceOnUse">
+      <circle cx="1.5" cy="1.5" r=".9" fill="#8FB4DA" opacity=".35"/>
+      <circle cx="4.5" cy="4.5" r=".9" fill="#8FB4DA" opacity=".22"/>
+    </pattern>
+  </defs>
+  <rect width="720" height="160" fill="#161B24"/>
+  <text x="20" y="118" font-family="Fredoka, 'Source Sans 3', Arial, sans-serif" font-size="120" font-weight="700" letter-spacing="-4" fill="#5C8BC0">UNC</text>
+  <text x="20" y="118" font-family="Fredoka, 'Source Sans 3', Arial, sans-serif" font-size="120" font-weight="700" letter-spacing="-4" fill="url(#fleece-wm-r)">UNC</text>
+  <g transform="translate(300 0)">
+    <line x1="0" y1="118" x2="0" y2="84" stroke="#8FB4DA" stroke-width="7" stroke-dasharray="3 3"/>
+    <line x1="0" y1="118" x2="0" y2="84" stroke="#5C8BC0" stroke-width="1.5"/>
+    <rect x="-7" y="70" width="14" height="24" rx="4" fill="#5C8BC0"/>
+    <rect x="-4" y="94" width="8" height="12" rx="3" fill="#5C8BC0"/>
+    <rect x="-3" y="76" width="6" height="8" rx="2" fill="#161B24"/>
+  </g>
+  <text x="326" y="118" font-family="Fredoka, 'Source Sans 3', Arial, sans-serif" font-size="120" font-weight="500" letter-spacing="-2" fill="#EFE9DC">FUND</text>
+  <line x1="24" y1="136" x2="640" y2="136" stroke="#8FB4DA" stroke-width="2" stroke-dasharray="6 5"/>
+</svg>
