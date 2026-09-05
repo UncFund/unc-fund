@@ -3,6 +3,9 @@ import type { NextConfig } from "next";
 const nextConfig: NextConfig = {
   reactStrictMode: true,
   poweredByHeader: false,
+  async redirects() {
+    return [{ source: "/portfolio", destination: "/nephews", permanent: true }];
+  },
   async headers() {
     return [
       {

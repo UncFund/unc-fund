@@ -71,7 +71,7 @@ export default function Home() {
           <div className="steps">
             <div className="step"><b>Fill the form</b><p>Five minutes. Attach a deck if you have one. If not, the one-liner will do.</p></div>
             <div className="step"><b>Talk to Unc</b><p>Twenty minutes on a call. Unc asks dumb questions. Smart founders answer them well.</p></div>
-            <div className="step"><b>Money in a week</b><p>A yes means a SAFE and a wire. A no still gets a reply and a reason.</p></div>
+            <div className="step"><b>Money in a week</b><p>A yes means a SAFE, a wire, and you&apos;re a nephew now. A no still gets a reply and a reason.</p></div>
           </div>
           <p style={{ marginTop: 20 }}>
             <Link href="/pitch" className="btn btn-primary">Pitch Unc</Link>
@@ -81,11 +81,12 @@ export default function Home() {
 
       <section>
         <div className="wrap">
-          <div className="eyebrow">Portfolio</div>
-          <h2>Unc&apos;s first check is on its way.</h2>
+          <div className="eyebrow">Nephews</div>
+          <h2>Unc&apos;s first nephew is on the way.</h2>
           <p>
-            When it lands there will be a photo of a very large novelty check and a very small number on it.{" "}
-            <Link href="/portfolio">Portfolio</Link> and <Link href="/anti-portfolio">anti-portfolio</Link> fill in from there.
+            Every company Unc backs is a nephew. When the first check lands there will be a photo of a very large novelty check
+            and a very small number on it. The <Link href="/nephews">nephews</Link> page and the{" "}
+            <Link href="/anti-portfolio">anti-portfolio</Link> fill in from there.
           </p>
         </div>
       </section>

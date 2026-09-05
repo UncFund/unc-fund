@@ -12,7 +12,7 @@ export default function AntiPortfolioPage() {
         <div className="wrap">
           <div className="eyebrow">Anti-portfolio</div>
           <h1>Deals Unc passed on because he didn&apos;t understand them.</h1>
-          <p className="lede">Every investor has this list. Most keep it private. Unc thinks the list is the point.</p>
+          <p className="lede">The nephews Unc should have had. Every investor has this list. Most keep it private. Unc thinks the list is the point.</p>
         </div>
       </header>
       <section>

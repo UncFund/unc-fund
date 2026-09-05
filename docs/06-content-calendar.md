@@ -24,7 +24,7 @@ Cadence: 3 posts a day on weekdays, 2 on weekends. Roughly 9am, 1pm, 6pm Pacific
 2. Here is the thesis. Small checks early beat big checks never. $500 buys a domain and a demo. $2,500 buys a month of API credits and a flight to a customer. That is when you find out if the thing is real.
 3. What I fund: blockchain, AI, software, robotics. The stuff I read about and don't fully understand. Which is exactly why it needs funding.
 4. How it works. One form, one call, an answer in a week. Yes gets a SAFE and a wire. No gets a reason. Nobody gets ghosted. I'm an Unc, not a fund with a junior associate.
-5. What you get besides money: intros when I have them, office hours every week, a group chat with the other founders I've backed. A vest, eventually.
+5. If it's a yes, you're a nephew. That's what I call every company I back. Nephews get intros when I have them, office hours every week, and the nephew group chat. A vest, eventually.
 6. The rules: no 47-slide decks. If your grandfather could explain it, I'm not interested. If your grandfather could fund it, you don't need me.
 7. Pitch at unc.fund. Attach a deck if you have one. If you don't, the one-liner will do. Proud of you.
 
@@ -43,7 +43,7 @@ Cadence: 3 posts a day on weekdays, 2 on weekends. Roughly 9am, 1pm, 6pm Pacific
 **Wed**
 - 9am (bit): Things Unc will ask on the call: does it work when the wifi is bad. Who pays. What would you do with $2,500. That's the whole list.
 - 1pm (to investors): To the VCs reading this: the founder you passed on for being "too early" is who I fund. Send them my way. I'll send them back to you in eighteen months with revenue.
-- 6pm (pitch): No warm intro required. That's the point of the form. unc.fund
+- 6pm (nephews): Every company I back is a nephew. Not a portfolio company. A nephew. You get the group chat, the office hours, and an Unc who brags about you at dinner. unc.fund
 
 **Thu**
 - 9am (take): A $500 check will not build your company. It will tell you that one person who was not your mother believed you. That's worth more than the money, which is convenient, because it's not much money.
@@ -106,7 +106,7 @@ Sincere. No jokes in the last line. These are the posts that get screenshotted.
 2. Nobody who built anything real felt ready. They felt scared and started anyway. Ready is a feeling you get after, not before.
 3. Your first version will embarrass you. Good. The people who never get embarrassed never shipped.
 4. Somebody with less talent than you is raising money right now because they asked. Ask.
-5. The founders I back aren't the smartest in the room. They're the ones still in the room at 11pm.
+5. My nephews aren't the smartest people in the room. They're the ones still in the room at 11pm.
 6. You will get told no by people who are wrong. Collect the no's. Some of them will want a meeting later.
 7. Small is not a weakness. Small is fast, cheap, and impossible to kill. Stay small until the world makes you big.
 8. It's not too late. It's not too early. It's Tuesday. Build something.
@@ -135,7 +135,7 @@ Affectionate, a little pointed. Never name a firm. Unc respects the job and mock
 
 ## Recurring formats after week 2
 
-- **Deal announcement** (as they happen): the template in `brand/templates/deal-announcement.svg`, the amount shown proudly, one line about the company, "Proud of you."
+- **New nephew** (as they happen): the template in `brand/templates/deal-announcement.svg`, "Unc's newest nephew", the amount shown proudly, one line about the company, "Proud of you."
 - **Pass of the week**: "Unc passed. Unc will be wrong." Anonymous unless the founder wants the name out.
 - **Unc's take** quote cards: one serious frontier-tech opinion a week, made with `brand/templates/quote-card.svg`.
 - **Meme Monday**: `brand/templates/meme-template.svg`, one a week, never about a specific founder.

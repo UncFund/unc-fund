@@ -44,7 +44,10 @@ export default function ThesisPage() {
             One form, one call, answer in seven days. If it is a no, you get the reason.
           </p>
           <h3>What comes with the money</h3>
-          <p>Intros when Unc has them. Office hours weekly. A group chat with the other founders Unc backed. A vest, eventually.</p>
+          <p>
+            You become a nephew. That is what Unc calls every company he backs. Nephews get intros when Unc has them, office
+            hours weekly, the nephew group chat, and a vest, eventually.
+          </p>
           <p>
             <Link href="/pitch" className="btn btn-primary">Pitch Unc</Link>
           </p>

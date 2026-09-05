@@ -9,6 +9,7 @@ export default function Footer() {
           <a href="https://x.com/uncfund">@uncfund on X</a>
           <a href="mailto:contactuncfund@gmail.com">contactuncfund@gmail.com</a>
           <Link href="/pitch">Pitch Unc</Link>
+          <Link href="/nephews">Nephews</Link>
           <Link href="/anti-portfolio">Anti-portfolio</Link>
         </div>
         <div className="legal">

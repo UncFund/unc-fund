@@ -28,7 +28,7 @@ Why not Webflow: 12 of the 43 sites scanned use it, so it is safe, but embedding
 /                 Home (hero with animated Unc, thesis, check slider, CTA)
 /thesis           What Unc funds and why (Blockchain, AI, Software, Robotics)
 /pitch            The form. Also the "how it works" 3 steps.
-/portfolio        Companies backed. "Coming soon" card at launch.
+/nephews          The companies Unc backed. He calls them nephews. "Coming soon" card at launch.
 /anti-portfolio   Deals Unc passed on. Empty at launch, funny later.
 /about            Who is behind Unc. One real person, one cartoon Unc.
 /notes            Blog / Unc's takes.
@@ -42,7 +42,7 @@ Why not Webflow: 12 of the 43 sites scanned use it, so it is safe, but embedding
 2. **The check slider.** "How much does Unc believe in you?" Slider from $500 to $9,999. Unc's expression and caption change at $500, $2,500, $5,000, $9,999. Below it: "Yes, these are real numbers. No, we are not a rolling fund yet."
 3. **What we fund.** Four tiles: Blockchain, AI, Software, Robotics. Each with one sentence of thesis and an Unc-ism.
 4. **How it works.** Three steps: Fill the form (5 minutes), Call with Unc (20 minutes), Money in a week. "No 47-slide decks. No warm intro required."
-5. **Portfolio strip.** Logos, or a single card that says "Unc's first check goes out [date]."
+5. **Nephews strip.** Logos, or a single card that says "Unc's first check goes out [date]."
 6. **From the notes.** Latest three posts.
 7. **Footer.** Socials, newsletter box, "Proud of you. — Unc", legal disclaimer.
 

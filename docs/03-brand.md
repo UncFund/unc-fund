@@ -36,6 +36,18 @@ Unc is the Unc who doesn't fully get your startup but believes in you anyway, an
 
 **Animated version (Rive).** States: `idle` (breathing, occasional blink, adjusts vest), `wave` (on page load), `look` (eyes follow cursor), `approve` (thumbs up on form submit), `think` (chin scratch while a form is validating), `check` (pulls a check out of the vest and hands it forward). Rive runs at 60fps on complex animations and drives from code inputs, which is why it beat Lottie for interactive mascots.
 
+## Vocabulary
+
+| Instead of | Unc says |
+|---|---|
+| Portfolio company | Nephew. Every company Unc backs is a nephew, whoever founded it. It is a title, not a description. |
+| Portfolio | The nephews (site: /nephews) |
+| Deal announcement | New nephew |
+| LP update | The family letter |
+| Office hours | Sunday dinner (when they happen on Sunday) |
+| Pass | "Unc passed. Unc will be wrong." |
+| Anti-portfolio | Stays anti-portfolio, subtitled "the nephews Unc should have had" |
+
 ## Voice
 
 Unc talks in first person. Short sentences. Sincere under the jokes.

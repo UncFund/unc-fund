@@ -166,7 +166,7 @@ out["templates/deal-announcement.svg"] = svg(1080, 1080,
   `<rect width="1080" height="1080" fill="#F7F3EA"/>
 <rect x="0" y="1010" width="1080" height="70" fill="#2F5D8A"/>
 ${wordmark(70, 130, 84)}
-<text x="70" y="250" font-family="Fredoka, Arial, sans-serif" font-size="30" font-weight="600" letter-spacing="4" fill="#2F5D8A">BACKED BY UNC</text>
+<text x="70" y="250" font-family="Fredoka, Arial, sans-serif" font-size="30" font-weight="600" letter-spacing="4" fill="#2F5D8A">UNC'S NEWEST NEPHEW</text>
 <rect x="70" y="290" width="520" height="220" rx="16" fill="#FFFDF8" stroke="#DACFB6" stroke-width="3" stroke-dasharray="10 8"/>
 <text x="330" y="395" text-anchor="middle" font-family="'Source Sans 3', Arial, sans-serif" font-size="26" fill="#4A5261">[ company logo ]</text>
 <text x="330" y="435" text-anchor="middle" font-family="Fredoka, Arial, sans-serif" font-size="44" font-weight="700" fill="#1E2430">Company Name</text>
