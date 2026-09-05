@@ -123,6 +123,31 @@ Corny on purpose. Uncle-at-the-barbecue energy. Puns allowed. Every one of these
 19. Dream big, start small, zip the vest halfway. Only one of those is negotiable.
 20. Whatever you're scared to build, build that. Fear is just excitement that hasn't had its coffee yet. Proud of you. Go.
 
+## Vest bank
+
+The vest is the running bit. One a week, never two in a row. Some are motivation, some are just the vest.
+
+1. Zipped halfway. Not a fashion choice. A philosophy. Open enough to breathe, closed enough to mean business. Build your company like that.
+2. People ask why the vest. Same reason you should ship the ugly version: it works, it's warm, and nobody can tell me to stop.
+3. The vest has two pockets. One for the phone, one for the check. Both are for you, kiddo.
+4. A vest is a jacket that decided to focus. Be the vest.
+5. Every investor owns this vest. I'm just the one who admits it. Honesty is the whole brand. So is the vest.
+6. The vest doesn't have sleeves because sleeves are for people who aren't ready to roll them up. Roll them up.
+7. Wore the vest to a wedding once. Got two pitches and a dance. Always be wearing the vest.
+8. The label has a mountain on it. Don't ask which mountain. It's the one you're climbing. Keep climbing.
+9. Fun fact: the vest is quilted so the warmth stays in. Same as your team. Keep the good ones close.
+10. Someone asked if I have a summer vest. Son. It's a vest. It's already the summer version of a jacket.
+11. The vest is navy because navy hides coffee. Your MVP should be navy. Metaphorically. Hide the coffee, ship the thing.
+12. If your grandfather had this vest, he'd have funded you already. He doesn't. I do. unc.fund
+13. Halfway zipped means I can still get to the checkbook. Ask me for it.
+14. They tried to make the vest a meme. Joke's on them. I was already the meme. Now I'm the meme with a checkbook.
+15. The vest has been through three winters and one very long demo day. It's still here. So are you. That's the point.
+16. My nephew asked if he gets a vest. I said: ship first. He shipped. Vest's in the mail. That's how this works.
+17. You don't need the vest to be a founder. You need the vest to be an Unc. Get funded first, get the vest later.
+18. New nephew rule: the vest comes at the first customer, not the first check. Motivation is a garment.
+19. Zipper stuck this morning. Sat with it. Breathed. Tried again. Went up. That's fundraising, kiddo.
+20. Somewhere there's a warehouse of vests waiting for people who haven't started yet. Start. Claim your vest.
+
 ## Bank: for other investors
 
 Affectionate, a little pointed. Never name a firm. Unc respects the job and mocks the costume.
