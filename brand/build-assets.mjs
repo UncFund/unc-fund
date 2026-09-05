@@ -138,12 +138,13 @@ out["social/x-banner.svg"] = svg(1500, 500,
   `<rect width="1500" height="500" fill="#F7F3EA"/>
 <rect x="0" y="446" width="1500" height="54" fill="#2F5D8A"/>
 <line x1="0" y1="440" x2="1500" y2="440" stroke="#7FA7CF" stroke-width="3" stroke-dasharray="10 8"/>
-${wordmark(100, 212, 150)}
-<text x="106" y="284" font-family="Fredoka, Arial, sans-serif" font-size="46" font-weight="600" fill="#1E2430">Small checks. Big Unc energy.</text>
-<text x="106" y="330" font-family="'Source Sans 3', Arial, sans-serif" font-size="27" fill="#4A5261">First checks into blockchain, AI, software and robotics.</text>
-<text x="106" y="366" font-family="'Source Sans 3', Arial, sans-serif" font-size="27" fill="#4A5261">$500 to $9,999. Decision in a week.</text>
-<text x="106" y="410" font-family="'JetBrains Mono', Consolas, monospace" font-size="22" fill="#2F5D8A">unc.fund  ·  contactuncfund@gmail.com</text>
-<g transform="translate(1110 52)">${pose.wave()}</g>`,
+${wordmark(430, 190, 140)}
+<text x="436" y="256" font-family="Fredoka, Arial, sans-serif" font-size="44" font-weight="600" fill="#1E2430">Small checks. Big Unc energy.</text>
+<text x="436" y="300" font-family="'Source Sans 3', Arial, sans-serif" font-size="26" fill="#4A5261">First checks into blockchain, AI, software and robotics.</text>
+<text x="436" y="334" font-family="'Source Sans 3', Arial, sans-serif" font-size="26" fill="#4A5261">$500 to $9,999. Decision in a week.</text>
+<text x="436" y="378" font-family="'JetBrains Mono', Consolas, monospace" font-size="21" fill="#2F5D8A">unc.fund</text>
+<!-- bottom-left stays empty: X puts the round avatar there -->
+<g transform="translate(1140 52)">${pose.wave()}</g>`,
   "X header, 1500 by 500. Unc waving, wordmark, tagline.");
 
 // OG image
