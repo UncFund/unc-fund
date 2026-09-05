@@ -21,10 +21,11 @@ const HAIR = "#8C8F94";
 const HAIR_2 = "#B5B8BD";
 const SHIRT = "#BFD7EA";
 const COLLAR = "#E4EEF6";
-const VEST = "#2F5D8A";
-const VEST_D = "#2A5480";
-const VEST_C = "#3E6C99";
-const VEST_2 = "#7FA7CF";
+const VEST_HI = "#3A6A9A";
+const VEST_LO = "#2F5D8A";
+const VEST_D = "#22456A";
+const VEST_L = "#4E7FB0";
+const ZIP = "#C9D3DE";
 const KHAKI = "#D9C8A6";
 const CREASE = "#C2AF89";
 const BELT = "#6B4F3A";
@@ -34,15 +35,15 @@ const SOLE = "#F1EDE3";
 const CREAM = "#F7F3EA";
 
 /**
- * Unc, the mascot. Inline SVG derived from brand/character/unc-master.svg.
+ * Unc, the mascot. Mirrors brand/character/unc-master.svg.
  * Blinks on a CSS loop, eyes follow the cursor, waves once on mount.
  * Replace with the Rive runtime once the polished character exists.
  */
 export default function Unc({ mood = "happy", size = 280, wave = true, bubble, follow = true, className = "" }: Props) {
   const ref = useRef<SVGSVGElement>(null);
   const uid = useId().replace(/:/g, "");
-  const fleeceId = `fleece-${uid}`;
   const skinId = `skin-${uid}`;
+  const puffId = `puff-${uid}`;
 
   useEffect(() => {
     if (!follow) return;
@@ -76,16 +77,16 @@ export default function Unc({ mood = "happy", size = 280, wave = true, bubble, f
       width={size}
       height={(size * 400) / 320}
       role="img"
-      aria-label="Unc, a friendly uncle in a half-zipped fleece vest"
+      aria-label="Unc, a friendly uncle in a half-zipped puffer vest"
     >
       <defs>
-        <pattern id={fleeceId} width="7" height="7" patternUnits="userSpaceOnUse">
-          <circle cx="2" cy="2" r="1" fill={VEST_2} opacity=".28" />
-          <circle cx="5.5" cy="5.5" r="1" fill={VEST_2} opacity=".18" />
-        </pattern>
         <linearGradient id={skinId} x1="0" y1="0" x2="0" y2="1">
           <stop offset="0" stopColor={SKIN} />
           <stop offset="1" stopColor={SKIN_2} />
+        </linearGradient>
+        <linearGradient id={puffId} x1="0" y1="0" x2="0" y2="1">
+          <stop offset="0" stopColor={VEST_HI} />
+          <stop offset="1" stopColor={VEST_LO} />
         </linearGradient>
       </defs>
 
@@ -147,47 +148,68 @@ export default function Unc({ mood = "happy", size = 280, wave = true, bubble, f
       <path d="M158 378 L218 378 L218 380 Q218 386 210 386 L164 386 Q156 386 158 378 Z" fill={SOLE} stroke={INK} strokeWidth="2" />
       <path d="M176 364 L190 364 M178 369 L192 369" stroke={CREAM} strokeWidth="2" strokeLinecap="round" />
 
-      {/* torso: shirt, vest, collar, zipper, pockets, patch */}
+      {/* torso: oxford shirt under a quilted puffer vest */}
       <rect x="94" y="186" width="132" height="124" rx="28" fill={SHIRT} stroke={INK} strokeWidth="2.5" />
-      <path d="M108 190 Q160 174 212 190 L216 294 Q160 306 104 294 Z" fill={VEST} stroke={INK} strokeWidth="2.5" />
-      <path d="M108 190 Q160 174 212 190 L216 294 Q160 306 104 294 Z" fill={`url(#${fleeceId})`} />
-      <path d="M112 190 Q160 176 208 190 L204 200 Q160 188 116 200 Z" fill={VEST_C} stroke={INK} strokeWidth="2.5" />
-      <path d="M148 192 L160 238 L172 192 Z" fill={SHIRT} stroke={INK} strokeWidth="2" />
-      <path d="M140 186 L160 206 L180 186 L170 178 L160 190 L150 178 Z" fill={COLLAR} stroke={INK} strokeWidth="2" />
-      <line x1="160" y1="238" x2="160" y2="300" stroke={VEST_2} strokeWidth="4" strokeDasharray="2.5 2.5" />
-      <line x1="160" y1="238" x2="160" y2="300" stroke={INK} strokeWidth="1" />
-      <rect x="156" y="232" width="8" height="14" rx="2.5" fill={VEST_2} stroke={INK} strokeWidth="1.5" />
-      <rect x="158" y="246" width="4" height="8" rx="1.5" fill={VEST_2} stroke={INK} strokeWidth="1" />
-      <path d="M112 196 L116 290 M208 196 L204 290" fill="none" stroke={VEST_2} strokeWidth="1.2" strokeDasharray="3 3" />
-      <path d="M110 254 Q122 250 134 258 L136 288 Q122 292 110 288 Z" fill={VEST_D} stroke={INK} strokeWidth="2" />
-      <path d="M186 258 Q198 250 210 254 L210 288 Q198 292 184 288 Z" fill={VEST_D} stroke={INK} strokeWidth="2" />
-      <path d="M112 258 L134 262 M186 262 L208 258" stroke={VEST_2} strokeWidth="2.5" strokeDasharray="2 2" />
-      <rect x="176" y="212" width="28" height="14" rx="3" fill={CREAM} stroke={INK} strokeWidth="1.5" />
-      <rect x="178" y="214" width="24" height="10" rx="2" fill="none" stroke={VEST_2} strokeWidth="1" strokeDasharray="1.5 1.5" />
-      <text x="190" y="223" fontFamily="var(--font-display), sans-serif" fontSize="8" fontWeight="700" textAnchor="middle" fill={VEST}>UNC</text>
+      <path d="M104 192 Q160 172 216 192 L220 296 Q160 310 100 296 Z" fill={`url(#${puffId})`} stroke={INK} strokeWidth="2.5" />
+      <g stroke={VEST_D} strokeWidth="1.6" fill="none">
+        <path d="M104 214 Q160 220 216 214" />
+        <path d="M103 230 Q160 236 217 230" />
+        <path d="M102 246 Q160 252 218 246" />
+        <path d="M101 262 Q160 268 219 262" />
+        <path d="M100 278 Q160 284 220 278" />
+      </g>
+      <g stroke={VEST_L} strokeWidth="1.2" fill="none" opacity=".7">
+        <path d="M104 208 Q160 214 216 208" />
+        <path d="M103 224 Q160 230 217 224" />
+        <path d="M102 240 Q160 246 218 240" />
+        <path d="M101 256 Q160 262 219 256" />
+        <path d="M100 272 Q160 278 220 272" />
+      </g>
+      <path d="M104 192 Q100 240 100 296 M216 192 Q220 240 220 296" fill="none" stroke={VEST_D} strokeWidth="3.5" />
+      <path d="M100 296 Q160 310 220 296 L220 290 Q160 304 100 290 Z" fill={VEST_D} stroke={INK} strokeWidth="2" />
+      <path d="M108 192 Q160 172 212 192 L208 208 Q160 192 112 208 Z" fill={VEST_HI} stroke={INK} strokeWidth="2.5" />
+      <path d="M112 200 Q160 186 208 200" fill="none" stroke={VEST_D} strokeWidth="1.6" />
+      <path d="M146 194 L160 240 L174 194 Z" fill={SHIRT} stroke={INK} strokeWidth="2" />
+      <path d="M138 188 L160 210 L182 188 L172 178 L160 192 L148 178 Z" fill={COLLAR} stroke={INK} strokeWidth="2" />
+      <path d="M156 240 L155 300 M164 240 L165 300" stroke={VEST_D} strokeWidth="2" />
+      <line x1="160" y1="240" x2="160" y2="300" stroke={ZIP} strokeWidth="3.5" strokeDasharray="2.5 2" />
+      <rect x="155" y="234" width="10" height="16" rx="3" fill={ZIP} stroke={INK} strokeWidth="1.5" />
+      <rect x="158" y="250" width="4" height="9" rx="1.5" fill={ZIP} stroke={INK} strokeWidth="1" />
+      <path d="M150 180 L170 180 L170 190 L150 190 Z" fill={VEST_HI} stroke={INK} strokeWidth="1.5" />
+      <path d="M110 258 L132 280" stroke={VEST_D} strokeWidth="5" strokeLinecap="round" />
+      <path d="M110 258 L132 280" stroke={ZIP} strokeWidth="2" strokeDasharray="2 2" strokeLinecap="round" />
+      <rect x="128" y="276" width="5" height="9" rx="1.5" fill={ZIP} stroke={INK} strokeWidth="1" transform="rotate(-45 130 280)" />
+      <path d="M210 258 L188 280" stroke={VEST_D} strokeWidth="5" strokeLinecap="round" />
+      <path d="M210 258 L188 280" stroke={ZIP} strokeWidth="2" strokeDasharray="2 2" strokeLinecap="round" />
+      <rect x="187" y="276" width="5" height="9" rx="1.5" fill={ZIP} stroke={INK} strokeWidth="1" transform="rotate(45 190 280)" />
+      <g transform="translate(180 214)">
+        <rect x="0" y="0" width="28" height="16" rx="1.5" fill={SOLE} stroke={INK} strokeWidth="1.5" />
+        <rect x="2" y="2" width="24" height="3" fill="#E8742C" />
+        <rect x="2" y="5" width="24" height="3" fill="#B0568A" />
+        <rect x="2" y="8" width="24" height="3" fill={VEST_LO} />
+        <path d="M2 11 L6 6 L9 9 L13 4 L17 8 L20 6 L24 10 L26 8 L26 11 Z" fill={INK} />
+        <text x="14" y="15" fontFamily="var(--font-display), sans-serif" fontSize="4.6" fontWeight="700" textAnchor="middle" fill={INK} letterSpacing=".6">UNC</text>
+      </g>
 
       {/* head */}
       <rect x="144" y="160" width="32" height="34" fill={`url(#${skinId})`} stroke={INK} strokeWidth="2.5" />
       <path d="M96 118 Q96 56 160 56 Q224 56 224 118 Q224 158 200 176 Q182 188 160 188 Q138 188 120 176 Q96 158 96 118 Z" fill={`url(#${skinId})`} stroke={INK} strokeWidth="2.5" />
-      <ellipse cx="97" cy="126" rx="10" ry="13" fill={SKIN} stroke={INK} strokeWidth="2.5" />
-      <ellipse cx="223" cy="126" rx="10" ry="13" fill={SKIN} stroke={INK} strokeWidth="2.5" />
-      <path d="M94 120 Q100 124 96 132 M226 120 Q220 124 224 132" fill="none" stroke={SKIN_LINE} strokeWidth="2" strokeLinecap="round" />
-      <path d="M100 116 Q100 76 138 64 Q160 58 182 64 Q220 76 220 116 Q206 100 160 98 Q114 100 100 116 Z" fill={HAIR} stroke={INK} strokeWidth="2.5" />
-      <path d="M96 116 Q90 140 100 156 L106 122 Z" fill={HAIR} stroke={INK} strokeWidth="2.5" />
-      <path d="M224 116 Q230 140 220 156 L214 122 Z" fill={HAIR} stroke={INK} strokeWidth="2.5" />
-      <path d="M118 84 Q140 72 162 72 M128 76 Q150 66 172 68" fill="none" stroke={HAIR_2} strokeWidth="2" strokeLinecap="round" />
-      <path d="M100 104 L122 98 M220 104 L198 98" stroke={INK} strokeWidth="3" strokeLinecap="round" />
-      <rect x="120" y="88" width="32" height="18" rx="9" fill={VEST_2} fillOpacity=".25" stroke={INK} strokeWidth="3" />
-      <rect x="168" y="88" width="32" height="18" rx="9" fill={VEST_2} fillOpacity=".25" stroke={INK} strokeWidth="3" />
-      <line x1="152" y1="96" x2="168" y2="96" stroke={INK} strokeWidth="3" />
-      <path d="M136 114 Q160 110 184 114" fill="none" stroke={SKIN_LINE} strokeWidth="1.5" strokeLinecap="round" opacity=".7" />
+      <path d="M100 152 L98 118 Q96 56 160 56 Q224 56 222 118 L220 152 L212 152 L212 128 Q212 106 196 101 Q176 96 160 99 Q144 96 124 101 Q108 106 108 128 L108 152 Z" fill={HAIR} stroke={INK} strokeWidth="2.5" strokeLinejoin="round" />
+      <path d="M114 88 Q136 70 166 68 M126 78 Q152 62 186 66 M196 76 Q206 84 210 98" fill="none" stroke={HAIR_2} strokeWidth="2" strokeLinecap="round" />
+      <ellipse cx="97" cy="128" rx="10" ry="13" fill={SKIN} stroke={INK} strokeWidth="2.5" />
+      <ellipse cx="223" cy="128" rx="10" ry="13" fill={SKIN} stroke={INK} strokeWidth="2.5" />
+      <path d="M94 122 Q100 126 96 134 M226 122 Q220 126 224 134" fill="none" stroke={SKIN_LINE} strokeWidth="2" strokeLinecap="round" />
+      <path d="M102 116 L122 96 M218 116 L198 96" stroke={INK} strokeWidth="3" strokeLinecap="round" />
+      <rect x="120" y="86" width="32" height="18" rx="9" fill="#7FA7CF" fillOpacity=".3" stroke={INK} strokeWidth="3" />
+      <rect x="168" y="86" width="32" height="18" rx="9" fill="#7FA7CF" fillOpacity=".3" stroke={INK} strokeWidth="3" />
+      <line x1="152" y1="94" x2="168" y2="94" stroke={INK} strokeWidth="3" />
+      <path d="M138 116 Q160 112 182 116" fill="none" stroke={SKIN_LINE} strokeWidth="1.5" strokeLinecap="round" opacity=".7" />
 
       {mood === "think" ? (
         <g>
           <path d="M120 124 Q134 128 152 126 Q138 132 124 132 Z" fill={INK} />
           <path d="M200 124 Q186 128 168 126 Q182 132 196 132 Z" fill={INK} />
-          <path d="M128 140 Q138 136 148 140" fill="none" stroke={INK} strokeWidth="3.5" strokeLinecap="round" />
-          <path d="M172 140 Q182 136 192 140" fill="none" stroke={INK} strokeWidth="3.5" strokeLinecap="round" />
+          <path d="M128 140 Q138 136 148 140 M172 140 Q182 136 192 140" fill="none" stroke={INK} strokeWidth="3.5" strokeLinecap="round" />
         </g>
       ) : (
         <g>

@@ -9,7 +9,7 @@ Unc is the uncle who doesn't fully get your startup but believes in you anyway, 
 **Who he is.** Mid-50s. Comfortable. Was in tech once, "did well in the '90s", now spends his time at demo days telling founders they remind him of a young somebody. Slightly behind on slang and uses it wrong on purpose. Extremely warm. Writes small checks fast because "life is short and so is my attention span."
 
 **What he wears.** The uniform, played straight:
-- Fleece vest, Patagonia style, zipped exactly halfway. Color is the brand's main accent (see palette). A tiny "UNC" embroidered patch on the chest where a firm logo would go.
+- The vest. A navy quilted puffer vest in the Patagonia Nano Puff silhouette: horizontal baffles, stand-up collar, angled zip hand pockets, zipped exactly halfway. On the left chest, where the mountain label would be, a parody label with a sunset-band skyline and "UNC". Color is the brand's main accent (see palette). Master drawing: `brand/character/unc-master.svg`.
 - Light blue oxford or a plain crewneck under the vest.
 - Khakis or dark jeans.
 - Grey Allbirds-style runners.
