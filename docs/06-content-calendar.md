@@ -38,7 +38,7 @@ Cadence: 3 posts a day on weekdays, 2 on weekends. Roughly 9am, 1pm, 6pm Pacific
 **Tue**
 - 9am (take): Boring software with one paying customer beats a beautiful demo with none. I will say this every week until it stops being true.
 - 1pm (bit): My nephew asked what a zk rollup is. I told him it's when you fold the sleeping bag really tight. He believed me. Don't be my nephew. Explain it to me at unc.fund.
-- 6pm (motivation): Nobody who built anything real felt ready. They felt scared and started anyway. Ready is a feeling you get after, not before.
+- 6pm (motivation): You miss 100% of the checks you don't ask for. I know, I know. But you do. Ask.
 
 **Wed**
 - 9am (bit): Things Unc will ask on the call: does it work when the wifi is bad. Who pays. What would you do with $2,500. That's the whole list.
@@ -48,7 +48,7 @@ Cadence: 3 posts a day on weekdays, 2 on weekends. Roughly 9am, 1pm, 6pm Pacific
 **Thu**
 - 9am (take): A $500 check will not build your company. It will tell you that one person who was not your mother believed you. That's worth more than the money, which is convenient, because it's not much money.
 - 1pm (bit): I keep a list of every deal I pass on. When they get huge, the list goes on the website. Accountability is the brand. unc.fund/anti-portfolio
-- 6pm (motivation): Somebody with less talent than you is raising money right now because they asked. Ask.
+- 6pm (motivation): Nobody felt ready. Not Edison, not your mom, not me the day I bought this vest. Ready is a feeling you get after. Start now.
 
 **Fri**
 - 9am (bit): It is Friday. Unc reads decks in bed on Fridays. PDF is kindest.
@@ -57,11 +57,11 @@ Cadence: 3 posts a day on weekdays, 2 on weekends. Roughly 9am, 1pm, 6pm Pacific
 
 **Sat**
 - 10am (bit): Zipped the vest exactly halfway this morning. Some things you don't change.
-- 4pm (motivation): Your first version will embarrass you. Good. The people who never get embarrassed never shipped.
+- 4pm (motivation): Your first version is going to be ugly. So was I. Look at me now. Ship it.
 
 **Sun**
 - 10am (take): Sunday thought: the first dollar is the hardest one to get and the easiest one to give. So I give it.
-- 4pm (motivation): It's not too late. It's not too early. It's Tuesday tomorrow. Build something.
+- 4pm (motivation): Dream big, start small, zip the vest halfway. Only one of those is negotiable.
 
 ## Week 2
 
@@ -100,23 +100,28 @@ Cadence: 3 posts a day on weekdays, 2 on weekends. Roughly 9am, 1pm, 6pm Pacific
 
 ## Motivation bank: for founders
 
-Sincere. No jokes in the last line. These are the posts that get screenshotted.
+Corny on purpose. Uncle-at-the-barbecue energy. Puns allowed. Every one of these should make a founder groan and then screenshot it anyway.
 
-1. You don't need permission to start. You need a weekend and a problem that annoys you. Everything after that is paperwork.
-2. Nobody who built anything real felt ready. They felt scared and started anyway. Ready is a feeling you get after, not before.
-3. Your first version will embarrass you. Good. The people who never get embarrassed never shipped.
-4. Somebody with less talent than you is raising money right now because they asked. Ask.
-5. My nephews aren't the smartest people in the room. They're the ones still in the room at 11pm.
-6. You will get told no by people who are wrong. Collect the no's. Some of them will want a meeting later.
-7. Small is not a weakness. Small is fast, cheap, and impossible to kill. Stay small until the world makes you big.
-8. It's not too late. It's not too early. It's Tuesday. Build something.
-9. Talk to one customer today. Not a survey. One human, one conversation. It's worth more than a week of building.
-10. Nobody is coming to discover you. You have to be findable. That's what the form is for.
-11. If you're the only one who believes in it, that's not a red flag. That's just Monday. It's Tuesday when you have a second person that matters.
-12. The plan will be wrong. Make it anyway. A wrong plan you can fix. No plan you can't.
-13. Being early looks exactly like being wrong. For a while. Keep going long enough to find out which one it was.
-14. You don't need a co-founder, a deck, or a lawyer to find out if people want it. You need a link and the nerve to send it.
-15. Proud of you is not a slogan. It's the email I send when you ship. Ship.
+1. Rome wasn't built in a day, champ. But they did pour the first bucket of concrete on a Tuesday. Pour your bucket.
+2. You miss 100% of the checks you don't ask for. I know, I know. But you do. Ask.
+3. Nobody felt ready. Not Edison, not your mom, not me the day I bought this vest. Ready is a feeling you get after. Start now.
+4. Your first version is going to be ugly. So was I. Look at me now. Ship it.
+5. A journey of a thousand miles begins with a single deploy. And then a hotfix. And then another hotfix. That's the journey, kiddo.
+6. Somebody with half your talent is raising money right now because they asked. Don't make Unc say it twice. Ask.
+7. Small is not a weakness. Ants can lift fifty times their weight and nobody's ever seen an ant with a pitch deck. Stay small. Lift.
+8. They said it couldn't be done. They also said the vest was a phase. Prove everybody wrong. Twice.
+9. Talk to one customer today. One. Not a survey, not a "user study." A human. Buy them a coffee. Listen. That's the whole MBA.
+10. Nobody's coming to discover you, kiddo. You're not a diner in a movie. Send the link.
+11. If you're the only one who believes in it, congratulations, you're a founder. When the second person believes, you're a company. Go find your second person.
+12. The plan will be wrong. Make it anyway. A wrong plan is a map with a typo. No plan is a guy standing in a parking lot.
+13. Being early looks exactly like being wrong. Right up until it doesn't. Hang in there. That's a poster with a cat on it and it's also true.
+14. You don't need a co-founder, a deck, or a lawyer to find out if people want it. You need a link and the nerve to hit send. Hit send.
+15. Fall down seven times, stand up eight. Then go to bed, that's a lot of falling. Try again tomorrow. Proud of you.
+16. Every expert was once a beginner. Every unicorn was once a spreadsheet with a typo. Every Unc was once a nephew.
+17. The early bird gets the worm, sure, but the second mouse gets the cheese. Point is: show up. There's a snack either way.
+18. Big shot investors want traction. Unc wants to see you try. Trying is traction for the soul. Wire's still small though.
+19. Dream big, start small, zip the vest halfway. Only one of those is negotiable.
+20. Whatever you're scared to build, build that. Fear is just excitement that hasn't had its coffee yet. Proud of you. Go.
 
 ## Bank: for other investors
 
