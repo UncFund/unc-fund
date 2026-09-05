@@ -12,9 +12,19 @@ The repo lives at https://github.com/UncFund/unc-fund under its own `UncFund` or
 
 ---
 
-## 2. Vercel hosting (15 minutes, free)
+## 2. Vercel hosting — DONE 2026-09-05
 
-Vercel's free Hobby plan cannot deploy a private repo owned by a GitHub organization, so the repo was made public on 2026-09-05. Decision: stay on Hobby for now. Hobby's terms are non-commercial, so when the fund is real and the site is doing business, upgrade to Pro ($20/month, team name top-left > Settings > Billing).
+Live at https://unc-fund.vercel.app on the free Hobby plan under the `UncFund` Vercel team. The Blob store `unc-decks` is created and connected, and `NOTIFY_TO` and `NEXT_PUBLIC_SITE_URL` are set. Both forms were tested on production and a deck upload landed in Blob.
+
+How deploys work now: Vercel's Git auto-deploy is turned off (it kept building the repo root). Production deploys run from this machine:
+
+```bash
+cd C:\Users\rand\code\unc-fund\site && npm run deploy
+```
+
+Hobby's terms are non-commercial, so when the fund is real and the site is doing business, upgrade to Pro ($20/month, team name top-left > Settings > Billing). At that point Git auto-deploy can be turned back on by setting Root Directory to `site` in project settings and deleting the root `vercel.json`.
+
+The original manual steps, kept for reference:
 
 1. Sign in at https://vercel.com/login. The account was created with email/Google on 2026-09-05, which is fine: GitHub gets connected in the next step. If the GitHub option never appears on the import page, connect it at https://vercel.com/account/login-connections first.
 2. Go to https://vercel.com/new and under **Import Git Repository** click **Continue with GitHub**. GitHub asks where to install the Vercel app: pick the **UncFund** organization (not your personal account), choose **Only select repositories**, pick `unc-fund`, click **Install**. Back in Vercel, click **Import** next to `UncFund/unc-fund`. If the org is missing later, click **Adjust GitHub App Permissions** on that page.
@@ -36,7 +46,7 @@ Docs: https://vercel.com/docs/storage/vercel-blob and https://vercel.com/docs/pr
 2. **Domains > Add Domain**: `unc.fund`. Resend shows three or four DNS records (MX, TXT for SPF, TXT for DKIM). Leave the tab open.
 3. Add those records at GoDaddy: https://dcc.godaddy.com/manage/unc.fund/dns (sign in, find unc.fund, DNS). Copy each record exactly. Wait for Resend to show **Verified** (usually under an hour).
 4. **API Keys > Create API Key**, name `unc-fund-site`, permission Sending access. Copy it once, it is only shown once.
-5. In Vercel (step 2.5) set `RESEND_API_KEY` to that key and `RESEND_FROM` to `Unc <unc@unc.fund>`.
+5. Add the key to Vercel yourself (it is a secret, so I will not handle it): https://vercel.com/unc-fund/unc-fund/settings/environment-variables > **Add**. Key `RESEND_API_KEY`, value the key, environments Production and Preview. Add a second one: key `RESEND_FROM`, value `Unc <unc@unc.fund>`. Then tell me and I will redeploy and send a test through both forms.
 
 Until the domain is verified you can set `RESEND_FROM` to `Unc <onboarding@resend.dev>`, which only delivers to the email you signed up with. Fine for testing.
 
@@ -46,9 +56,13 @@ Docs: https://resend.com/docs/dashboard/domains/introduction
 
 ## 4. Point unc.fund at Vercel (10 minutes, plus DNS wait)
 
-1. In Vercel, project **Settings > Domains > Add**: `unc.fund` and `www.unc.fund`. Vercel shows the records it wants: an A record for `@` pointing to `76.76.21.21`, and a CNAME for `www` pointing to `cname.vercel-dns.com`.
-2. At GoDaddy DNS (same page as step 3.3), delete the placeholder "Launching Soon" records for `@` and `www` and add Vercel's two records.
-3. Wait. Vercel's Domains page turns green when it sees the records. HTTPS is automatic.
+`unc.fund` is already added to the Vercel project (done 2026-09-05). Vercel is waiting for one DNS record.
+
+1. Go to https://dcc.godaddy.com/manage/unc.fund/dns and sign in.
+2. Find the existing **A** record whose name is `@`. It currently points at GoDaddy's "Launching Soon" page. Click the pencil to edit it, change the value to `76.76.21.21`, save. If there is more than one `@` A record, delete the extras.
+3. Find the **CNAME** record named `www`. Edit its value to `cname.vercel-dns.com`, save. If there is none, add one.
+4. If GoDaddy shows a "Website Builder" or "Forwarding" section attached to unc.fund, turn it off, otherwise it keeps re-adding its own records.
+5. Wait 10 to 60 minutes. Vercel's domain page turns green when it sees the record: https://vercel.com/unc-fund/unc-fund/settings/domains. HTTPS is automatic. Tell me and I will confirm https://unc.fund loads.
 
 Docs: https://vercel.com/docs/projects/domains/add-a-domain
 

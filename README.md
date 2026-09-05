@@ -24,5 +24,6 @@ Standalone project. Nothing here is shared with any other project. Hosted at htt
 - Email: contactuncfund@gmail.com created. Public contact address until Google Workspace is set up on the domain.
 - Handles still open: `uncfund` on Instagram, TikTok, GitHub, YouTube (all showed "not found" on 2026-09-05).
 - Fund vehicle: a plain single-member LLC, started personally. No outside money at first.
-- Website: `site/` is the Next.js codebase. Builds clean (`npm run build`) as of 2026-09-05. Pitch form accepts a deck upload; contact form accepts an attachment. Needs Blob and Resend keys on Vercel to store files and send mail.
+- Website: live at https://unc-fund.vercel.app since 2026-09-05. `site/` is the Next.js codebase. Deploy with `npm run deploy` from `site/` (Git auto-deploy is off). Blob storage is connected, so deck uploads work. Email needs the Resend key, see `docs/05-your-steps.md`.
+- Domain: `unc.fund` is attached to the Vercel project and waiting for the GoDaddy A record.
 - Brand: master character drawing, six-pose sheet, wordmark, vest mark, avatar, lockup, X banner and OG image are in `brand/`. Node 24 is installed on this machine.

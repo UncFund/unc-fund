@@ -6,7 +6,9 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "typecheck": "tsc --noEmit"
+    "typecheck": "tsc --noEmit",
+    "deploy": "vercel deploy --prod --yes",
+    "deploy:preview": "vercel deploy --yes"
   },
   "dependencies": {
     "@vercel/blob": "^1.1.0",
