@@ -18,7 +18,7 @@ Vercel's free Hobby plan cannot deploy a private repo owned by a GitHub organiza
 
 1. Sign in at https://vercel.com/login. The account was created with email/Google on 2026-09-05, which is fine: GitHub gets connected in the next step. If the GitHub option never appears on the import page, connect it at https://vercel.com/account/login-connections first.
 2. Go to https://vercel.com/new and under **Import Git Repository** click **Continue with GitHub**. GitHub asks where to install the Vercel app: pick the **UncFund** organization (not your personal account), choose **Only select repositories**, pick `unc-fund`, click **Install**. Back in Vercel, click **Import** next to `UncFund/unc-fund`. If the org is missing later, click **Adjust GitHub App Permissions** on that page.
-3. On the configure screen set **Root Directory** to `site`. Leave the framework as Next.js. Click **Deploy**. The first deploy will work but the forms will only log, not email, until steps 3 and 4 are done.
+3. On the configure screen set **Root Directory** to `site`. Leave the framework as Next.js. Click **Deploy**. The first deploy will work but the forms will only log, not email, until steps 3 and 4 are done. If you forgot the root directory (every page 404s and `/site/package.json` loads), fix it at https://vercel.com/unc-fund/unc-fund/settings under **Root Directory**, then redeploy. Project was first deployed 2026-09-05 at https://unc-fund.vercel.app.
 4. In the project, open **Storage > Create Database > Blob**, name it `unc-decks`, connect it to the project. This adds `BLOB_READ_WRITE_TOKEN` automatically.
 5. Open **Settings > Environment Variables** and add:
    - `NOTIFY_TO` = `contactuncfund@gmail.com`
