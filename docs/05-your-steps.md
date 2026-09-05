@@ -2,19 +2,19 @@
 
 Everything on this list needs you, because it involves an account, a payment, or a signature. Each step says what to do, where, and what to send back to me so I can finish the wiring. Budget for the whole list: about $200 to $400 in year one, most of it the LLC.
 
-Where things stand: your other business code lives on Bitbucket, and this project has no remote at all yet. It is in its own folder with its own git history and its own commit identity (contactuncfund@gmail.com). Nothing here touches the other repos.
+Where things stand: this project is in its own folder with its own git history and its own commit identity (contactuncfund@gmail.com). Nothing here touches any other project.
 
 ---
 
 ## 1. GitHub for Unc Fund — DONE 2026-09-05
 
-The repo lives at https://github.com/UncFund/unc-fund under its own `UncFund` organization. The local folder tracks `main`. Nothing here is connected to the Bitbucket business repos.
+The repo lives at https://github.com/UncFund/unc-fund under its own `UncFund` organization. The local folder tracks `main`. The repo is public so Vercel's free plan can deploy it.
 
 ---
 
-## 2. Vercel hosting (15 minutes, $20/month Pro)
+## 2. Vercel hosting (15 minutes, free)
 
-Vercel's free Hobby plan cannot deploy a private repo owned by a GitHub organization, and it is for non-commercial use anyway. Upgrade the Vercel team to Pro first (team name top-left > Settings > Billing), then continue. The free alternatives are making the repo public (still non-commercial terms) or moving to Netlify or Cloudflare Pages, which needs the deck storage swapped.
+Vercel's free Hobby plan cannot deploy a private repo owned by a GitHub organization, so the repo was made public on 2026-09-05. Decision: stay on Hobby for now. Hobby's terms are non-commercial, so when the fund is real and the site is doing business, upgrade to Pro ($20/month, team name top-left > Settings > Billing).
 
 1. Sign in at https://vercel.com/login. The account was created with email/Google on 2026-09-05, which is fine: GitHub gets connected in the next step. If the GitHub option never appears on the import page, connect it at https://vercel.com/account/login-connections first.
 2. Go to https://vercel.com/new and under **Import Git Repository** click **Continue with GitHub**. GitHub asks where to install the Vercel app: pick the **UncFund** organization (not your personal account), choose **Only select repositories**, pick `unc-fund`, click **Install**. Back in Vercel, click **Import** next to `UncFund/unc-fund`. If the org is missing later, click **Adjust GitHub App Permissions** on that page.
