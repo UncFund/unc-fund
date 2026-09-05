@@ -77,7 +77,7 @@ export default function Unc({ mood = "happy", size = 280, wave = true, bubble, f
       width={size}
       height={(size * 400) / 320}
       role="img"
-      aria-label="Unc, a friendly uncle in a half-zipped puffer vest"
+      aria-label="Unc, in a half-zipped puffer vest"
     >
       <defs>
         <linearGradient id={skinId} x1="0" y1="0" x2="0" y2="1">

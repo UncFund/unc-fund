@@ -1,7 +1,7 @@
 import { ImageResponse } from "next/og";
 
 export const runtime = "edge";
-export const alt = "Unc.Fund. Small checks. Big uncle energy.";
+export const alt = "Unc.Fund. Small checks. Big Unc energy.";
 export const size = { width: 1200, height: 630 };
 export const contentType = "image/png";
 
@@ -26,7 +26,7 @@ export default function OpenGraphImage() {
           <span style={{ color: "#2F5D8A" }}>UNC</span>
           <span style={{ color: "#1E2430", fontWeight: 500 }}>.FUND</span>
         </div>
-        <div style={{ fontSize: 44, fontWeight: 700, marginTop: 24 }}>Small checks. Big uncle energy.</div>
+        <div style={{ fontSize: 44, fontWeight: 700, marginTop: 24 }}>Small checks. Big Unc energy.</div>
         <div style={{ fontSize: 26, color: "#4A5261", marginTop: 16 }}>
           First checks into blockchain, AI, software and robotics. $500 to $9,999. Decision in a week.
         </div>

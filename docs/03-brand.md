@@ -2,7 +2,7 @@
 
 ## The idea in one line
 
-Unc is the uncle who doesn't fully get your startup but believes in you anyway, and he has a checkbook.
+Unc is the Unc who doesn't fully get your startup but believes in you anyway, and he has a checkbook.
 
 ## The character: Unc
 
@@ -15,7 +15,7 @@ Unc is the uncle who doesn't fully get your startup but believes in you anyway, 
 - Grey Allbirds-style runners.
 - Optional: readers pushed up on the forehead, an Apple Watch he never checks.
 
-**Face and body.** Round, friendly, simple. Big head, small body (roughly 1:2.5 head-to-body) so he reads at avatar size. Eyebrows do most of the acting. Grey at the temples. Mustache is the one debate to settle: with mustache reads more "uncle", without reads more "tech". Recommendation: mustache.
+**Face and body.** Round, friendly, simple. Big head, small body (roughly 1:2.5 head-to-body) so he reads at avatar size. Eyebrows do most of the acting. Grey at the temples. Mustache is the one debate to settle: with mustache reads more "Unc", without reads more "tech". Recommendation: mustache.
 
 **Style references for the illustration.**
 - Duolingo's Duo and Hustle Fund's hippo for how a mascot lives on a website.
@@ -51,7 +51,7 @@ Rules: never punch down at founders. The joke is always on Unc or on VC culture,
 
 ## Taglines (pick one, keep two as secondary)
 
-1. **"Small checks. Big uncle energy."**
+1. **"Small checks. Big Unc energy."**
 2. "The first check nobody else will write."
 3. "Frontier tech. Family money. (Well, Unc's money.)"
 4. "Too small to fail."  (already used as a satire title, so it is a wink, not a claim)

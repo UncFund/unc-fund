@@ -105,4 +105,4 @@ Count: Webflow 10, WordPress 11, custom 10, Framer 3, Next.js 3 (plus 2 hybrids)
 
 ## What the word "unc" gives us
 
-"Unc" is Gen Z slang for an older guy who is out of touch but usually loved anyway. It comes from AAVE, where it was a term of respect for an elder or mentor. That double meaning is the whole brand: an uncle who is slightly behind on the memes, but who shows up with a check and good advice. Background: https://www.mentalfloss.com/language/slang/unc-meaning-explained and https://aftermath.site/unc-aave-african-american-vernacular-english-slang-gen-z/ (worth reading so the brand stays affectionate rather than mocking).
+"Unc" is Gen Z slang for an older guy who is out of touch but usually loved anyway. It comes from AAVE, where it was a term of respect for an elder or mentor. That double meaning is the whole brand: an Unc who is slightly behind on the memes, but who shows up with a check and good advice. Background: https://www.mentalfloss.com/language/slang/unc-meaning-explained and https://aftermath.site/unc-aave-african-american-vernacular-english-slang-gen-z/ (worth reading so the brand stays affectionate rather than mocking).

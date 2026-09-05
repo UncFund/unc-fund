@@ -14,7 +14,7 @@ export default function PitchPage() {
         <div className="wrap hero-grid">
           <div>
             <div className="eyebrow">Pitch Unc</div>
-            <h1>Five minutes. One deck. One uncle.</h1>
+            <h1>Five minutes. One deck. One Unc.</h1>
             <p className="lede">
               Fill this in and attach your deck. Unc reads every one himself and answers within a week, yes or no, with a reason.
             </p>

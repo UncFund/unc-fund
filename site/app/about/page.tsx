@@ -10,7 +10,7 @@ export default function AboutPage() {
         <div className="wrap hero-grid">
           <div>
             <div className="eyebrow">About</div>
-            <h1>One real person. One cartoon uncle.</h1>
+            <h1>One real person. One cartoon Unc.</h1>
             <p className="lede">
               Unc Fund started as a joke between friends about the smallest possible VC fund. Then the domain was available.
             </p>
@@ -35,7 +35,7 @@ export default function AboutPage() {
           </p>
           <p>
             {/* Replace with a real bio and photo before launch. */}
-            Bio coming. Until then: builder, operator, occasional uncle.
+            Bio coming. Until then: builder, operator, occasional Unc.
           </p>
           <h3>Why the vest</h3>
           <p>

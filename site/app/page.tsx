@@ -9,7 +9,7 @@ export default function Home() {
         <div className="wrap hero-grid">
           <div>
             <div className="eyebrow">Frontier-tech first checks</div>
-            <h1>Small checks.<br />Big uncle energy.</h1>
+            <h1>Small checks.<br />Big Unc energy.</h1>
             <p className="lede">
               Unc Fund writes the first $500 to $9,999 into blockchain, AI, software and robotics founders. Before the deck is
               finished. Before anyone else will. Decision in a week.
@@ -29,7 +29,7 @@ export default function Home() {
         <div className="wrap">
           <div className="eyebrow">The check</div>
           <h2>How much does Unc believe in you?</h2>
-          <p>Yes, these are real numbers. No, this is not a rolling fund. It is one uncle and his checkbook.</p>
+          <p>Yes, these are real numbers. No, this is not a rolling fund. It is one Unc and his checkbook.</p>
           <CheckSlider />
         </div>
       </section>
@@ -43,7 +43,7 @@ export default function Home() {
             <div className="tile">
               <h3>Blockchain</h3>
               <p>Infrastructure, wallets, onchain products people actually use. Not a token with a roadmap.</p>
-              <p className="say">&ldquo;Explain it like I&apos;m your uncle. Because I am.&rdquo;</p>
+              <p className="say">&ldquo;Explain it like I&apos;m your Unc. Because I am.&rdquo;</p>
             </div>
             <div className="tile">
               <h3>AI</h3>

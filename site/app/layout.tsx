@@ -13,10 +13,10 @@ const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || "https://unc.fund";
 export const metadata: Metadata = {
   metadataBase: new URL(siteUrl),
   title: { default: "Unc.Fund", template: "%s · Unc.Fund" },
-  description: "Small checks. Big uncle energy. First checks into blockchain, AI, software and robotics founders. $500 to $9,999, decision in a week.",
+  description: "Small checks. Big Unc energy. First checks into blockchain, AI, software and robotics founders. $500 to $9,999, decision in a week.",
   openGraph: {
     title: "Unc.Fund",
-    description: "Small checks. Big uncle energy. First checks into frontier-tech founders.",
+    description: "Small checks. Big Unc energy. First checks into frontier-tech founders.",
     url: siteUrl,
     siteName: "Unc.Fund",
     type: "website",

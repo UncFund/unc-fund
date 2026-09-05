@@ -139,7 +139,7 @@ out["social/x-banner.svg"] = svg(1500, 500,
 <rect x="0" y="446" width="1500" height="54" fill="#2F5D8A"/>
 <line x1="0" y1="440" x2="1500" y2="440" stroke="#7FA7CF" stroke-width="3" stroke-dasharray="10 8"/>
 ${wordmark(100, 212, 150)}
-<text x="106" y="286" font-family="Fredoka, Arial, sans-serif" font-size="46" font-weight="600" fill="#1E2430">Small checks. Big uncle energy.</text>
+<text x="106" y="286" font-family="Fredoka, Arial, sans-serif" font-size="46" font-weight="600" fill="#1E2430">Small checks. Big Unc energy.</text>
 <text x="106" y="338" font-family="'Source Sans 3', Arial, sans-serif" font-size="27" fill="#4A5261">First checks into blockchain, AI, software and robotics. $500 to $9,999. Decision in a week.</text>
 <text x="106" y="386" font-family="'JetBrains Mono', Consolas, monospace" font-size="22" fill="#2F5D8A">unc.fund  ·  contactuncfund@gmail.com</text>
 <g transform="translate(1090 52)">${pose.wave()}</g>`,
@@ -151,7 +151,7 @@ out["social/og-image.svg"] = svg(1200, 630,
 <rect x="0" y="574" width="1200" height="56" fill="#2F5D8A"/>
 <line x1="0" y1="568" x2="1200" y2="568" stroke="#7FA7CF" stroke-width="3" stroke-dasharray="10 8"/>
 ${wordmark(80, 226, 130)}
-<text x="84" y="298" font-family="Fredoka, Arial, sans-serif" font-size="42" font-weight="600" fill="#1E2430">Small checks. Big uncle energy.</text>
+<text x="84" y="298" font-family="Fredoka, Arial, sans-serif" font-size="42" font-weight="600" fill="#1E2430">Small checks. Big Unc energy.</text>
 <text x="84" y="350" font-family="'Source Sans 3', Arial, sans-serif" font-size="25" fill="#4A5261">Frontier-tech first checks. Blockchain, AI, software, robotics.</text>
 <text x="84" y="388" font-family="'Source Sans 3', Arial, sans-serif" font-size="25" fill="#4A5261">$500 to $9,999. Decision in a week. Bring a deck.</text>
 <text x="84" y="520" font-family="Fredoka, Arial, sans-serif" font-size="30" font-weight="600" fill="#2F5D8A">Proud of you. — Unc</text>
@@ -216,7 +216,7 @@ if (existsSync(planPath)) {
   if (start >= 0) {
     let body = pose.idle() + bubble("Proud of you.");
     body = body.replace('<g id="brows">', '<g id="brows" class="brow">');
-    const heroSvg = `<svg class="unc-figure" viewBox="0 0 320 400" role="img" aria-label="Unc: a friendly uncle in a half-zipped puffer vest with an UNC label">${DEFS}${body}</svg>`;
+    const heroSvg = `<svg class="unc-figure" viewBox="0 0 320 400" role="img" aria-label="Unc in a half-zipped puffer vest with an UNC label">${DEFS}${body}</svg>`;
     html = html.slice(0, start) + heroSvg + html.slice(end);
     writeFileSync(planPath, html);
     console.log("updated docs/launch-plan.html hero");
