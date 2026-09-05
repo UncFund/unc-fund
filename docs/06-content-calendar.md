@@ -28,12 +28,25 @@ Cadence: 3 posts a day on weekdays, 2 on weekends. Roughly 9am, 1pm, 6pm Pacific
 6. The rules: no 47-slide decks. If your grandfather could explain it, I'm not interested. If your grandfather could fund it, you don't need me.
 7. Pitch at unc.fund. Attach a deck if you have one. If you don't, the one-liner will do. Proud of you.
 
+## Launch weekend (Labor Day weekend, Sep 5 to 7, 2026)
+
+Launched on the Saturday of Labor Day weekend. These posts fill the gap before week 1 and lean into the holiday. The original Monday posts move to week 2's Monday.
+
+**Sat Sep 5** (hello and thread went out in the afternoon)
+- 6pm (holiday): Launched a fund on a holiday weekend. Nobody's reading. Perfect. Neither are the other investors. Send the pitch while they're at the lake. unc.fund
+
+**Sun Sep 6**
+- 10am (holiday): Labor Day weekend and half of you are "taking a break" by rebuilding the onboarding flow. I see you. Proud of you. Also go outside for an hour.
+- 4pm (motivation): The early bird gets the worm, sure, but the second mouse gets the cheese. Point is: show up. There's a snack either way.
+
+**Mon Sep 7, Labor Day**
+- 9am (holiday): Happy Labor Day to everyone who labors. Founders, that's you. Nobody works harder for less money, and I say that as a man who writes $500 checks.
+- 1pm (holiday): Labor Day is for the people who built this country. Also for the people building the next version of it in a garage right now. Grill something. Then get back to it.
+- 6pm (holiday): Every VC is at a barbecue today. Unc is at a barbecue too. Unc is also reading your deck between burgers. The form works on holidays. unc.fund
+
 ## Week 1
 
-**Mon**
-- 9am (take): Most first checks come from people who already know you. That's the whole problem. Unc doesn't know you. Unc has a form.
-- 1pm (bit): Read a deck this morning that used the word "synergy." I'm 55 and even I know we don't say that anymore.
-- 6pm (pitch): $500 to $9,999. Decision in a week. unc.fund
+**Mon** (Labor Day, see above)
 
 **Tue**
 - 9am (take): Boring software with one paying customer beats a beautiful demo with none. I will say this every week until it stops being true.
@@ -66,9 +79,11 @@ Cadence: 3 posts a day on weekdays, 2 on weekends. Roughly 9am, 1pm, 6pm Pacific
 ## Week 2
 
 **Mon**
-- 9am (take): I don't need traction. I need a reason this has to exist now and not in 2019.
-- 1pm (bit): Someone pitched me a robot that folds laundry. Follow-up question: can it carry Unc. No? Still interested.
-- 6pm (pitch): $500 to $9,999. First checks. unc.fund
+- 9am (take): Most first checks come from people who already know you. That's the whole problem. Unc doesn't know you. Unc has a form.
+- 1pm (bit): Read a deck this morning that used the word "synergy." I'm 55 and even I know we don't say that anymore.
+- 6pm (pitch): $500 to $9,999. Decision in a week. unc.fund
+
+(Week 2's original Monday posts, for week 3: "I don't need traction. I need a reason this has to exist now and not in 2019." / the laundry robot bit / "$500 to $9,999. First checks. unc.fund")
 
 **Tue**
 - 9am (take): Founders apologize for small numbers. Don't. Small numbers with a direction are the only numbers I can fund.
