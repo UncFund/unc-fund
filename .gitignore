@@ -9,3 +9,6 @@ dist/
 next-env.d.ts
 *.tsbuildinfo
 .vercel/
+
+# private planning, never committed
+private/
