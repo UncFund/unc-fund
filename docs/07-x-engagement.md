@@ -195,3 +195,39 @@ rate-limiting (the follow cap hit twice today).
 
 Reply targeting now prioritises mid-size accounts over mega-accounts. The cadence stays at six to
 ten a day, but aimed where placement is winnable rather than where the follower count is biggest.
+
+## Premium+ active (Sep 6, 2026)
+
+Rand bought Premium+ for @UncFund. Verified badge is live and the "you aren't verified" prompt is
+gone. This changes the reply strategy that was written an hour earlier.
+
+**What it changes:**
+
+- **Reply ranking.** Premium+ carries the highest reply-boost tier. The audit above showed replies
+  returning 4 to 22 views because X buries unverified low-authority accounts under several hundred
+  others. That specific handicap is now lifted, so mega-accounts go back on the table.
+- **Credibility.** A checkmark on a fund account is not vanity. A founder deciding whether Unc Fund
+  is a real thing or a bit now sees a verified badge next to the name. Cheap trust.
+- **Analytics.** Real per-post analytics are unlocked, so future audits can use actual impression
+  and profile-click data instead of the view counts scraped off the timeline.
+- **Long posts and Articles.** Up to 25,000 characters. Mostly irrelevant, because Unc's voice is
+  short by design, but an occasional long-form "Unc's take" is now possible if it earns it.
+
+**Targeting revised again.** The mid-size-only rule from an hour ago was a workaround for the
+authority handicap. Now: mix. Keep hunting mid-size posts with few replies, because placement still
+beats reach, but mega-accounts are no longer a waste and should be tried again and measured. Do not
+assume the boost works. Check the numbers over the next few rounds and let the data decide the mix.
+
+**Baseline for the test.** Pre-Premium replies today, for comparison: 22 views under an 80K @paulg
+post, 4 under a 17.5K @blknoiz06 post, 6 under a 14K @arbitrum post, 10 under a 4.5K
+@clementetv_ post.
+
+First post-Premium reply, to @zqinfo on why alternate trading pairs change who shows up (6,597
+views, only 14 replies, 37 minutes old when Unc replied):
+
+> Pairing decides who shows up. Same is true of check size.
+>
+> $500 brings founders who want a believer. $5M brings founders who want a term sheet. Same
+> company, different crowd.
+
+Check that reply's view count in the next round. It is the cleanest before-and-after available.
