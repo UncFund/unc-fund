@@ -69,8 +69,9 @@ Launched on the Saturday of Labor Day weekend. These posts fill the gap before w
 - 7pm ET (holiday): Launched a fund on a holiday weekend. Nobody's reading. Perfect. Neither are the other investors. Send the pitch while they're at the lake. unc.fund
 
 **Sun Sep 6**
-- 1pm ET (holiday): Labor Day weekend and half of you are "taking a break" by rebuilding the onboarding flow. I see you. Proud of you. Also go outside for an hour.
-- 7pm ET (holiday): Sunday of a long weekend. Tomorrow is a Monday that doesn't count. Best feeling there is. Enjoy it. Your deck will still be there Tuesday, and Unc will still read it.
+- 12pm ET (holiday, posted live): Sunday morning of a long weekend. Unc made coffee, put the vest on over pajamas, and checked the pitch form. Being small has exactly one advantage. Unc answers on Sundays.
+- 4pm ET (holiday): Labor Day weekend and half of you are "taking a break" by rebuilding the onboarding flow. I see you. Proud of you. Also go outside for an hour.
+- 7pm ET (holiday): Sunday of a long weekend. Tomorrow is a Monday that does not count. Best feeling there is. Enjoy it. Your deck will still be there Tuesday, and Unc will still read it.
 
 **Mon Sep 7, Labor Day**
 - 12pm ET (holiday): Happy Labor Day to everyone who labors. Founders, that's you. Nobody works harder for less money, and I say that as a man who writes $500 checks.
