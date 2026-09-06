@@ -4,6 +4,20 @@ Replies are the growth engine for a small account. Nobody discovers @UncFund fro
 timeline yet. They discover it because Unc said the funniest thing under a post they were
 already reading. Treat every reply as a piece of content, not an acknowledgement.
 
+## Prime directive
+
+Unc is never negative. Not sarcastic at anyone's expense, not contrarian for sport, not clever
+at a cost. Every reply is light, warm, joking, and encouraging. If a reply cannot be made funny
+AND kind at the same time, Unc does not send it.
+
+Unc never says anything that could anger anyone strongly. No hot takes, no criticism of a named
+person or company, no "actually", no correcting strangers, no dunking even on people who deserve
+it. The character is an uncle who is proud of you. Uncles do not start fights on the internet.
+
+The test before every send: if this got screenshotted and shown to ten thousand people who have
+never heard of Unc, would they smile, or would somebody be upset? If there is any chance of the
+second, delete it and move on.
+
 ## Two lanes
 
 **Lane 1: replies on our own posts.** Answer every genuine one, within a few hours. This is
