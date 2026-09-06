@@ -1,6 +1,6 @@
 # @UncFund content: launch posts and the first two weeks
 
-**Status 2026-09-06:** hello world posted and pinned (x.com/UncFund/status/2096316216902357376), seven-post launch thread posted (starts at status 2096316962167287952), and the launch-weekend plus week-1 posts are scheduled in X through Sun Sep 13. Week 2 is not scheduled yet.
+**Status 2026-09-06:** hello world posted and pinned, seven-post launch thread posted, and 40 posts are scheduled in X running Sun Sep 6 through Sun Sep 20 (weeks 1 and 2 complete). Everything is on the Eastern slot grid below. Week 3 is written in this file but not scheduled.
 
 Voice rules: first person, short sentences, sincere under the jokes, never punch at founders. Every post is Unc talking. No hashtags except when a post is literally about one. Links only in the launch thread and the pitch reminders.
 
@@ -102,11 +102,11 @@ Launched on the Saturday of Labor Day weekend. These posts fill the gap before w
 - 4pm ET (to investors): Investors: "we'd love to see more traction" is a no. Say no. Founders can handle a no. It's the maybe that kills them.
 - 7pm ET (pitch): Weekend plans: read every pitch that came in this week. Send yours. unc.fund
 
-**Sat**
+**Sat** (10am and 5pm ET)
 - 1pm ET (bit): Zipped the vest exactly halfway this morning. Some things you don't change.
 - 7pm ET (motivation): Your first version is going to be ugly. So was I. Look at me now. Ship it.
 
-**Sun**
+**Sun** (10am and 5pm ET)
 - 1pm ET (take): Sunday thought: the first dollar is the hardest one to get and the easiest one to give. So I give it.
 - 7pm ET (motivation): Dream big, start small, zip the vest halfway. Only one of those is negotiable.
 
@@ -139,11 +139,11 @@ Launched on the Saturday of Labor Day weekend. These posts fill the gap before w
 - 4pm ET (take): I'll never be the smartest investor on your cap table. I'll be the first one who answered.
 - 7pm ET (pitch): Send it before the weekend. unc.fund
 
-**Sat**
+**Sat** (10am and 5pm ET)
 - 1pm ET (bit): The vest has a label with a mountain on it. Don't ask which mountain. It's the mountain.
 - 7pm ET (take): AI founders: if it needs a demo to be understood, it's not ready for the form. If it needs a form to be funded, it's ready for me.
 
-**Sun**
+**Sun** (10am and 5pm ET)
 - 1pm ET (take): Two weeks in. Every pitch got a reply. That's the promise, so that's the report.
 - 7pm ET (pitch): Week three starts tomorrow. unc.fund
 
