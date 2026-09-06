@@ -222,3 +222,32 @@ Affectionate, a little pointed. Never name a firm. Unc respects the job and mock
 ## How to schedule
 
 X's own composer schedules posts (the calendar icon under the text box). Posts can be scheduled up to 18 months out. Batch a week at a time on Sunday. Third-party option if that gets tedious: Typefully (free tier schedules unlimited posts, https://typefully.com).
+
+## How to schedule a new post in X (the working recipe)
+
+X has two composers and only one of them can schedule. Getting this wrong wastes a lot of time
+because the failure is silent.
+
+**Do NOT use the intent URL** (`x.com/intent/post?text=...`) to create a scheduled post. It
+prefills the text, but the schedule picker's Confirm does nothing: the composer goes back to
+showing a "Post" button with no "Will send on" line, and posting would fire immediately. The
+intent URL is still the right tool for posting or replying right now.
+
+**Use `x.com/compose/post`**, in this order:
+
+1. Open `https://x.com/compose/post` with no text.
+2. Click the "Schedule post" button (find it by name, it moves around).
+3. In the picker, `form_input` the day, hour and minute comboboxes. The minute option values are
+   numeric, so "00" is value `0`.
+4. Click Confirm. Verify the header now reads "Will send on <date> at <time>" and the top-right
+   button has changed from "Post" to "Schedule". If it still says "Post", the schedule did not
+   take and nothing below will help.
+5. `form_input` the post text into the "Post text" textbox.
+6. Click Schedule.
+
+**Never hardcode the button coordinate.** The pane width changes between sessions, and a stale
+coordinate silently hits "Drafts" instead, discarding everything with no error. Screenshot,
+locate the button in that image, divide by the scale, then click.
+
+Editing an already-scheduled post is more forgiving: open it from the Scheduled tab, and both
+`form_input` on the text and the time picker work normally.
