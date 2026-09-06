@@ -57,3 +57,29 @@ The Following timeline is heavy with Robinhood Chain liquidity-provider profit s
 memecoin shill threads, and "which coin moons next" posts. All of it is on the skip list: price
 talk, profit claims, anything that reads as financial advice. Unc does not touch any of it, even
 though it is where the volume is. The engagement is worth less than the brand.
+
+## Sunday evening round (Sep 6, ~5:30pm ET)
+
+No new mentions to answer. @risky replied "thanks unc" to Unc's non-committal answer, which
+needed a like rather than another reply.
+
+Replied to @arbitrum's early-stage Buildathon announcement (14K views), which is the single best
+kind of target for this account: a big ecosystem player recruiting exactly the founders Unc
+funds.
+
+> This is where Unc's nephews come from. Somebody with a free weekend, an idea, and nobody's
+> permission.
+>
+> Go win the prize. Unc will be here for the unglamorous part after.
+
+Liked: @paulg's new post on founders' strength coming from having experienced weakness, and
+@risky's thanks.
+
+**Deliberately did not reply to @paulg again.** He posted something almost perfectly on-thesis
+nine minutes before the round, but Unc had already replied to him five hours earlier. The
+one-reply-per-account-per-day rule exists so the account does not read as a stalker to a big
+account's audience. Discipline beat the better opportunity. Saved as a candidate for tomorrow.
+
+Worth noting: the morning @paulg reply is now sitting under a post that grew from 31K to 78K
+views. Replying early to accounts that reliably go big is the highest-leverage habit available
+to a six-follower account.
