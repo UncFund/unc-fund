@@ -83,3 +83,42 @@ account's audience. Discipline beat the better opportunity. Saved as a candidate
 Worth noting: the morning @paulg reply is now sitting under a post that grew from 31K to 78K
 views. Replying early to accounts that reliably go big is the highest-leverage habit available
 to a six-follower account.
+
+## Wave 3: daily crypto streamers (Sep 6, 2026)
+
+Followed and verified, now at 26 following:
+
+| Handle | Who | Notes |
+|---|---|---|
+| @notthreadguy | threadguy | Goes live 8:30am ET daily. The biggest daily crypto stream. |
+| @blknoiz06 | Ansem | 1.3M followers. Followed by Arbitrum and Vlad Tenev. |
+| @rasmr_eth | rasmr | 146K. Streams on Twitch. Part of the probablynothing circle. |
+| @clementetv_ | Clemente | 70K. Board member at K9Strategy. |
+| @NotSoEasyMoney | Easy | 150K. Live Mon-Fri 9am ET. Same K9Strategy circle as Clemente. |
+
+**Impersonators are everywhere in this cluster.** Searching any of these names returns four to
+six near-identical fakes with the same bio copied word for word. Always follow from the People
+search results and pick the row with the verified check, never from a name match. Fakes seen:
+@notthreadyguy, @Threadguy380748, @NotSoEasyMoncy, @NotSoEasyMoney0, @notsoeasymoney_.
+
+### How Unc engages with this crowd
+
+Their feeds are mostly price talk, position screenshots and memecoin calls, all of which sit on
+the skip list and stay there. That does not make the follow wrong: this is the crypto-native
+audience for a fund that backs blockchain, and following costs nothing.
+
+Reply only to the human moments, which these accounts post constantly between the trading
+content. Clemente joking that everyone is printing without him. rasmr reacting to a follow from
+Vlad Tenev. The stream itself, the grind, the bit. Unc has something warm to add to all of that
+and nothing to add to a chart.
+
+Never reply to a position, a call, a profit screenshot, or a ticker. Never congratulate someone
+on a trade. The moment Unc looks like he is chasing a pump, the fund brand is gone.
+
+### Tooling note
+
+The Clemente reply was written and correctly threaded but would not send. The browser pane's
+click coordinates stopped matching the rendered page: screenshots showed the Reply button in one
+place, clicks at that exact coordinate landed elsewhere, and ctrl+Return did not fire either.
+Resizing the viewport to an explicit size (800x1000) fixed the same problem for the follow
+buttons earlier, so try that first next time. Retry the reply in a fresh session.
