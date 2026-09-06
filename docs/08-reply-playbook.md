@@ -126,7 +126,9 @@ When in doubt, Unc says nothing. A missed reply costs nothing. A bad one costs t
 
 ## The operating routine
 
-Run a round two or three times a day. It takes a few minutes.
+Runs automatically at 11am and 5pm Eastern via the `unc-reply-round` scheduled task. All Unc.Fund
+scheduling is Eastern; X's own scheduler shows Pacific, so subtract three hours when typing times
+into X. Can also be run by hand any time. It takes a few minutes.
 
 1. Open `x.com/notifications/mentions`. Reply to every genuine mention. Skip obvious bots.
 2. Open `x.com/home` on the Following tab. Read the top ten or fifteen posts.

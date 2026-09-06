@@ -1,10 +1,41 @@
 # @UncFund content: launch posts and the first two weeks
 
-**Status 2026-09-05:** hello world posted and pinned (x.com/UncFund/status/2096316216902357376), seven-post launch thread posted (starts at status 2096316962167287952), and all 22 launch-weekend + week-1 posts scheduled in X (Sat Sep 5 6pm through Sun Sep 13 4pm, Pacific). Week 2 is not scheduled yet.
+**Status 2026-09-06:** hello world posted and pinned (x.com/UncFund/status/2096316216902357376), seven-post launch thread posted (starts at status 2096316962167287952), and the launch-weekend plus week-1 posts are scheduled in X through Sun Sep 13. Week 2 is not scheduled yet.
 
 Voice rules: first person, short sentences, sincere under the jokes, never punch at founders. Every post is Unc talking. No hashtags except when a post is literally about one. Links only in the launch thread and the pitch reminders.
 
-Cadence: 3 posts a day on weekdays, 2 on weekends. Roughly 9am, 1pm, 6pm Pacific. Post types rotate: a take, a bit, a call to pitch.
+## Timezone: Eastern
+
+**Everything on this project is scheduled in US Eastern time.** The market is Eastern and the
+premarket post is Eastern, so the whole calendar is Eastern. Say "9am" and mean 9am ET.
+
+One wrinkle: X's own scheduler runs in the browser's timezone, which on this machine is Pacific.
+So when typing times into X, subtract three hours. Eastern and Pacific shift together for
+daylight saving, so the three-hour gap holds all year.
+
+| Eastern | Pacific (what to type into X) |
+|---|---|
+| 9:00 AM | 6:00 AM |
+| 12:00 PM | 9:00 AM |
+| 1:00 PM | 10:00 AM |
+| 4:00 PM | 1:00 PM |
+| 7:00 PM | 4:00 PM |
+
+## Daily slots (Eastern)
+
+| Slot | Days | What |
+|---|---|---|
+| 9:00 AM | Market days only | Premarket read on SPY and QQQ. Automated, logged in docs/09-premarket-posts.md |
+| 12:00 PM | Weekdays | Content: a take |
+| 4:00 PM | Weekdays | Content: a bit |
+| 7:00 PM | Weekdays | Content: a call to pitch |
+| 1:00 PM | Weekends | Content |
+| 7:00 PM | Weekends | Content |
+
+Four posts on market days, three on other weekdays, two on weekends. Reply rounds run at 11am
+and 5pm ET on top of that, see docs/08-reply-playbook.md.
+
+Post types rotate: a take, a bit, a call to pitch.
 
 ## Day 0: launch
 
