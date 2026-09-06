@@ -117,8 +117,22 @@ on a trade. The moment Unc looks like he is chasing a pump, the fund brand is go
 
 ### Tooling note
 
-The Clemente reply was written and correctly threaded but would not send. The browser pane's
+The Clemente reply eventually sent on a later attempt. What fixed it: open the composer by
+clicking the reply-count button via its ref, form_input the text, then take a fresh screenshot in
+the SAME state and derive the Reply button coordinate from that screenshot. The earlier failures
+came from the pane resizing between the screenshot and the click, so the coordinate was stale by
+the time it landed. Screenshot and click must be adjacent with nothing in between.
 click coordinates stopped matching the rendered page: screenshots showed the Reply button in one
 place, clicks at that exact coordinate landed elsewhere, and ctrl+Return did not fire either.
 Resizing the viewport to an explicit size (800x1000) fixed the same problem for the follow
 buttons earlier, so try that first next time. Retry the reply in a fresh session.
+
+Replied to @clementetv_ on "To all of the traders printing generational wealth without me"
+(4,591 views), the self-deprecating post rather than any of his trading content:
+
+> Unc has been watching other people print since 1987.
+>
+> Turns out showing up every single day beats catching the one you missed. You're doing the
+> harder thing.
+
+Four replies live today: @risky, @paulg, @arbitrum, @clementetv_.
