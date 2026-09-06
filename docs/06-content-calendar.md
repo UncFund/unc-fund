@@ -66,85 +66,85 @@ Post types rotate: a take, a bit, a call to pitch.
 Launched on the Saturday of Labor Day weekend. These posts fill the gap before week 1 and lean into the holiday. The original Monday posts move to week 2's Monday.
 
 **Sat Sep 5** (hello and thread went out in the afternoon)
-- 6pm (holiday): Launched a fund on a holiday weekend. Nobody's reading. Perfect. Neither are the other investors. Send the pitch while they're at the lake. unc.fund
+- 7pm ET (holiday): Launched a fund on a holiday weekend. Nobody's reading. Perfect. Neither are the other investors. Send the pitch while they're at the lake. unc.fund
 
 **Sun Sep 6**
-- 10am (holiday): Labor Day weekend and half of you are "taking a break" by rebuilding the onboarding flow. I see you. Proud of you. Also go outside for an hour.
-- 4pm (motivation): The early bird gets the worm, sure, but the second mouse gets the cheese. Point is: show up. There's a snack either way.
+- 1pm ET (holiday): Labor Day weekend and half of you are "taking a break" by rebuilding the onboarding flow. I see you. Proud of you. Also go outside for an hour.
+- 7pm ET (holiday): Sunday of a long weekend. Tomorrow is a Monday that doesn't count. Best feeling there is. Enjoy it. Your deck will still be there Tuesday, and Unc will still read it.
 
 **Mon Sep 7, Labor Day**
-- 9am (holiday): Happy Labor Day to everyone who labors. Founders, that's you. Nobody works harder for less money, and I say that as a man who writes $500 checks.
-- 1pm (holiday): Labor Day is for the people who built this country. Also for the people building the next version of it in a garage right now. Grill something. Then get back to it.
-- 6pm (holiday): Every VC is at a barbecue today. Unc is at a barbecue too. Unc is also reading your deck between burgers. The form works on holidays. unc.fund
+- 12pm ET (holiday): Happy Labor Day to everyone who labors. Founders, that's you. Nobody works harder for less money, and I say that as a man who writes $500 checks.
+- 4pm ET (holiday): Labor Day is for the people who built this country. Also for the people building the next version of it in a garage right now. Grill something. Then get back to it.
+- 7pm ET (holiday): Every VC is at a barbecue today. Unc is at a barbecue too. Unc is also reading your deck between burgers. The form works on holidays. unc.fund
 
 ## Week 1
 
 **Mon** (Labor Day, see above)
 
 **Tue**
-- 9am (take): Boring software with one paying customer beats a beautiful demo with none. I will say this every week until it stops being true.
-- 1pm (bit): My nephew asked what a zk rollup is. I told him it's when you fold the sleeping bag really tight. He believed me. Don't be my nephew. Explain it to me at unc.fund.
-- 6pm (motivation): You miss 100% of the checks you don't ask for. I know, I know. But you do. Ask.
+- 12pm ET (take): Boring software with one paying customer beats a beautiful demo with none. I will say this every week until it stops being true.
+- 4pm ET (bit): My nephew asked what a zk rollup is. I told him it's when you fold the sleeping bag really tight. He believed me. Don't be my nephew. Explain it to me at unc.fund.
+- 7pm ET (motivation): You miss 100% of the checks you don't ask for. I know, I know. But you do. Ask.
 
 **Wed**
-- 9am (bit): Things Unc will ask on the call: does it work when the wifi is bad. Who pays. What would you do with $2,500. That's the whole list.
-- 1pm (to investors): To the VCs reading this: the founder you passed on for being "too early" is who I fund. Send them my way. I'll send them back to you in eighteen months with revenue.
-- 6pm (nephews): Every company I back is a nephew. Not a portfolio company. A nephew. You get the group chat, the office hours, and an Unc who brags about you at dinner. unc.fund
+- 12pm ET (bit): Things Unc will ask on the call: does it work when the wifi is bad. Who pays. What would you do with $2,500. That's the whole list.
+- 4pm ET (to investors): To the VCs reading this: the founder you passed on for being "too early" is who I fund. Send them my way. I'll send them back to you in eighteen months with revenue.
+- 7pm ET (nephews): Every company I back is a nephew. Not a portfolio company. A nephew. You get the group chat, the office hours, and an Unc who brags about you at dinner. unc.fund
 
 **Thu**
-- 9am (take): A $500 check will not build your company. It will tell you that one person who was not your mother believed you. That's worth more than the money, which is convenient, because it's not much money.
-- 1pm (bit): I keep a list of every deal I pass on. When they get huge, the list goes on the website. Accountability is the brand. unc.fund/anti-portfolio
-- 6pm (motivation): Nobody felt ready. Not Edison, not your mom, not me the day I bought this vest. Ready is a feeling you get after. Start now.
+- 12pm ET (take): A $500 check will not build your company. It will tell you that one person who was not your mother believed you. That's worth more than the money, which is convenient, because it's not much money.
+- 4pm ET (bit): I keep a list of every deal I pass on. When they get huge, the list goes on the website. Accountability is the brand. unc.fund/anti-portfolio
+- 7pm ET (motivation): Nobody felt ready. Not Edison, not your mom, not me the day I bought this vest. Ready is a feeling you get after. Start now.
 
 **Fri**
-- 9am (bit): It is Friday. Unc reads decks in bed on Fridays. PDF is kindest.
-- 1pm (to investors): Investors: "we'd love to see more traction" is a no. Say no. Founders can handle a no. It's the maybe that kills them.
-- 6pm (pitch): Weekend plans: read every pitch that came in this week. Send yours. unc.fund
+- 12pm ET (bit): It is Friday. Unc reads decks in bed on Fridays. PDF is kindest.
+- 4pm ET (to investors): Investors: "we'd love to see more traction" is a no. Say no. Founders can handle a no. It's the maybe that kills them.
+- 7pm ET (pitch): Weekend plans: read every pitch that came in this week. Send yours. unc.fund
 
 **Sat**
-- 10am (bit): Zipped the vest exactly halfway this morning. Some things you don't change.
-- 4pm (motivation): Your first version is going to be ugly. So was I. Look at me now. Ship it.
+- 1pm ET (bit): Zipped the vest exactly halfway this morning. Some things you don't change.
+- 7pm ET (motivation): Your first version is going to be ugly. So was I. Look at me now. Ship it.
 
 **Sun**
-- 10am (take): Sunday thought: the first dollar is the hardest one to get and the easiest one to give. So I give it.
-- 4pm (motivation): Dream big, start small, zip the vest halfway. Only one of those is negotiable.
+- 1pm ET (take): Sunday thought: the first dollar is the hardest one to get and the easiest one to give. So I give it.
+- 7pm ET (motivation): Dream big, start small, zip the vest halfway. Only one of those is negotiable.
 
 ## Week 2
 
 **Mon**
-- 9am (take): Most first checks come from people who already know you. That's the whole problem. Unc doesn't know you. Unc has a form.
-- 1pm (bit): Read a deck this morning that used the word "synergy." I'm 55 and even I know we don't say that anymore.
-- 6pm (pitch): $500 to $9,999. Decision in a week. unc.fund
+- 12pm ET (take): Most first checks come from people who already know you. That's the whole problem. Unc doesn't know you. Unc has a form.
+- 4pm ET (bit): Read a deck this morning that used the word "synergy." I'm 55 and even I know we don't say that anymore.
+- 7pm ET (pitch): $500 to $9,999. Decision in a week. unc.fund
 
 (Week 2's original Monday posts, for week 3: "I don't need traction. I need a reason this has to exist now and not in 2019." / the laundry robot bit / "$500 to $9,999. First checks. unc.fund")
 
 **Tue**
-- 9am (take): Founders apologize for small numbers. Don't. Small numbers with a direction are the only numbers I can fund.
-- 1pm (bit): "What's your check size?" Three or four figures. "Figures of what?" Dollars, son. Dollars.
-- 6pm (take): The plan for the first $2,500 tells me more than the plan for the first $2.5M.
+- 12pm ET (take): Founders apologize for small numbers. Don't. Small numbers with a direction are the only numbers I can fund.
+- 4pm ET (bit): "What's your check size?" Three or four figures. "Figures of what?" Dollars, son. Dollars.
+- 7pm ET (take): The plan for the first $2,500 tells me more than the plan for the first $2.5M.
 
 **Wed**
-- 9am (bit): Unc's decision process: form, call, week. Unc's other process: coffee, vest, decks.
-- 1pm (take): Software founders: boring is fine. Boring with a customer is better. Boring with revenue makes me emotional.
-- 6pm (pitch): No deck? Fine. One-liner and a link. unc.fund
+- 12pm ET (bit): Unc's decision process: form, call, week. Unc's other process: coffee, vest, decks.
+- 4pm ET (take): Software founders: boring is fine. Boring with a customer is better. Boring with revenue makes me emotional.
+- 7pm ET (pitch): No deck? Fine. One-liner and a link. unc.fund
 
 **Thu**
-- 9am (take): Every VC has an anti-portfolio. Most hide it. Mine is a page on the website with my name on it.
-- 1pm (bit): Nephew update: he built the thing. It does not work when the wifi is bad. We're working on it.
-- 6pm (take): If you're pre-idea, that's fine, but tell me what you'd build first. "Exploring" is not a plan for $2,500.
+- 12pm ET (take): Every VC has an anti-portfolio. Most hide it. Mine is a page on the website with my name on it.
+- 4pm ET (bit): Nephew update: he built the thing. It does not work when the wifi is bad. We're working on it.
+- 7pm ET (take): If you're pre-idea, that's fine, but tell me what you'd build first. "Exploring" is not a plan for $2,500.
 
 **Fri**
-- 9am (bit): Friday. Bed. Decks. PDF. You know the drill.
-- 1pm (take): I'll never be the smartest investor on your cap table. I'll be the first one who answered.
-- 6pm (pitch): Send it before the weekend. unc.fund
+- 12pm ET (bit): Friday. Bed. Decks. PDF. You know the drill.
+- 4pm ET (take): I'll never be the smartest investor on your cap table. I'll be the first one who answered.
+- 7pm ET (pitch): Send it before the weekend. unc.fund
 
 **Sat**
-- 10am (bit): The vest has a label with a mountain on it. Don't ask which mountain. It's the mountain.
-- 4pm (take): AI founders: if it needs a demo to be understood, it's not ready for the form. If it needs a form to be funded, it's ready for me.
+- 1pm ET (bit): The vest has a label with a mountain on it. Don't ask which mountain. It's the mountain.
+- 7pm ET (take): AI founders: if it needs a demo to be understood, it's not ready for the form. If it needs a form to be funded, it's ready for me.
 
 **Sun**
-- 10am (take): Two weeks in. Every pitch got a reply. That's the promise, so that's the report.
-- 4pm (pitch): Week three starts tomorrow. unc.fund
+- 1pm ET (take): Two weeks in. Every pitch got a reply. That's the promise, so that's the report.
+- 7pm ET (pitch): Week three starts tomorrow. unc.fund
 
 ## Motivation bank: for founders
 

@@ -141,7 +141,10 @@ into X. Can also be run by hand any time. It takes a few minutes.
 3. Pick at most three where Unc has a real line. Check them against the skip list.
 4. Reply through the intent composer, which threads correctly and avoids the flaky modal:
    `https://x.com/intent/post?text=<encoded>&in_reply_to=<status id>` then click Reply at the
-   top right (roughly 460, 53 in the 596-wide frame).
+   top right. Never hardcode that coordinate. The browser pane width changes between sessions,
+   and a stale coordinate quietly hits the "Drafts" link instead, discarding the post with no
+   error at all. Screenshot first, locate the button in that image, divide by the scale to get
+   the frame coordinate, then click. Verify the post went out rather than assuming it did.
 5. Log what went out here so nothing repeats.
 
 Get a post's id by opening the author's profile and reading the `/handle/status/<id>` links.

@@ -4,7 +4,9 @@
 const slots = [
   ["2026-09-05", "6:00 PM", "Launched a fund on a holiday weekend. Nobody's reading. Perfect. Neither are the other investors.\n\nSend the pitch while they're at the lake. unc.fund"],
   ["2026-09-06", "10:00 AM", "Labor Day weekend and half of you are \"taking a break\" by rebuilding the onboarding flow.\n\nI see you. Proud of you. Also go outside for an hour."],
-  ["2026-09-06", "4:00 PM", "The early bird gets the worm, sure, but the second mouse gets the cheese.\n\nPoint is: show up. There's a snack either way."],
+  ["2026-09-06", "4:00 PM PT / 7:00 PM ET", "Sunday of a long weekend. Tomorrow is a Monday that doesn't count.
+
+Best feeling there is. Enjoy it. Your deck will still be there Tuesday, and Unc will still read it."],
   ["2026-09-07", "9:00 AM", "Happy Labor Day to everyone who labors. Founders, that's you.\n\nNobody works harder for less money, and I say that as a man who writes $500 checks."],
   ["2026-09-07", "1:00 PM", "Labor Day is for the people who built this country. Also for the people building the next version of it in a garage right now.\n\nGrill something. Then get back to it."],
   ["2026-09-07", "6:00 PM", "Every VC is at a barbecue today. Unc is at a barbecue too. Unc is also reading your deck between burgers.\n\nThe form works on holidays. unc.fund"],
