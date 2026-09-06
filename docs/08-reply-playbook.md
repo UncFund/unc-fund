@@ -23,7 +23,7 @@ second, delete it and move on.
 **Lane 1: replies on our own posts.** Answer every genuine one, within a few hours. This is
 free, it is safe, and it is the whole personality of the account. No cap.
 
-**Lane 2: replies on other people's posts.** Selective. Two to four a day, maximum one per
+**Lane 2: replies on other people's posts.** This is the growth engine. Six to ten a day, at most two per
 account per day. Only when Unc genuinely has the funniest or most useful thing in the thread.
 If the reply would be the fortieth version of the same take, skip it.
 
@@ -132,13 +132,13 @@ subject change, not an answer.
 
 ## The operating routine
 
-Runs automatically at 11am and 5pm Eastern via the `unc-reply-round` scheduled task. All Unc.Fund
-scheduling is Eastern; X's own scheduler shows Pacific, so subtract three hours when typing times
-into X. Can also be run by hand any time. It takes a few minutes.
+Runs automatically at 10am, 2pm and 6pm Eastern via the `unc-reply-round` scheduled task. All
+Unc.Fund scheduling is Eastern; X's own scheduler shows Pacific, so subtract three hours when
+typing times into X. Can also be run by hand any time.
 
 1. Open `x.com/notifications/mentions`. Reply to every genuine mention. Skip obvious bots.
 2. Open `x.com/home` on the Following tab. Read the top ten or fifteen posts.
-3. Pick at most three where Unc has a real line. Check them against the skip list.
+3. Pick two to four where Unc has a real line. Check them against the skip list.
 4. Reply through the intent composer, which threads correctly and avoids the flaky modal:
    `https://x.com/intent/post?text=<encoded>&in_reply_to=<status id>` then click Reply at the
    top right. Never hardcode that coordinate. The browser pane width changes between sessions,
@@ -154,8 +154,8 @@ Get a post's id by opening the author's profile and reading the `/handle/status/
 X suspends new accounts for patterned automated replying, and @UncFund is days old and already
 hit a follow cap. Keep it human-shaped:
 
-- Two to four timeline replies a day. Never a burst of ten.
-- Never the same account twice in a day.
+- Six to ten timeline replies a day, spread across three rounds. Never all at once.
+- At most two replies to the same account in a day, and only if both are genuinely good.
 - Vary timing. Not every day at the same minute.
 - Vary phrasing. No template that a pattern detector could match.
 - Replies on our own posts are unlimited and carry no risk.
@@ -166,3 +166,22 @@ hit a follow cap. Keep it human-shaped:
 |---|---|---|---|
 | 2026-09-05 | @risky, joke pitch on our launch post | Oblivious literal | Praised the line, stayed non-committal. First version committed to a pass and named the anti-portfolio; deleted and replaced. |
 | 2026-09-05 | @vladtenev, tokenization and access | Thesis echo | Same reason Unc writes $500 checks |
+
+## Freshness is the whole game
+
+The single biggest factor in whether a reply gets seen is how old the post is. A reply inside the
+first thirty minutes rides the post's own growth; a reply on a day-old post is invisible no matter
+how good it is.
+
+Evidence from day one: the reply to @paulg went out nine minutes after he posted, and that post
+grew from 31K to 78K views while Unc's reply sat under it. Meanwhile @StartupArchive_, which is
+perfectly on-brand, had not posted in three weeks. Being on-brand does not help if the post is cold.
+
+So the round is ordered by recency, not by how much Unc likes the account:
+
+1. Sort by what was posted in the last hour, not by favourite accounts.
+2. Prefer a decent line on a fresh post from a big account over a great line on a cold one.
+3. Accounts that post many times a day are worth more than accounts that post weekly, purely
+   because they create more fresh windows. The daily streamers are valuable for exactly this,
+   even though most of their individual posts are on the skip list.
+4. If nothing fresh is worth replying to, reply to nothing. Volume never justifies a bad reply.
