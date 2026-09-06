@@ -136,3 +136,62 @@ Replied to @clementetv_ on "To all of the traders printing generational wealth w
 > harder thing.
 
 Four replies live today: @risky, @paulg, @arbitrum, @clementetv_.
+
+## Reach audit, end of day one (Sep 6, 2026)
+
+Actual numbers, not impressions of how it went.
+
+**Replies (5 posted today):**
+
+| Under | Parent post reach | Unc's reply got |
+|---|---|---|
+| @paulg | ~80K views | 22 views |
+| @clementetv_ | 4.5K views | 10 views, 1 like |
+| @arbitrum | 14K views | 6 views, 1 like |
+| @blknoiz06 | 17.5K views | 4 views, 1 like |
+
+**Own posts:**
+
+| Post | Views |
+|---|---|
+| Hello world (pinned, launch day) | 204 |
+| "Launched a fund on a holiday weekend" (launch day) | 186 |
+| Thread post 1 (launch day) | 130 |
+| Thread post 2 (launch day) | 94 |
+| "Sunday morning of a long weekend" (today) | 24 |
+| "Labor Day weekend / taking a break" (today) | 10 |
+| "Sunday of a long weekend" (today, 40 min old) | 2 |
+
+### What this actually says
+
+**The launch boost is over.** Launch-day posts did 94 to 204 views. Today's do 2 to 24. X gives a
+new account a short window of distribution and then drops it to near zero until the account earns
+an engagement signal. Six followers and roughly one like per post is not a signal.
+
+**Replying under mega-accounts is not working.** The @paulg reply went out nine minutes after his
+post, which is as well-timed as it gets, and it still returned 22 views out of ~80,000. That is
+0.03%. Under Ansem it was 4 views out of 17,500. The reason is reply ranking: X sorts replies by
+author authority, and a two-day-old unverified account with six followers sits at the bottom of
+several hundred. Being early does not rescue being invisible.
+
+**So more replies of the same kind will not move anything.** Ten a day at 10 views each is 100
+views. That is not a growth strategy, and it adds suspension risk for an account X is already
+rate-limiting (the follow cap hit twice today).
+
+### What would actually change the numbers
+
+1. **X Premium, about $8 a month.** X explicitly boosts verified replies, and @UncFund's own
+   profile page advertises exactly that. For an account whose entire growth plan is replies, this
+   is the single highest-return action available and nothing else comes close. Rand's call.
+2. **Retarget from mega-accounts to mid-size ones, roughly 5K to 100K followers.** Under Ansem the
+   account is reply number two hundred. Under a 20K-follower founder or angel it can be reply
+   number five, actually visible, and that audience converts far better for a fund that writes
+   first checks. Trade reach for placement.
+3. **Earn one real interaction.** A single reply or quote from a mid-size account does more than
+   fifty of ours. That comes from being genuinely funny in a thread small enough to be read.
+4. **Time.** Graduated access lifts as the account ages and accumulates real engagement.
+
+### Change made
+
+Reply targeting now prioritises mid-size accounts over mega-accounts. The cadence stays at six to
+ten a day, but aimed where placement is winnable rather than where the follower count is biggest.
