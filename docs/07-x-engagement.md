@@ -20,3 +20,40 @@ Open the profile, wait 3s, then click the button whose aria-label starts with "F
 ## Reply policy (not started)
 
 Two or three replies a day in Unc's voice on posts from the accounts above. Always on-topic, never a pitch, never punching down. No replies about the token from this account until launch day.
+
+## Wave 2 (Sep 6, 2026)
+
+Followed in a small wave, all stuck: @joinrepublic, @Wefunder, @AngelList, @StartupArchive_,
+@mwseibel. Now at 21 following.
+
+These lean into the "retail getting exposure to startup investing" niche, which is adjacent to
+Unc's thesis and brings an audience that already believes small investors belong in private
+markets.
+
+Mistake worth remembering: @republic is an Indian news network, not the startup investing
+platform. The right handle is @joinrepublic. Followed the wrong one, then unfollowed. Read the
+bio before following a brand name.
+
+Lesson on rate limits: yesterday's bulk run of ~20 follows was silently reverted after about 16.
+A wave of five stuck with no problem. Keep waves under about six and space them out.
+
+## Likes and replies (Sep 6)
+
+Liked: @paulg on the shapes of ideas, @RobinhoodApp "one app, many types of investors",
+@ibab on the YC Own Your Intelligence hackathon.
+
+Replied to @paulg (31K views on his post):
+> This is why Unc can fund things he doesn't understand.
+> Can't follow the technical part. Can still see when two ideas snap together. That shape is
+> the whole signal.
+
+That is the template for a good timeline reply: take the big account's idea seriously, add the
+one thing only Unc can add, and make the self-deprecation carry the thesis rather than undercut
+it.
+
+## What Unc skipped and why
+
+The Following timeline is heavy with Robinhood Chain liquidity-provider profit screenshots,
+memecoin shill threads, and "which coin moons next" posts. All of it is on the skip list: price
+talk, profit claims, anything that reads as financial advice. Unc does not touch any of it, even
+though it is where the volume is. The engagement is worth less than the brand.
