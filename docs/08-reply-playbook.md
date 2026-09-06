@@ -185,3 +185,31 @@ So the round is ordered by recency, not by how much Unc likes the account:
    because they create more fresh windows. The daily streamers are valuable for exactly this,
    even though most of their individual posts are on the skip list.
 4. If nothing fresh is worth replying to, reply to nothing. Volume never justifies a bad reply.
+
+## The browser bug that ate an afternoon, and the fix
+
+Symptom: replies compose fine and thread correctly, then simply never send. Clicks land somewhere
+other than where the screenshot clearly shows the button. No error, nothing posted.
+
+Cause: the browser pane renders inside a fixed coordinate frame (800 wide here). When the
+emulated viewport is a different size, `read_page` and `find` report ref coordinates in *viewport*
+space while clicks are interpreted in *frame* space. At a 1400-wide viewport in an 800-wide frame
+everything is off by a factor of 0.57, so a ref click at x=881 lands off-canvas entirely and
+silently does nothing.
+
+**Fix: make the emulated viewport match the pane's coordinate frame.** Take any screenshot, read
+the reported "coordinate frame: W x H", then `resize_window` to exactly that width and height.
+Ref clicks and screenshot-derived coordinates then agree and everything works first time.
+
+Do this at the START of any session that will post, not after things start failing. Reset with
+preset "desktop" when finished.
+
+Second rule that follows from this: **always verify a reply actually posted** by loading
+`x.com/UncFund/with_replies` and confirming it is listed. Never assume. Several attempts failed
+silently before this was understood.
+
+## Log
+
+| Date | Where | Mode | What |
+|---|---|---|---|
+| 2026-09-06 | @blknoiz06 (Ansem), on crypto's cumulative influence, 17.5K views | Thesis echo | Small-check thesis in a different jacket; no single participant moves anything |
