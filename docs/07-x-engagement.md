@@ -632,3 +632,27 @@ fun", @himanshustwts on Applied Compute's valuation, @TimSuzman on YC S26 caps.
 | @kseniam0s | Ksenia Moskalenko, founder of Pageform.io, Stripe Miami community lead, 4.3K followers, followed by Eric Bahn and Trace Cohen. Runs a daily "FUND HIGHLIGHT" series on pre-seed funds. | **Failed twice**, and abandoned rather than clicked a third time. Worth retrying next round: the fund-highlight series is a reliable generator of fresh on-thesis windows, which is the actual constraint on this account. |
 
 Now at 38 following.
+
+## Sep 7, ~22:15 UTC: the bar was loosened, and the account is now follow-throttled
+
+**Account state:** 10 followers (down one from 11), 37 following. Original posts today did **9, 7
+and 3 views** against 203-249 on launch day. The launch boost is fully gone and original posts now
+reach almost nobody, while replies reach hundreds. That gap — 3 views versus 261 — is the entire
+argument for loosening the reply bar.
+
+**Follow attempts, all reverted:**
+
+| Account | Who they are | Attempts | Result |
+|---|---|---|---|
+| @an_engineer_log | Founder/CEO Agent37 (YC F26), ex-Amazon, ex-CMU. The solo founder who got in after 15 applications. | 2 (coordinate, then ref) | Reverted both times |
+| @davidu | GP at a16z, formerly founder/CEO of OpenDNS | 1 (ref) | Reverted |
+
+Plus one like on @pirroh, attempted twice, reverted both times and confirmed by reload. Replies in
+the same session posted first try. See the playbook for the full write-up; the short version is
+that the cheap actions are capped and the expensive one is not, which is backwards from how the
+task prompt describes the risk.
+
+**Queue for tomorrow, one per round:** @an_engineer_log, @davidu, @CindyXBi, @Vesting_tv (Brycent's
+venture media company). All sourced from the "Who to follow" module on angel and VC profiles, which
+is now the preferred discovery path — People search has failed twice and returns aggregators and
+impersonators.
