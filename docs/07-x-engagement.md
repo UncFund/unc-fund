@@ -550,3 +550,85 @@ twice liked and then unliked the same post. Noted in the playbook.
 Now at 37 following. The method that produced both is the documented one, and People search was a
 dead end again: "pre-seed investor" returned two accounts, one of which is a fund's employee and
 the other a generic aggregator.
+
+## Round at ~18:10 UTC (2:10pm ET): first real like data, and it does not favour the comedy copy
+
+Measured first, before anything else, as the playbook requires. Every reply is now two to twenty
+hours old, so these numbers have had time to settle. This is the first round where the measurement
+is worth anything.
+
+**Today's replies (Sep 7):**
+
+| Reply | Style | Views | Likes |
+|---|---|---|---|
+| @ycombinator, harnesses | old (thoughtful) | 119 | 0 |
+| @NotSoEasyMoney, grey runners | **new (comedy)** | 69 | 0 |
+| @Overlap_Tech, formidable founders | old | 62 | 0 |
+| @Trace_Cohen, Claude reset | old | 15 | 0 |
+| @dylanbalzerr, wrapper around a phone line | old | 7 | **1** |
+| @Trace_Cohen, investment committee | **new (comedy)** | 7 | 0 |
+
+**Yesterday's replies, for the fuller picture:**
+
+| Reply | Views | Likes |
+|---|---|---|
+| @paulg, stretch the chart | 261 | 0 |
+| @himanshustwts, the ugly deck | 237 | **1** |
+| @zqinfo, pairing decides who shows up | 63 | 0 |
+| @clementetv_, watching people print since 1987 | 27 | **1** |
+| @blknoiz06, small-check thesis in a jacket | 14 | **1** |
+| @arbitrum, Unc's nephews | 8 | **1** |
+
+### Said plainly: the comedy rewrite has not produced a single like yet
+
+Two comedy replies, 76 views between them, zero likes. Meanwhile five of the old thoughtful replies
+have one like each. The count of likes on the old style is higher than on the new one.
+
+That is the honest headline, and the task asks for it plainly rather than on autopilot. But the
+sample does not support the obvious conclusion, and here is why:
+
+1. **Two comedy replies is not a sample.** The rewrite landed at 11am today. Five likes across a
+   dozen old-style replies is a base rate of roughly 0.4 likes each. Two comedy replies returning
+   zero is exactly what that base rate predicts. Nothing has been disproven because nothing has been
+   tested yet.
+2. **Every like so far came from the account being replied to, or someone in their orbit.** The
+   @dylanbalzerr like came from Dylan Balzer himself (confirmed in notifications). The
+   @himanshustwts like came from a third party, Agnihotri. At this reach the likes are relationship
+   signals, not audience signals. Copy style barely enters into it.
+3. **Nothing has cleared 261 views.** A like rate cannot be read off a sample where the biggest
+   single reply has been seen by fewer people than fit in a lecture hall.
+
+**The decision stands: hold the comedy rules, hold the near-perfect bar.** The re-audit point is
+unchanged — roughly ten comedy replies, each given a full day. What changes is that there is now a
+clean control group written down above, so the comparison will be real when the sample arrives. If
+comedy replies are still at zero likes when ten of them have landed 50+ views each, the diagnosis
+needs to change, not the volume.
+
+### Timeline replies: zero
+
+Day was already at six timeline replies before this round started, so the bar was raised per the
+rule. Nothing cleared it. Full rejection table in `08-reply-playbook.md`; the near miss is worth
+naming here because it failed on a technicality that will recur: @TimSuzman's YC S26 valuation-cap
+post had 2,183 views against **two** replies, the best ratio of the day, and the line arrived
+instantly. X labelled it "1h". It was actually 114 minutes old. The label rounds down hard and
+freshness is criterion (a), so it was skipped.
+
+### Mentions
+
+None. The mentions tab is empty; the All tab shows only likes and follows. @dylanbalzerr liked
+Unc's reply and @MandelAngel (David Mandel) followed back — both from accounts Unc engaged this
+week, which is the relationship loop working.
+
+### Likes (4)
+
+@credistick on emerging managers only having incremental metrics to report, @Trace_Cohen "moving is
+fun", @himanshustwts on Applied Compute's valuation, @TimSuzman on YC S26 caps.
+
+### Follows (1 stuck, 1 failed)
+
+| Handle | Who | Result |
+|---|---|---|
+| @redbudvc | Redbud VC, Columbia Missouri. "Investing early in tech founders strengthened by struggle (Pre-Seed)." 61% first-time founders, 45% immigrants, 48% Midwest roots. | **Stuck.** The closest thesis match found in a week: a pre-seed fund whose entire pitch is backing the founders nobody else looks at. |
+| @kseniam0s | Ksenia Moskalenko, founder of Pageform.io, Stripe Miami community lead, 4.3K followers, followed by Eric Bahn and Trace Cohen. Runs a daily "FUND HIGHLIGHT" series on pre-seed funds. | **Failed twice**, and abandoned rather than clicked a third time. Worth retrying next round: the fund-highlight series is a reliable generator of fresh on-thesis windows, which is the actual constraint on this account. |
+
+Now at 38 following.
