@@ -242,3 +242,5 @@ Cost four failed attempts to work out. Check `x.com/UncFund/with_replies` afterw
 |---|---|---|---|
 | 2026-09-06 | @MeghanKReynolds (Altimeter), LPs vs blind pool funds, 20.9K views / 13 replies | Thesis echo | Access at the front of the curve is the only thing a blind pool sells |
 | 2026-09-06 | @Trace_Cohen, AI cold-spam pitch emails, 658 views / 1 reply | Sincere lift | Send the one you typed yourself, typo and all |
+| 2026-09-06 | @serpinxbt (reposted by threadguy), VC sidelined from this cycle, 3.7K views | Self-own / agree | One man with a web form, "less a rebuttal than agreeing with extra steps" |
+| 2026-09-06 | @msbathgate, pre-seed shift is a problem, incentives may be needed | Sincere lift | Not waiting on incentives, just one more person at the front of the line |

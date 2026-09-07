@@ -326,3 +326,29 @@ Followed four real investors from that one thread:
 **The method worth repeating:** find one post that matches the thesis, read the thread, and the
 thread hands you both the reply and the follow list. Every one of these four is closer to Unc's
 actual audience than any crypto streamer followed earlier today.
+
+## Late Sunday: two more VC replies (Sep 6)
+
+@serpinxbt, reposted by threadguy, arguing VC has been sidelined this cycle and capital formation
+feels cypherpunk again. 3,684 views.
+
+> Hard to argue. The money that mattered this cycle came from people, not committees.
+>
+> Unc is one man with a web form and a $500 minimum. Which is less a rebuttal than agreeing with
+> extra steps.
+
+The move here was to AGREE rather than defend. The critique is aimed at institutional VC, and Unc
+is the opposite of that, so the honest reply is to concede the point and let the concession do the
+positioning. A defensive reply from a fund account under a post like that reads badly and would
+have broken the never-contrarian rule.
+
+@msbathgate, newly followed, arguing the shift away from pre-seed is a real problem and incentives
+may be needed. Only 24 views, so this was a relationship play rather than a reach play, on the best
+thesis match of the day.
+
+> Unc isn't waiting on incentives. He's writing $500 checks out of his own pocket because somebody
+> has to go first.
+>
+> Not a policy. Just one more person standing at the front of the line.
+
+**Ten replies today.** The launch thread reply is now at 151 views, the Meghan Reynolds one at 30.
