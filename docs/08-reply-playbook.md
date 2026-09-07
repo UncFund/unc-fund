@@ -213,3 +213,32 @@ silently before this was understood.
 | Date | Where | Mode | What |
 |---|---|---|---|
 | 2026-09-06 | @blknoiz06 (Ansem), on crypto's cumulative influence, 17.5K views | Thesis echo | Small-check thesis in a different jacket; no single participant moves anything |
+
+## The two-composer trap
+
+Some post pages have no inline reply box, so the only route is clicking the reply icon, which
+opens a modal. On those pages the reply silently fails unless you know this:
+
+**`find "Post text"` returns the HIDDEN inline composer, not the modal.** The modal opens on top,
+but the accessibility tree still surfaces the one behind it first. So `form_input` fills the
+invisible box, the modal stays empty with its Reply button greyed out, and clicking it does
+nothing. Repeatedly. It looks exactly like a broken click.
+
+The sequence that works:
+
+1. Click the reply icon on the post.
+2. Wait for the modal to finish animating, about 8 seconds. It is genuinely empty at this point.
+3. `find "Post text"` AGAIN. It now returns TWO refs. The FIRST one is the modal.
+4. `form_input` the first ref.
+5. `read_page` and take the last unnamed button in the modal's group, after the toolbar buttons
+   (photos, GIF, poll, emoji, schedule, location). That is the Reply submit.
+6. Click it BY REF, not by coordinate.
+
+Cost four failed attempts to work out. Check `x.com/UncFund/with_replies` afterwards either way.
+
+## Log
+
+| Date | Where | Mode | What |
+|---|---|---|---|
+| 2026-09-06 | @MeghanKReynolds (Altimeter), LPs vs blind pool funds, 20.9K views / 13 replies | Thesis echo | Access at the front of the curve is the only thing a blind pool sells |
+| 2026-09-06 | @Trace_Cohen, AI cold-spam pitch emails, 658 views / 1 reply | Sincere lift | Send the one you typed yourself, typo and all |
