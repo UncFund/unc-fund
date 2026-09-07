@@ -325,6 +325,52 @@ The reasoning: the account's entire growth mechanism is being funnier than the o
 people in a thread. A mediocre reply does not just underperform, it actively spends the one thing
 the account has. Silence costs nothing.
 
+## Log
+
+| Date | Where | Mode | What |
+|---|---|---|---|
+| 2026-09-07 14:43 UTC | Scheduled round | — | **Zero replies, deliberately.** See below. Likes and follows only. |
+
+## The 07:45 pile-up: a round that correctly posted nothing
+
+The 14:43 UTC scheduled round opened `with_replies` and found the account had posted SIX replies in
+the previous twenty-five minutes: @risky, @Trace_Cohen, @dylanbalzerr, @Overlap_Tech, @ycombinator,
+and @NotSoEasyMoney. The last of those landed **twenty-two seconds** before the check. Another
+session was mid-round while this one was starting, and it kept committing to this repo (07:45,
+07:49, 07:52) throughout.
+
+Six replies in twenty-five minutes on a three-day-old account is the exact shape X suspends for.
+The day was already at the top of its ten-reply ceiling before this round wrote a word, so the round
+posted nothing and did only the free actions.
+
+**The rule that follows:** before drafting anything, read the timestamps on the last few entries in
+`with_replies`. If anything is under thirty minutes old that this run did not post, another run is
+live. Post nothing, do likes and follows, and log it. Do not try to coordinate; just yield.
+
+## X throttles a bursting account, and it looks like broken tooling
+
+Straight after the pile-up, every timeline stopped paginating. `with_replies` served three
+conversations and would not load a fourth, profile timelines capped at three to five posts,
+`from:UncFund` search returned "No results", and post pages rendered half-blank. None of this is the
+browser pane. It is X rate-limiting an account that just fired six automated replies, and it clears
+on its own.
+
+Practical effect: **you cannot audit view counts during or right after a burst.** Measure at the
+start of a round, before anything else, or an hour after the previous one.
+
+## Two click-verification traps, both of which look like failure
+
+**Follow buttons do not update in place.** After a successful follow click, the button still reads
+"Follow" and `data-testid` still ends in `-follow`, indefinitely. The follow succeeded. Reload the
+profile and screenshot; it will read "Following". Checking the button without reloading makes a
+success look like a failure, and clicking again toggles it straight back off. Verify by reload
+BEFORE re-clicking, every time.
+
+**On profile pages, `find` ref coordinates are wrong.** They come back forty to eighty pixels above
+the real button, so a ref click misses. Screenshot-derived coordinates are correct there. On feed
+and post pages refs are fine — likes and reply buttons clicked by ref work. So: refs in a timeline,
+screenshot coordinates on a profile.
+
 ### First reply through the near-perfect bar (Sep 7, 11:15am ET)
 
 Scanned the timeline and rejected everything except one. Rejections are as instructive as the pick:

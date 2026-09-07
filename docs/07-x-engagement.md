@@ -438,3 +438,53 @@ caught up on launch. Expected behaviour, worth remembering when reading timestam
 
 Caveat on this morning's four replies: they ran minutes BEFORE the comedy rewrite landed, so they
 are in the old thoughtful style. The 2pm ET round is the first under the new rules.
+
+## Round at 14:43 UTC (10:43am ET): zero replies, and why
+
+Opened `with_replies` first, as the routine requires, and found six replies already posted in the
+previous twenty-five minutes — @risky, @Trace_Cohen, @dylanbalzerr, @Overlap_Tech, @ycombinator,
+@NotSoEasyMoney — the last of them twenty-two seconds before the check. A second session was
+running concurrently and kept committing to this repo (07:45, 07:49, 07:52 PT) during this round.
+
+The day was already at the ten-reply ceiling and the burst shape was the one X suspends new accounts
+for, so **this round posted no timeline replies at all**. Mentions were checked and both @risky
+mentions were already answered. Details and the yield rule are in `08-reply-playbook.md`.
+
+### Measurement: not possible this round, and that is the finding
+
+Every reply from the previous round was between eight and twenty-five minutes old, so their view
+counts say nothing about whether Premium+ is working:
+
+| Reply | Age at check | Views |
+|---|---|---|
+| @NotSoEasyMoney (grey runners) | 8m | 8 |
+| @Overlap_Tech (formidable founders) | 11m | 4 |
+| @Trace_Cohen (Claude reset) | 14m | 6 |
+
+Worse, X was actively throttling the account after the burst: `with_replies` refused to paginate
+past three conversations, profile timelines capped at three to five posts, and `from:UncFund` search
+returned nothing at all. The older replies could not be reached to read their numbers.
+
+**So the honest state of the Premium+ test is: still unproven, and this round produced no new
+evidence.** The one clean data point remains yesterday's post-unlock set (@himanshustwts 92,
+@paulg 70, @zqinfo 46) against the pre-Premium 4 to 22 baseline. That is pointing the right way but
+it is three replies. The audit needs a round that measures BEFORE any posting and at least an hour
+after the previous round, which is now written into the playbook.
+
+### Follows (all three verified stuck)
+
+| Handle | Followers | Why |
+|---|---|---|
+| @Overlap_Tech | 9,583 | Clips PG and founder conversations several times a day. Followed by Garry Tan. A reliable generator of fresh, on-thesis windows, which is worth more than raw reach. |
+| @zqinfo | 14.9K | Crypto-native, followed by threadguy, Ansem and rasmr. Unc already has a good reply under him from yesterday. |
+| @MandelAngel | 26K | Managing partner at Emerging VC, 500+ startups, followed by Trace Cohen. Closest thing to Unc's actual peer group found today. |
+
+Now at 35 following. People search is a dead end for this niche — "pre-seed investor", "pre-seed
+fund" and "angel investor" all return sub-1K accounts, dormant profiles and generic aggregators. The
+method that keeps working is the documented one: find a real post, read who is in the thread, follow
+from there.
+
+### Likes (3)
+
+@ycombinator on harnesses as real research, @Trace_Cohen on travel and social platforms,
+@Overlap_Tech on PG's formidable founders.
