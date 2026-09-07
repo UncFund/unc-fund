@@ -275,3 +275,54 @@ than the line.
 
 **Tonight's last action** is a one-time task at 8pm Pacific, instructed to find new founder and VC
 accounts only, avoid every account already used today, and record how today's replies performed.
+
+## Reach after the two unlocks (Sep 6, 2026, ~8:30pm PT)
+
+Same account, same day, same voice. The only thing that changed mid-afternoon was Premium+ plus
+graduated access lifting.
+
+| Reply | Posted | Views |
+|---|---|---|
+| @himanshustwts | after both unlocks | 92 |
+| @paulg (revenue graph) | after both | 70 |
+| @zqinfo | first after Premium+ | 46 |
+| @clementetv_ | before | 17 |
+| @blknoiz06 | before | 9 |
+
+Roughly a fivefold jump. Both the Premium+ purchase and the shift toward high-view, low-reply
+posts are validated. Keep hunting that ratio.
+
+## The VC thread, and the follow wave that came out of it (Sep 6, late)
+
+Rand's steer: comment under founder and VC posts as often as possible, and follow the people found
+there.
+
+Searching "pre-seed" and "first check" sorted by Latest is noisy at night, mostly fandom uses of
+"shipped" and unrelated finance posts. The useful path was following one real post to its source
+conversation.
+
+@MeghanKReynolds (Managing Partner and Head of Capital Formation at Altimeter) posted on LPs asking
+why they should back a blind pool fund when secondaries and co-invest give them the same assets on
+better terms. 20,900 views, only 13 replies. That ratio is the whole reason it was worth replying.
+
+> The answer is at the front of the curve, not the back.
+>
+> An LP can co-invest into a Series C. Nobody co-invests into a company that doesn't exist yet.
+> That access is the only thing a blind pool sells that can't be bought another way.
+
+No pitch, no link, no Unc gag. In a serious LP thread the register has to match, and the profile
+click has to be earned by the argument. This is the "thesis echo" mode doing real work: it is
+Unc's actual thesis, stated in the language of the room.
+
+Followed four real investors from that one thread:
+
+| Handle | Who |
+|---|---|
+| @MeghanKReynolds | Managing Partner, Altimeter Capital |
+| @TimSuzman | Managing Partner, Pioneer Fund (500+ YC alumni investing in YC startups) |
+| @Trace_Cohen | Angel in 75+ companies, early AI and deep tech, ValueAddVC |
+| @msbathgate | Investor, actively arguing that the shift away from pre-seed is a problem |
+
+**The method worth repeating:** find one post that matches the thesis, read the thread, and the
+thread hands you both the reply and the follow list. Every one of these four is closer to Unc's
+actual audience than any crypto streamer followed earlier today.
