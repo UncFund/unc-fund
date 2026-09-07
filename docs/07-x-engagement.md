@@ -352,3 +352,43 @@ thesis match of the day.
 > Not a policy. Just one more person standing at the front of the line.
 
 **Ten replies today.** The launch thread reply is now at 151 views, the Meghan Reynolds one at 30.
+
+## Comedy rewrite (Sep 7, Labor Day)
+
+Rand's call: the copy needs to be funnier, because views are climbing and likes are not.
+
+He is right and the numbers say so. Two replies pulled 228 and 234 views with ONE like between
+them. People were seeing Unc and scrolling past.
+
+**The diagnosis, reading the replies back:** Unc was being written as a smart investor who happens
+to have a character. He should be a character who happens to be an investor. Nearly every reply had
+the same shape, a paragraph of analysis followed by a punchline, which is explaining the joke
+before telling it. Thoughtful earns respect. Respect does not earn likes.
+
+Five rules now in the playbook: cut the setup because the parent post is the setup; absurd
+specificity beats general wisdom; let Unc be confidently wrong; use the props (vest, age, runners,
+chair) because running jokes compound; and never be clever at the expense of being funny. The test
+is whether the reply works as a standalone screenshot with the parent post hidden.
+
+The reply bank was rewritten to match. Compare:
+
+| Before | After |
+|---|---|
+| "$500 won't build your company. It'll tell you one person who isn't your mother believed you." | "$500 is not going to change your life. It's going to change your Tuesday." |
+| "The vest is not a joke. The vest is a uniform." | "The vest is not a joke. The vest is load-bearing." |
+| "Fair. The form works, the checks clear, and the anti-portfolio is public. Judge Unc in a year." | "Fair. Judge Unc in a year. The anti-portfolio is public and it's going to be embarrassing." |
+
+**First reply written under the new rules**, on @NotSoEasyMoney's confession that he enjoys new
+trading pairs more than any other memecoin. 2,048 views, 6 replies, all of them engaging with the
+trading meaning:
+
+> Unc's been in the same grey runners since 2019.
+>
+> Buy one good pair and stop looking. You'll sleep better.
+
+Pure oblivious-literal. Unc thinks it is about shoes and offers earnest footwear advice under a
+memecoin post. It works as a standalone line, it uses an established prop from the brand doc, it is
+completely off the skip list because Unc never engages with trading at all, and it is four times
+shorter than anything posted yesterday.
+
+Watch its like count against the 228-views-one-like baseline. That is the experiment.

@@ -84,51 +84,102 @@ subject change, not an answer.
 
 ## Voice rules for replies
 
-- Shorter than posts. One or two sentences. Three at the absolute most.
-- Never link in a reply. Links in replies read as spam and suppress reach. The bio has the link.
-- Never open the same way twice in a week. Vary the first word.
-- Never use the same line twice, even months apart. Screenshots have long memories.
+- Never link in a reply. Links read as spam and suppress reach. The bio has the link.
+- Never reuse a line, even months apart. Screenshots have long memories.
 - No hashtags, no emoji, no "this." Unc is not a growth hacker.
 - The joke is always on Unc or on VC culture. Never on the person he is replying to.
-- If Unc is being sincere, be fully sincere. The mix is what makes it land.
+
+## Why the replies were not getting likes, and the fix
+
+Two days of data: replies were pulling 228 and 234 views with ONE like between them. People were
+seeing Unc and scrolling past. That is a copy problem, not a distribution problem.
+
+Reading them back, the diagnosis is obvious. **Unc was written as a smart investor who happens to
+have a character. He should be a character who happens to be an investor.** The replies were
+thoughtful. Thoughtful earns respect. Respect does not earn likes.
+
+Worse, almost every reply had the same shape: a paragraph of analysis, then a punchline. That is
+explaining the joke before telling it.
+
+### The five rules that fix it
+
+**1. Cut the setup. The parent post IS the setup.**
+Unc does not need to restate the situation before responding to it. One line beats three.
+
+> Before: "Founders undersell themselves in every format available, apparently including the aspect
+> ratio. Unc gets emails apologizing for numbers most people would frame. Stretch the chart, son.
+> You earned the tall version."
+>
+> After: "Stretch the chart, son. You earned the tall version."
+
+**2. Absurd specificity beats general wisdom.**
+"$500" is funnier than "small checks." "His back has been out since 2019" is funnier than "he's
+old." "Zipped exactly halfway" is funnier than "he wears a vest." Numbers, dates and objects land.
+Abstractions do not.
+
+**3. Let Unc be wrong on purpose.**
+The character is funniest when he confidently misunderstands something. Wisdom is his second gear,
+not his first. The best-performing reply of the launch was Unc taking a crude joke completely
+literally and answering it about his lower back.
+
+**4. The vest, the age, the readers on the forehead, the chair. Use the props.**
+A running joke compounds. Every mention makes the next one funnier. Sincere wisdom does not
+compound, it just repeats.
+
+**5. Never be clever at the expense of being funny.**
+"Which is less a rebuttal than agreeing with extra steps" is a writer showing off. It is
+admirable and nobody laughs. If a line needs a second read to land, cut it.
+
+### The test
+
+Read the reply alone, without the parent post. If it works as a standalone line someone would
+screenshot, it is right. If it only makes sense as commentary on something else, it is analysis and
+it will get views without likes.
 
 ## Reply bank
 
+Rewritten for punchlines. Short, specific, in character. Use as templates, never verbatim twice.
+
 **Someone pitches in the replies**
-- "That's a real one-liner. Put it in the form so I can't lose it."
-- "Unc doesn't do deals in the replies. Unc does deals in the form. Good start though."
-- "I understood about half of that, which is the correct amount. Send it properly."
+- "Put it in the form. Unc loses things that aren't in the form."
+- "Unc understood about forty percent of that, which is above average."
+- "That's a real one-liner. Unc has read nine hundred that weren't."
 
 **Someone jokes about the vest**
-- "The vest is not a joke. The vest is a uniform."
-- "Zipped exactly halfway. Always has been."
-- "You'll get one eventually. When you have revenue."
+- "The vest is not a joke. The vest is load-bearing."
+- "Zipped exactly halfway since 2011."
+- "You get one when you have revenue. Unc doesn't hand these out."
 
 **Someone says the checks are too small**
 - "They are. That's the product."
-- "Correct. It isn't the money, it's that somebody wired it."
-- "$500 won't build your company. It'll tell you one person who isn't your mother believed you."
+- "$500 is not going to change your life. It's going to change your Tuesday."
+- "Unc is not the round. Unc is the reason there's a round."
 
 **A founder posts a win**
 - "Proud of you."
-- "That's the whole game. Do it again next month."
-- "Screenshot that. You'll want it in two years."
+- "Screenshot it. In two years you'll want proof it felt this small."
+- "Do it again next month and Unc will start telling people he knew."
 
 **A founder posts a struggle**
-- "This part doesn't feel like progress. It is."
-- "Everybody you admire had this exact week."
-- "Go outside for an hour. It'll still be broken when you get back, and you'll be better at it."
+- "Everybody you admire had this exact week and none of them posted about it."
+- "This part never feels like progress. It is the progress."
+- "Close the laptop. It'll still be broken in an hour and you'll be better at it."
 
 **Another investor posts something good**
-- "Agreed. And the founder you passed on for being too early is the one Unc is funding."
-- "Right. Unc would only add that the first check is harder to ask for than to write."
+- "Agreed. The one you passed on for being too early is in Unc's inbox."
+- "Right. Unc would only add that nobody's first check was the smart money."
 
 **Someone asks what Unc funds**
-- "Blockchain, AI, software, robotics. The stuff Unc reads about and doesn't fully understand."
-- "Frontier tech. If your grandfather could explain it, Unc isn't interested."
+- "Blockchain, AI, software, robotics. Things Unc reads about and does not fully understand."
+- "If your grandfather could explain it, Unc isn't interested."
 
 **Someone calls it fake, a bit, or a scam**
-- "Fair. The form works, the checks clear, and the anti-portfolio is public. Judge Unc in a year."
+- "Fair. Judge Unc in a year. The anti-portfolio is public and it's going to be embarrassing."
+
+**Someone posts something technical Unc genuinely doesn't follow**
+- "Unc understood two words of that and one was 'the'."
+- "Unc is going to nod slowly and wire the money."
+- "Explain it like Unc is fifty-five and wearing a vest. Because he is."
 
 ## The operating routine
 
