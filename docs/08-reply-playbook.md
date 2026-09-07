@@ -324,3 +324,31 @@ has before adding to it; if it is at five or more, raise the bar further.
 The reasoning: the account's entire growth mechanism is being funnier than the other two hundred
 people in a thread. A mediocre reply does not just underperform, it actively spends the one thing
 the account has. Silence costs nothing.
+
+### First reply through the near-perfect bar (Sep 7, 11:15am ET)
+
+Scanned the timeline and rejected everything except one. Rejections are as instructive as the pick:
+
+| Candidate | Why rejected |
+|---|---|
+| threadguy on a Hunter Biden memecoin, 7.7K views | Politics AND a memecoin. Hard skip, exactly the post that angers people. |
+| Easy on the same news, 2.7K views | Same reason. |
+| Anchored launch, reposted by Arbitrum | Promotional, 230 views, no Unc angle. |
+| Trace Cohen on AMEX/Resy tech stack | 267 views, no funny line available, Unc would be a generic commentator. |
+
+The one that passed, @Trace_Cohen on companies having a decision problem rather than a strategy
+problem, everyone knowing the call that needs making and nobody making it, so it gets pushed
+another quarter. Caught it **two minutes after posting with zero replies on it**.
+
+> Unc's investment committee is Unc.
+>
+> It meets in the kitchen, adjourns in four minutes, and has never once asked for another quarter.
+
+Against the five criteria: fresh at two minutes, zero replies on a 25K-follower account, the line
+arrived immediately and survives the standalone screenshot test, it is entirely in character (solo
+fund, no partners, decisive), and it is clean. All five, which is why it went out.
+
+Note it is the second reply to @Trace_Cohen today, since the 9:43am automated round already
+replied to him. That is at the two-per-account ceiling, not over it, but worth watching: replying
+to the same person twice in ninety minutes reads eager. Prefer spreading across accounts when the
+quality is equal.
