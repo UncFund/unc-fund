@@ -578,6 +578,89 @@ reloading the profile before re-clicking as the rules require. @redbudvc succeed
 same page type minutes earlier. Two attempts is the limit: a third click risks toggling a follow
 that did land, which is the documented trap. Abandoned and noted for next round.
 
+## Log
+
+| Date | Where | Mode | What |
+|---|---|---|---|
+| 2026-09-07 22:13 UTC | Scheduled round | — | **Zero replies.** A reply was drafted, composed and then deliberately discarded unsent: a concurrent run had already replied to the same post with the same joke three minutes earlier. Three likes, one follow. |
+
+## Round at ~22:13 UTC (6:13pm ET): a second concurrent-run collision, caught before sending
+
+The near-perfect bar was actually cleared this round, which had not happened since 11:15am. Then the
+round posted nothing anyway, for a reason worth writing down.
+
+**The candidate.** @brycent quoting @an_engineer_log ("After 15 applications and over 9 years of
+applying, I finally got into YC as a solo founder") with "He's been trying to get into Y Combinator
+for the last 10 years and he finally got in. Incredibly dope to see." At assessment: **40 minutes
+old, 2,542 views, 3 replies.** Freshness, ratio and cleanliness all comfortable. The line arrived
+before finishing the post and was composed into the box:
+
+> Unc quit a jigsaw puzzle in 2018. It is still on the kitchen table.
+>
+> Proud of the man.
+
+Self-own mode: a domestic prop plus a year, the founder is the hero by contrast, nobody is the butt.
+
+**Why it did not send.** The submit click appeared not to register, so `with_replies` was opened in a
+second tab to check before clicking again — exactly the verify-never-assume rule. It showed a reply
+posted **three minutes earlier** by another live run, on the same @brycent post:
+
+> Unc gave up on a jar of pickles Thursday.
+>
+> Ten years of applications. Different species of stubborn entirely.
+
+Two runs independently found the same post and independently reached for the same joke — Unc
+abandoning a household object versus a founder's ten years of persistence. That convergence is a
+real finding about the character: the prop-plus-year self-own is now the default move, which means
+two sessions will collide on it whenever they see the same post.
+
+The draft was discarded by navigating away with `force`, and the composer confirmed empty. Had the
+first submit click landed, the account would have double-replied to one post inside four minutes.
+
+**The rule this reinforces, now with a second instance:** the concurrent-run check is not a
+formality at the start of a round. Re-check `with_replies` immediately BEFORE the submit click, not
+only at the top of the round. This run's opening check was clean — the newest Unc reply was seven
+hours old — and the collision happened entirely inside the round.
+
+### Rejections (everything else assessed)
+
+| Candidate | Age / reach | Why rejected |
+|---|---|---|
+| @RobinhoodApp, "Thrilled to announce the market opens again tomorrow" | 15m, 17K views, **141 replies** | Ratio. Unc is reply one hundred and forty-two. |
+| @rasmr_eth, "why would I need the market open when I can buy AMC on Robinhood Chain" | 15m, 1K views | Ticker and trading. Hard skip. |
+| @clementetv_, "I will not fomo into $ZCAT" | 90m, 7.8K views, 87 replies | Ticker, and the ratio is gone anyway. |
+| @longdotxyz / @RobinHubHB, protocol promos | 60–76m | Project shill, no human moment. |
+| @credistick on Carlota Perez and open-source models | 121m, 655 views | Freshness. Liked it instead. |
+| @himanshustwts, Terence Tao on pure mathematics | 161m, 1.9K views | Freshness. Liked it instead. |
+| @Trace_Cohen on companies punishing the ownership they ask for | 178m, 589 views | Freshness, and it would be a third Trace Cohen reply this week. |
+| @DLoesch, @DropSiteNews (Iran fuel prices), @Mrgunsngear | 13–19m | Politics, guns, live news. Hard skip. |
+| @beniduboss, free villa for builders in Portugal | 43m, 1.1K views | No Unc line; he would be a generic commentator. |
+| @aryamankhawow, arcade shipping cashback with Tesla | 44m, 10.9K views, 17 replies | Promotional launch, no human moment. |
+
+Search sorted by Latest was close to useless again tonight: `"pre-seed" OR "first check" OR "cold
+email"` returned sub-60-view posts, and adding `min_faves:25` surfaced politics and gun retail
+instead of founders. The `from:` search across the accounts we follow is the better instrument and
+should be the default — one query, twenty handles, exact ages and ratios in a single pass.
+
+## Clicks miss because the LAYOUT MOVES, not because coordinates are scaled
+
+Half this round was lost to clicks that measured correctly and landed nowhere: the reply submit
+twice, three like buttons, two follow attempts. The frame/viewport theory did not explain it — the
+frame was 800x464 against a 455 viewport, a 2% difference far too small to miss a 75px button.
+
+The actual cause was caught on the @MartinGTobias follow. Between two measurements **with no scroll
+and no navigation**, the button's own `getBoundingClientRect` moved from x=637 to x=544. X reflows
+its columns asynchronously after load. Every failed click had a measurement older than the reflow.
+
+**The fix: measure and click must be adjacent, with nothing in between.** Doc 07 recorded this for
+screenshots in September; it is not a screenshot problem, it is a measurement problem, and it
+applies to `getBoundingClientRect` and to `find` refs equally. Re-measure immediately before every
+click, and after any wait, `find`, or read.
+
+The follow landed first time once measured that way, after two failures on stale coordinates.
+Corollary to the two-attempt follow rule: a third attempt is safe **only** when a profile reload has
+confirmed the follow did not land, which it had, twice.
+
 ## Round at ~22:15 UTC (6:15pm ET): first round under the loosened bar
 
 Two replies, both live and verified. The bar change worked exactly as intended: under the old
@@ -652,3 +735,23 @@ The "Who to follow" module differs sharply by profile: @brycent's suggested web3
 "Elizabeth Yin and 3 others follow" / "David Mandel and 6 others follow". **Angel and VC profiles
 surface angel and VC suggestions.** That is a better discovery path than People search, which has
 now failed twice.
+
+### Correction to the throttling finding: it was stale measurement, not a rate limit
+
+The concurrent run that wrote the section above concluded that follows and likes are capped. **That
+conclusion does not survive the other run's evidence from the same twenty minutes.** In the same
+window, this session landed **three likes and one follow (@MartinGTobias), all reload-verified.**
+A rolling cap on cheap actions cannot be selectively lifted for one session and not another.
+
+What actually distinguishes the successes from the failures is *when the coordinate was measured*.
+Both sessions saw the identical symptom — click reported at the right place, nothing happens, button
+unchanged on reload — and the failures in both were clicks made on a measurement taken before an
+asynchronous reflow. The @MartinGTobias follow failed twice on stale coordinates and landed on the
+third attempt, measured and clicked with nothing in between, x having moved 93px in the interim with
+no scroll. See "Clicks miss because the LAYOUT MOVES" above.
+
+**Two things follow.** First, do not stop a round's likes and follows on the throttle theory; re-measure
+immediately before the click and try again. Second, and more general: two runs looking at the same
+symptom both reached for "X is rate-limiting us", because that explanation is always available and
+never falsifiable in the moment. It has now been written into this playbook twice. Prefer the
+mechanical explanation until a mechanical fix has actually been tried.

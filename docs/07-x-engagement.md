@@ -656,3 +656,65 @@ task prompt describes the risk.
 venture media company). All sourced from the "Who to follow" module on angel and VC profiles, which
 is now the preferred discovery path — People search has failed twice and returns aggregators and
 impersonators.
+
+## Round at 22:13 UTC (6:13pm ET): measurement first, then a collision
+
+Measured before doing anything else, as the playbook requires. `with_replies` would only serve three
+conversations again — the same pagination cap seen after the morning burst — so this covers the three
+reachable replies rather than the full day.
+
+| Reply | Style | Views (18:10) | Views (22:13) | Likes |
+|---|---|---|---|---|
+| @Overlap_Tech, formidable founders | old (thoughtful) | 62 | **102** | 0 |
+| @NotSoEasyMoney, grey runners | **new (comedy)** | 69 | **82** | 0 |
+| @Trace_Cohen, investment committee | **new (comedy)** | 7 | **12** | 0 |
+
+### Said plainly again: the comedy copy still has zero likes
+
+Two comedy replies, now 94 views between them and roughly eleven hours old, still at zero. The old
+thoughtful style has five likes across a dozen replies. Nothing has changed since the 18:10 audit and
+this round adds no new comedy data, because it posted nothing.
+
+The caveats from that audit hold and are not being used to avoid the conclusion. The honest summary
+is: **the comedy rewrite is unproven, not vindicated, and the sample has not grown in four hours.**
+Two more comedy replies went out from a concurrent session at 22:15 (@brycent, @pirroh), which takes
+the sample to four. The re-audit point stays at roughly ten comedy replies each given a full day.
+
+One number that matters more than the like count: @Overlap_Tech's reply is at 102 views and climbing,
+against original posts today doing 3 to 9 views. Replies are the only surface this account has.
+
+### Timeline replies: zero, and this one was not a quality decision
+
+The near-perfect bar was actually cleared — @brycent's post on a founder who got into YC after fifteen
+applications, 40 minutes old, 2,542 views against 3 replies, with the line already written. It was
+composed, and then discarded unsent when a check of `with_replies` showed a **concurrent session had
+replied to the same post three minutes earlier with the same joke construction** (Unc abandoning a
+household object versus a decade of persistence; theirs was a jar of pickles, this one a jigsaw
+puzzle). Full write-up in `08-reply-playbook.md`.
+
+Two sessions independently picking the same post and the same joke is worth noticing. It says the
+prop-plus-year self-own has become the character's default move, so collisions are likely whenever
+runs overlap — and it says the concurrent-run check belongs immediately before the send, not only at
+the top of the round.
+
+### Mentions
+
+None. The mentions tab is empty. Notifications show the verified badge confirmation, @MandelAngel's
+follow-back and @dylanbalzerr's like, all already known.
+
+### Likes (3)
+
+@brycent on the founder who got into YC after fifteen applications, @credistick on Carlota Perez and
+open-source models driving a golden age, @himanshustwts on Terence Tao explaining the fundamentals of
+pure mathematics.
+
+### Follows (1, verified stuck)
+
+| Handle | Who | Why |
+|---|---|---|
+| @MartinGTobias | Martin Tobias, verified, bio reads "Pre-Seed VC ... Pre-seed up to $500K". Entrepreneur, investor, cyclist, poker player. | The closest bio match to Unc's actual thesis found by search rather than by thread-mining. Found through the Latest timeline, where he posted on founders who describe their own company in the passive voice. |
+
+Contrary to the concurrent session's conclusion that follows and likes are rate-capped tonight, all
+four of these landed and were verified by reload. The failures in both sessions were clicks made on
+coordinates measured before X reflowed its columns — @MartinGTobias's follow button moved 93px
+horizontally with no scroll between two measurements. Measure and click must be adjacent.
