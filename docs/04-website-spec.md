@@ -75,3 +75,34 @@ Why not Webflow: 12 of the 43 sites scanned use it, so it is safe, but embedding
 - [ ] OG image shows Unc and the tagline when shared on X.
 - [ ] Legal disclaimer in footer reviewed.
 - [ ] Both themes readable.
+
+## Where submissions actually go (verified 2026-09-06)
+
+Both forms write to **two** places, in this order:
+
+1. **Vercel Blob, always.** Every pitch and contact message is written to
+   `submissions/pitch/<timestamp>.json` or `submissions/contact/<timestamp>.json` before any email
+   is attempted. Uploaded decks go to `decks/` and `contact/` separately, and the JSON records the
+   deck URL. This is the durable copy and it does not depend on email working.
+2. **Email via Resend, best effort.** Notification to `NOTIFY_TO` (contactuncfund@gmail.com) plus a
+   confirmation to the founder in Unc's voice.
+
+**RESEND_API_KEY is not set in production**, so today no email is sent for either form. That is why
+the archive exists: without it, a pitch would have lived only in a Vercel runtime log that rotates
+away, and the account has been posting "pitch me at unc.fund" all weekend.
+
+Until the key is added, read submissions with:
+
+```
+cd site
+vercel env pull .env.blob --environment=production --yes
+# then list the Blob store with BLOB_READ_WRITE_TOKEN from that file
+```
+
+**A founder never sees the plumbing.** Both forms used to return "the email service is not
+configured on this server" and "Logged on the server. Email is not configured here yet." straight to
+the person submitting. They now always return the normal confirmation, and the failure is logged
+server-side as `EMAIL NOT SENT` with the archive URL, where it belongs.
+
+Verified end to end on the live site: a submission returns "Unc has it. Give him a week." and the
+JSON appears in Blob. Both test records were deleted afterwards; the store is empty.

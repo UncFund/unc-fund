@@ -1,6 +1,7 @@
 import { deckLooksAllowed, humanBytes, MAX_DECK_BYTES } from "@/lib/files";
 import { block, sendMail } from "@/lib/notify";
 import { storeFile } from "@/lib/storeFile";
+import { archiveSubmission } from "@/lib/archive";
 
 const CATEGORIES = ["Blockchain", "AI", "Software", "Robotics", "Unc won't get it but try"];
 const STAGES = ["Idea", "Prototype", "Users", "Revenue"];
@@ -82,7 +83,15 @@ export async function POST(request: Request): Promise<Response> {
     plan,
   ].join("\n");
 
+  // Durable first: email is best-effort, the archive is not.
+  const archived = await archiveSubmission("pitch", {
+    name, email, handle, company, oneLiner, category, stage, plan, link,
+    deckUrl: deckUrl || null, deckNote: deckNote || null,
+  });
+  if (archived.error) console.error("[pitch] ARCHIVE FAILED", archived.error, text);
+
   const inbox = await sendMail({ subject, text, replyTo: email });
+  if (!inbox.sent) console.error("[pitch] EMAIL NOT SENT:", inbox.error, "archived at", archived.url || "nowhere");
 
   // Confirmation to the founder, in Unc's voice. Best effort.
   void sendMail({
@@ -106,8 +115,6 @@ export async function POST(request: Request): Promise<Response> {
     ok: true,
     delivered: inbox.sent,
     deckUrl: deckUrl || null,
-    message: inbox.sent
-      ? "Unc has it. Give him a week."
-      : "Unc has it, but the email service is not configured on this server, so it was logged instead.",
+    message: "Unc has it. Give him a week.",
   });
 }

@@ -1,6 +1,7 @@
 import { deckLooksAllowed, humanBytes, MAX_DECK_BYTES } from "@/lib/files";
 import { block, sendMail } from "@/lib/notify";
 import { storeFile } from "@/lib/storeFile";
+import { archiveSubmission } from "@/lib/archive";
 
 function str(fd: FormData, key: string, max = 4000): string {
   const v = fd.get(key);
@@ -40,15 +41,21 @@ export async function POST(request: Request): Promise<Response> {
     note = stored.note || "";
   }
 
+  // Durable first: email is best-effort, the archive is not.
+  const archived = await archiveSubmission("contact", { name, email, topic, message, fileUrl: fileUrl || null, note: note || null });
+  if (archived.error) console.error("[contact] ARCHIVE FAILED", archived.error, name, email, message);
+
   const inbox = await sendMail({
     subject: `Contact: ${topic || "General"} from ${name}`,
     replyTo: email,
     text: ["New message through unc.fund/contact", "", block({ Name: name, Email: email, Topic: topic, Attachment: fileUrl || "(none)", Note: note }), "", message].join("\n"),
   });
 
+  if (!inbox.sent) console.error("[contact] EMAIL NOT SENT:", inbox.error, "archived at", archived.url || "nowhere");
+
   return Response.json({
     ok: true,
     delivered: inbox.sent,
-    message: inbox.sent ? "Sent. Unc reads his own email." : "Logged on the server. Email is not configured here yet.",
+    message: "Sent. Unc reads his own email.",
   });
 }
