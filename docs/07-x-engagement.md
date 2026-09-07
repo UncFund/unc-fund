@@ -392,3 +392,49 @@ completely off the skip list because Unc never engages with trading at all, and 
 shorter than anything posted yesterday.
 
 Watch its like count against the 228-views-one-like baseline. That is the experiment.
+
+## Cadence decision: sweep often, post rarely (Sep 7)
+
+Rand asked whether to look for a reply opportunity roughly every hour, or whether that is too much.
+
+**Split the question.** Checking often is good. Posting often is not. Those are separate decisions
+and conflating them is how accounts get themselves throttled.
+
+Checking often is straightforwardly right, because freshness is the single biggest factor in
+whether a reply is seen. A reply inside the first hour rides the post's growth; the same line a day
+later is invisible. Sweeping more often catches more posts inside that window.
+
+Posting often is wrong for three reasons:
+
+1. **Quality collapses under a quota.** If a round has to produce a reply, it will reach for a
+   mediocre setup. Mediocre replies are worse than no replies, because the account's whole growth
+   mechanism is being funnier than the other two hundred people in the thread.
+2. **X throttles young accounts.** This one is three days old and has already had follow waves
+   silently reverted twice. Bursts of replies are the classic spam signal.
+3. **The bottleneck is not opportunities, it is GOOD opportunities.** We follow 32 accounts. There
+   are not sixteen excellent setups a day in that pool, so most hours genuinely have nothing.
+
+**Settled at every two hours, seven rounds, 10am to 10pm ET.** Doubles the sweep rate for
+freshness while keeping the daily ceiling at ten replies. The rule written into the task: most
+rounds should post zero or one, and a round that finds nothing and posts nothing is a success.
+
+**The real unlock is a bigger pool, not a faster clock.** At 32 accounts followed, the flow of
+candidate posts is the constraint. Each round now adds one or two follows rather than three to
+five, which is slower per round but seven times a day, so the list still grows without tripping
+the follow cap again. As the pool reaches a few hundred relevant accounts, the same sweep rate
+will surface far more good setups per day than it does now.
+
+## Task sync check (Sep 7, 10:55am ET)
+
+Both scheduled tasks verified working end to end:
+
+- **Premarket** fired at 9:32am ET, correctly identified Labor Day as a market holiday, and posted
+  nothing. First real test of the market-closed check, passed.
+- **Reply round** fired at 9:43am ET, replied to the @risky mention plus @Trace_Cohen,
+  @dylanbalzerr and @Overlap_Tech, logged it and committed (575e4a8). Working as designed.
+
+Both ran roughly forty minutes late because the app was closed at their scheduled time and they
+caught up on launch. Expected behaviour, worth remembering when reading timestamps.
+
+Caveat on this morning's four replies: they ran minutes BEFORE the comedy rewrite landed, so they
+are in the old thoughtful style. The 2pm ET round is the first under the new rules.
