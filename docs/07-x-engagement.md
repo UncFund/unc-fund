@@ -231,3 +231,47 @@ views, only 14 replies, 37 minutes old when Unc replied):
 > company, different crowd.
 
 Check that reply's view count in the next round. It is the cleanest before-and-after available.
+
+## Graduated access lifted (Sep 6, 2026, evening)
+
+X showed the "You've unlocked more on X" modal: content is now more discoverable and the account
+appears in search results and trends. Combined with Premium+ bought the same evening, the two
+things that were suppressing reach are both gone within hours of each other.
+
+**First post-Premium signal.** The @zqinfo reply, posted right after Premium+ activated, hit 29
+views inside 49 minutes. The entire pre-Premium range for a full day was 4 to 22 views. Early, but
+pointing the right way. Keep measuring before declaring anything.
+
+## Evening round: shift to founders and VCs, and to new people
+
+Rand's steer: the crypto influencer side was covered today, so weight toward founders and VCs, and
+stop leaning on the same handful of accounts.
+
+Replied to @paulg on a startup sending a revenue graph with an absurdly modest aspect ratio (85.5K
+views), which is the same phenomenon as Unc's own line about founders apologising for small numbers:
+
+> Founders undersell themselves in every format available, apparently including the aspect ratio.
+>
+> Unc gets emails apologizing for numbers most people would frame. Stretch the chart, son. You
+> earned the tall version.
+
+Then found a genuinely new person the way Rand suggested, by working outward from accounts we
+already follow. @himanshustwts, co-founder of PhysicsAI, 28.8K followers, followed by Garry Tan and
+Marc Andreessen. He posted about seeing an AI-generated pre-seed deck titled "Building Scale AI for
+RL Environments": 4,838 views and only ONE reply.
+
+> Unc reads these now. Every one sounds like the same committee that has never met a customer.
+>
+> Send the ugly deck you wrote yourself at midnight instead. That one Unc believes.
+
+Followed him. That ratio, thousands of views against a single reply, is the best target shape
+available and worth hunting deliberately.
+
+**A reply drafted and deliberately not sent.** Clemente posted a vulnerable "worst 30 days of
+trading, any advice?" post. Unc had a good non-financial answer about comparison being the leak
+rather than the trades. It was dropped because Rand redirected to founders and VCs mid-round, and
+because it would have been a second Clemente reply in a day. Keeping the discipline mattered more
+than the line.
+
+**Tonight's last action** is a one-time task at 8pm Pacific, instructed to find new founder and VC
+accounts only, avoid every account already used today, and record how today's replies performed.
