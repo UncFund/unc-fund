@@ -398,3 +398,63 @@ Note it is the second reply to @Trace_Cohen today, since the 9:43am automated ro
 replied to him. That is at the two-per-account ceiling, not over it, but worth watching: replying
 to the same person twice in ninety minutes reads eager. Prefer spreading across accounts when the
 quality is equal.
+
+## Round at ~16:35 UTC (12:35pm ET): zero replies, and the rejections
+
+Day already had SIX timeline replies (@Trace_Cohen x2, @NotSoEasyMoney, @Overlap_Tech,
+@ycombinator, @dylanbalzerr), so the bar was raised per the rule. Nothing came close. Rejections:
+
+| Candidate | Age / reach | Why rejected |
+|---|---|---|
+| @zqinfo quoting Pump.fun's Hunter Biden $LAPTOP launch | 14s | Politics AND a memecoin AND "free dips, make sure you slurp". Triple skip. |
+| @himanshustwts, "Anthropic is absolutely achieving AGI, look what they're feeding models" | 16m, 626 views | The joke needs a named company to be the butt. Also could not see the quoted image, so the content was unknown. |
+| @garrytan on RFS being hunches, founders not categories | 37m, 15K views, 20 replies | Closest call of the round. Best lines available were "Unc's Request For Startups is one bullet: please" and "Unc read RFS as RSS and got excited for the first time since 2004". Both competent, neither screenshot-funny, and the second needs a second read. Criterion (c) failed, so skip. |
+| @rasmr_eth, "Buy." | 2m, 1.5K views | A call. Hard skip. |
+| @bekahj on deporting "illegals" | 36m | Politics. |
+| @Marko_Poly on a hospital vendor deleting AI transcript evidence | 39m | Names a company doing something bad; nobody smiles at Unc showing up there. |
+| @notthreadguy "thanks kraken" | 16m, 5.9K views, 14 replies | Good ratio, no Unc line. Liked it instead. |
+
+**The pattern in the rejections is worth naming:** a good ratio is easy to find and a good line is
+not. Four of these seven passed the freshness and ratio tests. Every one of them died on criterion
+(c). That is the bar working as designed, not the sweep failing.
+
+## Browser: the pane can be HIDDEN, and that breaks everything silently
+
+New failure mode, cost most of this round. Symptoms: home and profile timelines return zero
+articles, `get_page_text` shows only "Your Home Timeline", screenshots come back solid black or
+double-rendered with ghosted nav labels, and every click misses.
+
+It is not X throttling. It is that **the Browser pane was hidden**, so the page's `innerWidth` and
+`innerHeight` were both `0`. X renders nothing into a zero-height viewport.
+
+Diagnose it in one call: `javascript_tool` with `({vw:innerWidth,vh:innerHeight})`. If they are 0,
+stop clicking. Fixes, in order:
+
+1. `tabs_context` reports "The Browser pane is currently hidden" — check this first.
+2. `resize_window` with an explicit size forces a real viewport even while hidden. That alone
+   restored rendering here.
+
+**Do not chase the coordinate frame with repeated `resize_window` calls.** Each call added ~9px to
+the reported frame height (455 → 464 → 473 → 482 → 491), a runaway loop that never converges. Set
+it once and move on; a 9px vertical difference on an 800-wide frame is harmless.
+
+**And the frame is not always 1:1 with the page.** At one point the page viewport was 1280x720
+inside an 800x455 frame — a 0.625 scale. Ref clicks then reported y-coordinates larger than the
+frame height and landed nowhere. Check with the same one-liner and multiply page coordinates by
+`frame_width / innerWidth` if they disagree.
+
+## Liking: three methods, in order of reliability
+
+1. **Keyboard, on a permalink page.** `j` focuses the next post, `k` the previous, `l` likes the
+   focused one. This worked when every click method failed. Caveat: on a post Unc has replied to,
+   `j` lands on **Unc's own reply first** — this round it self-liked before `k` moved up to the
+   parent. Press `l` again to undo, then `k`, then `l`. Verify which article carries
+   `button[data-testid="unlike"]` before moving on.
+2. **Ref clicks, on feed and post pages.** Reliable once the viewport is sane.
+3. **Screenshot coordinates, on profile pages.** Refs are wrong there, as already documented, and
+   so is `getBoundingClientRect` — on @credistick the rect said x=635 and the button was really at
+   x=553. The screenshot is the truth on profiles. Both follows this round landed on the second
+   attempt using screenshot coordinates.
+
+One more trap: two coordinate clicks at the same point toggle a like on and then straight back off.
+If a click reports a coordinate identical to the previous one, the second click undid the first.

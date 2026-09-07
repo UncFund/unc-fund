@@ -488,3 +488,65 @@ from there.
 
 @ycombinator on harnesses as real research, @Trace_Cohen on travel and social platforms,
 @Overlap_Tech on PG's formidable founders.
+
+## Round at ~16:35 UTC (12:35pm ET): the comedy rewrite is NOT producing likes yet
+
+Measured before doing anything else, as the playbook now requires. Every reply from the two
+previous rounds, all of them roughly an hour old:
+
+| Reply | Style | Views | Likes |
+|---|---|---|---|
+| @ycombinator, harnesses | old (thoughtful) | 72 | 0 |
+| @NotSoEasyMoney, grey runners | **new (comedy)** | 57 | 0 |
+| @Overlap_Tech, formidable founders | old | 43 | 0 |
+| @Trace_Cohen, investment committee | **new (comedy)** | 5 | 0 |
+| @dylanbalzerr, wrapper around a phone line | old | 4 | 0 |
+
+**Said plainly, as the task asks: the funnier copy has not moved likes.** Nine replies today across
+both styles, zero likes on all of them. The baseline to beat was 228 views with 1 like, and nothing
+here has beaten it on either axis.
+
+Three honest caveats before drawing a conclusion:
+
+1. **The sample is two comedy replies.** That is not enough to conclude anything. The rewrite
+   landed at 11am today.
+2. **Placement is confounding it.** The investment-committee line went under a 267-view post; it
+   got 5 views, so essentially nobody has seen it yet. It cannot get a like from an audience of
+   five. The grey-runners line went under a 5.1K-view post and got 57 views, an order of magnitude
+   more — which is placement working, not copy working.
+3. **View counts are still climbing** on all of these; they were measured at roughly one hour old.
+
+**What this actually says:** views track the parent post's reach, and likes are downstream of views.
+At 5 to 72 views per reply the account does not yet have enough eyeballs on any single reply for a
+like rate to be measurable. Judging the comedy rewrite on likes right now is judging it on noise.
+
+**The decision:** hold the comedy rules, keep the near-perfect bar, and re-audit after roughly ten
+comedy replies have each had a full day to accumulate. If the like count is still zero at that
+point with replies landing 50+ views each, the copy is genuinely not working and the diagnosis
+needs to change rather than the volume increasing. Do not quietly keep posting and hoping.
+
+### Timeline replies: zero
+
+Day was already at six timeline replies, so the bar rose. Seven candidates were assessed, four of
+them passing freshness and ratio, and every one of those failed on "the line is actually funny."
+Full rejection table in `08-reply-playbook.md`. Mentions: no new ones, both @risky mentions already
+answered.
+
+### Likes (3)
+
+@garrytan on RFS being hunches rather than a market, @Trace_Cohen on companies having a decision
+problem, @notthreadguy's "ok thanks guys thanks kraken" (a human moment, not a trade).
+
+A fourth like on @Overlap_Tech was attempted and abandoned: a coordinate click at the same point
+twice liked and then unliked the same post. Noted in the playbook.
+
+### Follows (2, both verified stuck)
+
+| Handle | Who | Why |
+|---|---|---|
+| @credistick | Dan Gray, Research Lead at Odin, writes about VC at blog.joinodin.com | Verified, found in the @garrytan RFS thread. Writes analytically about how VC actually allocates, which is exactly the room Unc's thesis-echo replies work in. |
+| @JoinOdin | Odin, "launch and run your vc firm from your phone" | Verified. Same shelf as @AngelList, @Wefunder and @joinrepublic, all already followed: infrastructure for people who are not institutions writing cheques into private companies. Its audience is Unc's audience. |
+
+Now at 37 following. The method that produced both is the documented one, and People search was a
+dead end again: "pre-seed investor" returned two accounts, one of which is a fund's employee and
+the other a generic aggregator.
