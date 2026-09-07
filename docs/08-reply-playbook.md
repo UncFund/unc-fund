@@ -166,6 +166,11 @@ hit a follow cap. Keep it human-shaped:
 |---|---|---|---|
 | 2026-09-05 | @risky, joke pitch on our launch post | Oblivious literal | Praised the line, stayed non-committal. First version committed to a pass and named the anti-portfolio; deleted and replaced. |
 | 2026-09-05 | @vladtenev, tokenization and access | Thesis echo | Same reason Unc writes $500 checks |
+| 2026-09-07 | @risky, "thanks unc" on our reply | Oblivious literal | "Anytime. Unc's still sitting with it, by the way. Comfortable chair, no rush." Keeps the bit open, still commits to nothing. |
+| 2026-09-07 | @Trace_Cohen, used up his Claude reset | Self-own + sincere lift | Unc doesn't know what a reset is, but wringing every drop out before it renews is relatable. Proud of you. |
+| 2026-09-07 | @dylanbalzerr, "AI wrapper" allegations fading | Thesis echo | Half of what Unc backed in the '90s was a wrapper around a phone line, and those checks cleared. |
+| 2026-09-07 | @Overlap_Tech, PG on formidable founders | Thesis echo | Formidable at the first-check stage is one person who won't quit and a cracked laptop. |
+| 2026-09-07 | @ycombinator, harnesses are real research | Thesis echo | "The unglamorous layer is usually the one doing the work." Not posted by this round; appeared at 14:38 UTC mid-round, so a second run of the task was live at the same time. Logged so it does not get repeated. Watch for overlapping runs; five replies in one window is over the daily cap. |
 
 ## Freshness is the whole game
 
