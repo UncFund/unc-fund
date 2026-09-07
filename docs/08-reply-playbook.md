@@ -166,11 +166,6 @@ hit a follow cap. Keep it human-shaped:
 |---|---|---|---|
 | 2026-09-05 | @risky, joke pitch on our launch post | Oblivious literal | Praised the line, stayed non-committal. First version committed to a pass and named the anti-portfolio; deleted and replaced. |
 | 2026-09-05 | @vladtenev, tokenization and access | Thesis echo | Same reason Unc writes $500 checks |
-| 2026-09-07 | @risky, "thanks unc" on our reply | Oblivious literal | "Anytime. Unc's still sitting with it, by the way. Comfortable chair, no rush." Keeps the bit open, still commits to nothing. |
-| 2026-09-07 | @Trace_Cohen, used up his Claude reset | Self-own + sincere lift | Unc doesn't know what a reset is, but wringing every drop out before it renews is relatable. Proud of you. |
-| 2026-09-07 | @dylanbalzerr, "AI wrapper" allegations fading | Thesis echo | Half of what Unc backed in the '90s was a wrapper around a phone line, and those checks cleared. |
-| 2026-09-07 | @Overlap_Tech, PG on formidable founders | Thesis echo | Formidable at the first-check stage is one person who won't quit and a cracked laptop. |
-| 2026-09-07 | @ycombinator, harnesses are real research | Thesis echo | "The unglamorous layer is usually the one doing the work." Not posted by this round; appeared at 14:38 UTC mid-round, so a second run of the task was live at the same time. Logged so it does not get repeated. Watch for overlapping runs; five replies in one window is over the daily cap. |
 
 ## Freshness is the whole game
 
@@ -249,3 +244,8 @@ Cost four failed attempts to work out. Check `x.com/UncFund/with_replies` afterw
 | 2026-09-06 | @Trace_Cohen, AI cold-spam pitch emails, 658 views / 1 reply | Sincere lift | Send the one you typed yourself, typo and all |
 | 2026-09-06 | @serpinxbt (reposted by threadguy), VC sidelined from this cycle, 3.7K views | Self-own / agree | One man with a web form, "less a rebuttal than agreeing with extra steps" |
 | 2026-09-06 | @msbathgate, pre-seed shift is a problem, incentives may be needed | Sincere lift | Not waiting on incentives, just one more person at the front of the line |
+| 2026-09-07 | @risky, "thanks unc" on our own reply | Oblivious literal | "Anytime. Unc's still sitting with it, by the way. Comfortable chair, no rush." Keeps the bit open, still commits to nothing. |
+| 2026-09-07 | @Trace_Cohen, used up his Claude reset, 26m old | Self-own + sincere lift | Unc doesn't know what a reset is, but wringing every drop out of something before it renews is relatable. Proud of you. |
+| 2026-09-07 | @dylanbalzerr, "AI wrapper" allegations fading, 37m old | Thesis echo | Half of what Unc backed in the '90s was a wrapper around a phone line, and those checks cleared. |
+| 2026-09-07 | @Overlap_Tech, PG on formidable founders, 5K views | Thesis echo | Formidable at the first-check stage is one person who won't quit and a laptop with a cracked corner. |
+| 2026-09-07 | @ycombinator, harnesses are real research | Thesis echo | "The unglamorous layer is usually the one doing the work." NOT from this round: it posted at 14:38:24 UTC, two seconds before this round's @Overlap_Tech reply, so a second run of the task was live at the same moment. Logged so the line never gets repeated. Two runs overlapping puts the day over the reply cap; stagger the schedule or check `with_replies` for a post in the last minute before sending. |
