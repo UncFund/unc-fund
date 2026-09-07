@@ -300,3 +300,27 @@ Cost four failed attempts to work out. Check `x.com/UncFund/with_replies` afterw
 | 2026-09-07 | @dylanbalzerr, "AI wrapper" allegations fading, 37m old | Thesis echo | Half of what Unc backed in the '90s was a wrapper around a phone line, and those checks cleared. |
 | 2026-09-07 | @Overlap_Tech, PG on formidable founders, 5K views | Thesis echo | Formidable at the first-check stage is one person who won't quit and a laptop with a cracked corner. |
 | 2026-09-07 | @ycombinator, harnesses are real research | Thesis echo | "The unglamorous layer is usually the one doing the work." NOT from this round: it posted at 14:38:24 UTC, two seconds before this round's @Overlap_Tech reply, so a second run of the task was live at the same moment. Logged so the line never gets repeated. Two runs overlapping puts the day over the reply cap; stagger the schedule or check `with_replies` for a post in the last minute before sending. |
+
+## The near-perfect bar
+
+The sweep runs every two hours. It is not a quota. **The expected outcome of a typical round is
+zero replies**, and a round that posts nothing is a success.
+
+A setup qualifies only if ALL FIVE are true. One failure means skip:
+
+1. **Fresh.** Posted within the last hour, ideally the last twenty minutes.
+2. **Ratio.** High views against few existing replies. 5K views with 3 replies qualifies; 80K views
+   with 300 replies does not, because Unc gets buried regardless of how good the line is.
+3. **The line is actually funny.** You already have a specific line in your head and it passes the
+   standalone test. If you are still hunting for what to say, the setup has failed this test. A
+   competent line is not good enough.
+4. **In character.** It lets Unc use the vest, the age, the runners, being confidently wrong, or
+   the small-check thesis. If Unc would have to be a generic commentator, skip.
+5. **Clean.** Passes the skip list with no ambiguity.
+
+Ceiling of ten replies a day across all seven rounds, two per account. Count what the day already
+has before adding to it; if it is at five or more, raise the bar further.
+
+The reasoning: the account's entire growth mechanism is being funnier than the other two hundred
+people in a thread. A mediocre reply does not just underperform, it actively spends the one thing
+the account has. Silence costs nothing.
