@@ -51,6 +51,18 @@ from today, the market is closed or nothing has traded yet. Skip and post nothin
 stale number. A hardcoded holiday list lives in the task prompt as a first pass, but the
 freshness check is the real guard because the list goes stale.
 
+## It posts on its own
+
+The task is standing authorization to publish. It does not draft and wait, does not ask whether
+the numbers look right, and does not ask before clicking Post. It fires at 6 AM Pacific when
+nobody is awake to answer, so a post that waits for approval is a post that never goes out.
+
+That removes the check-in, not the standards. The hard rules below still gate every post. Three
+things stop it, and all three are genuine blockers rather than questions: the browser is signed
+out of X, the market is closed, or the data looks wrong. Everything else — a rounding call, an
+opening phrase, a number that crossed a decimal while composing — gets decided and noted in the
+log row instead of asked about.
+
 ## The 9:00 slot is soft
 
 Being late is not a reason to skip. If the run fires after the open, it posts as soon as it can
