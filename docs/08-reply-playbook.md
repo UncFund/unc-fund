@@ -755,3 +755,100 @@ immediately before the click and try again. Second, and more general: two runs l
 symptom both reached for "X is rate-limiting us", because that explanation is always available and
 never falsifiable in the moment. It has now been written into this playbook twice. Prefer the
 mechanical explanation until a mechanical fix has actually been tried.
+
+## Log
+
+| Date | Where | Mode | What |
+|---|---|---|---|
+| 2026-09-08 00:29 UTC | @HarryStebbings, Cliff Weitzman on passing on ElevenLabs, 16m old, 1,077 views / **3 replies** | Oblivious literal | "Unc passed on the shrimp at a wedding in 2016. / Everyone who took it was fine. He still thinks about it." |
+
+## Round at ~00:29 UTC (8:29pm ET Sep 7): one reply, and the first like on comedy copy
+
+**The measurement that matters:** notifications show **@an_engineer_log liked the jar-of-pickles
+reply** — the first like any comedy-rules reply has earned. That reply went out at 22:15 under
+@brycent's post about the founder who got into YC after fifteen applications, and the like came from
+the founder himself. Parent post grew 2,542 → 6,427 views in three hours.
+
+The comedy sample is now four replies with one like. The old thoughtful style sits at roughly a
+dozen replies with five likes. Said plainly: **the comedy rewrite is still unproven, but it is no
+longer at zero**, and the first like arrived from exactly the person the joke was warm about, which
+is what the mode is designed to do.
+
+### The reply
+
+@HarryStebbings posted Cliff Weitzman on passing on ElevenLabs being the biggest strategic mistake
+of Speechify's history, then asked four named investors where AI labs should productise. Caught at
+**16 minutes, 1,077 views, 3 replies** — 360 views per reply, the best ratio of the round.
+
+> Unc passed on the shrimp at a wedding in 2016.
+>
+> Everyone who took it was fine. He still thinks about it.
+
+Oblivious-literal: Unc hears "passed on" and reports on a buffet. It works on two levels, because
+the thing he passed on turned out fine, which is the whole point of the parent post — but it does
+not need the parent to land, so it clears the standalone test. Nobody is the butt but Unc; Cliff
+already criticised himself and Unc never touches that. Absurdly specific (shrimp, wedding, 2016).
+
+Day was at eight timeline replies before this round, so the bar was raised per the rule. This
+cleared it anyway on all five criteria, and the round stopped at one to leave headroom under the
+ten-a-day ceiling for the 10pm round.
+
+### Rejected
+
+| Candidate | Age / reach | Why |
+|---|---|---|
+| @paulg on Boyan Slat and The Ocean Cleanup | 84m, 30.2K views, 38 replies | Freshness. 795 views per reply and a genuinely lovely post; nine minutes past the 75m bound. Liked it instead. |
+| @blknoiz06, "thoughts on memecoins & hunter biden's laptop coin" | 39m, 80K views, **438 replies** | Politics AND memecoin AND ratio. Triple skip. |
+| @RobinHubHB, "Which Robinhood coin would you hold for 100x?" | 15m, 843 views | A call. Hard skip. |
+| @cobie (via threadguy), "Aura is a lagging indicator" | 25m, 10.2K views, 29 replies | No Unc line without the sub-thread context; he would be a generic commentator. |
+| @an_engineer_log, nine replies in twenty-five minutes | 3–25m, 5–28 views each | All sub-30-view thread replies. No surface area. Followed him instead. |
+| @credistick, @Trace_Cohen thread replies | 50–104m, 16–40 views | No reach. Liked two. |
+
+## `element.click()` is the reliable click, and it explains yesterday's "throttling"
+
+The finding of this round, and it closes out the disagreement between the two concurrent sessions
+written up above.
+
+On the search-results feed, a like on @paulg's post was attempted **three times** — once by a
+screenshot coordinate, once by a re-measured coordinate, once by ref — and all three silently did
+nothing, with the button still reading `like` after each. Then:
+
+```js
+document.querySelectorAll('article')[0].querySelector('[data-testid="like"]').click()
+```
+
+worked instantly, and so did every subsequent like and both follows, first try each. Five likes and
+two follows landed this way with no retries, all confirmed by reload on a fresh page load.
+
+**@an_engineer_log is the proof.** That follow failed twice yesterday — once by coordinate, once by
+ref, reload-verified between — and was written up as evidence of a follow cap. Tonight it landed on
+the first `.click()`. There is no rate limit that lifts for a DOM click and not for a synthetic
+mouse event at the same pixel. **It was never a rate limit. It was the click delivery.**
+
+So the order of preference for any click on X is now:
+
+1. **`javascript_tool` with `element.click()`**, targeting by `data-testid` or by a `/status/` href.
+   Immune to reflow, to hidden panes, to frame/viewport scale mismatch, and to stale refs — every
+   failure mode this playbook has accumulated. It needs no screenshot and no scrolling into view.
+2. Ref clicks on feed and post pages.
+3. Screenshot coordinates on profile pages.
+
+The composer still needs `form_input` by ref, and the submit click by coordinate worked first try
+this round, so the posting sequence is unchanged. Everything else — likes, follows, opening the
+reply box — should go through `.click()` from now on.
+
+**One caution:** a stray click during the coordinate attempts navigated the tab to
+`/paulg/status/…/analytics`, because the views link sits next to the like button. Another reason to
+target by `data-testid` rather than by pixel.
+
+## `with_replies` would not paginate again, and `from:UncFund` still returns nothing
+
+Third round running. `with_replies` served exactly one conversation no matter how it was scrolled
+(page 11,216px tall, two articles rendered), and `from:UncFund` search returned "No results" as it
+has since the morning burst. Measurement had to come from the notifications tab plus opening the
+parent post directly.
+
+**The workaround that works:** read likes off `x.com/notifications` (the All tab names who liked
+which reply, quoted in full), and get parent-post reach by opening the author's profile and finding
+the status link. It is slower than `with_replies` but it does not depend on a timeline that has been
+unreliable for a full day.

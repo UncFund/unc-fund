@@ -718,3 +718,81 @@ Contrary to the concurrent session's conclusion that follows and likes are rate-
 four of these landed and were verified by reload. The failures in both sessions were clicks made on
 coordinates measured before X reflowed its columns — @MartinGTobias's follow button moved 93px
 horizontally with no scroll between two measurements. Measure and click must be adjacent.
+
+## Round at 00:29 UTC (8:29pm ET Sep 7): the comedy copy gets its first like
+
+### Measurement
+
+`with_replies` would only serve one conversation again and `from:UncFund` search still returns "No
+results", so this was measured off the notifications tab and by opening parent posts directly.
+
+**The headline: @an_engineer_log liked the jar-of-pickles reply.** That is the first like any
+comedy-rules reply has earned, and it came from the founder the joke was warm about — the solo
+founder who got into YC after fifteen applications and ten years.
+
+| Reply | Style | Views | Likes |
+|---|---|---|---|
+| @brycent, jar of pickles | **new (comedy)** | n/a (timeline unreachable) | **1** |
+| @pirroh, postcard to Europe | **new (comedy)** | 25 | 0 |
+
+Parent post reach for context: @brycent's post went 2,542 → **6,427** views in three hours, so the
+pickle reply is sitting under a post that is still growing.
+
+**Said plainly, as the task asks: the comedy rewrite is unproven but no longer at zero.** Four
+comedy replies, one like. The old thoughtful style is at roughly a dozen replies and five likes,
+which is a similar per-reply rate. Nothing here separates the two styles yet. What is worth noting
+is the *shape* of the like — it came from the person being replied to, same as the @dylanbalzerr
+like on the old style. At this reach every like is still a relationship signal, not an audience
+signal, and that will stay true until a single reply clears a few hundred views. The re-audit point
+is unchanged: roughly ten comedy replies, each given a full day.
+
+### Timeline replies: one
+
+@HarryStebbings quoting Cliff Weitzman on passing on ElevenLabs being the biggest strategic mistake
+in Speechify's history. Caught at **16 minutes, 1,077 views, 3 replies** — 360 views per existing
+reply, the best ratio available tonight.
+
+> Unc passed on the shrimp at a wedding in 2016.
+>
+> Everyone who took it was fine. He still thinks about it.
+
+Oblivious-literal. Unc hears "passed on" and reports on a buffet, and the thing he passed on turned
+out fine, which is the parent post's whole point without ever restating it. Nobody is the butt but
+Unc.
+
+The day was already at eight timeline replies, so the bar was raised per the rule; this cleared all
+five criteria anyway. Stopped at one to leave headroom under the ten-a-day ceiling for the 10pm
+round. Full rejection table in `08-reply-playbook.md`; the near miss was @paulg on The Ocean Cleanup,
+30.2K views against 38 replies, skipped at 84 minutes old and liked instead.
+
+### Mentions
+
+None. The mentions tab is empty. Notifications show @an_engineer_log's like, the verified badge
+confirmation, @MandelAngel's follow-back and @dylanbalzerr's like — the last three already known.
+
+### Likes (5)
+
+@HarryStebbings on the ElevenLabs pass, @paulg on The Ocean Cleanup, @paulg on someone who solves
+problems rather than talking about them, @credistick on markups being one further layer of
+abstraction, @Trace_Cohen on saving millions in consultants. Three reload-verified on a fresh page
+load; the other two confirmed at click time.
+
+### Follows (2, both reload-verified)
+
+| Handle | Who | Why |
+|---|---|---|
+| @HarryStebbings | 20VC. Verified. Interviews the largest funds and founders and posts several times a day. | High-frequency generator of fresh, on-thesis windows, which is the actual constraint on this account — and tonight's reply is already under him. |
+| @an_engineer_log | Founder/CEO of Agent37 (YC F26), ex-Amazon, ex-CMU. The solo founder whose YC story Unc replied to. | Was on the retry queue after failing twice yesterday. Landed first try tonight. He has already liked an Unc reply, which makes him the closest thing to a warm relationship the account has. |
+
+Now at 40 following.
+
+### The follow that "failed twice" was never rate-limited
+
+@an_engineer_log failed twice yesterday by coordinate and by ref, and that was written up as
+evidence of a rolling cap on cheap actions. Tonight it landed on the first try using
+`element.click()` from `javascript_tool`, as did every like and the other follow, with zero retries.
+
+A rate limit does not lift for a DOM click and hold for a synthetic mouse event at the same pixel.
+The cap theory is dead — this was click delivery the whole time, exactly as the mechanical
+explanation predicted. `.click()` targeting by `data-testid` is now the default for every like and
+follow. Full write-up in `08-reply-playbook.md`.
