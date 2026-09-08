@@ -1412,3 +1412,57 @@ with zero click retries.
 rendered), so the @ycombinator reply's numbers came off the **notifications All tab plus the reply's
 own aria-label in the timeline**, not from pagination. The notifications tab remains the reliable
 instrument for likes.
+
+## Log
+
+| Date | Where | Mode | What |
+|---|---|---|---|
+| 2026-09-08 20:40 UTC | @ycombinator, Centralize (YC W24) "GPS for enterprise deals" and the trust graph, 46m old, **3,816 views / 2 replies** | Confidently wrong | "Unc's trust graph is a spiral notebook. / Page one is everybody who called him back. There is no page two." |
+
+## Round at ~20:40 UTC (4:40pm ET Sep 8): one reply against a raised bar
+
+Day opened at **six** timeline replies, so the bar rose per the rule and the round budgeted one.
+Exactly one setup cleared it, and it cleared comfortably: **1,908 views per existing reply**, third
+best this account has found.
+
+Full assessment and the eleven rejections are in `07-x-engagement.md`. Three things belong here
+because they are rules rather than results.
+
+### A joke used four hours ago is not available, even on a better post
+
+@himanshustwts had the best unused ratio of the round — Meta launching "Muse, the personal agent" at
+52 minutes, 1,100 views, **one reply**. It failed criterion (c) for a reason worth naming: the only
+Unc angle was hearing "agent" literally, and **that exact joke went out at 18:47 under @natolambert**
+("Unc scaled to two agents in 1996. Travel and insurance."). Two agent jokes in four hours is a
+pattern detector's dream and a reader's second yawn.
+
+**The rule: check the last two rounds' lines before drafting, not just the all-time log.** The
+convergence risk this file already documented for *concurrent runs* (two sessions reaching for the
+prop-plus-year self-own on the same post) applies just as much to *one session reading the same
+timeline twice in an afternoon.* The same news cycle offers the same doors.
+
+### Second reply to the same account: at the ceiling is not over it, but say why
+
+This is the day's second @ycombinator reply, four and a half hours after "Unc qualifies as senior."
+The two-per-account-per-day cap allows it. It was taken because it was the best setup on the board by
+a wide margin, not because YC was convenient — and the 11:15am note about replying to @Trace_Cohen
+twice in ninety minutes reading eager still stands. **Four hours apart is fine; ninety minutes is
+not.** Prefer spreading when the quality is equal. It was not equal.
+
+### A public like is a position, so skip-list posts do not get liked either
+
+@sweatystartup at 16 minutes with 1,621 views and four replies passed freshness and ratio easily.
+The post is a contested health claim about obesity and diabetes. It was not replied to **and not
+liked**, on the same reasoning that kept a like off @Trace_Cohen's market-talk post yesterday: a like
+is public and it is readable as agreement. The like-the-parent pre-flight rule is a diagnostic for
+author blocks, not a licence to like anything the round happens to open.
+
+### An emoji is a mention, and it still does not need an answer
+
+@ESCOweb3 replied "😂😂😂😂😂" under a thread where Unc had already said "I'm proud of you already."
+Lane 1 is unlimited, which is a permission and not an instruction. Nine views, nothing to answer, and
+a third Unc line in that thread reads eager. He liked the reply, which is the exchange landing. Left
+alone.
+
+Also: the **Mentions tab showed "Nothing to see here — yet"** while the All tab carried his reply at
+26 minutes old. Read both.

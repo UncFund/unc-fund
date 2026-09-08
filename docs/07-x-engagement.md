@@ -1289,3 +1289,118 @@ raising" far more often than a seed round.
 Both replies came from `from:` sweeps across handles we follow. The Following tab served **three
 articles** and would not paginate. Run the `from:` sweep in two or three batches of twenty handles
 every round; it is one call each and it has now carried three of the last four rounds.
+
+## Round at ~20:40 UTC (4:40pm ET Sep 8): one reply, and comedy copy takes the like lead
+
+### The measurement, and it moved again
+
+The @ycombinator "Early Access Network" reply from the 16:10 round — "Unc qualifies as senior. He
+does not qualify as technology. Applying anyway." — has gone from **two likes to three**. The new
+one is from **Aadhav Sundar**, another stranger in the thread, alongside the two logged last round.
+
+That reply is now the single best-performing piece of copy the account has produced in either style,
+and all three of its likes are from people with no relationship to @UncFund. Every other like in the
+account's history came from the person being replied to or someone directly beside them.
+
+Last round's two replies both sit at **zero likes**:
+
+| Reply | Parent reach | Result |
+|---|---|---|
+| @natolambert, "Unc scaled to two agents in 1996" | 15,390 views, 13 replies | **21 views, 0 likes** |
+| @HarryStebbings, "Unc's calendar is a paper one from the credit union" | 915 views at catch | 0 likes (views not readable, see below) |
+
+Running totals:
+
+| Style | Replies | Likes | Per reply |
+|---|---|---|---|
+| **Comedy (since Sep 7 rewrite)** | 11 | **5** | **0.45** |
+| Old thoughtful | ~16 | 8 | 0.50 |
+
+**Said plainly, because the task asks for it:** eleven comedy replies have produced five likes and
+three of those five are on one reply. The rate is still level with the old style rather than beating
+it, so the rewrite is not yet vindicated on the headline number. What has changed, and what no
+amount of thoughtful copy ever produced, is **strangers**. Three of the five comedy likes are from
+people who had no reason to be kind to the account. That is the only qualitative difference in the
+record and it points the right way, so hold the five rules.
+
+The other thing the numbers keep saying: **the @natolambert reply got 21 views under a 15,390-view
+parent.** Reach on a reply is close to unrelated to reach on its parent. Placement, not parent size,
+is the variable nobody has cracked yet.
+
+### The reply
+
+**@ycombinator**, on Centralize (YC W24) — "the GPS for enterprise deals", turning emails, calls and
+CRM data into org charts showing sales teams who they know and who they're missing, and a founder
+fireside on "the trust graph behind the product" and why relationships still matter in enterprise
+sales. Caught at **46 minutes, 3,816 views, TWO replies** — **1,908 views per existing reply**, the
+third-best ratio this account has ever found.
+
+> Unc's trust graph is a spiral notebook.
+>
+> Page one is everybody who called him back. There is no page two.
+
+Confidently wrong: Unc hears "trust graph" and reports on his stationery. It agrees with the post's
+actual thesis by being the smallest possible instance of it, which is the small-check move. Absurdly
+specific, the analogue-age prop is the engine, nobody is the butt but Unc, and it takes no position
+on the company or the product so (e) is not close. Clears the standalone test — "there is no page
+two" is funny with the parent hidden.
+
+Second @ycombinator reply of the day, which is **at** the two-per-account ceiling rather than over
+it, and four and a half hours after the first. Taken because it was the best setup on the board by a
+wide margin and the day's budget allowed exactly one.
+
+### Rejected this round
+
+| Candidate | Age / reach | Why |
+|---|---|---|
+| @sama, "Images 2.5 is here" | 29m, **107,165 views**, 253 replies | Biggest post on the board and 423 views per reply, but Unc is reply two hundred and fifty-four. Ratio. |
+| @sweatystartup, "Your obesity and your diabetes is light related" | 16m, 1,621 views, 4 replies | 405 views per reply and a clean freshness pass. It is a contested health claim about obesity; any Unc line there reads as taking a side or making light of it. Criterion (e), and not liked either — a like is public. |
+| @himanshustwts, Meta launching Muse, a personal agent | 52m, 1,100 views, 1 reply | Best unused ratio of the round. The only Unc angle is the agent-taken-literally joke, which **went out four hours ago** under @natolambert. Never reuse a line. Liked it instead. |
+| @bekahj, GoFundMe and a murderer; and a therapist joke | 19–25m | Politics and crime. Hard skip. |
+| @notthreadguy, "which way next" | 13m, 558 views | Chart direction. A call. Hard skip. |
+| @counterpartytv (threadguy repost), LONG co-founder interview | 11m, 1,093 views, 5 replies | Launchpad promo and adjacent to private work. Never engage. |
+| @TimSuzman, "I love how pay-it-forward the YC network is" | 14m, **26 views** | Lovely post, no reach. Criterion (b). Liked it. |
+| @levelsio x2, @HarryStebbings, @serpinxbt, @dara_venture | 16–61m, 42–389 views | Conversational thread replies with no reach and no setup. |
+| @kseniam0s, Playground VC fund highlight | 52m, 304 views | Promotional, thin reach. Liked it. |
+| @zqinfo, "crab in a barrel mindset" re Pumpfun vs Jup | 10m, 345 views | Named-project beef. Skip list. |
+| @SapirDefi (Arbitrum repost) | 214m | Freshness, and protocol promo. |
+
+### Mentions
+
+One, and it was deliberately left alone. @ESCOweb3 replied "😂😂😂😂😂" to a thread where Unc had
+already posted "I'm proud of you already". Nine views, emoji only, nothing to answer. A third Unc
+line in a nine-view thread reads eager, and Lane 1 being unlimited is not a reason to use it. He
+also liked that reply, which is the exchange working as intended.
+
+The **Mentions tab itself rendered "Nothing to see here — yet"** while the All tab showed his reply
+at 26 minutes old. The mentions tab is not reliable on its own; read the All tab as well.
+
+### Likes (6) and follows (1)
+
+Likes: the @ycombinator parent (before composing, per the rule — went through with no dialog),
+@TimSuzman on the YC network, @kseniam0s's fund highlight, @himanshustwts on Muse, and both
+@FintechKristen posts. All first try via `element.click()`, fifth round running with zero retries.
+
+Follow: **@FintechKristen** (Kristen Anderson) — verified, 29.9K followers, San Francisco, "Making
+things people want", and her post 83 minutes before the round read "YC batch is absolutely fire this
+year... Time to throw some more angel checks I think." An **actively writing angel** rather than a
+dormant good bio, followed by Tim Suzman, Samara Hernandez and seven others we follow. Reload-verified
+to `2202027271-unfollow`.
+
+Stopped at one, fourth round running, while the following count is still above the small-wave
+allowance. She was found through the quote-tweet chain of a post in the `from:` sweep, which is a
+third discovery path worth naming: **the people our follows are quoting are better candidates than
+People search**, which has now failed four times.
+
+### Mechanics: clean, and `with_replies` still will not paginate
+
+Viewport matched to the 800x455 frame on the first call. Intent composer, counter read 37 (the
+second `[role="progressbar"]`; the first reads 0 as always), "Your post was sent.", verified on
+`with_replies` with the correct parent and the paragraph break intact. No coordinate clicks in the
+entire round.
+
+`with_replies` served **four articles** at a 10,649px page height and would not go further after five
+scrolls, for the fifth round running. The consequence is concrete and worth stating rather than
+working around: **the @HarryStebbings reply's view count could not be read at all this round.** Its
+like count is known to be zero from the notifications tab, which is the reliable instrument, but the
+views are simply unavailable. Any view-count series in this file has gaps for that reason.
