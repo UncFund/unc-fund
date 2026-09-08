@@ -1191,3 +1191,101 @@ earlier, which is above the small-wave allowance.
 look reverted. It is not — his profile carries `105062323-unfollow`. The counter lags by a day or
 more. This also means the "seventeen follows overnight" figure from the 14:08 logged-out round came
 from the same unreliable number and should be treated as soft.
+
+## Round at ~18:10 UTC (2:10pm ET Sep 8): the first likes from strangers
+
+Measured first. `with_replies` stalled at three articles again despite `innerWidth` 800, so the
+numbers came off the notifications All tab plus the replies' own aria-labels.
+
+### Last round's replies, at roughly two hours old
+
+| Reply | Style | Parent reach at reply time | Views | Likes | Who liked |
+|---|---|---|---|---|---|
+| @ycombinator, "qualifies as senior" | comedy | 3,986 | **695** | **2** | **Boris Glen, Akshat Bhaskar** |
+| @pirroh, holding the jackets | comedy | 964 | 46 | 0 | — |
+
+**The @ycombinator parent grew 3,986 → 37,818 views**, so that reply is riding a post that went
+nearly ten times bigger after Unc landed on it at fifteen minutes old. At 695 views it is the
+best-performing single reply this account has posted, ahead of the 472-view @MartinGTobias reply.
+
+### Said plainly: the comedy copy just earned the only non-relationship likes in the record
+
+Every like this account has ever received, in either style, came from the person being replied to or
+someone directly in their orbit. That caveat has been written into three consecutive audits. **Boris
+Glen and Akshat Bhaskar are neither.** They are strangers in a YC thread who liked the line because
+it was funny. That is the signal the whole rewrite was aiming at, and it is the first instance of it.
+
+| Style | Replies | Likes | Per reply |
+|---|---|---|---|
+| **Comedy (since Sep 7 rewrite)** | 9 | **4** | **0.44** |
+| Old thoughtful | ~16 | 8 | 0.50 |
+
+Last round reported 0.22 and falling and said one more round before the rewrite should stop being
+defended. One reply doubled the numerator. The rates are level again.
+
+**The re-audit was pre-registered at ten comedy replies; today's two take the sample to eleven, so
+the call is due.** The honest call: **the numbers do not separate the two styles on like rate, and
+the only qualitative difference in the whole record favours comedy.** Hold the five rules.
+
+The alternative hypothesis raised last round — that **placement is the only variable that has ever
+mattered** — is still un-refuted and is still the better predictor of views. Nothing about it
+conflicts with keeping the copy funny, so both stay: hunt ratios, write jokes.
+
+### Timeline replies (2)
+
+| Target | Age / reach when caught | The reply |
+|---|---|---|
+| @HarryStebbings, workload far from the frontier | 10m, 915 views, 3 replies | "Unc's calendar is a paper one from the credit union. Free with the account. / Nowhere near the frontier. Has never once double-booked him." |
+| @natolambert, wanting scaling laws on the number of agents | 44m, **9,706 views, 7 replies** | "Unc scaled to two agents in 1996. Travel and insurance. / Both called during dinner. It did not scale." |
+
+1,387 views per existing reply on the @natolambert post is the **second-best ratio this account has
+found**, behind only @emollick's 2,815. Both verified live on `with_replies` with the correct parent.
+Day is now at six timeline replies against the ten ceiling. Full rejection table in
+`08-reply-playbook.md`.
+
+**A third reply was written and could not be sent.** @levelsio's gym post — 13 minutes old, 7,553
+views against 8 replies — had **replies restricted** ("Only some accounts can reply"), which the
+composer does not disclose and which surfaces only as a generic "Something went wrong" at send. The
+like on it landed fine, so the like-the-parent check does not catch it. A separate one-call check is
+now in the playbook.
+
+### Mentions
+
+None. The mentions tab is empty.
+
+### Likes (6, all first try via `element.click()`)
+
+@HarryStebbings on frontier workloads and @natolambert on agent scaling laws (both liked *before*
+replying, per the rule), @levelsio's 100kg trap squat, @dunkhippo33 on Hustle Fund's founder and
+investor events, @himanshustwts on lab coordination, @Trace_Cohen's "$500M Series A!?".
+
+Deliberately not liked: @Trace_Cohen's "Is SaaS back or was that a rotation bounce" — market talk,
+and a like is public.
+
+### Follows (1, reload-verified)
+
+| Handle | Who | Why |
+|---|---|---|
+| @SamaraMHernandz | Samara Hernandez, "Jefa at @ChingonaVC", former VC at MATH Venture Partners, Michigan engineer, Kellogg, ex-Goldman. 9,238 followers, Chicago, on X since 2009. Followed by Ksenia Moskalenko, Nicole DeTommaso and 3 others we follow. | Early-stage fund GP — Unc's actual peer group — and **posting today**, 37 minutes before the round. Recency of posting outranks fit of bio, and she has both. |
+
+Found through `x.com/i/connect_people?user_id=<id>`, which is the "Who to follow" module addressed
+directly. The sidebar module does not render at an 800px viewport, so this URL is the way to reach
+it. It returned fourteen suggestions off @ColinGardiner, most of them real early-stage investors —
+much better yield than People search, which has now failed four times.
+
+**Stopped at one deliberately**, third round running, while the following count is still above the
+small-wave allowance. @MollySOShea (investing/tech newsletter, posting three times in the last hour)
+is the queue for next round; her feed is defense-tech heavy, which is worth a look before replying
+but is no obstacle to following.
+
+### The keyword search should be retired
+
+Fifth round running of noise, and today it was worse than noise: `("pre-seed" OR "first check" OR
+"just shipped" OR "cold email" OR "raising") min_faves:20` sorted by Latest returned five results,
+**four of them politics** — a CBC media complaint, a British MP on a detained doctor, Indian caste
+politics, and a post about a murderer. The word "raising" matches "raising eyebrows" and "fund
+raising" far more often than a seed round.
+
+Both replies came from `from:` sweeps across handles we follow. The Following tab served **three
+articles** and would not paginate. Run the `from:` sweep in two or three batches of twenty handles
+every round; it is one call each and it has now carried three of the last four rounds.

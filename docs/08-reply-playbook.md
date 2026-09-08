@@ -1262,3 +1262,153 @@ live and the counter is simply stale.
 **Check the target profile's `-unfollow` testid, never the follower counter.** The counter is also
 the number the 14:08 logged-out round used to conclude that seventeen follows had happened
 overnight; that figure should be treated as soft until someone counts the following list directly.
+
+## Log
+
+| Date | Where | Mode | What |
+|---|---|---|---|
+| 2026-09-08 18:24 UTC | @HarryStebbings, workload far from the frontier, 10m old, 915 views / **3 replies** | Confidently wrong | "Unc's calendar is a paper one from the credit union. Free with the account. / Nowhere near the frontier. Has never once double-booked him." |
+| 2026-09-08 18:47 UTC | @natolambert, wanting scaling laws on the number of agents, 44m old, **9,706 views / 7 replies** | Confidently wrong | "Unc scaled to two agents in 1996. Travel and insurance. / Both called during dinner. It did not scale." |
+
+## Round at ~18:10 UTC (2:10pm ET Sep 8): two replies, and the comedy copy finally gets a stranger
+
+### The measurement that changes the argument
+
+The @ycombinator reply from the 16:10 round — "Unc qualifies as senior. He does not qualify as
+technology. Applying anyway." — is at **695 views and TWO likes**, from **Boris Glen and Akshat
+Bhaskar**.
+
+Neither of them is @ycombinator and neither is in YC's immediate orbit. Every like this account has
+ever earned, in either style, has come from the person being replied to or someone directly around
+them, and that caveat has been written into three consecutive audits. **This is the first time two
+strangers in a thread liked an Unc reply because the line was funny.** It is also the account's
+second-best reply by views, and it is comedy copy under the second-best ratio ever found.
+
+Running totals move accordingly:
+
+| Style | Replies | Likes | Per reply |
+|---|---|---|---|
+| **Comedy (since Sep 7 rewrite)** | 9 | **4** | **0.44** |
+| Old thoughtful | ~16 | 8 | 0.50 |
+
+Last round the comedy rate was 0.22 and falling, and the write-up said one more round and the
+rewrite should stop being defended. Instead one reply doubled the numerator. The two styles are
+level again on rate, and the comedy sample now has the only likes in the whole record that are not
+relationship signals.
+
+**That is not a verdict either.** Two strangers is two people. But the pre-registered re-audit is at
+ten comedy replies and today's two take the sample to eleven, so the call is due: **the evidence
+does not separate the styles on rate, and the one qualitative difference favours comedy.** Hold the
+five rules. The live alternative hypothesis — that placement is the only variable that has ever
+mattered — is still un-refuted and still worth hunting, and nothing about it conflicts with keeping
+the copy funny.
+
+The @pirroh roller-coaster reply from the same round sits at **46 views, 0 likes** under a
+2,089-view parent.
+
+### The two setups
+
+**@HarryStebbings**, quoting someone on how much of a company's workload stays close to the frontier
+where it is expensive, versus human-level tasks — scheduling, calendars, email, competitor research
+— trending far from it. Caught at **10 minutes, 915 views, 3 replies** (305 views per reply).
+
+> Unc's calendar is a paper one from the credit union. Free with the account.
+>
+> Nowhere near the frontier. Has never once double-booked him.
+
+Rule 3 straight: Unc hears "far from the frontier" and takes it as a compliment to his stationery.
+Absurdly specific (paper, credit union, free with the account), the age prop is the engine, it takes
+no position on AI cost curves, and the first line is funny with the parent hidden.
+
+**@natolambert**, wanting scaling laws on the number of agents, quoting OpenAI's post about 10,000
+coordinating agents solving Navier–Stokes in 88 hours. Caught at **44 minutes, 9,706 views, 7
+replies** — **1,387 views per existing reply, the second-best ratio this account has found**, behind
+only @emollick's 2,815.
+
+> Unc scaled to two agents in 1996. Travel and insurance.
+>
+> Both called during dinner. It did not scale.
+
+Unc hears "number of agents" and reports on the humans who used to phone him. The punchline borrows
+the parent's own verb without restating anything, and it works alone as a man complaining about his
+travel agent.
+
+Worth noting for (e): @natolambert was rejected twice last round for being mid-argument about labs
+reading user data, and he has a separate post today about "frontier lab drama". **This post is not
+that post** — it is a neutral research musing, and Unc's line takes no position on anything. Read
+the specific post, not the author's week.
+
+### New failure mode: "Only some accounts can reply", and it fails at send with a generic error
+
+A third reply was written, composed, and never sent. **@levelsio**, 13 minutes old, **7,553 views
+against 8 replies** (944 per reply), on going to the gym and hitting a 100kg trap squat first time —
+a pure human moment and the best-shaped setup of the round. The line, unused and staying unused:
+
+> One hundred kilograms. Unc had to convert that to real money.
+>
+> Came out heavy either way. Proud of you, son.
+
+The intent composer accepted it, the counter read 38, the Reply button was enabled, and the click
+produced **"Something went wrong, but don't fret — let's give it another shot."** Twice, including
+once on a completely fresh composer load. The cause was on the post page all along:
+
+> Only some accounts can reply.
+
+@levelsio had replies restricted on that post and @UncFund is not on the list. **Nothing in the
+composer says so.** It looks exactly like the click-delivery failures that fill this file, and it
+cost two send attempts and a round-trip to diagnose.
+
+**The check, one call on the post page, alongside the like-the-parent check:**
+
+```js
+({restricted: /Only some accounts can reply|can.t reply to this post/i.test(document.body.innerText),
+  inlineComposer: !!document.querySelector('[data-testid="tweetTextarea_0"]')})
+```
+
+`restricted: true`, or an absent inline composer on a post page that otherwise renders, means skip.
+Note the like on that post **landed fine** — a restriction on replies is invisible to the
+like-the-parent test, so this is a second, separate pre-flight check, not a replacement for it.
+
+**And the rule that saved the round:** `with_replies` was opened in a second tab before every
+re-click, and confirmed nothing had posted. Two "failed" sends that had actually landed would have
+been three replies to one post.
+
+### Rejected this round
+
+| Candidate | Age / reach | Why |
+|---|---|---|
+| @sama, on the team behind the OpenAI result acting with integrity | 14m, **87,604 views**, 107 replies | 819 views per reply and the biggest post of the day. It is a statement inside a live credit dispute between named people. Criterion (e), no ambiguity. |
+| @garrytan, "We need to build housing so everyone can thrive in California / Yes, in my backyard" | 72m, 11,511 views, 13 replies | Housing policy is politics. Hard skip. |
+| @Trace_Cohen, "$500M Series A!?" quoting Fab2 | 11m, 126 views, 0 replies | The $500M-versus-$500 gag is sitting right there, and the post has 126 views. Criterion (b). Liked it instead. |
+| @Trace_Cohen, "Is SaaS back or was that a rotation bounce" | 28m, 85 views | Market talk. Not replied to and **deliberately not liked** — a like is public. |
+| @himanshustwts, Sholto Douglas on Anthropic/OpenAI coordination | 9m, 256 views, 0 replies | Thin reach and no Unc angle that is not about a negotiation between two named companies. Liked it. |
+| @ColinGardiner, promoting a portco (GrowthMaxxing) | 37m, 181 views, 3 replies | Promotional, thin reach, and he was replied to yesterday. |
+| @kseniam0s, AI data-room tool for people raising | 30m, 123 views | Promotional, thin reach. |
+| @UFGDeFi, "Reimagining Vanguard for the modern age" | 13m, 1,435 views, 4 replies | DeFi protocol promo. |
+| @KirkLubimov (CBC), @johnmcdonnellMP (Israel/West Bank), @LukaLev, @ankitdubeyji_ (Indian politics) | 17–47m | All four surfaced by the keyword search. All politics. Hard skips. |
+
+### The keyword search is now actively harmful and should be dropped
+
+Fifth round running. `("pre-seed" OR "first check" OR "just shipped" OR "cold email" OR "raising")
+min_faves:20` sorted by Latest returned **five results and four of them were politics** — a CBC
+media complaint, a British MP on a detained doctor, an Indian caste-politics photo-op, and a post
+about a murderer. Not one founder. The word "raising" is the leak: it matches "raising eyebrows",
+"fund raising" and "raising awareness" far more often than it matches a seed round.
+
+**Both replies came from `from:` sweeps across handles we follow.** That instrument has now carried
+three of the last four rounds. Run it in two or three batches of twenty handles — one query each,
+exact ages and ratios in a single pass — and treat the Following tab as a supplement, since it
+served **three articles** today and would not paginate.
+
+### Mechanics
+
+Clean apart from the @levelsio restriction. Viewport matched to the 800x455 frame on the first call.
+Both sends through the intent composer with `.click()` on `[data-testid="tweetButton"]`, "Your post
+was sent." both times, both verified on `with_replies` with the correct parent and the paragraph
+break intact. Six likes and one follow, all first try via `element.click()` — fourth round running
+with zero click retries.
+
+`with_replies` stalled at three articles again despite `innerWidth` 800 (page height 10,724px, three
+rendered), so the @ycombinator reply's numbers came off the **notifications All tab plus the reply's
+own aria-label in the timeline**, not from pagination. The notifications tab remains the reliable
+instrument for likes.
