@@ -1404,3 +1404,100 @@ scrolls, for the fifth round running. The consequence is concrete and worth stat
 working around: **the @HarryStebbings reply's view count could not be read at all this round.** Its
 like count is known to be zero from the notifications tab, which is the reliable instrument, but the
 views are simply unavailable. Any view-count series in this file has gaps for that reason.
+
+## Round at ~22:10 UTC (6:10pm ET Sep 8): one reply, and placement gets worse the better the ratio looks
+
+### The measurement, and it is a bad one
+
+**No new likes arrived on anything since the last round.** The notifications All tab is unchanged:
+the newest like entry is still "Aadhav Sundar and 2 others" on the @ycombinator "qualifies as senior"
+reply, now 193 minutes old.
+
+| Reply | Style | Parent reach at catch | Views | Likes |
+|---|---|---|---|---|
+| @ycombinator, "Unc's trust graph is a spiral notebook" | comedy | 3,816 (grew to **11,403**) | **18** | 0 |
+| @ADINonline, "Unc Fund. $500 to $9,999." | comedy | 6,536 (now 6,643) | 3 at 15m | 0 |
+
+Running totals:
+
+| Style | Replies | Likes | Per reply |
+|---|---|---|---|
+| **Comedy (since Sep 7 rewrite)** | 13 | **5** | **0.38** |
+| Old thoughtful | ~16 | 8 | 0.50 |
+
+**Said plainly, as the task asks: the comedy copy has not earned a like in three rounds.** Five of
+its likes came from two replies; the other eleven have none. The rate has drifted 0.45 → 0.38 purely
+by the sample growing while the numerator sat still. The pre-registered re-audit at ten replies has
+been passed and the call made last round — hold the five rules, because the only stranger likes in
+the account's entire record are comedy likes — but that call is not getting stronger with data.
+
+### The number that should change the strategy, and it is not about copy
+
+The trust-graph reply went under **1,908 views per existing reply, the third-best ratio this account
+has ever found**, on a post that then grew to 11,403 views. It returned **eighteen views**.
+
+Put it beside the two other recent high-ratio finds:
+
+| Reply | Ratio at catch | Parent's eventual reach | Unc's reply got |
+|---|---|---|---|
+| @emollick, fax machine | **2,815** views/reply (best ever) | 2,815+ | **16** |
+| @natolambert, two agents in 1996 | 1,387 views/reply | 15,390 | **21** |
+| @ycombinator, trust graph | 1,908 views/reply | 11,403 | **18** |
+| @ycombinator, qualifies as senior | 1,329 views/reply | **37,818** | **695** |
+
+Three of the four best ratios this account has ever found returned sixteen to twenty-one views. The
+fourth returned 695. **The ratio at catch did not predict any of it.** The one that worked is the one
+whose parent went ten times bigger *after* Unc landed on it, which is a fact about the post's future
+that no measurement at catch can see.
+
+That is worth stating clearly because two consecutive rounds have now treated "views per existing
+reply" as the targeting metric, and it has failed as a predictor four times out of five. **The live
+hypothesis stands and has hardened: placement is the variable nobody has cracked, and the ratio proxy
+is not it.** What separated the 695 from the 18 was catching a post that was about to go viral at
+fifteen minutes old. Freshness may simply be doing all the work the ratio metric is being credited
+for.
+
+No change to the routine yet — one round is not a finding. But the next few rounds should record
+**parent reach at catch and parent reach two hours later**, because the growth multiple is looking
+like the only thing that has ever correlated with a reply being seen.
+
+### Timeline replies (1)
+
+| Target | Age / reach when caught | The reply |
+|---|---|---|
+| @MartinGTobias, founders who raised the next round read books | **5m, 140 views, ZERO replies** | "Unc has been on page 41 of the same biography since March. / Nobody alive understands those forty-one pages better." |
+
+Unc was reply number one. The parent grew 140 → 216 views during the round, and Martin's comparable
+posts run 1.2K to 23.7K, so this is deliberately a bet on growth rather than on reach at catch —
+which is exactly the thing the section above says has actually worked once.
+
+Day opened at seven timeline replies against the ten ceiling, so the bar rose and the round budgeted
+one. Eight rejections are tabled in `08-reply-playbook.md`; the two that hurt were @sweatystartup at
+2,066 views per reply (unreadable Article, criterion (e)) and @ColinGardiner's weird-marketplace
+check-size post, where the obvious gag had gone out fifteen minutes earlier under @ADINonline.
+
+### Mentions
+
+None. The mentions tab reads "Nothing to see here — yet" and the All tab carries nothing new since
+@ESCOweb3's emoji reply, which was correctly left alone last round.
+
+### Likes (5, all first try via `element.click()`)
+
+@MartinGTobias's books post (before composing, per the rule — went through with no dialog),
+@ColinGardiner's weird-marketplace checks and his portco-AI question, @HarryStebbings on what
+separates winners in AI agents, @dunkhippo33's Founder Friends Toronto event. @an_engineer_log's
+"nervous about building in public" post was already liked.
+
+### Follows (1, reload-verified)
+
+| Handle | Who | Why |
+|---|---|---|
+| @MollySOShea | Molly O'Shea. Verified, 72.8K followers, investing and tech newsletter/podcast (@Sourceryy), LA/NYC/SF, on X since 2018. **Followed by seventeen accounts we follow** — the strongest co-follow signal the account has seen. | Was the queued candidate from last round. Active, posting four hours before this one. |
+
+Reload-verified to `954060455831580672-unfollow`. **One caveat recorded for the next round that
+considers replying to her:** her feed leans defense-tech and government (Saronic, Palantir, "the
+fastest I've seen the government move"), which is skip-list adjacent. She is a good follow for window
+supply and a cautious one for replies — read the specific post, not the author's week.
+
+Stopped at one, fifth round running, while the following count is still above the small-wave
+allowance.
