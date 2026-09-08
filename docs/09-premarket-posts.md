@@ -46,10 +46,32 @@ Robinhood connector, `get_equity_quotes` for SPY and QQQ.
 - Reference: `adjusted_previous_close`
 - Percent change: (premarket - reference) / reference x 100, one decimal
 
-Market-closed check: if `venue_last_non_reg_trade_time` is not from today, the market is closed
-or premarket has not started. Skip and post nothing. Never post a stale number. A hardcoded
-holiday list lives in the task prompt as a first pass, but the freshness check is the real guard
-because the list goes stale.
+Market-closed check: if neither `venue_last_trade_time` nor `venue_last_non_reg_trade_time` is
+from today, the market is closed or nothing has traded yet. Skip and post nothing. Never post a
+stale number. A hardcoded holiday list lives in the task prompt as a first pass, but the
+freshness check is the real guard because the list goes stale.
+
+## The 9:00 slot is soft
+
+Being late is not a reason to skip. If the run fires after the open, it posts as soon as it can
+and beat one is reframed to the live session instead of premarket. A missed morning is worse
+than a late one.
+
+This matters because `last_non_reg_trade_price` goes null the moment the regular session starts.
+Read literally, the old freshness check treated that as "market closed" and skipped a perfectly
+normal trading day — which is exactly what happened on 2026-09-08. The check now looks for any
+trade today, and the price field is chosen by which window the run lands in:
+
+| Window | Price field | Beat one reads |
+|---|---|---|
+| Premarket | `last_non_reg_trade_price` | "Premarket has SPY..." |
+| Regular session | `last_trade_price` | "First hour in.", "Couple hours into the day." |
+
+Never call a live regular-session price premarket. The only hard stop is after the 4:00 PM
+Eastern close: a morning note posted at night is worse than none, and the next run covers it.
+
+Phrase the time reference so it stays true between composing and clicking Post. "First hour in"
+survives a few minutes of delay. "Forty minutes into the session" becomes false while you work.
 
 ## Log
 
@@ -60,4 +82,5 @@ because the list goes stale.
 Note on 2026-09-08: the run fired around 10:08 AM Eastern instead of 9:00, so premarket was
 over and `last_non_reg_trade_price` was null. Posted against the live session instead of
 premarket, with beat one reframed to the open. Percentages are regular-session prices vs the
-Sep 4 close. If the schedule keeps drifting past 9:30 this recurs every morning.
+Sep 4 close. This is the run that prompted the soft-slot policy above; a late run now posts
+on its own rather than skipping.
