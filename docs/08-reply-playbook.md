@@ -983,3 +983,60 @@ discovered it at write-up time.
 **Rule that follows: re-read the playbook immediately before writing a reply, not only at session
 start.** On a day with overlapping runs the file can change underneath a round, and a stale read
 produces stale copy hours after the guidance changed.
+
+## Log
+
+| Date | Where | Mode | What |
+|---|---|---|---|
+| 2026-09-08 14:08 UTC | Scheduled round | — | **Nothing. The browser is logged out of X.** No replies, no likes, no follows, no measurement. Not a judgement call — the round had no account to act as. |
+
+## Round at 14:08 UTC (10:08am ET Sep 8): logged out, and the whole round is blocked
+
+The Browser pane opened a **fresh, signed-out browser profile**. This is a new failure mode and it
+looks nothing like the click and layout problems that fill the rest of this file, so here is how to
+recognise it in one call rather than debugging it for an hour:
+
+```js
+({twid: document.cookie.includes('twid'),
+  loggedIn: !!document.querySelector('[data-testid="SideNav_AccountSwitcher_Button"]')})
+```
+
+Both `false` means signed out. Confirmed three further ways this round:
+
+- `document.cookie` held **only guest cookies** — `guest_id`, `gt`, `personalization_id` — issued
+  minutes earlier. No `twid`. (`auth_token` is httpOnly and invisible either way, but `twid` is not,
+  and a logged-in session always carries it.)
+- `x.com/home` redirected to the "Happening now / Continue with phone" sign-in page.
+- `x.com/notifications/mentions` redirected to
+  `x.com/i/jf/onboarding/web?redirect_after_login=…&mode=login`.
+
+A second, freshly created tab behaved identically, so it is the browser profile, not one bad tab.
+
+**What is still readable logged out, and what is not.** The profile *header* renders for guests —
+bio, join date, and the follower and following counts. Everything below it does not: the Posts,
+Replies and Media timelines all return "Something went wrong. Try reloading." So a signed-out round
+cannot reply, cannot like, cannot follow, cannot read mentions, **and cannot measure** — the reach
+audit needs `with_replies` or the notifications tab, and both are gone.
+
+**Why the round stopped rather than working around it.** Signing in is off-limits: entering a
+password is a prohibited action for an automated run regardless of who asks, and no credentials were
+available to this session in any case. There is no partial version of this round worth doing — every
+action in the task, including the free ones, needs the account. Rand has to re-authenticate the
+in-app browser as @UncFund; the next scheduled round will then pick up normally.
+
+**Do not let this masquerade as X throttling.** The symptom overlaps with two things already written
+up here — timelines refusing to render, and pages coming back half-blank — and this playbook has
+twice reached for "X is rate-limiting us" when the real cause was mechanical. Check the cookie first.
+It costs one call and rules out the entire class.
+
+### The one number this round did get, and it is worth a look
+
+The logged-out profile header read **62 following, 11 followers**. The last logged figure was **45
+following** at roughly 02:00 UTC, so the account added **seventeen follows in about twelve hours**.
+
+The task allows one or two per round, seven rounds a day — a ceiling of fourteen, and in practice
+five or six. Seventeen is above that, and it is almost exactly the size of the wave X silently
+reverted twice in the account's first week (~16 in one session). Nothing here proves a cap was hit;
+the count is what a guest sees and may already include reversions. But some run has been following
+well past the small-wave rule, and that is the behaviour the rule exists to prevent. Worth a
+deliberate check of the real following count once the session is restored.

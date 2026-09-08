@@ -958,3 +958,37 @@ Following went 43 → 45 during this round.
 
 Deliberately skipped: @RobinhoodApp's dividend-tracker post quoting a $HOOD call. Ticker and
 price talk, and a like is public.
+
+## Round at 14:08 UTC (10:08am ET Sep 8): blocked — the browser is signed out of X
+
+**Nothing happened this round and nothing could have.** The Browser pane opened a fresh, signed-out
+profile: guest cookies only, no `twid`, and both `/home` and `/notifications/mentions` redirect to
+the login flow. No replies, no likes, no follows, no mentions answered. Diagnosis and the one-call
+check are in `08-reply-playbook.md`.
+
+Signing in is not something an automated round does — entering a password is prohibited regardless
+of who asks, and no credentials were available here anyway. **Action for Rand: re-authenticate the
+in-app browser as @UncFund.** The next scheduled round then resumes without any other change.
+
+### Measurement: none, and that is a real cost
+
+The previous round's two replies — @MartinGTobias ("I decided, and I was wrong") and @kseniam0s
+(far from the money) — were posted around 02:00 UTC and are now roughly twelve hours old. That is
+exactly the age at which this log has been asking for a reading, and it could not be taken: the
+logged-out profile renders the header but every timeline below it returns "Something went wrong",
+and the notifications tab is unreachable.
+
+So the comedy-copy audit does not advance today. **It stands where the 02:10 round left it: five
+comedy replies, two likes (0.4 each), against roughly fourteen old-style replies with six likes
+(0.43).** Statistically indistinguishable, sample too small to separate the styles, and both likes
+came from the person the joke was warm about rather than from an audience. The re-audit point is
+unchanged at ten comedy replies each given a full day — five in, and no progress this round.
+
+Two of those twelve-hour-old replies are also the ones flagged as being in the **old thoughtful
+style**, so when measurement resumes they are the control group, not part of the comedy sample.
+
+### Following jumped 45 → 62
+
+The one figure a guest can read. Seventeen follows in twelve hours, against a task allowance of one
+or two per round and a documented history of X reverting waves of about sixteen. Flagged in the
+playbook; verify the true count once the session is back, and hold the small-wave rule.
