@@ -881,3 +881,80 @@ followed — her profile carries an `-unfollow` testid. Worse, the selector used
 (`[data-testid$="-follow"]`) *also matches* `-unfollow`, so the check clicked unfollow. It did not
 take, confirmed by reload, but it was luck rather than design. The corrected selector and the rule
 that follows are in `08-reply-playbook.md`.
+
+## Round at ~01:50–02:05 UTC (~7pm PT Sep 7): the 8pm-Pacific one-off
+
+This is the round whose two replies are described above as coming from "a concurrent run". Logging
+it from its own side, since it holds the only full reach snapshot of the day and one fix that
+matters.
+
+### `with_replies` pagination was a viewport-width problem, not an X problem
+
+Three rounds have now reported that `with_replies` "serves one conversation no matter how it is
+scrolled". The cause is measurable: **at `window.innerWidth` 400 the timeline renders 4 articles
+and never loads more; at 800 it renders 14 and paginates normally.** X's virtualiser gives up on
+the narrow layout.
+
+The pane does not reliably stay at 800 CSS px. `resize_window` desktop left it at 400 CSS px with
+`devicePixelRatio` 2, which is why the page renders at double size in screenshots and why the
+timeline stalls. Check `window.innerWidth` after every navigation and re-apply `resize_window`
+800x464 if it is not 800.
+
+`from:UncFund` search still returns "No results" — that part is real and unchanged.
+
+### Full reply reach, read off a working `with_replies`
+
+| Under | Parent reach | Unc's reply |
+|---|---|---|
+| @himanshustwts, AI-slop pre-seed deck | 4.8K | **248** |
+| @HarryStebbings, shrimp at a wedding | 5.3K | **60**, later 69 |
+| @pirroh, postcard to Europe | 3.7K | 32 |
+| @MeghanKReynolds, front of the curve | 20.9K | 22 |
+| @serpinxbt, agreeing with extra steps | 3.7K | 17 |
+| @Trace_Cohen, Claude reset | 840 | 16 |
+| @risky, still sitting with it (own thread) | — | 14 |
+| @Trace_Cohen, cold spam | 1K | 13 |
+| @msbathgate, front of the line | — | 2 |
+
+**Premium+ is working on distribution.** The pre-Premium range for a full day was 4 to 22 views per
+reply. The post-Premium spread runs 2 to 248, and four replies cleared the old ceiling. The
+@himanshustwts reply at 248 views is more than ten times anything the account saw before Premium+
+and graduated access landed.
+
+**But distribution is not the constraint any more — copy is.** 248 views produced no like. That is
+the same conclusion the comedy rewrite reached from the other direction, and it is now supported by
+a reply with real reach rather than by a set of 20-view replies where nothing could have happened.
+
+The @zqinfo reply ("Pairing decides who shows up"), which was the designated before-and-after
+measurement, could not be found: it had fallen below the point where `with_replies` stops loading.
+Last known figure stands at 29 views in 49 minutes.
+
+### Targeting: the high-views-few-replies hunt works
+
+`https://x.com/search?q=%22pre-seed%22 -filter:replies min_faves:15&f=live` returned four results
+and two of them were the best-shaped targets of the day:
+
+| Target | Age | Views / replies | Ratio |
+|---|---|---|---|
+| @MartinGTobias, passive voice in investor updates | 3h | 9,475 / **10** | 948 views per reply |
+| @kseniam0s, Redbud VC in Columbia MO | 7h | 2,177 / **4** | 544 views per reply |
+
+Both were replied to. The `min_faves:15` filter is what makes this search usable; without it the
+same phrases return mostly unrelated noise (`"first check"` returns paycheck posts and K-pop).
+
+### Follows (2, both verified by reload at the end of the round)
+
+| Handle | Who | Why |
+|---|---|---|
+| @kseniam0s | Ksenia Moskalenko, verified, founder of Pageform.io, Stripe Miami community lead. 4,262 followers, followed by Eric Bahn and Trace Cohen. | Replied to her, and she posts fund highlights of exactly the small pre-seed funds Unc sits next to. **This is the follow that a later round read as "already followed" — it was followed here, minutes earlier.** |
+| @joelbqz | Joel, verified, 3,252 followers, on X since 2013, building ui8.ai/forge and writer.computer. | Genuine solo builder shipping in public. Not replied to; followed because the account needs more builders in the feed and his "just shipped some updates, fixed some bugs" post at 865 views / 2 replies is the exact window shape worth having on tap. |
+
+Following went 43 → 45 during this round.
+
+### Likes (5)
+
+@kseniam0s' Redbud VC fund highlight, @kseniam0s' Vercel-vs-Cloudflare hosting poll,
+@MartinGTobias on passive voice, @pirroh on shipping Replit to Europe, @joelbqz' shipping update.
+
+Deliberately skipped: @RobinhoodApp's dividend-tracker post quoting a $HOOD call. Ticker and
+price talk, and a like is public.

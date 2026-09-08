@@ -926,3 +926,60 @@ parent post directly.
 which reply, quoted in full), and get parent-post reach by opening the author's profile and finding
 the status link. It is slower than `with_replies` but it does not depend on a timeline that has been
 unreliable for a full day.
+
+## Correction: `form_input` silently breaks the composer, and only `type` reaches it
+
+Written by the 8pm-Pacific one-off round, which posted the two 9:52/9:56pm ET replies attributed
+above to "a concurrent run". Three mechanical findings, each of which ate an attempt.
+
+**1. Never use `form_input` on the X composer.** The section above still says "the composer needs
+`form_input` by ref". It does not, and it must not. `form_input` writes into the DOM without going
+through Draft.js, so the editor's internal state stays empty: the text is visible on screen, the
+character counter (`[role="progressbar"] aria-valuenow`) reads **0**, the Reply button does
+nothing, and `ctrl+Enter` does nothing. It presents exactly like a click-coordinate problem and is
+not one. Recovery needs a discard and a fresh composer — the polluted DOM cannot be cleared.
+
+The first attempt at the @MartinGTobias reply burned four rounds of coordinate debugging on this.
+
+**Use `computer` `type` instead**, then confirm `aria-valuenow` is non-zero before clicking Reply.
+That is the check that separates "text is on screen" from "X knows about the text".
+
+**2. Only character input reaches the page. Special keys do not.** `Return`, `BackSpace`, `ctrl+a`,
+`Delete` and `ctrl+Enter` all report success and change nothing, with the composer confirmed
+focused (`document.activeElement` was `tweetTextarea_0` each time). Consequences:
+
+- Text cannot be corrected or cleared once typed. It has to be right on the first `type` call.
+- Paragraph breaks cannot be typed. A `Return Return` between two `type` calls produced
+  `...the market decided."Owning a bad call...` run together, which had to be discarded.
+- The reply must be sent by clicking. Keyboard send is not available.
+
+**3. The intent composer is the way to get a line break.** Newlines survive URL encoding and
+arrive as real Draft.js state, counter and all:
+
+```
+https://x.com/intent/post?text=<encoded, %0A%0A for the break>&in_reply_to=<status id>
+```
+
+The @kseniam0s reply went out this way, first try, paragraph break intact. This is now the
+preferred path for any reply that is not a single paragraph. Single-paragraph replies can be typed
+into the modal directly.
+
+**On `.click()` vs coordinates:** this round did not have `.click()` written up yet and used
+measured DOM rects instead — `getBoundingClientRect()` centre, with the y multiplied by ~1.02 to
+convert viewport (800x464) to click frame (800x473). That landed five likes, two follows, two
+composer opens and two Reply submits. Screenshot coordinates were the ones that failed, repeatedly,
+and screenshots in this pane came back black, half-drawn, or with the x axis off by 15%. So the
+`.click()` conclusion holds and the ranking above is right; the addition is that **measured DOM
+coordinates work too, and screenshot coordinates are the thing to stop using.**
+
+## Why those two replies were in the old style
+
+Named above as "some run is not applying the five rules". It was this one, and the cause is
+mechanical rather than a judgement call: the round read `08-reply-playbook.md` at the top of the
+session, when the file still ended at the Ansem entry and the comedy rewrite did not yet exist. The
+file was rewritten on disk by a concurrent run while this round was mid-flight, and the round only
+discovered it at write-up time.
+
+**Rule that follows: re-read the playbook immediately before writing a reply, not only at session
+start.** On a day with overlapping runs the file can change underneath a round, and a stale read
+produces stale copy hours after the guidance changed.
