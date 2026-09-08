@@ -992,3 +992,96 @@ style**, so when measurement resumes they are the control group, not part of the
 The one figure a guest can read. Seventeen follows in twelve hours, against a task allowance of one
 or two per round and a documented history of X reverting waves of about sixteen. Flagged in the
 playbook; verify the true count once the session is back, and hold the small-wave rule.
+
+## Round at ~14:35 UTC (10:35am ET Sep 8): session restored, and the old style is still ahead on likes
+
+The 14:08 round found the browser signed out. Rand re-authenticated; this round ran normally.
+Two replies, four likes, one follow, no mentions.
+
+### Measurement first, and it is the most useful reading yet
+
+`with_replies` paginated properly at `innerWidth` 800, and the notifications All tab named every
+liker. `from:UncFund` search still returns "No results" — fifth round running, and it should now be
+treated as permanently broken rather than retried.
+
+| Reply | Style | Views | Likes | Who liked |
+|---|---|---|---|---|
+| @MartinGTobias, "I decided, and I was wrong" | **old (thoughtful)** | **472** | **2** | Arth Gupta, Jeff |
+| @kseniam0s, far from the money | **old (thoughtful)** | 35 | **1** | Ksenia Moskalenko |
+| @brycent, jar of pickles | comedy | unreachable | 1 | An Engineer's Log |
+| @pirroh, postcard to Europe | comedy | 32 | 1 | Milad Khademi Nori |
+| @HarryStebbings, shrimp at a wedding | comedy | 69 | 0 | — |
+| @NotSoEasyMoney, grey runners | comedy | 82 | 0 | — |
+| @Trace_Cohen, investment committee | comedy | 12 | 0 | — |
+
+### Said plainly, as the task asks: the comedy rewrite is not winning on likes
+
+**The best single reply this account has ever posted — 472 views and 2 likes — is in the old
+thoughtful style**, and it was written by the run that had accidentally read a stale playbook. That
+is an uncomfortable data point and it should not be buried.
+
+The running totals:
+
+- **Comedy: five replies, two likes.** 0.40 per reply.
+- **Old thoughtful: roughly sixteen replies, eight likes.** 0.50 per reply.
+
+The old style is ahead on rate, ahead on the single best reply, and ahead on total likes. After a
+full day of the comedy rules there is no evidence they outperform, and the honest summary is that
+**the rewrite has not yet earned its own premise.**
+
+Three things stop that from being a verdict, and they are caveats rather than excuses:
+
+1. **Placement dominates both samples.** The 472-view reply went under a 20.4K-view post; the
+   12-view comedy reply went under a 267-view post. Neither number is measuring copy.
+2. **Every like in either sample came from the author or their immediate orbit.** Arth Gupta and
+   Jeff on Martin Tobias's post, Ksenia on her own, An Engineer's Log on the post about him. These
+   are relationship signals. No reply in either style has yet earned a like from a stranger.
+3. **Nothing has cleared 500 views.** A like rate off samples this small is noise in both
+   directions.
+
+**The decision: hold the comedy rules through the re-audit point, then decide on evidence.** The
+re-audit is at roughly ten comedy replies each given a full day; today's two take the sample to
+seven. If the old style is still ahead at ten, the right response is to stop asserting the comedy
+diagnosis and go back to what the numbers actually favour — which may be that **placement is the
+only variable that has ever mattered here**, and the copy argument was a distraction from hunting
+ratios.
+
+### Timeline replies (2)
+
+| Target | Age / reach when caught | The reply |
+|---|---|---|
+| @emollick, is the METR long-horizons measure saturated | **14m, 2,815 views, 1 reply** | "Unc got eighteen weeks of work out of a fax machine in 1998. / No harness. Just a very warm room." |
+| @ColinGardiner, seed-to-Series-A distance has stretched | 32m, 281 views, 2 replies | "Unc's contribution to your longer runway is $500. / He would like that on the record before anybody does the math." |
+
+**2,815 views against a single existing reply is the best ratio this account has ever found** — the
+previous best on record was 948 views per reply. The parent grew to 3,648 views within twenty
+minutes. Both replies verified live on `with_replies`; full write-up and the rejection table are in
+`08-reply-playbook.md`.
+
+**One caveat on the @emollick reply.** A like on his post was refused by X with a dialog reading
+"This author has blocked you, so you can't perform this action", even though his profile and posts
+render in full and fifteen accounts we follow follow him. Whether that affects the reply's
+visibility is unknown. The cheap defence, now in the playbook: **like the parent before replying to
+it** — the refusal dialog is the only way this condition announces itself.
+
+### Likes (4, all first try via `element.click()`)
+
+@NotSoEasyMoney on crypto bros doing Lululemon skits, @Trace_Cohen on Benchmark raising $2B,
+@Trace_Cohen wanting the Silicon Valley intro rebuilt as a walkable scene, @ColinGardiner's
+seed-to-Series-A advice.
+
+Deliberately not liked: @clementetv_'s "which timeline was worse" post, which is funny but is a
+group being the butt, and a like is public.
+
+### Follows (1, reload-verified)
+
+| Handle | Who | Why |
+|---|---|---|
+| @ColinGardiner | GP of @yonderventures, backing early marketplace founders. Helped build Outdoorsy, Tripping, Ancestry, JustAnswer. 6,466 followers, Austin. Followed by Ksenia Moskalenko. | A small VC writing practical early-stage advice — the exact room Unc's replies work in, and a fresh window generator. Replied to and liked him this round. |
+
+**Stopped at one deliberately.** The profile read 62 following this morning against 45 logged twelve
+hours earlier — seventeen follows overnight, above the one-or-two-per-round allowance and close to
+the wave size X silently reverted twice in this account's first week. A second candidate
+(@marketplacevc, an early-stage marketplace fund) was found and rejected on its own merits anyway:
+604 followers, 71 posts, last post 22 days ago, and not followed by anyone we follow. A dormant
+account adds no windows, and window supply is the constraint.

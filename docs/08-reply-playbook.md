@@ -1040,3 +1040,104 @@ reverted twice in the account's first week (~16 in one session). Nothing here pr
 the count is what a guest sees and may already include reversions. But some run has been following
 well past the small-wave rule, and that is the behaviour the rule exists to prevent. Worth a
 deliberate check of the real following count once the session is restored.
+
+## Log
+
+| Date | Where | Mode | What |
+|---|---|---|---|
+| 2026-09-08 14:35 UTC | @emollick, METR long-horizons measure saturated, 14m old, **2,815 views / 1 reply** | Confidently wrong | "Unc got eighteen weeks of work out of a fax machine in 1998. / No harness. Just a very warm room." |
+| 2026-09-08 14:45 UTC | @ColinGardiner (GP, Yonder Ventures), seed-to-Series-A distance has stretched, 32m old, 281 views / 2 replies | Self-own / small-check thesis | "Unc's contribution to your longer runway is $500. / He would like that on the record before anybody does the math." |
+
+## Round at ~14:35 UTC (10:35am ET Sep 8): session restored, two replies, both verified
+
+The 14:08 round was blocked by a signed-out browser. Rand re-authenticated and this round ran
+normally: **two replies, four likes, one follow, no mentions to answer.** The day started at zero
+timeline replies (newest was 12 hours old), so the full budget was available and the concurrent-run
+check was clean both at the top of the round and immediately before each send.
+
+### The best ratio this account has ever found
+
+@emollick asked whether the METR long-horizons measure is saturated, noting you can get 18+ weeks of
+work out of a frontier model in harnesses. Caught at **14 minutes, 2,815 views, ONE reply.** That is
+2,815 views per existing reply, better than anything in this file — the previous best was 948.
+
+> Unc got eighteen weeks of work out of a fax machine in 1998.
+>
+> No harness. Just a very warm room.
+
+Rule 3 played straight: Unc hears "harness" and pictures physical equipment, then answers a question
+about AI capability with a fax machine. Absurdly specific (eighteen weeks, fax machine, 1998), the
+age self-own is the whole engine, nobody is the butt but Unc, and it takes no position on the
+research so it never touches the skip list. It clears the standalone test — "no harness, just a very
+warm room" is funny with the parent post hidden.
+
+The second, under a VC's practical advice that the distance from seed to Series A has stretched and
+founders should take more capital at seed:
+
+> Unc's contribution to your longer runway is $500.
+>
+> He would like that on the record before anybody does the math.
+
+Agrees by being the smallest possible instance of the thing being described. Small-check thesis plus
+self-own, warm toward Colin, no advice offered back.
+
+Both lines arrived inside the two-minute window criterion 3 now allows. Neither arrived instantly,
+which is the point of the Sep 7 loosening.
+
+### An author-level block, and it is invisible until you try to like something
+
+The @emollick like failed three times through `element.click()` — the method that has landed
+everything for two rounds. A coordinate click finally surfaced the cause, which had been sitting in
+a modal the whole time:
+
+> **Why can't you like this?** This author has blocked you, so you can't perform this action.
+
+That modal was already open in the screenshot taken *before* the coordinate click, so the first
+`.click()` had fired correctly and X answered it with a refusal. Attempts two and three did nothing
+because the modal was covering the page. **A `.click()` that appears to do nothing may have worked
+and been refused — screenshot before concluding it missed.**
+
+The block is not a normal one. @emollick's profile renders in full, his posts are readable, and
+"Followed by himanshu, threadguy, and 13 others you follow" displays fine. A standard block shows
+"You're blocked" and hides everything. So this is narrower than an account block, and the honest
+statement is: **X refused the like and named a block as the reason, and what that means for the
+reply's visibility is unknown.**
+
+What can be said: the like on @ColinGardiner's post landed first try through the identical
+`.click()` call minutes later, with no dialog. So this is specific to that author, not a click
+problem and not a rate limit — the third mechanical explanation in a row that beat the throttling
+theory.
+
+**Cheap rule that follows: like the parent BEFORE replying to it.** A like is one call, it is a good
+action anyway, and a refusal dialog is the only way this condition announces itself. If the like is
+refused, skip the post — the ratio does not matter if the reply cannot be seen.
+
+### Do not read reply-thread rendering as suppression
+
+Unc's reply did not appear in @emollick's thread, which looked like confirmation that the block had
+swallowed it. It is not evidence. The control says so: **@ColinGardiner's post page rendered its
+parent article and nothing else** — not Unc's reply and not the two replies that predate it. Post
+pages in this pane routinely fail to render replies, which this file has recorded before. Both
+replies are confirmed live on `with_replies` with the correct "Replying to" target, and that is the
+verification that counts.
+
+### Rejected this round
+
+| Candidate | Age / reach | Why |
+|---|---|---|
+| @natolambert, "choosing this of all things to gripe at the frontier labs about is a rookie move" | 28m, 1,715 views, **0 replies** | Best unused ratio of the round. It is a position in a live argument about labs reading user data; Unc showing up there is Unc taking a side. Criterion (e). |
+| @natolambert, "0% chance any researchers look at user data" | 36m, 10K views, 46 replies | Same dispute, and the ratio is gone. |
+| @clementetv_, "not sure what timeline was worse: crypto bros pretending..." | 30m, 2,413 views, 12 replies | Good ratio, but the post's whole shape is a group being the butt. Nothing warm to add. Not liked either — a like is public. |
+| @arbitrum, third biggest platform by revenue, token-controlled treasury | 38m, 7,393 views, 40 replies | Token and revenue talk, and the ratio is thin. |
+| @NotSoEasyMoney, "Pump fun launching stock tokens" | 1m, 943 views | Tokens. Hard skip. Liked his Lululemon-skits post instead. |
+| @TrumpDailyPosts, GoFundMe and January 6 defendants | 25m, 35.6K views | Politics. Hard skip despite the reach. |
+| @BradWestPoCo, announcing re-election campaign | 17m, 240 views | Politics. |
+| @0xcarlosg, MetaDAO ownership-coin model | 26m, 726 views | Token model. |
+| @HistoryWJacob, the tobacco-chewing ram that attacked the Secret Service | 21m, 419 views, 3 replies | Genuinely funny setup and a real temptation. Off-thesis audience, and the White House framing is politics-adjacent enough to fail (e)'s "no ambiguity". |
+| @Trace_Cohen, "I bet too cheap, wanted and deserve more" | 52m, 131 views, 0 replies | Too cryptic to reply to safely, and thin reach. Liked two other Trace posts instead. |
+| @dara_venture, "we can be top 10 fund by mid 2027" | 91m, 562 views | Freshness, past the 75m bound. |
+
+Search sorted by Latest was noisy for the third round running: `("pre-seed" OR "first check" OR
+"raising" OR "shipped") min_faves:15` returned an election announcement, a Trump commentary account
+and two token threads in its top five. **The Following timeline produced both replies.** It is the
+better instrument and should be the first stop, not the fallback.
