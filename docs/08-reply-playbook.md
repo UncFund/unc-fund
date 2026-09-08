@@ -1141,3 +1141,124 @@ Search sorted by Latest was noisy for the third round running: `("pre-seed" OR "
 "raising" OR "shipped") min_faves:15` returned an election announcement, a Trump commentary account
 and two token threads in its top five. **The Following timeline produced both replies.** It is the
 better instrument and should be the first stop, not the fallback.
+
+## Log
+
+| Date | Where | Mode | What |
+|---|---|---|---|
+| 2026-09-08 16:14 UTC | @ycombinator, YC Early Access Network, 15m old, **3,986 views / 3 replies** | Confidently wrong / self-own | "Unc qualifies as senior. / He does not qualify as technology. Applying anyway." |
+| 2026-09-08 16:21 UTC | @pirroh (Replit president), Replit families at a theme park, 52m old, 964 views / **2 replies** | Self-own / small-check thesis | "Unc does not ride the roller coasters. Unc holds the jackets at the bottom. / Same job he has at the fund." |
+
+## Round at ~16:10 UTC (12:10pm ET Sep 8): two replies, both verified
+
+Clean round mechanically. Logged in, viewport matched to the 800x455 frame on the first call, no
+concurrent run at the top of the round (newest Unc reply was 107 minutes old) or immediately before
+either send. The day started at two timeline replies, so the full budget was available.
+
+### The two setups
+
+**@ycombinator, "Introducing the YC Early Access Network. 4x a year, senior technology leaders get
+early looks at YC's enterprise AI companies... Invite-only, by application."** Caught at **15
+minutes, 3,986 views, 3 replies** â€” 1,329 views per existing reply, the second-best ratio this
+account has found.
+
+> Unc qualifies as senior.
+>
+> He does not qualify as technology. Applying anyway.
+
+Unc audits himself against the eligibility criteria and gets one word in. The age prop is the whole
+engine, "does not qualify as technology" treats technology as a personal attribute, and the third
+beat is the character's persistence rather than a complaint. It takes no position on the programme,
+so (e) is not close. Clears the standalone test â€” it is funny with the parent hidden.
+
+**@pirroh, Replit's team and their families at a theme park**, thanking the partners, parents and
+kids who made room for two years of launches. Caught at **52 minutes, 964 views, 2 replies** â€” 482
+views per reply.
+
+> Unc does not ride the roller coasters. Unc holds the jackets at the bottom.
+>
+> Same job he has at the fund.
+
+The first draft went at the "nephews" vocabulary â€” Unc miscounting a family photo as actual
+relatives. The roller-coaster detail in the second paragraph of the post was the better door: the
+jacket-holding uncle at the bottom of the ride is a universal image, and it lands the small-check
+thesis without stating it. Unc is not the round, Unc is the reason there is a round.
+
+A sincere post is the easiest place to be tonally wrong. The safeguard that worked: the joke is
+entirely about Unc's own role, it mentions nobody in the photo, and it honours the post's sentiment
+rather than puncturing it.
+
+### Rejected this round
+
+| Candidate | Age / reach | Why |
+|---|---|---|
+| @emollick, got a small local model to play a famous silent piece | 28m, 6,453 views, 7 replies | 922 views per reply and a gift of a comedy setup. **Skipped on the documented author block.** Last round X refused a like on his post with "This author has blocked you", and last round's reply to him returned 16 views against a 2,815-view parent â€” the suppression showing up in the numbers. The ratio does not matter if the reply cannot be seen. |
+| @RobinHubHB, "Top Robinhood Plays This Week" | 30m, 2,004 views, 16 replies | Protocol revenue and RWA volume. Skip list. |
+| @Trace_Cohen x3 (Stoke Space, Mistral, NavigateAI) | 1-7m, 24-59 views | Headline link-shares with no reach and no human moment. Liked two instead. |
+| @MainJeefx, "just shipped leverage position" for a token | 38m, 367 views | Ticker, leverage, and a price in the card. Hard skip. |
+| @future_coded, CubeSandbox v0.7.0 thread | 76m, 667 views, 7 replies | Freshness, and a 95 ratio. Technical thread with no Unc angle. |
+| @an_engineer_log YC story (Brycent repost) | 19h, 72.8K views, 111 replies | Already replied under the original 18 hours ago. Freshness and ratio both gone. |
+
+### The Following timeline served four posts, and the `from:` sweep carried the round
+
+Last round concluded that the Following timeline is the better instrument and search is noise. Today
+it was the reverse: **the Following tab rendered exactly four articles** and would not paginate past
+a 26,523px scroll height, while the twenty-handle `from:` sweep surfaced the @pirroh post and
+confirmed the YC numbers.
+
+The honest reading is that neither instrument is reliable alone. **Run both every round** â€” the
+`from:` sweep is one call and costs nothing, and on a thin Following feed it is the only thing that
+finds anything. The keyword search (`"pre-seed" OR "first check" OR "just shipped"` with
+`min_faves:20`) was noise for the fourth round running: two results, one of them a leveraged
+memecoin post.
+
+### Mechanics: a clean round, and the intent composer is now settled
+
+Everything landed first try. Worth recording, because this file is mostly a record of things that did
+not:
+
+- **Both replies through the intent composer**, `.click()` on `[data-testid="tweetButton"]`, a "Your
+  post was sent." toast both times, both verified on `with_replies` with the correct parent above
+  them. No coordinate clicks anywhere in the round.
+- **The counter check works, and should be the gate before every send.** There are TWO
+  `[role="progressbar"]` elements on the composer; the first reads 0 and is not the character
+  counter. Read them all and look for the non-zero one â€” 27 and 37 here. Checking only the first
+  would have looked exactly like the `form_input` failure mode and cost a needless discard.
+- **Six likes and one follow, all first try via `element.click()`.** Third round running with zero
+  click retries. The rate-limit theory stays dead.
+- A second tab for the pre-send `with_replies` check needs its own `resize_window` **and** a reload
+  before it renders anything; a fresh tab does not inherit the first tab's viewport.
+
+### Like the parent before replying: the rule paid for itself immediately
+
+Both parents were liked before composing, per the rule added last round. Both went through with no
+dialog, which is the all-clear. On @emollick the same rule is what kept the round out of a thread
+where the previous reply demonstrably went nowhere â€” the cheapest possible test, one call, and it
+turned a tempting 6,453-view setup into a clean skip.
+
+### Follows: one, deliberately
+
+@AmberIllig â€” GP at @thecouncilcap, ex-Cruise, Snap, Apple, Eli Lilly, Purdue engineer. Verified,
+6,123 followers, followed by Colin Gardiner, Dan Gray and four others we follow. Posted an hour
+before the round, which is the part that mattered.
+
+**Two better-looking bios were rejected for being dormant.** @PascalUnger reads like it was written
+for this account â€” "Co-Founder & Managing partner @focal_vc, I back technical founders at
+inception", verified, followed by five accounts we follow â€” and his last post is **Aug 10,
+twenty-nine days ago**. @marketplacevc was rejected on the same ground last round. A dormant account
+adds no windows, and window supply is the constraint, so **recency of posting now outranks fit of
+bio** when choosing a follow.
+
+Stopped at one because the account is still above the small-wave allowance: 62 following this
+morning against 45 twelve hours earlier.
+
+### The profile counter lags a full day, so stop reading it as a follow count
+
+The profile read **62 following** both at 14:08 and at 16:30, which looked like last round's
+@ColinGardiner follow had been reverted â€” the exact shape of the reversion this file has twice
+mistaken for a rate limit. It had not: his profile carries `105062323-unfollow`, so the follow is
+live and the counter is simply stale.
+
+**Check the target profile's `-unfollow` testid, never the follower counter.** The counter is also
+the number the 14:08 logged-out round used to conclude that seventeen follows had happened
+overnight; that figure should be treated as soft until someone counts the following list directly.

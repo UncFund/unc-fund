@@ -1085,3 +1085,109 @@ the wave size X silently reverted twice in this account's first week. A second c
 (@marketplacevc, an early-stage marketplace fund) was found and rejected on its own merits anyway:
 604 followers, 71 posts, last post 22 days ago, and not followed by anyone we follow. A dormant
 account adds no windows, and window supply is the constraint.
+
+## Round at ~16:10 UTC (12:10pm ET Sep 8): two replies, and the comedy rate falls as the sample grows
+
+Measured first, before anything else. `with_replies` paginated at `innerWidth` 800 and the
+notifications All tab named every liker. `from:UncFund` search was not retried — it has been broken
+for five rounds and should be treated as permanently dead.
+
+### Last round's replies, at roughly two hours old
+
+| Reply | Style | Parent reach | Views | Likes |
+|---|---|---|---|---|
+| @emollick, fax machine in 1998 | comedy | 2,815 at reply time | **16** | 0 |
+| @ColinGardiner, $500 toward your runway | comedy | 796 | **18** | 0 |
+
+**No new likes arrived on anything since the last round.** Notifications show one new follower
+(Jamie T, 5h) and nothing else new.
+
+The @emollick number is the one worth staring at. That reply went under the best ratio this account
+has ever found — **2,815 views against a single existing reply** — and returned sixteen views. The
+@ColinGardiner reply went under a post with a quarter of that reach and returned eighteen. The
+obvious explanation is the author block X surfaced last round when it refused a like on
+@emollick's post: **the reply was posted, but it does not appear to have been distributed.** That is
+not proven, but it is now the second piece of evidence pointing the same way, and it means the
+best-ratio find in this account's history bought nothing.
+
+**Practical consequence, already applied this round:** the like-the-parent-first check is not
+optional, and a refused like is a hard skip rather than a note to carry forward. It cost one call
+today and correctly kept the round out of a 6,453-view @emollick post.
+
+### Said plainly, as the task asks: the comedy copy is losing ground on likes
+
+| Style | Replies | Likes | Per reply |
+|---|---|---|---|
+| **Comedy (since Sep 7 rewrite)** | **9** (7 before today, 2 today) | **2** | **0.22** |
+| Old thoughtful | ~16 | 8 | 0.50 |
+
+Two rounds ago the comedy rate was 0.40 against the old style's 0.50 and the two were called
+statistically indistinguishable. **The gap has widened, not closed.** Four comedy replies have gone
+out since the last like a comedy reply earned, and the rate has fallen from 0.40 to 0.22 purely by
+the sample growing without the numerator moving.
+
+The re-audit point set on Sep 7 was roughly ten comedy replies each given a full day. **Today's two
+take the sample to nine.** One more round, and the honest thing to do at that point is stop
+defending the rewrite and look at what the numbers actually favour.
+
+Three things that are still true and are caveats rather than excuses:
+
+1. **Placement dominates both samples.** The single best reply this account has posted is 472 views
+   and 2 likes, in the old style, under a 20.4K post. Today's comedy replies went under a 3,986-view
+   post and a 964-view post. None of these numbers is measuring copy.
+2. **Every like in either sample came from the author or their immediate orbit.** No reply in either
+   style has yet earned a like from a stranger.
+3. **Nothing has cleared 500 views.** A like rate off samples this small is noise in both directions.
+
+But the caveats have been written down three rounds running, and the trend inside the comedy sample
+is now down rather than flat. **The pre-registered call stands: at ten comedy replies, decide on
+evidence.** The live hypothesis to test against the copy argument is that **placement is the only
+variable that has ever mattered here**, and that the Sep 7 diagnosis was a distraction from hunting
+ratios — which is the thing the account demonstrably does well.
+
+### Timeline replies (2)
+
+| Target | Age / reach when caught | The reply |
+|---|---|---|
+| @ycombinator, YC Early Access Network | **15m, 3,986 views, 3 replies** | "Unc qualifies as senior. / He does not qualify as technology. Applying anyway." |
+| @pirroh, Replit team and families at a theme park | 52m, 964 views, **2 replies** | "Unc does not ride the roller coasters. Unc holds the jackets at the bottom. / Same job he has at the fund." |
+
+1,329 views per existing reply on the YC post is the second-best ratio on record, behind only the
+@emollick find. The parent grew 3,396 to 4,553 views during the round, so the reply is riding
+growth. Both verified live on `with_replies` with the correct parent. Full rejection table in
+`08-reply-playbook.md`.
+
+### Mentions
+
+None. The mentions tab is empty.
+
+### Likes (6, all first try)
+
+@ycombinator's Early Access Network and @pirroh's families post (both liked *before* replying, per
+the rule), @Trace_Cohen on Mistral raising another EUR 3B, @Trace_Cohen on Stoke Space raising $1B,
+@joelbqz "not my slogan, but my wallpaper", @HarryStebbings on R&D spent reaching product parity
+with the giants.
+
+Deliberately not liked: @MainJeefx shipping a leveraged position on a token, and @RobinHubHB's "Top
+Robinhood Plays This Week". A like is public.
+
+### Follows (1, reload-verified)
+
+| Handle | Who | Why |
+|---|---|---|
+| @AmberIllig | GP at @thecouncilcap. Ex-Cruise, Snap, Apple, Eli Lilly; Purdue engineer. Verified, 6,123 followers, followed by Colin Gardiner, Dan Gray and 4 others we follow. | On-thesis and, more importantly, **active** — posted an hour before the round. |
+
+**Recency of posting now outranks fit of bio.** @PascalUnger was the better bio by a distance
+("Co-Founder and Managing partner @focal_vc, I back technical founders at inception", verified,
+followed by five accounts we follow) and was rejected because his last post is Aug 10, twenty-nine
+days ago. Window supply is the binding constraint on this account; a dormant account adds none.
+
+Stopped at one deliberately — the profile still reads 62 following against 45 logged twelve hours
+earlier, which is above the small-wave allowance.
+
+### The following counter is stale and should not be read as a follow count
+
+62 following was reported at 14:08 and again at 16:30, which made last round's @ColinGardiner follow
+look reverted. It is not — his profile carries `105062323-unfollow`. The counter lags by a day or
+more. This also means the "seventeen follows overnight" figure from the 14:08 logged-out round came
+from the same unreliable number and should be treated as soft.
