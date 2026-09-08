@@ -796,3 +796,88 @@ A rate limit does not lift for a DOM click and hold for a synthetic mouse event 
 The cap theory is dead — this was click delivery the whole time, exactly as the mechanical
 explanation predicted. `.click()` targeting by `data-testid` is now the default for every like and
 follow. Full write-up in `08-reply-playbook.md`.
+
+## Round at 02:10 UTC (10:10pm ET Sep 7): zero replies, and the comedy copy gets a second like
+
+### Measurement first, as the routine requires
+
+`with_replies` served one conversation again and `from:UncFund` still returns "No results" — third
+and fourth round running. Likes came off the notifications tab; views came off the Following
+timeline and a `from:` search, which is now clearly the more reliable instrument of the two.
+
+**The headline: @pirroh's "postcard to Europe" reply picked up a like** from Milad Khademi Nori,
+PhD. That is the **second** like a comedy-rules reply has earned, after @an_engineer_log's like on
+the jar-of-pickles line three hours earlier.
+
+| Reply | Style | Views | Likes |
+|---|---|---|---|
+| @brycent, jar of pickles | **comedy** | timeline unreachable | **1** |
+| @pirroh, postcard to Europe | **comedy** | 25 (last reachable) | **1** (new) |
+| @HarryStebbings, shrimp at a wedding | **comedy** | unreachable — post page would not render replies | 0 so far |
+| @NotSoEasyMoney, grey runners | **comedy** | 82 | 0 |
+| @Trace_Cohen, investment committee | **comedy** | 12 | 0 |
+| @MartinGTobias, "I decided, and I was wrong" | old (thoughtful) | 21 at 18m | **1** |
+| @kseniam0s, far from the money | old (thoughtful) | 6 at 16m | 0 |
+
+Parent-post growth for context: @HarryStebbings' Speechify post went **1,077 → 6,485 views** in
+just over two hours, so the shrimp reply is sitting under a post that is still climbing.
+
+### Said plainly: the comedy copy is now at two likes, and that is a real change
+
+Five comedy replies, two likes — a rate of 0.4 each. The old thoughtful style sits at roughly
+fourteen replies and six likes, which is 0.43. **The two styles are statistically indistinguishable
+at this sample size, and that is the honest statement.** What has changed since the 22:13 audit is
+that the comedy sample is no longer at zero, so the "it isn't working" reading is no longer the
+simplest one either.
+
+Both comedy likes came from the person the joke was warm about or someone directly in their orbit,
+same as every old-style like. **At this reach a like is still a relationship signal, not an audience
+signal**, and that stays true until one reply clears a few hundred views. Nothing has yet.
+
+The re-audit point is unchanged: roughly ten comedy replies, each given a full day. Five in, halfway
+there.
+
+### Timeline replies: zero, and neither reason was about quality
+
+Two stop rules fired before any candidate was assessed:
+
+1. **The day was at eleven timeline replies**, over the ten ceiling. Full breakdown in
+   `08-reply-playbook.md`.
+2. **A concurrent run had posted twice in the previous eighteen minutes** (@MartinGTobias at 9:52pm
+   ET, @kseniam0s at 9:56pm). The yield rule says post nothing and do the free actions.
+
+Worth flagging separately: **both of those replies are in the old thoughtful style**, four hours
+after the comedy rewrite was in force. "Being far from the money is not the handicap everyone
+assumes. It mostly means nobody has already talked you out of the idea." is analysis, and it fails
+the standalone screenshot test. Some run is not applying the five rules.
+
+The best setup of the round went unassessed for want of budget: @garrytan on
+"teach-yourself-on-YouTube-maxxing", **51 minutes old, 15,536 views against 19 replies** — 818 views
+per existing reply. Liked instead.
+
+### Mentions
+
+None. The mentions tab is empty.
+
+### Likes (5, all first try via `element.click()`)
+
+@garrytan on teaching yourself off YouTube, @an_engineer_log "yea.. a bit obsessed" and his thank-you
+to @DougStandley, @kseniam0s on the ERA Cambridge £10,000 AI fellowship, @credistick's "Not
+surprised, you're a beast" to Martin Tobias.
+
+### Follows (2, both reload-verified)
+
+| Handle | Who | Why |
+|---|---|---|
+| @davidu | David Ulevitch, GP at a16z (American Dynamism), formerly founder/CEO of OpenDNS | Was on the retry queue after a reverted attempt yesterday. Landed first try with `.click()`, which is one more nail in the rate-limit theory's coffin. |
+| @brettcalhounn | Brett Calhoun, verified, investing at @redbudvc, building @roots_build. 25.8K followers, Columbia MO. Followed by Ksenia Moskalenko, Redbud VC and 4 others we follow. | Redbud is the closest thesis match the account has found — a pre-seed fund whose whole pitch is backing founders nobody else looks at. Following the fund's investor as well as the fund widens the window supply. |
+
+Now at 42 following.
+
+### @kseniam0s was already followed, and the check nearly unfollowed her
+
+She was written up on Sep 7 as a follow that "failed twice and was abandoned". She is in fact
+followed — her profile carries an `-unfollow` testid. Worse, the selector used to check it
+(`[data-testid$="-follow"]`) *also matches* `-unfollow`, so the check clicked unfollow. It did not
+take, confirmed by reload, but it was luck rather than design. The corrected selector and the rule
+that follows are in `08-reply-playbook.md`.

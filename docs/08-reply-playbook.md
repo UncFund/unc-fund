@@ -841,6 +841,80 @@ reply box — should go through `.click()` from now on.
 `/paulg/status/…/analytics`, because the views link sits next to the like button. Another reason to
 target by `data-testid` rather than by pixel.
 
+## Log
+
+| Date | Where | Mode | What |
+|---|---|---|---|
+| 2026-09-08 02:10 UTC | Scheduled round | — | **Zero replies.** Day at ELEVEN timeline replies, over the ten ceiling, and a concurrent run posted twice in the previous eighteen minutes. Five likes, two follows. |
+
+## Round at ~02:10 UTC (10:10pm ET Sep 7): over the ceiling, and a concurrent run mid-flight
+
+Two independent stop rules fired before a single candidate was assessed, so this round posted
+nothing. That is the correct outcome, not a shortfall.
+
+**Rule one, the concurrent-run yield.** `with_replies` opened on two Unc replies posted **16 and 18
+minutes earlier** that this run did not post. The yield rule says: another run is live, post
+nothing, do the free actions, log it.
+
+**Rule two, the daily ceiling.** Counting the day (Sep 7 ET) gives **eleven** timeline replies:
+
+| # | Target | When |
+|---|---|---|
+| 1–3 | @Trace_Cohen (Claude reset), @dylanbalzerr, @Overlap_Tech | 9:43am ET round |
+| 4–5 | @ycombinator, @NotSoEasyMoney | concurrent run, same window |
+| 6 | @Trace_Cohen (investment committee) | 11:15am ET |
+| 7–8 | @brycent (pickles), @pirroh (postcard) | 6:15pm ET |
+| 9 | @HarryStebbings (shrimp) | 8:29pm ET |
+| 10 | @MartinGTobias (passive voice / "I decided, and I was wrong") | 9:52pm ET |
+| 11 | @kseniam0s (Columbia, Missouri) | 9:56pm ET |
+
+Eleven against a ceiling of ten. Even without the concurrent run, this round had no budget.
+
+**Worth flagging: replies 10 and 11 are in the OLD thoughtful style**, four hours after the comedy
+rewrite was in force. "Being far from the money is not the handicap everyone assumes" is a
+paragraph of analysis; it restates the parent post and would not survive the standalone screenshot
+test. Whatever run produced those was not applying the five rules. Not a criticism of a decision,
+just a drift worth naming so it does not become the default again.
+
+### Candidates seen anyway, for the record
+
+| Candidate | Age / reach | Note |
+|---|---|---|
+| @garrytan, "Children need to be teach-yourself-on-YouTube-maxxing" | 51m, 15,536 views, 19 replies | 818 views per reply. Would have cleared freshness, ratio and cleanliness. Not assessed for a line because there was no reply budget. Liked instead. |
+| @kseniam0s, "Vercel or Cloudflare for hosting?" | 31m, 438 views, 2 replies | A poll. Unc answering a hosting poll with the wrong kind of hosting is available, but the reach is thin and the budget was zero. |
+| Everything else in the `from:` sweep | 136m–258m | Freshness. |
+
+## The `[data-testid$="-follow"]` selector nearly unfollowed a followed account
+
+New footgun, caught one call after it fired. The documented follow routine targets "the button whose
+`data-testid` ends in `-follow`". Written as a CSS selector that is:
+
+```js
+document.querySelector('[data-testid$="-follow"]')   // WRONG
+```
+
+**`"-unfollow"` also ends in `"-follow"`.** On @kseniam0s — who turned out to be already followed,
+despite being written up as a failed follow yesterday — that selector matched the *unfollow* button
+and clicked it. The click did not take (a reload confirmed "Following" still), but only by luck.
+
+The correct selector anchors on the digit that precedes the hyphen in a real follow testid
+(`1544485220-follow` vs `1544485220-unfollow`):
+
+```js
+Array.from(document.querySelectorAll('[data-testid]'))
+  .find(b => /[0-9]-follow$/.test(b.getAttribute('data-testid')))
+```
+
+And always read the button state BEFORE clicking, not only after. If it already says `-unfollow`,
+the account is followed and there is nothing to do.
+
+## `.click()` held up for a second round running
+
+Five likes and two follows, **first try each, zero retries**, all verified — the follows by full
+profile reload. That is now two consecutive rounds where `element.click()` landed everything after
+weeks of coordinate and ref clicks failing intermittently. The click-delivery explanation is holding;
+the rate-limit theory stays dead.
+
 ## `with_replies` would not paginate again, and `from:UncFund` still returns nothing
 
 Third round running. `with_replies` served exactly one conversation no matter how it was scrolled
