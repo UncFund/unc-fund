@@ -55,3 +55,9 @@ because the list goes stale.
 
 | Date | SPY | QQQ | Post |
 |---|---|---|---|
+| 2026-09-08 | -0.5% | -0.3% | First hour in. SPY down 0.5%, QQQ down 0.3%. A little red, nothing dramatic.<br><br>Unc's opinion of you hasn't moved a basis point. Go build. |
+
+Note on 2026-09-08: the run fired around 10:08 AM Eastern instead of 9:00, so premarket was
+over and `last_non_reg_trade_price` was null. Posted against the live session instead of
+premarket, with beat one reframed to the open. Percentages are regular-session prices vs the
+Sep 4 close. If the schedule keeps drifting past 9:30 this recurs every morning.
