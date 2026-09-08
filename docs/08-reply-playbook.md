@@ -308,7 +308,10 @@ The sweep runs every two hours. It is not a quota, but as of Sep 7 it is also no
 
 A setup qualifies only if ALL FIVE are true. One failure means skip:
 
-1. **Fresh.** Posted within the last hour, ideally the last twenty minutes.
+1. **Fresh.** Posted within the last hour, ideally the last twenty minutes. *Exception: an
+   evergreen reference post — a list or resource with a bookmark rate above roughly 1.5% — stays
+   live for about a day, because bookmarks mean the traffic is still ahead of it. See the Sep 8
+   entry. Stale news is still a skip.*
 2. **Ratio.** High views against few existing replies. 5K views with 3 replies qualifies; 80K views
    with 300 replies does not, because Unc gets buried regardless of how good the line is.
 3. **The line is good.** You have a specific line and it passes the standalone test. Give yourself
@@ -1466,3 +1469,50 @@ alone.
 
 Also: the **Mentions tab showed "Nothing to see here — yet"** while the All tab carried his reply at
 26 minutes old. Read both.
+
+## Sep 8, ~22:00 UTC: the evergreen exception to freshness (user-supplied target)
+
+Rand handed over @ADINonline's "pre-seed funds with published check sizes" list. Posted the reply:
+
+> Unc Fund. $500 to $9,999.
+>
+> Add it at the bottom. Smaller font is fine.
+
+**Why this is the best setup the account has seen.** The post is a list of eleven funds with their
+check ranges, the smallest being Kima at about $150K. Unc writes $500. He is two to three orders of
+magnitude below every fund on the list, and the post does the setup for him — the entire joke is
+already loaded, Unc just has to stand next to it. This is the single cleanest expression of the
+fund's actual thesis that has appeared on the timeline.
+
+**The reply convention made it better.** The existing replies were all people adding their own fund
+in the same format: Martin Tobias with "Incisive Ventures $250-$500k" (111 views), Max Altschuler
+with GTMfund (126 views), Ricky Horwitz with Exponential (136 views). Unc's reply *joins* that
+convention rather than commenting on it, then undercuts it by being absurdly small and knowing it.
+Belonging in a thread and being the funniest thing in it is the whole game.
+
+### The rule this changes: freshness is about decay, not the clock
+
+The post was **469 minutes old** — nearly eight hours, and far outside criterion (a). Taken anyway,
+and this is a refinement rather than a one-off exception:
+
+**191 bookmarks against 6,536 views is a 2.9% bookmark rate.** Normal timeline posts bookmark at a
+fraction of a percent. A reference list that people save is not a news post; it gets reopened, cited
+and re-shared for days or weeks, so a reply added at hour eight still rides real traffic. It also
+still had only **7 replies on 6,536 views** — 933 views per existing reply, the best ratio the
+account has ever seen.
+
+So criterion (a) is restated: **freshness is a proxy for whether the post still has traffic ahead of
+it, and where a better signal exists, use the better signal.**
+
+- Normal post: the one-hour bound stands. The @TimSuzman skip at 114 minutes was correct.
+- **Evergreen reference post** — a list, a resource, a how-to, anything with a bookmark rate above
+  roughly 1.5% — the bound extends to about a day, provided the reply ratio is still good.
+- Bookmarks are the tell, and they are visible in the same `aria-label` the freshness one-liner
+  already reads. Nothing new needs measuring.
+
+The failure this still guards against is replying to a stale *news* post, where the audience has
+moved on and the reply is shouting into an empty room. A list nobody has finished using is the
+opposite case.
+
+Day was at four replies of ten when this went out, and @ADINonline was a new account for us, so
+neither ceiling was in play.
