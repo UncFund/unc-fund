@@ -1911,3 +1911,88 @@ Paused per Rand's instruction and it stays paused. No exceptional account surfac
 
 **Profile reads 69 following, 13 followers** — down one on following and **up one on followers** from
 the 70/12 reading this morning. The ratio is improving from both ends for the first time.
+
+## Round at ~18:10 UTC (2:10pm ET Sep 9): the velocity doctrine gets its cleanest test
+
+### Measurement first — and the best view number the account has recorded
+
+`with_replies` served four articles cleanly at the top of the round, so both of the previous round's
+replies were readable at roughly two hours old:
+
+| Reply | Style | Parent at catch | Parent now | Views | Likes |
+|---|---|---|---|---|---|
+| @Jason, "Blockbuster late fee... he assumes it's compounding" | comedy | 1,765 | **83,905** | **151** | **0** |
+| @a16z, "Unc does not have a CRM" | comedy | 2,093 | **18,115** | 62 | **0** |
+
+**151 views is the second-best single reply this account has ever produced**, behind only the
+@himanshustwts 248. Both parents did what the velocity rule predicts: the Jason post went 1,765 →
+83,905 views, a 48x growth after Unc arrived at three minutes, and the a16z post went 2,093 →
+18,115.
+
+**Said plainly, as the task asks: neither reply got a like.** The velocity rewrite is working on
+views and has produced nothing on likes.
+
+Running totals:
+
+| Style | Replies | Likes | Per reply |
+|---|---|---|---|
+| **Comedy (since Sep 7 rewrite)** | 18 | **8** | **0.44** |
+| Old thoughtful | ~16 | 9 | 0.56 |
+
+The comedy rate has now drifted **down** from 0.50 to 0.44 across the last two rounds, because the
+sample grew by two and the likes did not. Eighteen replies is past the re-audit point set on Sep 7,
+so the verdict stands and hardens: **on likes, the comedy rewrite has not beaten the style it
+replaced, and two more data points have made that slightly worse rather than better.**
+
+The reason to hold it is still the one durable difference — six of the eight comedy likes came from
+strangers, where every old-style like came from the OP or somebody beside them. But that argument
+gets weaker each round it is repeated without a new stranger like, and the last one was Joseph
+Rasamat on the Hermes reply this morning. **If the next four or five comedy replies land 100+ views
+each and still take zero likes, the honest conclusion is that neither style is the problem and the
+lever is somewhere else entirely** — most likely Unc's own comment section, which the Sep 9
+competitor research identified as the only surface where anyone in this game gets real numbers.
+
+### Timeline replies (2)
+
+| Target | Age / reach when caught | Velocity | The reply |
+|---|---|---|---|
+| @vladtenev, going on stage at Goldman Sachs Communacopia | **33m, 45,033 views, 328 replies** | **~1,414 views/min** | "Unc saw \"Communacopia\" and brought a covered dish. / Nobody else brought anything. Break a leg up there, son." |
+| @MollySOShea, quoting Harvey's president on growth stats | **8m, 648 views, ZERO replies** | ~81/min | "Unc is fifty-five years old and around one person. / Growing really fast since 1971." |
+
+The @vladtenev catch is a **new velocity record**, 35% above the @a16z post from two hours earlier,
+and it is the first time this account has deliberately entered a thread with **328 existing
+replies**. That is the rewritten criterion (b) taken at its word rather than hedged. It is the
+cleanest available test of whether ratio matters at all: if this returns double digits, ratio can be
+retired as a criterion.
+
+The mega-account batch was run **first** this round, per last round's finding, and it produced both
+the record parent and every other post above 300/min. The pre-seed/founder batch topped out at
+50/min and the Following tab served two articles. That ordering change is now load-bearing.
+
+### Mentions
+
+None needing an answer. The Mentions tab holds one item, @ESCOweb3's emoji-only reply from 22 hours
+ago, correctly left alone on three previous rounds.
+
+### Likes (5, all first try via `element.click()`)
+
+Both parents before composing per the rule — @vladtenev's conference post and @MollySOShea's Harvey
+stats. Then @ColinGardiner twice (seed rounds getting bigger, and "pretty sure I will jinx it if I
+say it out loud") and @altryne on selling his Vision Pro.
+
+**Six deliberate non-likes**, all failing (e) rather than freshness: @levelsio mocking "software
+factory" people, both @Jason posts (Anthropic as punchline, and the OpenAI/Navier-Stokes
+accusations), @credistick's Rivian-versus-Tesla verdict, @brycent ranking Muse above two named
+competitors, and CNBC's Robinhood/AMC tokenization clash.
+
+**One like placed and pulled back within five seconds.** @an_engineer_log's post reads as warm
+optimism in its visible text and is in fact a dismissal of a researcher's resignation statement in
+the quoted post. Reverted and confirmed. The rule this adds — read the quoted post before liking,
+because the truncated `innerText` used for sweeps almost never contains it — is written up in
+`08-reply-playbook.md`.
+
+### Follows: none, and the pause is holding
+
+No exceptional account surfaced worth queueing. @MollySOShea is worth watching as a source of fresh
+windows — she posts conference and funding coverage in real time — but she is already in the
+Following timeline, so no action is needed.

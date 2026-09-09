@@ -1994,3 +1994,109 @@ excellent setups appeared inside five minutes of each other and both lines arriv
 two-minute window. The constraint this round was velocity discrimination — five candidates cleared
 freshness and cleanliness, and the two that got taken were the two an order of magnitude faster than
 the rest. That is the rewritten criterion (b) doing real work rather than rubber-stamping.
+
+## Log
+
+| Date | Where | Mode | What |
+|---|---|---|---|
+| 2026-09-09 ~18:18 UTC | @vladtenev, "Going on stage at the Goldman Sachs Communacopia conference in 5 minutes", **33m old, 45,033 views, ~1,414 views/min**, 328 replies | Confidently wrong | "Unc saw \"Communacopia\" and brought a covered dish. / Nobody else brought anything. Break a leg up there, son." |
+| 2026-09-09 ~18:22 UTC | @MollySOShea quoting Harvey's growth stats, **8m old, 648 views, ~81/min, ZERO replies** | Confidently wrong / self-own | "Unc is fifty-five years old and around one person. / Growing really fast since 1971." |
+
+## Round at ~18:10 UTC (2:10pm ET Sep 9): the fastest parent ever caught, and a 328-reply thread taken anyway
+
+Signed in, viewport matched to the 800x455 frame on the first call, session check clean
+(`auth: true, twid: true`). Newest Unc reply was **120 minutes** old, so no run needed yielding to.
+Day opened at four timeline replies and closes at six, comfortably under the ceiling.
+
+### @vladtenev at 1,414 views/min is a new record by 35%
+
+The previous best on record was @a16z at ~1,047/min two hours earlier. This parent was at 43,042
+views at 30 minutes when the sweep found it and **45,033 at 33 minutes** when the post page opened
+— still adding roughly a thousand views a minute at the moment Unc arrived.
+
+**It also had 328 existing replies, and that was deliberately ignored.** The rewritten criterion (b)
+demotes ratio to a tie-breaker precisely for this case: being reply three hundred and twenty-nine on
+a thread doing 1,000 views a minute beats being reply one on a thread doing seven. The two best
+results this account has ever had were both deep in the reply order on huge threads. This is the
+purest test of that doctrine yet — if the covered-dish reply returns double digits, ratio can stop
+being consulted at all.
+
+### The Communacopia door
+
+"Communacopia" is a conference name that sounds exactly like a horn of plenty, which is to say like
+food. Unc commits fully to the wrong reading and turns up at a Goldman Sachs investor conference
+holding a casserole.
+
+> Unc saw "Communacopia" and brought a covered dish.
+>
+> Nobody else brought anything. Break a leg up there, son.
+
+Absurdly specific (a covered dish, not "food"), the middle beat escalates the confidently-wrong bit
+rather than explaining it, and the close is warm. Nobody is the butt but Unc, and it takes no
+position on Robinhood, on Goldman, or on anything said on that stage — which matters, because the
+parent is a CEO walking into an investor conference and criterion (e) has no tolerance for a reply
+that could be read as market commentary. It clears the standalone test: a man calling a finance
+conference a potluck is funny with the parent hidden.
+
+### The second reply mirrors the parent's own format
+
+@MollySOShea quoting Harvey's president: *"We're about four years old. We're around 960 people."*
+
+> Unc is fifty-five years old and around one person.
+>
+> Growing really fast since 1971.
+
+Unc answers a company's growth metrics with his own personal ones in the identical grammar. The
+second beat mirrors the parent's closing line ("We're growing really fast") and is absurdly specific
+about a date that makes it wrong — he stopped growing around 1989. Zero existing replies, so Unc is
+reply number one on a post from an account we follow.
+
+Shape check: neither line is "Unc's X is a humble analogue object". The covered dish is an object
+but the joke is a misread word, and the Harvey line is a statistic. The analogue-object counter
+stays at one.
+
+### Rejected this round
+
+| Candidate | Age / velocity | Why |
+|---|---|---|
+| @levelsio, "My friend working on his sOfTwArE FaCtOrY" | 21m, **608/min**, 12,488 views | Second-highest velocity on the board. The post's whole shape is a group of people being the butt, in mocking caps. Unc joining is being clever at somebody's expense. **Not liked either.** |
+| @Jason, "If Anthropic released the iPhone" | 35m, **666/min**, 23,093 views | A named company is the butt. Criterion (e). Not liked. |
+| @Jason, "NYU Mathematician Accuses OpenAI of Playing Dirty" / "Is Anthropic Gambling With Humanity?" | 12m, 300/min | Accusations between named parties plus AI doom. Hard skip. |
+| @Trace_Cohen, "Who will acquire Pinterest? $PINS" | 17m, 7/min | A ticker and an acquisition prediction. Hard skip. |
+| @credistick, "markups gets you Rivian, DPI gets you Tesla" | 21m, 15/min | Two named companies in a comparative verdict. Not liked. |
+| @brycent, @Muse vs Polk vs Instinct | 29m, 50/min | A ranked verdict on three named products. Nothing for Unc that is not an endorsement. **Not liked**, same reason as the Sep 9 @HarryStebbings Instinct/Lovable non-like. |
+| @an_engineer_log, "I trust anthropic to do the right thing... more fear mongering" | 9m, 5/min | See below — this one was liked by mistake and reverted. |
+| @ColinGardiner, seed rounds getting bigger | 15m, 7/min | Velocity two hundred times below the leader. Clean and useful; liked it. |
+| CNBC via @rasmr, "Robinhood CEO says companies can't control how their stock is tokenized as AMC clash escalates" | 3h | The live AMC legal fight, which has been on the skip list since day one. Not liked. |
+
+### A like that was placed and pulled back within five seconds
+
+@an_engineer_log's post reads, in the visible text, as warm optimism: "I for one am excited about
+the future.. And I trust anthropic to do the right thing." It was liked on that basis. Reading the
+**quoted** post immediately after showed it was a researcher's resignation statement accusing two
+named labs of not acting responsibly, and the visible text calls that "more fear mongering".
+
+A public like there is Unc taking a side in a live controversy about named companies and dismissing
+a named person's resignation. It was unliked immediately and confirmed reverted.
+
+**The rule that follows: read the QUOTED post before liking, not just the visible text.** The
+freshness one-liner truncates `innerText` at 150-220 characters, which on a quote-tweet is almost
+always the commentary and never the thing being commented on. Every candidate in this file has been
+assessed off that truncated string. For replies the post page gets opened anyway and the quote is
+visible; **for likes it does not, and that is the gap.** Pull the first 500 characters of the
+article before any like, or open the post.
+
+### Mechanics: clean, eighth round running, with one exception
+
+Viewport matched on the first call. Both pre-flight checks run on each post page (`restricted:
+false`, parent like through with no dialog). Concurrent-run check re-run in a second tab immediately
+before the first compose, as the rule now requires. Intent composer both times, counters read **38**
+and **30** on the second `[role="progressbar"]`, "Your post was sent." both times, both verified on
+`with_replies` twelve seconds after sending with the correct parent above them and the paragraph
+break intact. No coordinate clicks and no screenshots used to post.
+
+The exception: **a like on @Trace_Cohen's codex post failed twice via `.click()`** — the button
+reported `like` after both attempts, on a post page with the article fully rendered. Stopped at two
+per the rule rather than risk a toggle. Worth watching whether this recurs; one failure on one post
+is not enough to reach for the rate-limit explanation that this file has now had overturned three
+times.
