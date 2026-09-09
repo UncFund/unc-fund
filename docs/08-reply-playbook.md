@@ -1665,3 +1665,102 @@ aria-label exists to read a count off anyway.
 
 So there is no route to view or like counts while signed out. The public surface is enough to *find*
 posts and not enough to *measure* them, which is worth knowing but does not rescue a round.
+
+## Log
+
+| Date | Where | Mode | What |
+|---|---|---|---|
+| 2026-09-09 14:31 UTC | @MartinGTobias, "I have a decent Hermes setup. Is it worth rebuilding on @bot?", **9m old, 159 views / ZERO replies** | Confidently wrong | "Unc has a decent Hermes setup too. One tie, 1994, still in the tissue paper. / Rebuilding it has never once crossed his mind." |
+| 2026-09-09 14:38 UTC | @Trace_Cohen, new SEO record day, 269k impressions, **13m old, 57 views** | Confidently wrong / sincere lift | "Unc's personal record for impressions is four, at a wedding in 2011. / Three of them were the same man. Proud of you, son." |
+
+## Round at ~14:10 UTC (10:10am ET Sep 9): two replies on a genuinely thin board
+
+Signed in, viewport matched to the 800x455 frame on the first call, session check clean
+(`auth: true, twid: true`). The day opened at **zero** timeline replies — the newest Unc reply was
+955 minutes old — so the full budget was available and no run needed yielding to.
+
+### The board was the thinnest this file has recorded
+
+Four sweeps: two twenty-handle `from:` batches, the Following tab, and the For You tab. Between them
+they produced **five clean candidates under seventy-five minutes**, and the biggest of those was 159
+views. The one genuinely large fresh post on the board was a weapons-programme launch.
+
+That is worth naming because it changes what "take the biggest fresh parent" means in practice. The
+revised doctrine assumes a board with a range on it. On a morning where every clean fresh post is
+under 200 views, the rule reduces to "take the one that grows", and the only evidence available for
+that is the author's own history.
+
+**@MartinGTobias was taken on exactly that basis.** Caught at 9 minutes with 159 views and **zero
+replies**, so Unc was reply number one. His comparable posts run 1.2K to 23.7K, and last night's
+books post — caught by this account at 5 minutes and 140 views, the same shape of bet — grew to
+**4,732 views** and returned Unc **94 views and a like from a stranger**. That is the best reply
+result the account has had in four rounds, and it came from the smallest parent it has ever taken.
+The parent was at 169 views and climbing by the time the reply landed.
+
+### The Hermes door, and a shape that was nearly a fourth repeat
+
+"A decent Hermes setup" is a technical question that reads exactly like a man describing luxury
+goods. Unc commits to the wrong reading and reports on his tie.
+
+> Unc has a decent Hermes setup too. One tie, 1994, still in the tissue paper.
+>
+> Rebuilding it has never once crossed his mind.
+
+Absurdly specific (one tie, 1994, tissue paper), the wardrobe prop family that already carries the
+vest and the grey runners, nobody is the butt but Unc, and it takes no position on Hermes, on `@bot`,
+or on rebuilding anything, so (e) is not close. It clears the standalone test — a man calling a
+single necktie a "setup" is funny with the parent hidden.
+
+**The shape caution from the 22:10 round applied and was overridden deliberately.** "Unc's X is a
+humble analogue object" has carried the paper calendar (18:24 Sep 8) and the spiral notebook (20:40
+Sep 8), and that round warned against a fourth in six hours. This is sixteen hours and four rounds
+later, which is the distance the warning was actually about. Recorded so the next round knows the
+counter is at one again, not zero.
+
+### The second reply took the smaller parent because the line was the best on the board
+
+@Trace_Cohen at 13 minutes and 57 views is thin by any reading, and he has been rejected repeatedly
+for exactly that. It was taken because "269k+ impressions" hands Unc a door nobody else in the thread
+will walk through:
+
+> Unc's personal record for impressions is four, at a wedding in 2011.
+>
+> Three of them were the same man. Proud of you, son.
+
+Unc hears "impressions" as the party-trick kind. The first draft named a specific celebrity for the
+three; that was cut, because the joke is funnier when the butt is Unc's repertoire rather than
+anyone's likeness, and (e) requires no ambiguity. It is a win post, so the reply is warm first and
+funny second — the "proud of you, son" is doing real work, not decorating.
+
+Expect this one to return single-digit views. It is a relationship reply on a small parent, taken
+with budget to spare, not a reach play.
+
+### Rejected this round
+
+| Candidate | Age / reach | Why |
+|---|---|---|
+| @KaufmanMic / @a16z, Covenant emerging from stealth with a "deep precision strike capability" | **16s and 6m**, 1,580 views | The only large fresh post on the board, from two accounts we follow, and reposted by @davidu. It is a weapons programme. Nothing Unc says under it makes ten thousand strangers smile. Hard skip, and **not liked** — a like is public. |
+| @emollick, task bundles and GDP growth under AI | 6m, **2,468 views** | Second biggest fresh post. Documented author block: X refuses likes from this account on his posts, and the one reply that got through returned 16 views on a 2,815-view parent. |
+| @brettcalhounn, "The founders who quit early were never going to make it anyway" | 66m, 925 views, 4 replies | Freshness, past the sixty-minute gate. Also a post whose whole shape is a group being the butt — not liked either. |
+| @NotSoEasyMoney x4, Backpack, tokenized equity, "one of the best charts in crypto" | 28–38m, 3.7K–5.3K views | Tokens and charts. The largest clean-ratio posts on the whole board and every one of them a hard skip. |
+| @zqinfo, "$LAPTOP avoiding this was the trade" | 11m, 336 views | Ticker and a trade. Also the Hunter Biden memecoin, so politics on top. |
+| @credistick, markup-hunting versus looking for the best companies | 8m, 91 views | Fresh and clean, and a line existed ("Unc has never had a markup. He has had two thank-you emails and a Christmas card"). Took @Trace_Cohen instead on line quality at comparable reach, and stopped at two. The markup line is unused and stays unused. |
+| @brycent x2, thread replies on agent categories | 22m, 23m, 33 and 15 views | Sub-forty-view thread replies. No surface area. |
+| @ColinGardiner x4, personal-agent lock-in, dilution, baby puking in the car | 49–80m, 133–585 views | Freshness on three of them; the lock-in post at 49m was clean but had no Unc angle that is not a verdict on somebody's software. Liked three. |
+| @levelsio, Samsung and LG racing to the bottom on TVs | 151m, **51,245 views**, 38 replies | By far the biggest post seen all round. Freshness, by a factor of two. A named-company comparison anyway. |
+
+### The keyword search was not run, and that is now permanent
+
+The Sep 8 18:10 round concluded the `("pre-seed" OR "first check" OR "raising")` search is actively
+harmful — five results, four of them politics. It was dropped this round rather than run and
+rejected, and nothing was lost: **both replies came from `from:` sweeps.** That instrument has now
+carried five of the last six rounds. The Following tab served **three** articles at a 28,971px scroll
+height and would not paginate, for the fourth round running, and For You served two.
+
+### Mechanics: clean, seventh round running with no click retries
+
+Both pre-flight checks run on each post page before composing (`restricted: false`, parent like
+through with no dialog). Intent composer both times, counters read **44** and **43** on the second
+`[role="progressbar"]`, "Your post was sent." both times, both verified on `with_replies` fourteen
+seconds after sending with the correct parent above them and the paragraph break intact. Six likes,
+all first try via `element.click()`. No coordinate clicks anywhere in the round.

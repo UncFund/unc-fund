@@ -1630,3 +1630,109 @@ Chase **parent reach captured early**, in that order:
 
 This also means the account should stop treating big accounts as unwinnable. The two best results in
 the entire record are @paulg at 85K and @ycombinator at 167K, both entered late in the reply order.
+
+## Round at ~14:10 UTC (10:10am ET Sep 9): two replies, and the comedy copy pulls two more strangers
+
+### Measurement first, and it is the best reading in a week
+
+`with_replies` paginated to five articles this time, and the notifications All tab carried three new
+like entries since the last audit.
+
+| Reply | Style | Parent reach | Views | Likes |
+|---|---|---|---|---|
+| @MartinGTobias, "page 41 of the same biography" | **comedy** | 140 at catch → **4,732** | **94** | **1** (new) |
+| @ADINonline, "Unc Fund. $500 to $9,999." | comedy | 6,536 → 10,345 | **6** | 0 |
+| @ycombinator, "qualifies as senior" | comedy | 37,818 | 695 | **4** (one new) |
+| @ycombinator, harnesses | old (thoughtful) | 167,540 | 208 | **1** (new) |
+
+New likers, all read off the notifications tab: **YouraisefundBBF** on the page-41 line,
+**Vadim | Sollas** on "qualifies as senior", and **Boris Glen** on the old-style harnesses reply.
+
+Running totals:
+
+| Style | Replies | Likes | Per reply |
+|---|---|---|---|
+| **Comedy (since Sep 7 rewrite)** | 14 | **7** | **0.50** |
+| Old thoughtful | ~16 | 9 | 0.56 |
+
+**Said plainly, as the task asks: the comedy copy has moved from 0.38 to 0.50 likes per reply since
+last night, and the two new comedy likers are both strangers.** The rate is now level with the old
+style rather than trailing it, and the qualitative gap that has held for four audits has widened —
+**five of the seven comedy likes come from people with no relationship to the account** (Boris Glen,
+Akshat Bhaskar, Aadhav Sundar, Vadim/Sollas, YouraisefundBBF), where every like the old thoughtful
+style has ever earned came from the person replied to or someone directly beside them.
+
+That is the first audit in this file where holding the five rules is supported by the headline number
+and not only by the caveat underneath it. It is still fourteen replies and seven likes, so it is not
+a verdict.
+
+### The page-41 result is the most important number of the day, and it is not the like
+
+**94 views.** It came from a parent caught at **5 minutes with 140 views and zero replies** — the
+smallest parent this account has ever deliberately taken — which then grew to 4,732 views.
+
+Put it against the same table the last round built:
+
+| Reply | Parent at catch | Ratio at catch | Parent's eventual reach | Unc got |
+|---|---|---|---|---|
+| @ycombinator, qualifies as senior | 3,986 | 1,329 | **37,818** | **695** |
+| @MartinGTobias, page 41 | **140** | ∞ (zero replies) | **4,732** | **94** |
+| @ycombinator, trust graph | 3,816 | 1,908 | 11,403 | 18 |
+| @natolambert, two agents | 9,706 | 1,387 | 15,390 | 21 |
+| @emollick, fax machine | 2,815 | **2,815** | 2,815 | 16 |
+| @ADINonline, fund list | 6,536 | 933 | 10,345 | **4** |
+
+**Parent reach at catch predicts nothing. Parent GROWTH after the catch predicts everything.** The
+two results that worked are the two whose parents multiplied 9x and 34x after Unc arrived. The four
+that failed are the ones whose parents were already most of the way to their final number, including
+every single one of the "best ratio ever" finds.
+
+This was raised as a hypothesis last round and it now has a second confirming case from the opposite
+end of the size range — a 140-view parent beat three parents of 2,800 to 9,700. The practical rule it
+implies: **catch posts early enough that the growth is still ahead of them, and prefer authors whose
+posts reliably grow.** Martin Tobias's posts run 1.2K to 23.7K, so a 140-view post of his at five
+minutes is not a small post, it is an early one. That distinction is the whole finding.
+
+### Timeline replies (2)
+
+| Target | Age / reach when caught | The reply |
+|---|---|---|
+| @MartinGTobias, "I have a decent Hermes setup. Is it worth rebuilding on @bot?" | **9m, 159 views, ZERO replies** | "Unc has a decent Hermes setup too. One tie, 1994, still in the tissue paper. / Rebuilding it has never once crossed his mind." |
+| @Trace_Cohen, new SEO record day, 269k impressions | 13m, 57 views | "Unc's personal record for impressions is four, at a wedding in 2011. / Three of them were the same man. Proud of you, son." |
+
+The board was the thinnest this log has recorded: four sweeps produced five clean candidates under
+seventy-five minutes and the biggest was 159 views. The two largest fresh posts on the whole board
+were a weapons-programme launch (@a16z/@KaufmanMic, 1,580 views at six minutes) and @emollick, who
+blocks this account. Nine rejections are tabled in `08-reply-playbook.md`.
+
+The @MartinGTobias pick is a deliberate repeat of last night's bet — same author, same shape, caught
+at nine minutes with nobody else in the thread — because that bet is the one thing in the record that
+has worked twice. Second Unc reply to him in sixteen hours, which the two-per-account-per-day cap
+permits on separate days, and the third overall.
+
+### Mentions
+
+None. The Mentions tab reads "Nothing to see here — yet". The All tab carries three new likes and two
+new followers and nothing that needs an answer; @ESCOweb3's emoji reply from 18 hours ago was
+correctly left alone last round and stays that way.
+
+### Likes (6, all first try via `element.click()`)
+
+Both parents before composing, per the rule — @MartinGTobias's Hermes post and @Trace_Cohen's SEO
+record, both through with no dialog. Then @credistick on markup-hunting, and three @ColinGardiner
+posts: personal-agent lock-in, the dilution thread, and the baby who was sick in the car.
+
+**Two deliberate non-likes.** The Covenant weapons launch, and @brettcalhounn's "the founders who quit
+early were never going to make it anyway" — a post whose shape is a group being the butt. A like is
+public and reads as agreement.
+
+### Follows: none, and the pause is holding
+
+Paused since Sep 9 per Rand's instruction and it stays paused. Profile reads **70 following, 12
+followers**, unchanged from the 02:35 reading — though the counter is known to lag a full day, and
+notifications show two follows this account did not have then (**Coffee Before Cherry**, 13 hours ago,
+and **Jamie T**, Sep 8). So the real follower number is probably 13 or 14 and the ratio is improving
+from the numerator for the first time.
+
+No follow candidates queued this round. Nothing exceptional surfaced — the board was too thin to
+produce a name worth recording.
