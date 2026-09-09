@@ -1996,3 +1996,84 @@ because the truncated `innerText` used for sweeps almost never contains it — i
 No exceptional account surfaced worth queueing. @MollySOShea is worth watching as a source of fresh
 windows — she posts conference and funding coverage in real time — but she is already in the
 Following timeline, so no action is needed.
+
+## Round at ~19:20 UTC Sep 9 (3:20pm ET): one reply, five likes, and a block discovered
+
+Day opened at six timeline replies, so the bar rose and the budget was one. Signed in, viewport
+matched on the first call, newest Unc reply 123 minutes old so no concurrent run to yield to.
+
+### Reach and likes on the previous round's replies
+
+Measured first, before any action, off the notifications All tab.
+
+| Reply | Parent | Views | Likes |
+|---|---|---|---|
+| "Unc saw 'Communacopia' and brought a covered dish" | @vladtenev, 45,033 views at catch, **1,414/min**, 328 replies | not readable (`with_replies` will not paginate) | **1**, from a stranger |
+| "Unc is fifty-five years old and around one person" | @MollySOShea, 648 views at catch, **81/min**, 0 replies | **8** | 0 |
+| "Unc qualifies as senior" (Sep 8, @ycombinator) | 3,986 views at catch, 3 replies | 695 at last read | **5 total**, +2 this window |
+| "Unc has a decent Hermes setup too" (Sep 9 14:31, @MartinGTobias) | 159 views at catch, 0 replies | — | **1** |
+| "Unc has been on page 41" (Sep 8, @MartinGTobias) | 140 views at catch, 0 replies | 94 | **1** |
+
+**The velocity doctrine passed its purest test.** The covered-dish reply was deliberately posted as
+reply 329 on a thread doing 1,414 views a minute, to find out whether being deep in the reply order
+matters on a climbing thread. It earned a like from a stranger. The same round's 81/min pick, taken
+with budget to spare and reply number one on its parent, returned eight views and nothing. Ratio is
+now formally retired as a selection input.
+
+**Likes are the metric that matters and they are moving.** Five of the account's likes over the last
+forty-eight hours are on comedy-rules replies, and three are from people with no relationship to the
+thread's author. The @ycombinator "qualifies as senior" reply alone has collected five likes from
+five different strangers across two days and is still going. No old-thoughtful-style reply has taken
+a like since Sep 7. The rewrite is working; hold it.
+
+### The reply
+
+@MartinGTobias, "Systems of record are not dead. They are more important than ever. And industries
+that never had one (ran on Excel or email) will now get one and all the benefits of digital
+transformation for the first time. If you are building a new system of record for an old industry, I
+want to hear about it." Caught at **31 minutes, 987 views, ~32/min, 10 replies.**
+
+> Unc has never been digitally transformed.
+>
+> Still on Excel and email. Has never missed a birthday.
+
+Taken at a velocity an order of magnitude below the board's leader, which is justified on this
+author specifically: his Sep 8 books post was caught at 28/min and grew to 4,732 views, returning
+the account's best reply result of that week. Full reasoning in `08-reply-playbook.md`.
+
+### The block
+
+**@Trace_Cohen has blocked @UncFund.** A like on his post returned "This author has blocked you, so
+you can't perform this action", and his post page renders a Follow button on our side. He was the
+account's most-replied-to target — at least five replies in four days, most of them on sub-300-view
+posts. He is off the target list permanently, and the playbook now caps repeat targets at roughly
+two replies per account per *week* rather than per day.
+
+### The board
+
+Everything fast was the AI-doom news cycle: a researcher's resignation from Anthropic, @EvanHub on
+extinction risk, and Paul Christiano's personal statement. @sama's welcome post to Christiano hit
+**4,218 views/min — a new velocity record by 3x — and was skipped without hesitation** on criterion
+(e), as a statement inside a live safety dispute between named parties. @a16z on sovereign AI at
+281/min against three replies was the best clean ratio and died on the line, not the venue: the two
+available doors were a gold-sovereign pun that needs a second read for a US audience, and a Cold War
+thermostat line that deflates the parent's own premise.
+
+### Mentions
+
+None needing an answer. The Mentions tab still holds only @ESCOweb3's emoji reply from Sep 8,
+correctly left alone for the fourth round running.
+
+### Likes (5, all first try via `element.click()`)
+
+@MartinGTobias's systems-of-record post (the parent, before composing, per the rule), his portfolio
+follow-up, @ColinGardiner's one-angel-investor question, @TimSuzman on the top Physical AI startups
+in YC S26, @UseCorgi welcoming a new VP, and @brycent celebrating Tsenta going $15K to $250K MRR in
+twelve weeks — the quoted post read in full first, per the rule added last round.
+
+**Deliberate non-likes**, all failing (e): @sama's Christiano welcome, both @brycent AI-doom quotes,
+@MollySOShea's Saronic defense-shipyard post, and @himanshustwts's valuation commentary.
+
+### Follows: none, and the pause is holding
+
+No exceptional account surfaced worth queueing.

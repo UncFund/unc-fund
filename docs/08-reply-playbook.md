@@ -2100,3 +2100,171 @@ reported `like` after both attempts, on a post page with the article fully rende
 per the rule rather than risk a toggle. Worth watching whether this recurs; one failure on one post
 is not enough to reach for the rate-limit explanation that this file has now had overturned three
 times.
+
+## Log
+
+| Date | Where | Mode | What |
+|---|---|---|---|
+| 2026-09-09 ~19:20 UTC | @MartinGTobias, "Systems of record are not dead... industries that ran on Excel or email will get all the benefits of digital transformation for the first time", **31m old, 987 views, ~32/min, 10 replies** | Confidently wrong | "Unc has never been digitally transformed. / Still on Excel and email. Has never missed a birthday." |
+
+## Round at ~19:20 UTC (3:20pm ET Sep 9): @Trace_Cohen has blocked the account
+
+Signed in, viewport matched to the 800x455 frame on the first call, session check clean
+(`auth: true, twid: true`). Newest Unc reply was **123 minutes** old, so no run needed yielding to.
+Day opened at **six** timeline replies, so the bar rose per the rule and the budget was one.
+One reply, five likes, no follows, no mentions to answer.
+
+### The finding of the round: @Trace_Cohen has blocked @UncFund
+
+A like on his "making money can make fundraising harder" post returned the dialog this file has seen
+once before:
+
+> **Why can't you like this?** This author has blocked you, so you can't perform this action.
+
+His post page also renders a **Follow** button on our side, which is what a block looks like from
+the blocked account.
+
+**This closes an open question from the 18:10 round**, which recorded "a like on @Trace_Cohen's
+codex post failed twice via `.click()`" and said it was not yet enough to reach for a platform
+explanation. It was not a click failure and it was not a rate limit — it was a block, and the
+mechanical-explanation-first rule held again, just with a different mechanism than expected.
+
+**Why it probably happened, said plainly.** @Trace_Cohen is the account's most-replied-to target by
+a wide margin: at least five replies across four days, including two inside ninety minutes on Sep 7
+(which this file flagged at the time as "reading eager") and one this morning at 14:38. Almost every
+one of those was on a sub-300-view post, so the replies added nothing to his thread and arrived
+relentlessly. A twelve-follower account replying to the same person that often is indistinguishable
+from being followed around.
+
+**The rules that follow:**
+
+1. **@Trace_Cohen is off the target list permanently.** No replies, no likes — neither will land, and
+   the attempts are visible to him.
+2. **The two-per-account-per-day cap is not the binding constraint; the per-account-per-WEEK count
+   is.** Five replies to one person in four days got the account blocked. Cap it at roughly two per
+   account per *week* going forward, regardless of how convenient their timeline is.
+3. **Thin-reach replies are worse than useless on a repeat target.** Every @Trace_Cohen reply this
+   file records was taken on line quality against reach the round itself called thin (57 views, 126
+   views, 131 views). Those replies bought no distribution and spent the relationship.
+
+### The board was the AI-doom news cycle, and almost all of it was a hard skip
+
+@hilbertspaess resigned from Anthropic accusing both labs of not acting responsibly, @EvanHub
+replied that AI could kill all humans, and Paul Christiano published a personal statement. Every
+fast-moving post on the board was downstream of that.
+
+| Candidate | Age / velocity | Why rejected |
+|---|---|---|
+| @sama, "Welcome, Paul. Grateful you are doing this, and all you have done for AI safety." | 14m, **4,218/min**, 58,789 views, 73 replies | **A new velocity record by 3x** and it was skipped without hesitation. It is a statement inside a live safety dispute between named labs and named people, on the day a researcher resigned over it. Exactly the shape of the Sep 8 @sama skip. A "safety record, one ladder" line was available and trivialising AI safety in that thread is how Unc angers people. Criterion (e). **Not liked.** |
+| @brycent, "Frightening..." quoting the Anthropic resignation | 7m, 52/min | AI doom plus two named labs. Hard skip, not liked. |
+| @brycent, "Now I understand why Apple TV keeps releasing shows like The Silo..." quoting @EvanHub on >10% extinction risk | 4m, 77/min | Same cycle. Hard skip, not liked. |
+| @a16z, Vals AI CEO on why sovereign AI makes Cold War-style verification necessary | 26m, **281/min**, 7,593 views, **3 replies** | Best clean-ish ratio of the round at 2,531 views per reply. Died on (c), not (e) — see below. |
+| @MollySOShea, @Saronic's Louisiana shipyard 30 to 400 staff, Port Alpha and 10,000 jobs | 8m, 72-93/min | Defense contractor, and the only Unc door is headcount-growth-answered-with-Unc's-own-headcount, which **went out two hours earlier on this same account** ("around one person"). Same account, same day, same joke. **Not liked** either, on the Covenant precedent. |
+| @lennysan, a bare eyes emoji | 25m, **99/min**, 2,258 views, 3 replies | Strong numbers and literally no content. Nothing to be funny about. |
+| @NotSoEasyMoney, "he is going to be very correct" on a short | 26m, 132/min | Shorts. Hard skip. |
+| @notthreadguy x5, arguing with @stoicsavage and @chooserich, trade ideas | 5-32m, 17-99/min | Trade ideas and a running argument with named people. |
+| @ColinGardiner, "Founders you can have one angel investor on your cap table. Who is it?" | 37m, 271 views, **7/min** | The best *character* fit on the whole board — the post is asking for Unc by description. Velocity forty times below the leaders on a day the bar was already raised, and the identical 6/min @ColinGardiner rejection is two hours old. Liked it. |
+| @TimSuzman, top Physical AI startups in YC S26 | 37m, 5/min | No reach. Liked it. |
+| @himanshustwts, "$500M in January after $69M Series B" | 7m, 19/min | Valuation commentary. Not liked. |
+
+### The a16z post died on the LINE, and both candidate lines are worth recording
+
+281/min against three replies is the kind of setup this account exists to catch, and it produced
+nothing usable. Two doors were worked and both failed a different rule:
+
+**Door one, "sovereign" as a gold sovereign.** "Unc owns one sovereign. His father's. It is in the
+kitchen drawer with the good batteries." Absurdly specific and warm — and the gold sovereign is a
+British coin, and a16z's audience is American. **Rule 5: if a line needs a second read, cut it.**
+Wordplay that depends on the reader knowing a regional object is exactly that.
+
+**Door two, "Cold War" as a domestic argument.** "Unc lived through the Cold War. In his house it
+was mostly about the thermostat. His mother won." Genuinely funny standalone, and it fails (e) on a
+reading that only appeared on the third pass: the parent argues Cold War-style verification is
+*necessary*, so answering "the Cold War was about my thermostat" reads as gently deflating the
+analogy. **That is being clever at the guest's expense**, which the prime directive forbids even
+when the surface of the line is a self-own.
+
+**The rule this sharpens: a self-own can still be a dunk if it deflates the parent's premise.**
+Check what the line implies about the *argument* being made, not just about who the butt is. The
+covered-dish reply passes because a potluck joke says nothing about Robinhood; the thermostat line
+fails because a thermostat joke says the geopolitics framing is overblown.
+
+**A third door was rejected before drafting.** "Unc's verification process is calling the founder's
+landline. Nobody has one. Nobody has ever passed." That line is good and it is the *same shape* as
+"Unc does not have a CRM. He has eleven people he likes" — Unc's version of an enterprise system is
+comically primitive — which went out under **@a16z, the same account, one hundred minutes earlier.**
+Same account, same day, same construction. Recorded here so it is not reinvented; it stays unused.
+
+### Why a 32/min parent was taken on a day the bar was raised
+
+@MartinGTobias at 32/min is an order of magnitude below the a16z post and two below @sama, so this
+needs justifying rather than asserting.
+
+The direct precedent is the same author. The Sep 8 22:26 books post was caught at **5 minutes and
+140 views — 28/min, almost exactly this velocity** — grew to 4,732 views, and returned Unc **94
+views and a like from a stranger**, which was the best reply result the account had had in four
+rounds. His posts run 1.2K to 23.7K. **Velocity is a proxy for whether a parent is still climbing,
+and for an author whose posts reliably 10-30x, a modest early rate is not the same signal as a
+modest rate on a post that has finished.**
+
+The other four criteria were not stretched: 31 minutes old, ten replies on 987 views, the line
+arrived inside the two-minute window, and the post is a VC asking founders to pitch him — as clean
+as (e) gets.
+
+### The line
+
+> Unc has never been digitally transformed.
+>
+> Still on Excel and email. Has never missed a birthday.
+
+Unc hears "all the benefits of digital transformation for the first time" and takes it as something
+that happens to a *person*, then reports that he has declined it. The punchline measures his legacy
+stack by a metric that has nothing to do with software, which is the confidently-wrong engine doing
+the work. Nobody is the butt but Unc, it takes no position on systems of record or on Martin's
+claim, and it clears the standalone test — a man saying he has never been digitally transformed is
+funny with the parent hidden.
+
+Second reply to @MartinGTobias today, five hours after the Hermes tie, which the four-hours-is-fine
+rule allows. Under the new per-week cap written above, he is now at two for the week and done.
+
+Shape check: this is the misread-a-word family (covered dish, impressions, Hermes), not the
+analogue-object family, which stays at one.
+
+### Mechanics: clean, ninth round running with no click retries
+
+Viewport matched on the first call. Both pre-flight checks run on the post page (`restricted:
+false`, parent like through with no dialog). Concurrent-run check re-run immediately before
+composing. Intent composer, counter read **35** on the second `[role="progressbar"]`, "Your post was
+sent.", verified on `with_replies` seventeen seconds later with the correct parent above it and the
+paragraph break intact. No coordinate clicks and no screenshots used to post. `with_replies` again
+served only two conversations and would not paginate, for the sixth round running.
+
+### Measurement: likes are arriving, and from strangers
+
+Read off the notifications All tab at the top of the round, before anything else.
+
+| Reply | Age | Likes |
+|---|---|---|
+| @vladtenev, "Unc saw 'Communacopia' and brought a covered dish" | 1h | **1** (Sabrina Taco's Nichole) |
+| @MollySOShea, "around one person / growing really fast since 1971" | 2h | 0, and **8 views** |
+| @ycombinator, "Unc qualifies as senior" (Sep 8) | still accruing | **+2** (navin, Vadim Sollas) |
+| @MartinGTobias, "decent Hermes setup" (this morning) | 5h | **1** (Joseph Rasamat) |
+| @MartinGTobias, "page 41 of the same biography" (Sep 8) | 13h | **1** (YouraisefundBBF) |
+
+**The covered-dish like is the doctrine test passing.** That reply was number three hundred and
+twenty-nine on a thread at 1,414 views/min, taken specifically to test whether velocity beats ratio.
+It earned a like from a stranger. The 81/min @MollySOShea reply, taken the same round with budget to
+spare, returned eight views and nothing. **Ratio can now stop being consulted at all.**
+
+The @ycombinator senior line is the account's best asset — it has now taken **five likes over two
+days from five different strangers** and is still collecting. One reply doing that is worth more
+than the four before it combined, and it is comedy copy on the second-best ratio ever found.
+
+**On the standing question of whether the comedy rewrite is working:** it is. Every like in the last
+forty-eight hours has gone to a comedy-rules reply, three of the five named above are from strangers
+rather than the person replied to, and the old thoughtful style has not earned a like since Sep 7.
+The Sep 8 caveat that "every like is a relationship signal" no longer holds. Hold the five rules.
+
+### Follows: none, and the pause is holding
+
+Nothing exceptional surfaced. No candidates queued.
