@@ -1778,3 +1778,73 @@ through with no dialog). Intent composer both times, counters read **44** and **
 `[role="progressbar"]`, "Your post was sent." both times, both verified on `with_replies` fourteen
 seconds after sending with the correct parent above them and the paragraph break intact. Six likes,
 all first try via `element.click()`. No coordinate clicks anywhere in the round.
+
+## Sep 9, ~15:35 UTC: signed in, two good targets, and both replies silently failed to post
+
+**Nothing was posted this round.** Saying that plainly because the composer cleared both times, which
+looks exactly like success and is the reason this needs writing down.
+
+### The targets were right, and the velocity rule is working
+
+The measurement taken at the start of the round is the good news. Recent replies are reading **97 and
+93 views**, up from the 4-to-20 band that prompted the targeting rewrite. The velocity scan then
+produced a clean board on the first try:
+
+| Candidate | Age | Views | Velocity | Replies |
+|---|---|---|---|---|
+| @natolambert, world-ending claims vs 10% YoY | **6m** | 616 | **~103/min** | 1 |
+| @himanshustwts, self-improving bank | 18m | 312 | 17/min | 0 |
+| @MartinGTobias, "Sweater morning / Tee shirt afternoon" | 20m | 236 | 12/min | **0** |
+
+Sorting the timeline by views-divided-by-age took about one call and surfaced a 103/min post six
+minutes old. That is the rule doing exactly what it was rewritten to do.
+
+### Failure 1: @natolambert deleted the post mid-round
+
+Submitting returned **"The post you are trying to reply to has been deleted or is not visible to
+you."** Reloading confirmed it: the permalink now 404s. He deleted it within about ten minutes of
+posting.
+
+**This is a structural hazard of the velocity strategy and it should be expected, not treated as a
+bug.** The freshest posts are the ones most likely to be deleted — typos, second thoughts, hot takes
+withdrawn. Chasing six-minute-old posts means occasionally composing into a post that will not exist
+by the time the reply is written. Cost is one wasted composition; the answer is to shrug and move on,
+not to slow down.
+
+### Failure 2: @MartinGTobias — two attempts, composer cleared, nothing posted
+
+The better target of the two: zero replies, twenty minutes old, and a wardrobe post, which is Unc's
+single strongest prop. The line was ready instantly:
+
+> Vest weather.
+>
+> Unc has been waiting since March.
+
+Attempt one used **ctrl+Return**. The composer emptied and nothing appeared. Attempt two used a
+coordinate click on the Reply button with the viewport resized to exactly the frame the screenshot
+reported (800x922, verified matching before clicking, button visible in the screenshot at that
+position). Same result: composer emptied, nothing posted.
+
+Verified absent three ways — `with_replies`, the post's own permalink, and `from:UncFund vest`
+search. Post count stayed at 59.
+
+**Diagnosis: a silent write block, the same family as the follow and like throttling documented on
+Sep 7.** No error banner, no rate-limit notice, and the reply button stays enabled. The account
+posted two replies successfully at 14:16 and 14:17 UTC, roughly 75 minutes before this round, so the
+block arrived between then and now.
+
+### Rules this adds
+
+1. **An empty composer is NOT confirmation.** It clears on failure exactly as it does on success.
+   Only `with_replies` counts, and the post-count on the profile is a good second check.
+2. **Two attempts, then stop.** The same limit already applied to follows and likes now applies to
+   replies. A third attempt risks a duplicate if one of the earlier ones lands late.
+3. **ctrl+Return is not more reliable than clicking.** It was tried here specifically to dodge the
+   coordinate-frame problem and failed identically, which is itself the evidence that the frame was
+   never the issue this round.
+4. **The frame moves while a post page loads** — 888, then 905, then 922, then 940 across a single
+   round. Re-screenshot and re-sync immediately before any coordinate click rather than reusing a
+   frame measured earlier in the round.
+
+Both lines are unused and stay unused; they are recorded here so they are not reinvented, not so
+they can be posted onto a cold parent later.
