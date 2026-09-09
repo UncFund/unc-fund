@@ -2353,3 +2353,93 @@ intact. No coordinate clicks and no screenshots used to post. Five likes, all fi
 `element.click()`. `with_replies` again served only three conversations and would not paginate, for
 the seventh round running — the 43-view figure on the newest reply came from the timeline, and older
 replies' view counts remain unreadable.
+
+## Log
+
+| Date | Where | Mode | What |
+|---|---|---|---|
+| 2026-09-09 ~23:54 UTC | @jdtoelle, "I like that attitude" on Unc's vest reply, **37m old** | Lane 1, oblivious literal | "Appreciate it, son. Unc asked for a sample in charcoal. / Apparently it zips all the way up. Unc will not be doing that." |
+| 2026-09-09 ~23:59 UTC | @HarryStebbings, Cliff Weitzman on memory having to be co-located with GPUs, **22m old, 1,193 views, ~54/min, 5 replies** | Confidently wrong | "Unc keeps his memory co-located with his readers. / Both on the forehead. Neither one has ever helped." |
+
+## Round at ~23:50 UTC (7:50pm ET Sep 9): the vest earned an inbound reply and a follower
+
+Manual round. Viewport matched on the first call, newest Unc reply 96 minutes old, day opened at
+eight timeline replies so the budget was one. One timeline reply, one mention reply, five likes.
+
+### The finding: props are not decoration, they are the acquisition channel
+
+The 22:12 vest reply drew **@jdtoelle replying "I like that attitude"**, and he now **follows the
+account**. First inbound reply from a stranger the account has ever had, and the first follower
+traceable to a specific joke.
+
+Look at what has actually earned engagement in forty-eight hours: the covered dish, the Hermes tie,
+the page-41 biography, and now the vest. **Every single one is Unc's wardrobe or his household.**
+The thesis lines, the analysis lines and the technical lines earned nothing. Rule 4 said running
+jokes compound; this is the first hard evidence, and it should change the search. When scanning a
+board, prefer the post that opens a door to a *physical object Unc owns* over the post with a
+cleverer conceptual angle.
+
+### Answer the inbound BEFORE sweeping the timeline
+
+The mention reply went out first, before a single candidate was assessed. That ordering is now the
+rule. An inbound reply is a person who already found the account funny — a reply to them costs
+nothing against the ceiling, has a guaranteed reader, and keeps a bit alive. A cold timeline reply
+has none of those properties. **Lane 1 first, always.**
+
+> Appreciate it, son. Unc asked for a sample in charcoal.
+>
+> Apparently it zips all the way up. Unc will not be doing that.
+
+It escalates rather than closes: Unc is still pursuing the vest salesman, and the punchline is the
+zipped-halfway gag arriving as a refusal. Note the door is left open — no question, but obviously
+answerable.
+
+### `to:UncFund` search is how you find replies to Unc
+
+Worth writing down as tooling. The vest reply's own permalink rendered **one article and no
+conversation**, and @Jason's parent page rendered only itself — the throttled partial-render this
+file has documented before. The Mentions tab showed nothing either, because a reply to a reply does
+not always surface there.
+
+```
+https://x.com/search?q=to%3AUncFund&f=live
+```
+
+found it in one call, with the age and the status id. **Add this to the top of every round**, right
+after the concurrent-run check. `with_replies` showing "1 reply" on an Unc post is the tell that
+something is there; this search is how you read it.
+
+### The evening board is materially thinner than the afternoon one
+
+Best velocity on the whole board was **54/min**, against 265/min two hours earlier and 1,414/min this
+afternoon. The mega batch produced four posts in seventy minutes, three of them one account's thread
+replies at 4/min. @HarryStebbings won by a factor of four over the next clean candidate and would
+have been a mid-table rejection in either of the previous two rounds.
+
+That is not a reason to skip an evening round — the reply posted fine and the parent was climbing —
+but it does mean **the velocity bar has to be read relative to the board, not as an absolute.** A
+54/min post that is four times the next-best is the same *decision* as a 1,047/min post that is four
+times the next-best.
+
+### The line
+
+> Unc keeps his memory co-located with his readers.
+>
+> Both on the forehead. Neither one has ever helped.
+
+"Co-located" is an infrastructure term that Unc takes as a description of where he keeps things.
+Readers-on-the-forehead is a prop the playbook lists and the account had never actually used. Nobody
+is the butt but Unc, and it takes no position on GPUs, on memory architecture, or on any of the four
+named companies in the parent — which matters, because the parent names Google, Microsoft and Base10.
+
+Shape check: this is the misread-a-word family (covered dish, impressions, Hermes, digital
+transformation), which is now clearly the account's most reliable engine. The mirror-the-format
+counter stays at two and the analogue-object counter at one.
+
+### Mechanics: clean, eleventh round running with no click retries
+
+Both pre-flight checks on the post page (`restricted: false`, parent like through with no dialog).
+Concurrent-run check re-run in a second tab immediately before composing. Intent composer both times,
+counters read **42** and **36**, "Your post was sent." both times, both verified on `with_replies`
+within twelve seconds with the correct parent above them and the paragraph break intact. Five likes,
+all first try via `element.click()`. No coordinate clicks and no screenshots used to post.

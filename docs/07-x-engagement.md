@@ -2155,3 +2155,67 @@ correctly left alone for the fifth round running.
 ### Follows: none, and the pause is holding
 
 No exceptional account surfaced worth queueing.
+
+## Round at ~23:50 UTC (7:50pm ET Sep 9): the first inbound reply from a stranger, and a new follower
+
+Manual round, run on request. Viewport matched to the 800x455 frame on the first call. Newest Unc
+reply was **96 minutes** old, so no run needed yielding to. Day opened at **eight** timeline replies
+against the ten ceiling, so the budget was one. One timeline reply, one mention reply, five likes,
+no follows.
+
+### The headline: somebody replied to Unc, and then followed him
+
+The vest reply posted ninety minutes earlier drew **@jdtoelle ("Jamie T") replying "I like that
+attitude"**, and his profile now reads **"Follows you."** Real account — joined April 2008, 1,255
+followers, 3,186 posts, building verifiable credentials for creators at @creatorpassprt.
+
+That is the first time a stranger has replied to an Unc reply rather than merely liked it, and the
+first follower that can be traced to a specific joke. **The vest is the strongest prop in the
+inventory and this is the evidence.** Two of the last three likes and now the only inbound reply all
+came from wardrobe lines.
+
+### The mention answer, which continues the bit rather than closing it
+
+> Appreciate it, son. Unc asked for a sample in charcoal.
+>
+> Apparently it zips all the way up. Unc will not be doing that.
+
+Lane 1, so it does not count against the daily ceiling. It escalates the vest-salesman joke one beat
+further and lands the zipped-halfway running gag as the punchline. Posted first, before the timeline
+sweep, on the principle that answering an inbound is worth more than any cold reply.
+
+### The board was thin and the mega batch still won
+
+| Candidate | Age | Views | Velocity | Replies |
+|---|---|---|---|---|
+| **@HarryStebbings, memory co-located with GPUs** | **22m** | 1,193 | **~54/min** | 5 |
+| @brycent, "Narrative can be the difference between 3-400k and $4m" | 16m | 675 | 41/min | 0 |
+| @nic_detommaso, 9 VC firms hiring this week | 12m | 239 | 19/min | 1 |
+| @Winterrose, "crazy name for a hotel" | 12m | 115 | 9/min | 1 |
+| @levelsio x3, thread replies | 45–56m | 174–230 | 4/min | — |
+
+54/min is the weakest winning velocity since the targeting rewrite, and it was still four times the
+next clean candidate. Nothing on the board came near the 265/min and 1,414/min parents of the last
+two rounds — a Wednesday evening board is materially thinner than a mid-afternoon one, which is worth
+knowing for the schedule.
+
+### Rejected this round
+
+| Candidate | Age / velocity | Why |
+|---|---|---|
+| @brycent, narrative and demo-day deferral | 16m, 41/min | Clean and warm, but the only Unc doors run through round sizes, and the second-best velocity did not justify stretching (e). **Liked it** instead. |
+| @nic_detommaso, 9 VC firms hiring | 12m, 19/min | Line available ("Unc Fund is not hiring, the position was filled in 1971"), but it is mirror-the-format, which had already run twice today. Liked it. |
+| @nic_detommaso, newsletter subscribe card | 12m, 6/min | Promotional, no human moment. |
+| @levelsio x3, replies about poker and a round logo | 45–56m, 4/min | Freshness marginal and velocity thirteen times below the leader. **Liked** the "I saved well so I'm playing more for fun than money now" one — a genuine human moment. |
+| @Winterrose, "crazy name for a hotel actually but seems very SF" | 12m, 9/min | Needs the image to land, which was not readable. |
+
+### Likes (5, all first try via `element.click()`)
+
+@HarryStebbings's co-location post (the parent, before composing, per the rule), @nic_detommaso's VC
+hiring list, @Winterrose's household-budget joke, @brycent on narrative, and @levelsio on playing for
+fun. Quoted content read in full before each.
+
+### Follows: none, and the pause is holding
+
+@jdtoelle followed us unprompted, which is what the pause is designed to produce. No candidates
+queued.
