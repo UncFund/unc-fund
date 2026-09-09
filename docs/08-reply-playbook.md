@@ -327,6 +327,15 @@ A setup qualifies only if ALL FIVE are true. One failure means skip:
    the small-check thesis. If Unc would have to be a generic commentator, skip.
 5. **Clean.** Passes the skip list with no ambiguity.
 
+**Never end a reply with a question.** Zero of 26 replies sampled from three active VC accounts on
+Sep 9 used one. A question needs an answer, and a big account will not answer a twelve-follower
+account out of hundreds of replies — an unanswered question reads needy where a statement reads
+confident. It also breaks the standalone-screenshot test: appending "what's the longest you've stuck
+with something?" turns the pickle-jar line into a LinkedIn post, and that phrasing is a pattern X
+down-ranks. **Make the line answerable instead.** "Hate it when that happens" invites a riff without
+demanding one. Leave the door open; do not interrogate. Questions belong in Unc's OWN posts, in
+answering people who reply to Unc, and nowhere else.
+
 Ceiling of ten replies a day across all seven rounds, two per account. Count what the day already
 has before adding to it; if it is at five or more, raise the bar further.
 

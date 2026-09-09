@@ -1736,3 +1736,70 @@ from the numerator for the first time.
 
 No follow candidates queued this round. Nothing exceptional surfaced — the board was too thin to
 produce a name worth recording.
+
+## Sep 9: competitor research — the reply game has a low ceiling for everyone
+
+Rand asked whether Unc should try more thoughtful, value-adding replies, and whether questions at
+the end of a reply would invite follow-up. Both were answered by reading real accounts rather than
+by argument. Sampled every reply carrying metrics from three active VC accounts — @MartinGTobias
+(verified pre-seed VC), @ColinGardiner (GP, Yonder Ventures) and @Trace_Cohen — 26 replies total.
+
+### Finding 1: thoughtful value-add underperforms, for them too
+
+| Account | Reply | Parent size | They got |
+|---|---|---|---|
+| @MartinGTobias | "LPs may start asking this of VC firms too!" | **24,584 views** | **15 views** |
+| @MartinGTobias | "And give them $100k of data every month forever with no clawback" | 1,536 | 43 |
+| @MartinGTobias | "Incisive. Ventures. $250–$500k" | 10,657 | **200 views, 6 likes** |
+| @ColinGardiner | "I text weekly with my portco founders so its not a thing for me" | 21 | 17 |
+| @ColinGardiner | "💪" | 594 | **455** |
+
+A genuinely insightful observation on a 24.5K-view post returned fifteen views. The best-liked reply
+in the whole sample just names a fund and a check size in the thread's own format. **Where content
+matters at all, concrete and additive beats insightful commentary** — but placement dominates
+content by an order of magnitude either way.
+
+This settles the thoughtful-versus-comedy question that has run since Sep 7: both styles sit at 0.50
+likes per reply for us, and the professionals' thoughtful replies do no better. The one real
+difference remains that comedy has pulled 5 likes from strangers where the old thoughtful style
+never once got a like from outside the OP's orbit. Hold the comedy rules.
+
+### Finding 2: the thing that actually works is your own comment section
+
+@ColinGardiner's top replies by reach:
+
+| Reply | Views |
+|---|---|
+| "Hate it when that happens" | **618** |
+| "Nice, solve your own problem!" | **606** |
+| "It's so much fun" | **529** |
+| "💪" | **455** |
+
+Every one of those is him answering someone **in his own thread**. He had posted: *"I am writing
+$50k–100k first/pre-seed checks for marketplaces that could be described as weird. Who is building a
+weird marketplace? I want to talk to you."* Dozens replied, and each answer he gave rode his own
+post's traffic.
+
+His replies on **other people's** posts: 9, 10, 17, 19, 26, 57 views. Martin's: 15 to 55.
+
+**So the reply-guy game returns double-digit views even for established VCs with thousands of
+followers.** Unc is not doing it badly; the game has a low ceiling. Our own record agrees — the only
+replies that ever cleared 200 were on @paulg and @ycombinator, threads big enough for spillover to
+matter. This is the strongest argument yet for Unc posting invitations and working the answers.
+
+### Finding 3: question hooks — don't, in replies
+
+**Zero of the 26 sampled replies contain a question aimed at the OP.** The only "?" was inside a URL.
+
+The mechanics explain why. A question needs an answer, and a big account will not answer a
+twelve-follower account out of hundreds of replies; an unanswered question reads needy where a plain
+statement reads confident. It also breaks the standalone-screenshot test that the comedy rules are
+built on — appending "what's the longest you've stuck with something?" turns the pickle-jar line
+into a LinkedIn post, and engagement-bait phrasing is a pattern X down-ranks.
+
+**The rule that replaces it: make the line answerable, not a question.** Colin's "Hate it when that
+happens" and "Nice, solve your own problem!" invite a riff without demanding one, and both drew
+replies back. Leave the door open; do not interrogate.
+
+Questions belong in exactly three places, all currently underused: **Unc's own posts**, **answering
+anyone who replies to Unc**, and the rare genuine offer ("send it to unc.fund").
