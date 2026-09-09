@@ -308,10 +308,10 @@ The sweep runs every two hours. It is not a quota, but as of Sep 7 it is also no
 
 A setup qualifies only if ALL FIVE are true. One failure means skip:
 
-1. **Fresh.** Posted within the last hour, ideally the last twenty minutes. *Exception: an
-   evergreen reference post — a list or resource with a bookmark rate above roughly 1.5% — stays
-   live for about a day, because bookmarks mean the traffic is still ahead of it. See the Sep 8
-   entry. Stale news is still a skip.*
+1. **Fresh. This is the load-bearing criterion.** Inside twenty minutes is the target; past sixty
+   is a skip, with no exceptions. The Sep 8 "evergreen" exception is REVOKED — it produced a 4-view
+   reply on a 6,536-view parent while five peers on the same post took 63 to 247. Bookmarks measure
+   appetite for the parent, not traffic reaching the replies.
 2. **Ratio.** High views against few existing replies. 5K views with 3 replies qualifies; 80K views
    with 300 replies does not, because Unc gets buried regardless of how good the line is.
 3. **The line is good.** You have a specific line and it passes the standalone test. Give yourself

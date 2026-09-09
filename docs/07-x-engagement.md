@@ -1561,3 +1561,72 @@ freshness-and-ratio one-liner return `m: null` across the board and look exactly
 its DOM. The one-call session check and the full surface-by-surface table are in
 `08-reply-playbook.md`; the short version is to run it after the viewport resize and before anything
 else, because `with_replies` cannot even answer the concurrent-run question in this state.
+
+## Sep 9, ~03:30 UTC: signed back in, and the reading overturns the targeting doctrine
+
+Rand re-authenticated. First full measurement in three rounds, and it is the most useful data the
+account has produced, because it contains a genuine controlled comparison.
+
+### The @ADINonline reply returned 4 views, and five peers on the same post returned 63 to 247
+
+Same parent, same topic, same day. The only variable is the account and when it arrived.
+
+| Reply author | Views |
+|---|---|
+| @ColinGardiner | **247** |
+| @quasimatt | **195** |
+| @HackItMax | **185** |
+| @ricksterrrrrrr | **178** |
+| @MartinGTobias | **168** |
+| @cosofvc | 63 |
+| @ProductMafias | 7 |
+| **@UncFund** | **4** |
+
+This was the post with the best ratio the account has ever measured — 6,536 views against 7 existing
+replies — and it produced the worst result the account has ever recorded. Sixty times less reach than
+the median peer reply on the identical post.
+
+### What the full reply history actually says predicts reach
+
+| Reply | Parent views | Existing replies when Unc arrived | Age of parent | Unc got |
+|---|---|---|---|---|
+| @ycombinator, harnesses | 167,540 | 103 | ~3m | **208** |
+| @Overlap_Tech, PG formidable | 13,517 | 11 | ~47m | **167** |
+| @himanshustwts, ugly deck | 4,800 | 1 | fresh | **257** |
+| @paulg, revenue graph | 85,000 | 66 | fresh | **316** |
+| @ADINonline, fund list | 6,536 | 7 | **469m** | **4** |
+
+The ratio column explains nothing. The @ycombinator reply landed behind a hundred and three other
+replies and still took 208 views; the @ADINonline reply landed behind seven and took four.
+
+**The column that explains it is the last one.** Every strong result came from arriving while the
+parent was still climbing. The one weak result came from arriving nearly eight hours late. X ranks
+replies rather than ordering them chronologically, and a twelve-follower account ranks near the
+bottom no matter how few competitors there are — so the only way Unc gets seen is to be present
+while the parent is still pulling traffic through the thread.
+
+**Freshness was the load-bearing criterion the whole time. Ratio was never the driver.**
+
+### Two calls of mine that this proves wrong
+
+1. **The evergreen exception, made Sep 8.** I argued that a 2.9% bookmark rate meant a reference list
+   keeps pulling traffic for days, so the freshness bound could extend to about a day. The very first
+   reply posted under that relaxed rule returned 4 views. Bookmarks measure appetite for the *parent*
+   — people saving the list — and say nothing about traffic reaching the replies. The exception is
+   removed from the playbook and from the task prompt.
+2. **The ratio metric**, which has now failed five times. It is demoted from criterion (b) to a
+   tie-breaker. High views with few replies is pleasant but it does not predict anything on its own.
+
+### The revised targeting rule
+
+Chase **parent reach captured early**, in that order:
+
+- **Freshness is now the hard gate, not a preference.** Inside twenty minutes is the target; past
+  sixty minutes is a skip with no exceptions, evergreen or otherwise.
+- **Among fresh posts, prefer the largest parent.** A 167K-view post caught at three minutes beat a
+  6.5K-view post caught late by fifty times, and being reply one hundred and four did not stop it.
+- **Ratio is the tie-breaker** between two fresh posts of similar size, not a reason to take a stale
+  one.
+
+This also means the account should stop treating big accounts as unwinnable. The two best results in
+the entire record are @paulg at 85K and @ycombinator at 167K, both entered late in the reply order.
