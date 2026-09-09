@@ -84,3 +84,19 @@ Legend: `[ ]` open, `[x]` done, `(owner)` to be assigned.
 - [ ] Portfolio group chat.
 - [ ] Monthly update email to the portfolio and anyone who asked to follow along.
 - [ ] Track: pitches received, checks written, time to decision, followers, newsletter subs.
+
+## Token: dropped 2026-09-09
+
+Rand dropped the UNC token idea. There is no token planned at this time. The research in the
+gitignored `private/` folder is shelved rather than deleted — the venue comparison, the fee-claim
+mechanics and the Howey notes cost real effort and would be worth having if it is ever revived —
+but nothing there is an active plan, each file opens with a shelved banner, and `private/go-live.sh`
+now exits non-zero before doing anything.
+
+Practical consequence: Unc Fund takes **no outside money of any kind**. That keeps the structure at
+what this file already assumes — a single-member LLC investing Rand's own money, no LPs, no Form D,
+no accredited-investor paperwork. A donation wallet was considered the same day and also set aside;
+if the charity idea returns, the no-custody version — link a real charity's own donation page and
+hold nothing — is the one to build.
+
+Current focus is growing the social accounts.
