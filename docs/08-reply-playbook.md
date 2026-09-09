@@ -312,8 +312,13 @@ A setup qualifies only if ALL FIVE are true. One failure means skip:
    is a skip, with no exceptions. The Sep 8 "evergreen" exception is REVOKED — it produced a 4-view
    reply on a 6,536-view parent while five peers on the same post took 63 to 247. Bookmarks measure
    appetite for the parent, not traffic reaching the replies.
-2. **Ratio.** High views against few existing replies. 5K views with 3 replies qualifies; 80K views
-   with 300 replies does not, because Unc gets buried regardless of how good the line is.
+2. **Parent velocity** — views divided by age in minutes — with ratio demoted to a tie-breaker.
+   Velocity, not size: a 140-view parent caught at five minutes returned 94 views and beat three
+   parents between 2,800 and 9,700. A big number on an old post is traffic already spent, which is
+   precisely how the 4-view @ADINonline reply happened. Being late in the reply order does not
+   matter on a climbing thread — the two best results ever are @paulg at 85K behind 66 replies (316)
+   and @ycombinator at 167K behind 103 (208). Ratio has now failed to predict reach five times; use
+   it only to break a tie between two posts climbing at the same rate.
 3. **The line is good.** You have a specific line and it passes the standalone test. Give yourself
    about two minutes to find it; a line that arrives in that window and makes you smile is enough.
    Skip only if two minutes produces nothing better than a restatement of the parent post, or if

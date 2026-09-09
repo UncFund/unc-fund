@@ -100,3 +100,13 @@ if the charity idea returns, the no-custody version — link a real charity's ow
 hold nothing — is the one to build.
 
 Current focus is growing the social accounts.
+
+### Tip jar: not doing it, decided 2026-09-09
+
+The narrowed version — stablecoins in, no equity in Unc Fund or in anything it invests in, no rights
+of any kind — is legitimate and would have worked. Rand set it aside anyway, and for the right
+reason: it would change what the account feels like. Unc asking for money is a different character
+from Unc writing checks, and the second one is the one people like.
+
+Not a "later" item on a list. If it comes back it comes back; nothing in the site, the content
+calendar or the task prompts should anticipate it.
