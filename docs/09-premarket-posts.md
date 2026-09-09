@@ -90,9 +90,14 @@ survives a few minutes of delay. "Forty minutes into the session" becomes false 
 | Date | SPY | QQQ | Post |
 |---|---|---|---|
 | 2026-09-08 | -0.5% | -0.3% | First hour in. SPY down 0.5%, QQQ down 0.3%. A little red, nothing dramatic.<br><br>Unc's opinion of you hasn't moved a basis point. Go build. |
+| 2026-09-09 | -0.3% | -0.4% | Premarket's a touch red. SPY down 0.3%, QQQ down 0.4%.<br><br>That's a rounding error in a costume. Your roadmap didn't change overnight. Go ship. |
 
 Note on 2026-09-08: the run fired around 10:08 AM Eastern instead of 9:00, so premarket was
 over and `last_non_reg_trade_price` was null. Posted against the live session instead of
 premarket, with beat one reframed to the open. Percentages are regular-session prices vs the
 Sep 4 close. This is the run that prompted the soft-slot policy above; a late run now posts
 on its own rather than skipping.
+
+Note on 2026-09-09: on time, genuine premarket prints at 9:01 AM Eastern. QQQ moved from
+-0.45% to -0.44% between the first pull and the re-pull just before composing, which flipped
+the rounding from -0.5% to -0.4%. Posted the fresher number.
