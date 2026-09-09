@@ -1602,3 +1602,66 @@ likes and one follow, all first try via `element.click()`.
 One reusable detail: `location.reload()` inside `javascript_tool` **always returns the "Inspected
 target navigated" error**, because the script kills its own execution context. The reload succeeds.
 Re-run the read as a second call with a `setTimeout` and no navigation in it.
+
+## Log
+
+| Date | Where | Mode | What |
+|---|---|---|---|
+| 2026-09-09 02:35 UTC | Scheduled round | — | **Blocked. Nothing posted, liked, followed or measured.** The in-app browser is signed out of X, second round today after 14:08 UTC. |
+
+## Round at ~02:35 UTC (10:35pm ET Sep 8): signed out again, twelve hours after the first time
+
+Same block as the 14:08 round, and the state has evidently persisted all day: guest cookies only
+(`guest_id`, `gt`, `personalization_id`), **no `auth_token` and no `twid`**, `/home` redirects to
+"Happening now" with the phone/Google/Apple login flow, and `/UncFund/with_replies` renders the
+profile header with a **Follow** button on our own account.
+
+Signing in is not something an automated round does — entering a password is prohibited regardless
+of who asks — and no credentials were available here anyway. **Action for Rand, now the second time
+today: re-authenticate the in-app browser as @UncFund.** Nothing else about the routine needs
+changing; the next round resumes on its own once the session is live.
+
+### The logged-out state is deceptive, and the obvious check is the wrong check
+
+The 14:08 write-up said "both `/home` and `/notifications/mentions` redirect to the login flow",
+which is true and which makes it sound like everything is visibly broken. It is not. **Other
+people's profile timelines render perfectly while signed out** — `@MartinGTobias` served seven
+articles with working `/status/` links and readable relative ages. A round that opened a target
+profile first would look at that and conclude the session was fine.
+
+What actually fails, in the order a round would hit it:
+
+| Surface | Logged out |
+|---|---|
+| Another account's profile timeline | **Renders normally.** 7 articles, status links, relative ages. |
+| A post page | Renders the parent and **three** replies, then "See all the replies / Continue to X". |
+| `[role="group"][aria-label]` on any article | **Absent everywhere.** No view, reply or bookmark counts exist in the DOM. |
+| `/UncFund/with_replies` | Header only; timeline returns "Something went wrong. Try reloading." |
+| `/home`, `/notifications` | Redirect to the login flow. |
+
+The third row is the one that matters most, because the standard freshness-and-ratio one-liner in
+this file returns `m: null` for every article in that state. **That looks exactly like X having
+changed its DOM, and it is worth an hour of chasing before anyone thinks to check the session.**
+
+### The one-call session check, to run before anything else in a round
+
+```js
+({auth: !!document.querySelector('[data-testid="SideNav_AccountSwitcher_Button"]'),
+  twid: /(^|; )twid=/.test(document.cookie)})
+```
+
+Both true means signed in. Either false means stop the round, log it, and say so — do not assess
+candidates, and do not try to diagnose the missing aria-labels. Run it **after** the viewport
+resize and **before** the concurrent-run check, since `with_replies` cannot answer the concurrent-run
+question while signed out either.
+
+### Measurement was attempted through the public surface and does not work
+
+Last round's replies (@ADINonline's check-size list at 22:00, @MartinGTobias's page-41 line at 22:26)
+are now four hours old, which is the age this log keeps asking for. The books post was found on his
+profile and opened directly — `/MartinGTobias/status/2097446831433171305` — and it served the parent
+plus three replies from other people. **Unc's reply is behind the "Continue to X" wall**, and no
+aria-label exists to read a count off anyway.
+
+So there is no route to view or like counts while signed out. The public surface is enough to *find*
+posts and not enough to *measure* them, which is worth knowing but does not rescue a round.

@@ -1501,3 +1501,63 @@ supply and a cautious one for replies — read the specific post, not the author
 
 Stopped at one, fifth round running, while the following count is still above the small-wave
 allowance.
+
+## Round at 02:35 UTC (10:35pm ET Sep 8): blocked — signed out again, twelve hours after the first time
+
+**Nothing happened this round and nothing could have.** The Browser pane holds guest cookies only —
+no `auth_token`, no `twid` — `/home` redirects to the login flow, and `/UncFund/with_replies` renders
+a **Follow** button on our own profile. This is the same block as the 14:08 UTC round, so the signed-out
+state has now persisted across roughly twelve hours and cost the account two of the day's seven rounds.
+
+No replies, no likes, no follows, no mentions answered. Signing in is not an action an automated round
+takes — entering a password is prohibited regardless of who asks — and no credentials were available.
+**Action for Rand, second time today: re-authenticate the in-app browser as @UncFund.**
+
+### The two public numbers that are still readable, and they are good ones
+
+The profile header renders even signed out:
+
+| | Sep 7, 22:15 UTC | Sep 9, 02:35 UTC |
+|---|---|---|
+| Followers | 10 (down from 11) | **12** |
+| Following | 37 | 70 |
+
+Twelve followers is the account's high-water mark and the first time the number has moved up in two
+days. It is two people, so it proves nothing on its own — but the account spent Sep 8 posting comedy
+replies under YC, HarryStebbings, natolambert and MartinGTobias, and the direction is the one the
+rewrite was aiming for.
+
+### Measurement: not possible, and this is the second round in a row with no reading
+
+Last round's two replies — @ADINonline's "Unc Fund. $500 to $9,999." at 22:00 and @MartinGTobias's
+"page 41 of the same biography" at 22:26 — are now four hours old, which is exactly the age this log
+keeps asking for a reading at. Both were chased through the public surface and neither could be read:
+
+- @MartinGTobias's books post was found on his profile and opened directly. It served the parent and
+  **three** replies from other accounts, then "See all the replies / Continue to X". Unc's reply is
+  behind that wall.
+- **No `[role="group"][aria-label]` exists on any article while signed out**, so even a visible reply
+  would carry no view, like or bookmark count.
+
+So the comedy-copy audit does not advance, for the second consecutive round. **It stands where the
+22:10 round left it: 13 comedy replies, 5 likes (0.38 each), against roughly 16 old-style replies with
+8 likes (0.50).** The rate still does not favour comedy on the headline number. The one thing that
+does, and it remains the only qualitative difference in the whole record, is that three of the five
+comedy likes came from **strangers** — Boris Glen, Akshat Bhaskar and Aadhav Sundar on the
+@ycombinator "qualifies as senior" reply — where every like the old thoughtful style ever earned came
+from the person being replied to or someone directly beside them. Hold the five rules; the call was
+made last round and no new data has arrived to revisit it.
+
+The open question from the 22:10 round — whether **parent growth after the catch**, rather than views
+per existing reply, is the thing that actually predicts a reply being seen — also gets no data this
+round. It needs parent reach at catch and again two hours later, and neither is readable signed out.
+
+### The failure mode is deceptive and the diagnostic belongs at the top of every round
+
+Other people's profile timelines render **normally** while signed out (seven articles on
+@MartinGTobias, with working status links), so a round that opens a target profile first sees nothing
+wrong. What breaks is quieter: every article loses its aria-label, which makes the standard
+freshness-and-ratio one-liner return `m: null` across the board and look exactly like X having changed
+its DOM. The one-call session check and the full surface-by-surface table are in
+`08-reply-playbook.md`; the short version is to run it after the viewport resize and before anything
+else, because `with_replies` cannot even answer the concurrent-run question in this state.
