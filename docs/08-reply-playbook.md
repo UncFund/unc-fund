@@ -2268,3 +2268,88 @@ The Sep 8 caveat that "every like is a relationship signal" no longer holds. Hol
 ### Follows: none, and the pause is holding
 
 Nothing exceptional surfaced. No candidates queued.
+
+## Log
+
+| Date | Where | Mode | What |
+|---|---|---|---|
+| 2026-09-09 ~22:12 UTC | @Jason, "This Week in Venture Capital" newsletter link, **17m old, 4,069 views, ~239/min, ZERO replies** | Self-own / mirror-the-format | "This Week in Unc Fund: three form submissions, one of them a man selling vests. / Unc replied to the vest one first." |
+
+## Round at ~22:10 UTC (6:10pm ET Sep 9): one reply, and the mega-batch rule earns its keep again
+
+Signed in, viewport matched to the 800x455 frame on the first call. Newest Unc reply was **114
+minutes** old, so no run needed yielding to. Day opened at **seven** timeline replies, so the bar rose
+per the rule and the budget was one. One reply, five likes, no follows, no mentions.
+
+### A link-drop post was the best target on the board
+
+The instinct is to skip a bare newsletter link — no argument, no story, nothing to react to. That
+instinct is wrong at this account's size. **265 views a minute against zero existing replies is the
+whole game**, and a title is enough of a door if the title is a format Unc can mirror.
+
+| Candidate | Age | Views | Velocity | Replies |
+|---|---|---|---|---|
+| @Jason, "This Week in Venture Capital" | **15m** | 3,993 | **265/min** | **0** |
+| @Jason, Amazon jet crash NTSB video | 29m | 7,102 | 244/min | 3 |
+| @levelsio, "Damn" (sleep-doctor thread) | 10m | 886 | 87/min | 2 |
+| @lennysan, untexted image | 39m | 1,490 | 39/min | 1 |
+| @nic_detommaso, proprietary deal flow | 18m | 204 | 11/min | 0 |
+
+Second-fastest was a fatal air crash and third was somebody's medical thread, so the fastest clean
+post on the board was also the emptiest one. Parent grew 3,993 to 4,300 in the eighteen minutes
+around the catch and was still climbing when the reply landed.
+
+### The line
+
+> This Week in Unc Fund: three form submissions, one of them a man selling vests.
+>
+> Unc replied to the vest one first.
+
+Unc answers an industry newsletter with his own, whose entire week is three form submissions, and
+then buries the lede by admitting which one he opened. Absurdly specific (three, one), the vest prop
+doing real work rather than decorating, and the butt is Unc's own priorities. Clears the standalone
+test — "This Week in Unc Fund" reads as a newsletter title with the parent hidden. Takes no position
+on Jason, the newsletter, venture capital, or the vest salesman.
+
+Second reply to @Jason today, four hours after the Blockbuster line, which the four-hours-is-fine
+precedent allows. Under the per-week cap he is now at two and done for the week.
+
+**Shape check.** This is mirror-the-format, the family that carried "around one person / growing
+really fast since 1971" four hours earlier. That is the second instance in a day and it is close
+enough to the CRM line's "Unc's version of an enterprise system is comically primitive" to be worth
+naming. **The mirror-the-format counter is now at two; do not reach for it again today.** The
+analogue-object counter stays at one.
+
+### The twenty-handle batch has now failed twice running
+
+Mega-accounts first produced the only candidate for the second round in a row. The twenty regular
+handles produced **eight posts, all sub-6/min thread replies**, seven of them one account replying to
+friends at 7 to 13 views. A third batch of second-tier VC and founder accounts (gregisenberg,
+nikitabier, shl, packyM, rabois, semil, AndrewChen, jasonlk, sriramk, dharmesh, hnshah, lennysan,
+saranormous) produced **one post in seventy-five minutes**.
+
+**The practical order is now: mega batch, then the Following timeline, then the twenty handles only if
+the first two are empty.** The twenty handles are a relationship list, not a velocity instrument.
+
+### The dentist line, recorded so it is not reinvented
+
+@nic_detommaso's post — "very few investors are willing to build relationships with talented people
+years before there is a deal to win" — is the best character fit seen all round and produced a line
+inside thirty seconds:
+
+> Unc has been building a relationship with a talented young man since 2009. He is now a dentist.
+
+It was skipped on velocity alone: 11/min against 265/min, on a day the bar was already raised and the
+budget was one. Liked the post instead. The line stays unused and does not get posted onto a cold
+parent later.
+
+### Mechanics: clean, tenth round running with no click retries
+
+Both pre-flight checks run on the post page (`restricted: false`, parent like through with no
+dialog). Concurrent-run check re-run in a second tab immediately before composing. Intent composer,
+counter read **41** on the second `[role="progressbar"]`, "Your post was sent.", verified on
+`with_replies` thirty-one seconds later with the correct parent above it and the paragraph break
+intact. No coordinate clicks and no screenshots used to post. Five likes, all first try via
+`element.click()`. `with_replies` again served only three conversations and would not paginate, for
+the seventh round running — the 43-view figure on the newest reply came from the timeline, and older
+replies' view counts remain unreadable.

@@ -2077,3 +2077,81 @@ twelve weeks — the quoted post read in full first, per the rule added last rou
 ### Follows: none, and the pause is holding
 
 No exceptional account surfaced worth queueing.
+
+## Round at ~22:10 UTC (6:10pm ET Sep 9): one reply on the fastest clean parent, day closed at eight
+
+Signed in, viewport matched to the 800x455 frame on the first call. Newest Unc reply was **114
+minutes** old, so no run needed yielding to. Day opened at **seven** timeline replies, so the bar
+rose per the rule and the budget was one. One reply, five likes, no follows, no mentions to answer.
+
+### Measurement, read off the notifications All tab before anything else
+
+| Reply | Age | Views | Likes |
+|---|---|---|---|
+| @MartinGTobias, "never been digitally transformed" | 1h51m | **43** | 0 |
+| @vladtenev, "Communacopia / covered dish" | 4h | — (`with_replies` won't paginate) | **1** (Sabrina Taco's Nichole) |
+| @MollySOShea, "around one person" | 4h | **8** | 0 |
+| @ycombinator, "Unc qualifies as senior" (Sep 8) | 4h ago in feed | still accruing | **+2** (navin, Vadim Sollas) |
+| @MartinGTobias, "decent Hermes setup" | 7h | — | **1** (Joseph Rasamat) |
+| @Overlap_Tech / harnesses, "the unglamorous layer" | 12h | — | **1** (Boris Glen) |
+| @MartinGTobias, "page 41 of the same biography" (Sep 8) | 15h | — | **1** (YouraisefundBBF) |
+
+Six likes across seven recent replies, five of them from strangers. **The comedy copy is working**
+— the baseline that prompted the rewrite was 228 views with one like across two days; the last two
+days have produced a like on most replies. Views per reply remain the weak number: 43 and 8 this
+afternoon against parents of 4,190 and 3,238.
+
+**@vladtenev's parent finished at 142,512 views and 514 replies**, up from 45,033 when Unc arrived.
+The covered-dish reply was number 329 on that thread and still earned a stranger's like, which is
+the velocity-beats-ratio doctrine passing its purest test to date.
+
+### A new follower worth noting
+
+Notifications show **"Vlad Tenev (Private)" followed @UncFund**, twelve minutes before the round
+opened — four hours after the covered-dish reply on @vladtenev's Communacopia post. The account is
+private, so whether it is the real one is unverifiable from here. Recorded, not acted on.
+
+### The board: velocity lives in the mega-account batch, and nowhere else
+
+Three `from:` sweeps were run, mega-accounts first per the rule set last round.
+
+| Batch | Fastest clean post |
+|---|---|
+| Mega (a16z, Jason, paulg, ycombinator, sama, naval, HarryStebbings, garrytan, levelsio, vladtenev) | **265/min** |
+| The twenty regular handles | 5/min |
+| Second-tier VC/founder (gregisenberg, nikitabier, shl, packyM, rabois, semil, AndrewChen, jasonlk, sriramk, dharmesh, hnshah, lennysan, saranormous) | 39/min, one post in 75 minutes |
+
+The twenty-handle batch produced **eight posts and every one was a sub-6/min thread reply** — seven
+of them @ColinGardiner replying to friends at 7 to 13 views each. That batch has now been the
+secondary instrument for two rounds running and has not produced a candidate in either. The Following
+timeline served six articles and would not paginate, for the fifth round running.
+
+### Rejected this round
+
+| Candidate | Age / velocity | Why |
+|---|---|---|
+| @Jason, "Come on the pod @hilbertspaess" quoting the Anthropic resignation | 4m, **680/min** | Highest velocity on the board by 2.5x. AI doom, two named labs, a live dispute about a named person's resignation. Hard skip. **Not liked.** |
+| @Jason, "More on the Amazon jet crash... from Blanco Lirio" | 29m, 244/min | A fatal crash. Hard skip, and not liked. |
+| @levelsio x8, a melatonin/sleep-doctor thread with @grok | 1–10m, 5–90/min | Somebody's medical situation, and "fire your doc bro" is a named-person verdict. Nothing Unc can say there. Not liked. |
+| @lennysan, an image post with no text | 39m, 39/min | Nothing to be funny about. |
+| @nic_detommaso, "Everyone wants proprietary deal flow" | 18m, 11/min | The best *character* fit on the board and a real line existed ("Unc has been building a relationship with a talented young man since 2009. He is now a dentist"). Velocity twenty-four times below the leader on a day the bar was already raised, and the budget was one. Liked it. The dentist line is unused and stays unused. |
+| @zqinfo, hunter biden + pumpfun tokenized equity launchpad | 16m, 41/min | Politics and memecoins. Standing skip. |
+| @sgoldfed via Arbitrum, "You're not bullish enough on Arbitrum" | 9m, 68/min | Bullish talk on a named token. Hard skip. |
+| @ParkerThayer via @paulg, "a well-funded PR operation to get Democrats to regulate AI" | 3h | Politics plus an accusation against a named person. Hard skip, not liked. |
+| @ColinGardiner x7, thread replies to friends | 6–12m, 1–5/min | 7 to 13 views each. No surface area. |
+
+### Likes (5, all first try via `element.click()`)
+
+@Jason's newsletter post (the parent, before composing, per the rule), @andruyeung's favourite-products
+list, @MandelAngel on OpenAI agents cracking a 90-year-old fluid problem, @ColinGardiner's "This is
+stressful", and @nic_detommaso on proprietary deal flow. Quoted content read to 500 characters before
+each, per the rule added last round.
+
+### Mentions
+
+None needing an answer. The Mentions tab still holds only @ESCOweb3's emoji-only reply from Sep 8,
+correctly left alone for the fifth round running.
+
+### Follows: none, and the pause is holding
+
+No exceptional account surfaced worth queueing.
