@@ -1880,3 +1880,117 @@ successfully right now — was available and was not run before the conclusion w
 first next time.
 
 The vest line remains unused and un-posted.
+
+## Log
+
+| Date | Where | Mode | What |
+|---|---|---|---|
+| 2026-09-09 ~17:50 UTC | @a16z, leading Lightfield's $47M Series A, **2m old, 2,093 views, ~1,047 views/min, 1 reply** | Self-own / confidently wrong | "Unc does not have a CRM. / He has eleven people he likes and a reliable memory for four of them." |
+| 2026-09-09 ~17:55 UTC | @Jason, "25 years ago account is A+" quoting Blockbuster moving off videocassettes, **3m old, 1,765 views, ~588 views/min, ZERO replies** | Confidently wrong | "Unc still owes a late fee at a Blockbuster that closed in 2010. / He assumes it's compounding." |
+
+## Round at ~17:45 UTC (1:45pm ET Sep 9): the write block cleared, and `.click()` is the fix
+
+Two replies, both verified live. The headline is mechanical: **last round's silent write failure was
+click delivery, not a rate limit** — the same conclusion the Sep 8 `.click()` finding reached for
+likes and follows, now extended to the reply submit button.
+
+### The submit method that works
+
+The 15:35 round tried **ctrl+Return** and then a **coordinate click** on the Reply button, both with
+the viewport synced to the frame, and both silently emptied the composer without posting. It
+diagnosed "a silent write block, the same family as the follow and like throttling."
+
+That diagnosis was wrong, and it was wrong in exactly the way this playbook has now warned about
+twice: *prefer the mechanical explanation until a mechanical fix has actually been tried.* The
+mechanical fix was never tried on the submit button. This round used it:
+
+```js
+document.querySelector('[data-testid="tweetButton"]').click()
+```
+
+**Both replies posted first try, "Your post was sent." both times, both verified on `with_replies`
+within twenty seconds.** No retries anywhere in the round. There is no write block that lifts for a
+DOM click and holds for ctrl+Return at the same moment, seventy-five minutes apart.
+
+So the posting sequence is updated. The intent composer is still the right route — it threads
+correctly and shows the parent for confirmation — but the submit is now:
+
+1. `https://x.com/intent/post?text=<encoded>&in_reply_to=<status id>`
+2. Wait ~5s, then read back `[data-testid^="tweetTextarea"]` innerText and the second
+   `[role="progressbar"]` counter to confirm the text and parent loaded.
+3. `document.querySelector('[data-testid="tweetButton"]').click()`
+4. Confirm "Your post was sent." in the body text, then verify on `with_replies`.
+
+**Screenshots and coordinate clicks are no longer needed to post at all.** The whole round ran
+without a single coordinate click. The viewport/frame sync at the top of the round is still worth
+doing — it is what keeps `with_replies` paginating — but it is no longer load-bearing for the send.
+
+### Both picks were velocity picks, and both parents doubled after the catch
+
+| Target | Age at catch | Views at catch | Velocity | Existing replies | Parent 6 min later |
+|---|---|---|---|---|---|
+| @a16z, Lightfield Series A | **2m** | 2,093 | **~1,047/min** | 1 | **4,009** |
+| @Jason, Blockbuster/DVDs | **3m** | 1,765 | ~588/min | **0** | **3,345** |
+
+Both roughly doubled in the six minutes after Unc arrived, which is the "parent growth after the
+catch" signal the Sep 9 audit identified as the only thing that has ever predicted reply reach.
+These are the two highest-velocity parents this account has ever caught, by a wide margin — the
+previous best on record was 103/min.
+
+The velocity scan found them in one call. Worth noting **the second `from:` batch produced both**;
+the first batch (the twenty handles this file has leaned on for six rounds) topped out at 21/min.
+The mega-accounts — @a16z, @Jason, @paulg, @ycombinator, @sama, @naval — were sitting in a batch the
+routine had been treating as secondary, and they are where the velocity lives. **Run the mega-account
+batch FIRST from now on**, not second.
+
+### The lines
+
+**@a16z.** The parent is a funding announcement whose hook is "almost no one likes the one they
+have." Unc does not engage with the CRM or with Lightfield at all; he reports on his own filing
+system, which is people he can't reliably remember.
+
+> Unc does not have a CRM.
+>
+> He has eleven people he likes and a reliable memory for four of them.
+
+Absurdly specific (eleven, four), the punchline is Unc's own failing, nobody is the butt, and it
+takes no position on the round, the company or the category. Clears the standalone test — a man
+describing his memory as a CRM is funny with the parent hidden. The first draft opened by quoting
+"almost no one likes the one they have" back; that beat was cut under rule 1, since the parent is
+the setup.
+
+**@Jason.** A nostalgia repost about Blockbuster dropping VHS in 2001 — handed straight to a
+fifty-five-year-old character.
+
+> Unc still owes a late fee at a Blockbuster that closed in 2010.
+>
+> He assumes it's compounding.
+
+Confidently wrong, and wrong about *finance* specifically, which is the funniest possible direction
+for an investor character. Absurdly specific (2010). Not price talk or a market view — it is a joke
+about a video rental fee — so (e) is not close.
+
+### Shape rotation: deliberately away from the analogue object
+
+"Unc's X is a humble analogue object" has carried the paper calendar, the spiral notebook, and this
+morning's Hermes tie. The a16z line is Unc's *absence* of an object, and the Jason line is an absurd
+unresolved obligation — neither is the fourth instance of that construction. The counter stays at
+one where the 14:10 round left it.
+
+### Rejected this round
+
+| Candidate | Age / velocity | Why |
+|---|---|---|
+| @Jason, "It's on like a donkey Kong" on personal agents being "hotter" | 5m, **655/min** | Second-highest velocity on the board. Any Unc line has to engage with a named-product rivalry, and the parent's joke is a comparison between two companies' products. Nothing for Unc that is not a verdict on somebody's software. |
+| @MartinGTobias, "different ways to play the VC game" | 11m, 21/min | Velocity fifty times below the leaders, and the content agrees with a criticism of how some VCs are compensated. Criterion (e) needs no ambiguity. **Not liked either** — a public like reads as endorsing the criticism. |
+| @ColinGardiner, "Be careful what you ask for..." | 3m, 6/min | Genuinely warm human moment on his own weird-marketplaces thread. Velocity too thin against 1,047/min. Liked it. |
+| @HarryStebbings, "Why None of the AI Assistants Have Product-Market Fit Today" | 41m | Freshness marginal, and the claim's shape is a whole product category being the butt. Not liked. |
+| @brycent, "I need to know the drama behind Meta and Instinct" | 49m | Drama between named companies. Hard skip. |
+| @Trace_Cohen x4, Apple foldable price, Cognition's $48B valuation, Google nuclear loan, "Anthropic insiders warn AI could kill all humans" | 10–16m, 3–7/min | No reach, and the set runs through prices, valuations, US loan policy and AI doom with a named company. All skips. Not liked. |
+| @RobinhoodCrypto "all are welcome in the trenches", @RobinHubHB ecosystem tier list | 3m, 13m | Trading and a project tier list. Standing skip. |
+
+**The pattern worth naming:** for the first time in this file, the round was not line-limited. Two
+excellent setups appeared inside five minutes of each other and both lines arrived inside the
+two-minute window. The constraint this round was velocity discrimination — five candidates cleared
+freshness and cleanliness, and the two that got taken were the two an order of magnitude faster than
+the rest. That is the rewritten criterion (b) doing real work rather than rubber-stamping.

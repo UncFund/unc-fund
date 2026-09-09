@@ -1803,3 +1803,111 @@ replies back. Leave the door open; do not interrogate.
 
 Questions belong in exactly three places, all currently underused: **Unc's own posts**, **answering
 anyone who replies to Unc**, and the rare genuine offer ("send it to unc.fund").
+
+## Round at ~17:45 UTC (1:45pm ET Sep 9): two replies on the fastest parents ever caught
+
+### Measurement first
+
+`with_replies` served only two articles at the top of the round, so this reading comes off the
+notifications All tab plus the parent posts opened directly.
+
+**New since the 14:10 audit: Joseph Rasamat liked the Hermes reply.** That is a stranger — no prior
+relationship with the account — and it is the sixth comedy like from outside the OP's orbit.
+
+| Reply | Style | Parent at catch | Parent now | Views | Likes |
+|---|---|---|---|---|---|
+| @MartinGTobias, "decent Hermes setup too. One tie, 1994" | **comedy** | 159 | **689** | unreadable | **1** (new, stranger) |
+| @Trace_Cohen, "record for impressions is four, at a wedding in 2011" | comedy | 57 | — | **8** | 0 |
+
+Running totals:
+
+| Style | Replies | Likes | Per reply |
+|---|---|---|---|
+| **Comedy (since Sep 7 rewrite)** | 16 | **8** | **0.50** |
+| Old thoughtful | ~16 | 9 | 0.56 |
+
+**Said plainly, as the task asks: the comedy copy holds at 0.50 likes per reply and is still level
+with the old style on the headline number, not ahead of it.** Sixteen replies in, the re-audit point
+set on Sep 7 has now been passed, so the honest verdict is due: **on likes alone, the rewrite has not
+beaten the thing it replaced.**
+
+The reason to hold it anyway is unchanged and is the only durable difference in the record —
+**six of the eight comedy likes come from strangers** (Boris Glen, Akshat Bhaskar, Aadhav Sundar,
+Vadim/Sollas, YouraisefundBBF, Joseph Rasamat), where every like the old thoughtful style ever
+earned came from the person replied to or someone directly beside them. Comedy reaches past the
+thread; thoughtful analysis only ever pleased its subject. That is the metric worth optimising for
+an account trying to find an audience, and it is why the rules stay.
+
+The Sep 9 competitor research supports leaving this alone rather than tuning it further: three
+working VC accounts' thoughtful replies on other people's posts returned 9 to 57 views. **The
+reply game has a low ceiling for everyone**, so more copy iterations are not where the next
+improvement comes from. Placement is.
+
+### The Hermes bet did not repeat the page-41 result, and the reason is instructive
+
+Same author, same shape, caught even earlier — and the parent grew 159 → 689 (4.3x) where the
+page-41 post grew 140 → 4,732 (34x). Same bet, one-eighth the growth. **Author history sets the
+range of outcomes, not the outcome.** Betting on a small parent from a reliably-growing author is
+still correct, but it is a lottery ticket on that specific post catching, and most do not.
+
+That is the argument for this round's shift: rather than betting on a small post growing, take a
+post that is *demonstrably already growing fast*.
+
+### Timeline replies (2), the two fastest parents this account has caught
+
+| Target | Age / reach when caught | Velocity | The reply |
+|---|---|---|---|
+| @a16z, leading Lightfield's $47M Series A | **2m, 2,093 views, 1 reply** | **~1,047 views/min** | "Unc does not have a CRM. / He has eleven people he likes and a reliable memory for four of them." |
+| @Jason, "25 years ago account is A+" on Blockbuster dropping VHS | **3m, 1,765 views, ZERO replies** | ~588/min | "Unc still owes a late fee at a Blockbuster that closed in 2010. / He assumes it's compounding." |
+
+Both parents **roughly doubled in the six minutes after Unc arrived** — a16z to 4,009, Jason to
+3,345 — which is the parent-growth-after-catch signal this log identified as the only reliable
+predictor of reply reach. The previous best velocity on record was 103/min; these are ten times that.
+
+### The targeting finding: the mega-account batch was being run second
+
+Both replies came from the **second** `from:` sweep. The first batch — the twenty pre-seed VC and
+founder handles this account has leaned on for six rounds — topped out at 21 views/min. The batch
+holding @a16z, @Jason, @paulg, @ycombinator, @sama and @naval produced three posts above 588/min.
+
+**Run the mega-account batch first.** The Sep 9 audit already concluded the account should stop
+treating big accounts as unwinnable (the two best results ever are @paulg at 85K and @ycombinator at
+167K, both entered late in the reply order). The sweep order had not caught up with that conclusion.
+
+Nine rejections are tabled in `08-reply-playbook.md`. The board was the opposite of the 14:10 round's:
+not line-limited but velocity-limited, with five clean fresh candidates and two of them an order of
+magnitude faster than the rest.
+
+### Mechanics: the silent write block was click delivery, and it is fixed
+
+Last round's two failed sends were diagnosed as "a silent write block, the same family as the follow
+and like throttling." **That was wrong.** Both sends this round went first try using
+`document.querySelector('[data-testid="tweetButton"]').click()` — the mechanical fix that had never
+been tried on the submit button, though this file adopted it for likes and follows on Sep 8.
+
+This is the third time a round has reached for "X is rate-limiting us" and been overturned by a
+click-delivery fix. The rule stands and should be read before diagnosing the next one: **prefer the
+mechanical explanation until a mechanical fix has actually been tried.** Full write-up in
+`08-reply-playbook.md`; the round used zero coordinate clicks and zero screenshots to post.
+
+### Mentions
+
+None. The Mentions tab reads "Nothing to see here — yet".
+
+### Likes (4, all first try via `element.click()`)
+
+Both parents before composing per the rule — @a16z's Lightfield announcement and @Jason's Blockbuster
+repost. Then @ColinGardiner's "Be careful what you ask for..." and @HustleFundVC on distribution
+beating product for early-stage startups.
+
+**Four deliberate non-likes**, all on posts that pass freshness but not (e): @MartinGTobias agreeing
+with a criticism of how VCs are compensated, @HarryStebbings on no AI assistant having product-market
+fit, @brycent on Meta/Instinct drama, and @Trace_Cohen's "Anthropic insiders warn AI could kill all
+humans". A like is public and reads as agreement.
+
+### Follows: none, and the pause is holding
+
+Paused per Rand's instruction and it stays paused. No exceptional account surfaced worth queueing.
+
+**Profile reads 69 following, 13 followers** — down one on following and **up one on followers** from
+the 70/12 reading this morning. The ratio is improving from both ends for the first time.
