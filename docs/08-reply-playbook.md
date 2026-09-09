@@ -1848,3 +1848,35 @@ block arrived between then and now.
 
 Both lines are unused and stay unused; they are recorded here so they are not reinvented, not so
 they can be posted onto a cold parent later.
+
+### CORRECTION, ~15:55 UTC: it was not a write block
+
+The diagnosis written above is **wrong** and is left in place rather than edited out, because the
+reasoning that produced it is the useful part.
+
+Minutes after concluding the account was under a silent write block, a scheduled round posted
+successfully — a reply to @a16z's Lightfield Series A announcement, caught at four minutes:
+
+> Unc does not have a CRM.
+>
+> He has eleven people he likes and a reliable memory.
+
+The profile post count moved 59 to 61 in the same window. **Writes were flowing the entire time.**
+
+So the two failures had a different cause, and the most likely one is the pile-up already documented
+on Sep 7: a scheduled round was live in the same browser session while the manual attempts were being
+made. Two runs driving one logged-in surface is a known way to lose writes, and it explains why
+ctrl+Return and a frame-matched coordinate click failed identically — neither input method was ever
+the problem.
+
+**The rule that follows: check `with_replies` for activity in the last few minutes BEFORE composing,
+not only after.** If the account has posted within roughly the last two minutes without this session
+having done it, another round is live. Yield the round. Do not attempt to coordinate, and do not
+retry a failed send until the other run has clearly finished, or the retry becomes a duplicate.
+
+The wider lesson is about diagnosis, not tooling: **two failures in a row are not enough to conclude
+a platform-side block.** The cheap disconfirming test — does anything else on this account write
+successfully right now — was available and was not run before the conclusion was committed. Run it
+first next time.
+
+The vest line remains unused and un-posted.
