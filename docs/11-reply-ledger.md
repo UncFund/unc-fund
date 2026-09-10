@@ -62,10 +62,19 @@ conversation rather than standing alone.
 | 09-10 16:05 | @RobinhoodApp | **7** | oblivious | 11530 | 4 | **2956** | 80 | 258 | 0 | n |
 | 09-10 16:17 | @Teknium | **6** | oblivious | 1654 | 8 | 199 | 2 | 22 | 0 | n |
 | 09-10 16:35 | @ESCOweb3 | **4** | praise | — | — | — | — | 7 | 1 | n |
-| 09-10 20:41 | @MollySOShea | 12 | thesis | 577 | 9 | 63 | 1 | | | |
+| 09-10 20:41 | @MollySOShea | 12 | thesis | 577 | 9 | 63 | 1 | void (3) | 1 | n (liked) |
+
+**09-10 20:41 is VOID for every analysis: the parent was deleted.** Molly O'Shea liked Unc's reply at
+20:43, ninety seconds after it went out, and then deleted the Devin Pops post itself. By 20:50 her profile
+and replies tab had no trace of it and a Latest search for "Devin Pops" found only one stranger's reply
+under the dead id. Unc's reply is orphaned at 3 views. This means **the cluster hypothesis is still
+untested**. The reply that was supposed to test it no longer has a parent to ride. The OP like is real
+and is the first OP engagement of any kind on a timeline reply. It is logged as `n (liked)`, not `y`,
+because `op` counts replies. Not re-replied: there is no live post, and a repost would make a third
+reply to her this week, over the cap of two.
 
 **Sep 10, ~18:15 UTC read: every reply today landed at about a tenth of the rule of thumb.** Duck: 258
-views on a 2,956/min parent (0.09x). Shimmed: 22 on 199/min (0.11x, read at 113m). Forty vests: 9 on
+views on a 2,956/min parent (0.09x). Shimmed: 22 on 199/min (0.11x, read at 113m; 27 at 292m, so 0.14x). Forty vests: 9 on
 203/min (0.04x). Riding mower: 8 on 95/min (0.08x). Sep 9's top four ran 0.9 to 1.5x. There are three
 candidate causes, and they can't be separated yet:
 1. **The cluster.** Four replies in 32 minutes got the account down-ranked for the afternoon.

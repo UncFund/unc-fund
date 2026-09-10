@@ -2946,3 +2946,90 @@ showed it at 44 seconds, and `from:UncFund ice cream` at 51. No resend. Four lik
 `element.click()`. Full text and quoted posts were read before each.
 
 ### Follows: none. Pause holding. No candidates queued.
+
+## Log
+
+| Date | Where | Mode | What |
+|---|---|---|---|
+| 2026-09-10 20:46 UTC | Scheduled round | — | **Zero timeline replies.** Day at six, and the three fastest clean posts were all on accounts at their per-week cap. Three likes, no follows. The author of the 20:41 Devin Pops parent liked Unc's reply and then deleted her post. |
+
+## Round at 20:46 UTC (4:46pm ET Sep 10): the OP liked the reply, then deleted the post
+
+Scheduled round. Viewport matched to the 800x455 frame on the first call. Signed in: view counts
+render and `twid` is true. The account-switcher selector returned `false`, because the side nav
+collapses at 800px; trust the aria-labels over that selector. No timeline reply, three likes, no
+follows, nothing to answer. The morning note has no replies, and the only mention was DM bait.
+
+### The scheduler defers a stalled slot, it does not skip it
+
+This corrects the 18:09 round. That round read `nextRunAt 22:08` and concluded the 1pm-PT slot "was
+skipped rather than overlapped". It was deferred. This round's `lastRunAt` is **20:45:54 UTC**, 65
+seconds after the stalled round committed (302411f at 20:44:49). The scheduler held the missed slot
+and fired it the moment the previous run ended. There was no overlap. But a stall produces
+back-to-back rounds: this one opened with an Unc reply four minutes old. That reply belonged to a
+committed round, so there was nothing to yield to. The cadence cost is still real.
+
+### Molly O'Shea liked the reply, then deleted the post
+
+Notifications show Molly liking "Unc missed the $2B round. / Unc is not missing the ice cream." at
+**20:43:13, 82 seconds after it went out**. By 20:50 the Devin Pops post was gone:
+- Unc's reply permalink renders with no parent above it.
+- Her profile and replies tab show nothing newer than 19:24.
+- A Latest search for "Devin Pops" returns only one stranger's reply under the dead id.
+
+The post tagged @browserbase, and that stranger's reply said "it looks like they need a new handle".
+A wrong tag is a plausible reason for the deletion. That is a guess.
+
+Consequences:
+1. **This is the first OP engagement of any kind on an Unc timeline reply.** It is a like, not a
+   reply, so the ledger's `op` stays `n`, marked "(liked)".
+2. **The cluster test is void.** The reply was placed four and a half hours clear of the afternoon
+   cluster, specifically to test whether the cluster caused the 0.1x returns. An orphaned reply cannot
+   answer that. **The next round should place one reply as the test**, on a clean fast parent, and
+   nothing else within thirty minutes of it.
+
+Rand asked mid-round whether to reply again. No. There is no live post, and she did not repost it. If
+she does repost, a second copy would still be her third Unc reply this week, over the cap of two.
+She has also already seen and liked the line, and the same text arriving twice reads as a bot. The
+orphan stays up. Deleting a post is Rand's call, not a round's.
+
+**The rule:** the deletion hazard from Sep 9 (@natolambert deleting mid-compose) applies AFTER a send
+too. A velocity strategy chases the freshest posts, and those are the most likely to be withdrawn.
+When measuring, check the parent still exists. If it does not, mark the row void and leave it out of
+the velocity analysis.
+
+### The mega batch contains accounts we do not follow
+
+@a16z (`64844802-follow`) and @hnshah (`3382-follow`) both carry a **follow** testid, not unfollow.
+The Sep 9 Covenant note called @a16z followed. It is not followed now, whether it never was or the
+follow reverted. Past rounds liked posts from both under "like posts from accounts we follow". The
+content was harmless, but it is drift. **Take likes from the Following tab and the second batch, or
+check the author's testid on their profile first.** Neither was followed this round, because the
+follow pause holds.
+
+### Board at 20:48 UTC
+
+| Candidate | Age | Velocity | Why not |
+|---|---|---|---|
+| @Jason, AI-made Nike "comeback campaign" | 2m | 773/min | Profanity in the parent, "straight back into the S&P 500", and a named brand being spoofed. At the per-week cap anyway. Not liked. |
+| @NotSoEasyMoney, "my best trade ever" | 2m | 487/min | Trading. Hard skip. |
+| @ycombinator, "Ashton joined us at Demo Day!" | 3m | ~450/min | At the per-week cap (two replies Sep 8). Liked. |
+| @a16z, commercial health insurance opening to startups | 12m | 369/min | At the per-week cap (CRM Sep 9, vests Sep 10), and not followed. Not liked. |
+| @jxnlco, "lets see how well it goes" | 19m | 85/min | No readable content; the media did not surface in the DOM. Nothing to be funny about, and unreadable for a like. |
+| @hnshah, local-AI workshop | 9m | 33/min | Promotional, thin, not followed. |
+| @aaronedell via YC, cloud-clearing for solar farms "and make hurricanes smaller" | 157m | 3/min | Freshness, and weather modification draws conspiracy replies. Not liked. |
+
+**The per-week cap now binds before freshness does.** Three posts above 350/min, and all three were
+on capped accounts. By Thursday afternoon eight of the fastest accounts are done for the week:
+@Jason, @ycombinator, @a16z, @MartinGTobias, @HarryStebbings, @pirroh, @vladtenev and @MollySOShea.
+The cap is doing its job; the @Trace_Cohen block is why it exists. But it also removes most of the
+velocity supply by midweek. **For Rand:** a wider set of fast accounts in the mega batch would help
+more than loosening the cap. They can be searched with `from:` without following them.
+
+### Mechanics
+
+Three likes (Molly's Bending Spoons post and her Bending Spoons reply, and @ycombinator's Demo Day
+post). All landed first try via `element.click()` and were verified by the `unlike` testid, with the
+full text read before each. No composer was opened.
+
+### Follows: none. Pause holding. No candidates queued.

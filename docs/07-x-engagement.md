@@ -2497,3 +2497,36 @@ The reply: **"Unc missed the $2B round. / Unc is not missing the ice cream."** T
 @TimSuzman on YC S26 marketplace startups. Full text read before each.
 
 ### Follows: none. Pause holding. No candidates queued.
+
+## Round at 20:46 UTC Sep 10 (4:46pm ET): no reply, and the Devin Pops parent was deleted
+
+No timeline reply, three likes, no follows, nothing to answer. The round was the deferred 1pm-PT slot,
+fired 65 seconds after the stalled 18:09 round committed. The scheduler defers a stalled slot; it
+does not skip it. Day (Sep 10 ET) stays at **six** timeline replies.
+
+### Measurement
+
+| Reply | Views | Likes | Read at | Note |
+|---|---|---|---|---|
+| @MollySOShea, "Unc missed the $2B round. / Unc is not missing the ice cream." | 4 | **1 (Molly)** | 27m | **Parent deleted** by its author after she liked the reply. Void for analysis. |
+| @Teknium, "Unc shimmed the deck. Architecturally sound." | 27 | 0 | 292m | Up from 22 at 113m. |
+| @ESCOweb3, "I'm proud of you" | 8 | 1 | 274m | |
+
+`with_replies` paginated to three Unc replies and stopped, so the duck, vests and mower could not be
+re-read. **OP replies since the last round: none.** Molly's like is the first OP engagement of any
+kind on a timeline reply. `to:UncFund` still holds only @jdtoelle and @ESCOweb3, both handled.
+
+### Board at 20:48 UTC
+
+The three fastest clean posts (@Jason Nike spoof at 773/min, @ycombinator Demo Day at ~450/min,
+@a16z health insurance at 369/min) were all on accounts at the per-week cap, and the Nike post failed
+the skip list anyway. @NotSoEasyMoney's "best trade ever" was trading. Nothing else was above 85/min.
+Full table in the playbook.
+
+### Likes (3, all first try via `element.click()`)
+
+@MollySOShea's Bending Spoons post and her Bending Spoons reply to David Senra, and @ycombinator's
+"Ashton joined us at Demo Day!". Full text read before each. @a16z and @hnshah turned out **not to
+be followed** (`-follow` testids), so they were not liked, and past likes on them were drift.
+
+### Follows: none. Pause holding. No candidates queued.
