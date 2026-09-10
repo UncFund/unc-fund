@@ -1,4 +1,40 @@
-# Unc's premarket post
+# Unc's morning note
+
+> **Changed 2026-09-10.** This slot used to be a SPY/QQQ premarket read. It is now an invitation
+> for founders to pitch Unc in one line on Monday, Wednesday and Friday, and a funny morning line
+> for founders and VCs on Tuesday and Thursday. The reply rounds answer every response. The
+> premarket history below is kept as a record of what was tried.
+
+## Why it changed
+
+The three market posts drew **10, 10 and 2 views, zero likes**. Rand's read was that market
+commentary never fit a fund that writes $500 first checks, and that is right on its own terms.
+
+The data says something larger, though. **Every original Unc post since Sep 7 sits at 6 to 16
+views with zero likes** — the barbecue joke, the zk-rollup sleeping bag, "every company I back is a
+nephew". The market post was not losing to the other posts. Nothing Unc broadcasts reaches anyone
+yet, because a twelve-follower account has no feed to land in. So a better line alone was expected
+to pull about ten views too.
+
+What changes that is a mechanism rather than copy. The Sep 9 competitor research found Colin
+Gardiner's replies inside his own thread — answering people who responded to his "who is building a
+weird marketplace?" post — pulled 455 to 618 views, while his replies on other people's posts pulled
+9 to 57. An invitation post plus answering every reply is the one pattern with evidence behind it,
+so it takes three of the five mornings. The funny line keeps the other two, which also sets up a
+clean comparison in the log: invitation versus broadcast, same slot, same week.
+
+**What to watch:** whether invitation mornings draw any replies at all. At twelve followers, zero
+replies is a realistic outcome for the first week, and it would mean the account needs an audience
+before an invitation can work — at which point the reply-guy rounds carry the load alone.
+
+## Morning note log
+
+| Date | Weekday | Format | Post | Views | Likes | Replies |
+|---|---|---|---|---|---|---|
+
+## Premarket history (retired 2026-09-10)
+
+# Unc's premarket post (retired)
 
 Every US market day at 9:00 AM Eastern, half an hour before the open, Unc posts what premarket
 is doing in SPY and QQQ and then turns it into encouragement for founders. It runs automatically

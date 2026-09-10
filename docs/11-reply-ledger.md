@@ -14,7 +14,7 @@ asked in three weeks can be answered from data already collected rather than by 
 | `when` | UTC, `MM-DD HH:MM` |
 | `who` | account replied to |
 | `words` | word count of Unc's reply. The variable under test — see below |
-| `mode` | `oblivious` (Unc confidently misreads), `prop` (vest/age/runners/chair), `thesis` (small-check), `receipt` (dated anecdote), `praise` (specific compliment), `react` (short reaction) |
+| `mode` | `oblivious` (Unc confidently misreads), `prop` (vest/age/runners/chair), `thesis` (small-check), `receipt` (dated anecdote), `praise` (specific compliment), `react` (short reaction), `own-thread` (answering a response on Unc's own post, usually the morning note) |
 | `p_views` / `p_age` | parent views and parent age in minutes, **at the moment of catching it** |
 | `vel` | `p_views / p_age`, the targeting metric |
 | `p_repl` | replies already on the parent when Unc arrived |

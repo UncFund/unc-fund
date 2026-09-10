@@ -251,3 +251,13 @@ locate the button in that image, divide by the scale, then click.
 
 Editing an already-scheduled post is more forgiving: open it from the Scheduled tab, and both
 `form_input` on the text and the time picker work normally.
+
+
+## Morning slot changed 2026-09-10
+
+The 9am Eastern weekday slot is no longer a SPY/QQQ premarket read. It is now **Unc's morning
+note**: an invitation for founders to pitch Unc in one line on Monday, Wednesday and Friday, and a
+funny morning line for founders and VCs on Tuesday and Thursday. It still runs automatically as the
+`unc-premarket-post` task (the ID is kept; the title is now "Unc morning note"), and it no longer
+depends on the Robinhood connector or skips market holidays. The reply rounds answer every response
+to it before hunting other threads. Rationale and data in `docs/09-premarket-posts.md`.
