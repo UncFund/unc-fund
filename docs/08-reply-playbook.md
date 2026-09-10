@@ -2765,3 +2765,87 @@ no dialog. Concurrent-run check re-run on `with_replies` immediately before comp
 composer, text and "Replying to @RobinhoodApp" confirmed by read-back, counter **16** on the second
 `[role="progressbar"]`, "Your post was sent.", and the reply was on `with_replies` eight seconds later
 with the parent above it. Five likes, all first try via `element.click()`. No coordinate clicks.
+
+## Log
+
+| Date | Where | Mode | What |
+|---|---|---|---|
+| 2026-09-10 ~16:17 UTC | @Teknium, "QoL, Bug Fixes, Architectural Soundness and Polish is our focus this month", **8m old, 1,654 views, ~199 views/min, 2 replies** | Oblivious literal | "Unc shimmed the deck. Architecturally sound." **Six words**, the shortest reply yet. |
+
+## Round at ~16:10 UTC (12:10pm ET Sep 10): one reply, and three rounds in ninety-five minutes
+
+Scheduled round. Viewport matched to the 800x455 frame on the first call, session check clean. One
+timeline reply, four likes, no follows, nothing to answer on the morning note or in mentions. Day (Sep
+10 ET) closes this round at four timeline replies.
+
+### The round opened one minute after the last one committed
+
+Unc's newest reply was six minutes old at the top of the round, and 7222b20 had landed at 16:09 UTC
+with a clean tree, so per the committed-versus-live refinement there was nothing to yield to. But this
+is the **third round to start inside ninety-five minutes** (14:35, 15:59, 16:10), against a routine
+written as one sweep every two hours. That is a schedule problem, not a judgement call a round can fix,
+and it is how three replies landed in 21 minutes before this round wrote a word. **Rand: check the
+`unc-reply-round` trigger times; rounds are stacking.**
+
+The round budgeted one reply on cadence alone. It planned to hold the send until ~16:25 and sent at
+16:17 instead, because the composer was loaded and the parent was decaying (221/min at six minutes,
+199/min at eight). That makes **four replies in 32 minutes**: under the Sep 7 pile-up of six in 25,
+but the tightest cluster since. Nothing more this round, whatever turned up.
+
+### The setup
+
+**@Teknium, "QoL, Bug Fixes, Architectural Soundness and Polish is our focus this month"**, quoting a
+Hermes Agent setup demo. Seen at six minutes and 221/min in the mega batch; 1,654 views, two replies at
+eight minutes on the post page. Clearly the fastest clean parent on the board, which after Robinhood
+(already replied to) topped out at 87/min. Teknium was rejected twice this morning because the Hermes
+and agent doors are spent. This post opened a new door, "Architectural Soundness", and Unc took it
+literally:
+
+> Unc shimmed the deck. Architecturally sound.
+
+A slapdash home repair, declared structurally perfect by the man who did it. Absurdly specific (a shim,
+the deck), confidently wrong, nobody the butt but Unc, and no position on Hermes, Nous or the roadmap.
+It clears the standalone test: with the parent hidden, it is a fifty-five-year-old signing off on his
+own carpentry. It agrees with the parent's spirit, since everybody is doing maintenance this month,
+rather than deflating it. A line with "leans left" for the deck was rejected before drafting because it
+carries a political reading.
+
+**Shape check.** Misread-a-word, the account's most reliable engine. But the *rhythm* ("Unc [verb].
+[Fragment].") is identical to the duck twelve minutes earlier: different joke, same cadence. **The next
+reply should break that rhythm** with a single sentence or a three-beat line.
+
+### Rejected this round
+
+| Candidate | Age / velocity | Why |
+|---|---|---|
+| @RobinhoodApp, "we love an investor who dabbles" | 13m, 1,342/min, 145 replies | Already replied at 16:05. |
+| @venturetwins x3, a16z's Highstock investment and follow-ups | 4–14m, 30–87/min | Same news the 15:45 @a16z reply covered. Liked the two follow-ups. |
+| @nbaschez (reposted by @AmberIllig), raw feelings on AI and the world his kids grow up in | 42m, 22/min | Quotes Ashley Mayer on end-of-humanity predictions: the AI-doom cycle. Not a followed account. Not liked. |
+| @credistick, "EA actually mirrors religion in many ways" | 5m, 9/min | Religion and a movement as the subject. Skip, not liked. |
+| @an_engineer_log, "isn't this just common sense?" quoting David Senra on ElevenLabs' FDEs | 8m, 5/min | Reads as waving off a named CEO's explanation. Not liked. |
+| @ColinGardiner, newsletter plug | 2m, 9/min | Promotional, no reach. Liked. |
+
+### A quote-tweet's first `time` element is the QUOTED post's, on a post page
+
+The pre-flight read on Teknium's post page returned an age of **109 minutes** for a post that was eight
+minutes old. On a permalink page the main post's timestamp sits at the *bottom* of the article, so
+`article.querySelector('time')` hits the quoted post's timestamp first. Timeline and search articles
+put the author's time at the top, which is why the sweep one-liner has never tripped on it. On a post
+page, anchor the read on the permalink:
+
+```js
+a.querySelector('a[href*="/status/<id>"] time')
+```
+
+A round trusting the naive read would have skipped the best parent on the board on criterion (a).
+
+### Mechanics: clean, fifteenth round running with no click retries
+
+Pre-flight on the post page: `restricted: false`, no edit-version link, parent like through with no
+dialog. Concurrent-run check re-run on `from:UncFund` immediately before composing. Intent composer,
+text and "Replying to @Teknium" confirmed by read-back, counter **16** on the second
+`[role="progressbar"]`, "Your post was sent.". The first `from:UncFund` load eight seconds later did
+not show it yet, which is the documented lag and not a failure. `with_replies` showed it at 31 seconds
+and `from:UncFund shimmed` at 39. No resend. Four likes, all first try via `element.click()`.
+
+### Follows: none. Pause holding. No candidates queued.

@@ -2406,3 +2406,44 @@ accounts we follow, so that pair was a small drift, harmless in content.
   That reply is now at 2.
 
 ### Follows: none. Pause holding. No candidates queued.
+
+## Round at ~16:10 UTC Sep 10 (12:10pm ET): six words on the only clean fast parent left
+
+One timeline reply, four likes, no follows. The morning note is at 2 views and no replies after 95
+minutes, `to:UncFund` holds only @jdtoelle and @ESCOweb3 (both handled), and notifications held
+nothing new. Day (Sep 10 ET) closes at **four** timeline replies.
+
+The round opened one minute after the previous one committed: the third round start in 95 minutes.
+Three replies had gone out in the 21 minutes before it, so it budgeted one on cadence and stopped
+there. Four replies in 32 minutes is the tightest cluster since the Sep 7 pile-up; the scheduled-task
+timing needs a look (see the playbook).
+
+### Velocity board, 12:10pm ET Sep 10
+
+| Candidate | Age | Views | Velocity | Replies | Outcome |
+|---|---|---|---|---|---|
+| @RobinhoodApp, "investor who dabbles" | 13m | 17,883 | 1,342/min | 145 | already replied 16:05 |
+| **@Teknium, "Architectural Soundness and Polish is our focus this month"** | **8m** | 1,654 | **~199/min** | 2 | **replied** |
+| @venturetwins, Highstock announcement | 14m | 1,256 | 87/min | 2 | same news as 15:45 |
+| @venturetwins x2, Highstock follow-ups | 5–9m | 174–446 | 30–50/min | 1 | liked |
+| @nbaschez via @AmberIllig, AI and his kids' world | 42m | 922 | 22/min | 2 | AI-doom cycle, not liked |
+| @ColinGardiner, newsletter | 2m | 21 | 9/min | 0 | liked |
+| @credistick, EA and religion | 5m | 45 | 9/min | 0 | skip, not liked |
+| @an_engineer_log, FDEs "common sense" | 8m | 40 | 5/min | 0 | not liked |
+
+The reply: **"Unc shimmed the deck. Architecturally sound."** Six words. The mega batch found it; the
+second batch (VC and founder handles) produced nothing above 9/min, and the Following tab served five
+articles, the fastest at 87/min.
+
+### Likes (4, all first try via `element.click()`)
+
+@Teknium (parent, pre-flight), @venturetwins x2 (Highstock partner post and the how-it-works link),
+@ColinGardiner's newsletter. Full text and any quoted post read before each.
+
+### Measurement
+
+All three of the previous round's replies were under 30 minutes old, so they are too young to fill in.
+Early reads: duck 49 views at 13m, forty vests 4 at 26m, riding mower 6 at 29m. **OP replies since the
+last round: none.**
+
+### Follows: none. Pause holding. No candidates queued.

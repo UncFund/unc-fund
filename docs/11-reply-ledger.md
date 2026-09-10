@@ -60,6 +60,15 @@ conversation rather than standing alone.
 | 09-10 15:45 | @a16z | **7** | prop | 3241 | 16 | 203 | 2 | | | |
 | 09-10 15:49 | @sweatystartup | 8 | oblivious | 1716 | 18 | 95 | 3 | | | |
 | 09-10 16:05 | @RobinhoodApp | **7** | oblivious | 11530 | 4 | **2956** | 80 | | | |
+| 09-10 16:17 | @Teknium | **6** | oblivious | 1654 | 8 | 199 | 2 | | | |
+
+**09-10 16:17 is the shortest reply yet at six words**, on the only clean parent above 100/min left on
+a thin midday board. Early reads at ~16:18 UTC, all far too young for the two-hour rule and left out of
+the table: the Robinhood duck at 49 views after 13 minutes, forty vests at **4 views after 26 minutes**
+and the riding mower at 6 after 29. The forty-vests number is worth watching: it sat under a 203/min
+@a16z parent, and the other @a16z reply (CRM, 1,047/min) is already the one outlier under the velocity
+rule of thumb. If it finishes far below ~200, @a16z's reply section may rank differently from a
+founder's, and @a16z should be weighted down as a target.
 
 Blank cells in the historical rows are genuinely unknown and are left blank rather than estimated.
 Rows from here on get filled completely.
