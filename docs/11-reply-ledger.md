@@ -53,16 +53,28 @@ conversation rather than standing alone.
 | 09-09 18:18 | @vladtenev | 18 | oblivious | 45033 | 33 | 1414 | 328 | 2022 | 1 | n |
 | 09-09 18:22 | @MollySOShea | 14 | oblivious | 648 | 8 | 81 | 0 | 24 | 0 | n |
 | 09-09 19:20 | @MartinGTobias | 15 | oblivious | 987 | 31 | 32 | 10 | 92 | 1 | n |
-| 09-09 22:12 | @Jason | 21 | mirror | 4069 | 17 | 239 | 0 | 221 | 0 | n |
+| 09-09 22:12 | @Jason | 21 | mirror | 4069 | 17 | 239 | 0 | 230 | 0 | n |
 | 09-09 23:54 | @jdtoelle | 20 | oblivious | — | 37 | — | — | 2 | 0 | n |
 | 09-09 23:59 | @HarryStebbings | 16 | oblivious | 1193 | 22 | 54 | 5 | 112 | 2 | n |
 | 09-10 00:22 | @naval | **7** | oblivious | 3670 | 2 | 1835 | 18 | **2717** | 2 | n |
-| 09-10 15:45 | @a16z | **7** | prop | 3241 | 16 | 203 | 2 | 9 | 0 | n |
-| 09-10 15:49 | @sweatystartup | 8 | oblivious | 1716 | 18 | 95 | 3 | 8 | 0 | n |
-| 09-10 16:05 | @RobinhoodApp | **7** | oblivious | 11530 | 4 | **2956** | 80 | 258 | 0 | n |
-| 09-10 16:17 | @Teknium | **6** | oblivious | 1654 | 8 | 199 | 2 | 22 | 0 | n |
-| 09-10 16:35 | @ESCOweb3 | **4** | praise | — | — | — | — | 7 | 1 | n |
-| 09-10 20:41 | @MollySOShea | 12 | thesis | 577 | 9 | 63 | 1 | void (3) | 1 | n (liked) |
+| 09-10 15:45 | @a16z | **7** | prop | 3241 | 16 | 203 | 2 | 12 | 0 | n |
+| 09-10 15:49 | @sweatystartup | 8 | oblivious | 1716 | 18 | 95 | 3 | 9 | 0 | n |
+| 09-10 16:05 | @RobinhoodApp | **7** | oblivious | 11530 | 4 | **2956** | 80 | 351 | 0 | n |
+| 09-10 16:17 | @Teknium | **6** | oblivious | 1654 | 8 | 199 | 2 | 33 | 0 | n |
+| 09-10 16:35 | @ESCOweb3 | **4** | praise | — | — | — | — | 8 | 1 | n |
+| 09-10 20:41 | @MollySOShea | 12 | thesis | 577 | 9 | 63 | 1 | void (6) | 1 | n (liked) |
+| 09-10 22:16 | @amasad | 13 | oblivious | 1267 | 8 | 151 | 2 | | | |
+
+**09-10 22:16 is the cluster test the Devin Pops reply was meant to be.** It went out 95 minutes after
+the previous Unc reply, and nothing else went out within thirty minutes of it. The parent is clean, text
+plus a photo, and was the fastest clean post on the board. By the rule of thumb it should land at about
+135 to 225 views. If it does, the four-in-32-minutes cluster is the best explanation for this
+afternoon's tenth. If it lands near 15, the cluster is ruled out, and brand-account reply sections or
+length move up the list. Read it no earlier than 00:16 UTC Sep 11.
+
+The afternoon rows were re-read at ~22:20 UTC, six hours in, and are still at about a tenth of parent
+velocity: duck 351 (0.12x), shimmed 33 (0.17x), forty vests 12 (0.06x), riding mower 9 (0.09x). They
+barely moved after the two-hour mark, so the 18:15 read was not early. It was final.
 
 **09-10 20:41 is VOID for every analysis: the parent was deleted.** Molly O'Shea liked Unc's reply at
 20:43, ninety seconds after it went out, and then deleted the Devin Pops post itself. By 20:50 her profile

@@ -2530,3 +2530,49 @@ Full table in the playbook.
 be followed** (`-follow` testids), so they were not liked, and past likes on them were drift.
 
 ### Follows: none. Pause holding. No candidates queued.
+
+## Round at 22:09 UTC Sep 10 (6:09pm ET): one reply, the cluster test
+
+One timeline reply, two likes on followed accounts, no follows, nothing to answer. The day (Sep 10 ET)
+closes at **seven** timeline replies.
+
+### Measurement
+
+| Reply | Views | Likes | Read at | Note |
+|---|---|---|---|---|
+| @RobinhoodApp, "Unc dabbles. One watercolor duck since 2004." | 351 | 0 | 372m | 0.12x of parent velocity |
+| @Teknium, "Unc shimmed the deck. Architecturally sound." | 33 | 0 | 360m | 0.17x |
+| @a16z, "Unc has forty vests and one torso." | 12 | 0 | 393m | 0.06x |
+| @sweatystartup, "Dale got rich. Unc got the riding mower." | 9 | 0 | 389m | 0.09x |
+| @MollySOShea, Devin Pops | 6 | 1 | 90m | Void: parent deleted |
+| @ESCOweb3, "I'm proud of you" | 8 | 1 | 336m | |
+| @Jason, "This Week in Unc Fund" (Sep 9) | 230 | 0 | 24h | 1 reply (@jdtoelle) |
+
+**No original poster has replied since the last round.**
+
+### Velocity board, 22:11 UTC
+
+| Candidate | Age | Views | Velocity | Replies | Outcome |
+|---|---|---|---|---|---|
+| @svpino, CRM CEOs biting their fingernails | 2m | 759 | 476/min | 0 | group as butt, CRM door spent; skip |
+| @amasad, "Chat with the etn bros!" | 6m | 1,073 | 185/min | 1 | same author, weaker door; skip |
+| **@amasad, "Chat with PG in London!"** | **8m** | 1,267 | **~151/min** | 2 | **replied** |
+| @HarryStebbings, Zuckerberg's #1 priority | 11m | 1,366 | 127/min | 1 | per-week cap |
+| @alexisohanian, "IRL", stadiums | 41m | 3,344 | 84/min | 1 | not followed, no line |
+| @omooretweets, real-time voice API | 41m | 3,228 | 81/min | 3 | not followed, no line |
+| @jxnlco, "astra is a good model" | 9m | 721 | 76/min | 3 | runner-up; liked |
+| @venturetwins, AI creative ecosystem deck | 31m | 1,168 | 37/min | 3 | thin; liked |
+
+The reply: **"Unc chatted with PG in London too. / Different PG. Runs the chip shop."** Thirteen words,
+verified on `with_replies` at 20 seconds. A new third `from:` batch of founder and builder accounts found
+it; none of those accounts are followed. See the playbook for the list.
+
+### Likes (2 on followed accounts, plus the parent pre-flight)
+
+@jxnlco's Astra post and @venturetwins' deck post. Both were confirmed followed from the post-page
+header, with full text read first. @amasad's parent was liked as the author-block pre-flight; he is not
+followed. This is short of the three-to-six target. The rest of the followed board was a dunk
+(@svpino), a capped account posting about a named person (@HarryStebbings), and an ambiguous quote
+(@kseniam0s on @aplusk).
+
+### Follows: none. Pause holding. No candidates queued.

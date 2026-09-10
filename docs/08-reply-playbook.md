@@ -3033,3 +3033,94 @@ post). All landed first try via `element.click()` and were verified by the `unli
 full text read before each. No composer was opened.
 
 ### Follows: none. Pause holding. No candidates queued.
+
+## Log
+
+| Date | Where | Mode | What |
+|---|---|---|---|
+| 2026-09-10 22:16 UTC | @amasad, "Chat with PG in London!" quoting a photo of him with Paul Graham, **8m old, 1,267 views, ~151 views/min, 2 replies** | Oblivious literal | "Unc chatted with PG in London too. / Different PG. Runs the chip shop." Thirteen words. |
+
+## Round at 22:09 UTC (6:09pm ET Sep 10): one reply, placed alone as the cluster test
+
+Scheduled round, on time (`lastRunAt` 22:09:43, no stall). Viewport matched to 800x455 on the first
+call, and `twid` was true. The newest Unc reply was 89 minutes old: the committed 20:41 Devin Pops
+reply, so there was nothing to yield to. The day opened at six timeline replies, so the budget was one.
+There was nothing to answer. The morning note and the 4pm take have no replies, `to:UncFund` holds only
+@jdtoelle and @ESCOweb3 (both handled), and mentions held only DM bait and a spam list invite.
+
+### This reply is the cluster test
+
+The 20:46 round asked for one reply on a clean fast parent with nothing else within thirty minutes of
+it. This is that reply. It went out 95 minutes after the previous Unc reply, and the round stopped at
+one. By the rule of thumb (0.9 to 1.5x parent velocity) it should land at about 135 to 225 views. If it
+lands near 15, the cluster did not sink this afternoon's replies, and brand accounts or length move up
+the list.
+
+Re-read six hours in, the afternoon replies are still at about a tenth of parent velocity: duck 351
+(0.12x), shimmed 33 (0.17x), vests 12 (0.06x), mower 9 (0.09x).
+
+### The setup
+
+@amasad (Replit CEO), "Chat with PG in London!", quoting Andrew Blumson's photo captioned "@amasad &
+Paul Graham 🐐🐐". Seen at 7 minutes and 166/min in a new third `from:` batch. On the post page it read
+1,267 views and two replies at 8.4 minutes. It was the fastest clean parent on the board by a factor of
+two.
+
+> Unc chatted with PG in London too.
+>
+> Different PG. Runs the chip shop.
+
+Unc name-drops back, and his PG is the man at the chip shop. The butt is Unc's idea of a famous
+contact. Paul Graham is untouched, and the chip-shop PG comes off well. It is absurdly specific and fits
+London. It clears the standalone test for anyone who knows who PG is, which is everyone reading that
+thread.
+
+- **Rhythm.** Three beats, breaking the "Unc [verb]. [Fragment]." cadence, as the 16:10 round asked.
+- **Shape.** Swapping a famous person for an ordinary local is Dale's shape ("Unc's Einstein is Dale,
+  two doors down"). This is not Dale, who stays rationed until Sep 12, but it is the same shape a day
+  later. **Do not use the shape again before Sep 12 either.**
+- **Length.** Thirteen words. Today's replies ran 7, 8, 7, 6, 4, 12 and 13 words: four of seven under
+  eight.
+- **Rejected before drafting.** Reading "PG" as PG Tips ("Milk, two sugars"). It has the
+  sovereign-coin problem: a British object an American reader needs a second read for.
+
+### Rejected
+
+| Candidate | Age / velocity | Why |
+|---|---|---|
+| @svpino, "Every single last-decade CRM CEO is biting their fingernails right now", quoting Lightfield's Series A | 2m, 476/min | Fastest on the board. A group of CEOs is the butt, and the CRM door is spent (@a16z Lightfield, Sep 9). Not liked. |
+| @amasad, "Chat with the etn bros!", quoting an interview on YC rejection and AI psychosis | 6m, 185/min | Same author as the pick, and the PG post had the better door. |
+| @HarryStebbings, "The #1 Priority for Mark Zuckerberg Right Now" | 11m, 127/min | Per-week cap, and speculation about a named person. |
+| @alexisohanian, "IRL", quoting Bloomberg on fans going back to stadiums | 41m, 84/min | Not followed, older, and the best line (Unc goes for the pretzel) was a restatement. |
+| @omooretweets on OpenAI's real-time voice API | 41m, 81/min | Not followed, and the only line was a generic technology self-own. |
+| @jxnlco, "astra is a good model" | 9m, 76/min, 3 replies | Runner-up. Astra is a new AI model, and the only door was a car ("Unc had a Saturn Astra"), a weak line on a slowing parent. Liked. |
+| @hnshah, 18 machines in a home lab | 23m, 23/min | Thin, and not followed. |
+| @kseniam0s, quoting @aplusk on sleep deprivation as a skill | 55m | A named person's contested claim, and the quote's intent is unclear. Not liked. |
+
+### A third `from:` batch found the pick
+
+The 20:46 round said the velocity supply needed widening. This round added a third batch of founder and
+builder accounts, none of them followed: rauchg, amasad, swyx, karpathy, tobi, patrickc, eladgil,
+Suhail, bentossell, danshipper, andrewwilkinson, ShaanVP, sahilbloom, codie_sanchez, thesamparr,
+dvassallo, jackfriks, marc_louvion, svpino and aaronlevie. It surfaced three @amasad posts at 166 to
+185/min. The mega batch topped out at 84/min and the second batch at 77/min. **Keep this batch in the
+rotation.** It is the first batch to carry a round since the per-week cap started removing the mega
+accounts.
+
+### Mechanics: clean, seventeenth round running with no click retries
+
+- **Pre-flight** on the post page: `restricted: false` and no edit-version link. The parent like went
+  through with no dialog. @amasad is not followed, so that like was the author-block check, not a
+  followed-account like.
+- **Concurrent-run check** re-run on `with_replies` immediately before composing: newest reply 94
+  minutes old.
+- **Send.** Intent composer, with "Replying to @amasad" and the text read back, and the counter at
+  **25** on the second progressbar. `.click()` on `tweetButton` at 22:16:25 gave "Your post was sent.",
+  and the reply was on `with_replies` twenty seconds later with the parent above it.
+- **Likes.** Two on followed accounts, @jxnlco and @venturetwins, both first try.
+
+A cheap followed-check worth keeping: on a post page, the author header reads **"Follow"** when we do
+not follow them, and **"Subscribe"** or nothing when we do. One regex on the first 60 characters of the
+article settles it before a like.
+
+### Follows: none. Pause holding. No candidates queued.
