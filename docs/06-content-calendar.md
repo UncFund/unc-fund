@@ -25,7 +25,7 @@ daylight saving, so the three-hour gap holds all year.
 
 | Slot | Days | What |
 |---|---|---|
-| 9:00 AM | Market days only | Premarket read on SPY and QQQ. Automated, logged in docs/09-premarket-posts.md |
+| 9:00 AM | Weekdays | Unc's morning note: pitch-Unc-in-one-line invitation Mon/Wed/Fri, funny founder/VC line Tue/Thu. Automated, logged in docs/09-premarket-posts.md |
 | 12:00 PM | Weekdays | Content: a take |
 | 4:00 PM | Weekdays | Content: a bit |
 | 7:00 PM | Weekdays | Content: a call to pitch |
