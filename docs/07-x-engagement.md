@@ -2304,3 +2304,59 @@ Check for the edit-version link in the post-page pre-flight, and re-read views o
 current id: the real velocity was 1,835/min, not the 3,315/min the scan reported.
 
 ### Follows: none. Pause holding, and now demonstrably earning its keep.
+
+@vladtenev followed without being followed first; nothing else needed.
+
+## Round at ~14:35 UTC Sep 10 (10:35am ET): two short replies, and last night's seven words set the record
+
+Two timeline replies, four likes, no follows, no mentions to answer. Day (Sep 10 ET) opened at zero
+and closes this round at two. Newest Unc reply was 862 minutes old at the start, so no concurrent run.
+
+### Measured reply performance
+
+Read from `from:UncFund&f=live` and the notifications All tab before anything else.
+
+| Reply | Parent vel at catch | Views | Likes |
+|---|---|---|---|
+| **@naval, "Unc's Einstein is Dale, two doors down." (7 words)** | 1,835/min | **2,717** | **2** |
+| @vladtenev, covered dish at Communacopia | 1,414/min | 2,022 | 1 |
+| @Jason, Blockbuster late fee | 588/min | 532 | 0 |
+| @Jason, "This Week in Unc Fund" | 239/min | 221 | 0 |
+| @a16z, "does not have a CRM" | 1,047/min | 192 | 1 |
+| @HarryStebbings, co-located with his readers | 54/min | 112 | 1 |
+| @MartinGTobias, never been digitally transformed | 32/min | 92 | 1 |
+| @MollySOShea, around one person | 81/min | 24 | 0 |
+
+**Parent velocity is now the best-evidenced rule in the whole operation.** The two fastest parents ever
+taken produced the two best replies ever, by more than a factor of three over anything else, and the
+top four rows fall almost in velocity order. On a fast parent a reply ends up with roughly one to
+one-and-a-half times the parent's views-per-minute at the catch. The @a16z CRM row is the one outlier:
+a 4-minute-old parent's velocity overstated how long it kept climbing.
+
+No original poster has replied to Unc in eleven filled rows. New likes since the last round: Dale x2,
+CRM, digital transformation, co-located, and a sixth on the Sep 8 @ycombinator "senior" reply.
+
+### Velocity board, morning of Sep 10
+
+| Candidate | Age | Views | Velocity | Replies | Outcome |
+|---|---|---|---|---|---|
+| @Teknium, Hermes Agent subagent observability | 8m | 1,912 | 239/min | 2 | skip — Hermes and agent jokes both spent |
+| **@a16z, leading Highstock's $30M Series A** | **16m** | 3,241 | **203/min** | 2 | **replied** |
+| @natolambert, AI fear after one resignation | 4m | 496 | 124/min | 0 | hard skip, not liked |
+| **@sweatystartup, others winning is good for you** | **18m** | 1,716 | **95/min** | 3 | **replied** |
+| @omooretweets, Highstock (same news) | 12m | 1,122 | 94/min | 3 | liked |
+| @MollySOShea, defense comms and contracting | 1–27m | 57–1,328 | 49–57/min | 0–3 | skip, not liked |
+| @hnshah, local AI models | 15m | 575 | 38/min | 1 | liked |
+| @davidu, SF home theft story | 24m | 643 | 27/min | 0 | hard skip |
+
+The mega batch found @a16z; the second batch (regular VC and founder handles) found @sweatystartup,
+the first time in four rounds that batch has produced a reply. The Following tab served three
+articles, one of them the fastest post on the board.
+
+### Likes (4, all first try via `element.click()`)
+
+@a16z's Highstock post and @sweatystartup's abundance post (both parents, pre-flight), @hnshah on local
+models, @omooretweets on Highstock. Quoted content read before each. **@credistick deliberately not
+liked**: the post he quotes argues venture capital has outgrown its ability to manage capital.
+
+### Follows: none. Pause holding. No candidates queued.

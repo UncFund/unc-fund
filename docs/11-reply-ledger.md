@@ -48,15 +48,17 @@ conversation rather than standing alone.
 | 09-08 22:14 | @MartinGTobias | — | prop | 140 | 5 | 28 | — | 97 | 1 | n |
 | 09-09 14:16 | @MartinGTobias | — | prop | — | — | — | — | 15 | 1 | n |
 | 09-09 14:17 | @Trace_Cohen | — | — | — | — | — | — | 6 | 0 | n |
-| 09-09 15:54 | @a16z | 14 | thesis | — | 4 | — | — | | | |
-| 09-09 17:55 | @Jason | 16 | oblivious | 1765 | 3 | 588 | 0 | | | n |
-| 09-09 18:18 | @vladtenev | 18 | oblivious | 45033 | 33 | 1414 | 328 | | 1 | n |
-| 09-09 18:22 | @MollySOShea | 14 | oblivious | 648 | 8 | 81 | 0 | 8 | 0 | n |
-| 09-09 19:20 | @MartinGTobias | 15 | oblivious | 987 | 31 | 32 | 10 | 59 | 0 | n |
-| 09-09 22:12 | @Jason | 21 | mirror | 4069 | 17 | 239 | 0 | 54 | 0 | n |
-| 09-09 23:54 | @jdtoelle | 20 | oblivious | — | 37 | — | — | | | n |
-| 09-09 23:59 | @HarryStebbings | 16 | oblivious | 1193 | 22 | 54 | 5 | 6 | 0 | n |
-| 09-10 00:22 | @naval | **7** | oblivious | 3670 | 2 | 1835 | 18 | | | |
+| 09-09 15:54 | @a16z | 14 | thesis | — | 4 | — | — | 192 | 1 | n |
+| 09-09 17:55 | @Jason | 16 | oblivious | 1765 | 3 | 588 | 0 | 532 | 0 | n |
+| 09-09 18:18 | @vladtenev | 18 | oblivious | 45033 | 33 | 1414 | 328 | 2022 | 1 | n |
+| 09-09 18:22 | @MollySOShea | 14 | oblivious | 648 | 8 | 81 | 0 | 24 | 0 | n |
+| 09-09 19:20 | @MartinGTobias | 15 | oblivious | 987 | 31 | 32 | 10 | 92 | 1 | n |
+| 09-09 22:12 | @Jason | 21 | mirror | 4069 | 17 | 239 | 0 | 221 | 0 | n |
+| 09-09 23:54 | @jdtoelle | 20 | oblivious | — | 37 | — | — | 2 | 0 | n |
+| 09-09 23:59 | @HarryStebbings | 16 | oblivious | 1193 | 22 | 54 | 5 | 112 | 1 | n |
+| 09-10 00:22 | @naval | **7** | oblivious | 3670 | 2 | 1835 | 18 | **2717** | 2 | n |
+| 09-10 15:45 | @a16z | **7** | prop | 3241 | 16 | 203 | 2 | | | |
+| 09-10 15:49 | @sweatystartup | 8 | oblivious | 1716 | 18 | 95 | 3 | | | |
 
 Blank cells in the historical rows are genuinely unknown and are left blank rather than estimated.
 Rows from here on get filled completely.
@@ -77,6 +79,30 @@ and both are mid-table. The clean split is at the top of the range, not across i
 The one inbound conversation the account has ever had came from @jdtoelle, a *stranger reading the
 thread*, not from the OP — which suggests the reachable outcome at this size is the third-party
 reply, not the OP reply. Worth watching before more effort goes into chasing `op` specifically.
+
+### Sep 10 read: the seven-word reply is the best result the account has ever had
+
+Measured at 14:35 UTC Sep 10, fourteen to twenty-four hours after the Sep 9 rows went out.
+
+**@naval, "Unc's Einstein is Dale, two doors down." — 7 words, 2,717 views, 2 likes.** Previous best
+by views was the @vladtenev covered dish at 2,022, which was itself last night's record. The two best
+replies ever are both on the two fastest parents ever taken.
+
+**Question 2 (does `vel` predict `views`) now has a real answer, and it is yes.** Sorted by parent
+velocity, the filled rows run: 1,835/min → 2,717; 1,414 → 2,022; 588 → 532; 239 → 221; 54 → 112;
+32 → 92; 81 → 24. On the top four, **a reply's eventual views land at roughly 0.9 to 1.5 times its
+parent's views-per-minute at the catch.** That is a usable rule of thumb for deciding whether a parent
+is worth taking. The one clear outlier is the @a16z CRM reply (1,047/min at 4 minutes, 192 views),
+which suggests a very young parent's velocity overstates how long it keeps climbing.
+
+**Question 1 (length) has one clean pair and it does not separate yet.** Dale (7 words) returned 1.48
+views per unit of parent velocity; Communacopia (18 words) returned 1.43. Same reach per unit of
+traffic, one extra like. Short replies are not reaching worse, which is enough to keep putting half
+the replies under eight words. Sep 10 added one more at seven words and one at exactly eight.
+
+**`op` is still zero across eleven filled rows.** Two replies on the covered-dish reply are counted but
+do not render and do not appear in `to:UncFund`, so their authors are unknown; neither is @vladtenev
+as far as any surface shows.
 
 ## Standing questions this is being collected to answer
 

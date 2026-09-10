@@ -2591,3 +2591,94 @@ all first try via `element.click()`. No coordinate clicks and no screenshots use
 The pause is now paying for itself in a way worth recording: **@vladtenev followed the account
 without being followed first.** The 5.8:1 ratio argument was about credibility; this is the positive
 case — a reply good enough to earn a follow does not need a follow to bait it.
+
+## Log
+
+| Date | Where | Mode | What |
+|---|---|---|---|
+| 2026-09-10 ~15:45 UTC | @a16z, leading Highstock's $30M Series A (excess inventory stranded in warehouses), **16m old, 3,241 views, ~203/min, 2 replies** | Prop / self-own | "Unc has forty vests and one torso." **Seven words.** |
+| 2026-09-10 ~15:49 UTC | @sweatystartup, "people succeeding and getting rich around you makes it MORE LIKELY you will also succeed", **18m old, 1,716 views, ~95/min, 3 replies** | Oblivious literal / callback | "Dale got rich. Unc got the riding mower." **Eight words.** |
+
+## Round at ~14:35 UTC (10:35am ET Sep 10): two short replies, and the short one from last night is the record
+
+Scheduled round. Viewport matched to the 800x455 frame on the first call, session check clean
+(`auth: true, twid: true`). Newest Unc reply was **862 minutes** old, so no concurrent run and nothing
+to yield to. Day opened at **zero** timeline replies (Sep 10 ET), so the full budget was available;
+the round took two and stopped. No mentions to answer — the only notification was a spam list invite.
+Four likes, no follows.
+
+### The measurement: "Dale, two doors down" is at 2,717 views
+
+Seven words, on the second-fastest parent ever caught, and now the best reply the account has ever
+posted: **2,717 views and 2 likes** (SteveGremory, Shree Jhariya). The covered-dish reply sits at
+**2,022** behind it. The full velocity-vs-views read is in `11-reply-ledger.md`; the short version is
+that on a fast parent, a reply's final views come in at roughly one to one-and-a-half times the
+parent's views-per-minute at the catch. Velocity is now the rule with the most evidence behind it in
+this file.
+
+Late likes also arrived on the CRM, digital-transformation and co-located replies (one each), and the
+@ycombinator "senior" reply took a sixth like from a stranger, two days after it went out.
+
+### Both replies went short on purpose
+
+The length arm has one reply under eight words in its whole history. This round put both replies at
+seven and eight words, on the two best clean parents on the board, so the arm gets data from parents
+worth measuring on.
+
+**@a16z, Highstock.** The parent is about consumer brands making more product than they sell, with
+the excess stranded in warehouses. Unc is that problem, at the scale of one man:
+
+> Unc has forty vests and one torso.
+
+The vest prop doing the whole job, an absurd number, nobody the butt but Unc, and no position on the
+company, the round or the category. It clears the standalone test — a man with forty vests and one
+torso is funny with the parent hidden. This is @a16z's second Unc reply this week (CRM on Sep 9), so it
+is at the per-week cap and done.
+
+**@sweatystartup, abundance.** "Others winning is good for you too." Unc takes it completely literally
+and reports the one concrete benefit he has ever had from someone else getting rich:
+
+> Dale got rich. Unc got the riding mower.
+
+**Dale is now a running character.** He was introduced last night as Unc's Einstein, two doors down,
+in the reply that became the account's best, and rule 4 says running jokes compound. The line still
+clears the standalone test for a reader who never saw the first one — a neighbour who got rich and a
+man who got the mower — so the callback is a bonus for returning readers and not a requirement. It
+agrees with the parent rather than deflating it, which is the check the thermostat line failed. Clean
+motivational post, first Unc reply to @sweatystartup ever.
+
+**Keep Dale rationed.** Two appearances in fifteen hours is fine. A third today would turn a character
+into a crutch. Next Dale no earlier than Sep 12.
+
+### Rejected this round
+
+| Candidate | Age / velocity | Why |
+|---|---|---|
+| @Teknium, subagent observability in Hermes Agent | 8m, **239/min**, 2 replies | Fastest post on the board. The only Unc door is "Hermes" as luxury goods, and the Hermes tie went out Sep 9 — never reuse a line. "Agent" taken literally is also spent (Sep 8). |
+| @natolambert, why one resignation turned AI fear into a wildfire | 4m, 124/min, 0 replies | The AI-doom news cycle and a named lab. Hard skip, not liked. |
+| @omooretweets, the same Highstock announcement | 12m, 94/min | Same news already replied to under @a16z. Liked instead. |
+| @MollySOShea x2, autonomous boats on Starshield; one person blocking a defense program | 1–27m, 49–57/min | Defense, on the Covenant precedent. Not liked. |
+| @davidu, "It's apparently legal to steal a home in San Francisco now" | 24m, 27/min | Crime and city politics, with a named DA tagged. Hard skip. |
+| @credistick, Europe's early-stage funding gap | 50m, 6/min | No reach. **Not liked**: the quoted post argues venture capital "has outgrown its ability to competently manage capital", and a public like reads as endorsing that. |
+| @hnshah, local AI models doing repetitive jobs | 15m, 38/min | Clean, no Unc line that is not a generic technology self-own. Liked. |
+| @jasonlk, @kseniam0s, @himanshustwts, @an_engineer_log thread replies | 25–48m, 0–21/min | Sub-thousand-view thread replies. No surface area. |
+
+Accounts at the two-per-week cap were left out of the sweep entirely: @Jason, @MartinGTobias,
+@HarryStebbings, @ycombinator, @pirroh, @vladtenev. @emollick and @Trace_Cohen stay excluded on their
+blocks.
+
+### Mechanics: clean, thirteenth round running with no click retries
+
+Pre-flight on each post page (`restricted: false`, no edit-version link, parent like through with no
+dialog). Concurrent-run check re-run on `with_replies` immediately before the second compose. Intent
+composer both times, counters **12** and **14** on the second `[role="progressbar"]`, "Your post was
+sent." both times.
+
+**One timing detail worth keeping:** the first reply did not appear on `with_replies` in the load
+straight after the send, and appeared one reload later. `from:UncFund&f=live` showed it at 42 seconds.
+Had the rule been "resend if with_replies does not show it", that would have been a duplicate. Check
+`from:` search, then reload `with_replies` once, before concluding anything.
+
+A task-file note: the scheduled task still describes posting with `form_input` and a screenshot
+click. This playbook retired both (Sep 8 and Sep 9), and this round used the intent composer and
+`.click()` as documented here. The task file should be updated to match.
