@@ -2849,3 +2849,100 @@ not show it yet, which is the documented lag and not a failure. `with_replies` s
 and `from:UncFund shimmed` at 39. No resend. Four likes, all first try via `element.click()`.
 
 ### Follows: none. Pause holding. No candidates queued.
+
+## Log
+
+| Date | Where | Mode | What |
+|---|---|---|---|
+| 2026-09-10 ~20:41 UTC | @MollySOShea, "BREAKING: Cognition releases 'Devin Pops' ice cream brand after $2B funding", **9m old, 577 views, ~63/min, 1 reply** | Small-check self-own | "Unc missed the $2B round. / Unc is not missing the ice cream." Twelve words. |
+
+## Round at 18:09 UTC (2:09pm ET Sep 10): a 2h25m stall, a stale board, and one reply on the fresh one
+
+Scheduled round. Viewport matched to the 800x455 frame on the first call, session check clean. One
+timeline reply, four likes, no follows. There was nothing to answer: today's own posts sat at 5 and 8
+views with no replies, and mentions held only a "follow me and I'll DM you" reply and a spam list
+invite.
+
+### The session stalled for two hours and twenty-five minutes mid-round
+
+The first sweep ran at about 18:14 UTC. The next tool result came back at **20:38**. The only tell
+was on the post pages: ages read about 145 minutes older than the sweep had reported for the same
+posts, and view counts had doubled. Both candidates the first sweep produced were dead by the time
+they were opened:
+- @RobinhoodApp "Framing this.": 14 minutes and ~1,390/min in the sweep, 158 minutes on the post page.
+- @garrytan "I know kung fu": 53 minutes in the sweep, 198 minutes on the post page.
+
+**The rule that follows:** if a post page's age disagrees with the sweep by more than a few minutes,
+check the clock (`date -u`, and `new Date()` in the page) before doing anything else. A stall resets
+the whole board. Re-run the concurrent-run check and the sweep from scratch. Never act on the first
+board.
+
+### `list_scheduled_tasks` settles the concurrent-run question outright
+
+A stall that crosses a slot boundary raises the obvious worry: did the 1pm-PT round fire into the
+same browser? The scheduled-tasks list answered it in one call. It showed `lastRunAt` 18:09 (this run)
+and `nextRunAt` 22:08, so the scheduler skipped the slot rather than overlapping. For scheduled
+rounds, this is a stronger check than reading `with_replies` ages, which cannot see a round that has
+not posted yet. It does not cover manual sessions, so run both.
+
+### An unlogged reply counts toward the day
+
+`from:UncFund` showed "I'm proud of you" to @ESCOweb3 at 16:35:32 UTC. No round's log mentions it.
+It is now in the ledger and counted, which put the day at **five** before this round and raised the
+bar.
+
+### The measurement that matters: today's four replies came in at a tenth
+
+The duck returned 258 views on the fastest clean parent ever taken (2,956/min). That is 0.09x, against
+0.9 to 1.5x for Sep 9's best. The other three came in at 0.04 to 0.11x. The full read is in
+`11-reply-ledger.md`. Only the four-in-32-minutes cluster explains all four rows, so the 20:41 reply
+was deliberately placed four and a half hours clear of it, as a first test.
+
+### The setup
+
+@MollySOShea's joke post "BREAKING: Cognition releases 'Devin Pops' ice cream brand after $2B
+funding", from an ice cream stand at a conference. Caught at **9 minutes, 577 views, ~63/min, one
+reply**. On the fresh board it was the fastest clean post by a factor of twelve. The only faster post
+was a crypto "the market is asleep" call.
+
+> Unc missed the $2B round.
+>
+> Unc is not missing the ice cream.
+
+The small-check thesis delivered as a self-own. The man who can't get into the round gets the ice
+cream instead. Unc is the only butt, and the line takes no position on Cognition, the valuation or the
+event. It clears the standalone test: with the parent hidden, it is a man consoling himself with a
+Devin Pop.
+
+- **Rhythm.** Two full parallel sentences, deliberately breaking the "Unc [verb]. [Fragment]." cadence
+  the 16:10 round flagged.
+- **Length.** Twelve words is long on purpose. Today's other five replies ran four to eight words, so
+  the length arm needed a long one to stay near half.
+- **Per-week cap.** @MollySOShea is now at two for the week and done.
+
+### Rejected this round
+
+| Candidate | Age / velocity | Why |
+|---|---|---|
+| @RobinhoodApp, "Framing this." quoting a customer on the travel-booking UI, with credit card terms | 14m → 158m after the stall | Stale. It would also have been the second @RobinhoodApp reply today, on a credit card promo, in a reply section that returned 0.09x this afternoon. |
+| @garrytan, "I know kung fu" for agents buying things | 53m → 198m | Stale, and the agent-taken-literally door is spent (Sep 8). |
+| @rasmr_eth, "biggest revolution on the blockchain… market is asleep" | 2m, 715/min | A market call. Hard skip. |
+| @RobinhoodCrypto, "Let's build", Robinhood Chain track | 7m, 904/min | Crypto chain promo. Standing skip. |
+| @clementetv_, "The average Robinhood Chain user be like" | 4m, 183/min | A group as the butt, and crypto. |
+| @notthreadguy, "never wrong, just early" quoting a Fed rate-hike story | 70m, 202/min | Rates and markets, and past sixty minutes. |
+| @blknoiz06, Hunter Biden market show | 1m | Politics. |
+| @brycent, SkildAI at 100M ARR | 43m, 31/min | Clean, but thin and then stale. Liked. |
+| @ColinGardiner, 70+ five-star reviews, 50% off for September | 21m, 5/min | Promotional, no reach. Liked. |
+
+### Mechanics: clean, sixteenth round running with no click retries
+
+Pre-flight on the post page: `restricted: false`, no edit-version link, and the parent like went
+through with no dialog. Intent composer, with text and "Replying to @MollySOShea and @browserbase"
+confirmed by read-back and the counter at **21** on the second `[role="progressbar"]`. "Your post was
+sent." at 20:41:55.
+
+The first `from:UncFund` load did not show the reply, which is the documented lag. `with_replies`
+showed it at 44 seconds, and `from:UncFund ice cream` at 51. No resend. Four likes, all first try via
+`element.click()`. Full text and quoted posts were read before each.
+
+### Follows: none. Pause holding. No candidates queued.

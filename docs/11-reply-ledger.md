@@ -57,10 +57,29 @@ conversation rather than standing alone.
 | 09-09 23:54 | @jdtoelle | 20 | oblivious | — | 37 | — | — | 2 | 0 | n |
 | 09-09 23:59 | @HarryStebbings | 16 | oblivious | 1193 | 22 | 54 | 5 | 112 | 2 | n |
 | 09-10 00:22 | @naval | **7** | oblivious | 3670 | 2 | 1835 | 18 | **2717** | 2 | n |
-| 09-10 15:45 | @a16z | **7** | prop | 3241 | 16 | 203 | 2 | | | |
-| 09-10 15:49 | @sweatystartup | 8 | oblivious | 1716 | 18 | 95 | 3 | | | |
-| 09-10 16:05 | @RobinhoodApp | **7** | oblivious | 11530 | 4 | **2956** | 80 | | | |
-| 09-10 16:17 | @Teknium | **6** | oblivious | 1654 | 8 | 199 | 2 | | | |
+| 09-10 15:45 | @a16z | **7** | prop | 3241 | 16 | 203 | 2 | 9 | 0 | n |
+| 09-10 15:49 | @sweatystartup | 8 | oblivious | 1716 | 18 | 95 | 3 | 8 | 0 | n |
+| 09-10 16:05 | @RobinhoodApp | **7** | oblivious | 11530 | 4 | **2956** | 80 | 258 | 0 | n |
+| 09-10 16:17 | @Teknium | **6** | oblivious | 1654 | 8 | 199 | 2 | 22 | 0 | n |
+| 09-10 16:35 | @ESCOweb3 | **4** | praise | — | — | — | — | 7 | 1 | n |
+| 09-10 20:41 | @MollySOShea | 12 | thesis | 577 | 9 | 63 | 1 | | | |
+
+**Sep 10, ~18:15 UTC read: every reply today landed at about a tenth of the rule of thumb.** Duck: 258
+views on a 2,956/min parent (0.09x). Shimmed: 22 on 199/min (0.11x, read at 113m). Forty vests: 9 on
+203/min (0.04x). Riding mower: 8 on 95/min (0.08x). Sep 9's top four ran 0.9 to 1.5x. There are three
+candidate causes, and they can't be separated yet:
+1. **The cluster.** Four replies in 32 minutes got the account down-ranked for the afternoon.
+2. **Brand accounts** (@RobinhoodApp, @a16z) rank a twelve-follower reply lower than people do. But
+   @Teknium and @sweatystartup are people and did no better.
+3. **Length.** All four were six to eight words. Dale was seven words and returned 1.48x, though.
+
+Only the cluster covers all four rows. The 20:41 reply went out four and a half hours after it, so it
+is the first test. If it lands near 0.9x of 63/min (~55 views), the cluster was the cause. If it also
+comes in near a tenth, look elsewhere.
+
+The 16:35 @ESCOweb3 row was not logged by whichever session posted it. It turned up on
+`from:UncFund` and is counted toward the day's ceiling. It is a four-word reply on a Space hosted by
+an account already in Unc's orbit.
 
 **09-10 16:17 is the shortest reply yet at six words**, on the only clean parent above 100/min left on
 a thin midday board. Early reads at ~16:18 UTC, all far too young for the two-hour rule and left out of

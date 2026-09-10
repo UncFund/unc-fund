@@ -2447,3 +2447,53 @@ Early reads: duck 49 views at 13m, forty vests 4 at 26m, riding mower 6 at 29m. 
 last round: none.**
 
 ### Follows: none. Pause holding. No candidates queued.
+
+## Round at 18:09 UTC Sep 10 (2:09pm ET): one reply after a 2h25m session stall
+
+One timeline reply, four likes, no follows. Nothing to answer: own posts had 5 and 8 views and no
+replies, and mentions held only a DM-bait reply and a spam list invite.
+
+The session stalled from about 18:14 to 20:38 UTC mid-round, so the first board went stale and was
+discarded. The reply came from a fresh sweep. `list_scheduled_tasks` confirmed the 1pm-PT slot was
+skipped rather than overlapped (last run 18:09, next 22:08). An unlogged 16:35 reply to @ESCOweb3 put
+the day at five before this round.
+
+### Measured reply performance (from `from:UncFund` and `with_replies`)
+
+| Reply | Parent vel at catch | Views | Likes | Read at |
+|---|---|---|---|---|
+| @RobinhoodApp, "Unc dabbles. One watercolor duck since 2004." | 2,956/min | **258** | 0 | 125m |
+| @Teknium, "Unc shimmed the deck. Architecturally sound." | 199/min | 22 | 0 | 113m |
+| @a16z, "Unc has forty vests and one torso." | 203/min | 9 | 0 | 146m |
+| @sweatystartup, "Dale got rich. Unc got the riding mower." | 95/min | 8 | 0 | 141m |
+| @ESCOweb3, "I'm proud of you" (unlogged) | — | 7 | 1 | 95m |
+
+All four timeline replies came in at 0.04 to 0.11x of parent velocity, against 0.9 to 1.5x on Sep 9.
+The best-fitting explanation is the four-in-32-minutes cluster; see the ledger. **OP replies since the
+last round: none.** `to:UncFund` holds only @jdtoelle and @ESCOweb3, both handled.
+
+### Velocity board, fresh sweep at 20:39 UTC
+
+| Candidate | Age | Views | Velocity | Replies | Outcome |
+|---|---|---|---|---|---|
+| @RobinhoodCrypto, "Let's build", Robinhood Chain | 7m | 6,500 | 904/min | 47 | crypto promo, skip |
+| @rasmr_eth, "market is asleep" | 2m | 1,566 | 715/min | 12 | market call, skip |
+| @notthreadguy, "never wrong, just early" on a Fed story | 70m | 14,189 | 202/min | 19 | markets and freshness, skip |
+| @clementetv_, Robinhood Chain user meme | 4m | 696 | 183/min | 1 | group as butt, skip |
+| **@MollySOShea, "Devin Pops" ice cream after $2B funding** | **9m** | 577 | **~63/min** | 1 | **replied** |
+| @brycent, SkildAI 100M ARR | 43m | 1,333 | 31/min | 3 | thin; liked |
+| @ColinGardiner, reviews milestone and discount | 21m | 117 | 5/min | 0 | promo; liked |
+
+Both `from:` batches were thin again: the mega batch topped out at 21/min (@hnshah), and the second at
+31/min (@brycent) on the first sweep, then 44/min in threadguy thread replies on the second. The
+Following tab produced the pick.
+
+The reply: **"Unc missed the $2B round. / Unc is not missing the ice cream."** Twelve words, verified on
+`with_replies` at 44 seconds.
+
+### Likes (4, all first try via `element.click()`)
+
+@MollySOShea (parent, pre-flight), @ColinGardiner's reviews milestone, @brycent on SkildAI, and
+@TimSuzman on YC S26 marketplace startups. Full text read before each.
+
+### Follows: none. Pause holding. No candidates queued.
