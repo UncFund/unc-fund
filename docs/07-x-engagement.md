@@ -2219,3 +2219,88 @@ fun. Quoted content read in full before each.
 
 @jdtoelle followed us unprompted, which is what the pause is designed to produce. No candidates
 queued.
+
+## Round at ~00:20 UTC Sep 10 (8:20pm ET Sep 9): Vlad Tenev followed, and seven words went out
+
+One timeline reply, six likes, no follows, no mentions. Day closed at **ten** timeline replies,
+exactly at the ceiling. Newest Unc reply was 18 minutes old at the start, so no concurrent run.
+
+### The reach finding: a reply earned a follow from the person it replied to
+
+**@vladtenev followed @UncFund**, roughly six hours after the covered-dish reply landed under his
+Communacopia post. That is the only contact the account has ever had with him.
+
+That reply was **number 329** on a thread running at 1,414 views/min, taken specifically to test
+whether velocity beats reply-count ratio. It has now produced a like from a stranger and a follow
+from a CEO with millions of followers. **Ratio is finished as a criterion** — it has now failed to
+predict reach six times and the doctrine test it was set against has passed twice.
+
+The follower count mechanism is also now visible, and it is not the timeline:
+
+| Follower | Traceable to |
+|---|---|
+| @jdtoelle | the vest reply under @Jason's newsletter post (Sep 9 22:12) |
+| @vladtenev | the covered-dish reply under his own post (Sep 9 18:18) |
+
+**Both came from replies, neither from an original post.** Original posts are still running 3 to 7
+views. Replies are the entire acquisition channel, and the two that converted were both wardrobe or
+household props, consistent with the 23:50 round's finding.
+
+### Velocity board, evening of Sep 9
+
+| Candidate | Age | Views | Velocity | Replies | Outcome |
+|---|---|---|---|---|---|
+| **@naval, AI feasting on the Mozarts and Einsteins of our age** | **2m** | 3,670 | **~1,835/min** | 18 | **replied** |
+| @levelsio, Amazon Air safety record vs two national carriers | 5m | 2,978 | 638/min | — | hard skip, not liked |
+| @HarryStebbings, memory co-located with GPUs | 40m | 1,819 | 49/min | 9 | replied last round; liked |
+| @levelsio x2, arguments with named accounts | 2–4m | 31–47 | 13–19/min | — | skip |
+| @ColinGardiner x6, replies to friends | 3–9m | 2–24 | thin | — | liked 3 |
+| @hackgoofer via Alex Volkov, hackathon promo | 76m | 192 | 3/min | — | skip |
+
+1,835/min is the **second-highest parent velocity ever caught**, behind only the @sama post that was
+skipped on criterion (e). Parent grew 3,670 → 5,662 in the four minutes around the catch. The reply
+took **12 views in its first two minutes**, the fastest start on record.
+
+The board otherwise repeated the evening pattern: only two posts above 600/min and one of them was
+airline fatality statistics. The twenty-handle batch produced eight posts, seven of them one account
+replying to friends at 2 to 24 views; the Following timeline served four articles. **Mega batch
+first remains correct, for the third round running.**
+
+### Measured reply performance
+
+`with_replies` would not paginate for the eighth round running. `from:UncFund&f=live` does, and it
+carries view counts — it is now the default measurement instrument.
+
+| Reply | Age | Views | Likes |
+|---|---|---|---|
+| @Jason, "This Week in Unc Fund" | 117m | 54 | 0 |
+| @MartinGTobias, "never been digitally transformed" | 232m | 59 | 0 |
+| @MollySOShea, "around one person" | 6h | 8 | 0 |
+| @HarryStebbings, "co-located with his readers" | 20m | 6 | 0 |
+| Own post, "Not a portfolio company. A nephew." | 74m | 3 | 0 |
+
+Replies are now reliably landing in the 50-60 view band when the parent has real velocity, against
+the 4-to-20 band that prompted the targeting rewrite. **No original poster has replied to Unc in
+nine consecutive replies.** The only inbound conversation the account has ever had came from a
+bystander, not an OP, which is worth weighing before more effort goes into chasing OP replies.
+
+### Likes (6, all first try via `element.click()`)
+
+@naval's post (the parent, pre-flight, before composing), @ColinGardiner on Mercury's FDIC approval,
+his "great minds" reply and his MRR reply, @thursdai_pod on the Van Gogh demo, and @UseCorgi's
+newsletter. Quoted content read in full before each.
+
+**One like was refused on the skip list**, which is a first: @ColinGardiner's "I would LP into SBF
+fund" is a joke whose subject is a convicted fraud, and a public like there is Unc making light of
+people losing money.
+
+### New mechanic: X edit history breaks the velocity scan
+
+The scan surfaced Naval's post at 10,003 views. The post page then showed "There's a new version of
+this post" — he had **edited** it, and the live post was a different id at 3,670 views, two minutes
+old. A reply to the old id would have threaded under a superseded post nobody's timeline serves.
+
+Check for the edit-version link in the post-page pre-flight, and re-read views on the resolved
+current id: the real velocity was 1,835/min, not the 3,315/min the scan reported.
+
+### Follows: none. Pause holding, and now demonstrably earning its keep.

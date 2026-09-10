@@ -49,9 +49,34 @@ conversation rather than standing alone.
 | 09-09 14:16 | @MartinGTobias | — | prop | — | — | — | — | 15 | 1 | n |
 | 09-09 14:17 | @Trace_Cohen | — | — | — | — | — | — | 6 | 0 | n |
 | 09-09 15:54 | @a16z | 14 | thesis | — | 4 | — | — | | | |
+| 09-09 17:55 | @Jason | 16 | oblivious | 1765 | 3 | 588 | 0 | | | n |
+| 09-09 18:18 | @vladtenev | 18 | oblivious | 45033 | 33 | 1414 | 328 | | 1 | n |
+| 09-09 18:22 | @MollySOShea | 14 | oblivious | 648 | 8 | 81 | 0 | 8 | 0 | n |
+| 09-09 19:20 | @MartinGTobias | 15 | oblivious | 987 | 31 | 32 | 10 | 59 | 0 | n |
+| 09-09 22:12 | @Jason | 21 | mirror | 4069 | 17 | 239 | 0 | 54 | 0 | n |
+| 09-09 23:54 | @jdtoelle | 20 | oblivious | — | 37 | — | — | | | n |
+| 09-09 23:59 | @HarryStebbings | 16 | oblivious | 1193 | 22 | 54 | 5 | 6 | 0 | n |
+| 09-10 00:22 | @naval | **7** | oblivious | 3670 | 2 | 1835 | 18 | | | |
 
 Blank cells in the historical rows are genuinely unknown and are left blank rather than estimated.
 Rows from here on get filled completely.
+
+**09-10 00:22 is the first reply under eight words the account has ever posted.** Seven words, on
+the second-fastest parent ever caught (1,835 views/min). Every prior row is 12-21 words. This is the
+length arm's first real data point and it was deliberately placed on a high-traffic parent so the
+result means something either way — a short reply that dies on a 1,835/min thread is informative;
+one that dies on a 30/min thread is not.
+
+**Reading the filled rows: `vel` is doing better than `p_views`, and ratio is dead.** @vladtenev at
+1,414/min behind **328 existing replies** took the round's only like; @MollySOShea at 81/min with
+**zero** existing replies took eight views and nothing, the same round. @MartinGTobias at 32/min
+returned 59 views and @Jason at 239/min returned 54 — the one place velocity has NOT separated them,
+and both are mid-table. The clean split is at the top of the range, not across it.
+
+**`op` is still zero across every row.** Nine consecutive replies, no original poster has answered.
+The one inbound conversation the account has ever had came from @jdtoelle, a *stranger reading the
+thread*, not from the OP — which suggests the reachable outcome at this size is the third-party
+reply, not the OP reply. Worth watching before more effort goes into chasing `op` specifically.
 
 ## Standing questions this is being collected to answer
 

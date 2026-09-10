@@ -2443,3 +2443,151 @@ Concurrent-run check re-run in a second tab immediately before composing. Intent
 counters read **42** and **36**, "Your post was sent." both times, both verified on `with_replies`
 within twelve seconds with the correct parent above them and the paragraph break intact. Five likes,
 all first try via `element.click()`. No coordinate clicks and no screenshots used to post.
+
+## Log
+
+| Date | Where | Mode | What |
+|---|---|---|---|
+| 2026-09-10 ~00:22 UTC | @naval, "Today's AI hunts and feasts upon the Mozarts, Einsteins, and Shakespeares of our age", **2m old, 3,670 views, ~1,835 views/min**, 18 replies | Confidently wrong | "Unc's Einstein is Dale, two doors down." **Seven words — the first sub-eight-word reply the account has ever posted.** |
+
+## Round at ~00:20 UTC (8:20pm ET Sep 9): the length experiment finally gets a fair test
+
+Scheduled round. Viewport matched to the 800x455 frame on the first call. Newest Unc reply was **18
+minutes** old — the previous manual round, not a concurrent one, so no yield. Day opened at **nine**
+timeline replies, so the bar rose hard and the budget was **one**. One reply, six likes, no follows,
+no mentions to answer. The day closes at ten, exactly at the ceiling, not over it.
+
+### The finding of the round: Vlad Tenev followed the account
+
+Read off the notifications All tab before anything else. **@vladtenev followed @UncFund two hours
+ago** — roughly six hours after the covered-dish reply went under his Communacopia post, which is
+the only interaction the account has ever had with him.
+
+That reply is now responsible for a like from a stranger AND a follow from the subject, and it was
+**reply number three hundred and twenty-nine** on a thread at 1,414 views/min. It was taken purely
+to test whether velocity beats ratio. It is now the single best-performing thing the account has
+done, and the ratio criterion has nothing left to say for itself. **Stop consulting ratio entirely**
+— the 18:10 round said this tentatively; a follow from a CEO with millions of followers settles it.
+
+### Seven words, deliberately, on the second-fastest parent ever caught
+
+The length variable has been "under test" for three rounds and every reply in that window was 14 to
+21 words. It was never actually tested. This round tested it.
+
+| | |
+|---|---|
+| Parent | @naval, AI feasting on the Mozarts and Einsteins of our age |
+| Age at catch | **2 minutes** |
+| Views at catch | 3,670 |
+| Velocity | **~1,835/min** — second-highest ever, behind only the @sama post that was skipped on (e) |
+| Existing replies | 18 |
+| Parent 4 min later | **5,662** |
+
+> Unc's Einstein is Dale, two doors down.
+
+Unc reads a list of history's geniuses as an open call for nominations and puts forward his
+neighbour. Absurdly specific (Dale, two doors down), confidently wrong, and it clears the standalone
+test cleanly — a man designating his neighbour as his personal Einstein is funny with the parent
+hidden. Nobody is the butt; Dale is being *praised*.
+
+**A second beat existed and was cut.** The draft was "Unc's Einstein is Dale, two doors down. / Does
+the crossword in pen." The crossword line is good and it is exactly the habit the playbook named
+after "Vest weather." — a strong first beat with a second one bolted on because two lines is what
+Unc replies look like. Cutting it took the reply from twelve words to seven. **Early signal: 12
+views in the first two minutes**, the fastest start any reply has had.
+
+### Why a grand philosophical post was safe and the thermostat line was not
+
+Naval's post is apocalyptic and lyrical, which is precisely the shape that produced the rejected
+Cold War thermostat line — *a self-own can still be a dunk if it deflates the parent's premise.*
+Two candidate lines were rejected on exactly that:
+
+- "Safe. Nothing has ever hunted a man in a vest." Genuinely funny, uses the strongest prop, and it
+  says *your apocalyptic framing does not touch ordinary life*. That is deflating the premise.
+- "Unc's the patchwork mediocrity. Always has been." Needs Naval's phrase to land, so it fails the
+  standalone test as well.
+
+The Dale line survives because **it engages with the list, not with the claim.** Whether AI is
+feasting on geniuses is untouched; Unc has simply misunderstood what he was being asked. That is the
+distinction worth keeping: find a door into a *noun* in the parent, not into its argument.
+
+### X edit history: reply to the CURRENT version or the reply lands on a corpse
+
+New mechanic, caught one call before it cost the round. The velocity scan surfaced
+`/naval/status/2097839621149540678` at 10,003 views. Opening the post page showed:
+
+> There's a new version of this post. See the latest post
+
+Naval had **edited** it. The old id kept accruing views (11.6K) but the live post was
+`2097840409468973184` at 3,670 views, two minutes old. Replying to the old id would have threaded
+Unc under a superseded version that nobody's timeline serves.
+
+```js
+Array.from(document.querySelectorAll('a')).filter(a=>/latest post|new version/i.test(a.innerText))
+  .map(a=>a.getAttribute('href'))
+```
+
+**Add this to the post-page pre-flight**, alongside `restricted` and the parent like. It also
+explains why the two ids show wildly different view counts for the same words, and it means the
+velocity figure from a search hit can belong to a post that no longer exists. Re-read views on the
+post page after resolving the current id — 1,835/min here, not the 3,315/min the scan reported.
+
+### Rejected this round
+
+| Candidate | Age / velocity | Why |
+|---|---|---|
+| @levelsio, "He's right" on Amazon Air being among the worst airlines in the world for safety record, with fatal odds compared to two named national carriers | 5m, **638/min**, 2,978 views | Second-highest velocity on the board. Names three companies and calls two of them dangerous. Air safety and fatality odds, the day after an air crash was already on the board. Hard skip. **Not liked.** |
+| @HarryStebbings, memory co-located with GPUs | 40m, 49/min | Already replied to 20 minutes earlier, in the previous round. Kept the like. |
+| @levelsio x2, a named lab's CEO quoted back at someone, and "I'll have to block you now because you keep making up that story" | 2m, 4m, 13-19/min | A live argument with named people, and a named lab. No reach either. |
+| @ColinGardiner, "I would LP into SBF fund" | 9m, 7 views | A joke whose subject is a convicted fraud. A public like there is Unc making light of people losing money — the standing skip. **Not liked**, and this is the first time the skip list has bitten on a *like* rather than a reply. |
+| @nic_detommaso, "this is the goal" | 3m | Four words replying to someone, quoted post not visible. Nothing to be funny about, and unreadable for a like per the read-the-quote rule. |
+| @hackgoofer via Alex Volkov, CoreWeave hackathon sponsorship | 76m, 192 views | Freshness and a promo. |
+
+### The board shape: two fast posts, one of them unusable
+
+For the third round running the mega batch was the only instrument that produced anything — the
+twenty-handle batch returned **eight posts, seven of them @ColinGardiner replying to friends at 2 to
+24 views**, and the Following timeline served four articles. The mega batch produced exactly two
+posts above 600/min and one of them was airline fatality statistics. That is the evening pattern the
+23:50 round named: fewer clean fast posts, so **read the velocity bar relative to the board.**
+1,835/min against a next-best of 49/min clean is an easy decision.
+
+### Measurement: the numbers are real now, and `op` is still zero
+
+`with_replies` served one conversation and would not paginate for the eighth round running, so
+`from:UncFund&f=live` was used instead — **it paginates and it carries the view counts.** Make it the
+default measurement instrument and stop opening `with_replies` for anything but send verification.
+
+| Reply | Age | Views | Likes | OP replied |
+|---|---|---|---|---|
+| @Jason, "This Week in Unc Fund" | 117m | **54** | 0 | n |
+| @MartinGTobias, "never been digitally transformed" | 232m | **59** | 0 | n |
+| @MollySOShea, "around one person" | 6h | 8 | 0 | n |
+| @HarryStebbings, "co-located with his readers" | 20m | 6 | 0 | n |
+| Own post, "Not a portfolio company. A nephew." | 74m | 3 | 0 | — |
+
+Likes since the last round: **none new.** The standing totals hold — Communacopia 1, @ycombinator
+"senior" 5 over two days, Hermes 1, page-41 1.
+
+**Nine consecutive replies with `op` = n.** No original poster has ever answered Unc. The one inbound
+conversation the account has had came from @jdtoelle, a stranger reading @Jason's thread. That is
+worth naming as a possible correction to doctrine: **at twelve followers the reachable prize may be
+the third-party reply, not the OP reply.** A big account answering a twelve-follower reply may simply
+not be an available outcome yet, in which case "chase the OP reply" is optimising for something out
+of reach while the thing that actually worked — a joke a bystander liked enough to answer — gets no
+weight. Not changing the rule on one observation; flagging it for the fifty-reply review.
+
+### Mechanics: clean, twelfth round running with no click retries
+
+Pre-flight on the post page: `restricted: false`, parent like through with no dialog, **and the new
+edit-version check**, which fired. Concurrent-run check re-run in a second tab immediately before
+composing — newest Unc reply 18 minutes, clear. Intent composer, text and "Replying to @naval"
+confirmed by read-back, counter read **14** on the second `[role="progressbar"]`, "Your post was
+sent.", verified on `with_replies` twelve seconds later with the correct parent above it. Six likes,
+all first try via `element.click()`. No coordinate clicks and no screenshots used to post.
+
+### Follows: none, and the pause is holding
+
+The pause is now paying for itself in a way worth recording: **@vladtenev followed the account
+without being followed first.** The 5.8:1 ratio argument was about credibility; this is the positive
+case — a reply good enough to earn a follow does not need a follow to bait it.
