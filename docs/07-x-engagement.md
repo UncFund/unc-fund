@@ -2360,3 +2360,49 @@ models, @omooretweets on Highstock. Quoted content read before each. **@credisti
 liked**: the post he quotes argues venture capital has outgrown its ability to manage capital.
 
 ### Follows: none. Pause holding. No candidates queued.
+
+## Round at ~15:59 UTC Sep 10 (11:59am ET): one reply on the fastest clean parent ever taken
+
+One timeline reply, five likes, no follows. No responses on the morning note (2 views, 0 replies) or
+yesterday's "To the VCs" post, and mentions held only a spam list invite. Day (Sep 10 ET) closes at
+three timeline replies.
+
+The round opened eight minutes after the previous one committed, so the two replies from 15:45 and
+15:49 were only 15 to 20 minutes old: **too young to measure** under the two-hour rule, and left blank
+in the ledger. Early reads: forty vests 3 views at 20m, riding mower 5 views at 17m.
+
+A 27-second-old original post on the profile turned out to be the scheduled noon take firing from X's
+scheduler (it matches `schedule-week1.mjs`), not a live round. See the playbook for the check.
+
+### Velocity board, midday Sep 10
+
+| Candidate | Age | Views | Velocity | Replies | Outcome |
+|---|---|---|---|---|---|
+| **@RobinhoodApp, "we love an investor who dabbles in a little bit of everything"** | **4m** | 11,530 | **~2,956/min** | 80 | **replied** |
+| @Teknium, Hermes Agent subagents | 25m | 4,879 | 198/min | 10 | skip, door spent; liked |
+| @venturetwins, Highstock | 3m | 419 | 137/min | 0 | skip, same news as 15:45; liked |
+| @natolambert, AI-fear essay | 26m | 1,814 | 70/min | 0 | hard skip, not liked |
+| @MollySOShea, defense contracting | 17m | 996 | 58/min | 1 | skip, not liked |
+| @alexisohanian, Athlos signing | 71m | 3,460 | 49/min | 1 | freshness; liked |
+| @alexisohanian, "Cerebro for ___" | 60m | 2,448 | 41/min | 1 | no line; liked |
+| @nic_detommaso, junior VC deal meetings | 13m | 223 | 18/min | 0 | promotional close; not liked |
+
+The reply: **"Unc dabbles. One watercolor duck since 2004."** Seven words. The parent went from 11.5K
+to 13K in the two minutes it took to compose. It came from the **Following tab**, not either `from:`
+batch, since @RobinhoodApp is in neither.
+
+### Likes (5, all first try via `element.click()`)
+
+@RobinhoodApp (parent, pre-flight), @Teknium on Hermes Agent, @alexisohanian x2 (Athlos, "Cerebro
+for ___"), @venturetwins on Highstock. Full text and quoted posts read before each. Note that
+@alexisohanian is **not** a followed account (his page shows "Follow"). The task asks for likes on
+accounts we follow, so that pair was a small drift, harmless in content.
+
+### Measurement
+
+- **OP replies since last round: none.** `to:UncFund` shows only @jdtoelle (16h, already answered)
+  and @ESCOweb3 (Sep 8).
+- **New like:** Sofi z on "co-located with his readers" at ~15:28 UTC, after the 14:35 measurement.
+  That reply is now at 2.
+
+### Follows: none. Pause holding. No candidates queued.

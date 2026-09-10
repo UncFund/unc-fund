@@ -2682,3 +2682,86 @@ Had the rule been "resend if with_replies does not show it", that would have bee
 A task-file note: the scheduled task still describes posting with `form_input` and a screenshot
 click. This playbook retired both (Sep 8 and Sep 9), and this round used the intent composer and
 `.click()` as documented here. The task file should be updated to match.
+
+## Log
+
+| Date | Where | Mode | What |
+|---|---|---|---|
+| 2026-09-10 ~16:05 UTC | @RobinhoodApp, "we love an investor who dabbles in a little bit of everything", **4m old, 11,530 views, ~2,956 views/min**, 80 replies | Oblivious literal | "Unc dabbles. One watercolor duck since 2004." **Seven words.** |
+
+## Round at ~15:59 UTC (11:59am ET Sep 10): the fastest clean parent ever caught, and one reply on purpose
+
+Scheduled round, viewport matched to the 800x455 frame on the first call, session check clean. One
+timeline reply, five likes, no follows, nothing to answer on our own threads or in mentions. Day (Sep
+10 ET) closes this round at three.
+
+### Two things that looked like a concurrent run and were not
+
+**1. Unc replies ten and fourteen minutes old.** This round started eight minutes after the previous
+one committed (a3f6a95 at 15:51 UTC); the 10am round had run long. Both replies belong to that
+committed round, so per the committed-versus-live refinement there was nothing to yield to.
+
+**2. A brand-new original post, 27 seconds old, that this session did not write.** It landed at
+**16:00:03 UTC**, noon ET to the second, and it is the Sep 10 12pm take in `docs/schedule-week1.mjs`
+word for word. X's scheduler posted it. **The rule that follows: before yielding on a young post,
+check whether it is an original post at the top of an hour that matches `schedule-week*.mjs` or
+`06-content-calendar.md`.** If it is, it is the scheduler, not a live round. A live round leaves
+*replies*, at arbitrary minutes, and an uncommitted working tree.
+
+### One reply and no more, on cadence rather than quality
+
+With two replies already at 15:45 and 15:49, a third at 16:05 makes three in twenty-one minutes. That
+is the most this account should do in a window that short; the Sep 7 pile-up was six in twenty-five.
+So the round budgeted exactly one, whatever else turned up. Freshness decided the timing: waiting
+another ten minutes to space it out would have cost the steepest part of the parent's curve.
+
+### The setup
+
+**@RobinhoodApp, "we love an investor who dabbles in a little bit of everything."** Text only, no
+image, no ticker, no chart, no price. Seen at 3 minutes and 10,416 views, **11,530 at 3.9 minutes**
+on the post page, and 13K at 5.8 minutes when the reply landed. **~2,956 views/min is the fastest
+clean parent this account has ever taken**, well past @naval's 1,835. Only the @sama post (4,218/min)
+was faster, and that one was skipped on (e).
+
+> Unc dabbles. One watercolor duck since 2004.
+
+Unc hears "dabbles" as a hobby and reports his output: one duck in twenty-two years. The first beat
+reads for half a second as if Unc is about to talk about investing, and the second turns it into
+watercolors. That turn is the whole joke, and it is also the reason the reply is clean under a
+brokerage account. **A line about trading under this parent would be an automatic skip. A line about a
+duck takes no position on anything.** It clears the standalone test, nobody is the butt, and it
+agrees with the parent's spirit rather than deflating it.
+
+Shape check: this is the "Unc does something badly over a long time" family (page 41 of the
+biography, Sep 8), two days apart. It is not the analogue-object family, not mirror-the-format, and
+not Dale, who is rationed until Sep 12.
+
+### The Following tab found it, and @RobinhoodApp is in neither `from:` batch
+
+Both `from:` batches ran first as usual and topped out at 198/min (@Teknium, on a door already spent).
+The Following tab served six articles, and the first was a three-minute-old post doing 3,000 views a
+minute. Robinhood's feed is mostly skip-list material (market opens, trading, tokens), so it is not
+a reliable velocity source. It is worth a glance every round, though, because a text-only brand post
+from it moves faster than anything in either batch. **Run the Following tab every round even when the
+batches look complete.**
+
+### Rejected this round
+
+| Candidate | Age / velocity | Why |
+|---|---|---|
+| @Teknium, subagent observability in Hermes Agent | 25m, 198/min, 10 replies | Hermes and agent doors both spent (Sep 9 tie, Sep 8 travel agents). Liked. |
+| @venturetwins, a16z's Highstock investment | 3m, 137/min, 0 replies | Same news the 15:45 reply already covered under @a16z. Never the same announcement twice. Liked. |
+| @natolambert, essay on why one resignation turned AI fear into a wildfire | 26m, 70/min | AI-doom cycle, named lab. Hard skip, not liked. |
+| @MollySOShea, one person blocking a defense program | 17m, 58/min | Defense, Covenant precedent. Not liked. |
+| @alexisohanian, welcoming Nikki Hiltz to Athlos | 71m, 49/min | Freshness. Liked. |
+| @alexisohanian, "Love seeing 'Cerebro for ___' in my inbox" | 60m, 41/min | At the freshness edge with a thin rate; no line better than a restatement. Liked. |
+| @nic_detommaso, the junior's week in VC deal meetings | 13m, 18/min | Long post that closes on a product endorsement (Harmonic). Promotional; not liked. |
+| @jasonlk thread replies on job losses and growth ending | 49–64m, 6–26/min | Layoffs-adjacent and thread replies. Skip. |
+
+### Mechanics: clean, fourteenth round running with no click retries
+
+Pre-flight on the post page: `restricted: false`, no edit-version link, parent like went through with
+no dialog. Concurrent-run check re-run on `with_replies` immediately before composing. Intent
+composer, text and "Replying to @RobinhoodApp" confirmed by read-back, counter **16** on the second
+`[role="progressbar"]`, "Your post was sent.", and the reply was on `with_replies` eight seconds later
+with the parent above it. Five likes, all first try via `element.click()`. No coordinate clicks.

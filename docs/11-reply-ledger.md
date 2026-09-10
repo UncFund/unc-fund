@@ -55,13 +55,21 @@ conversation rather than standing alone.
 | 09-09 19:20 | @MartinGTobias | 15 | oblivious | 987 | 31 | 32 | 10 | 92 | 1 | n |
 | 09-09 22:12 | @Jason | 21 | mirror | 4069 | 17 | 239 | 0 | 221 | 0 | n |
 | 09-09 23:54 | @jdtoelle | 20 | oblivious | — | 37 | — | — | 2 | 0 | n |
-| 09-09 23:59 | @HarryStebbings | 16 | oblivious | 1193 | 22 | 54 | 5 | 112 | 1 | n |
+| 09-09 23:59 | @HarryStebbings | 16 | oblivious | 1193 | 22 | 54 | 5 | 112 | 2 | n |
 | 09-10 00:22 | @naval | **7** | oblivious | 3670 | 2 | 1835 | 18 | **2717** | 2 | n |
 | 09-10 15:45 | @a16z | **7** | prop | 3241 | 16 | 203 | 2 | | | |
 | 09-10 15:49 | @sweatystartup | 8 | oblivious | 1716 | 18 | 95 | 3 | | | |
+| 09-10 16:05 | @RobinhoodApp | **7** | oblivious | 11530 | 4 | **2956** | 80 | | | |
 
 Blank cells in the historical rows are genuinely unknown and are left blank rather than estimated.
 Rows from here on get filled completely.
+
+**09-10 16:05 is the fastest clean parent ever taken: ~2,956 views/min at four minutes.** A seven-word
+reply on it is the length arm's best-placed test yet. By the rule of thumb below (eventual views at
+0.9 to 1.5 times parent velocity on fast parents) it should land somewhere in the 2,500 to 4,500
+range. If it comes in far under that, the rule of thumb is wrong, or a brokerage brand account's reply
+section ranks differently from a founder's. The 15:45 and 15:49 rows were only 15 to 20 minutes old
+at this round and are still unread. The 09-09 23:59 like count moved to 2 (Sofi z, ~15:28 UTC Sep 10).
 
 **09-10 00:22 is the first reply under eight words the account has ever posted.** Seven words, on
 the second-fastest parent ever caught (1,835 views/min). Every prior row is 12-21 words. This is the
