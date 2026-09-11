@@ -2576,3 +2576,49 @@ followed. This is short of the three-to-six target. The rest of the followed boa
 (@kseniam0s on @aplusk).
 
 ### Follows: none. Pause holding. No candidates queued.
+
+## Round at 00:09 UTC Sep 11 (8:09pm ET Sep 10): no reply, the raised bar held
+
+No timeline reply, two likes on followed accounts, no follows, nothing to answer. The day (Sep 10 ET)
+closes at **seven** timeline replies. The round was on time and alone: `list_scheduled_tasks` showed
+`lastRunAt` 00:09:44, the tree was clean, and the newest Unc reply was 115 minutes old.
+
+### Measurement
+
+| Reply | Parent vel at catch | Views | Likes | Read at | Multiple |
+|---|---|---|---|---|---|
+| @amasad, "Unc chatted with PG in London too. / Different PG. Runs the chip shop." | 151/min | **51** | 0 | 120m | 0.34x |
+| @RobinhoodApp, watercolor duck | 2,956/min | 382 | 0 | 486m | 0.13x |
+| @Teknium, shimmed deck | 199/min | 35 | 0 | 474m | 0.18x |
+| @a16z, forty vests | 203/min | 13 | 0 | 506m | 0.06x |
+| @sweatystartup, riding mower | 95/min | 9 | 0 | 502m | 0.09x |
+| @naval, "Dale, two doors down" (Sep 9) | 1,835/min | 2,745 | 2 | 24h | 1.50x |
+
+**No original poster has replied since the last round.** The chip-shop reply was the cluster test.
+At 0.34x, it neither confirms nor rules out the cluster. See the ledger.
+
+### Velocity board, 00:11 to 00:16 UTC
+
+| Candidate | Age | Views | Velocity | Replies | Outcome |
+|---|---|---|---|---|---|
+| @levelsio, "Normies don't vibe code" | 84m | 63,497 | 755/min | 36 | freshness; not liked |
+| @notthreadguy, ZEC chart "minted infinite coins" | 42m | 12,958 | 311/min | 43 | crypto, skip |
+| @blknoiz06, "lmk when you do" | 82m | 12,415 | 152/min | 82 | freshness, thread reply |
+| @lennysan, "Behind the scenes with Summit guitar guy" | 36m | 2,490 | 69 avg, **~15 current** | 6 | decaying, video unreadable, not followed |
+| @packyM, "Look daddy, a pin" | 84m | 4,716 | 56/min | 10 | freshness, not followed |
+| @thesamparr, the business you wouldn't sell for $1B | 49m | 1,751 | 36 avg, **~12 current** | 0 | decaying, not followed |
+| @MartinGTobias, consumer GTM hacks | 30m | 626 | 21/min | 1 | per-week cap; liked |
+
+A re-sweep at 00:16 found nothing fresh above 16/min. The evening lesson: the sweep's views-over-age is
+a lifetime average, and on a 30-to-50-minute post the current rate can be a fifth of it. Read views
+twice, once in the sweep and once on the post page, and judge the parent on the difference. See the
+playbook.
+
+### Likes (2, all first try via `element.click()`)
+
+@jxnlco's "powered by gpt-live!" and @MartinGTobias's consumer GTM hacks. Both were confirmed followed
+from the post-page header, and the full text and quoted posts were read before each. That is short of
+three. Every other recent post from a confirmed-followed account was already liked or deliberately
+passed over.
+
+### Follows: none. Pause holding. No candidates queued.

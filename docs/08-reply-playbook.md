@@ -3124,3 +3124,77 @@ not follow them, and **"Subscribe"** or nothing when we do. One regex on the fir
 article settles it before a like.
 
 ### Follows: none. Pause holding. No candidates queued.
+
+## Log
+
+| Date | Where | Mode | What |
+|---|---|---|---|
+| 2026-09-11 00:09 UTC | Scheduled round | — | **Zero timeline replies.** Day (Sep 10 ET) at seven, and the evening board's best clean parents had slowed to 12 to 15 views a minute. Two likes, no follows, nothing to answer. The chip-shop cluster test read 0.34x. |
+
+## Round at 00:09 UTC Sep 11 (8:09pm ET Sep 10): nothing met the raised bar
+
+Scheduled round, on time (`lastRunAt` 00:09:44). Viewport matched to 800x455 on the first call, and
+`twid` was true. The tree was clean and the newest Unc reply was 115 minutes old (the committed chip-shop
+reply), so there was no concurrent run. The day opened at **seven** timeline replies. Past five, the
+task says to raise the bar further and expect to post nothing, and that is how it went.
+
+There was nothing to answer. The morning note, the 4pm take and the 7pm "Nobody felt ready" post all
+have no replies. `to:UncFund` holds only @jdtoelle and @ESCOweb3, both handled, and notifications held
+the known DM-bait reply, two new followers and likes on already-logged replies.
+
+### The board decayed faster than the timestamps suggest
+
+Two clean candidates cleared freshness on average velocity and failed on *current* velocity:
+
+- **@lennysan, "Behind the scenes with Summit guitar guy"**, a 21-second video. It was at 34 minutes and
+  2,461 views in the sweep, and 36 minutes and 2,490 on the post page. That averages 69/min but was
+  running at **about 15/min** at the catch. The video content did not surface in the DOM, so any line
+  would have been a guess at what the guitar guy does.
+- **@thesamparr, "the business you love so much you wouldn't sell even for $1b"**. It went from 1,726 to
+  1,751 views between 47 and 49 minutes, about **12/min**. The line that arrived was "Unc wouldn't sell
+  the vest for a billion dollars. Nobody has asked." It is a serviceable prop line on a parent that was
+  already spent. Unused, and it stays unused.
+
+**The refinement: on an evening board, read velocity twice.** The sweep's views-over-age figure is an
+average over the post's whole life. The post-page read a minute or two later gives the current rate,
+and on a 30-to-50-minute post the two can differ by 5x. Sep 9's velocity wins were all caught under
+five minutes, where average and current rates are the same thing. Past twenty minutes they are not.
+Take the difference between the sweep read and the post-page read, and judge the parent on that.
+
+Everything else on the board was stale or on the skip list: @levelsio at 84 minutes (755/min, arguing
+with repliers about "normies"), @notthreadguy's ZEC "minted infinite coins" chart (crypto), @blknoiz06
+at 82 minutes, and @packyM's "Look daddy, a pin" at 84 minutes. A re-sweep at 00:16 UTC found nothing
+fresh above 16/min.
+
+### Chip-shop cluster test: 0.34x, which settles nothing
+
+Full read in `11-reply-ledger.md`. Short version: 51 views at 120 minutes on a 151/min parent. That
+beats the afternoon cluster's tenth, but it is far short of the rule of thumb. The rule of thumb has
+only ever held on parents above ~500/min, and below that the multiple scatters from 0.3x to 2.9x. Stop
+designing one-reply tests, and keep replies thirty minutes apart by default.
+
+### Two tooling notes
+
+1. **`from:UncFund` search missed a 70-minute-old original post.** The 7pm scheduled post landed at
+   ~23:00 UTC, but the 00:11 `from:UncFund` read did not show it and the 00:17 read did. The search
+   index lags on original posts, not only on fresh replies. A concurrent-run check that relies on
+   `from:` alone can miss things. Pair it with `list_scheduled_tasks` and `git status`, which is what
+   settled it this round.
+2. **The `/UncFund/following` scrape is contaminated by bio mentions.** Collecting `UserCell` links
+   picks up every handle in every followed account's bio, which is how @Apple, @Snap and @GoldmanSachs
+   ended up on the list. Do not use that list to decide who is followed. Instead, run a
+   `from:<handles> -filter:replies` search over accounts earlier rounds confirmed as followed, and check
+   the post-page header ("Subscribe" means followed, "Follow" means not) before each like. The search
+   also shows each post's liked state, so already-liked posts drop out in one pass.
+
+### Likes: two, short of three
+
+@jxnlco's "powered by gpt-live!" (quoting a Devin voice post) and @MartinGTobias's consumer GTM hacks
+post (quoting Rohan Nayak's growth thread). Both were confirmed followed from the header, both landed
+first try via `element.click()`, and both were verified by the `unlike` testid. Every other recent post
+from a confirmed-followed account was already liked or had been deliberately passed over: @kseniam0s
+quoting @aplusk on sleep deprivation, and @HarryStebbings speculating about a named person. Likes on
+reposts by followed accounts of posts by accounts we do not follow were not taken, to avoid the drift
+the 20:46 round flagged.
+
+### Follows: none. Pause holding. No candidates queued.

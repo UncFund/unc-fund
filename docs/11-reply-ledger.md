@@ -55,15 +55,31 @@ conversation rather than standing alone.
 | 09-09 19:20 | @MartinGTobias | 15 | oblivious | 987 | 31 | 32 | 10 | 92 | 1 | n |
 | 09-09 22:12 | @Jason | 21 | mirror | 4069 | 17 | 239 | 0 | 230 | 0 | n |
 | 09-09 23:54 | @jdtoelle | 20 | oblivious | — | 37 | — | — | 2 | 0 | n |
-| 09-09 23:59 | @HarryStebbings | 16 | oblivious | 1193 | 22 | 54 | 5 | 112 | 2 | n |
-| 09-10 00:22 | @naval | **7** | oblivious | 3670 | 2 | 1835 | 18 | **2717** | 2 | n |
-| 09-10 15:45 | @a16z | **7** | prop | 3241 | 16 | 203 | 2 | 12 | 0 | n |
+| 09-09 23:59 | @HarryStebbings | 16 | oblivious | 1193 | 22 | 54 | 5 | 126 | 1 | n |
+| 09-10 00:22 | @naval | **7** | oblivious | 3670 | 2 | 1835 | 18 | **2745** | 2 | n |
+| 09-10 15:45 | @a16z | **7** | prop | 3241 | 16 | 203 | 2 | 13 | 0 | n |
 | 09-10 15:49 | @sweatystartup | 8 | oblivious | 1716 | 18 | 95 | 3 | 9 | 0 | n |
-| 09-10 16:05 | @RobinhoodApp | **7** | oblivious | 11530 | 4 | **2956** | 80 | 351 | 0 | n |
-| 09-10 16:17 | @Teknium | **6** | oblivious | 1654 | 8 | 199 | 2 | 33 | 0 | n |
-| 09-10 16:35 | @ESCOweb3 | **4** | praise | — | — | — | — | 8 | 1 | n |
+| 09-10 16:05 | @RobinhoodApp | **7** | oblivious | 11530 | 4 | **2956** | 80 | 382 | 0 | n |
+| 09-10 16:17 | @Teknium | **6** | oblivious | 1654 | 8 | 199 | 2 | 35 | 0 | n |
+| 09-10 16:35 | @ESCOweb3 | **4** | praise | — | — | — | — | 9 | 1 | n |
 | 09-10 20:41 | @MollySOShea | 12 | thesis | 577 | 9 | 63 | 1 | void (6) | 1 | n (liked) |
-| 09-10 22:16 | @amasad | 13 | oblivious | 1267 | 8 | 151 | 2 | | | |
+| 09-10 22:16 | @amasad | 13 | oblivious | 1267 | 8 | 151 | 2 | 51 | 0 | n |
+
+**The 09-10 22:16 cluster test landed in between: 51 views at 120 minutes, 0.34x its 151/min parent.**
+That is three times the afternoon's rate (0.06 to 0.17x) and a third of the 0.9 to 1.5x rule of thumb,
+so it neither confirms nor rules out the cluster. It is also thirteen words on a person's account, so
+it separates nothing on length or on brand accounts either.
+
+What the row does show, read against Sep 9: **the rule of thumb has only ever held above about
+500/min.** The mid-velocity rows scatter widely: 239/min returned 0.96x, 81/min 0.3x, 54/min 2.1x,
+32/min 2.9x, and now 151/min 0.34x. A sub-200/min parent's multiple is mostly noise at n=1, so a
+single reply cannot settle the cluster question. Stop designing one-reply tests. Keep replies at least
+thirty minutes apart by default, which costs nothing, and let the question answer itself across a week
+of spaced rows.
+
+Later reads at 00:17 UTC Sep 11 moved the rows above to their current values: duck 382, shimmed 35,
+vests 13, mower 9, Dale 2,745, and co-located 126. The co-located row's aria-label now reads **1 like,
+down from 2**. It is logged as read. A withdrawn like is the likeliest explanation, but that is a guess.
 
 **09-10 22:16 is the cluster test the Devin Pops reply was meant to be.** It went out 95 minutes after
 the previous Unc reply, and nothing else went out within thirty minutes of it. The parent is clean, text
