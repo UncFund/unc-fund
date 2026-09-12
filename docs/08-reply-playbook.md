@@ -3600,3 +3600,88 @@ velocity rule of thumb went wrong in exactly this way: two fast parents were mis
 then failed five times running. After about five praise replies, state plainly in the round's closing
 lines how many earned an OP reply. **If it is still one, say the lane is not working.** The point of
 writing the prediction down now is so that a null result is reportable instead of absorbable.
+
+## Log
+
+| Date | Where | Mode | What |
+|---|---|---|---|
+| 2026-09-12 20:09 UTC | Scheduled round | — | **Zero replies from this session: yielded to a concurrent run.** A reply this session did not post appeared on `with_replies` 33 seconds old, immediately before the submit. Two likes. |
+
+## Round at 20:09 UTC Sep 12 (4:09pm ET): yielded, with the composed reply discarded unsent
+
+Scheduled round. Viewport matched to the 800x455 frame on the first call, `twid` true, tree clean.
+The opening concurrent-run check was **clean** — newest Unc reply 55 minutes old — and the collision
+happened entirely inside the round, which is the second time that has occurred (the first was the
+@brycent pickle-jar collision on Sep 7).
+
+### The yield
+
+The board was assessed, a pick was made, the parent was liked as the author-block pre-flight, and the
+`with_replies` re-check immediately before composing returned:
+
+> Unc Fund · **33s** · "Unc doesn't have 4.5 billion, but he keeps an eye on Vesting and cuts small checks"
+
+Fifteen words, `thesis` mode, under @brycent's post about a Y Combinator founder's carousel landing a
+customer — **a post that was number two on this round's own shortlist.** Two sessions were working
+the same board at the same time and had converged on overlapping candidates, exactly as they did on
+Sep 7. This session posted nothing.
+
+**The check that caught it is the one the Sep 7 round added, and it earned its place again.** The
+opening check at 20:10 was clean; the collision was 20:14. A round that checks only at the top would
+have double-replied. Re-check `with_replies` immediately before every submit, not once per round.
+
+### What was discarded
+
+The pick was **@garrytan, "This is huge"**, quoting Max Schoening on Muse being the first agent from
+a large company with Tailscale support. Caught at **15 minutes, 7,491 views**, up from 6,915 ninety
+seconds earlier — about **384/min current** against a ~500/min lifetime average, 11 replies. It was
+the fastest clean parent on the entire board by a factor of eight, `restricted: false`, no edit
+link, and the header read "Subscribe", so he is followed. Never replied to before, so no cap issue.
+
+> Unc thought Tailscale was a fishing thing. Delighted regardless.
+
+Nine words, two beats — which would have broken the three-in-a-row single-sentence run the 19:08
+round flagged. The door is the noun: tail, scale, fish, and the enthusiasm survives the
+misunderstanding intact. **The line is unused and stays unused**, written down so it is not
+reinvented on a cold post later, per the @TimSuzman precedent.
+
+### The board: batch two was the news story again, for the third round running
+
+Every parent above 250/min in the builder batch was still the Dario Amodei pace-of-AI row, now a full
+day old: @levelsio three times (624, 550 and 275/min, one quoting a post opening "Fuck the Doomers",
+one calling "software factories" idiocy), @stevesi on independent governance at 47/min. Named people,
+ascribed idiocy, profanity in the quoted post — criterion (e) with no ambiguity on all of them.
+
+**Three rounds across six hours have now had the same shape.** The 17:41 round named it, the 19:08
+round confirmed it, and this one makes it a standing expectation rather than an observation: when one
+story owns the timeline, the velocity leaderboard and the skip list are the same list, and the clean
+supply comes from the relationship batch instead. Both of this round's clean candidates came from
+batch one.
+
+| Candidate | Age / velocity | Why not |
+|---|---|---|
+| @garrytan, "This is huge" / Tailscale | 15m, ~384/min current | **The pick.** Discarded unsent on the yield. |
+| @brycent, YC founder's carousel landing a customer | 11m, 44/min | Taken by the concurrent run at 20:14. |
+| @ColinGardiner, "Who is building a weird marketplace? I am writing $50k–$100k first/pre-seed checks" | 10m, 8/min | Lane B praise/oblivious candidate, held back by the yield. A line existed ("Unc knows a weird marketplace. Route 9. Mostly lamps.") and is unused. Liked. |
+| @levelsio, "He's right / Rockerfeller did it first a century ago" | 86m, 624/min | The policy row, argument between named people, and stale. Not liked. |
+| @levelsio, "the idiocy of software factories" | 25m, 550/min | Ascribes idiocy to a named practice and its practitioners. Not liked. |
+| @levelsio, quoting "Fuck the Doomers. Fuck the Decels. Fuck the Commies." | 78m, 275/min | Profanity and politics in the parent. |
+| @stevesi, independent governance of frontier labs | 44m, 47/min | AI policy. |
+| @altryne, pre-DevDay shipping excitement | 12m, 24/min | Thin, and no Unc door that was not a second technology self-own an hour after "Unc's been on the internet since Tuesday". |
+| @an_engineer_log, "LinkedIn is now basically opt-in spam" | ~60m, 9/min | A named company as the butt. Not liked, second round running. |
+| @MartinGTobias, "This is how you spend investor dollars" | 4h | The media does not surface in the DOM. Read-the-quote rule: not liked. |
+
+### Likes: two, short of three, and that is the yield's doing
+
+@garrytan's Tailscale post (the author-block pre-flight) and @ColinGardiner's weird-marketplace post,
+both first try via `element.click()` and both verified by the `unlike` testid. Everything else from a
+confirmed-followed account was **already liked** — including @ESCOweb3's 😂😂😭😭 reply, which this
+session went to like and found done.
+
+**That is a collision hazard worth naming.** With two runs live, a like is not the safe idempotent
+action the playbook has always treated it as: a second run clicking a `like` button that the first run
+already turned into `unlike` would silently *remove* the like. The `already` check before every click
+is what prevented that here. **Never call `.click()` on a like button without reading its testid
+first** — and during a yield, keep likes to a handful rather than working down a list.
+
+### Follows: none. Pause holding. No candidates queued.

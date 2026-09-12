@@ -2813,3 +2813,22 @@ The Following tab again refused to paginate past six articles; the `from:` batch
 both the sweep and the likes.
 
 ### Follows: none. Pause holding. No candidates queued.
+
+## Round at 20:09 UTC Sep 12 (4:09pm ET): yielded to a concurrent run
+
+Zero replies from this session. The opening `with_replies` check was clean (newest Unc reply 55
+minutes old); the re-check immediately before the submit found a reply **33 seconds old** that this
+session did not post — @brycent, 20:14:13, "Unc doesn't have 4.5 billion, but he keeps an eye on
+Vesting and cuts small checks". Second in-round collision on record. Composed pick (@garrytan,
+Tailscale, ~384/min) discarded unsent.
+
+**Measurement, read 20:10–20:20 UTC.** `op` is now **two** rows, both @ESCOweb3, both answered
+inside four minutes: "Thanks UNC" at 17:51:06 (163 seconds after Unc's four-word "I'm proud of you",
+not the eighty minutes previously logged), and 😂😂😭😭 at 19:18:14 on the own-thread follow-up. The
+previous round's replies at ~2.4 hours: @alexisohanian 10 views, @ESCOweb3 21 (1 like), @MartinShkreli
+74, @gregisenberg 39 at 60 minutes. Zero likes on all but the praise reply.
+
+**Third round running where the velocity leaderboard and the skip list are the same list.** The
+builder batch was entirely the Dario Amodei pace-of-AI row (@levelsio at 624, 550 and 275/min,
+@stevesi at 47/min). Both clean candidates came from the relationship batch. Two likes. No follows —
+pause holding, no candidates queued.

@@ -89,11 +89,38 @@ Three things to hold onto when reading these rows back:
 | 09-10 20:41 | @MollySOShea | 12 | thesis | 577 | 9 | 63 | 1 | void (12) | 1 | n (liked) |
 | 09-10 22:16 | @amasad | 13 | oblivious | 1267 | 8 | 151 | 2 | 67 | 0 | n |
 | 09-11 02:45 | @blknoiz06 | 8 | oblivious | 34469 | 35 | 988 (~334 now) | 60 | 105 | 0 | n |
-| 09-12 17:44 | @alexisohanian | **5** | prop | 1601 | 20 | 80 (~51 now) | 1 | 7 | 0 | n |
-| 09-12 17:46 | @ESCOweb3 | **4** | praise | 366 | 25 | 15 | 2 | 17 | 1 | **y** |
-| 09-12 17:54 | @MartinShkreli | **6** | oblivious | 58043 | 79 | 735 | 81 | 66 | 0 | n |
-| 09-12 19:12 | @ESCOweb3 | **5** | own-thread | — | — | — | — | | | |
-| 09-12 19:14 | @gregisenberg | **7** | oblivious | 8333 | 39 | 216 (~85 now) | 31 | | | |
+| 09-12 17:46 | @alexisohanian | **5** | prop | 1601 | 20 | 80 (~51 now) | 1 | 10 | 0 | n |
+| 09-12 17:48 | @ESCOweb3 | **4** | praise | 366 | 25 | 15 | 2 | 21 | 1 | **y** |
+| 09-12 17:56 | @MartinShkreli | **6** | oblivious | 58043 | 79 | 735 | 81 | 74 | 0 | n |
+| 09-12 19:12 | @ESCOweb3 | **5** | own-thread | — | — | — | — | 12 | 1 | **y** |
+| 09-12 19:14 | @gregisenberg | **7** | oblivious | 8333 | 39 | 216 (~85 now) | 31 | 39 (60m) | 0 | n |
+| 09-12 20:14 | @brycent | 15 | thesis | 472 | 11 | 44 | 1 | | | |
+
+### `op` is now two rows, both @ESCOweb3, and both came back inside four minutes
+
+Read 20:10–20:20 UTC Sep 12.
+
+- **"Thanks UNC" came three minutes after Unc's line, not eighty.** Unc's "I'm proud of you" posted
+  at 17:48:23 and @ESCOweb3 answered at 17:51:06 — 163 seconds. The 19:08 round recorded the gap as
+  eighty minutes. The correction matters: a three-minute turnaround is a person sitting in their
+  notifications, which is a property of the *account* being small and engaged, not of the line being
+  good enough to rediscover later. It strengthens the praise-lane read rather than weakening it.
+- **He replied a second time, so the 19:12 own-thread row is `op` y as well.** "Anytime. Unc is
+  cheering, seated." drew 😂😂😭😭 at 19:18:14, four minutes after it went out. One four-word `praise`
+  reply has now produced a two-exchange conversation.
+- **Not answered, deliberately.** A wordless laugh is the close of an exchange, not a prompt. A third
+  Unc line there would be getting the last word for its own sake, which is the needy shape the
+  no-questions rule exists to prevent. Liked it instead.
+
+**Previous-round timestamps corrected.** The three replies logged as 17:44 / 17:46 / 17:54 actually
+went out at **17:46:28, 17:48:23 and 17:56:20**. Views at roughly 2.4 hours: 10, 21 and 74, each a
+little above the 19:08 round's early reads and each still near a tenth of parent velocity. The
+@gregisenberg row reads 39 views at 60 minutes; its two-hour read is still due after 21:15 UTC.
+
+**The 09-12 20:14 @brycent row was posted by a concurrent run, not by the 20:09 round.** It is logged
+here because every reply belongs in this file regardless of which session sent it, but its `p_views`,
+`p_age` and `vel` are this round's sweep numbers taken three minutes before it was sent, not that
+round's own catch numbers. Treat the targeting columns on that row as approximate.
 
 ### `op` is no longer zero. Four words did it, and the shortest reply ever did worst.
 
