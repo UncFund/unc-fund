@@ -2143,6 +2143,8 @@ from being followed around.
 2. **The two-per-account-per-day cap is not the binding constraint; the per-account-per-WEEK count
    is.** Five replies to one person in four days got the account blocked. Cap it at roughly two per
    account per *week* going forward, regardless of how convenient their timeline is.
+   **REVISED Sep 11 — do not apply this as written. See "The per-account cap, revised Sep 11" at the
+   end of this file.**
 3. **Thin-reach replies are worse than useless on a repeat target.** Every @Trace_Cohen reply this
    file records was taken on line quality against reach the round itself called thin (57 views, 126
    views, 131 views). Those replies bought no distribution and spent the relationship.
@@ -3268,3 +3270,47 @@ relationship batch, where Ansem sits.
   @ColinGardiner's AEO question. All were confirmed followed from the post-page header.
 
 ### Follows: none. Pause holding. No candidates queued.
+
+## The per-account cap, revised Sep 11: spacing and parent quality, not a flat count
+
+Rand raised this on Sep 11: two replies per account per week is too tight, while still wanting the
+guard against replying to the same people too often. Both are right, and the fix is that the cap has
+been measuring the wrong variable.
+
+**The rule came from one incident.** @Trace_Cohen blocked the account after five replies in four days,
+two of them ninety minutes apart, almost all on sub-300-view posts (57, 126, 131 views). What read as
+following him around was the *frequency* and the *thinness*. "Two" was never the finding — it was a
+round number picked the same afternoon the block was discovered, from a sample of one.
+
+**What it costs is placement, not volume.** Sep 10 posted eight replies against a ceiling of ten, so
+the cap was never what stopped the day being fuller. It stopped the day being better *placed*: three
+parents above 350/min went untaken at the 20:46 round and three more at 02:39, purely because their
+accounts were capped. Velocity is the best-evidenced rule in this file, and trading it away to guard
+against a single-instance risk is the wrong trade.
+
+### The rule from Sep 11
+
+1. **Three replies per account per week**, up from two.
+2. **Never two within 24 hours.** This is the load-bearing half. The pattern that earned the block was
+   two replies ninety minutes apart, and a weekly count does not prevent that while a spacing floor
+   does. This retires the older "four hours apart is fine, ninety minutes is not" note, which was too
+   loose.
+3. **The third one only on a parent above 200/min.** A repeat visit has to earn its place with reach.
+   Thin repeats are the specific behaviour that spent the @Trace_Cohen relationship, and they stay
+   banned at any count.
+4. **Accounts that have never engaged stay at two.** @Trace_Cohen never liked, replied or followed
+   across five replies, and that signal was readable before the block landed. @vladtenev followed the
+   account after the covered dish. A like, a reply or a follow buys the third slot; silence does not.
+
+Blocks are close to unrecoverable — @Trace_Cohen and @emollick are both permanently off the list, and
+neither replies nor likes land there — so the conservatism stays, but it sits where the evidence
+points: on tight spacing and thin repeats, not on the raw count.
+
+### The bigger half of this fix is not the cap
+
+By Thursday afternoon eight of the fastest accounts were done for the week, and the cap only partly
+explains that. The sweep is drawing from roughly twenty mega accounts, which is too few to supply
+seven rounds a day. **Widening it costs nothing and carries no block risk at all, because `from:`
+searches need no follows** — the Sep 10 22:09 round proved this when a new third batch of unfollowed
+founder accounts produced the only pick on the board. Treat the batch list as the thing to grow, and
+the cap as a guard that should rarely bind.
