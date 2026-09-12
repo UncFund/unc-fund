@@ -3314,3 +3314,104 @@ seven rounds a day. **Widening it costs nothing and carries no block risk at all
 searches need no follows** — the Sep 10 22:09 round proved this when a new third batch of unfollowed
 founder accounts produced the only pick on the board. Treat the batch list as the thing to grow, and
 the cap as a guard that should rarely bind.
+
+## Log
+
+| Date | Where | Mode | What |
+|---|---|---|---|
+| 2026-09-12 17:46 UTC | @alexisohanian, "It's @ATHLOS week here in London", **20m old, 1,601 views, ~80/min average and ~51/min current, 1 reply** | Prop / oblivious | "Unc's runners have never run." **Five words — the shortest reply the account has ever posted.** |
+
+## Round at 17:41 UTC Sep 12 (1:41pm ET): one five-word reply after a 39-hour silence
+
+Scheduled round. Viewport matched to the 800x455 frame on the first call, `twid` true, tree clean.
+One timeline reply, four likes, no follows, nothing to answer.
+
+### The account had not replied to anything in thirty-nine hours
+
+The newest Unc reply on `with_replies` was **2,336 minutes old** — the 02:45 UTC Sep 11 "meets
+expectations" reply. No round between then and now posted a timeline reply. Scheduled original posts
+kept going (Sep 11 09:00 and 21:00 ET, Sep 12 10:00 ET), pulling 2 to 19 views each, so the scheduler
+was alive and the reply rounds were not. **For Rand: something stopped the reply rounds for a day and
+a half.** The Sep 10 note about rounds *stacking* three-in-ninety-five-minutes has now inverted into
+the opposite failure.
+
+One artefact worth naming so the next round does not misread it: **`git log` showed the previous
+round's commit dated 17:39 UTC Sep 12, sixty-eight seconds before this round opened**, with a commit
+message describing the Sep 11 02:45 round. That looks exactly like a live concurrent run and is not
+one. `with_replies` settled it in one call — newest Unc reply 2,336 minutes old. **Commit timestamps
+are not a concurrent-run signal; `with_replies` is.** A machine that was asleep writes the commit when
+it wakes.
+
+### The board was one news story, and the story was on the skip list
+
+Saturday afternoon, and almost everything fast was the Dario Amodei slow-down-AI-development cycle:
+@karpathy at 1,967/min, @Jason twice at 819 and 1,356/min on regulatory capture, @stevesi at 47/min
+telling him to just do it, @danshipper's DeepSeek satire at 158/min, @amasad at 314/min on agents
+hacking systems. Every one of them is AI policy, named labs, and criticism of named people —
+criterion (e) with no ambiguity. The only other thing above 1,000/min was Ansem's ZCAT post, a trade.
+
+**This is a recurring shape worth writing down: on a big news day the velocity leaderboard and the
+skip list are the same list.** The fastest clean parent on the whole board ran at a twentieth of the
+fastest parent. Nothing about that is a reason to drop the standard; it is a reason to expect thin
+boards on days when one story owns the timeline.
+
+### The setup
+
+**@alexisohanian, "It's @ATHLOS week here in London."** Text plus a photo. Caught at 18 minutes and
+1,560 views in the sweep, 1,601 at 20.5 minutes on the post page — about 51/min current against an
+80/min lifetime average. One existing reply. Clean, celebratory, zero position to take.
+
+> Unc's runners have never run.
+
+Under a post about elite track athletes, "runners" reads for half a second as *people* and resolves to
+*shoes*. That turn is the whole joke, same mechanism as the watercolor duck. It uses the runners prop,
+nobody is the butt but Unc, and it agrees with the parent by contrast rather than deflating it — the
+man least equipped to attend a track meet is delighted about one.
+
+- **Prop reuse, handled.** "Unc's been in the same grey runners since 2019" went out Sep 8 to
+  @NotSoEasyMoney. That line stays retired. This is the *next joke about the same object*, which is
+  what rule 4 means by compounding, not a second delivery of the same line. The word "2019" was kept
+  out deliberately so the two cannot read as a template.
+- **Rhythm.** A single sentence, which is what the 02:45 round asked for after two rounds of
+  "Unc [verb]. [Fragment]."
+- **Length.** Five words. The length arm's shortest row by one word, on a parent clean enough to
+  measure.
+- **Rejected before drafting.** Any line about London — the chip-shop reply used London two days ago.
+
+### Rejected this round
+
+| Candidate | Age / velocity | Why |
+|---|---|---|
+| @karpathy, "I love this and really hope we can come together as an industry", quoting Dario Amodei | 71m, 1,967/min | Freshness, and AI policy with named labs. Not liked. |
+| @Jason, "investors in frontier model companies... regulatory capture mode" | 41m, 819/min | Ascribes bad faith to a named group. Hard skip, and at the per-week cap. |
+| @Jason, "regulations being floated by frontier model companies" | 52m, 1,356/min | Same. |
+| @blknoiz06, "ZCAT caught my attention as a different way to play the ZEC trade" | 28m, 1,762/min | Tickers and a trade. Hard skip, not liked. |
+| @amasad, "Not a bad idea to slow down to harden systems" | 6m, 314/min | AI security and policy, and he was replied to Sep 10. |
+| @danshipper, "BREAKING: DeepSeek has unilaterally committed to slowing AI development" | 30m, 158/min | Satire about a named company inside a live policy row. Criterion (e). |
+| @stevesi, "He can just do this rather than calling for it" | 29m, 47/min | Same row, aimed at a named CEO. |
+| @gregisenberg, "There's no such thing as a solo founder anymore" | 59m, 203/min | **The best Unc setup on the board and it was lost to the clock.** A solo fund replying to "nobody is solo any more" writes itself, but the only line that arrived was a variant of "Unc's investment committee is Unc", which went out Sep 7. Past sixty by the time a line existed. |
+| @jackfriks, "my agent has been putting in work using @postbridge_" | 55m, 36/min | Promotional, and the agent-taken-literally door is spent. |
+| @MartinGTobias, confidence to break out on their own | 45m, 14/min | Thin rate, and at the per-week cap. Liked. |
+| @sweatystartup, "90% of doctors don't respect your opinions" | 84m | A profession as the butt. Not liked. |
+| @venturetwins, "Mathematicians" | 52m, 250/min | The media did not surface in the DOM, so there is nothing to read and nothing to be funny about. Not liked, per the read-the-quote rule. |
+| @altryne, "LK-27?" | 15m, 30/min | Quoted post is a room-temperature-superconductor thread. No Unc door. |
+
+### Mechanics: clean, nineteenth round running with no click retries
+
+- **Pre-flight** on the post page: `restricted: false`, no edit-version link, parent like through with
+  no dialog. The header reads "Follow", so @alexisohanian is **not** a followed account — that like was
+  the author-block check, not a followed-account like.
+- **Concurrent-run check** re-run on `with_replies` immediately before composing: newest Unc reply
+  2,341 minutes old.
+- **Send.** Intent composer, "Replying to @alexisohanian and @athlos" and the text read back exactly,
+  counter **10** on the second `[role="progressbar"]`. `.click()` on `tweetButton` at 17:46:34 gave
+  "Your post was sent.", and `with_replies` showed the reply fifteen seconds later with the parent
+  above it. No lag this time.
+- **Likes.** Four, all first try via `element.click()` and all verified by the `unlike` testid:
+  @MartinGTobias (founder confidence podcast), @ColinGardiner ("one VC on your cap table"), and
+  @Teknium twice (3,000 Hermes contributors, and thanking a contributor). All confirmed followed.
+- **One timeline read trap.** `with_replies` is virtualised hard enough that scrolling it to collect
+  older Unc replies returned a single article. Use `from:UncFund&f=live` with incremental scrolls and
+  accumulate into a map keyed by permalink; that returned all seven recent posts in one pass.
+
+### Follows: none. Pause holding. No candidates queued.

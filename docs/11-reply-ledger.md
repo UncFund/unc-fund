@@ -64,9 +64,32 @@ conversation rather than standing alone.
 | 09-10 16:35 | @ESCOweb3 | **4** | praise | — | — | — | — | 9 | 1 | n |
 | 09-10 20:41 | @MollySOShea | 12 | thesis | 577 | 9 | 63 | 1 | void (12) | 1 | n (liked) |
 | 09-10 22:16 | @amasad | 13 | oblivious | 1267 | 8 | 151 | 2 | 67 | 0 | n |
-| 09-11 02:45 | @blknoiz06 | 8 | oblivious | 34469 | 35 | 988 (~334 now) | 60 | | | |
+| 09-11 02:45 | @blknoiz06 | 8 | oblivious | 34469 | 35 | 988 (~334 now) | 60 | 105 | 0 | n |
+| 09-12 17:46 | @alexisohanian | **5** | prop | 1601 | 20 | 80 (~51 now) | 1 | | | |
 
-**09-11 02:45 is the first row with the parent's CURRENT rate logged next to its average.** The
+**09-12 17:46 is the shortest reply the account has ever posted: five words.** Previous shortest was
+six ("Unc shimmed the deck. Architecturally sound."). It went out after a **39-hour gap with no
+timeline replies at all** — the longest quiet stretch since the account started replying — so it
+carries no cluster contamination whatsoever. That makes it the cleanest cluster test available: the
+previous Unc reply was 2,341 minutes old. Parent was @alexisohanian's "It's @ATHLOS week here in
+London", 1,601 views at 20 minutes, one existing reply. On the rule of thumb the average rate (80/min)
+predicts ~70 to 120 views and the current rate (~51/min) predicts ~45 to 75. Read no earlier than
+19:46 UTC Sep 12.
+
+**09-11 02:45 resolved at 105 views, 0 likes, `op` n**, read 39 hours later. That is **0.11x its
+parent's lifetime average (988/min) and 0.31x its current rate at the catch (~334/min)**. The row was
+posed as a test of which number to target on, and the answer is neither: both overshot badly. Taken
+with the chip-shop row (0.34x of 151/min) and Sep 10's afternoon cluster (0.06 to 0.17x), **the 0.9 to
+1.5x rule of thumb has not held once since Sep 10 00:22.** Four of the five rows since then sit
+between 0.06x and 0.34x, on parents ranging from 63/min to 2,956/min. The cluster explanation cannot
+cover this row — the previous Unc reply was four and a half hours earlier and the next was 39 hours
+later — so **the cluster hypothesis is now the weaker candidate.** What changed on Sep 10 was not
+spacing. The two rows that hit 0.9x+ (Dale 1,835/min, covered dish 1,414/min) are also the only two
+above 1,400/min. The live reading is that the rule of thumb is not a rule at all: it is a description
+of two very fast parents, and everything below roughly 1,000/min returns a tenth to a third
+regardless of spacing, length or account type.
+
+**09-11 02:45 was the first row with the parent's CURRENT rate logged next to its average.** The
 `vel` column is views over age, which is the lifetime average: 988/min. Two reads on the post page 84
 seconds apart (34,469 then 34,937) put the rate at the catch at about 334/min. The 00:09 round said
 past twenty minutes the two can differ by 5x, and here they differ by 3x. On the rule of thumb, the
@@ -77,6 +100,9 @@ Read it no earlier than 04:45 UTC Sep 11.
 
 Re-read at 02:40 UTC Sep 11: chip shop 67 at 264 minutes (0.44x, up from 51 at 120), duck 424, shimmed 36,
 Devin Pops 12 (still void). No original poster has replied to any of them.
+
+**`op` is zero across every filled row, now fourteen deep.** Nothing inbound at all since @jdtoelle
+on Sep 9; `to:UncFund` still holds only him and @ESCOweb3.
 
 **The 09-10 22:16 cluster test landed in between: 51 views at 120 minutes, 0.34x its 151/min parent.**
 That is three times the afternoon's rate (0.06 to 0.17x) and a third of the 0.9 to 1.5x rule of thumb,

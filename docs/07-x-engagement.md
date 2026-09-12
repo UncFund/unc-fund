@@ -2664,3 +2664,76 @@ The @blknoiz06 parent (pre-flight), @brycent's Will Phillips post and @ColinGard
 three authors were confirmed followed from the post-page header.
 
 ### Follows: none. Pause holding. No candidates queued.
+
+## Round at 17:41 UTC Sep 12 (1:41pm ET): one five-word reply after a 39-hour reply blackout
+
+Scheduled round. Viewport matched to the 800x455 frame on the first call, `twid` true, tree clean.
+One timeline reply, four likes, no follows, nothing to answer. Day (Sep 12 ET) closes this round at
+**one** timeline reply.
+
+### The reply rounds stopped for a day and a half
+
+The newest Unc reply was **2,336 minutes old** (02:45 UTC Sep 11). Scheduled original posts kept
+firing through the gap — Sep 11 09:00 ET, Sep 11 21:00 ET, Sep 12 10:00 ET — so X's scheduler was fine
+and the `unc-reply-round` task was not. **For Rand: check why the reply rounds stopped between Sep 11
+02:45 UTC and Sep 12 17:41 UTC.** Sep 10's problem was rounds stacking; this is the inverse.
+
+A near-miss worth recording: `git log` showed the previous round's commit dated **17:39 UTC Sep 12**,
+sixty-eight seconds before this round opened, with a message describing the Sep 11 02:45 round. That
+is the signature of a concurrent run and it was not one — a sleeping machine writes the commit when it
+wakes. `with_replies` settled it in a single call. **Commit timestamps are not a concurrent-run
+signal.**
+
+### Measurement
+
+| Reply | Parent vel at catch | Views | Likes | Read at | Multiple |
+|---|---|---|---|---|---|
+| @blknoiz06, "Unc got "meets expectations" in 1998. Framed it." | 988 avg / ~334 current | **105** | 0 | 2,341m | 0.11x avg, 0.31x current |
+
+That row was posed as a test of whether to target on a parent's lifetime average or its current rate.
+**Both overshot.** With the chip shop at 0.34x and Sep 10's afternoon at 0.06–0.17x, the 0.9–1.5x rule
+of thumb has now failed on five consecutive rows. Crucially this one **cannot be explained by
+clustering** — nothing else went out for four and a half hours before it or thirty-nine hours after.
+The two rows that ever hit 0.9x+ are also the only two on parents above 1,400/min. Working read: the
+rule of thumb describes two very fast parents and nothing else, and below ~1,000/min a reply returns a
+tenth to a third whatever we do. Full note in `11-reply-ledger.md`.
+
+**No original poster has replied.** `to:UncFund` still holds only @jdtoelle (Sep 9) and @ESCOweb3
+(Sep 8), both handled. Mentions held only the known "follow me and I'll DM you" bait.
+
+Own posts have no replies to answer: Sep 12's 10am note sits at 2 views, the Sep 11 posts at 9, 13
+and 19.
+
+### Velocity board, 17:42 to 17:45 UTC — the fast list and the skip list were the same list
+
+| Candidate | Age | Views | Velocity | Replies | Outcome |
+|---|---|---|---|---|---|
+| @karpathy, coming together as an industry (quoting Dario Amodei) | 71m | 139,678 | 1,967/min | 2 | AI policy, named labs; stale. Skip |
+| @blknoiz06, ZCAT / ZEC trade | 28m | 49,046 | 1,762/min | 220 | Tickers. Hard skip |
+| @Jason, regulations floated by frontier model companies | 52m | 69,825 | 1,356/min | 120 | Bad faith ascribed to a named group. Skip |
+| @Jason, "regulatory capture mode" | 41m | 33,923 | 819/min | 111 | Same. Skip |
+| @amasad, slowing down to harden systems | 6m | 1,930 | 314/min | 7 | AI security/policy. Skip |
+| @venturetwins, "Mathematicians" | 52m | 13,000 | 250/min | 39 | Media unreadable in the DOM. Skip, not liked |
+| @gregisenberg, "no such thing as a solo founder anymore" | 59m | 12,009 | 203/min | 69 | Best Unc setup on the board; only line available was a Sep 7 repeat, and it aged past sixty |
+| @danshipper, DeepSeek satire | 30m | 4,106 | 158/min | 12 | Named company inside a live policy row. Skip |
+| **@alexisohanian, "It's @ATHLOS week here in London"** | **20m** | **1,601** | **80 avg, ~51 current** | **1** | **replied** |
+| @stevesi, "He can just do this rather than calling for it" | 29m | 1,373 | 47/min | 7 | Aimed at a named CEO. Skip |
+| @jackfriks, agent posting via @postbridge_ | 55m | 1,996 | 36/min | 7 | Promotional; door spent |
+| @altryne, "LK-27?" | 15m | 438 | 30/min | 3 | No Unc door |
+| @MartinGTobias, confidence to break out on their own | 45m | 616 | 14/min | 3 | Thin rate, per-week cap. Liked |
+
+**The fastest clean parent ran at a fortieth of the fastest parent.** On a day when one news story
+owns the timeline, the velocity leaderboard *is* the skip list. Expect thin boards on those days
+rather than loosening the standard.
+
+The reply: **"Unc's runners have never run."** Five words, the shortest the account has ever posted,
+verified on `with_replies` fifteen seconds after it went out. Read it no earlier than 19:46 UTC.
+
+### Likes (4, all first try via `element.click()`, all verified by the `unlike` testid)
+
+@MartinGTobias (founder confidence podcast), @ColinGardiner ("one VC on your cap table"), and @Teknium
+twice (3,000 Hermes contributors, and thanking a contributor). All confirmed followed. The
+@alexisohanian parent was also liked as the pre-flight author-block check; his header reads "Follow",
+so he is **not** a followed account.
+
+### Follows: none. Pause holding. No candidates queued.
