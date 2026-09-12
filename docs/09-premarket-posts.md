@@ -31,6 +31,24 @@ before an invitation can work — at which point the reply-guy rounds carry the 
 
 | Date | Weekday | Format | Post | Views | Likes | Replies |
 |---|---|---|---|---|---|---|
+| 2026-09-12 | Saturday | — (skipped) | Nothing posted. Run fired 1:42 PM ET, past the 1:00 PM cutoff, and a morning line was already up from 10:00 AM ET. | — | — | — |
+
+Note on 2026-09-12: the scheduled run landed at **1:42 PM Eastern**, four hours forty-two minutes
+after the 9:00 slot and past the ~1:00 PM cutoff — a morning note in the afternoon reads wrong, so
+it skipped rather than posting late.
+
+Two other things worth recording. First, the account had **already posted a morning line today at
+10:00 AM ET** — "Zipped the vest exactly halfway this morning. / Some things you don't change." —
+which uses the vest prop and the morning framing, so posting again would have been a second morning
+note in one day regardless of the clock. Second, the timeline shows posts at roughly even intervals
+through Friday and Saturday (Sep 11 12:00 PM, 4:00 PM and 7:00 PM ET, then Sep 12 10:00 AM ET),
+which suggests a **separate cadence task is also publishing Unc content** and is the likely source
+of the 10:00 AM line. If that is right, this slot and that one can collide, and the "never two
+morning notes in one day" rule cannot be enforced from the log alone — only by reading the timeline
+first, as this run did. Worth reconciling the two schedules.
+
+Also note this table is empty above this row: nothing has been logged since the format changed on
+Sep 10, so invitation-versus-line comparison has no data yet.
 
 ## Premarket history (retired 2026-09-10)
 
