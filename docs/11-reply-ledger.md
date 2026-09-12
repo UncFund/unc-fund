@@ -38,6 +38,30 @@ available: it puts Unc in their notifications, their audience sees the exchange,
 one-shot into a conversation. Every one of Colin Gardiner's 500-plus-view replies sits inside a
 conversation rather than standing alone.
 
+### Second arm added 2026-09-12: the praise lane
+
+Rand's instruction after the first OP reply landed: **lean into praise replies and chase more of
+them.** Length stays under test; this adds a second thing to slice on, and the columns already
+support it — `mode` = `praise`, and `op`.
+
+From Sep 12 each round takes **two picks where the board allows**: one lane A velocity pick (the
+existing rule, unchanged, which buys views) and one lane B praise pick on a *deliberately slow*
+parent from a small account (which is the only thing that has ever bought a conversation). Full
+reasoning, guardrails and the failure condition are in `08-reply-playbook.md` under "The praise lane".
+
+Three things to hold onto when reading these rows back:
+
+1. **Judge a `praise` row on `op`, never on views.** It sits on a sub-100/min parent by design. The
+   Sep 12 one took seventeen views and that is a success, not a miss. Scoring it on views would
+   quietly kill the arm inside a week.
+2. **`praise` rows are not comparable to `oblivious` rows on reach.** When slicing the length
+   question, split by mode first or the slow parents will drag the short-reply arm down and look like
+   evidence that short replies underperform.
+3. **The falsifier is written down in advance.** After roughly five `praise` rows, count the `op`
+   column. Still one means the Sep 12 result was a fluke and the lane should be reported as not
+   working — the same mistake the 0.9-to-1.5x velocity rule of thumb made when two fast parents were
+   promoted to a rule and then failed five times running.
+
 ## Ledger
 
 | when | who | words | mode | p_views | p_age | vel | p_repl | views | likes | op |

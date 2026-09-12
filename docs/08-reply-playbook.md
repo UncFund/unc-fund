@@ -3535,3 +3535,68 @@ entrepreneurship, or on anyone in the thread.
   batches carried the likes.
 
 ### Follows: none. Pause holding. No candidates queued.
+
+## The praise lane, added Sep 12 on Rand's instruction
+
+Rand's call after the first OP reply: **lean into praise replies and chase more of them.** This is the
+operating change, and it is the first time the round has had two targeting rules at once.
+
+### Why, in one table
+
+The Sep 12 17:44–17:54 window posted three replies. Read at 85 minutes:
+
+| | @ESCOweb3 "I'm proud of you" | @MartinShkreli | @alexisohanian |
+|---|---|---|---|
+| Parent velocity | **15/min** | 735/min | ~51/min current |
+| Words | 4 | 6 | 5 |
+| Unc's views | 17 | 66 | 7 |
+| Likes | **1** | 0 | 0 |
+| **OP replied** | **yes** | no | no |
+
+The slowest parent on the board bought the only conversation the account has ever had, and the two
+picks made under the velocity rule bought views and silence. **Views and conversation are different
+outcomes and the round has been optimising only the one that does not compound.**
+
+The mechanism is not subtle: a big account never reads reply two hundred, and a small account reads
+every one of them. @ESCOweb3 had 380 views on his post. He saw it, and he answered.
+
+### The two lanes
+
+**Lane A, the velocity pick.** Unchanged. Freshest, fastest-climbing clean parent, all five criteria,
+comedy rules. This is the reach engine and nothing above is retired.
+
+**Lane B, the praise pick.** Deliberately *not* off the velocity leaderboard. Hunt a smaller account —
+roughly under ten thousand followers, a parent under about 100 views/min, ideally fewer than five
+replies on it — posting something sincere: a win, a milestone, a first customer, a hard week, a thing
+they built, a line they are proud of. Praise the **specific detail**, not the post. Four to eight
+words. Warm, answerable, no question, no link, no commitment of any kind.
+
+Take one of each per round where the board allows. If only one lane is available, take what is there
+and say which lane it was.
+
+### The guardrails, which are not softened
+
+- **Never repeat a praise line.** "I'm proud of you" is spent, and so is "Anytime. Unc is cheering,
+  seated." A recognisable template rolled out across small accounts is what both a pattern detector
+  and a human read as a bot, and it would destroy the exact thing this lane is for.
+- **The per-account cap binds harder here, not less.** Three per account per week, never two inside 24
+  hours, no thin repeats. Returning to the same warm small account because it once answered is
+  precisely the behaviour that earned the @Trace_Cohen block — five replies in four days, mostly on
+  sub-300-view posts. Spread across accounts.
+- **Praise replies count** toward the ten-a-day ceiling and the per-account cap like any other timeline
+  reply. Answering someone who then replies to Unc does **not** — that is the own-thread lane, it
+  should be answered every time and fast, and it is the entire payoff of earning an OP reply.
+- **Criterion (e) is unchanged.** A sincere post can still be on the skip list: illness, a layoff, a
+  legal fight, a token launch. Skip those.
+
+### What success looks like, and what failure looks like
+
+**Expect the praise pick to score badly on views.** It sits on a slow parent by design; the Sep 12 one
+took seventeen. That is the price of a conversation, not a bad pick, and it is not a reason to drift
+back toward big parents. Do not drop lane A to make room — the two lanes buy different things.
+
+**This is n=1.** One OP reply from one praise reply is an observation, not a law, and the 0.9-to-1.5x
+velocity rule of thumb went wrong in exactly this way: two fast parents were mistaken for a rule and
+then failed five times running. After about five praise replies, state plainly in the round's closing
+lines how many earned an OP reply. **If it is still one, say the lane is not working.** The point of
+writing the prediction down now is so that a null result is reportable instead of absorbable.
