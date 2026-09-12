@@ -2737,3 +2737,79 @@ twice (3,000 Hermes contributors, and thanking a contributor). All confirmed fol
 so he is **not** a followed account.
 
 ### Follows: none. Pause holding. No candidates queued.
+
+## Round at 19:08 UTC Sep 12 (3:08pm ET): the first original-poster reply the account has ever had
+
+**The headline number is not a view count.** `to:UncFund` returned **@ESCOweb3, "Thanks UNC"**, an
+answer to Unc's four-word "I'm proud of you" from 17:46. Across nineteen filled ledger rows, **no
+original poster had ever replied to Unc before.** `op` was the column this whole measurement effort
+was built around and it had been zero since it was created.
+
+What earned it was the opposite of what targeting optimises for:
+
+| | The `op` reply | The velocity picks |
+|---|---|---|
+| Parent velocity | **15/min** | 735/min (Shkreli), 2,956/min (the duck), 1,835/min (Dale) |
+| Unc's views | **17** | 66, 424, 2,745 |
+| Likes | **1** | 0, 0, 2 |
+| OP replied | **yes** | no, no, no |
+
+Views and conversation are not the same outcome, and nineteen rows have gone into the one that does
+not compound. The provisional change is in `11-reply-ledger.md`: keep the velocity rule for views,
+and add a second lane where a warm four-word `praise` reply to a small, motivated account is a
+legitimate pick rather than a consolation prize. One observation is not a rule — that is precisely
+how the 0.9-to-1.5x velocity rule of thumb went wrong — but it is the first time the highest-value
+outcome has actually happened.
+
+It was answered at 19:12 with **"Anytime. Unc is cheering, seated."** (five words), to keep the
+exchange open.
+
+### Three replies had gone out unlogged, and they ruined their own test
+
+`from:UncFund` showed the 17:41 round posted **three** timeline replies (17:44, 17:46, 17:54), not
+the one it logged. All three are now in the ledger, and all three landed at about a tenth of parent
+velocity:
+
+| Reply | Parent velocity | Views at ~85m | Multiple |
+|---|---|---|---|
+| @alexisohanian, "Unc's runners have never run." | ~51/min current | **7** | 0.09x |
+| @ESCOweb3, "I'm proud of you" | 15/min | 17 | 1.1x |
+| @MartinShkreli, "Unc is going to live forever" | 735/min | 66 | 0.09x |
+
+The 17:41 round wrote up the @alexisohanian reply as the cleanest cluster test available, on the
+strength of the 39-hour silence before it — and then posted twice more inside ten minutes *after*
+it. **A round can contaminate its own cluster test by continuing to post.** Append to the ledger as
+each reply is sent, not in one pass at the end.
+
+### Board at 19:08 UTC — the same news story, six hours later
+
+| Candidate | Age | Views | Velocity | Repl | Verdict |
+|---|---|---|---|---|---|
+| @Jason, "AI stocks will drop 10%+ on Monday morning" | 41m | 182,284 | **4,410/min** | 235 | A market call AND the policy row. Double skip, not liked |
+| @levelsio, "He's right / Rockefeller did it first" | 26m | 19,020 | 730/min | 13 | Policy row, argument between named people. Skip |
+| @Jason, nominating four named politicians to regulate the labs | 4m | 2,641 | 716/min | 12 | Politics. Hard skip |
+| @Jason, "Do you realize they're IPOing in the next couple of weeks, DT?" | 36m | 22,042 | 610/min | 24 | Bad faith ascribed to a named company. Skip |
+| @Jason, "All of this because @openai decided…" | 43m | 20,934 | 491/min | 53 | Named company as the butt. Skip |
+| @levelsio, quoting "Fuck the Doomers…" | 18m | 7,310 | 400/min | 10 | Profanity and politics. Skip |
+| **@gregisenberg, "The internet is the only place where anyone from anywhere can achieve anything"** | **39m** | **8,333** | **216 avg, ~85 current** | **31** | **replied** |
+| @credistick, Sam Altman and regulation | 9m | 89 | 14/min | 0 | Sarcasm at a named CEO. Skip, not liked |
+| @an_engineer_log, "LinkedIn is now basically opt-in spam" | 28m | 218 | 8/min | 4 | Named company as the butt, no reach. Not liked |
+
+**Six of the seven fastest parents on the board were one news story, and every one of them was a
+skip.** The fastest clean parent ran at a twentieth of the fastest parent — the same shape as the
+17:41 round. This is now a two-round pattern, not a one-day artefact.
+
+The reply: **"Unc's been on the internet since Tuesday."** Seven words, verified on `with_replies`
+nineteen seconds after it went out. Read it no earlier than 21:15 UTC.
+
+### Likes (4, all first try via `element.click()`, all verified by the `unlike` testid)
+
+@kseniam0s (looking for seed funds for a Pageform promo), @hnshah (the handful of people he stops to
+listen to about how software gets made), and @ESCOweb3's "I will not be outworked…" parent. The
+@gregisenberg parent was liked as the pre-flight author-block check; his header reads "Follow", so he
+is **not** a followed account.
+
+The Following tab again refused to paginate past six articles; the `from:` batch searches carried
+both the sweep and the likes.
+
+### Follows: none. Pause holding. No candidates queued.

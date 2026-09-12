@@ -3415,3 +3415,123 @@ man least equipped to attend a track meet is delighted about one.
   accumulate into a map keyed by permalink; that returned all seven recent posts in one pass.
 
 ### Follows: none. Pause holding. No candidates queued.
+
+## Log
+
+| Date | Where | Mode | What |
+|---|---|---|---|
+| 2026-09-12 19:12 UTC | @ESCOweb3, answering "Thanks UNC" on Unc's own reply | Own-thread | "Anytime. Unc is cheering, seated." Five words. |
+| 2026-09-12 19:14 UTC | @gregisenberg, "The internet is the only place where anyone from anywhere can achieve anything", **39m old, 8,333 views, ~216/min average and ~85/min current**, 31 replies | Oblivious literal | "Unc's been on the internet since Tuesday." Seven words. |
+
+## Round at 19:08 UTC Sep 12 (3:08pm ET): the first OP reply in the account's history
+
+Scheduled round. Viewport matched to the 800x455 frame on the first call, `twid` true, tree clean.
+Two replies, four likes, no follows.
+
+### @ESCOweb3 replied to Unc, and `op` is no longer zero
+
+The measurement that matters this round, and it is the first of its kind. `to:UncFund` returned
+**@ESCOweb3, "Thanks UNC"**, posted 80 minutes after Unc's four-word "I'm proud of you" under his
+"I will not be outworked…" post. **Across nineteen filled ledger rows no original poster had ever
+replied to Unc.** Full analysis is in `11-reply-ledger.md`; the short version is that it was the
+*slowest* parent of the three replies posted in that window (15 views/min against 80 and 735), the
+shortest reply, and mode `praise` — which is exactly where standing question 3 guessed `op` would
+come from.
+
+It was answered immediately, because an open conversation is the whole point of chasing `op`:
+
+> Anytime. Unc is cheering, seated.
+
+Five words. "Seated" is the joke — the man is enthusiastic and is also not getting up — and it uses
+the chair prop without naming it. It keeps the exchange open and commits to nothing, per the
+praise-don't-commit rule. Own-thread lane, so it does not count against the ten-a-day ceiling.
+
+### Three unlogged replies from the previous round, and a cluster the round inflicted on itself
+
+`from:UncFund` showed **three** timeline replies at 17:44, 17:46 and 17:54 UTC. Only the first
+(@alexisohanian) was in the ledger and the playbook. The other two — @ESCOweb3 "I'm proud of you"
+and @MartinShkreli "Unc is going to live forever" — went out unlogged. Both are now in the ledger.
+
+They also wrecked the test the 17:41 round was so pleased with. That round wrote up the
+@alexisohanian reply as the cleanest cluster test available, on the strength of a 39-hour silence
+before it — then posted twice more within ten minutes *after* it. All three came in at about a tenth
+of parent velocity: 7 views on ~51/min, 17 on 15/min, 66 on 735/min. **A round can contaminate its
+own cluster test by continuing to post, and this one did.**
+
+**For Rand: writing the log at the end of a round is not enough if the round keeps posting after the
+write.** Append each reply to the ledger as it is sent, not in one pass at the end.
+
+### The board was still one news story, for the second round running
+
+Every parent above 400/min was the Dario Amodei pace-AI-development row: @Jason four times (491 to
+4,410/min, including nominating four named politicians to regulate frontier labs), @levelsio twice
+(400 and 730/min, one quoting a post opening "Fuck the Doomers"), @credistick on Sam Altman and
+regulation, @amasad on agents hacking systems. Named people, named labs, ascribed bad faith, and in
+two cases politics outright. Criterion (e) with no ambiguity on all of them.
+
+The 17:41 round called this shape — on a big news day the velocity leaderboard and the skip list are
+the same list — and it held for a second round six hours later. It is not a one-day artefact; it is
+what a story of this size does to a board.
+
+### The setup
+
+**@gregisenberg, "The internet is the only place where anyone from anywhere can achieve anything.
+And despite all the AI doom and gloom you might read, that dream is more alive today than ever.
+Prepare for an explosion of entrepreneurship!"** Caught at 38 minutes, 8,239 views in the sweep and
+8,333 on the post page 70 seconds later — about **85/min current** against a 216/min lifetime
+average. 31 replies. The fastest genuinely clean parent on the whole board, by a factor of six.
+
+> Unc's been on the internet since Tuesday.
+
+The door is the noun, not the argument: under a post about the internet as a place where anyone can
+achieve anything, a fifty-five-year-old reporting that he personally arrived on Tuesday is the joke.
+He is agreeing by enthusiasm, nobody is the butt but Unc, and it takes no position on AI doom, on
+entrepreneurship, or on anyone in the thread.
+
+- **Shape.** The age self-own, played through a date. Not Dale, not the famous-for-ordinary swap,
+  not mirror-the-format.
+- **Rhythm.** A single sentence — the third in a row, after "Unc's runners have never run." and
+  "Anytime. Unc is cheering, seated." **The next reply should be two or three beats**, or the
+  single-sentence shape starts reading as the template.
+- **Length.** Seven words, under eight.
+- **Rejected before drafting.** "Unc's inbox is already smoking" — it needs the word "explosion"
+  from the parent, so it fails the standalone test.
+
+### Rejected this round
+
+| Candidate | Age / velocity | Why |
+|---|---|---|
+| @Jason, "AI stocks will drop 10%+ on Monday morning", quoting Dario Amodei | 41m, 4,410/min | A market call AND the policy row. Fastest parent on the board and a double hard skip. Not liked. |
+| @levelsio, "He's right / Rockefeller did it first a century ago" | 26m, 730/min | The policy row, and the quoted post is an argument between named people. Not liked. |
+| @Jason, "I nominate @BernieSanders, @aoc, Steve Bannon and @RoKhanna to regulate the frontier labs" | 4m, 716/min | Politics with four named politicians. Hard skip. |
+| @Jason, "Do you realize they're IPOing in the next couple of weeks, DT?" | 36m, 610/min | Ascribes bad faith to a named company, addressed at a named person. |
+| @Jason, "All of this because @openai decided they would EXPLICITLY ask thousands of software instances to find security bugs" | 43m, 491/min | Names a company doing something bad. Criterion (e). |
+| @levelsio, quoting "Fuck the Doomers. Fuck the Decels. Fuck the Commies." | 18m, 400/min | Profanity and politics in the parent. |
+| @credistick, "much easier to go public once they have crushed their opposition with regulation" | 9m, 14/min | Sarcasm aimed at a named CEO. Not liked, despite being a followed account. |
+| @amasad, "Not a bad idea to slow down to harden systems" | 99m, — | Freshness, the policy row, and he was replied to Sep 10. |
+| @an_engineer_log, "LinkedIn is now basically opt-in spam" | 28m, 8/min | No reach, and a named company as the butt. Not liked. |
+| @sweatystartup, "90% of doctors don't respect your opinions" | 173m | A profession as the butt, and stale. Not liked. |
+| @blknoiz06, macro post and the ZCAT/ZEC trade | 62m, 122m | Tickers and trading. Hard skip, not liked. |
+| @venturetwins, "Mathematicians" | 141m | The media still does not surface in the DOM. Read-the-quote rule: not liked. |
+
+### Mechanics: clean, twentieth round running with no click retries
+
+- **Pre-flight** on @gregisenberg's post page: `restricted: false`, no edit-version link, parent like
+  through with no dialog. The header reads "Follow", so he is **not** followed — that like was the
+  author-block check, not a followed-account like.
+- **Concurrent-run check** re-run on `with_replies` immediately before composing: the newest reply
+  was the 19:12 own-thread reply this session had just posted, and nothing else was under 78 minutes.
+- **Send.** Intent composer both times, with "Replying to @…" and the text read back exactly;
+  counters **12** and **15** on the second `[role="progressbar"]`. `.click()` on `tweetButton` gave
+  "Your post was sent." at 19:12:20 and 19:14:59, and both appeared on `with_replies` within twenty
+  seconds with their parents above them.
+- **Spacing violation, named.** The two sends were two minutes apart, against the thirty-minute
+  default. Mitigated only in that the first is own-thread. If the @gregisenberg row also reads near a
+  tenth, spacing is the dominant effect and the round structure has to change.
+- **Likes.** Four, all first try via `element.click()` and all verified by the `unlike` testid:
+  @gregisenberg (author-block pre-flight), @kseniam0s (looking for seed funds for a Pageform promo),
+  @hnshah (people he stops to listen to about how software gets made), and @ESCOweb3's "I will not be
+  outworked…" parent. The Following tab would not paginate past six articles again; the `from:`
+  batches carried the likes.
+
+### Follows: none. Pause holding. No candidates queued.

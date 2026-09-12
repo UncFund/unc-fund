@@ -65,9 +65,51 @@ conversation rather than standing alone.
 | 09-10 20:41 | @MollySOShea | 12 | thesis | 577 | 9 | 63 | 1 | void (12) | 1 | n (liked) |
 | 09-10 22:16 | @amasad | 13 | oblivious | 1267 | 8 | 151 | 2 | 67 | 0 | n |
 | 09-11 02:45 | @blknoiz06 | 8 | oblivious | 34469 | 35 | 988 (~334 now) | 60 | 105 | 0 | n |
-| 09-12 17:46 | @alexisohanian | **5** | prop | 1601 | 20 | 80 (~51 now) | 1 | | | |
+| 09-12 17:44 | @alexisohanian | **5** | prop | 1601 | 20 | 80 (~51 now) | 1 | 7 | 0 | n |
+| 09-12 17:46 | @ESCOweb3 | **4** | praise | 366 | 25 | 15 | 2 | 17 | 1 | **y** |
+| 09-12 17:54 | @MartinShkreli | **6** | oblivious | 58043 | 79 | 735 | 81 | 66 | 0 | n |
+| 09-12 19:12 | @ESCOweb3 | **5** | own-thread | — | — | — | — | | | |
+| 09-12 19:14 | @gregisenberg | **7** | oblivious | 8333 | 39 | 216 (~85 now) | 31 | | | |
 
-**09-12 17:46 is the shortest reply the account has ever posted: five words.** Previous shortest was
+### `op` is no longer zero. Four words did it, and the shortest reply ever did worst.
+
+**@ESCOweb3 replied "Thanks UNC" to "I'm proud of you" eighty minutes later.** That is the **first
+original-poster reply in the ledger's history**, across nineteen filled rows. It also took the round's
+only like. The reply was **four words**, mode `praise`, on the *slowest* parent of the three posted in
+that ten-minute window (15 views/min, versus 80 and 735).
+
+This lands directly on standing question 3, and it lands where the suspicion said it would:
+**`praise` earns `op`, and it does so on velocity that targeting would have thrown away.** Every
+reply in this file that chased velocity — the 2,956/min duck, the 1,835/min Dale, the 735/min
+Shkreli row below — got views and zero conversation. "I'm proud of you" got seventeen views and a
+reply from a human being. The two outcomes are not measuring the same thing, and the ledger has spent
+nineteen rows optimising the one that does not compound.
+
+Answered at 19:12 with "Anytime. Unc is cheering, seated." — five words, keeping the exchange open and
+committing to nothing, per the praise-don't-commit rule.
+
+**What to change, provisionally, and what not to:** do not drop the velocity rule, which is still the
+best-evidenced thing here for *views*. Do add a second lane. On a thin board, a warm four-word `praise`
+reply to a small motivated account is now a legitimate pick rather than a consolation prize, and it
+should be logged as such so the `op` column can accumulate more than one row. One observation is not a
+rule — this is exactly the trap the velocity rule of thumb fell into — but it is the first row in the
+file where the highest-value outcome actually occurred.
+
+**The 17:44 cluster is the counterweight and it is brutal.** Three replies went out inside ten minutes
+(17:44, 17:46, 17:54) and the five-word @alexisohanian reply landed at **7 views** at 84 minutes,
+against a rule-of-thumb prediction of 45 to 75. That is **0.09x** its parent's current rate — the same
+tenth the Sep 10 afternoon cluster produced. The 39-hour silence before it was supposed to make it the
+cleanest cluster test available; instead the round contaminated its own test by firing twice more
+within ten minutes. The Shkreli row (66 views on a 735/min parent, 0.09x) matches exactly. **Three of
+three in that window came in at roughly a tenth.** The cluster hypothesis, which the 09-11 row had
+demoted, is back on the table — and this time the spacing violation is in the same session's own log.
+
+**Keep replies thirty minutes apart. This round did 19:12 and 19:14, which is a violation**, mitigated
+only in that the 19:12 reply is own-thread (lane 1) rather than a timeline reply. Read both no earlier
+than 21:15 UTC Sep 12; if the @gregisenberg row also comes in near a tenth, spacing is confirmed as the
+dominant effect and the round structure itself has to change.
+
+**09-12 17:44 is the shortest reply the account has ever posted: five words.** Previous shortest was
 six ("Unc shimmed the deck. Architecturally sound."). It went out after a **39-hour gap with no
 timeline replies at all** — the longest quiet stretch since the account started replying — so it
 carries no cluster contamination whatsoever. That makes it the cleanest cluster test available: the
@@ -101,7 +143,7 @@ Read it no earlier than 04:45 UTC Sep 11.
 Re-read at 02:40 UTC Sep 11: chip shop 67 at 264 minutes (0.44x, up from 51 at 120), duck 424, shimmed 36,
 Devin Pops 12 (still void). No original poster has replied to any of them.
 
-**`op` is zero across every filled row, now fourteen deep.** Nothing inbound at all since @jdtoelle
+**`op` was zero across every filled row, fourteen deep, until 09-12 17:46 broke it (see above).** Before that, nothing inbound at all since @jdtoelle
 on Sep 9; `to:UncFund` still holds only him and @ESCOweb3.
 
 **The 09-10 22:16 cluster test landed in between: 51 views at 120 minutes, 0.34x its 151/min parent.**
