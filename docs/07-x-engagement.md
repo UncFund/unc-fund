@@ -2622,3 +2622,45 @@ three. Every other recent post from a confirmed-followed account was already lik
 passed over.
 
 ### Follows: none. Pause holding. No candidates queued.
+
+## Round at 02:39 UTC Sep 11 (10:39pm ET Sep 10): one reply on the last round of the day
+
+One timeline reply, three likes, no follows, nothing to answer. The round was on time and alone:
+`lastRunAt` was 02:38:56, the tree was clean, and the newest Unc reply was 264 minutes old. The day
+(Sep 10 ET) closes at **eight** timeline replies, four of them under eight words.
+
+### Measurement
+
+| Reply | Parent vel at catch | Views | Likes | Read at | Multiple |
+|---|---|---|---|---|---|
+| @amasad, "Unc chatted with PG in London too. / Different PG. Runs the chip shop." | 151/min | **67** | 0 | 264m | 0.44x |
+| @RobinhoodApp, watercolor duck | 2,956/min | 424 | 0 | 635m | 0.14x |
+| @Teknium, shimmed deck | 199/min | 36 | 0 | 623m | 0.18x |
+| @MollySOShea, Devin Pops | void | 12 | 1 | 359m | parent deleted |
+| @ESCOweb3, "I'm proud of you" | — | 9 | 1 | 605m | |
+
+**No original poster has replied since the last round.** `to:UncFund` still holds only @jdtoelle
+and @ESCOweb3.
+
+### Velocity board, 02:41 to 02:44 UTC
+
+| Candidate | Age | Views | Velocity | Replies | Outcome |
+|---|---|---|---|---|---|
+| @blknoiz06, "yep" on trading attention | 20m | 31,382 | 1,536/min | 55 | trading, skip |
+| **@blknoiz06, "we are", quoting "what do we think the Scorer wants?"** | **35m** | 34,469 | **988 avg, ~334 current** | 60 | **replied** |
+| @lennysan, summit wrap | 18m | 2,008 | 117 avg, ~50 current | 1 | not followed, no line |
+| @omooretweets, consumer AI sentiment | 15m | 1,125 | 77/min | 1 | not followed, no line |
+| @brycent, Will Phillips YouTuber | 11m | 512 | 51 avg, ~34 current | 0 | thin; liked |
+| @hnshah, local models | 47m | 804 | 17/min | 2 | not followed, thin |
+| @ColinGardiner x3 | 14–34m | 48–131 | 3–6/min | 0–1 | no reach; liked one |
+
+The reply: **"Unc got "meets expectations" in 1998. Framed it."** Eight words, verified on
+`with_replies` 33 seconds after it posted. It is the first reply to carry both an average and a current
+parent velocity in the ledger. Read it no earlier than 04:45 UTC.
+
+### Likes (3, all first try via `element.click()`)
+
+The @blknoiz06 parent (pre-flight), @brycent's Will Phillips post and @ColinGardiner's AEO question. All
+three authors were confirmed followed from the post-page header.
+
+### Follows: none. Pause holding. No candidates queued.

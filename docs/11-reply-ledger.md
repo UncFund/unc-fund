@@ -59,11 +59,24 @@ conversation rather than standing alone.
 | 09-10 00:22 | @naval | **7** | oblivious | 3670 | 2 | 1835 | 18 | **2745** | 2 | n |
 | 09-10 15:45 | @a16z | **7** | prop | 3241 | 16 | 203 | 2 | 13 | 0 | n |
 | 09-10 15:49 | @sweatystartup | 8 | oblivious | 1716 | 18 | 95 | 3 | 9 | 0 | n |
-| 09-10 16:05 | @RobinhoodApp | **7** | oblivious | 11530 | 4 | **2956** | 80 | 382 | 0 | n |
-| 09-10 16:17 | @Teknium | **6** | oblivious | 1654 | 8 | 199 | 2 | 35 | 0 | n |
+| 09-10 16:05 | @RobinhoodApp | **7** | oblivious | 11530 | 4 | **2956** | 80 | 424 | 0 | n |
+| 09-10 16:17 | @Teknium | **6** | oblivious | 1654 | 8 | 199 | 2 | 36 | 0 | n |
 | 09-10 16:35 | @ESCOweb3 | **4** | praise | — | — | — | — | 9 | 1 | n |
-| 09-10 20:41 | @MollySOShea | 12 | thesis | 577 | 9 | 63 | 1 | void (6) | 1 | n (liked) |
-| 09-10 22:16 | @amasad | 13 | oblivious | 1267 | 8 | 151 | 2 | 51 | 0 | n |
+| 09-10 20:41 | @MollySOShea | 12 | thesis | 577 | 9 | 63 | 1 | void (12) | 1 | n (liked) |
+| 09-10 22:16 | @amasad | 13 | oblivious | 1267 | 8 | 151 | 2 | 67 | 0 | n |
+| 09-11 02:45 | @blknoiz06 | 8 | oblivious | 34469 | 35 | 988 (~334 now) | 60 | | | |
+
+**09-11 02:45 is the first row with the parent's CURRENT rate logged next to its average.** The
+`vel` column is views over age, which is the lifetime average: 988/min. Two reads on the post page 84
+seconds apart (34,469 then 34,937) put the rate at the catch at about 334/min. The 00:09 round said
+past twenty minutes the two can differ by 5x, and here they differ by 3x. On the rule of thumb, the
+average predicts roughly 900 to 1,500 views and the current rate predicts roughly 300 to 500. Where the
+row lands says which number to target on. This is a reading of a reply that was taken on its merits,
+not a designed test. It is also the account's first reply on a crypto-influencer parent since Sep 6.
+Read it no earlier than 04:45 UTC Sep 11.
+
+Re-read at 02:40 UTC Sep 11: chip shop 67 at 264 minutes (0.44x, up from 51 at 120), duck 424, shimmed 36,
+Devin Pops 12 (still void). No original poster has replied to any of them.
 
 **The 09-10 22:16 cluster test landed in between: 51 views at 120 minutes, 0.34x its 151/min parent.**
 That is three times the afternoon's rate (0.06 to 0.17x) and a third of the 0.9 to 1.5x rule of thumb,
