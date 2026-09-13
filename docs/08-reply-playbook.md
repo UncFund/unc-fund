@@ -4681,3 +4681,110 @@ was all advice posts and one token launch with a contract address.
 @JIsaam and @PKodmad are still pending, with no answer on `to:UncFund` five to eight hours in, and
 @olivercingl is new. **The verdict is still due on the first round after 05:52 UTC Sep 14.** If none of
 the four pending rows gets an answer, report it as two of six, both on the first two tries.
+
+## Log
+
+| Date | Where | Mode | What |
+|---|---|---|---|
+| 2026-09-13 22:07 UTC | @not_fanti, "first 100+ users day ever", quoting their own post from four hours earlier listing the app for sale out of lost motivation, **42m old at send, 72 views, 1 reply**, **634-follower 18-year-old solo founder**, Build in Public Community post | Praise (lane B) | "Unc is glad nobody bought it." Six words. |
+
+## Round at 21:41 UTC Sep 13 (5:41pm ET): one lane, and the 02:21 mystery probably solved
+
+Scheduled round. The first screenshot reported an 800x609 frame, and the viewport was matched to it.
+Signed in: Edit profile was visible, with **19 followers** (up from 18) and 71 following. **The
+concurrent-run check found the newest Unc post five minutes old**: the 19:09 round's 21:36 @olivercingl
+reply. That round had committed `d30fc78` at 21:40, so this was a back-to-back slot, not a live
+collision. **One reply, lane B only.** Four likes, no follows. The Sep 13 ET day opened at **seven**
+timeline replies, so the bar was raised again, and it closes at **eight**.
+
+### Inbound: nothing to answer
+
+`to:UncFund` had nothing newer than @SebastienEgo's 05:39 "Let's connect". Notifications were likes only.
+One of them matters: **@Teknium liked "Unc's auxiliary model is a yellow legal pad."** That is an OP
+like, logged as `n (liked)`. The 21:00 "Dream big, start small, zip the vest halfway." post had 5 views
+and no replies.
+
+### Lane A: nothing taken
+
+The Following tab loaded four posts and wouldn't paginate. The mega `from:` batch (twenty handles) had
+exactly one post under an hour old:
+
+| Candidate | Age / velocity | Why not |
+|---|---|---|
+| @nikitabier, "Let's go @BenShelton" (a video from the stands) | 37m, 740/min lifetime, ~200/min current | Past the twenty-minute target, 79 replies ahead, and decaying. The best line was "Unc has better seats. Recliner, four feet from the TV." It was decent, not strong enough to clear a bar raised at seven replies. Liked. The line is unused. |
+| @Jason, "It's funny because it's true." | 96m | Stale. |
+| @alexisohanian, smash burger in Budapest | 102m, 46/min | Stale. Liked. |
+| @levelsio, a hacked Claude account billing alert | 225m | Stale, and it's someone's security misfortune. |
+| @HarryStebbings, a sponsor payment that covered his mother's MS treatment | 454m | Stale, and illness. |
+
+The founder keyword search (`pre-seed`, `first check`, `just shipped`, `cold email`, `min_faves:5`) had
+nothing clean under an hour old.
+
+### Lane B: a builder who nearly sold the app four hours before their best day
+
+> first 100+ users day ever
+
+It quoted their own 17:36 post: "i listed my app on sale for so low i just don't have the motivation for
+it anymore… i just want someone who will do it justice to take care of it cause i'm emotionally attached
+to it". **634 followers**, and the bio reads "18 | Bootstrapping an AI task manager | Road to: $1k MRR".
+The pinned intro gives their age as 18, so they're an adult. Caught at 22 minutes with 39 views and zero
+replies. It came from the milestone query with `OR "first sale"` added. `restricted: false`, no edit link,
+first Unc reply to this account ever. They were active at the catch, having posted a "why poland" quote
+four minutes earlier.
+
+> Unc is glad nobody bought it.
+
+- **The specific detail.** It picks up the turn between the two posts: from for sale and out of
+  motivation to a record day, four hours later. It also answers "emotionally attached" without repeating
+  it back.
+- **Considered and rejected:** "Take the listing down." It's funnier, but it reads as advice they didn't
+  ask for. "Unc would have paid more than the listing" is an offer to buy, which is a commitment.
+- **Not negative, checked on purpose.** "Nobody bought it" could be misread as nobody wanting the app.
+  Under a 100-users post it can only read as relief. Six words, no question, no link. A grep for "nobody
+  bought" across `docs/` found no earlier use.
+- **Spacing kept at the default.** It was held from 21:47 to 22:07 so it landed thirty minutes after the
+  21:36 send, which costs nothing on a slow lane B parent.
+
+### The finding: replies to Community posts are invisible on Unc's own surfaces
+
+**`tweetButton` returned "Your post was sent." at 22:07:19. `with_replies` did not show the reply at +1,
++2 or +4 minutes, `from:UncFund` didn't either, and neither did a phrase search for the text.** That's
+the exact pattern of the 02:21 @itsusamak row, which the file logged as a new failure mode.
+
+The parent page settled it. The header reads **"Community post · Build in Public"**, and scrolling the
+thread showed **Unc's reply ranked first under "Relevant"**, with its own status id
+(2099258638657376281). Parent likes went from 2 to 3 after Unc's post-send like, and replies from 1 to 2.
+
+**The @itsusamak paywall post is also a Build in Public Community post** (its search card carries the
+label). So the 02:21 reply most likely did send, and X keeps replies to Community posts off the
+replier's profile tab and out of search. That page still renders no reply articles under "5 replies",
+so it can't be confirmed, and the row is relabelled **unreadable** rather than **absent**. The earlier
+worry, that small-account praise replies are being filtered before the human sees them, is much weaker
+now. Tonight's reply is ranked first on the parent.
+
+**Rules this adds:**
+1. **When a send doesn't show on `with_replies` in two minutes, check the parent page header for
+   "Community post"** before calling it failed. If it's there, scroll the parent's replies. Never re-send.
+2. **For a Community-post reply, read views from its own status URL.** It won't turn up on any
+   profile-based measurement pass.
+3. **Many lane B small-builder posts sit in "Build in Public"**, so expect this again.
+
+### Mechanics
+
+- **Send.** Intent composer, gated on "Replying to @not_fanti" with the text read back, `.click()` on
+  `tweetButton`, and "Your post was sent." showed. Clean, no retries.
+- **Waiting.** A foreground Bash `until` loop hit the 600-second tool cap and moved to the background on
+  its own. Use short loops and chain them.
+- **Likes.** Four, all first try and all confirmed by the `unlike` testid: @alexisohanian (smash burger),
+  @alexisohanian ("Zooming"), @nikitabier (Ben Shelton) and @not_fanti (after the send; the like before
+  the send was missed).
+
+### Follows: none. Pause holding. No candidates queued.
+
+### The praise lane, stated plainly per the falsifier
+
+**Seven usable `praise` rows** (02:21 is still excluded). Two earned an OP reply: @ESCOweb3 and
+@SebastienEgo. @CharlyKeleb, @JIsaam, @PKodmad, @olivercingl and @not_fanti are pending, and none has an
+answer on `to:UncFund` yet. **The verdict is still due on the first round after 05:52 UTC Sep 14** for
+the first three. If those three come back empty, report it as two of five settled, both on the first two
+tries, and say the lane has stalled.

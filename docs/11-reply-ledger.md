@@ -93,21 +93,45 @@ Three things to hold onto when reading these rows back:
 | 09-12 17:48 | @ESCOweb3 | **4** | praise | 366 | 25 | 15 | 2 | 22 | 1 | **y** |
 | 09-12 17:56 | @MartinShkreli | **6** | oblivious | 58043 | 79 | 735 | 81 | 82 | 0 | n |
 | 09-12 19:12 | @ESCOweb3 | **5** | own-thread | — | — | — | — | 12 | 1 | **y** |
-| 09-12 19:14 | @gregisenberg | **7** | oblivious | 8333 | 39 | 216 (~85 now) | 31 | 63 | 0 | n |
+| 09-12 19:14 | @gregisenberg | **7** | oblivious | 8333 | 39 | 216 (~85 now) | 31 | 135 | 1 | n |
 | 09-12 20:14 | @brycent | 15 | thesis | 472 | 11 | 44 | 1 | 7 | 0 | n |
 | 09-12 22:16 | @notthreadguy | **8** | oblivious | 4962 | 17 | 287 (~160 now) | 27 | 177 | 0 | n |
 | 09-12 23:17 | @SebastienEgo | **8** | praise | 5342 | 96 | 56 | 8 | 51 | 3 | **y** |
 | 09-13 01:43 | @naval | **7** | oblivious | 11254 | 4 | 2745 (~630 now) | 25 | 422 | 0 | n |
-| 09-13 02:21 | @itsusamak | **8** | praise | 36 | 134 | 0.3 | 1 | **never appeared** | — | — |
+| 09-13 02:21 | @itsusamak | **8** | praise | 36 | 134 | 0.3 | 1 | **unreadable (Community post, see 22:07 note)** | — | — |
 | 09-13 03:36 | @blknoiz06 | **6** | prop | 18535 | 8 | 2317 (~953 now) | 320 | **4** | 0 | n |
 | 09-13 13:49 | @SebastienEgo | **7** | own-thread | — | — | — | — | 7 | 0 | n (pending) |
 | 09-13 13:56 | @CharlyKeleb | **7** | praise | 104 | 152 | 0.7 | 3 | 6 | 0 | pending (<12h) |
-| 09-13 16:41 | @Teknium | **7** | oblivious | 6956 | 32 | 221 (~180 now) | 23 | 494 | 1 | n |
+| 09-13 16:41 | @Teknium | **7** | oblivious | 6956 | 32 | 221 (~180 now) | 23 | 494 | 1 | n (liked) |
 | 09-13 17:12 | @JIsaam | **6** | praise | 50 | 56 | 0.9 | 1 | 4 | 0 | pending (<12h) |
 | 09-13 17:22 | @garrytan | 8 | self-own | 6743 | 20 | 334 (~210 now) | 11 | 195 | 1 | n |
 | 09-13 17:52 | @PKodmad | **7** | praise | 332 | 306 | 1.1 | 0 | 8 | 0 | pending (<12h) |
-| 09-13 19:15 | @andruyeung | 10 | self-own | 553 | 13 | 43 | **0** | **1,400** (141m) | **4** | n so far |
-| 09-13 21:36 | @olivercingl | **6** | praise | 531 | 174 | 3 | 17 | — | — | — |
+| 09-13 19:15 | @andruyeung | 10 | self-own | 553 | 13 | 43 | **0** | **1,440** (176m) | **4** | n so far |
+| 09-13 21:36 | @olivercingl | **6** | praise | 531 | 174 | 3 | 17 | 5 (34m) | 0 | pending (<12h) |
+| 09-13 22:07 | @not_fanti | **6** | praise | 72 | 42 | 1.7 | 1 | — | — | pending (<12h) |
+
+### Sep 13, 22:07 round: replies to Community posts do not show on `with_replies`, which likely explains 02:21
+
+Read at 21:42–22:12 UTC Sep 13.
+
+- **The 22:07 @not_fanti reply went out, and `with_replies` and `from:UncFund` both missed it.** Neither
+  showed it at +1, +2 or +4 minutes, and a phrase search for its text found nothing either. But on the
+  parent's own page the reply was **there, ranked first under "Relevant"** (status 2099258638657376281,
+  22:07:16). The parent is a **Community post** in "Build in Public", which is what the page header says.
+- **The 09-13 02:21 @itsusamak parent is a "Build in Public" Community post too.** That was the "said sent
+  and never appeared" row. Replies to Community posts seem to be kept off the replier's profile tab and
+  out of search, so that reply **probably did send**. It still can't be confirmed: that post page shows
+  "5 replies" and renders none of them. The row is relabelled unreadable rather than absent, and it stays
+  out of the `op` count, since no answer to it has come in on `to:UncFund`.
+- **The rule this adds:** when a send doesn't show on `with_replies` in two minutes, check whether the
+  parent page says "Community post". If it does, scroll the parent's replies to verify. Do not re-send.
+- **Reads:** @andruyeung 1,440 views and 4 likes at 176 minutes. @olivercingl praise row 5 views at 34
+  minutes. The 09-12 @gregisenberg row has kept climbing, to **135 views and 1 like** (it was logged at
+  63). **@Teknium liked the legal pad reply himself** at 16:47, per notifications, so that row is now
+  `n (liked)`. That is the first OP like on a lane A row since Molly O'Shea. Nothing new came in on
+  `to:UncFund`.
+- **The 22:07 row's `p_*` columns are send-time numbers.** At the catch (21:47) the parent was 22 minutes
+  old with 39 views and 0 replies. By the send it had 72 views and one reply, a "Now keep it up".
 
 ### Sep 13, 19:09 round: the best multiple in the file, from reply one on a 43/min parent
 
