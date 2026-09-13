@@ -96,20 +96,36 @@ Three things to hold onto when reading these rows back:
 | 09-12 19:14 | @gregisenberg | **7** | oblivious | 8333 | 39 | 216 (~85 now) | 31 | 63 | 0 | n |
 | 09-12 20:14 | @brycent | 15 | thesis | 472 | 11 | 44 | 1 | 7 | 0 | n |
 | 09-12 22:16 | @notthreadguy | **8** | oblivious | 4962 | 17 | 287 (~160 now) | 27 | 177 | 0 | n |
-| 09-12 23:17 | @SebastienEgo | **8** | praise | 5342 | 96 | 56 | 8 | 15 | 0 | n |
-| 09-13 01:43 | @naval | **7** | oblivious | 11254 | 4 | 2745 (~630 now) | 25 | 311 (42m) | 0 | n (early) |
-| 09-13 02:21 | @itsusamak | **8** | praise | 36 | 134 | 0.3 | 1 | **unverified** | — | — |
+| 09-12 23:17 | @SebastienEgo | **8** | praise | 5342 | 96 | 56 | 8 | 19 | 0 | n |
+| 09-13 01:43 | @naval | **7** | oblivious | 11254 | 4 | 2745 (~630 now) | 25 | 400 | 0 | n |
+| 09-13 02:21 | @itsusamak | **8** | praise | 36 | 134 | 0.3 | 1 | **never appeared** | — | — |
+| 09-13 03:36 | @blknoiz06 | **6** | prop | 18535 | 8 | 2317 (~953 now) | 320 | — | — | — |
 
-**The 09-13 02:21 row is UNVERIFIED and must not be counted until it is seen.** `tweetButton`
-returned "Your post was sent." and the parent's reply count moved 1 → 3, but the reply was absent
-from `with_replies` and from `from:UncFund` at +1, +5 and **+66 minutes**, while the @naval reply
-sent 38 minutes earlier from the same session appeared on both within seconds. It was **not
-re-sent** — a double reply to a 42-follower account inside five minutes is the thin-repeat pattern
-that earned the @Trace_Cohen block, and it would be aimed at exactly the account type lane B needs.
-Full analysis in `08-reply-playbook.md` under "The send that said sent and never appeared". If the
-reply is visible next round, fill the row in; if it is still absent, **the praise lane is at two
-usable rows, not three**, and a filtered reply buys neither views nor conversation.
+**The 09-13 02:21 row is now CONFIRMED ABSENT and is struck from every count.** It was checked again
+at **+80 minutes** on both `with_replies` and `from:UncFund` and is on neither. `tweetButton` had
+returned "Your post was sent." and the parent's reply count moved 1 → 3, but eighty minutes is far
+past the sixteen seconds the @naval reply took from the same session, the same composer and the same
+click method. It was **not re-sent** — a double reply to a 42-follower account is the thin-repeat
+pattern that earned the @Trace_Cohen block, aimed at exactly the account type lane B needs. Full
+analysis in `08-reply-playbook.md` under "The send that said sent and never appeared". **The praise
+lane therefore stands at TWO usable rows, not three**, and "Your post was sent." is no longer
+sufficient verification on its own.
 
+
+### The @naval row settles at 400, which is 0.15x — and the rule of thumb misses again
+
+Read at 03:41 UTC Sep 13, two hours in: **400 views, 0 likes, `op` n**, having moved 311 → 394 → 397
+→ 400 across the second hour. It is done. Against the parent's ~630/min current rate at the catch the
+prediction was 570 to 950; against the 2,745/min lifetime average it was thousands. **It landed at
+0.15x of the current rate**, back in the 0.06-to-0.34x band that has held on nearly every row since
+Sep 10. The @notthreadguy row's 1.1x last night looks like the outlier rather than a return to form,
+which is exactly what the note under it warned against reading too quickly.
+
+Also worth recording: **the two fastest parents the account has ever taken are now one row apart in
+velocity and two orders of magnitude apart in outcome.** Dale on a 1,835/min @naval parent returned
+2,745 views; Jagged on a 2,745/min @naval parent returned 400. Same target account, same mode, both
+seven words, three days apart. Whatever drives reply reach, parent velocity is not it — or not it any
+more.
 
 ### The rule of thumb held for the first time since Sep 10, on the E*Trade row
 

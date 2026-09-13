@@ -2972,3 +2972,84 @@ one occurrence so far. Full write-up in `08-reply-playbook.md`.
 on `with_replies`. If it is, fill in the ledger row and treat this as slow propagation. If it is not,
 the praise lane stands at two usable rows and the send path needs a harder verification step than a
 toast.
+
+## Round at 03:32 UTC Sep 13 (11:32pm ET Sep 12): one lane, and a send written off
+
+| Lane | Target | Age / velocity at catch | Reply | Words |
+|---|---|---|---|---|
+| A | @blknoiz06 (Ansem), "what yall doing" | **8m**, 18,535 views, 2,317/min avg and ~953/min current, 320 replies | "Chair. Lights off. Vest still on." | 6 |
+| B | — | — | **No candidate on the board.** See below. | — |
+
+### The @itsusamak send is confirmed never to have arrived
+
+Checked at **+80 minutes** on both `with_replies` and `from:UncFund`: absent from each. The newest
+Unc post on the profile is still the 01:43 @naval reply. The toast said "Your post was sent."; the
+timeline has never agreed. **The row is struck and the praise lane is at two usable rows, not three.**
+
+The operational consequence is a hard rule rather than a caution: a send is proven by `with_replies`
+within about two minutes and by nothing else. It is not re-sent — a double reply to a 42-follower
+account is the thin-repeat pattern that earned the @Trace_Cohen block.
+
+Which reading is right is still open, and one more occurrence settles it. If the failure is X
+filtering a tiny reply off a tiny parent, it will recur **specifically on lane B picks**, because that
+is the only place the round goes looking for tiny parents.
+
+### The previous round's read: @naval settles at 400, and the rule of thumb misses again
+
+**400 views, 0 likes, `op` n** at two hours — 311 → 394 → 397 → 400 across the second hour, so it is
+done. Against the parent's ~630/min current rate that is **0.15x**, back inside the 0.06-to-0.34x band
+that has held on nearly every row since Sep 10. Last night's 1.1x on the E*Trade row looks like the
+outlier, not a return to form.
+
+The sharper observation: **the two fastest parents ever taken are both @naval, both seven words, both
+`oblivious`, three days apart — and they returned 2,745 views and 400.** Whatever drives reply reach,
+parent velocity is not currently it.
+
+@SebastienEgo's praise reply also settled: **19 views, 0 likes, `op` n** at 4h15m.
+
+### No original poster has replied since @ESCOweb3
+
+`to:UncFund` holds four rows and all four are handled: @ESCOweb3 twice (Sep 12), @jdtoelle (Sep 9) and
+@ESCOweb3 (Sep 8). Mentions hold only the known @realjohnny5i DM bait. Unc's own 5pm note sits at
+**23 views and 2 likes with zero replies**, so the own-thread lane — the highest-value lane in the
+round — had nothing in it for the third round running.
+
+### Lane B found nothing, and the instrument is the problem
+
+Five Latest searches and eight scrolls of the Following timeline returned **zero** clean sincere posts
+from a small account. The searches surfaced a token mint product, two crypto promos, an engagement-farm
+"drop your startup URL" thread, an anatomy thread, a celebrity pregnancy joke, **a shooting**, and a
+family estrangement post. The Following timeline held seven posts in total.
+
+That is three rounds in a row. Keyword search finds the *register* of sincerity, not the sentiment —
+"been building" and "going through" and "proud of" belong equally to founders, to promos and to people
+having the worst day of their lives.
+
+**Next round's first move should be the reply section of an orbit question post**, not a search.
+@ColinGardiner's "If you could have one VC on your cap table?" carried 44 replies tonight: a room full
+of small accounts with context you can actually read. One page load instead of five searches.
+
+One rule learned tonight and worth keeping: **mine a thread or reply to its author, never both.**
+@blknoiz06's post had 367 replies of exactly the people lane B wants, and it was left alone because
+Unc had just replied on that same parent.
+
+### Likes (4, all first try via `element.click()`, all verified by the `unlike` testid)
+
+@blknoiz06 (pre-flight), @thursdai_pod (Meta's free 24/7 agent, via @altryne's repost), @altryne
+("no idea how to invite folks"), @ColinGardiner ("Send your agent to yonder dot vc"). Below the usual
+five to six purely because the Following timeline held seven posts. **Not liked, deliberately:**
+@blknoiz06's "tech bros … need to be a lot more personable" and @ColinGardiner's Resy-deactivations
+post — a followed account's post is not automatically likeable.
+
+### Follows: none. Pause holding. No candidates queued.
+
+### Praise lane status: two rows, one OP reply, and no at-bat this round
+
+Stated plainly per the falsifier. **Two `praise` rows, one OP reply.** Still n=1, and the count did
+not move tonight because there was no candidate.
+
+**For Rand, the honest position:** the lane is not failing on its own terms yet — it is failing to get
+enough at-bats to be tested. Three of its first three attempted picks came from an instrument that
+returns roughly one usable candidate per twelve, and one of the three never reached its recipient at
+all. Before the lane can be judged, it needs a way of finding small sincere accounts that works more
+than once a night.

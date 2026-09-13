@@ -4035,3 +4035,153 @@ without answering, so that row is a settled `n` rather than an early read. Two m
 before the count means anything, and the @itsusamak row cannot be counted until it is seen.
 **Nothing so far supports the lane beyond the single observation that created it**, and the
 instruction to say so plainly at about five rows stands.
+
+## Log
+
+| Date | Where | Mode | What |
+|---|---|---|---|
+| 2026-09-13 03:36 UTC | @blknoiz06 (Ansem), "what yall doing", **8m old, 18,535 views, 2,317/min average and ~953/min current**, 320 replies | Prop, self-own (lane A) | "Chair. Lights off. Vest still on." Six words. |
+
+## Round at 03:32 UTC Sep 13 (11:32pm ET Sep 12): one lane, and the missing reply is confirmed missing
+
+Scheduled round. Viewport matched to the 800x455 frame on the first call, `twid` true, tree clean.
+**One reply, lane A only** — the board had no lane B pick at all — four likes, no follows, nothing to
+answer. The Sep 12 ET day closes at **nine** verified timeline replies against the ceiling of ten.
+
+### The finding of the round: 02:21 never arrived, and it is now a settled absence
+
+The previous round's lane B reply to @itsusamak was checked again at **+80 minutes**:
+
+| Surface | Result |
+|---|---|
+| `with_replies`, +80 min | **absent** (newest Unc post is still the 01:43 @naval reply) |
+| `from:UncFund`, +80 min | **absent** |
+
+Eighty minutes against the sixteen seconds the @naval reply took, from the same session, the same
+composer, the same `.click()` on `tweetButton`, and the same "Your post was sent." toast. **The
+reply does not exist on any surface Unc controls and it is struck from the counts.** The praise lane
+is at **two** usable rows, not three.
+
+**The operational rule is now firm:** `with_replies` inside about two minutes is the only proof of a
+send. A toast is a claim, not a receipt. A send that does not appear is logged unverified, **not
+re-sent**, and — as of this round — written off rather than left pending after an hour and a half.
+
+Which of the two readings is right is still unsettled, and one more occurrence decides it. Reading
+(1), that X filtered a 12-follower reply to a 42-follower account off a 63-view post, remains the more
+specific explanation because it predicts *where* the failure will recur: on the smallest parents,
+which is exactly what lane B is built out of. If the next lane B send also vanishes, **the lane has a
+structural problem** and the mechanism it depends on — "a small account reads every reply" — is
+defeated before the human ever sees it.
+
+### Lane A: @blknoiz06 at eight minutes, and the chair finally gets used
+
+> what yall doing
+
+Caught at **8.0 minutes with 18,535 views** — about 2,317/min lifetime average, and a sweep-to-post-page
+delta of 1,048 views in 1.1 minutes putting the current rate near **953/min**. Text only, no quote,
+no media, `restricted: false`, no edit link, 320 replies. The header reads "Subscribe", so he is
+followed. Last replied to Sep 11 02:45, so outside the 24-hour floor and one row deep on the week.
+
+A crypto account, which the rules allow only on a human moment or on Unc misunderstanding the jargon.
+There is no jargon here at all: it is a man asking the internet what it is up to at 11:27pm. **That is
+the cleanest parent this account type ever produces** — no ticker, no price, no position, nothing to
+take a side on.
+
+> Chair. Lights off. Vest still on.
+
+- **Standalone test.** With the parent hidden it is a complete image: a man sitting in the dark in a
+  vest. It needs nothing above it, which is the test.
+- **The chair had never been used.** The playbook has listed it as a prop since the rewrite and not one
+  reply had reached for it. The vest is well-worn, so the line leans on the chair for the setup and lets
+  the vest land as the third beat — the joke is that he never took it off, not that he owns one.
+- **A line that was rejected for reuse.** The obvious answer to "what yall doing" was
+  readers-on-the-forehead, and Unc has already done readers-on-the-forehead — @HarryStebbings, Sep 9,
+  "Both on the forehead. Neither one has ever helped." **The prop may recur; the joke may not.**
+  That distinction is worth holding: props compound, punchlines do not.
+- **Shape and rhythm.** Three short beats, not a single sentence, and not the "Unc [verb] in [year]"
+  receipt. The confidently-wrong gear is absent this time — this is the deadpan literal answer, which
+  is a different gear and one the file has under-used lately.
+- **Length.** **Six words**, equal to the shortest reply the account has ever posted.
+
+### Lane B: nothing on the board, and the search failed a third round running
+
+No praise pick was taken, and the honest reason is that there was nothing to take. Five searches and
+the full Following timeline produced **zero** candidates that clear criterion (e):
+
+| Instrument | What came back |
+|---|---|
+| `"first customer" OR "just shipped" OR "my first paying"` | Two replies inside someone else's thread, a non-English post about a date, a Brembo brake-by-wire correction, an OpenAI/Navier-Stokes news post, and a startup-URL promo. |
+| `"finally launched" OR "first paying customer" OR "after months of"` | An AI venture-studio promo, an anatomy thread, a weather post, a market-cap post replying to @HunterBiden, a Zayn Malik pregnancy joke, **a shooting**, and a family estrangement post. |
+| `"what are you building" OR "what are you working on"` (min_faves:5) | Engagement-farm threads — "Traffic thread for your startup", "Drop your startup URL". |
+| `(shipped OR launched OR "went live") ... min_faves:3` | A token mint/lock/vest product, a dog-meme-coin backstory, and a botting article. |
+| `("still up" OR "late night" OR "day one" OR "proud of") ...` | A Bitcoin/El Salvador promo, a protocol liquidity post, and a farewell letter to a colleague. |
+| Following timeline, 8 scrolls | **Seven posts total.** Two @blknoiz06, two @ColinGardiner (one stale, one a company-deactivates-accounts post), a Meta news repost, an invite-code post, and Unc's own reply. |
+
+**Three rounds, three failures, and the failure is structural rather than bad luck.** Searching for
+sincerity by keyword returns the register, not the sentiment: *"been building"* and *"going through"*
+and *"proud of"* are shared by founders, by crypto promos and by people having the worst day of their
+lives. Tonight's searches surfaced a shooting and a family estrangement while looking for a first
+customer.
+
+**The instruction is explicit that this is allowed** — "If the board only supports one, take the one
+that is actually there and say which lane it was" — so this is a round that ran lane A, not a round
+that skipped lane B out of laziness. But the fix is not another keyword. The orbit instrument was
+recommended two rounds ago and has not been reachable since, because the followed accounts have been
+posting news and thread replies rather than hosting small builders. **The next round should try the
+reply sections of the orbit's question posts directly** — @ColinGardiner's "If you could have one VC
+on your cap table" had 44 replies tonight, which is a room full of small accounts with readable
+context, and it costs one page load rather than five searches.
+
+One caution against that plan, from tonight: @blknoiz06's "what yall doing" had 367 replies of exactly
+the people lane B wants, and it was **deliberately not mined**, because Unc had just replied on that
+same parent. Two Unc replies in one thread within minutes is thread-farming and it is visible to
+everyone in it. **Mine a thread or reply to its author, never both in the same round.**
+
+### The day budget, and a boundary that was deliberately not gamed
+
+The Sep 12 ET day stood at eight verified replies when this round opened, which is well past the five
+that triggers the raised bar. One reply takes it to nine of ten. The ET day rolled over at 04:00 UTC,
+twenty-four minutes after the send, and a second reply posted at 04:06 would have been **technically
+legal on both the ceiling and the thirty-minute spacing rule** while being two replies in half an hour
+timed around a clock boundary.
+
+It was considered and dropped — but the deciding reason is that **there was no lane B candidate to
+post**, not the boundary. Worth writing down anyway, because the situation recurs every night the day
+runs hot: the ceiling is a burst-safety limit, and stepping over a midnight to satisfy it on paper
+defeats what it is for. If a round ever does want the tenth reply near the rollover, take it *before*
+midnight and count it against the day it belongs to.
+
+### Mechanics: clean, twenty-third round running with no click retries
+
+- **Pre-flight** on the post page: `restricted: false`, no edit-version link, no dialog, parent like
+  through first try with its testid read before the click.
+- **Concurrent-run checks.** Opening check clean (newest Unc reply 112.5m — the @naval reply).
+  Re-checked on `with_replies` immediately before the submit: still 112.5m, no collision.
+- **Send.** Intent composer, text read back exactly as `Chair. Lights off. Vest still on. `,
+  "Replying to @blknoiz06", counter **12** on the second `[role="progressbar"]` (33 characters).
+  `.click()` on `tweetButton` gave "Your post was sent." at 03:36:22, and — per the new rule — it was
+  confirmed on `with_replies` **12 seconds** later with its parent above it. Toast plus timeline, not
+  toast alone.
+- **Likes.** Four, all first try via `element.click()` and all verified by the `unlike` testid, with
+  every testid read before the click per the collision hazard: @blknoiz06 (pre-flight),
+  @thursdai_pod (Meta's free 24/7 agent, via @altryne's repost), @altryne ("no idea how to invite
+  folks"), @ColinGardiner ("Send your agent to yonder dot vc"). Short of the usual five to six
+  because the Following timeline only held seven posts.
+- **Not liked, deliberately.** @blknoiz06's "the current batch of tech bros … need to figure out how
+  to be a lot more personable" — a swipe at a named group — and @ColinGardiner's Instinct/Resy post,
+  which names a company deactivating user accounts. Both follow the @credistick precedent: a followed
+  account's post is not automatically likeable.
+
+### Follows: none. Pause holding. No candidates queued.
+
+### The praise lane is at two rows, one OP reply, and it has now missed a round entirely
+
+Stated plainly per the falsifier. **Two `praise` rows exist** (@ESCOweb3 Sep 12 17:48, @SebastienEgo
+Sep 12 23:17); the @itsusamak row is struck as never-posted. **One has earned an OP reply.** Still
+n=1, and the count did not move this round because the board produced no candidate.
+
+That is worth flagging to Rand as a second, quieter problem alongside the vanished send: **the lane
+cannot accumulate rows if it can only find a target on some nights.** Three more rows are needed to
+say anything, the instrument that finds them has failed three rounds running, and one of the three
+picks it did find never reached its recipient. The lane is not yet failing on its own terms — it is
+failing to get enough at-bats to be tested.
