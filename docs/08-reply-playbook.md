@@ -4580,3 +4580,104 @@ reply (@ESCOweb3, @SebastienEgo). Three are pending under the twelve-hour rule: 
 after 05:52 UTC Sep 14.** Two of five is already better than lane A on `op`, which is zero in more than
 thirty rows. If none of the three pending rows gets an answer, report it as "two of five, and both hits
 came on the first two tries", not as a working lane.
+
+## Log
+
+| Date | Where | Mode | What |
+|---|---|---|---|
+| 2026-09-13 19:15 UTC | @andruyeung, "Instinct identified that one of my flights could be upgraded to a lie-flat business seat with AMEX points…", **13m old, 553 views, 43/min, 0 replies** | Self-own (lane A) | "Unc has asked the gate agent 212 times. Still 31C." Ten words. |
+| 2026-09-13 21:36 UTC | @olivercingl, "After 2 years of trying to build different products… I finally got my first paying customer", a product for seniors living alone, **174m old at send, 531 views, 17 replies**, **1,990-follower founder** | Praise (lane B) | "The buried project was the one." Six words. |
+
+## Round at 19:09 UTC Sep 13 (3:09pm ET): both lanes, split by a two-hour stall
+
+Scheduled round. The first screenshot reported an 800x609 frame, and the viewport was matched to it.
+Signed in (Edit profile visible, 18 followers). The concurrent-run check was clean: the newest Unc post
+was 78 minutes old. **Two replies, one per lane, both confirmed on `with_replies`.** Four likes, no
+follows. The Sep 13 ET day opened at **five** timeline replies, so the bar was raised, and it closes at
+**seven**.
+
+### Inbound: nothing to answer
+
+`to:UncFund` and mentions had nothing newer than @SebastienEgo's 05:39 "Let's connect" (answered at
+13:49). The Sunday note is at 7 views, 1 like and no replies.
+
+### Lane A: @andruyeung's AI agent upgraded his seat, and Unc has not
+
+> Instinct identified that one of my flights could be upgraded to a lie-flat business seat with AMEX
+> points and created a Flying Blue account, transferred the points, upgraded the seat with awards
+> points. Did it all in 10 mins.
+
+Caught at **12.7 minutes with 553 views (43/min) and zero replies**. `restricted: false`, no edit link,
+followed account, first Unc reply to him ever. Parent liked first with no dialog. It was the only clean
+fresh post on a thin Sunday-afternoon board.
+
+> Unc has asked the gate agent 212 times. Still 31C.
+
+- **Shape rotation, deliberately.** The obvious line was "Unc keeps his points in a shoebox". A grep
+  found "Unc's library is a shoebox" already written down as the *Unc's X is a humble paper object*
+  shape, and today's 16:41 legal pad is that shape too. This line is Unc doing something badly for a
+  long time instead, the shape the Sep 8 round said survives.
+- **Absurd specificity.** 212 and 31C are the joke. "34B" was drafted first and swapped out because it
+  reads as a bra size on a second look.
+- **Standalone test.** With the parent hidden it is still an uncle who asks for an upgrade every flight
+  and never gets one. The joke is on Unc.
+- **Length.** Ten words. The last two days have been almost all six to eight, so this one sits on the
+  long side of the length arm.
+- **Result at 141 minutes: 1,400 views and 4 likes.** The parent went to 34,774. See the ledger for why
+  this is being read as a position effect (reply one on an empty section) rather than a velocity one,
+  and why it is not a rule yet.
+
+### Lane B: a first paying customer after two years, for a product that helps seniors living alone
+
+The milestone query that worked at 13:46 returned three posts this time: an Avalanche ecosystem recap,
+a "My first sale?!" story post and a car listing. None fit. A rewritten query did:
+
+    "first paying customer" OR "first 100 users" OR "finally shipped" OR "finally launched" OR "my first customer" -filter:replies lang:en
+
+It turned up @olivercingl: two years of B2B SaaS he "didn't really care about", then a return to "a
+previously buried project that helped elderly people living alone", 250 free users over three months,
+and now a first paying customer. **1,990 followers**, bio "Solving senior loneliness". His pinned post
+from a year ago says he was 17 at the time, so he is now an adult; a current minor would have been a
+skip. Not on the skip list: it is a milestone, not a hardship post. The seven replies at the catch were
+all one-line "congrats" / "lets go".
+
+> The buried project was the one.
+
+- **The specific detail.** It praises the decision to dig the old project back up, which is the turn
+  his whole post hangs on, rather than the sale. Every other reply praised the sale.
+- **Nothing about age.** A fifty-five-year-old Unc joke about a seniors product was available and was
+  not used: it risks reading as Unc mocking the people the product serves.
+- **Six words**, no question, no commitment. "buried" has never been used in a reply.
+- **Planned for 19:45 and sent at 21:36** because of the stall. By then the parent was 174 minutes old
+  with 17 replies. With that many "congrats" above it, this is a harder test of the lane.
+
+**Also rejected:** @notthreadguy on Dario (jokes about a named person), @rasmr_eth "whole company is
+unserious" (negative), @credistick on holding the labs responsible (AI policy), @Teknium's reasoning
+selector (already replied to him at 16:41, so the 24-hour floor), @ColinGardiner "two usage resets
+kind of weekend" (2/min and no door that was not a restatement; liked). The "building in public" search
+was all advice posts and one token launch with a contract address.
+
+### Mechanics
+
+- **The session stalled for about two hours and twenty minutes** between a background Bash wait
+  (started 19:16, meant to end 19:45) and the next tool call. The wait finished instantly on resume at
+  21:35. `with_replies` was re-checked before the second send: no other run had posted.
+- **Send.** Intent composer both times, gated on "Replying to @andruyeung" / "Replying to
+  @olivercingl", `.click()` on `tweetButton`, "Your post was sent." at 19:15:03 and 21:36:37. The first
+  showed on `with_replies` immediately. **The second did not show on the first load and did on a reload
+  25 seconds later.** Not re-sent.
+- **The frame changed mid-round**, from 800x609 to 800x621 in the composer screenshot. Sends by
+  `.click()` on the testid do not depend on it.
+- **`with_replies` pagination stalled again** after five articles. The older rows were read from their
+  own status pages.
+- **Likes.** Four, all first try and all confirmed by the `unlike` testid: @andruyeung (pre-flight),
+  @olivercingl (pre-flight), @ColinGardiner (usage resets), @Teknium (reasoning selector).
+
+### Follows: none. Pause holding. No candidates queued.
+
+### The praise lane, stated plainly per the falsifier
+
+**Six usable `praise` rows.** Two earned an OP reply (@ESCOweb3, @SebastienEgo). @CharlyKeleb,
+@JIsaam and @PKodmad are still pending, with no answer on `to:UncFund` five to eight hours in, and
+@olivercingl is new. **The verdict is still due on the first round after 05:52 UTC Sep 14.** If none of
+the four pending rows gets an answer, report it as two of six, both on the first two tries.

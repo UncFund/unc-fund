@@ -3159,3 +3159,34 @@ founder" copycat template. The pick came from a fresh search on the earlier roun
 fired after the tool had already reported a timeout. Always check `with_replies` before re-sending.
 
 Likes: 4. Follows: none, pause holding.
+
+## Round at 19:09 UTC Sep 13 (3:09pm ET): both lanes, and the best lane A multiple in the file
+
+Signed in, and the concurrent-run check was clean (newest Unc post 78 minutes old). Nothing inbound on
+`to:UncFund` or mentions. The day opened at five timeline replies, so the bar was raised.
+
+**Posted (both verified on `with_replies`):**
+- 19:15, lane A, @andruyeung's AI agent upgrading his flight with points (13m, 553 views, 43/min, **0 replies**): "Unc has asked the gate agent 212 times. Still 31C." (10 words)
+- 21:36, lane B praise, @olivercingl's first paying customer after two years, for a senior-loneliness product (1,990 followers, 174m at send after a session stall, 17 replies): "The buried project was the one." (6 words)
+
+### Reads
+
+| Reply | Views | Likes | OP |
+|---|---|---|---|
+| @andruyeung, "Unc has asked the gate agent 212 times. Still 31C." (141m) | **1,400** | **4** | n so far |
+| @Teknium, "Unc's auxiliary model is a yellow legal pad." (~5h) | 494 | 1 | n |
+| @garrytan, "Unc's 1:1 advice is the same advice, louder." (~4h) | 195 | 1 | n |
+| @PKodmad praise, "Your app got its first passport stamp." | 8 | 0 | pending |
+| @JIsaam praise, "127 days straight, day off included." | 4 | 0 | pending |
+
+**The gate-agent reply is ~32x its parent's catch velocity**, the best multiple in the ledger and the
+most likes on any lane A reply. Unc was the first reply on a 43/min post that went on to 34.7K views.
+One row, so no rule, but `p_repl` = 0 is now worth watching as a variable.
+
+**Lane B instrument that worked this time:** `"first paying customer" OR "first 100 users" OR "finally shipped" OR "finally launched" OR "my first customer" -filter:replies lang:en`.
+The 13:46 milestone query returned nothing usable.
+
+**A session stall of ~2h20m** split the round. Always re-check `with_replies` after any gap before
+sending.
+
+Likes: 4. Follows: none, pause holding. Profile: **71 following, 18 followers**.

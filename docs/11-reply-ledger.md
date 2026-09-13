@@ -102,10 +102,41 @@ Three things to hold onto when reading these rows back:
 | 09-13 03:36 | @blknoiz06 | **6** | prop | 18535 | 8 | 2317 (~953 now) | 320 | **4** | 0 | n |
 | 09-13 13:49 | @SebastienEgo | **7** | own-thread | — | — | — | — | 7 | 0 | n (pending) |
 | 09-13 13:56 | @CharlyKeleb | **7** | praise | 104 | 152 | 0.7 | 3 | 6 | 0 | pending (<12h) |
-| 09-13 16:41 | @Teknium | **7** | oblivious | 6956 | 32 | 221 (~180 now) | 23 | — | — | — |
-| 09-13 17:12 | @JIsaam | **6** | praise | 50 | 56 | 0.9 | 1 | — | — | — |
-| 09-13 17:22 | @garrytan | 8 | self-own | 6743 | 20 | 334 (~210 now) | 11 | — | — | — |
-| 09-13 17:52 | @PKodmad | **7** | praise | 332 | 306 | 1.1 | 0 | — | — | — |
+| 09-13 16:41 | @Teknium | **7** | oblivious | 6956 | 32 | 221 (~180 now) | 23 | 494 | 1 | n |
+| 09-13 17:12 | @JIsaam | **6** | praise | 50 | 56 | 0.9 | 1 | 4 | 0 | pending (<12h) |
+| 09-13 17:22 | @garrytan | 8 | self-own | 6743 | 20 | 334 (~210 now) | 11 | 195 | 1 | n |
+| 09-13 17:52 | @PKodmad | **7** | praise | 332 | 306 | 1.1 | 0 | 8 | 0 | pending (<12h) |
+| 09-13 19:15 | @andruyeung | 10 | self-own | 553 | 13 | 43 | **0** | **1,400** (141m) | **4** | n so far |
+| 09-13 21:36 | @olivercingl | **6** | praise | 531 | 174 | 3 | 17 | — | — | — |
+
+### Sep 13, 19:09 round: the best multiple in the file, from reply one on a 43/min parent
+
+Read at 19:10 and again at 21:36–21:40 UTC Sep 13. The session stalled for about two hours and twenty
+minutes between the two sends (19:16 → 21:35), so the lane B row went out far later than planned.
+
+- **@andruyeung, "Unc has asked the gate agent 212 times. Still 31C." — 1,400 views and 4 likes at 141
+  minutes.** The parent was caught at 13 minutes with 553 views (43/min) and **zero replies**. It then
+  went to 34,774 views and 20 replies. That is **~32x the catch velocity**, against a file where almost
+  every row since Sep 10 has landed between 0.06x and 1.1x. The four likes are the most on any lane A
+  row ever. It is also ten words, the longest reply in two days.
+- **What was different is position, not speed.** Unc was the first reply on a post that went on to
+  explode. The two biggest earlier results (Dale on @naval, 18 replies ahead; the covered dish, 328) came
+  off fast parents; this one came off a slow parent with an empty reply section. **One row. Do not
+  write a "be reply one" rule off it** — that is the exact move the velocity band and the cluster both
+  made and both regretted. Log `p_repl` carefully and see whether zero-reply catches keep outperforming.
+- **Settled reads on the 16:37 and 17:16 rounds:** @Teknium legal pad **494 views, 1 like** (~2.7x the
+  ~180/min current rate at the catch). @garrytan **195 views, 1 like** (~0.93x of ~210/min). Neither
+  OP replied.
+- **Praise rows still pending:** @JIsaam 4 views, @PKodmad 8 views (their parent went from 1 reply to
+  2, but nothing on `to:UncFund`), @CharlyKeleb unchanged. Nothing new on `to:UncFund` since
+  @SebastienEgo's 05:39 "Let's connect". Verdicts are due after 05:52 UTC Sep 14.
+- **The 21:36 @olivercingl row was planned for 19:45.** At the 19:16 catch the parent had 178 views
+  and 7 replies at 34 minutes. The stall pushed the send to 174 minutes, by which point it had 531 views
+  and 17 replies. The `p_views`/`p_age`/`p_repl` columns are the send-time numbers. It is a
+  1,990-follower founder's first paying customer after two years. With 17 generic "congrats" replies
+  above it, this is a harder test of the lane's mechanism than the 0–3-reply parents it has used so far.
+- **The lane B send took 50 seconds to show on `with_replies`.** The first load after "Your post was
+  sent." did not list it, and a reload 25 seconds later did (21:36:35). It was not re-sent.
 
 ### Sep 13, 17:16 round: opened four minutes after the last one closed
 
