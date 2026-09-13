@@ -3129,3 +3129,33 @@ three posts: one a minor's promo, one a scarcity sales pitch, and the pick.
 
 Likes: 5. Follows: none, pause holding. Profile: **71 following, 18 followers**, up one since the
 13:43 read.
+
+## Round at 17:16 UTC Sep 13 (1:16pm ET): both lanes, back to back with the last round
+
+Signed in. The newest Unc post was four minutes old, but it was the 17:12 reply from the 16:37 round,
+which had already committed, so this was not a collision. Nothing came in on `to:UncFund` or mentions,
+and the Sunday note had no replies.
+
+**Posted (both verified on `with_replies` inside thirty seconds):**
+- 17:22, lane A, @garrytan's "content is merely the teaser for the 1:1 advice" (20m, 6,743 views, ~334/min, 11 replies): "Unc's 1:1 advice is the same advice, louder." (8 words)
+- 17:52, lane B praise, @PKodmad's "my first sale from Pakistan" (11.4K followers, 5h old, 332 views, **0 replies**): "Your app got its first passport stamp." (7 words)
+
+### Early reads (nothing was two hours old)
+
+| Reply | Views | Likes | OP |
+|---|---|---|---|
+| @Teknium, "Unc's auxiliary model is a yellow legal pad." (55m) | 214 | 1 | n so far |
+| @garrytan, "Unc's 1:1 advice is the same advice, louder." (30m) | 37 | 1 | — |
+| @JIsaam praise (25m) | 3 | 0 | pending |
+| @CharlyKeleb praise | 7 | 0 | pending (<12h) |
+
+**Rejected for lane A:** @levelsio and @MartinShkreli (both quoting Trump-on-AI headlines),
+@alexisohanian (ticket promo) and @credistick (criticises a16z).
+
+**Lane B:** the milestone query came back thin, and the builder query was mostly the "I'm N, solo
+founder" copycat template. The pick came from a fresh search on the earlier round's leftover names.
+
+**Tooling hazard:** a `javascript_tool` call that times out keeps running in the page. The lane B click
+fired after the tool had already reported a timeout. Always check `with_replies` before re-sending.
+
+Likes: 4. Follows: none, pause holding.

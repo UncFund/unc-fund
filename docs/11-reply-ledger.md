@@ -104,6 +104,30 @@ Three things to hold onto when reading these rows back:
 | 09-13 13:56 | @CharlyKeleb | **7** | praise | 104 | 152 | 0.7 | 3 | 6 | 0 | pending (<12h) |
 | 09-13 16:41 | @Teknium | **7** | oblivious | 6956 | 32 | 221 (~180 now) | 23 | — | — | — |
 | 09-13 17:12 | @JIsaam | **6** | praise | 50 | 56 | 0.9 | 1 | — | — | — |
+| 09-13 17:22 | @garrytan | 8 | self-own | 6743 | 20 | 334 (~210 now) | 11 | — | — | — |
+| 09-13 17:52 | @PKodmad | **7** | praise | 332 | 306 | 1.1 | 0 | — | — | — |
+
+### Sep 13, 17:16 round: opened four minutes after the last one closed
+
+Read at 17:16–17:52 UTC Sep 13. The round began four minutes after the 16:37 round's 17:12 send, and
+that round had already committed, so this was a back-to-back slot, not a concurrent run.
+
+- **Nothing was two hours old to settle.** Early reads only: the 16:41 @Teknium legal pad **214 views,
+  1 like at 55 minutes** (the parent was at 19,064). The 17:12 @JIsaam praise row had **3 views at 25
+  minutes**. His thread took two more replies, both from a third account, and none from him yet. The
+  13:49 own-thread reply was at 8 views and the 13:56 @CharlyKeleb row at 7. Both stay pending.
+- **The 17:22 @garrytan row is eight words, so it does not count toward the under-eight half.** It had
+  **1 like and 24 views at 15 minutes**, and 37 at 30. The parent climbed from 6,743 at the catch to
+  11,980 at 51 minutes. The mode is logged as `self-own` because the joke is Unc's uncle-ness rather
+  than a named prop or a misreading.
+- **Spacing was broken on purpose for lane A, 10 minutes after 17:12.** The 30-minute default would
+  have landed the reply at 41 minutes on a parent that was still climbing. The cluster explanation is
+  recorded above as refuted, so the default was kept only where it costs nothing, which is lane B. The
+  @PKodmad parent was five hours old and was held until 17:52. **Compare the @garrytan multiple with
+  the parent's ~210/min current rate** at the two-hour read before concluding anything about spacing.
+- **The 17:52 @PKodmad row was the only reply on the parent.** Its count went from 0 to 1 at the send.
+  The account has **11.4K followers**, just above the lane's rough 10K line, and was taken because
+  nobody had replied in five hours. Call `op` no earlier than 05:52 UTC Sep 14.
 
 ### Sep 13 afternoon: the legal pad took a like inside thirty minutes
 

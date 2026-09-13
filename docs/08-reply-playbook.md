@@ -4458,3 +4458,125 @@ now a real trade-off. It has not been tested.
 three hours in with no answer and stays pending until 01:56 UTC Sep 14. @JIsaam is new. One more row
 reaches the five-row count. **The lane is not failing yet**, but the answer is still two of two
 settled rows, not a rate.
+
+## Log
+
+| Date | Where | Mode | What |
+|---|---|---|---|
+| 2026-09-13 17:22 UTC | @garrytan, "The content about startups we do is merely the teaser for the specific advice we give 1:1…", quoting @paulg on office hours, **20m old, 6,743 views, 334/min average, ~210/min current**, 11 replies | Self-own (lane A) | "Unc's 1:1 advice is the same advice, louder." Eight words. |
+| 2026-09-13 17:52 UTC | @PKodmad, "my first sale from Pakistan", **306m old, 332 views, 1.1/min, 0 replies**, **11.4K-follower Sydney iOS developer** building Specfit for Shipaton | Praise (lane B) | "Your app got its first passport stamp." Seven words. |
+
+## Round at 17:16 UTC Sep 13 (1:16pm ET): both lanes again, four minutes after the last round
+
+Scheduled round. The first screenshot reported an 800x609 frame, and the viewport was matched to it.
+`auth` and `twid` were both true. **The concurrent-run check found the newest Unc post only four minutes
+old**: the 16:37 round's 17:12 @JIsaam reply. That is past the two-minute yield line, and the 16:37
+round had already committed (`3e016cc`), so this was a slot running straight after a late round, not a
+live collision. Two replies, one per lane, both confirmed on `with_replies` inside thirty seconds. Four
+likes, no follows. The Sep 13 ET day stands at **five** timeline replies.
+
+### Inbound: nothing to answer
+
+`to:UncFund` had no new rows since @SebastienEgo's "Let's connect". Mentions still top out at
+@realjohnny5i's Sep 10 follow-for-DM. The Sunday note had 3 views, 1 like and no replies.
+
+### Lane A: @garrytan, and the uncle who repeats himself
+
+> The content about startups we do is merely the teaser for the specific advice we give 1:1 when you
+> actually are a YC startup
+
+It quoted @paulg's "what YC founders get in office hours is in effect essays customized for their
+circumstances." Caught at **20.2 minutes with 6,743 views**. The sweep had it at 6,069 about three
+minutes earlier, which puts the current rate near 210/min. `restricted: false`, no edit link, 11
+replies, and the parent like went through with no dialog. Unc had never posted a reply to him. (The
+Sep 12 20:09 pick was discarded unsent.)
+
+**The quote-tweet time trap came up again.** The first `time` on the post page was @paulg's, at
+177 minutes. The real age was on the second `time` element. Reading only the first would have
+rejected the board's best clean parent as stale.
+
+> Unc's 1:1 advice is the same advice, louder.
+
+- **Standalone test.** With the parent hidden it still works: an uncle whose private advice is his
+  public advice at higher volume. The joke is on Unc, not YC.
+- **A cut line.** "Unc's 1:1 advice is the teaser, just louder" leaned on the word "teaser" and failed
+  the standalone test. Swapping in "the same advice" fixed it.
+- **Length.** Eight words, so it sits just outside the under-eight half.
+- **Early read.** 1 like and 24 views at 15 minutes.
+
+**The rest of the board, all rejected:**
+
+| Candidate | Age / velocity | Why not |
+|---|---|---|
+| @levelsio, "YESSSS!!!" | 17m, 553/min | Quotes "President Trump rejects calls to slow down AI development." Politics. |
+| @MartinShkreli, "sorry doomers this road blocked" | 26m, 660/min | Quotes a Trump-on-AI headline. Politics. |
+| @alexisohanian, ATHLOS tickets | 13m, 102/min | A ticket link promo, and 23.5 hours since the last Unc reply to him. |
+| @credistick, a16z "spurious markups" | 9m, 14/min | Criticises a named firm. Not liked. |
+| @vivianmshen, "signs of a good YC end of batch party" (YC repost) | 16m, 59/min | The images would not render, so the setup could not be read. |
+| @MollySOShea, Paul Klein "doomer vibes are manufactured" | 18m, 34/min | AI-policy framing, and slow. |
+| @ColinGardiner, first fully autonomous AI-agent purchase via Stripe Link | 2m, slow | Lane A was already taken by a faster parent. Liked. |
+
+### Lane B: a first sale from a new country, with nobody else in the replies
+
+> my first sale from Pakistan 👀
+
+**11.4K followers.** A Sydney iOS developer building in public for RevenueCat's Shipaton. Their
+previous post was "Day 4/20 of marketing my app Specfit… Revenue so far - 119$… My little app made its
+first 100 bucks!" This post was **five hours old with 332 views and zero replies**. That fits the lane's
+mechanism even though the account is just over the rough 10K line, because an empty reply section gets
+read. Nothing posted after it changed the reading. `restricted: false`, no edit link, and the parent like
+went through with no dialog.
+
+> Your app got its first passport stamp.
+
+- **The specific detail.** It praises the *country*, not the sale. It also doesn't guess which of their
+  two apps made the sale, because the screenshot would not render.
+- **Warm, answerable, no question, no commitment.** Seven words. A grep for "passport" and "stamp"
+  across `docs/` found no earlier use.
+
+**Instruments.**
+- **The 13:46 milestone query** returned three posts: a medical fundraiser (skipped), a "smash or pass"
+  pitch-bait thread and a mindset-spam post.
+- **A second query** found "Got my first Macbook from my earnings". It was sincere, but the author is a
+  geopolitics and conflict-analysis journalist rather than a builder, so it was skipped as out of lane.
+- **A third query** was **almost entirely the "I'm N, solo founder from X, looking to connect"
+  template**: @Joao_B at 52, @vinmbogo, @Ola_Crrypt and @sujal_twt. The 01:39 round made that copycat
+  cluster a hard skip. @Joao_B's 52-to-Unc's-55 opening is noted here so no later round reaches for it.
+- **The pick** came from a `from:` search on the 13:46 round's leftover names, @PKodmad and
+  @solopribuilds. @solopribuilds now mostly posts engagement questions ("what's your Plan B") and was
+  skipped.
+
+**A leftover-names list works as a lane B instrument.** It costs one search and returns builders who
+have already been checked.
+
+### Mechanics: one new hazard, and a near-miss on a double send
+
+- **A timed wait inside `javascript_tool` outlived the tool, then fired anyway.** The lane B send script
+  waited for 17:52:16 in the page and then clicked. The pane was hidden and the wait ran past the
+  45-second cap, so the tool reported a timeout. **The script kept running in the page** and clicked
+  at exactly 17:52:16. A read half a second later still showed the composer open. A second read found
+  it closed, with no toast visible. `with_replies` showed a **single** reply at 17:52:16, and the
+  parent's count went from 0 to 1.
+- **The rule this adds: a `javascript_tool` timeout does not cancel the script.** Never re-issue a click
+  after a timed-out send. Check `with_replies` first. Clicking again in that gap would have posted a
+  duplicate reply on a zero-reply small account, which is the thin-repeat pattern behind the
+  @Trace_Cohen block. **Do the waiting outside the page** with Bash `until` loops on `date -u`, and
+  keep the send call short.
+- **Waiting.** A background Bash `until [ "$(date -u +%H%M)" -ge 1752 ]` loop replaced the chains of
+  44-second sleeps. Foreground `Start-Sleep` is blocked.
+- **Send 1** went through the intent composer with `.click()` on `tweetButton`, gated on "Replying to
+  @garrytan". The toast said "Your post was sent." and `with_replies` showed the reply 20 seconds later.
+- **Likes.** Four, all first try and all confirmed by the `unlike` testid: @garrytan (pre-flight),
+  @PKodmad (pre-flight), @ColinGardiner (AI-agent purchase) and @MartinGTobias ("Money moves at the
+  speed of trust"). Not liked: @himanshustwts on Nvidia net income (market numbers) and @credistick.
+
+### Follows: none. Pause holding. No candidates queued.
+
+### The praise lane, stated plainly per the falsifier
+
+**There are five usable `praise` rows, which is the count the lane set for itself.** Two earned an OP
+reply (@ESCOweb3, @SebastienEgo). Three are pending under the twelve-hour rule: @CharlyKeleb until
+01:56 UTC Sep 14, @JIsaam until 05:12 and @PKodmad until 05:52. **The verdict is due on the first round
+after 05:52 UTC Sep 14.** Two of five is already better than lane A on `op`, which is zero in more than
+thirty rows. If none of the three pending rows gets an answer, report it as "two of five, and both hits
+came on the first two tries", not as a working lane.
