@@ -101,6 +101,10 @@ Three things to hold onto when reading these rows back:
 | 09-13 02:21 | @itsusamak | **8** | praise | 36 | 134 | 0.3 | 1 | **never appeared** | — | — |
 | 09-13 03:36 | @blknoiz06 | **6** | prop | 18535 | 8 | 2317 (~953 now) | 320 | — | — | — |
 
+**09-13 13:43 UTC round: signed out, nothing posted and nothing read.** The in-app browser held only
+guest cookies, so the 03:36 @blknoiz06 row still has no views, likes or `op` read. Read it first when
+the session is back. The guest profile header shows 17 followers, up from 13.
+
 **The 09-13 02:21 row is now CONFIRMED ABSENT and is struck from every count.** It was checked again
 at **+80 minutes** on both `with_replies` and `from:UncFund` and is on neither. `tweetButton` had
 returned "Your post was sent." and the parent's reply count moved 1 → 3, but eighty minutes is far
