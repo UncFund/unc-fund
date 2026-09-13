@@ -89,12 +89,49 @@ Three things to hold onto when reading these rows back:
 | 09-10 20:41 | @MollySOShea | 12 | thesis | 577 | 9 | 63 | 1 | void (12) | 1 | n (liked) |
 | 09-10 22:16 | @amasad | 13 | oblivious | 1267 | 8 | 151 | 2 | 67 | 0 | n |
 | 09-11 02:45 | @blknoiz06 | 8 | oblivious | 34469 | 35 | 988 (~334 now) | 60 | 105 | 0 | n |
-| 09-12 17:46 | @alexisohanian | **5** | prop | 1601 | 20 | 80 (~51 now) | 1 | 10 | 0 | n |
-| 09-12 17:48 | @ESCOweb3 | **4** | praise | 366 | 25 | 15 | 2 | 21 | 1 | **y** |
-| 09-12 17:56 | @MartinShkreli | **6** | oblivious | 58043 | 79 | 735 | 81 | 74 | 0 | n |
+| 09-12 17:46 | @alexisohanian | **5** | prop | 1601 | 20 | 80 (~51 now) | 1 | 14 | 0 | n |
+| 09-12 17:48 | @ESCOweb3 | **4** | praise | 366 | 25 | 15 | 2 | 22 | 1 | **y** |
+| 09-12 17:56 | @MartinShkreli | **6** | oblivious | 58043 | 79 | 735 | 81 | 82 | 0 | n |
 | 09-12 19:12 | @ESCOweb3 | **5** | own-thread | — | — | — | — | 12 | 1 | **y** |
-| 09-12 19:14 | @gregisenberg | **7** | oblivious | 8333 | 39 | 216 (~85 now) | 31 | 39 (60m) | 0 | n |
-| 09-12 20:14 | @brycent | 15 | thesis | 472 | 11 | 44 | 1 | | | |
+| 09-12 19:14 | @gregisenberg | **7** | oblivious | 8333 | 39 | 216 (~85 now) | 31 | 63 | 0 | n |
+| 09-12 20:14 | @brycent | 15 | thesis | 472 | 11 | 44 | 1 | 7 | 0 | n |
+| 09-12 22:16 | @notthreadguy | **8** | oblivious | 4962 | 17 | 287 (~160 now) | 27 | 177 | 0 | n |
+| 09-12 23:17 | @SebastienEgo | **8** | praise | 5342 | 96 | 56 | 8 | 15 (2.3h) | 0 | n (early) |
+
+
+### The rule of thumb held for the first time since Sep 10, on the E*Trade row
+
+**@notthreadguy: 177 views at 3h20m on a parent running ~160/min at the catch — 1.1x**, squarely
+inside the 0.9-to-1.5x band that has missed on every row since Sep 10 00:22. Five straight rows came
+in between 0.06x and 0.34x; this one did not.
+
+Two things it is worth being careful about. It is **one row**, and the 09-11 note's reading — that
+the band is really a description of parents above ~1,000/min — is not overturned by a 160/min parent
+landing in it, it is just complicated by it. And this round's other row, the praise pick, is at 15
+views on a 56/min parent (0.27x at 2.3 hours) and still early. **Do not promote 1.1x back into a rule
+on the strength of one good row.** That is precisely the mistake the file has now made twice, with the
+velocity band and with the cluster.
+
+### The cluster hypothesis just took its hardest hit, from the round that violated spacing
+
+Read at 22:10–23:20 UTC Sep 12. **@gregisenberg finished at 63 views on an ~85/min current parent —
+0.74x, the best multiple the ledger has recorded since Sep 10 00:22.** It was posted *two minutes*
+after the 19:12 own-thread reply, the spacing violation the 19:08 round flagged against itself and
+predicted would read "near a tenth" if clustering were real.
+
+It did not. It read three-quarters. **The prediction was written down in advance and it failed**,
+which is the useful kind of failure. Taken with the 09-11 row (0.31x, four and a half hours clear of
+any neighbour), spacing now looks like the wrong variable twice over: the tightest-spaced reply in
+the file scored best and a well-spaced one scored poorly. The live reading stands as the 09-11 note
+left it — the 0.9-to-1.5x rule of thumb is a description of two very fast parents, and everything
+below roughly 1,000/min scatters — but **the cluster explanation should now be treated as refuted
+rather than open.** Keep the thirty-minute default anyway, because it costs nothing; stop attributing
+weak rows to it.
+
+The rest of the reads: @alexisohanian 14 (0.27x of ~51/min), @MartinShkreli 82 (0.11x of 735/min),
+@ESCOweb3 praise 22 with a like and the OP reply, own-thread 12 with a like and the OP reply.
+**@brycent, the concurrent run's 15-word thesis reply, finished at 7 views on a 44/min parent —
+0.16x, and the worst row of the day.** It is the longest reply of the six and the only `thesis` one.
 
 ### `op` is now two rows, both @ESCOweb3, and both came back inside four minutes
 

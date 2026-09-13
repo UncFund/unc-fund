@@ -3685,3 +3685,157 @@ is what prevented that here. **Never call `.click()` on a like button without re
 first** — and during a yield, keep likes to a handful rather than working down a list.
 
 ### Follows: none. Pause holding. No candidates queued.
+
+## Log
+
+| Date | Where | Mode | What |
+|---|---|---|---|
+| 2026-09-12 22:16 UTC | @notthreadguy, "'trade crypto' on etrade commercial during the us openâ€¦ what is going on", **17m old, 4,962 views, 287/min average and ~160/min current**, 27 replies | Oblivious literal (lane A) | "Unc still thinks E*Trade is the baby one." Eight words. |
+| 2026-09-12 23:17 UTC | @SebastienEgo, "I'm 38. solo founder from France. looking to connect with more builders & ai enthusiasts!", **96m old, 5,342 views, 56/min**, 8 replies, **68-follower account** | Praise (lane B) | "Thirty-eight is early. Unc started at fifty-five." Eight words. |
+
+## Round at 22:09 UTC Sep 12 (6:09pm ET): the first round to run both lanes
+
+Scheduled round. Viewport matched to the 800x455 frame on the first call, `twid` true, tree clean.
+Two replies â€” one per lane, as the Sep 12 instruction asks â€” five likes, no follows, nothing to
+answer. Day closes at **seven** timeline replies against the ceiling of ten.
+
+### The day opened at five, so the bar was raised, and both picks cleared it anyway
+
+`from:UncFund` gave five timeline replies already on the Sep 12 ET clock (@alexisohanian,
+@ESCOweb3, @MartinShkreli, @gregisenberg, @brycent) plus one own-thread reply that does not count.
+At five the rule says raise the bar and expect to post nothing. Two picks still cleared, and the
+budget was never the binding constraint â€” the board was.
+
+Nothing inbound to answer. `to:UncFund` held only the two @ESCOweb3 rows already handled, and
+mentions held the known @realjohnny5i DM bait. The 10am and 5pm scheduled notes sat at 3 and 1 views
+with no replies on them.
+
+### Lane A: @notthreadguy, and the door was a fifteen-year-old commercial
+
+> "trade crypto" on etrade commercial during the us open. nothing else mentioned but crypto.
+> what is going on
+
+Caught at 17.3 minutes: 4,962 views on the post page against 4,754 in the sweep 1.3 minutes earlier,
+so about **160/min current** against a 287/min lifetime average. Text only, no quote, no media.
+`restricted: false`, header reads "Subscribe" so he is followed, and **the ledger has no
+@notthreadguy row** â€” he has been liked and passed over repeatedly since Sep 7 but never replied to,
+so no cap issue.
+
+> Unc still thinks E*Trade is the baby one.
+
+The parent is a crypto account, which the rules allow only on a human moment or on Unc
+misunderstanding the jargon. This is both: a man noticing a television advert, and Unc's entire
+mental index of a brokerage stopping at the talking-baby campaign from 2008. **It engages with the
+commercial and not the trade** â€” no ticker, no price, no call, and no position on crypto at all.
+E*Trade is named affectionately, for its mascot, which is not criticism of a named company.
+
+- **Standalone test.** With the parent hidden it is a man whose knowledge of a brokerage is fifteen
+  years out of date. It lands without knowing what he was replying to, and it lands for a reader too
+  young to remember the baby, because the joke is the confident wrongness rather than the reference.
+- **Shape.** The age self-own through a dated cultural object. Not Dale, not the famous-for-ordinary
+  swap, not the "Unc [verb] in [year]. [Fragment]" receipt shape that the 02:45 round flagged as
+  overused.
+- **Length.** Eight words, at the top of the short band.
+- **Rhythm, and a note against the file.** This is the fourth single-sentence reply in a row. The
+  19:08 round asked for two or three beats next. The two-beat drafts all needed the parent to land
+  or ended in a question, so the single sentence won on the standalone test, which outranks the
+  rhythm note. **If the next round can get two beats honestly, it should.**
+
+### Lane B: a 68-follower solo founder, and the parent went up 55x mid-round
+
+> I'm 38. / solo founder from France. / looking to connect with more builders & ai enthusiasts!
+
+Found on a `min_faves:2` Latest search, not on the velocity board â€” which is the point of the lane.
+At the sweep it was 85 views at 35 minutes, about 2/min: the textbook lane B parent. **By the time
+the spacing gap had elapsed it was 5,342 views at 96 minutes**, a 55x jump in an hour on an account
+with **68 followers**. Still only 8 replies.
+
+That climb makes the pick better rather than worse, and it is worth being precise about why. Lane B
+does not want a slow parent for its own sake; it wants an account that *reads every reply*. A
+68-follower builder whose introduction post is suddenly in front of thousands of people is sitting
+in his notifications right now, and there are eight replies to read. The mechanism is intact; only
+the view count moved.
+
+His profile is a real one: 423 posts, joined June 2026, and a pinned post about building
+shadowbanradar.com with Claude Code after being shadowbanned â€” 3,495 visitors in a week, free, "I
+had no idea if anyone would care." Not a bot, not a pitch, no ticker.
+
+> Thirty-eight is early. Unc started at fifty-five.
+
+Praises the **specific detail he led with** â€” the number â€” rather than the post. The praise
+mechanism is the self-own: an older man telling a younger one he is ahead, which is the exact
+reassurance someone announcing "I'm 38, solo founder" is fishing for, delivered without a compliment
+that could read as flattery. Warm, answerable, **no question, no link, no commitment of any kind**,
+and true in character: Unc is fifty-five and the fund is days old.
+
+- **Not a repeat.** "I'm proud of you" and "Anytime. Unc is cheering, seated." are both spent. This
+  shares no template with either â€” it is a comparison, not a blessing.
+- **Length.** Eight words. Both of the day's replies sit at eight, so Sep 12 closes at four of seven
+  timeline replies under or at eight words.
+- **Cap.** First reply to this account, ever.
+
+### Rejected this round
+
+| Candidate | Age / velocity | Why |
+|---|---|---|
+| @alexisohanian, "The power of art" quoting Refik Anadol | 6m, 190/min | **The fastest clean parent on the board, lost to the 24-hour spacing rule.** Replied to him at 17:46 today, 4.4 hours earlier. The cap did its job; this is the cost it is supposed to have. |
+| @levelsio, regulatory capture and "a new feudalist time" | 51m, 247/min | The Dario Amodei policy row, fourth round running. Criterion (e). Not liked. |
+| @mwseibel, government as a set of big businesses | 2m, 141/min | Freshest fast parent of the round. Government commentary â€” close enough to politics that there is no "no ambiguity" reading. Skip. |
+| @credistick, the "Exhibit 1â€“4" series (Reality Privilege, Bot Farms, Predatory Lending) | 4â€“34m, 3â€“13/min | A critical thread about named people and companies, one quoting "a total and complete shutdown". Hard skip, and not liked despite being a followed account. |
+| @HarryStebbings, "no financial math you can use to buy the stock" | 87m, 73/min | Freshness, and it is stock talk. Double skip. |
+| @jasonlk, Muse "can't get chron jobs right" | 7m, 53/min | Closest near-miss. A real line existed â€” "Unc's chore wheel has said garage since March." â€” and it takes no position on the product. Passed over because the parent is criticism of a named product and a joke underneath it can read as piling on. Criterion (e) wants no ambiguity. **The line is unused and stays unused.** |
+| @jasonlk, "Is the Era of the Sales-Guy CEO Over in B2B?" | 24m, 30/min | A blog link, thin, no Unc door. |
+| @brycent, "It's coming, God's timing" | 46m, 31/min | Replied to at 20:14 by the concurrent run â€” inside 24 hours. Hard skip. Liked. |
+| @Teknium, asking for reviewers on a remote gateway PR | 65m, 126/min | Past the sixty-minute bound before a line existed. Liked. |
+| @ColinGardiner, "No more K-1s" | 49m, 3/min | Too slow for lane A, not praise-shaped for lane B. A line existed ("Unc thought K-1 was a dog breed") and is unused. Liked. |
+| @hnshah, "The ideas are in the AIr" | 57m, 15/min | Aging and slow; two minutes produced nothing better than agreement. Liked. |
+| @omooretweets, "Pace the frontier" / Tau Robotics | 101m, 18/min | Freshness. |
+| @Gilmore_Estates, a year of a difficult divorce | 16m, 14/min | Personal misfortune. Hard skip â€” surfaced by the lane B search, which is a hazard worth naming. |
+| @FemShepFGC, fighting-game tournament placing / @GCRammerJammer, "Proud of this team!" | 26â€“33m | Sincere, but sports, not builders. No Unc door. |
+| @EugenioFierro3, @BrljevicIg24934, @gumzloml, @brett_hudson22, @Udewalter_, @steveinpursuit, @RyptoCrypto, @CrazySwedeX | 4â€“27m | The generic Latest searches again: an AI-news aggregator, a memecoin shill, an unrelated personal remark, religious content, football history, a swipe at mathematicians, an $XMR post, and UFO disclosure. |
+
+### The lane B search is the weakest instrument in the round
+
+Two `-filter:replies` Latest searches on builder phrases returned fourteen candidates and **one**
+usable one. The rest were crypto shills, news aggregators, sports and, worst, a man's divorce â€” a
+hard-skip post surfaced by a query designed to find sincere ones. That is the predictable failure of
+searching for sincerity by keyword: *"been building"* and *"going through"* live in the same register.
+
+**For the next rounds:** the better lane B instrument is almost certainly the reply sections and
+quote-tweets of accounts already in Unc's orbit, where small builders congregate and context is
+readable, rather than open search. @ESCOweb3 was found that way. Try that first and keep the keyword
+search as the fallback.
+
+### Mechanics: clean, twenty-first round running with no click retries
+
+- **Pre-flight** on both post pages: `restricted: false`, no edit-version link, parent like through
+  with no dialog on each. @notthreadguy's header reads "Subscribe" (followed); @SebastienEgo's reads
+  "Follow" (not followed â€” that like was the author-block check).
+- **Concurrent-run checks.** Opening check clean (newest Unc reply 116m). Re-checked on
+  `with_replies` immediately before each of the two submits: 122m before the first, and before the
+  second the newest was this session's own E*Trade reply at 60m. No collision this round.
+- **Send.** Intent composer both times, text read back exactly, "Replying to @notthreadguy" and
+  "Replying to @SebastienEgo", counters **15** and **17** on the second `[role="progressbar"]`.
+  `.click()` on `tweetButton` gave "Your post was sent." at 22:16:47 and 23:17:17, and both appeared
+  on `with_replies` within twenty seconds with their parents above them.
+- **Spacing honoured.** Sixty minutes between the two sends, against the thirty-minute default and
+  against the 19:08 round's two-minute violation. The gap was spent on likes and on writing the
+  ledger row for the first reply as it was sent, per the "append as you go" rule.
+- **A follow-state read that misleads.** On @ColinGardiner's post page there was **no follow or
+  subscribe button in the DOM at all**, so a text test for "Subscribe|Following" returned false and
+  read as "not followed". He is followed â€” two prior rounds confirmed it and his other post already
+  carried `Liked`. **Absence of the button is not evidence of not following.** Check the element,
+  and fall back to whether the account's other posts show a liked state.
+- **Likes.** Five, all first try via `element.click()` and all verified by the `unlike` testid:
+  @notthreadguy (pre-flight), @ColinGardiner ("No more K-1s"), @hnshah, @Teknium, @brycent, plus
+  @SebastienEgo as the lane B pre-flight. Every one had its testid read before the click, per the
+  collision hazard.
+
+### Follows: none. Pause holding. No candidates queued.
+
+### The praise lane is at two rows, and the honest count is one
+
+`op` is the falsifier and it is due a plain statement every round. **Two `praise` rows now exist
+(@ESCOweb3 Sep 12 17:48, @SebastienEgo Sep 12 23:17). One has earned an OP reply.** That is still
+n=1 on the thing the lane was created to buy, and three more rows are needed before the count means
+anything. Nothing here yet contradicts the lane and nothing here yet supports it.

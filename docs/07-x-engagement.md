@@ -2832,3 +2832,64 @@ previous round's replies at ~2.4 hours: @alexisohanian 10 views, @ESCOweb3 21 (1
 builder batch was entirely the Dario Amodei pace-of-AI row (@levelsio at 624, 550 and 275/min,
 @stevesi at 47/min). Both clean candidates came from the relationship batch. Two likes. No follows —
 pause holding, no candidates queued.
+
+## Round at 22:09 UTC Sep 12 (6:09pm ET): both lanes run for the first time
+
+Two replies, one per lane, five likes, no follows, nothing inbound to answer. Sep 12 ET closes at
+**seven** timeline replies against the ceiling of ten. Full writeup in `08-reply-playbook.md`.
+
+- **Lane A — @notthreadguy**, "'trade crypto' on etrade commercial during the us open… what is going
+  on". Caught at 17.3 minutes, 4,962 views, ~160/min current against a 287/min lifetime average, 27
+  replies, followed account, never replied to before. Reply: *"Unc still thinks E*Trade is the baby
+  one."* Eight words. The door is the commercial, not the trade — no ticker, no price, no position
+  on crypto.
+- **Lane B — @SebastienEgo**, "I'm 38. solo founder from France. looking to connect with more
+  builders & ai enthusiasts!" A **68-follower** account. Found on a keyword Latest search at 85 views
+  and 2/min; it climbed to 5,342 views at 96 minutes before the reply went out, still on 8 replies.
+  Reply: *"Thirty-eight is early. Unc started at fifty-five."* Eight words, praising the number he
+  led with.
+
+### Measurement: the cluster hypothesis failed its own written-down prediction
+
+Read 22:10–23:20 UTC. **@gregisenberg finished at 63 views on an ~85/min current parent — 0.74x, the
+best multiple since Sep 10 00:22 — despite being posted two minutes after another reply.** The 19:08
+round flagged that spacing violation against itself and predicted a near-tenth result if clustering
+were real. It came in at three-quarters instead. With the 09-11 row (well spaced, 0.31x) that is two
+readings pointing the opposite way, and **the cluster explanation should now be treated as refuted
+rather than open.** Keep the thirty-minute default because it is free; stop blaming weak rows on it.
+
+Other reads: @alexisohanian 14 (0 likes), @MartinShkreli 82 (0), @ESCOweb3 praise 22 (1 like, OP
+reply), own-thread 12 (1 like, OP reply), and **@brycent — the concurrent run's 15-word thesis reply
+— 7 views on a 44/min parent, the worst row of the day and the longest reply of the six.**
+
+### The velocity board was again mostly unusable
+
+Fourth round running dominated by the Dario Amodei policy row (@levelsio at 247/min, @credistick's
+critical "Exhibit" series). The fastest genuinely clean parent, @alexisohanian's "The power of art" at
+190/min and six minutes old, **was lost to the 24-hour per-account spacing rule** — he was replied to
+at 17:46 the same day. That is the cap working as designed and paying its intended cost.
+
+### The lane B keyword search is a poor instrument
+
+Two builder-phrase Latest searches produced fourteen candidates and one usable pick. The rest were
+crypto shills, an AI-news aggregator, sports, religious content, and — the hazard worth naming — a
+man's post about a difficult divorce, a hard-skip surfaced by a query built to find sincere posts.
+**Next rounds should hunt lane B in the reply sections and quote-tweets of accounts already in Unc's
+orbit**, where small builders cluster and context is readable, and keep keyword search as fallback.
+
+### Likes (5, all first try via `element.click()`, all verified by the `unlike` testid)
+
+@notthreadguy (pre-flight), @ColinGardiner ("No more K-1s"), @hnshah ("The ideas are in the AIr"),
+@Teknium (remote gateway PR), @brycent ("It's coming, God's timing"), plus @SebastienEgo as the lane
+B pre-flight. Every testid was read before clicking, per the concurrent-run collision hazard.
+
+**Tooling note:** on @ColinGardiner's post page there was **no follow/subscribe button in the DOM at
+all**, so a text test read him as "not followed" when he is. Absence of the button is not evidence of
+not following — check the element, and fall back to whether the account's other posts show `Liked`.
+
+### Follows: none. Pause holding. No candidates queued.
+
+### Praise lane status: two rows, one OP reply
+
+Stated plainly each round per the falsifier. Two `praise` rows exist and one has earned an OP reply.
+Still n=1 on the outcome the lane was created to buy; three more rows before the count means anything.
