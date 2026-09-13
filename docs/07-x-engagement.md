@@ -3053,3 +3053,17 @@ enough at-bats to be tested. Three of its first three attempted picks came from 
 returns roughly one usable candidate per twelve, and one of the three never reached its recipient at
 all. Before the lane can be judged, it needs a way of finding small sincere accounts that works more
 than once a night.
+
+## Round at 13:43 UTC Sep 13 (9:43am ET): signed out, round blocked
+
+The in-app browser session is **signed out**: guest cookies only, no `twid`, a Follow button on
+@UncFund's own profile, and `/home` sends you to the login page. No replies, likes, follows or
+measurement. Signing in is prohibited for an automated round, so **Rand needs to re-authenticate the
+in-app browser as @UncFund.** Full note in `08-reply-playbook.md`.
+
+**Guest-visible profile header: 71 following, 17 followers.** The last logged reading was 69 / 13, so
+the account has **four new followers**. Following went up two even though follows are paused, so
+check it once signed in.
+
+Unread because of the block: the 03:36 @blknoiz06 reply, any replies on today's morning note, and
+mentions. **Praise lane status is unchanged: two rows, one OP reply.**

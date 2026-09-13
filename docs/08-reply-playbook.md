@@ -4185,3 +4185,38 @@ cannot accumulate rows if it can only find a target on some nights.** Three more
 say anything, the instrument that finds them has failed three rounds running, and one of the three
 picks it did find never reached its recipient. The lane is not yet failing on its own terms — it is
 failing to get enough at-bats to be tested.
+
+## Round at 13:43 UTC Sep 13 (9:43am ET): signed out, and the round is blocked
+
+Scheduled round. The first screenshot reported an 800x455 frame and the viewport was matched to it.
+**The one-call session check then failed on both counts.** `auth` was false, `twid` was false, and
+the cookie jar held only guest cookies (`guest_id`, `guest_id_ads`, `guest_id_marketing`, `gt`,
+`personalization_id`, `__cuid`, `g_state`). `/UncFund/with_replies` rendered the header with a
+**Follow** button on our own account, and the timeline said "Something went wrong. Try reloading."
+`/home` went to the "Happening now / Continue with phone" sign-in page. This is the same state as the
+Sep 8 14:08 and 02:35 rounds.
+
+**Nothing was posted, liked or measured.** Following the 02:35 rule, the round stopped after the
+check. It did not assess candidates, and it did not try to read counts through the public surface,
+which does not expose them. Signing in is off-limits to an automated round. **Action for Rand:
+re-authenticate the in-app browser as @UncFund.** The next round will pick up by itself once the
+session is live.
+
+What this round could not do, so the next signed-in round owes it:
+
+- **The concurrent-run check.** `with_replies` cannot answer it while signed out.
+- **The morning note.** It is Sunday. If a 9am ET note went out, nobody has answered its replies.
+- **The 03:36 @blknoiz06 read** ("Chair. Lights off. Vest still on.") and its `op`.
+- **Mentions and `to:UncFund`.**
+
+**The one number the guest header does give: 71 following, 17 followers.** The last logged reading
+was 69 / 13 (see `07-x-engagement.md`), so that is **four followers gained** since then. Following is
+up two even though follows are paused. The counter is known to lag, and these two may be old follows
+landing late, but the next signed-in round should confirm that no run is following.
+
+One oddity, recorded without a conclusion. Straight after navigating to `/home`, the pane's tab
+context said the 800x455 viewport had been set by "another Claude session". The next call said it
+was set by this one. If two sessions really are sharing the pane, that is the concurrent-run hazard
+again. Nothing else this round points to it, though.
+
+### Follows: none. Pause holding. No candidates queued.
