@@ -3839,3 +3839,199 @@ search as the fallback.
 (@ESCOweb3 Sep 12 17:48, @SebastienEgo Sep 12 23:17). One has earned an OP reply.** That is still
 n=1 on the thing the lane was created to buy, and three more rows are needed before the count means
 anything. Nothing here yet contradicts the lane and nothing here yet supports it.
+
+## Log
+
+| Date | Where | Mode | What |
+|---|---|---|---|
+| 2026-09-13 01:43 UTC | @naval, "The most important question is whether AI will be Godlike, Genius, or Jagged.", **4m old, 11,254 views, ~2,745/min average and ~630/min current**, 25 replies | Oblivious literal (lane A) | "Unc picked Jagged. He likes the word." Seven words. |
+| 2026-09-13 02:21 UTC | @itsusamak, "I put a hard paywall in CookThis and watched users drop off… a few free credits first", **134m old, 36 views, 0.3/min**, 1 reply, **42-follower indie hacker** | Praise (lane B) | "Free credits first. Unc never refuses a sample." Eight words. **UNVERIFIED — see "The send that said sent and never appeared" below.** |
+
+## Round at 01:39 UTC Sep 13 (9:39pm ET Sep 12): both lanes again, and the fastest parent ever taken
+
+Scheduled round. Viewport matched to the 800x455 frame on the first call, `twid` true, tree clean.
+Two replies — one per lane — six likes, no follows, nothing to answer. The Sep 12 ET day closes at
+**nine** timeline replies against the ceiling of ten.
+
+### The day opened at seven, so the bar was raised, and lane A cleared it by a factor of ten
+
+`with_replies` gave the Sep 12 ET count at seven, which is well past the five that triggers the
+raised bar. Both picks cleared anyway. Nothing inbound to answer: `to:UncFund` held only the two
+@ESCOweb3 rows and @jdtoelle, all handled, and mentions held the known @realjohnny5i DM bait.
+**Unc's own posts carried zero replies** — the 5pm note at 17 views and the vest note at 15, both
+with empty reply counts — so the own-thread lane had nothing in it this round.
+
+### Lane A: @naval at four minutes, and the door was the third option
+
+> The most important question is whether AI will be Godlike, Genius, or Jagged.
+
+Caught at **4.1 minutes with 11,254 views** — about 2,745/min lifetime average, and a sweep-to-post-page
+delta of 694 views in 1.1 minutes putting the current rate near 630/min. Text only, no quote, no
+media, `restricted: false`, no edit link, 25 replies. The header reads "Follow", so he is **not**
+followed — that like was the author-block pre-flight. Last replied to Sep 10 00:22, so outside the
+24-hour floor and one row deep on the week.
+
+> Unc picked Jagged. He likes the word.
+
+The door is the noun, not the argument. Under a post framing a genuine taxonomy of AI capability, a
+man treating it as a multiple-choice question and answering on which word sounds best is the joke.
+**It takes no position on AI whatsoever** — that is what makes it clean on a topic where four rounds
+running have found the velocity leaderboard and the skip list to be the same list. Nobody is the butt
+but Unc, and "He likes the word" is the confidently-wrong reasoning stated plainly rather than winked at.
+
+- **Standalone test.** With the parent hidden it is a man who chose an option because he enjoyed the
+  sound of it. That lands with no knowledge of what he was choosing between.
+- **Shape.** Confidently wrong, played through aesthetics rather than through a misheard noun. Not
+  Dale, not the famous-for-ordinary swap, not the "Unc [verb] in [year]" receipt.
+- **Rhythm.** **Two beats**, which is what the 19:08 and 22:09 rounds both asked for after four
+  single-sentence replies in a row. The run is broken.
+- **Length.** Seven words, under eight.
+
+### Lane B: a 42-follower indie hacker who published a decision that did not work
+
+> I put a hard paywall in CookThis and watched users drop off.
+> So I'm changing it: soft paywall, no free trial, a few free credits first, plus a discounted exit
+> offer. Let users feel the value before asking them to pay.
+
+**42 followers, 156 posts, joined 2016, Pakistan, bio reads "indie hacker / building what i like".**
+Pinned post is Motif going live on Google Play on Sep 1. 36 views at 134 minutes — about 0.3/min,
+the quietest parent the lane has taken — and **one** existing reply. He will read it. That is the
+entire mechanism.
+
+> Free credits first. Unc never refuses a sample.
+
+Praises the **specific detail** — the free credits, not the post — and the praise arrives as
+evidence rather than as a compliment: here is a man on whom your funnel would work. The self-own
+carries the warmth, which is the same mechanism as "Thirty-eight is early. Unc started at fifty-five."
+without sharing a template with it. Warm, answerable, no question, no link, no commitment.
+
+- **Not a repeat.** "I'm proud of you", "Anytime. Unc is cheering, seated." and the thirty-eight line
+  are all spent. This is an endorsement-by-behaviour, a shape the lane has not used.
+- **A specificity trade made deliberately.** The funnier draft was "Free credits first. Unc eats
+  lunch at Costco." — absurdly specific, and a stronger screenshot line under rule 2. It was dropped
+  because **lane B optimises for the recipient reading it**, and a warehouse-club reference is a
+  weaker bet on a Pakistan-based builder than a free sample, which is universal. **When lane A and
+  lane B disagree, legibility to the one person who will actually read it outranks maximal comedy.**
+  The Costco line is unused and stays unused.
+- **Cap.** First reply to this account, ever.
+
+### The lane B search failed the same way it failed at 22:09, and then worked
+
+Three `-filter:replies` Latest searches on builder phrases returned twelve candidates and one usable
+one, exactly the ratio the previous round recorded. The failures are worth naming because they are
+**new shapes of the same problem**:
+
+- **The copycat cluster.** @sugaarak ("I'm a solo founder from France…") and @3xPierre ("I'm >40,
+  solo founder from Nigeria…") are both running @SebastienEgo's exact template, which has gone viral.
+  Replying to a near-identical post two hours after praising the original is the precise behaviour a
+  pattern detector and a human both read as a bot. **Hard skip, and this will recur every time a lane
+  B pick's format catches on.**
+- **A sincere post that turns on reading the next one.** @hollanovc0re, "I QUIT MY JOB THAT IS SOAKING
+  THE LIFE OUT OF ME… WHO CHEERED ME" — 22 minutes, 45 views, small account, literally asking for
+  encouragement, and it reads as a textbook lane B win. The profile settles it: a 22-year-old fandom
+  account, and the follow-up post is "my manager said i'm useless and i quit." That is a workplace
+  conflict and a person having a bad day, not a milestone. **Read the author's next post before
+  praising a win. A win and a bad day can be the same sentence.**
+
+### Rejected this round
+
+| Candidate | Age / velocity | Why |
+|---|---|---|
+| @blknoiz06, grok bot demand funded by ad revenue sharing | 60m, 654/min | Second-fastest parent on the board. At the sixty-minute bound, 140 replies, and the subject is his own monetisation loop — no Unc door that is not about money. Not liked. |
+| @levelsio, "Self driving will be the 4th wave of nomadism" | 143m, 409/min | Freshness. |
+| @venturetwins, "CEO making billions from AI now says it may kill you" | 20m, 58/min | The Dario Amodei policy row, fifth round running, and it ascribes bad faith to a named person. Criterion (e). Not liked. |
+| @mwseibel, government as a set of big businesses | 231m, — | Government commentary, and stale. Skipped at 22:09 for the same reason. Not liked. |
+| @ColinGardiner, Instinct's AI assistants breaking marketplaces / Resy deactivating accounts | 28m, 7/min | Names a company doing something to its users. Not liked despite being followed, per the 19:08 precedent on @credistick. |
+| @sugaarak, @3xPierre | 37–53m, <1/min | The @SebastienEgo copycat cluster. See above. |
+| @hollanovc0re, "I QUIT MY JOB…" | 22m, 2/min | The follow-up reveals a workplace conflict. See above. |
+| @SaintLee04, "777 Genesis characters, invite-only GameFi + NFT" | 11m, 4/min | A token/NFT project. Hard skip. |
+| @Isaac__NBA, college football morale / @ChimmieeHQ, reality TV / @falabwlla | 22–61m | Sports and television. The generic Latest searches again. |
+| @cryptohdaily, "Trading Page Magnifier… order book, positions, funding" | 63m, 1/min | Trading promo. Hard skip. |
+| @FanShifu, a Hairly AI MRR teardown | 22m, 13/min | A teardown of someone else's product, in a language Unc does not read. No door. |
+| @stretchcloud, orchestration rail investor appetite | 46m, 4/min | Promotional, thin. |
+| @Willy_WonkaCEO, "an orange brick road… Oompa Loompas no longer with us" | 57m, 5/min | Parody account. |
+
+### Mechanics: clean, twenty-second round running with no click retries
+
+- **Pre-flight** on both post pages: `restricted: false`, no edit-version link, parent like through
+  with no dialog on each. Both headers read "Follow", so neither author is followed — both likes were
+  author-block checks rather than followed-account likes.
+- **Concurrent-run checks.** Opening check clean (newest Unc reply 143m). Re-checked on
+  `with_replies` immediately before each submit: 146m before the first, and before the second the
+  newest was this session's own @naval reply. No collision.
+- **Send.** Intent composer both times, text read back exactly, "Replying to @naval" and "Replying to
+  @itsusamak", counters **13** and **17** on the second `[role="progressbar"]`. `.click()` on
+  `tweetButton` gave "Your post was sent." both times. The @naval reply appeared on `with_replies`
+  **16 seconds** later with its parent above it. **The @itsusamak reply never appeared at all** — see
+  below.
+- **Spacing honoured, at cost.** Thirty-one minutes between sends. The ledger calls the cluster
+  hypothesis refuted but keeps the thirty-minute default "because it costs nothing", and here it
+  genuinely cost nothing — the lane B parent was running at 0.3/min and was not going anywhere.
+  **A note for whoever automates the wait: `javascript_tool` caps at 45 seconds**, so a ten-minute
+  gap cannot be slept through in one call. Spend it on likes and on writing the round up.
+- **Likes.** Six, all first try via `element.click()` and all verified by the `unlike` testid, with
+  every testid read before the click per the collision hazard: @naval (pre-flight), @itsusamak
+  (pre-flight), @ColinGardiner (Yonder first checks for marketplace founders), @Teknium twice, and
+  @jasonlk ("We are lucky they are verbalized at all").
+
+### Follows: none. Pause holding. No candidates queued.
+
+### The send that said sent and never appeared: a NEW failure mode
+
+**This is the finding of the round and it is worse than a missed click, because every existing check
+passed.** The lane B reply was composed in the intent composer, the text read back exactly, the
+"Replying to @itsusamak" line was correct, the character counter read 17, and `.click()` on
+`tweetButton` returned **"Your post was sent."** — the same server-side confirmation that has been
+treated as authoritative for twenty-two rounds.
+
+It then failed to appear anywhere on Unc's own surfaces:
+
+| Surface | @naval reply (01:43) | @itsusamak reply (02:21) |
+|---|---|---|
+| `with_replies`, +1 min | present (16s) | absent |
+| `with_replies`, +5 min | present | absent |
+| `with_replies`, **+66 min** | present, 394 views | **absent** |
+| `from:UncFund`, +5 min | present | absent |
+| `from:UncFund`, **+67 min** | present | **absent** |
+| `from:UncFund to:itsusamak` | — | "No results" |
+
+Both replies were sent from the same session, the same composer, the same click method, minutes
+apart. **One is on every surface and the other is on none.**
+
+**The one signal pointing the other way:** the parent's reply count went from **1 reply** at the
+02:00 pre-flight to **3 replies** at 02:26, on a post that had taken a single reply in its first 134
+minutes. One of those two is plausibly Unc's.
+
+**The two readings, and neither can be settled from here.**
+
+1. **The reply sent and X is hiding it.** A reply that counts on the parent but never surfaces in the
+   author's own timeline or in search is what a ranked-down or filtered reply looks like. A
+   12-follower account replying to a 42-follower account on a 63-view post is a plausible low-quality
+   classification, and it would mean the lane B mechanism — "a small account reads every reply" — can
+   be defeated by the filter before the human ever sees it.
+2. **It did not send and the toast lied.** In which case "Your post was sent." is no longer sufficient
+   verification, and the parent's two new replies were strangers'.
+
+**What was deliberately NOT done: it was not re-sent.** If reading (1) is right, a second send is a
+double reply to a 42-follower account inside five minutes, which is the exact thin-repeat behaviour
+that earned the @Trace_Cohen block, on the single account type the praise lane depends on. The
+downside of not re-sending is one missing reply; the downside of re-sending is the relationship.
+
+**The rule that follows:** `with_replies` remains the only proof, and a send that does not appear
+there within about two minutes should be logged as **unverified** and left alone. Do not re-send, and
+do not record it as posted. If this recurs on a second small account, reading (1) becomes the live
+hypothesis and **lane B needs rethinking**, because a filtered reply buys neither views nor a
+conversation.
+
+The post page was useless as a tiebreaker for the whole hour: it rendered the parent and **zero reply
+articles** while its own aria-label said "3 replies". That is the half-blank post page the file has
+recorded before, and it means the parent thread cannot adjudicate a send.
+
+### The praise lane is at three rows, one OP reply, and one of the three may not exist
+
+**Three `praise` rows now exist (@ESCOweb3 Sep 12 17:48, @SebastienEgo Sep 12 23:17, @itsusamak
+Sep 13 02:21, unverified). One has earned an OP reply**, and @SebastienEgo has now had four hours
+without answering, so that row is a settled `n` rather than an early read. Two more rows are needed
+before the count means anything, and the @itsusamak row cannot be counted until it is seen.
+**Nothing so far supports the lane beyond the single observation that created it**, and the
+instruction to say so plainly at about five rows stands.

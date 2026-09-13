@@ -96,7 +96,19 @@ Three things to hold onto when reading these rows back:
 | 09-12 19:14 | @gregisenberg | **7** | oblivious | 8333 | 39 | 216 (~85 now) | 31 | 63 | 0 | n |
 | 09-12 20:14 | @brycent | 15 | thesis | 472 | 11 | 44 | 1 | 7 | 0 | n |
 | 09-12 22:16 | @notthreadguy | **8** | oblivious | 4962 | 17 | 287 (~160 now) | 27 | 177 | 0 | n |
-| 09-12 23:17 | @SebastienEgo | **8** | praise | 5342 | 96 | 56 | 8 | 15 (2.3h) | 0 | n (early) |
+| 09-12 23:17 | @SebastienEgo | **8** | praise | 5342 | 96 | 56 | 8 | 15 | 0 | n |
+| 09-13 01:43 | @naval | **7** | oblivious | 11254 | 4 | 2745 (~630 now) | 25 | 311 (42m) | 0 | n (early) |
+| 09-13 02:21 | @itsusamak | **8** | praise | 36 | 134 | 0.3 | 1 | **unverified** | — | — |
+
+**The 09-13 02:21 row is UNVERIFIED and must not be counted until it is seen.** `tweetButton`
+returned "Your post was sent." and the parent's reply count moved 1 → 3, but the reply was absent
+from `with_replies` and from `from:UncFund` at +1, +5 and **+66 minutes**, while the @naval reply
+sent 38 minutes earlier from the same session appeared on both within seconds. It was **not
+re-sent** — a double reply to a 42-follower account inside five minutes is the thin-repeat pattern
+that earned the @Trace_Cohen block, and it would be aimed at exactly the account type lane B needs.
+Full analysis in `08-reply-playbook.md` under "The send that said sent and never appeared". If the
+reply is visible next round, fill the row in; if it is still absent, **the praise lane is at two
+usable rows, not three**, and a filtered reply buys neither views nor conversation.
 
 
 ### The rule of thumb held for the first time since Sep 10, on the E*Trade row

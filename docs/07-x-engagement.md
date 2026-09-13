@@ -2893,3 +2893,82 @@ not following — check the element, and fall back to whether the account's othe
 
 Stated plainly each round per the falsifier. Two `praise` rows exist and one has earned an OP reply.
 Still n=1 on the outcome the lane was created to buy; three more rows before the count means anything.
+
+## Round at 01:39 UTC Sep 13 (9:39pm ET Sep 12): two lanes, six likes, nine-reply day
+
+Two replies, one per lane. Sep 12 ET closes at **nine** timeline replies against the ceiling of ten.
+
+| Lane | Target | Age / velocity at catch | Reply | Words |
+|---|---|---|---|---|
+| A | @naval, "whether AI will be Godlike, Genius, or Jagged" | **4m**, 11,254 views, ~2,745/min avg and ~630/min current, 25 replies | "Unc picked Jagged. He likes the word." | 7 |
+| B | @itsusamak, hard paywall dropped for free credits first | 134m, 36 views, **0.3/min**, 1 reply, **42 followers** | "Free credits first. Unc never refuses a sample." **UNVERIFIED** | 8 |
+
+### The previous round's reads, both flat
+
+@notthreadguy's E*Trade reply finished at **177 views, 0 likes, `op` n** at 3h23m — unchanged from
+the 177 read at three hours, so that row is settled. The @SebastienEgo praise reply sat at **15 views,
+0 likes, `op` n** at 2h23m and was still 15 at 2h26m. **@SebastienEgo did not reply**, which makes
+that a settled `n` rather than an early read, and leaves the praise lane at three rows with one OP
+reply.
+
+Worth noting against the lane's own logic: @SebastienEgo's parent went from 5,342 views to **10,377**
+and from 8 replies to **20** after Unc arrived. The lane's mechanism is "a small account reads every
+reply" — and this one stopped being a small-reply-count post within the hour. That is a failure mode
+the lane should expect on any post that goes unexpectedly viral, and it is a reason the @itsusamak
+pick at 0.3/min and one reply is a truer test of the lane than @SebastienEgo was.
+
+### The new lane B failure shapes
+
+Two worth carrying forward, both fresh this round:
+
+1. **The copycat cluster.** @SebastienEgo's "I'm 38 / solo founder from France / looking to connect"
+   format has gone viral, and the Latest searches returned two near-identical posts (@sugaarak,
+   @3xPierre). Praising a clone two hours after praising the original is exactly the bot shape the
+   lane's guardrails exist to prevent. Expect this whenever a lane B pick's format catches on.
+2. **Read the author's NEXT post before praising a win.** @hollanovc0re's "I QUIT MY JOB THAT IS
+   SOAKING THE LIFE OUT OF ME… WHO CHEERED ME" is a textbook lane B candidate until the follow-up —
+   "my manager said i'm useless and i quit" — reframes it as a workplace conflict and a bad day.
+   A win and a bad day can be the same sentence.
+
+The keyword search failed at the same rate as at 22:09: twelve candidates, one usable. The orbit
+instrument was not reachable this round because the followed accounts' recent output was all thread
+replies with no readable context.
+
+### Likes (6, all first try via `element.click()`, all verified by the `unlike` testid)
+
+@naval (pre-flight), @itsusamak (lane B pre-flight), @ColinGardiner (Yonder, first checks for
+marketplace founders), @Teknium x2, @jasonlk ("We are lucky they are verbalized at all"). Every
+testid was read before clicking, per the collision hazard. Neither reply target is a followed
+account — both post pages read "Follow".
+
+### Follows: none. Pause holding. No candidates queued.
+
+### Praise lane status: three rows, one OP reply
+
+Stated plainly each round per the falsifier. **Three `praise` rows, one OP reply**, and the second
+row is now settled at `n` rather than early. Still n=1 on the outcome the lane was created to buy.
+Two more rows before the count means anything, and nothing so far supports the lane beyond the single
+observation that created it.
+
+### A send confirmed by X that never appeared, and was deliberately not re-sent
+
+The lane B reply returned **"Your post was sent."** from `tweetButton` at 02:21:18 and then showed up
+on **no** Unc surface: absent from `with_replies` and `from:UncFund` at +1, +5 and **+66 minutes**,
+and `from:UncFund to:itsusamak` returned "No results". The @naval reply, sent 38 minutes earlier from
+the same session with the same method, was on `with_replies` in **16 seconds** and on search within
+five minutes. The one contrary signal is the parent's reply count moving **1 to 3** between the 02:00
+pre-flight and 02:26.
+
+Either the reply sent and X filtered it out of the author's own timeline and index, or the toast is
+not the confirmation twenty-two rounds have treated it as. **It was not re-sent** — a second reply to
+a 42-follower account inside five minutes is the thin-repeat pattern that earned the @Trace_Cohen
+block, aimed at precisely the account type lane B depends on.
+
+**For Rand:** if this recurs on another small account, the first reading becomes live and the praise
+lane has a structural problem, because a filtered reply buys neither reach nor a conversation. It is
+one occurrence so far. Full write-up in `08-reply-playbook.md`.
+
+**Next round must check first:** whether "Free credits first. Unc never refuses a sample." is visible
+on `with_replies`. If it is, fill in the ledger row and treat this as slow propagation. If it is not,
+the praise lane stands at two usable rows and the send path needs a harder verification step than a
+toast.
