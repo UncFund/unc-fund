@@ -100,8 +100,27 @@ Three things to hold onto when reading these rows back:
 | 09-13 01:43 | @naval | **7** | oblivious | 11254 | 4 | 2745 (~630 now) | 25 | 422 | 0 | n |
 | 09-13 02:21 | @itsusamak | **8** | praise | 36 | 134 | 0.3 | 1 | **never appeared** | — | — |
 | 09-13 03:36 | @blknoiz06 | **6** | prop | 18535 | 8 | 2317 (~953 now) | 320 | **4** | 0 | n |
-| 09-13 13:49 | @SebastienEgo | **7** | own-thread | — | — | — | — | — | — | — |
-| 09-13 13:56 | @CharlyKeleb | **7** | praise | 104 | 152 | 0.7 | 3 | — | — | — |
+| 09-13 13:49 | @SebastienEgo | **7** | own-thread | — | — | — | — | 7 | 0 | n (pending) |
+| 09-13 13:56 | @CharlyKeleb | **7** | praise | 104 | 152 | 0.7 | 3 | 6 | 0 | pending (<12h) |
+| 09-13 16:41 | @Teknium | **7** | oblivious | 6956 | 32 | 221 (~180 now) | 23 | — | — | — |
+| 09-13 17:12 | @JIsaam | **6** | praise | 50 | 56 | 0.9 | 1 | — | — | — |
+
+### Sep 13 afternoon: the legal pad took a like inside thirty minutes
+
+Read at 16:38–17:12 UTC Sep 13.
+
+- **Previous round, at about three hours:** own-thread "Unc is waving" **7 views, 0 likes**, no answer
+  from @SebastienEgo yet. @CharlyKeleb praise row **6–7 views, 0 likes**, no OP reply yet. His parent
+  went from 3 replies to 5, but neither new one is an answer to Unc on `to:UncFund`. **Both stay
+  pending under the twelve-hour rule**, not `n`.
+- **The 09-13 03:36 chair row finished at 8 views.** The @naval Jagged row is at 429 and
+  @SebastienEgo's praise row at 54 views and 3 likes.
+- **The 16:41 @Teknium row had 120 views and 1 like at 27 minutes.** That is already more than any
+  lane A row since the 01:43 @naval reply. The parent went from 6,956 views at the catch to **14,310
+  at 63 minutes**, so it roughly doubled after the catch, like the Sep 9 picks did. An early read like
+  this is not a settled number. Read it again after 18:41 UTC.
+- **The 14:00 UTC Sunday morning note had 3 views at two and a half hours.** Saturday's 21:00 post
+  had 26. Nobody replied, so there was nothing to answer in the own thread.
 
 ### Sep 13 morning read: the praise lane is two for two, and the chair reply got four views
 

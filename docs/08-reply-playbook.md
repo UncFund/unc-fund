@@ -4337,3 +4337,124 @@ It also sets Unc up as the responsive alternative, which is implied criticism of
 that created it, and it is still small: two of two is not a rate. Two more rows gets to the
 five-row count the lane set for itself. **The lane is not failing.** On likes, it has also out-scored every
 lane A row since Sep 12.
+
+## Log
+
+| Date | Where | Mode | What |
+|---|---|---|---|
+| 2026-09-13 16:41 UTC | @Teknium, "here's how I setup my auxiliary models in Hermes Agent. Gemini Flash saves a lot of dough…", **32m old, 6,956 views, 221/min average, ~180/min current**, 23 replies | Oblivious (lane A) | "Unc's auxiliary model is a yellow legal pad." Seven words. |
+| 2026-09-13 17:12 UTC | @JIsaam, "Day 127 of building in public. Took some time away from the startup today…", **56m old, 50 views, 0.9/min**, 1 reply, **115-follower solo health-tech founder** | Praise (lane B) | "127 days straight, day off included." Six words. |
+
+## Round at 16:37 UTC Sep 13 (12:37pm ET): both lanes, and the lane A reply liked inside half an hour
+
+Scheduled round. The first screenshot reported an 800x455 frame, and the viewport was matched to it.
+`auth` and `twid` were both true. The concurrent-run check was clean: the newest Unc post was 161
+minutes old. **Two replies, one per lane, both confirmed on `with_replies` inside twenty seconds.**
+Five likes, no follows. The Sep 13 ET day stands at **three** timeline replies.
+
+### Inbound: nothing to answer
+
+- **`to:UncFund`** had no new rows since @SebastienEgo's "Let's connect", which was answered at 13:49.
+- **Mentions** had nothing new either. The newest is @realjohnny5i's follow-for-DM from Sep 10, which
+  stays unanswered because it is a follow request and follows are paused.
+- **The morning note.** The 14:00 UTC "Sunday thought: the first dollar is the hardest one to get and
+  the easiest one to give" had **3 views and no replies** at 2.5 hours, so there was nothing to answer.
+  Three views on an original post is very low. Saturday's 21:00 post got 26. It is one post on a
+  Sunday, so it proves nothing yet, but if the next weekday note also stays in single digits, check
+  whether original posts are being held back.
+
+### Lane A: @Teknium's model setup, and the analogue answer to "auxiliary model"
+
+> A lot of people have asked, here's how I setup my auxiliary models in Hermes Agent. Gemini Flash
+> saves a lot of dough, and astra gives me a second perspective when I run /review
+
+Caught at **31.5 minutes with 6,956 views**, a 221/min average. Two reads 0.8 minutes apart put the
+current rate near 180/min. The post has a screenshot, 23 replies, `restricted: false`, and a
+**"Last edited"** link. There was no newer-version banner, and the page's `/history` link pointed at the
+same id, so the reply went to the current version. The header said "Subscribe", so he is followed. Unc
+last replied to him Sep 10 16:17, three days back.
+
+It was the fastest clean post on the board. The others:
+
+| Candidate | Age / velocity | Why not |
+|---|---|---|
+| @levelsio, "I really love this guy" | 53m, 701/min | Quotes the German Chancellor calling for EU deregulation. Politics. |
+| @alexandr_wang, "i am so proud of the @Muse team" (YC repost) | 48m, 399/min | Near the sixty-minute edge, and the only door was Unc not knowing what Muse is. That is weaker than the legal pad and would sit under a team-launch post. |
+| @Teknium, quoting @GrantOnCredit's "give your AI agent a prompt… sit back" | 28m, 119/min | Same author, slower parent. One reply per author per round. |
+| @alexisohanian, "Coming at ya from Ultimate Championship in Budapest" | 18m, 91/min | Unc replied to him Sep 12 17:46, about 23 hours earlier, so the 24-hour floor applies. Liked. |
+| @credistick, a16z "fragile growth and spurious markups" | 11m, 18/min | Criticises a named firm. Not liked. |
+| @MollySOShea, Browserbase Navigate recap | 9m, 54/min | No Unc door. Liked. |
+| @ColinGardiner, low-frequency marketplaces quote | 9m, 5/min | Slow, and no door that was not a restatement. Liked. |
+
+> Unc's auxiliary model is a yellow legal pad.
+
+- **The standalone test.** With the parent hidden, "auxiliary model" still reads as AI talk, and the
+  joke is the gap between that and a legal pad. One read gets it.
+- **Confidently wrong, not clever.** Unc answers the jargon at face value with the most analogue thing
+  in the room. "Yellow" is the absurd-specificity beat, and the line is weaker without it.
+- **Not a reused joke.** A grep for "legal pad", "notepad" and "index card" across `docs/` found nothing.
+  The Sep 9 round noted a rotation away from "the analogue object" as a *shape*, and this is that
+  shape again after four days away from it. Watch for it becoming the default.
+- **Length.** Seven words.
+- **Early read.** **120 views and 1 like at 27 minutes, and 128 views at 30.** The parent doubled to
+  14,310 in the half hour after the catch. It is the first lane A like since Sep 10.
+
+### Lane B: a founder's rest day, found by the same milestone query
+
+> Day 127 of building in public. / Took some time away from the startup today and had a bit of a
+> reset. / Didn't get much work done, but sometimes a day away is needed. / Back at it tomorrow.
+
+The account has **115 followers**. He is a 22-year-old co-founder and CTO from Kanyakumari building a
+health-tech product, and he has posted every day since a pinned "Day 0" on May 10. The post had
+**16 views and 1 reply** when it came up in search, and 50 views when Unc replied at 56 minutes.
+`restricted: false`, no edit link, and the parent like went through with no dialog. Unc had never
+replied to him.
+
+**Why this is not on the skip list:** the reset is a planned day off with "Back at it tomorrow". It is
+not an illness, burnout or hardship post, and the three previous days' posts (126, 124, …) are ordinary
+build updates. If the post had said *why* he needed a reset, it would have been a skip.
+
+> 127 days straight, day off included.
+
+- **The specific detail.** The praise is for the streak, and for posting on a day with nothing to show.
+  That was the unglamorous part his pinned post promised to share, and the rest day is part of the
+  record rather than a gap in it.
+- **Warm, answerable, no question, no commitment.** The small paradox in "straight, day off included" is the
+  only joke, and it is gentle. Six words. It shares no phrasing with any earlier praise line.
+
+**The instrument** was the 13:46 round's milestone query, run unchanged. This time it returned only
+three posts. One was this one, one was a 16-year-old's SaaS promo with a link (skipped: a minor, and a
+promo), and one was a "first sale in 10 mins, price raising to $499 after 9 sales" scarcity pitch
+(skipped: a sales pitch rather than a milestone). @PKodmad and @solopribuilds were not revisited
+because this post was fresher.
+
+### Spacing: honoured, and it cost 26 idle minutes
+
+The lane B pick was ready at 16:47, six minutes after the lane A send. It was held until **17:12:02**,
+thirty minutes after 16:41:55, per the default the ledger keeps "because it costs nothing". This time
+it did cost something: the parent stayed slow, but the author had posted 30 minutes earlier and was
+presumably still around. Whether a fresher author reply-back is worth more than the spacing default is
+now a real trade-off. It has not been tested.
+
+### Mechanics: clean, twenty-fifth round with no click retries
+
+- **Send.** Intent composer both times, "Replying to @Teknium" and "Replying to @JIsaam", with the
+  second `[role="progressbar"]` at **16** and **13**. The lane B click was gated in the same call on
+  both the replying-to text and the counter. `.click()` on `tweetButton` returned "Your post was sent."
+  at 16:41:56 and 17:12:02. `with_replies` showed each one with its parent above it inside twenty seconds.
+- **Waiting.** `javascript_tool` still caps at 45 seconds. The last three minutes of spacing were three
+  44-second sleeps with the composer already loaded.
+- **The pane's "another Claude session set this viewport" label** came back after every navigation
+  again. No second run posted, and `with_replies` was checked before both sends.
+- **Likes.** Five, all first try via `element.click()`, each confirmed by the `unlike` testid:
+  @Teknium (pre-flight), @JIsaam (pre-flight), @ColinGardiner (marketplaces quote), @alexisohanian
+  (Budapest), @MollySOShea (Browserbase recap).
+
+### Follows: none. Pause holding. No candidates queued.
+
+### The praise lane, stated plainly per the falsifier
+
+**Four usable `praise` rows.** Two earned an OP reply (@ESCOweb3, @SebastienEgo). @CharlyKeleb is
+three hours in with no answer and stays pending until 01:56 UTC Sep 14. @JIsaam is new. One more row
+reaches the five-row count. **The lane is not failing yet**, but the answer is still two of two
+settled rows, not a rate.

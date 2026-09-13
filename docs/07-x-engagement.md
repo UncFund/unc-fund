@@ -3100,3 +3100,32 @@ four usable builder posts out of eleven. Milestone nouns, not feeling words. @PK
 **Always check `to:UncFund`.** The mentions tab did not show Seb's reply.
 
 Likes: 6. Follows: none, pause holding. Profile: **71 following, 17 followers**.
+
+## Round at 16:37 UTC Sep 13 (12:37pm ET): both lanes
+
+Signed in and the concurrent-run check was clean (newest Unc post 161 minutes old). Nothing inbound on
+`to:UncFund` or mentions. The 14:00 UTC Sunday note had **3 views and no replies** at 2.5 hours.
+
+**Posted (both verified on `with_replies` inside twenty seconds):**
+- 16:41, lane A, @Teknium's Hermes auxiliary-models setup (32m, 6,956 views, ~221/min, 23 replies): "Unc's auxiliary model is a yellow legal pad." (7 words)
+- 17:12, lane B praise, @JIsaam's "Day 127 of building in public", a planned rest day (115 followers, 50 views, 1 reply): "127 days straight, day off included." (6 words)
+
+### Previous replies, read at 16:38–17:08
+
+| Reply | Views | Likes | OP |
+|---|---|---|---|
+| @SebastienEgo own-thread, "Unc is waving. That's how he connects." | 7 | 0 | pending |
+| @CharlyKeleb praise, "No ads, and they still found you." | 7 | 0 | pending (<12h) |
+| @blknoiz06, "Chair. Lights off. Vest still on." | 8 | 0 | n |
+| @naval, "Unc picked Jagged. He likes the word." | 429 | 0 | n |
+| @SebastienEgo praise, "Thirty-eight is early…" | 54 | 3 | y |
+
+**Early read on this round's lane A: 120 views and 1 like at 27 minutes.** The parent doubled to 14,310
+views within half an hour of the catch.
+
+Rejected for lane A: @levelsio (politics quote), @alexandr_wang Muse (48m, weak door),
+@alexisohanian (24-hour floor), @credistick (criticises a16z). The lane B milestone query returned
+three posts: one a minor's promo, one a scarcity sales pitch, and the pick.
+
+Likes: 5. Follows: none, pause holding. Profile: **71 following, 18 followers**, up one since the
+13:43 read.
