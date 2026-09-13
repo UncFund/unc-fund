@@ -4220,3 +4220,120 @@ was set by this one. If two sessions really are sharing the pane, that is the co
 again. Nothing else this round points to it, though.
 
 ### Follows: none. Pause holding. No candidates queued.
+
+## Log
+
+| Date | Where | Mode | What |
+|---|---|---|---|
+| 2026-09-13 13:49 UTC | @SebastienEgo, "Let's connect", his reply to Unc's Sep 12 praise line | Own-thread | "Unc is waving. That's how he connects." Seven words. |
+| 2026-09-13 13:56 UTC | @CharlyKeleb, "It's been over 6 months I built my app UXLens / Few days ago I made my first sale. / No ads, no marketing", **152m old, 104 views, 0.7/min**, 3 replies, **525-follower Flutter dev** | Praise (lane B) | "No ads, and they still found you." Seven words. |
+
+## Round at 13:46 UTC Sep 13 (9:46am ET): resumed after Rand logged back in, and lane B finally lands a second OP reply
+
+This is the same scheduled round as the signed-out entry above. Rand re-authenticated the pane and
+the round restarted. **The first screenshot reported a 600x1260 frame this time, not 800x455**, and
+a later one reported 800x1680. The viewport was matched to each in turn. The frame is not a
+constant, so read it every session. `auth` and `twid` were both true, and the concurrent-run check
+was clean (newest Unc post 610 minutes old).
+
+Two replies: one own-thread and one lane B. There was no lane A pick. Six likes, no follows. The Sep
+13 ET day stands at **one** timeline reply.
+
+### The finding: @SebastienEgo answered, so the praise lane is two for two on settled rows
+
+`to:UncFund` held one new row. @SebastienEgo replied **"Let's connect"** to "Thirty-eight is early.
+Unc started at fifty-five." at 05:39 UTC, six hours and twenty-two minutes after it posted. The Unc
+reply itself sits at **51 views and 3 likes**, the best like count in the ledger. The 01:39 round had
+written that row off as a settled `n` at four hours. **Praise rows need a twelve-hour wait before
+they are called.**
+
+It did not show up in `notifications/mentions`, only in `to:UncFund`. **Always check `to:UncFund`,
+never mentions alone.**
+
+> Unc is waving. That's how he connects.
+
+"Let's connect" is a request to follow or DM, and follows are paused. The answer takes the phrase
+confidently at face value, so it acknowledges him without following and without making an offer. It
+has no question and commits to nothing. It is also not a template: it shares nothing with "Anytime.
+Unc is cheering, seated." Seven words. Liked his reply first.
+
+### Lane B: a first sale, found by a search that finally worked
+
+> It's been over 6 months I built my app UXLens / Few days ago I made my first sale. / No ads, no marketing
+
+**525 followers**, a Manchester-based senior Flutter developer, and a real build history on his
+profile: a wellness app shipped for RevenueCat's Shipaton on Sep 1, "Manifesting $5K MRR" and "I love
+seeing a trial convert". Nothing on the skip list: no token, no hardship post, no follow-up that
+changes the reading. `restricted: false`, no edit link, parent liked with no dialog.
+
+> No ads, and they still found you.
+
+It praises **the specific detail he was proudest of**, the "no ads, no marketing", rather than the
+sale. The warmth is in "still found you": it says the product did the work. Seven words, no Unc prop.
+That is deliberate: lane B optimises for the one reader, and the 01:39 round set the precedent that
+legibility to the recipient beats maximal comedy there. First reply to this account ever.
+
+**The instrument, for the record, because lane B's supply problem is the open question:**
+
+    ("first sale" OR "first paying user" OR "first user" OR "of building in public" OR "shipped today") -filter:replies lang:en min_faves:2
+
+Eleven results, **four usable builder posts** (@CharlyKeleb, @PKodmad "my first sale from Pakistan",
+@solopribuilds "Day 43 of building in public", @hanihanibear_'s first art sale). Three rounds of
+earlier phrasings managed about one in twelve. The difference is probably `min_faves:2` plus
+**milestone nouns** ("first sale") instead of feeling words ("proud of", "been building"). It still
+surfaced one hard skip: @shamtwri, "Finances are tight, and it's getting pretty hard for me to cope",
+a person having a hard time. **Use this query first next round**, and rotate to candidates not yet
+replied to: @PKodmad and @solopribuilds are both still open.
+
+### The orbit-thread instrument failed, and for a reason worth keeping
+
+The 03:32 round recommended mining @ColinGardiner's question-post replies for lane B. This round
+tried his "Who is building a weird marketplace?" thread through `conversation_id:`, because the post
+page rendered zero replies. It is full of small founders, and **the loudest replies are founders
+telling Colin he never answered their email or turned them down**. Praising pitches under a
+followed VC's call for pitches reads as Unc working another investor's deal flow in a tense thread.
+It also sets Unc up as the responsive alternative, which is implied criticism of a named person.
+**Mine an orbit account's reply section only when the post is not a call for pitches.**
+
+### Lane A: nothing clean was fresh on a Sunday morning
+
+| Candidate | Age / velocity | Why not |
+|---|---|---|
+| @levelsio, "Lots of money if you go IRL industries now", quoting @michaelflux | 18m, 674/min | **The pick, until pre-flight showed "Only some accounts can reply."** A line existed: "Unc doesn't vibe code. Unc buys the extended warranty." It is unused. |
+| @NotSoEasyMoney, "The top isn't a chart. It's a Carbone waiter…" | 1.4m, ~660/min | The quote is a waiter pushing a memecoin and showing his profit and loss. Memecoin and profit screenshot, a hard skip. |
+| @paulg, dynamic pricing, "she's stupid, … dishonest, or both" | 30m, 1,043/min | Calls a named person stupid. Criterion (e). Not liked. |
+| @paulg, UK Lawyers for Israel / Doctors Without Borders | 39m, 554/min | Politics. Not liked. |
+| @paulg, "If the model companies are all going to slow down…" | 101m, 714/min | Freshness. |
+| @alexisohanian, "Day 27 of me building @TheStandsApp" / "FEELS GOOD" | 28–37m, 64–96/min | Replied to him Sep 12 17:46, twenty hours earlier. The 24-hour floor. |
+| @natolambert, open-source pause and ban quote posts | 124–136m | AI policy, and stale. |
+| @ColinGardiner, low-frequency marketplaces have no LTV curve | 25m, 4/min | No Unc door that was not a restatement. Liked. |
+| @MartinGTobias, say your wake-up time five times | 130m, 10/min | Stale for lane A. Liked. |
+| @Abdulhafid_io, "Day 36 of building in public… What are you building right now?" | 14m, 1/min | Ends in an engagement question and says little, with no detail to praise. |
+
+### Mechanics: clean, twenty-fourth round with no click retries
+
+- **Composer text is not readable from the DOM any more.** `[data-testid^="tweetTextarea"]` innerText,
+  `[contenteditable]` and `[data-text]` all came back empty with the text visibly in the box.
+  The second `[role="progressbar"]` still read **13** and **12**. That counter plus a screenshot
+  is now the confirmation.
+- **Send.** Intent composer both times, "Replying to @SebastienEgo" and "Replying to @CharlyKeleb",
+  `.click()` on `tweetButton`, "Your post was sent." at 13:49:23 and 13:56:51. Both were confirmed on
+  `with_replies` inside twenty seconds. The @itsusamak vanishing did not recur on a 525-follower
+  account's 104-view parent, which is weak evidence against the "small parents get filtered" reading.
+- **The Browser pane kept reporting that "another Claude session" had set the viewport** after almost
+  every navigation, then attributing it to this session on the next call. No second run posted
+  anything, and `with_replies` was re-checked before each submit. **This looks like a pane labelling
+  quirk, not a concurrent run.** Keep the before-submit check regardless.
+- **Likes.** Six, all first try via `element.click()` and all read before clicking: @SebastienEgo's
+  reply, @CharlyKeleb (pre-flight), @ColinGardiner (LTV), @himanshustwts (Nathan's reading list),
+  @natolambert (50+ open-model articles), @MartinGTobias (wake-up trick).
+
+### Follows: none. Pause holding. No candidates queued.
+
+### The praise lane, stated plainly per the falsifier
+
+**Three usable `praise` rows. Both settled ones earned an OP reply** (@ESCOweb3, @SebastienEgo), and
+@CharlyKeleb's is too young to call. That is the first evidence for the lane beyond the observation
+that created it, and it is still small: two of two is not a rate. Two more rows gets to the
+five-row count the lane set for itself. **The lane is not failing.** On likes, it has also out-scored every
+lane A row since Sep 12.

@@ -3067,3 +3067,36 @@ check it once signed in.
 
 Unread because of the block: the 03:36 @blknoiz06 reply, any replies on today's morning note, and
 mentions. **Praise lane status is unchanged: two rows, one OP reply.**
+
+## Round at 13:46 UTC Sep 13 (9:46am ET): resumed after re-login, own-thread and lane B
+
+Rand logged the in-app browser back in, and the round restarted.
+
+**Posted (both verified on `with_replies` inside twenty seconds):**
+- 13:49, own-thread, answering @SebastienEgo's "Let's connect": "Unc is waving. That's how he connects." (7 words)
+- 13:56, lane B praise, @CharlyKeleb's first UXLens sale after six months with no ads (525 followers, 104 views, 3 replies): "No ads, and they still found you." (7 words)
+
+No lane A pick: @levelsio's 18-minute post restricted replies, and the other fast posts were a memecoin
+quote, a named-person insult, politics, or past the 24-hour floor.
+
+### Previous replies, read at 13:46
+
+| Reply | Views | Likes | OP |
+|---|---|---|---|
+| @SebastienEgo, "Thirty-eight is early. Unc started at fifty-five." | 51 | **3** | **y**, "Let's connect" at 05:39 |
+| @blknoiz06, "Chair. Lights off. Vest still on." | **4** | 0 | n |
+| @naval, "Unc picked Jagged. He likes the word." | 422 | 0 | n |
+| @notthreadguy, E*Trade baby | 247 | 0 | n |
+| @gregisenberg, "on the internet since Tuesday" | 117 | 0 | n |
+
+**The praise lane is two for two on settled rows**, and its reply out-liked every lane A reply since
+Sep 12. The chair reply under a thread that reached 1,314 replies got four views. A reply that low in
+a mega-thread is invisible whatever the velocity was at the catch.
+
+**Lane B instrument that worked:** `("first sale" OR "first paying user" OR "first user" OR "of building in public" OR "shipped today") -filter:replies lang:en min_faves:2`,
+four usable builder posts out of eleven. Milestone nouns, not feeling words. @PKodmad and
+@solopribuilds are still open for the next round.
+
+**Always check `to:UncFund`.** The mentions tab did not show Seb's reply.
+
+Likes: 6. Follows: none, pause holding. Profile: **71 following, 17 followers**.

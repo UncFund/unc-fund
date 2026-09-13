@@ -96,14 +96,30 @@ Three things to hold onto when reading these rows back:
 | 09-12 19:14 | @gregisenberg | **7** | oblivious | 8333 | 39 | 216 (~85 now) | 31 | 63 | 0 | n |
 | 09-12 20:14 | @brycent | 15 | thesis | 472 | 11 | 44 | 1 | 7 | 0 | n |
 | 09-12 22:16 | @notthreadguy | **8** | oblivious | 4962 | 17 | 287 (~160 now) | 27 | 177 | 0 | n |
-| 09-12 23:17 | @SebastienEgo | **8** | praise | 5342 | 96 | 56 | 8 | 19 | 0 | n |
-| 09-13 01:43 | @naval | **7** | oblivious | 11254 | 4 | 2745 (~630 now) | 25 | 400 | 0 | n |
+| 09-12 23:17 | @SebastienEgo | **8** | praise | 5342 | 96 | 56 | 8 | 51 | 3 | **y** |
+| 09-13 01:43 | @naval | **7** | oblivious | 11254 | 4 | 2745 (~630 now) | 25 | 422 | 0 | n |
 | 09-13 02:21 | @itsusamak | **8** | praise | 36 | 134 | 0.3 | 1 | **never appeared** | — | — |
-| 09-13 03:36 | @blknoiz06 | **6** | prop | 18535 | 8 | 2317 (~953 now) | 320 | — | — | — |
+| 09-13 03:36 | @blknoiz06 | **6** | prop | 18535 | 8 | 2317 (~953 now) | 320 | **4** | 0 | n |
+| 09-13 13:49 | @SebastienEgo | **7** | own-thread | — | — | — | — | — | — | — |
+| 09-13 13:56 | @CharlyKeleb | **7** | praise | 104 | 152 | 0.7 | 3 | — | — | — |
 
-**09-13 13:43 UTC round: signed out, nothing posted and nothing read.** The in-app browser held only
-guest cookies, so the 03:36 @blknoiz06 row still has no views, likes or `op` read. Read it first when
-the session is back. The guest profile header shows 17 followers, up from 13.
+### Sep 13 morning read: the praise lane is two for two, and the chair reply got four views
+
+Read at 13:46 UTC Sep 13, after Rand logged the in-app browser back in. (An earlier 13:43 attempt
+found the session signed out, and nothing was read then.)
+
+- **@SebastienEgo replied to Unc.** At 05:39 UTC he answered "Thirty-eight is early. Unc started at
+  fifty-five." with "Let's connect", six hours and twenty-two minutes after it posted. The reply also
+  finished at **51 views and 3 likes**. That is the best like count on any row in this file, on the
+  lane that is supposed to score badly. Answered at 13:49 with "Unc is waving. That's how he
+  connects." It is seven words, commits to nothing, and has no follow, no DM and no question.
+- **So both settled `praise` rows have now earned an OP reply: @ESCOweb3 and @SebastienEgo.** The
+  01:39 round called @SebastienEgo a settled `n` at four hours. That was wrong: the answer came at
+  six. **Wait at least twelve hours before marking a `praise` row `n`.**
+- **"Chair. Lights off. Vest still on." got 4 views in ten hours.** Its parent went on to 132K views
+  and **1,314 replies**. That is 0.004x its velocity at the catch, the worst multiple in the ledger.
+  The six lane A rows since Sep 12 17:46 have **zero likes between them**. The praise row posted in
+  the same stretch took 3 likes and a conversation.
 
 **The 09-13 02:21 row is now CONFIRMED ABSENT and is struck from every count.** It was checked again
 at **+80 minutes** on both `with_replies` and `from:UncFund` and is on neither. `tweetButton` had
