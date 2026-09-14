@@ -3358,3 +3358,28 @@ nobody. The concurrent-run check was clean: the newest reply was 113 minutes old
 | @Artur_Abra praise, "Eight slideshows a day is the milestone." | Community | — | **y** |
 | @brycent, "Send the deal flow, Unc cuts checks" (hand-sent) | 3 | 0 | n |
 | @kseniam0s, settled (15:19 round) | 87 | 2 | n (liked) |
+
+## Sep 14: news desk List and odd-hour news check
+
+**Unc News Desk** — a private X List, https://x.com/i/lists/2099581050821194117, 18 members. Private
+means members are not notified and nobody else can see it. On-chain news and policy: @EleanorTerrett,
+@CryptoAmerica_. Crypto media and PR: @jacqmelinek, @TokenRelations, @therollupco, @andyyy,
+@robbieklages, @TheMarketRunup, @theblondebroker, @noturavgbros. Fintech: @UseCorgi, @emily_yuan_,
+@siennacolee, @JeffWeniger. Venture: @ycombinator, @a16z, @HarryStebbings, @MollySOShea.
+
+Each member was added by exact handle and checked. Worth recording that searching "EleanorTerrett"
+returned four impersonators straight under the real account — @EIean0r_Terrett, @elean_terret,
+@ElenorTerrett_, @EleanorTereftt — which is exactly why the news rules insist on the verified exact
+handle before replying to or quoting anything.
+
+**`unc-news-check` scheduled task** — fires 11am, 1, 3, 5, 7 and 9pm Eastern, on the odd hours
+between the even-hour reply rounds, so coverage is roughly hourly from 10am to 10pm without the two
+tasks firing together. It scans only the List for drops under 30 minutes old, replies early,
+quotes or reposts at most one per run, and shares the daily caps with the reply rounds: ten
+timeline replies, four reposts/quotes, two per account. Same concurrency guard, same sign-in check.
+No morning thread, no praise hunting, no follows.
+
+## Repost and quote log
+
+| Time (ET) | Account | Type | Quote text | Parent age at catch |
+|---|---|---|---|---|
