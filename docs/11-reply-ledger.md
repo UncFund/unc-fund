@@ -121,10 +121,32 @@ Three things to hold onto when reading these rows back:
 | 09-14 17:17 | @vladtenev | **7** | oblivious | 15183 | 4 | **~3,800** | 148 | 1,393 (113m) | 0 | n |
 | 09-14 17:22 | @Artur_Abra | **7** | praise | 4 | 4 | 1 | 0 | Community post | — | **y** |
 | 09-14 19:13 | @Artur_Abra | **6** | own-thread | — | — | — | — | Community post | — | pending |
-| 09-14 19:14 | @RobinhoodApp | **6** | receipt | 16503 | 14 | 1179 (~350 now) | 147 | 60 (37m, early) | 0 | pending |
+| 09-14 19:14 | @RobinhoodApp | **6** | receipt | 16503 | 14 | 1179 (~350 now) | 147 | 120 (3h54m) | 1 | n |
 | 09-14 19:16 | @ArunGopidas | **7** | praise | 31 | 106 | 0.3 | 1 | Community post | — | pending (due 07:16 Sep 15) |
-| 09-14 19:20 | @ESCOweb3 | **4** | praise | — | ~2,540 | — | — | 4 (32m) | 0 | pending |
-| 09-14 20:13 | @UpperClassArmz | **6** | praise | 5 | 4 | 1.4 | 1 | — | — | pending (due 08:13 Sep 15) |
+| 09-14 19:20 | @ESCOweb3 | **4** | praise | — | ~2,540 | — | — | 10 (3h48m) | 0 | pending |
+| 09-14 20:13 | @UpperClassArmz | **6** | praise | 5 | 4 | 1.4 | 1 | 15 (2h55m) | 1 | pending (OP liked at 20:47; due 08:13 Sep 15) |
+| 09-14 23:11 | @jean_ette_li | **7** | praise | 206 | 14 | 15 | 8 | — | — | pending (due 11:11 Sep 15) |
+
+### Sep 14, 23:08 round: the tenth reply, a praise pick on a Corgi intern going full time
+
+Read at 23:08–23:20 UTC.
+
+- **Concurrent-run check clean.** Newest reply was 20:13. A 23:00:02 original post, "$500 to $9,999. Decision in a week."
+  (unc.fund link card), is the 7:00pm ET scheduled post, not a live round. The 23:07 news check was driving the same pane
+  (viewport label flipped to "another Claude session set this") but had posted nothing.
+- **Nothing inbound to answer.** Notifications since the last round: follows, a like on the vending machine, and
+  **@UpperClassArmz liked "Older than AI. Unc respects seniority."** at 20:47. No reply from him yet, so `pending`.
+- **Reads:** casserole settled at 1,399 views and 0 likes. Vending machine 120 and 1 like at ~4 hours, `op` n. "Unc
+  believes in you" 10.
+- **Lane B: @jean_ette_li**, reposted by @UseCorgi: "I'm sad to announce I'm leaving Corgi after my internship. / To join
+  the Marketing Team full time!", after community college and a transfer to UCSD. Caught at 14 minutes, 206 views, 8
+  replies. Clean: the "leaving" is a fake-out, not a departure. "Unc had the farewell card half signed." Seven words,
+  rewards the fake-out with a prop-ish object, no question, no commitment. Grep found no earlier "farewell". Verified on
+  `with_replies` at 23:11:04.
+- **The ET day is now at the ten-reply ceiling.** Later rounds tonight post no timeline replies; own-thread answers
+  are still open.
+- **No lane A** (ceiling), **no quote or repost**: @EleanorTerrett's newest were 43–73 minutes old and about Senate vote
+  counts, which is prediction-adjacent and politician-sourced.
 
 ### Sep 14, 20:08 round: one praise pick, day at nine
 

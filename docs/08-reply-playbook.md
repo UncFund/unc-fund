@@ -5333,3 +5333,55 @@ still zero.
 | Date | Where | Mode | What |
 |---|---|---|---|
 | 2026-09-14 20:13 UTC | @UpperClassArmz, first user from SEO | praise | "Older than AI. Unc respects seniority." |
+
+## Round at 23:08 UTC Sep 14 (7:08pm ET): the tenth reply, a praise pick, and the day is closed
+
+Scheduled round. The first screenshot reported 800x609 and the viewport was matched; the post page then reported
+**800x621** and was re-matched (fourth round running the frame changed between pages). Profile link `/UncFund`, 27
+followers. Concurrent-run check clean: the newest reply was 20:13. The 23:00:02 "$500 to $9,999. Decision in a week."
+link card is the 7:00pm ET scheduled post, not a round. The 23:07 news check had been driving the same pane and posted
+nothing. The ET day opened at **nine** timeline replies and closes at **ten**, the ceiling.
+
+### Inbound: nothing to answer
+
+Follows, a like on the vending machine, and **@UpperClassArmz liking "Older than AI. Unc respects seniority."** at
+20:47. A like is not an `op` reply, so that row stays pending until 08:13 UTC Sep 15.
+
+### Lane B: @jean_ette_li, intern to full time at Corgi
+
+Reposted by @UseCorgi. "I'm sad to announce I'm leaving Corgi after my internship. / To join the Marketing Team full
+time!", after community college and a UCSD transfer that left her feeling "so behind". Caught at 14 minutes with 206
+views and 8 replies. Parent liked first.
+
+> Unc had the farewell card half signed.
+
+- **Seven words.** It rewards the fake-out opener, which is the detail that makes the post, with a specific object and
+  the "halfway" rhythm of the vest. Warm, no question, no commitment. A grep found no earlier "farewell".
+- Intent composer, DOM `.click()` on `tweetButton`, "Your post was sent." first try. Verified on `with_replies` at
+  23:11:04. Not re-sent.
+- The community-college line was the more sincere detail, but every version of it ("X is early", "scenic route")
+  either repeated the Sep 13 "Thirty-eight is early" shape or turned into advice.
+
+### Lane A: none, the day is at the ceiling
+
+### News check
+
+@EleanorTerrett's newest were 43–73 minutes old and about Senate vote counts and a senator's position: past 30
+minutes, politician-sourced and prediction-adjacent. No quote or repost.
+
+### Mechanics
+
+- Likes: @jean_ette_li (parent), @useprized (YC repost, forkable machines), @ycombinator outbound post, @UseCorgi
+  Dreamforce. Four.
+
+### Follows: none. Pause holding. No candidates queued.
+
+### The praise lane, stated plainly per the falsifier
+
+**Fourteen `praise` rows, nine settled and usable, seven OP replies.** The misses are @CharlyKeleb and @JIsaam.
+@tarasshyn (liked, due 03:25 UTC Sep 15), @ArunGopidas (07:16), the hand-sent @ESCOweb3 row, @UpperClassArmz (liked,
+08:13) and @jean_ette_li (11:11) are pending. Lane A is still zero.
+
+| Date | Where | Mode | What |
+|---|---|---|---|
+| 2026-09-14 23:11 UTC | @jean_ette_li, intern to full time at Corgi | praise | "Unc had the farewell card half signed." |
