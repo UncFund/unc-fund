@@ -5275,3 +5275,61 @@ profile link was `/UncFund`, with 26 followers.
 
 **The praise lane, per the falsifier:** twelve `praise` rows, nine settled and usable, seven OP replies. @tarasshyn,
 @ArunGopidas and the hand-sent @ESCOweb3 row are pending. Lane A is still zero.
+
+## Round at 20:08 UTC Sep 14 (4:08pm ET): one praise pick, day at nine
+
+Scheduled round, twenty minutes after the 19:49 manual run. The first screenshot reported 800x609 and the viewport was
+matched; the intent composer then reported **800x621** and was re-matched (third round running the frame changed
+between pages). The profile link was `/UncFund`, 26 followers. Concurrent-run check clean: the newest Unc post was
+19:20, 50 minutes old. The ET day opened at **eight** timeline replies and closes at **nine**.
+
+### Inbound: nothing to answer
+
+Notifications have nothing after @Artur_Abra's 17:38 answer, handled at 19:13. New follows only.
+
+### Lane B: @UpperClassArmz, first user from SEO
+
+853 followers, account since 2010, a builder ("I like to make stuff"). "WE GOT OUR FIRST USER TODAY …. FROM SEO !!!!!!
+… Me and my co-founder thought of this idea before AI existed. And we finally did it." Caught at 3.5 minutes with 5
+views and 1 reply. Parent liked first.
+
+> Older than AI. Unc respects seniority.
+
+- **Six words.** The specific detail is "before AI existed"; Unc praises it as seniority, which is the age prop
+  pointed at the idea. No question, no link, no commitment. A grep found no earlier "seniority".
+- Sent through the intent composer with a DOM `.click()` on `tweetButton`. The screenshot after the resize came back
+  zoomed and unusable for coordinates, and `.click()` returned "Your post was sent." first try. The progressbar read
+  `aria-valuenow` 0 on intent-prefilled text and the send worked anyway, so that check is not reliable on intent
+  composers. Verified on `with_replies` at 20:13:25 after one reload about 30 seconds later. Not re-sent.
+
+### Lane A: nothing taken
+
+At nine for the day with one left, the bar was raised. Rejected:
+
+| Candidate | Age / velocity | Why not |
+|---|---|---|
+| @therollupco, CLARITY Act last-minute changes explainer | 10m, 154/min, 0 replies | Best velocity on the board. The only line ("last-minute changes, Unc files taxes the same way") could read as mocking a contested bill mid-fight, which the policy rules forbid. Also not a primary news drop, so no quote. |
+| @andyyy, CLARITY Act full update | 7m, 1,637 views | Same story, and @andyyy already has today's flagged popcorn quote. |
+| @jaixbhatia (YC repost), Turnstone launch | 21m, ~45/min, 7 replies | "Unc explains himself from scratch every Thanksgiving." was ready, but past twenty minutes on a slow parent does not clear a day at nine. Liked. |
+| @imsaahilsangye (YC repost), token-cost cutting | 6m, ~57/min | Product ad shape, no line. Liked. |
+| @enzoxmotion, $1k to $10k MRR | 1m | Profanity and a growth-hack thread. |
+
+### News check
+
+@EleanorTerrett's newest post was 179 minutes old. No drop under 30 minutes, so no quote or repost.
+
+### Mechanics
+
+- Likes: @UpperClassArmz (parent), @jaixbhatia, @imsaahilsangye. Three.
+
+### Follows: none. Pause holding. No candidates queued.
+
+### The praise lane, stated plainly per the falsifier
+
+**Thirteen `praise` rows, nine settled and usable, seven OP replies.** The misses are @CharlyKeleb and @JIsaam.
+@tarasshyn, @ArunGopidas, the hand-sent @ESCOweb3 row and @UpperClassArmz (due 08:13 UTC Sep 15) are pending. Lane A is
+still zero.
+
+| Date | Where | Mode | What |
+|---|---|---|---|
+| 2026-09-14 20:13 UTC | @UpperClassArmz, first user from SEO | praise | "Older than AI. Unc respects seniority." |
