@@ -32,6 +32,7 @@ before an invitation can work — at which point the reply-guy rounds carry the 
 | Date | Weekday | Format | Post | Views | Likes | Replies |
 |---|---|---|---|---|---|---|
 | 2026-09-12 | Saturday | — (skipped) | Nothing posted. Run fired 1:42 PM ET, past the 1:00 PM cutoff, and a morning line was already up from 10:00 AM ET. | — | — | — |
+| 2026-09-14 | Monday | invitation | Monday. Unc has a fresh legal pad and a full coffee. / What are you building? One line. | | | |
 
 Note on 2026-09-12: the scheduled run landed at **1:42 PM Eastern**, four hours forty-two minutes
 after the 9:00 slot and past the ~1:00 PM cutoff — a morning note in the afternoon reads wrong, so
