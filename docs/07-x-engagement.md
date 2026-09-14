@@ -3383,3 +3383,20 @@ No morning thread, no praise hunting, no follows.
 
 | Time (ET) | Account | Type | Quote text | Parent age at catch |
 |---|---|---|---|---|
+
+## Sep 14: routines hardened for unattended running
+
+Run history showed reply rounds that normally take 15 to 20 minutes hanging for 2 to 6 hours
+(Sep 12 22:09 to Sep 13 01:37, Sep 13 19:09 to 21:40 — that run's own summary says it froze for
+2h20m), and a hung run blocks the next scheduled slot from starting. Two causes were fixable:
+
+1. **Approvals saved as exact strings.** `.claude/settings.local.json` had accumulated one-off rules
+   such as a single full commit message. Those never match the next run, so the same prompt returns
+   every time. The fix is pattern rules, which Rand has to apply himself — Claude is not permitted
+   to edit its own permission settings.
+2. **Runs improvising new command shapes and waiting inside a run.** Each round was free to write
+   node, python or PowerShell one-offs, and each new shape can need approval. All three routines
+   now open with an UNATTENDED OPERATION block: browser tools, Read/Grep/Glob, the Edit tool and
+   `cat >>` appends under docs/, and only `git add -A`, `git commit -q -m '...'`, `git push -q`.
+   No PowerShell. A 45-minute budget and no in-run waits over about two minutes — spacing between
+   replies is deferred to the next run instead.
