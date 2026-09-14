@@ -112,11 +112,38 @@ Three things to hold onto when reading these rows back:
 | 09-14 00:10 | @not_fanti | **6** | own-thread | — | — | — | — | unreadable (Community) | — | n |
 | 09-14 00:12 | @olivercingl | **7** | own-thread | — | — | — | — | 7 | 1 | **y** |
 | 09-14 00:17 | @Motion_Viz | **7** | praise | 45 | 7 | 6 | 1 | 17 | 0 | **y** |
-| 09-14 15:21 | @mytwillot | **6** | own-thread | — | — | — | — | — | — | pending |
-| 09-14 15:21 | @Motion_Viz | **7** | own-thread | — | — | — | — | — | — | pending |
-| 09-14 15:21 | @PKodmad | 8 | own-thread | — | — | — | — | — | — | pending |
-| 09-14 15:23 | @kseniam0s | **6** | thesis | 88 | 17 | 5 | 2 | — | — | pending |
-| 09-14 15:25 | @tarasshyn | 9 | praise | 79 | 18 | 4 | 0 | — | — | pending |
+| 09-14 15:21 | @mytwillot | **6** | own-thread | — | — | — | — | 5 | 0 | n (pending) |
+| 09-14 15:21 | @Motion_Viz | **7** | own-thread | — | — | — | — | 6 | 0 | n (pending) |
+| 09-14 15:21 | @PKodmad | 8 | own-thread | — | — | — | — | 3 | 0 | n (pending) |
+| 09-14 15:23 | @kseniam0s | **6** | thesis | 88 | 17 | 5 | 2 | 45 | **2** | n |
+| 09-14 15:25 | @tarasshyn | 9 | praise | 79 | 18 | 4 | 0 | 19 | 1 | pending (due 03:25 Sep 15) |
+| 09-14 16:30 | @brycent | **7** | thesis | — | — | — | — | 3 | 0 | n (pending) |
+| 09-14 17:17 | @vladtenev | **7** | oblivious | 15183 | 4 | **~3,800** | 148 | 243 (6m, early) | — | pending |
+| 09-14 17:22 | @Artur_Abra | **7** | praise | 4 | 4 | 1 | 0 | Community post | — | pending (due 05:22 Sep 15) |
+
+### Sep 14, 17:14 round: the fastest parent ever taken, and a zero-milestone praise pick
+
+Read at 17:14–17:24 UTC.
+
+- **An unlogged 16:30 reply is on `with_replies`**: "Send the deal flow, Unc cuts checks" on @brycent's "The front page of
+  venture capital." (15:37). No logged round sent it, so it was probably posted by hand. It is logged above
+  and counts toward the day. The `p_*` columns are unknown. It's the second @brycent reply this week (Sep 12
+  20:14 was the first).
+- **Reads on the 15:19 round at about two hours:** @kseniam0s **45 views and 2 likes** (9x the 5/min
+  parent, which went on to 768 views). @tarasshyn praise 19 and 1, and Taras hasn't answered yet (their
+  parent has 3 replies, none from them on `to:UncFund`). The three own-thread answers sit at 3 to 6 views
+  and nobody has answered them. Nothing new on `to:UncFund` or mentions.
+- **Lane A: @vladtenev at four minutes, ~3,800/min.** That beats the previous fastest clean parent
+  (@RobinhoodApp's 2,956/min) by about 30%. Robinhood Stock Tokens are getting in-kind redemption and
+  voting. The door is Unc misreading "in-kind" as a potluck, which also calls back to the covered dish that
+  earned Vlad's follow. No ticker, no price, and Unc doesn't touch the product. **243 views at six minutes**
+  is an early read, not a result.
+- **Lane B: @Artur_Abra** posted "No big milestone to share" about two TikTok slideshows a day on each of
+  four accounts. Caught at four minutes, zero replies. The line does the multiplication and hands the
+  milestone back: "Eight slideshows a day is the milestone." **It's a Community post** ("Build in
+  Public"), so it was verified by the parent's reply count moving from 0 to 1, not on `with_replies`,
+  and its views will be unreadable.
+- **Day count (ET): five timeline replies** (kseniam0s, tarasshyn, brycent, vladtenev, Artur_Abra).
 
 ### Sep 14, 15:19 round: Rand signed back in, and the owed answers went out
 

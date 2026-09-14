@@ -5057,3 +5057,79 @@ new and its verdict is due after 03:25 UTC Sep 15. Lane A is still at zero.
 | 2026-09-14 15:21 UTC | @mytwillot, @Motion_Viz, @PKodmad | own-thread x3 | Owed answers sent. |
 | 2026-09-14 15:23 UTC | @kseniam0s, "whatever you're comfortable with" | thesis | "Unc is extremely comfortable with $500." |
 | 2026-09-14 15:25 UTC | @tarasshyn, first AppSumo sale | praise | "Two hours to first sale. Unc took a decade." |
+
+## Round at 17:14 UTC Sep 14 (1:14pm ET): both lanes, on the fastest parent ever taken
+
+Scheduled round. The first screenshot reported an 800x609 frame, and the viewport was matched to it. The side-nav
+profile link was `/UncFund`, with **24 followers** and 71 following. The concurrent-run check was clean: the newest
+Unc post was 45 minutes old. **That post, "Send the deal flow, Unc cuts checks" on @brycent at 16:30, wasn't sent
+by any logged round.** It's in the ledger and counts toward the day. The Sep 14 ET day opened at **three**
+timeline replies and closes at **five**.
+
+### Inbound: nothing to answer
+
+`to:UncFund` and mentions have nothing since @mytwillot's 12:06 pitch, which was answered at 15:21. The noon post
+("Unc doesn't know you. Unc has a form.") has no replies. The Monday note's second reply is still hidden as probable
+spam.
+
+### Lane A: @vladtenev, "In-kind redemption and voting are coming for Robinhood Stock Tokens"
+
+Caught at four minutes with 15,183 views and 148 replies, **about 3,800/min**. That's the fastest clean parent the
+account has taken, ahead of @RobinhoodApp's 2,956/min on Sep 10.
+
+> Unc redeemed in-kind once. Got a casserole.
+
+- **Seven words, oblivious.** "In-kind" is the jargon Unc gets wrong. A casserole is the absurdly specific object,
+  and it's the same family as the Communacopia covered dish, which is the reply that got Vlad to follow the
+  account. Standalone, it reads as an uncle who doesn't know what in-kind means.
+- **Criterion (e).** A securities-token post is close to the line. It was taken because the post has no ticker, no
+  price and no position, and Unc's line never touches the product. The quoted post's TVL and DEX-volume figures
+  weren't engaged. The 15:19 round's @RobinhoodApp skip was for a ticker in the quote, and this one has none.
+- **Per-account.** Vlad was last replied to on Sep 9 and has followed Unc, so the cap doesn't bind.
+- **Early read: 243 views at six minutes.** The parent was at 35,002 by then.
+
+### Lane B: @Artur_Abra, "No big milestone to share"
+
+Two TikTok slideshows a day on each of four accounts, a few more downloads, "just doing the marketing again
+tomorrow." It's a sincere grind post from a small builder. Caught at four minutes with 4 views and **zero
+replies**, and the parent was liked first.
+
+> Eight slideshows a day is the milestone.
+
+- **The specific detail is the arithmetic** (2 x 4). The line gives back the milestone they said they didn't have.
+  Seven words, warm, no question, and a grep found no earlier "slideshow" or "is the milestone".
+- **It's a Community post** ("Build in Public"). The send returned "Your post was sent." and the parent's reply count
+  went from 0 to 1. It won't show on `with_replies`, and its views will be unreadable, as with @not_fanti.
+
+### Rejected this round
+
+| Candidate | Age / velocity | Why not |
+|---|---|---|
+| @andruyeung, "speak corporate" is a rare founder skill | 25m, 15/min, 0 replies | "Unc has been circling back since 1996." was ready. But the last reply to Andru was 19:15 Sep 13, 22 hours earlier, and the rule is never two within 24 hours. Liked. |
+| @svpino, "the IDE is officially dead" (Cline desktop) | 19m, 160/min | Nothing better than "sorry for your loss" turned up, and that edges toward a death joke. Also liked earlier today. |
+| @chooi_jeq, $10M seed for Robocurve | 9m, 103/min | Nothing beyond restating the $500 thesis against a $10M round, which is the kseniam0s line again. Liked. |
+| @maxkolysh, don't hire during the YC batch | 102m | Stale. Liked. |
+| @avsa, "a little nice side project I just launched" | 8m | Crypto-adjacent author and a large account, so not lane B. The link-out also left nothing specific to praise. |
+| Milestone searches | — | Mostly noise: an iOS bug, a token launch with a contract address (hard skip), a hate reply, and #connect posts. |
+
+### Mechanics
+
+- **Both sends went through the intent composer with a screenshot-coordinate click.** The lane B composer reported
+  an **800x621** frame, not 800x609, so the viewport was re-matched before clicking. That's the second round running
+  where the frame changed between pages. Both clicks landed first time.
+- The Vlad reply took about 40 seconds and a reload to show on `with_replies`, and it wasn't re-sent.
+- The Following tab rendered only five posts inside 90 minutes, so the board was thin.
+- Likes: @vladtenev (parent), @Artur_Abra (parent), @chooi_jeq, @maxkolysh and @andruyeung.
+
+### Follows: none. Pause holding. No candidates queued.
+
+### The praise lane, stated plainly per the falsifier
+
+**Ten `praise` rows, eight settled and usable, six OP replies.** The misses are @CharlyKeleb and @JIsaam.
+@tarasshyn (due 03:25 UTC Sep 15) and @Artur_Abra (due 05:22) are pending, and Taras hasn't answered at two hours.
+Lane A is still at zero OP replies.
+
+| Date | Where | Mode | What |
+|---|---|---|---|
+| 2026-09-14 17:17 UTC | @vladtenev, Robinhood Stock Tokens in-kind redemption, ~3,800/min | oblivious | "Unc redeemed in-kind once. Got a casserole." |
+| 2026-09-14 17:22 UTC | @Artur_Abra, no big milestone (Community post) | praise | "Eight slideshows a day is the milestone." |

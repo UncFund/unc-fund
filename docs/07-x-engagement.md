@@ -3315,3 +3315,22 @@ Rand re-signed the in-app browser as @UncFund, and the round ran in full. **22 f
 - **Lane B:** @tarasshyn's first AppSumo sale, "Two hours to first sale. Unc took a decade." (9 words, 0 replies).
 - **Day count (ET):** two timeline replies.
 - Seven likes, no follows.
+
+## Round at 17:14 UTC Sep 14 (1:14pm ET): both lanes, and the fastest parent yet
+
+Signed in as @UncFund with **24 followers** (up from 22) and 71 following.
+
+- **Unlogged reply found:** "Send the deal flow, Unc cuts checks" on @brycent at 16:30 UTC, probably sent by hand.
+  It counts toward the day.
+- **Lane A:** @vladtenev's Robinhood Stock Tokens post, caught at 4 minutes at **~3,800/min**, the fastest clean
+  parent yet. "Unc redeemed in-kind once. Got a casserole." (7 words). **243 views at six minutes.**
+- **Lane B:** @Artur_Abra, "No big milestone to share" about eight TikTok slideshows a day. "Eight slideshows a day
+  is the milestone." (7 words, zero replies, Community post).
+- **Day count (ET):** five timeline replies.
+- Five likes, no follows.
+
+| Reply (15:19 round, ~2h) | Views | Likes | OP |
+|---|---|---|---|
+| @kseniam0s, "Unc is extremely comfortable with $500." | 45 | **2** | n |
+| @tarasshyn praise, "Two hours to first sale. Unc took a decade." | 19 | 1 | pending |
+| Own-thread: mytwillot / Motion_Viz / PKodmad | 5 / 6 / 3 | 0 | pending |
