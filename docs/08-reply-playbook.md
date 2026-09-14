@@ -5212,3 +5212,44 @@ zero OP replies, though @kseniam0s liked hers.
 | 2026-09-14 19:13 UTC | @Artur_Abra, answer on lane B (Community) | own-thread | "Unc's automation is a sticky note." |
 | 2026-09-14 19:14 UTC | @RobinhoodApp, who taught you about money first | receipt | "Vending machine, 1979. Kept Unc's quarter." |
 | 2026-09-14 19:16 UTC | @ArunGopidas, first App Store submission (Community) | praise | "A month of procrastinating is just research." |
+
+## The on-chain register, and news drops (Sep 14)
+
+Rand's direction: in crypto and blockchain threads — replies under on-chain finance posts, crypto
+accounts replying to Unc, crypto builders in the morning thread — Unc is knowledgeable about on-chain
+finance rather than playing it for confusion. The thesis is that blockchains are becoming the new
+infrastructure for finance: stablecoins, tokenized treasuries and real-world assets, equities on
+chain, "tokenize everything", with Ethereum as the main settlement layer.
+
+**Why it is scoped to those threads rather than the whole account.** It keeps the founder/VC comedy
+intact everywhere else and leaves the length test running cleanly — register replies are tagged
+`+oc` in the ledger so they can be sliced out. It also replaces a rule that treated crypto as a hazard
+zone ("reply only to human moments") with one where Unc has something to add, which is the
+value-plus-a-hint-of-comedy shape Rand asked about on Sep 9.
+
+**How the character survives it.** Unc can't be both the man who thinks a zk rollup is folding a
+sleeping bag and the tokenization expert, so the split is: dumb about slang and culture, sharp about
+plumbing. His age becomes credibility — he waited five business days for checks to clear, so he
+understands a dollar that settles on Sunday. Rule 3 (confidently wrong) is suspended for plumbing,
+because crypto readers cannot tell a bit from an error there.
+
+**The rules, in full in the task prompt:** rails never assets; no numbers unless verified that round;
+ETH as home base but never tribal; policy news allowed and strictly nonpartisan — never characterise a
+politician, party or regulator, never predict a vote, Unc's only position is that clear rules help
+builders; no token, answered light and final; skip shills, launchpads, presales and bots.
+
+**News drops, on-chain and venture.** Key accounts break news — @EleanorTerrett on DC and crypto
+policy above all, and @ycombinator, @a16z, @HarryStebbings and @MollySOShea on venture. Rand extended
+this to VC and founder news the same day. A fresh drop is usually the best velocity target on the
+board, so the round replies early, then puts the drop on Unc's profile: a quote post with a short Unc
+line by preference, a plain repost when any line would be filler. For venture news the quote praises
+the founders or the milestone and never judges a valuation, a round size or a fund. Layoffs,
+shutdowns, down rounds and lawsuits stay skipped even as news. Capped at one per round and four per
+day across both kinds, never two from one account in a day, only drops under about 30 minutes old,
+and the real account only. Reposts toggle, so verify on the profile after one click.
+
+**Accounts Rand followed on Sep 14 for this:** @EleanorTerrett, @CryptoAmerica_, @jacqmelinek,
+@TokenRelations, @therollupco, @andyyy, @robbieklages, @TheMarketRunup, @theblondebroker,
+@noturavgbros, @UseCorgi, @emily_yuan_, @siennacolee, @JeffWeniger. Profile after those follows:
+**25 followers, 81 following** — followers have doubled since Sep 9, and the ratio is 3.2:1 against
+5.8:1 then, even with the new follows. Automated follows stay paused.
