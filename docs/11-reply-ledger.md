@@ -101,17 +101,41 @@ Three things to hold onto when reading these rows back:
 | 09-13 02:21 | @itsusamak | **8** | praise | 36 | 134 | 0.3 | 1 | **unreadable (Community post, see 22:07 note)** | — | — |
 | 09-13 03:36 | @blknoiz06 | **6** | prop | 18535 | 8 | 2317 (~953 now) | 320 | **10** | 0 | n |
 | 09-13 13:49 | @SebastienEgo | **7** | own-thread | — | — | — | — | 9 | 0 | n (pending) |
-| 09-13 13:56 | @CharlyKeleb | **7** | praise | 104 | 152 | 0.7 | 3 | 8 | 0 | pending (<12h) |
-| 09-13 16:41 | @Teknium | **7** | oblivious | 6956 | 32 | 221 (~180 now) | 23 | 547 | 1 | n (liked) |
-| 09-13 17:12 | @JIsaam | **6** | praise | 50 | 56 | 0.9 | 1 | 5 | 0 | pending (<12h) |
-| 09-13 17:22 | @garrytan | 8 | self-own | 6743 | 20 | 334 (~210 now) | 11 | 244 | 1 | n |
-| 09-13 17:52 | @PKodmad | **7** | praise | 332 | 306 | 1.1 | 0 | 8 | 0 | pending (<12h) |
-| 09-13 19:15 | @andruyeung | 10 | self-own | 553 | 13 | 43 | **0** | **1,921** (5h) | **4** | n |
-| 09-13 21:36 | @olivercingl | **6** | praise | 531 | 174 | 3 | 17 | 15 | 1 | **y** |
+| 09-13 13:56 | @CharlyKeleb | **7** | praise | 104 | 152 | 0.7 | 3 | 8 | 0 | n |
+| 09-13 16:41 | @Teknium | **7** | oblivious | 6956 | 32 | 221 (~180 now) | 23 | 682 | 1 | n (liked) |
+| 09-13 17:12 | @JIsaam | **6** | praise | 50 | 56 | 0.9 | 1 | 5 | 0 | n |
+| 09-13 17:22 | @garrytan | 8 | self-own | 6743 | 20 | 334 (~210 now) | 11 | 364 | 1 | n |
+| 09-13 17:52 | @PKodmad | **7** | praise | 332 | 306 | 1.1 | 0 | 22 | 0 | **y** |
+| 09-13 19:15 | @andruyeung | 10 | self-own | 553 | 13 | 43 | **0** | **2,550** (18h) | **5** | n |
+| 09-13 21:36 | @olivercingl | **6** | praise | 531 | 174 | 3 | 17 | 20 | 1 | **y** |
 | 09-13 22:07 | @not_fanti | **6** | praise | 72 | 42 | 1.7 | 1 | 9 | 1 | **y** |
-| 09-14 00:10 | @not_fanti | **6** | own-thread | — | — | — | — | — | — | pending |
-| 09-14 00:12 | @olivercingl | **7** | own-thread | — | — | — | — | — | — | pending |
-| 09-14 00:17 | @Motion_Viz | **7** | praise | 45 | 7 | 6 | 1 | — | — | pending (<12h) |
+| 09-14 00:10 | @not_fanti | **6** | own-thread | — | — | — | — | unreadable (Community) | — | n |
+| 09-14 00:12 | @olivercingl | **7** | own-thread | — | — | — | — | 7 | 1 | **y** |
+| 09-14 00:17 | @Motion_Viz | **7** | praise | 45 | 7 | 6 | 1 | 17 | 0 | **y** |
+
+### Sep 14, 13:10 round: signed in as the WRONG account, and the praise lane goes six for eight
+
+The in-app browser was signed in, but as **@Envnt_io** (`twid` u=2064156534431510528, profile link
+`/Envnt_io`), not @UncFund. `/UncFund/with_replies` showed a Follow button on Unc's own profile. Nothing was
+posted or liked, because either would have come from the wrong account. The reads below are public
+counts, taken read-only through `with_replies`, `from:UncFund` and `to:UncFund`, at 13:10–13:15 UTC.
+
+- **@Motion_Viz answered "No podium. Open-sourced it anyway. Unc noticed." within two minutes** (00:18:57):
+  "well even if i did not win, here to help people searching for jobs in the current market. so open souce
+  is the way". **Unanswered. It's owed an own-thread reply** as soon as a session is signed in as Unc.
+- **@PKodmad answered "Your app got its first passport stamp." at 05:02,** eleven hours after the send
+  and inside the twelve-hour rule: "ha ha.. it's been to a lot of countries so far". **Also owed an answer.**
+- **@olivercingl replied to "Knees filed a complaint." at 00:20**, with no visible text (likely an emoji or
+  a GIF). That's the close of the exchange, so it needs a like and not a third line.
+- **@CharlyKeleb and @JIsaam never answered.** Both are `n`, past twelve hours.
+- **The praise lane is six OP replies from eight usable rows**: @ESCOweb3, @SebastienEgo, @PKodmad,
+  @olivercingl, @not_fanti and @Motion_Viz. The misses are @CharlyKeleb and @JIsaam, and @itsusamak stays
+  excluded. Lane A is still zero from more than thirty rows.
+- **The Monday note went out at 11:49 UTC (7:49am ET)**, not 9am. It had 9 views and 2 replies. One is
+  @mytwillot's pitch at 12:06: "Twillot", bookmarks and likes turned into a searchable knowledge base.
+  The other reply didn't render. **Both are owed.**
+- **Late reads:** @andruyeung 2,550 views and 5 likes at 18 hours. @Teknium 682 and 1, @garrytan 364 and
+  1, and "The buried project was the one." 20 and 1.
 
 ### Sep 14, 11:24 round: signed out, nothing read
 

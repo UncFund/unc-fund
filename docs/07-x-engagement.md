@@ -3270,3 +3270,25 @@ in-app browser as @UncFund.** Full note in `08-reply-playbook.md`.
 Unread because of the block: the praise-lane verdicts now due (@CharlyKeleb, @JIsaam, @PKodmad), the
 @Motion_Viz row, the two 00:10/00:12 own-thread answers, and mentions. **Praise lane status is
 unchanged: four OP replies from eight usable rows.**
+
+## Round at 13:10 UTC Sep 14 (9:10am ET): signed in as @Envnt_io, round blocked
+
+The in-app browser is signed in, but **as @Envnt_io, not @UncFund**. `twid` is present, which fools the old
+session check, but the profile link is `/Envnt_io` and Unc's own profile shows a Follow button. No replies,
+likes or follows. **Rand needs to sign the in-app browser into @UncFund.**
+
+**Read-only reads:** @Motion_Viz and @PKodmad both answered their praise replies, and both answers are
+**owed an own-thread reply**. @CharlyKeleb and @JIsaam never answered. The Monday note (posted 7:49am ET)
+has 2 replies owed, including @mytwillot's Twillot pitch.
+
+| Reply | Views | Likes | OP |
+|---|---|---|---|
+| @andruyeung, "Unc has asked the gate agent 212 times. Still 31C." (18h) | **2,550** | 5 | n |
+| @Teknium legal pad | 682 | 1 | n (OP liked) |
+| @garrytan "same advice, louder" | 364 | 1 | n |
+| @PKodmad praise, "Your app got its first passport stamp." | 22 | 0 | **y** |
+| @Motion_Viz praise, "No podium. Open-sourced it anyway. Unc noticed." | 17 | 0 | **y** |
+| @olivercingl own-thread, "Unc stood up. Knees filed a complaint." | 7 | 1 | **y** |
+| @CharlyKeleb / @JIsaam praise | 8 / 5 | 0 | n |
+
+**Praise lane: six OP replies from eight usable rows, all settled. Lane A: zero from more than thirty.**

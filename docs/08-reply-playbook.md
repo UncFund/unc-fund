@@ -4918,3 +4918,46 @@ this round points to a second run.
 | Date | Where | Mode | What |
 |---|---|---|---|
 | 2026-09-14 11:24 UTC | Scheduled round | — | **Blocked: browser signed out of X.** No replies, likes, follows or reads. |
+| 2026-09-14 13:10 UTC | Scheduled round | — | **Blocked: in-app browser signed in as @Envnt_io, not @UncFund.** No replies or likes. Public read-only measurement only. |
+
+## Round at 13:10 UTC Sep 14 (9:10am ET): signed in as the wrong account, and the round is blocked
+
+Scheduled round. The first screenshot reported an 800x609 frame, and the viewport was matched to it.
+**This one is a new failure, and it's worse than being signed out.** `twid` was present, so the one-call
+session check from Sep 8 would have **passed**. But the cookie decodes to `u=2064156534431510528`, the
+side-nav profile link is `/Envnt_io`, and `/UncFund/with_replies` shows a **Follow** button on Unc's own
+profile. The browser is logged into a different X account.
+
+**Nothing was posted, liked or followed.** Any write would have come from @Envnt_io. Switching accounts in
+the account menu was not attempted: it changes the login state of a browser that the tab context says
+"another Claude session" is also setting the viewport on, and signing in as Unc is off-limits to an
+automated round anyway. **Action for Rand: sign the in-app browser into @UncFund** (or add it to the
+account switcher).
+
+**The session check has to change.** `twid` present is not enough. It must also confirm that
+`[data-testid="AppTabBar_Profile_Link"]` points to `/UncFund`, or that the `twid` value is Unc's user id.
+Check it before any write.
+
+### What was read anyway (public counts, read-only)
+
+- **Two more praise rows earned OP replies.** @Motion_Viz answered within two minutes of the 00:17 send,
+  and @PKodmad answered at 05:02 ("ha ha.. it's been to a lot of countries so far"). @CharlyKeleb and
+  @JIsaam are settled `n`. @olivercingl sent a textless reply (likely an emoji) to "Knees filed a
+  complaint.", which closes that exchange.
+- **Owed, for the first signed-in round:** own-thread answers to @Motion_Viz ("so open souce is the way")
+  and @PKodmad (the passport line), plus the two replies on the Monday note. One of those is @mytwillot's
+  "Twillot" pitch (saved bookmarks turned into a searchable knowledge base). The other didn't render. Per
+  the praise-don't-commit rule, the pitch gets specific praise and no ruling. The Monday note went out at
+  **7:49am ET**, not 9am.
+- **Reads:** @andruyeung 2,550 views and 5 likes, @Teknium 682 and 1, @garrytan 364 and 1, @PKodmad praise
+  22, @Motion_Viz praise 17, knees own-thread 7 and 1, @JIsaam 5.
+
+### Follows: none. Pause holding. No candidates queued.
+
+### The praise lane, stated plainly per the falsifier
+
+**Eight usable `praise` rows, six OP replies**: @ESCOweb3, @SebastienEgo, @PKodmad, @olivercingl,
+@not_fanti and @Motion_Viz. The two misses are @CharlyKeleb and @JIsaam. Every row is now settled. Lane
+A has zero OP replies from more than thirty rows. **The lane is working on the metric it was built for.**
+The caution still holds: all six hits are small, active accounts, so account size and line quality can't
+be separated yet.
