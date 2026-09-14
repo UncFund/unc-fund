@@ -114,12 +114,46 @@ Three things to hold onto when reading these rows back:
 | 09-14 00:17 | @Motion_Viz | **7** | praise | 45 | 7 | 6 | 1 | 17 | 0 | **y** |
 | 09-14 15:21 | @mytwillot | **6** | own-thread | — | — | — | — | 5 | 0 | n (pending) |
 | 09-14 15:21 | @Motion_Viz | **7** | own-thread | — | — | — | — | 6 | 0 | n (pending) |
-| 09-14 15:21 | @PKodmad | 8 | own-thread | — | — | — | — | 3 | 0 | n (pending) |
-| 09-14 15:23 | @kseniam0s | **6** | thesis | 88 | 17 | 5 | 2 | 45 | **2** | n |
-| 09-14 15:25 | @tarasshyn | 9 | praise | 79 | 18 | 4 | 0 | 19 | 1 | pending (due 03:25 Sep 15) |
-| 09-14 16:30 | @brycent | **7** | thesis | — | — | — | — | 3 | 0 | n (pending) |
-| 09-14 17:17 | @vladtenev | **7** | oblivious | 15183 | 4 | **~3,800** | 148 | 243 (6m, early) | — | pending |
-| 09-14 17:22 | @Artur_Abra | **7** | praise | 4 | 4 | 1 | 0 | Community post | — | pending (due 05:22 Sep 15) |
+| 09-14 15:21 | @PKodmad | 8 | own-thread | — | — | — | — | 5 | 0 | n (pending) |
+| 09-14 15:23 | @kseniam0s | **6** | thesis | 88 | 17 | 5 | 2 | 87 | **2** | n (liked) |
+| 09-14 15:25 | @tarasshyn | 9 | praise | 79 | 18 | 4 | 0 | 20 | 1 | pending (liked; due 03:25 Sep 15) |
+| 09-14 16:30 | @brycent | **7** | thesis | — | — | — | — | 3 | 0 | n |
+| 09-14 17:17 | @vladtenev | **7** | oblivious | 15183 | 4 | **~3,800** | 148 | 1,393 (113m) | 0 | n |
+| 09-14 17:22 | @Artur_Abra | **7** | praise | 4 | 4 | 1 | 0 | Community post | — | **y** |
+| 09-14 19:13 | @Artur_Abra | **6** | own-thread | — | — | — | — | Community post | — | pending |
+| 09-14 19:14 | @RobinhoodApp | **6** | receipt | 16503 | 14 | 1179 (~350 now) | 147 | 15 (4m, early) | — | pending |
+| 09-14 19:16 | @ArunGopidas | **7** | praise | 31 | 106 | 0.3 | 1 | Community post | — | pending (due 07:16 Sep 15) |
+
+### Sep 14, 19:09 round: the praise lane goes seven for nine, and an off-playbook quote post
+
+Read at 19:10–19:18 UTC.
+
+- **@Artur_Abra answered "Eight slideshows a day is the milestone." at 17:38, sixteen minutes after the send**: "I need to
+  post much more. I will automate all of the 8 in the next days, then I can focus on new TikTok accounts". It's a
+  Community post, so it showed only in notifications, not on `to:UncFund`. Liked, and answered at 19:13 with "Unc's
+  automation is a sticky note." Verified by the reply's count moving from 0 to 1.
+- **The praise lane is now seven OP replies from nine settled rows** (@ESCOweb3, @SebastienEgo, @PKodmad,
+  @olivercingl, @not_fanti, @Motion_Viz, @Artur_Abra). The misses are @CharlyKeleb and @JIsaam. @tarasshyn and
+  @ArunGopidas are pending. @tarasshyn liked Unc's reply but hasn't answered.
+- **Lane A stays at zero OP replies**, though **@kseniam0s liked "Unc is extremely comfortable with $500."** (with
+  Rosa Wachuka), so that row is `n (liked)`. It settled at 87 views and 2 likes.
+- **The casserole settled at 1,393 views and 0 likes at 113 minutes.** The parent went to 410K views and 892 replies.
+  That's ~0.37x the ~3,800/min catch velocity, the second-best lane A view count since Dale.
+- **Unlogged 18:56 post: "Unc will be watching with popcorn ready", quoting @andyyy's Hunter Biden interview promo.**
+  No logged round sent it (the 17:14 round ended at 17:24 and this one started at 19:09), so it was probably sent by
+  hand. It's a quote post, not a reply, so it isn't a ledger row and doesn't count toward the ceiling. **It's flagged
+  for Rand**: a named political figure plus "popcorn" sits on the politics and drama lines of the skip list. It
+  wasn't deleted, because deleting isn't a round's call. 4 views at 14 minutes.
+- **Lane A: @RobinhoodApp, "who taught you about money first?"** Caught at 14 minutes with 16,503 views and 147
+  replies. That's a 1,179/min lifetime average, and two reads 47 seconds apart put the current rate at about 350/min.
+  There's no ticker and no product, just a human-moment question. "Vending machine, 1979. Kept Unc's quarter." Six
+  words, logged as `receipt` because the joke is the dated anecdote. The last @RobinhoodApp reply was Sep 10.
+- **Lane B: @ArunGopidas**, day 157 of building in public, "after a month of procrastinating, finally shipped this",
+  quoting their first App Store submission. 31 views at 106 minutes with one reply (an app-awards account). "A month
+  of procrastinating is just research." Seven words. It's a Community post, verified by the count moving from 1 to 2.
+- **Day count (ET): seven timeline replies.** That's past the five-reply "raise the bar and expect nothing" line.
+  Both were taken anyway: the Robinhood parent was the one clean fast setup on the board, and lane B is the only
+  lane producing conversations. Three remain for the day, and the next rounds should expect to post at most one.
 
 ### Sep 14, 17:14 round: the fastest parent ever taken, and a zero-milestone praise pick
 

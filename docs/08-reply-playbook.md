@@ -5133,3 +5133,82 @@ Lane A is still at zero OP replies.
 |---|---|---|---|
 | 2026-09-14 17:17 UTC | @vladtenev, Robinhood Stock Tokens in-kind redemption, ~3,800/min | oblivious | "Unc redeemed in-kind once. Got a casserole." |
 | 2026-09-14 17:22 UTC | @Artur_Abra, no big milestone (Community post) | praise | "Eight slideshows a day is the milestone." |
+
+## Round at 19:09 UTC Sep 14 (3:09pm ET): both lanes, and the praise lane goes seven for nine
+
+Scheduled round. The first screenshot reported an 800x609 frame, and the viewport was matched to it. Both intent
+composers reported 800x609 too, so every click landed first time. The side-nav profile link was `/UncFund`. The
+concurrent-run check was clean: the newest reply was 17:17, 113 minutes old. The Sep 14 ET day opened at **five**
+timeline replies and closes at **seven**.
+
+### An unlogged quote post, flagged rather than touched
+
+`from:UncFund` shows **"Unc will be watching with popcorn ready"** at 18:56 UTC, quoting @andyyy's "THE HUNTER
+BIDEN INTERVIEW. TONIGHT. 6PM ET." No logged round sent it. It is a quote post, not a reply, so it isn't a ledger
+row. **Rand should look at it.** A named political figure plus "popcorn" is on the skip list's politics and drama
+lines, and the ten-thousand-strangers test is not a clear pass. A round doesn't delete posts, so it stays up.
+
+### Own thread: @Artur_Abra answered lane B in sixteen minutes
+
+"Eight slideshows a day is the milestone." drew, at 17:38: "I need to post much more. I will automate all of the 8
+in the next days, then I can focus on new TikTok accounts". **It showed only in notifications.** Community-post
+replies don't reach `to:UncFund`, so **check notifications for OP answers on Community rows**, not just the search.
+
+> Unc's automation is a sticky note.
+
+Six words: a self-own, no advice on the plan, no question. Verified by the reply's count moving from 0 to 1.
+
+### Lane A: @RobinhoodApp, "who taught you about money first?"
+
+Caught at 14 minutes with 16,503 views and 147 replies. The lifetime average is 1,179/min. Two reads 47 seconds
+apart put the current rate at about 350/min, and it was still climbing. There's no ticker, no product and no
+price, just an open human-moment prompt that the 15:19 round's ticker skips didn't have.
+
+> Vending machine, 1979. Kept Unc's quarter.
+
+Six words. The dated object is the specificity, and Unc being taught about money by a machine that robbed him is the
+confidently-wrong read. It's logged as `receipt`. A grep found no earlier "vending". The last @RobinhoodApp reply was
+Sep 10. 15 views at four minutes.
+
+### Lane B: @ArunGopidas, first App Store submission
+
+"day 157 #buildinpublic / after a month of procrastinating, finally shipped this.", quoting their first App Store
+submission. Caught at 106 minutes with 31 views and one reply (an app-awards account). It's a Community post.
+
+> A month of procrastinating is just research.
+
+Seven words. It praises the ship by forgiving the month. The template was checked against the 15:25 line "Two hours
+to first sale. Unc took a decade.", and a "shipped after a month, Unc needs a year" version was rejected as too
+close to it. Verified by the parent's count moving from 1 to 2.
+
+### Why two replies past the five-reply line
+
+The task says a day at five or more should raise the bar and expect nothing. Two replies were taken anyway, and
+here is the case. The Robinhood parent was the one fresh, fast, clean comedy setup on a board otherwise made of
+CLARITY Act odds, Polymarket and "big week" crypto posts. And lane B is the only lane that has ever produced a
+conversation. That leaves three for the day, so **the next rounds should post at most one**, and a zero round
+tonight is fine.
+
+### Rejected this round
+
+| Candidate | Why not |
+|---|---|
+| @therollupco / @andyyy, CLARITY Act odds and "we pump" | Price talk and regulatory politics. |
+| @blknoiz06, "big week" | 85 minutes old, and nothing in it but crypto-week energy. |
+| @venturetwins, a hospital antibiotic near-miss story | Illness and medical. Liked only. |
+| @KrishAnand0103, six multiplayer games shipped | 97 minutes old, and no line beat restating the list. |
+| Milestone search | Noise: a bathroom design worry, GDPR complaints, a period-pain ad. |
+
+### Follows: none. Pause holding. No candidates queued.
+
+### The praise lane, stated plainly per the falsifier
+
+**Eleven `praise` rows, nine settled and usable, seven OP replies.** The misses are @CharlyKeleb and @JIsaam.
+@tarasshyn (due 03:25 UTC Sep 15, liked but no answer) and @ArunGopidas (due 07:16) are pending. Lane A is still at
+zero OP replies, though @kseniam0s liked hers.
+
+| Date | Where | Mode | What |
+|---|---|---|---|
+| 2026-09-14 19:13 UTC | @Artur_Abra, answer on lane B (Community) | own-thread | "Unc's automation is a sticky note." |
+| 2026-09-14 19:14 UTC | @RobinhoodApp, who taught you about money first | receipt | "Vending machine, 1979. Kept Unc's quarter." |
+| 2026-09-14 19:16 UTC | @ArunGopidas, first App Store submission (Community) | praise | "A month of procrastinating is just research." |

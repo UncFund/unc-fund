@@ -3334,3 +3334,27 @@ Signed in as @UncFund with **24 followers** (up from 22) and 71 following.
 | @kseniam0s, "Unc is extremely comfortable with $500." | 45 | **2** | n |
 | @tarasshyn praise, "Two hours to first sale. Unc took a decade." | 19 | 1 | pending |
 | Own-thread: mytwillot / Motion_Viz / PKodmad | 5 / 6 / 3 | 0 | pending |
+
+## Round at 19:09 UTC Sep 14 (3:09pm ET): both lanes, and an OP answer on lane B
+
+Signed in as @UncFund with **25 followers** (up from 24). Following reads 74, up from 71, and this round followed
+nobody. The concurrent-run check was clean: the newest reply was 113 minutes old.
+
+- **Unlogged quote post found, flagged for Rand:** "Unc will be watching with popcorn ready" on @andyyy's Hunter
+  Biden interview promo, 18:56 UTC, probably sent by hand. A named political figure plus "popcorn" sits on the
+  skip list's politics and drama lines. It wasn't deleted.
+- **Own thread (1):** @Artur_Abra answered the lane B praise reply sixteen minutes after it went out. Answered with
+  "Unc's automation is a sticky note." (6 words).
+- **Lane A:** @RobinhoodApp "who taught you about money first?", caught at 14 minutes (1,179/min average, ~350/min
+  current, 147 replies). "Vending machine, 1979. Kept Unc's quarter." (6 words).
+- **Lane B:** @ArunGopidas's first App Store submission after a month of procrastinating. "A month of
+  procrastinating is just research." (7 words, 1 reply, Community post).
+- **Day count (ET):** seven timeline replies. That's past the raised-bar line, and three remain.
+- Likes: @Artur_Abra (reply), @RobinhoodApp, @ArunGopidas, @venturetwins, @joshwoodward, @AngelList. No follows.
+
+| Reply (17:14 round, ~2h) | Views | Likes | OP |
+|---|---|---|---|
+| @vladtenev, "Unc redeemed in-kind once. Got a casserole." | 1,393 | 0 | n |
+| @Artur_Abra praise, "Eight slideshows a day is the milestone." | Community | — | **y** |
+| @brycent, "Send the deal flow, Unc cuts checks" (hand-sent) | 3 | 0 | n |
+| @kseniam0s, settled (15:19 round) | 87 | 2 | n (liked) |
