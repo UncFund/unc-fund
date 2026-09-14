@@ -25,9 +25,9 @@ Status values: `queued`, `followed YYYY-MM-DD`, `rejected: reason`, `reverted YY
 
 | # | Handle | Who | Status |
 |---|---|---|---|
-| 1 | @Securitize | Securitize, tokenization platform (verified Sep 14) | queued |
-| 2 | @circle | Circle, USDC issuer (verified Sep 14) | queued |
-| 3 | @BlackRock | BlackRock, asset manager (verified Sep 14) | queued |
+| 1 | @Securitize | Securitize, tokenization platform (verified Sep 14) | followed 2026-09-14 |
+| 2 | @circle | Circle, USDC issuer (verified Sep 14) | followed 2026-09-14 |
+| 3 | @BlackRock | BlackRock, asset manager (verified Sep 14) | followed 2026-09-14 |
 | 4 | @EleanorTerrett | already followed by Rand | followed 2026-09-14 |
 | 5 | @jchamilton75 | Jesse Hamilton, CoinDesk DC policy reporter | queued |
 | 6 | @nikhileshde | Nikhilesh De, CoinDesk policy/regulation reporter | queued |
