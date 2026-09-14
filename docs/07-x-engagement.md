@@ -3292,3 +3292,15 @@ has 2 replies owed, including @mytwillot's Twillot pitch.
 | @CharlyKeleb / @JIsaam praise | 8 / 5 | 0 | n |
 
 **Praise lane: six OP replies from eight usable rows, all settled. Lane A: zero from more than thirty.**
+
+## Round at 15:13 UTC Sep 14 (11:13am ET): still signed in as @Envnt_io, round blocked again
+
+Second round in a row on the wrong account. The side-nav profile link is still `/Envnt_io`, and
+`/UncFund/with_replies` still shows a Follow button. **No replies, likes or follows.** Reading the cookie
+jar directly was refused by the permission classifier, so the profile-link check is now the only session
+check, and it's enough.
+
+**Read-only:** the profile is at **22 followers** (up from 20) and 71 following. Unc hasn't posted since
+00:17 UTC. `to:UncFund` has nothing new since the 13:10 round. **Still owed:** own-thread answers to
+@Motion_Viz and @PKodmad, and to @mytwillot's Twillot pitch on the Monday note (now 3 hours old).
+**Rand needs to sign the in-app browser into @UncFund.**

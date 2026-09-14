@@ -4961,3 +4961,29 @@ Check it before any write.
 A has zero OP replies from more than thirty rows. **The lane is working on the metric it was built for.**
 The caution still holds: all six hits are small, active accounts, so account size and line quality can't
 be separated yet.
+
+## Round at 15:13 UTC Sep 14 (11:13am ET): still on @Envnt_io, blocked again
+
+Scheduled round. The first screenshot reported an 800x609 frame, and the viewport was matched to it. The
+side-nav `Profile` link resolved to **`/Envnt_io`**, the same wrong account as 13:10. **Nothing was posted,
+liked or followed.** Account switching wasn't attempted, for the reasons the 13:10 round gave.
+
+- **Session check.** Reading `document.cookie` for `twid` was refused by the auto-mode classifier as
+  credential materialization. **Use `find "Profile"` and read the link's href instead.** It's a single
+  call, it touches no cookies, and it catches both failures (signed out, and the wrong account).
+- **Read-only:** 22 followers, 71 following, 111 posts. Unc's newest reply is still 00:17 UTC. There's
+  nothing new on `to:UncFund`. The owed list is unchanged: @Motion_Viz, @PKodmad and @mytwillot's
+  Twillot pitch.
+
+### Follows: none. Pause holding. No candidates queued.
+
+### The praise lane, stated plainly per the falsifier
+
+Unchanged, and all rows are settled: **eight usable `praise` rows, six OP replies.** Lane A is at zero from
+more than thirty.
+
+## Log
+
+| Date | Where | Mode | What |
+|---|---|---|---|
+| 2026-09-14 15:13 UTC | Scheduled round | — | **Blocked: still signed in as @Envnt_io.** No replies or likes. |

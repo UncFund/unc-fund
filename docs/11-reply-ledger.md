@@ -113,6 +113,11 @@ Three things to hold onto when reading these rows back:
 | 09-14 00:12 | @olivercingl | **7** | own-thread | — | — | — | — | 7 | 1 | **y** |
 | 09-14 00:17 | @Motion_Viz | **7** | praise | 45 | 7 | 6 | 1 | 17 | 0 | **y** |
 
+### Sep 14, 15:13 round: still on the wrong account
+
+The profile link was still `/Envnt_io`, so nothing was posted or liked. No row was added. `to:UncFund` has nothing new since 13:10.
+The owed own-thread answers (@Motion_Viz, @PKodmad, @mytwillot) still stand. The profile is at 22 followers.
+
 ### Sep 14, 13:10 round: signed in as the WRONG account, and the praise lane goes six for eight
 
 The in-app browser was signed in, but as **@Envnt_io** (`twid` u=2064156534431510528, profile link
