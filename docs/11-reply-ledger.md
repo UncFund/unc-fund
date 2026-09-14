@@ -112,6 +112,20 @@ Three things to hold onto when reading these rows back:
 | 09-14 00:10 | @not_fanti | **6** | own-thread | — | — | — | — | unreadable (Community) | — | n |
 | 09-14 00:12 | @olivercingl | **7** | own-thread | — | — | — | — | 7 | 1 | **y** |
 | 09-14 00:17 | @Motion_Viz | **7** | praise | 45 | 7 | 6 | 1 | 17 | 0 | **y** |
+| 09-14 15:21 | @mytwillot | **6** | own-thread | — | — | — | — | — | — | pending |
+| 09-14 15:21 | @Motion_Viz | **7** | own-thread | — | — | — | — | — | — | pending |
+| 09-14 15:21 | @PKodmad | 8 | own-thread | — | — | — | — | — | — | pending |
+| 09-14 15:23 | @kseniam0s | **6** | thesis | 88 | 17 | 5 | 2 | — | — | pending |
+| 09-14 15:25 | @tarasshyn | 9 | praise | 79 | 18 | 4 | 0 | — | — | pending |
+
+### Sep 14, 15:19 round: Rand signed back in, and the owed answers went out
+
+Rand signed the in-app browser into @UncFund after the 15:13 check, and the round resumed. The profile link was `/UncFund`.
+
+- **All three owed own-thread answers went out**, each verified on `with_replies`. @mytwillot's Twillot pitch got "Bookmark graveyard. Unc owns a plot." It praises the graveyard framing and commits to nothing. @Motion_Viz got "Unc wrote that on the legal pad." @PKodmad got "More stamps than Unc. His expired in 2009." The Monday note's other reply is hidden as probable spam and was skipped.
+- **Lane A was @kseniam0s** and her founder/VC "whatever you're comfortable with" joke. It's the fastest *clean* comedy setup on the board, but only at 5/min. Faster parents were @RobinhoodCrypto's "green (chain) morning" (price-adjacent) and @RobinhoodApp's checkbook, which quotes "$HOOD Banking" (a ticker). **The row is logged as  because the joke is the $500.** It isn't a velocity pick in the strict sense.
+- **Lane B was @tarasshyn**, whose first AppSumo sale came about two hours after launch. Caught at 18 minutes with zero replies. The row is nine words, so it doesn't count toward the under-eight half.
+- **The frame changed mid-round.** The first screenshot reported 600x550, and the viewport was matched to it. The intent composer then reported **800x733**, so the viewport was re-matched. Clicks after that landed first try.
 
 ### Sep 14, 15:13 round: still on the wrong account
 

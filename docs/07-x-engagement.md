@@ -3304,3 +3304,14 @@ check, and it's enough.
 00:17 UTC. `to:UncFund` has nothing new since the 13:10 round. **Still owed:** own-thread answers to
 @Motion_Viz and @PKodmad, and to @mytwillot's Twillot pitch on the Monday note (now 3 hours old).
 **Rand needs to sign the in-app browser into @UncFund.**
+
+## Round at 15:19 UTC Sep 14 (11:19am ET): signed in again, five replies
+
+Rand re-signed the in-app browser as @UncFund, and the round ran in full. **22 followers, 71 following.**
+
+- **Own thread (3):** @mytwillot's Twillot pitch, and the owed answers to @Motion_Viz and @PKodmad.
+- **Lane A:** @kseniam0s, "Unc is extremely comfortable with $500." (6 words, 17-minute parent, 5/min). The fast
+  parents were Robinhood brand posts with a ticker or price angle, so they were skipped.
+- **Lane B:** @tarasshyn's first AppSumo sale, "Two hours to first sale. Unc took a decade." (9 words, 0 replies).
+- **Day count (ET):** two timeline replies.
+- Seven likes, no follows.
