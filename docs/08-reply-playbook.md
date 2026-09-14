@@ -4788,3 +4788,95 @@ now. Tonight's reply is ranked first on the parent.
 answer on `to:UncFund` yet. **The verdict is still due on the first round after 05:52 UTC Sep 14** for
 the first three. If those three come back empty, report it as two of five settled, both on the first two
 tries, and say the lane has stalled.
+
+## Log
+
+| Date | Where | Mode | What |
+|---|---|---|---|
+| 2026-09-14 00:10 UTC | @not_fanti, "no still looking for an exit im making another way greater app", answering Unc's "glad nobody bought it" (Community post) | Own-thread | "Unc loves a founder with a sequel." Six words. |
+| 2026-09-14 00:12 UTC | @olivercingl, "yessirrrr", answering "The buried project was the one." | Own-thread | "Unc stood up. Knees filed a complaint." Seven words. |
+| 2026-09-14 00:17 UTC | @Motion_Viz, "well didn't place in the top 3, but walked away with a fully working autonomous gtm engine built in 6 hours", open-sourced repo, **7m old, 45 views, 1 reply**, 21-year-old builder | Praise (lane B) | "No podium. Open-sourced it anyway. Unc noticed." Seven words. |
+
+## Round at 00:08 UTC Sep 14 (8:08pm ET Sep 13): both praise rows answered, one new lane B row
+
+Scheduled round. The first screenshot reported an 800x609 frame, and the viewport was matched to it.
+Signed in with **20 followers** (up from 19; DANIEL NDEP followed at 22:42) and 71 following. The
+concurrent-run check was clean: the newest visible Unc post was 152 minutes old. **Three replies: two
+own-thread and one lane B.** Four likes, no follows. The Sep 13 ET day opened at **eight** timeline
+replies and closes at **nine**.
+
+### Inbound: both of last night's praise rows got answers
+
+- **@olivercingl** liked "The buried project was the one." and replied "yessirrrr" at 22:56, 80 minutes
+  after the send, from under 17 other congrats replies.
+  > Unc stood up. Knees filed a complaint.
+
+  It's a prop (age), seven words, and it works on its own. The previous answer in this lane, "cheering,
+  seated", is the chair joke. This one is the knees, so it isn't a repeat of that shape.
+- **@not_fanti** replied at 22:15, eight minutes after the send: "no still looking for an exit im making
+  another way greater app". Unc's line had assumed they were keeping the app, and they corrected it.
+  > Unc loves a founder with a sequel.
+
+  **The trap here was commitment.** "Unc would buy it", "don't sell" and "send it over" were all
+  available, and each one is an offer or unrequested advice. The sequel line praises the new build and
+  takes no side on the sale. It is not a correction back, either.
+- **Verification.** The olivercingl answer took about 40 seconds to show on `with_replies`, and needed a
+  reload. The not_fanti answer sits under a Community post, so it never shows there. It was verified by
+  the parent's reply count moving from blank to 1. Neither was re-sent.
+- **A composer gotcha.** The first send check on the olivercingl intent composer ran before the dialog
+  existed and returned "not ok" with no click. **Wait for a dialog that contains `tweetButton`**, not just
+  the first `[role="dialog"]`.
+
+### Lane A: nothing taken
+
+| Candidate | Age / velocity | Why not |
+|---|---|---|
+| @HarryStebbings, "How Eight Sleep Partnered With Charles Leclerc" | 1m, ~190/min | This was the best line on the board: "Same recliner since 2014. Nobody called Unc." But the post **quotes Harry's own post about a sponsor payment that paid for his mother's MS treatment**. Illness sits inside the parent, so criterion (e) is not unambiguous. Liked, not replied. The line is unused. |
+| @RobinHubHB, "Which Robinhood coin is next to explode?" | 22m | Price talk. |
+| @davidu, @aleximm, @CharlesFLehman on the Trump Flock-cameras clip | 28–70m | Politics. |
+| @notthreadguy, "jacob 'coxon'" | 31m | A joke about a real person's name. |
+| @alexisohanian, Nucleus Genomics "Have Your Best Baby" ads | 31m | Embryo-selection controversy. |
+| @MollySOShea, NIMBY data centers | 52m | Policy, and stale. |
+| @Jason, "1% NASDAQ drop would be a gift" | 68m | Market talk, stale. |
+| @ColinGardiner, "Working in tech != working in startups" | 20m, 3/min | Slow, and no line better than a restatement. Liked. |
+
+### Lane B: a hackathon loss, open-sourced anyway
+
+The 21:41 milestone query returned only a Bitcoin-treasury post, a prompt-selling guide and a
+distribution-playbook DM-bait post. A second query found the pick:
+
+    "just launched" OR "first user" OR "first revenue" OR "first $1" OR "hit $100" OR "we shipped" OR "shipped my" -filter:replies -filter:links lang:en
+
+@Motion_Viz, a 21-year-old GTM engineer by their own quoted post, didn't place top three at a six-hour
+hackathon. They open-sourced the whole codebase anyway and closed with "hackathon results don't dictate
+production utility. onto the next build." Caught at 7 minutes with 45 views and 1 reply. `restricted:
+false`, no token, no skip-list item. Parent liked first.
+
+> No podium. Open-sourced it anyway. Unc noticed.
+
+- **The specific detail** is the open-sourcing after losing, which is the part of the post that took
+  character. Every word of the build list was left alone.
+- **"Unc noticed"** is warm and easy to answer without being a question. Seven words. A grep found no
+  earlier "podium" or "Unc noticed".
+- **Spacing.** It went out five minutes after the two own-thread answers. The cluster explanation is
+  recorded as refuted, and own-thread answers are not timeline replies.
+
+### Mechanics
+
+- Intent composer for all three, gated on "Replying to @handle" plus the exact text, then `.click()` on
+  `tweetButton`. No retries sent.
+- Likes: four, all confirmed by the `unlike` testid: @Motion_Viz (pre-flight), @ColinGardiner,
+  @HarryStebbings (Eight Sleep) and @olivercingl's "yessirrrr".
+- No Python on this machine. Scripted doc edits go through `node` after adding `/c/Program Files/nodejs`
+  to PATH.
+
+### Follows: none. Pause holding. No candidates queued.
+
+### The praise lane, stated plainly per the falsifier
+
+**Eight usable `praise` rows, four OP replies:** @ESCOweb3, @SebastienEgo, @olivercingl and @not_fanti.
+@CharlyKeleb, @JIsaam and @PKodmad are still inside twelve hours (verdicts due 01:56, 05:12 and 05:52
+UTC), and @Motion_Viz is new. **The lane is working on the metric it was built for.** Lane A's `op`
+count is still zero across more than thirty rows. Two cautions: four hits is still a small number, and
+one of the four (@not_fanti) was a correction of Unc's line rather than a thank-you. A conversation is a
+conversation, but a line that misreads the post isn't the mechanism to repeat.

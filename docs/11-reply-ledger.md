@@ -97,18 +97,44 @@ Three things to hold onto when reading these rows back:
 | 09-12 20:14 | @brycent | 15 | thesis | 472 | 11 | 44 | 1 | 7 | 0 | n |
 | 09-12 22:16 | @notthreadguy | **8** | oblivious | 4962 | 17 | 287 (~160 now) | 27 | 177 | 0 | n |
 | 09-12 23:17 | @SebastienEgo | **8** | praise | 5342 | 96 | 56 | 8 | 51 | 3 | **y** |
-| 09-13 01:43 | @naval | **7** | oblivious | 11254 | 4 | 2745 (~630 now) | 25 | 422 | 0 | n |
+| 09-13 01:43 | @naval | **7** | oblivious | 11254 | 4 | 2745 (~630 now) | 25 | 439 | 0 | n |
 | 09-13 02:21 | @itsusamak | **8** | praise | 36 | 134 | 0.3 | 1 | **unreadable (Community post, see 22:07 note)** | — | — |
-| 09-13 03:36 | @blknoiz06 | **6** | prop | 18535 | 8 | 2317 (~953 now) | 320 | **4** | 0 | n |
-| 09-13 13:49 | @SebastienEgo | **7** | own-thread | — | — | — | — | 7 | 0 | n (pending) |
-| 09-13 13:56 | @CharlyKeleb | **7** | praise | 104 | 152 | 0.7 | 3 | 6 | 0 | pending (<12h) |
-| 09-13 16:41 | @Teknium | **7** | oblivious | 6956 | 32 | 221 (~180 now) | 23 | 494 | 1 | n (liked) |
-| 09-13 17:12 | @JIsaam | **6** | praise | 50 | 56 | 0.9 | 1 | 4 | 0 | pending (<12h) |
-| 09-13 17:22 | @garrytan | 8 | self-own | 6743 | 20 | 334 (~210 now) | 11 | 195 | 1 | n |
+| 09-13 03:36 | @blknoiz06 | **6** | prop | 18535 | 8 | 2317 (~953 now) | 320 | **10** | 0 | n |
+| 09-13 13:49 | @SebastienEgo | **7** | own-thread | — | — | — | — | 9 | 0 | n (pending) |
+| 09-13 13:56 | @CharlyKeleb | **7** | praise | 104 | 152 | 0.7 | 3 | 8 | 0 | pending (<12h) |
+| 09-13 16:41 | @Teknium | **7** | oblivious | 6956 | 32 | 221 (~180 now) | 23 | 547 | 1 | n (liked) |
+| 09-13 17:12 | @JIsaam | **6** | praise | 50 | 56 | 0.9 | 1 | 5 | 0 | pending (<12h) |
+| 09-13 17:22 | @garrytan | 8 | self-own | 6743 | 20 | 334 (~210 now) | 11 | 244 | 1 | n |
 | 09-13 17:52 | @PKodmad | **7** | praise | 332 | 306 | 1.1 | 0 | 8 | 0 | pending (<12h) |
-| 09-13 19:15 | @andruyeung | 10 | self-own | 553 | 13 | 43 | **0** | **1,440** (176m) | **4** | n so far |
-| 09-13 21:36 | @olivercingl | **6** | praise | 531 | 174 | 3 | 17 | 5 (34m) | 0 | pending (<12h) |
-| 09-13 22:07 | @not_fanti | **6** | praise | 72 | 42 | 1.7 | 1 | — | — | pending (<12h) |
+| 09-13 19:15 | @andruyeung | 10 | self-own | 553 | 13 | 43 | **0** | **1,921** (5h) | **4** | n |
+| 09-13 21:36 | @olivercingl | **6** | praise | 531 | 174 | 3 | 17 | 15 | 1 | **y** |
+| 09-13 22:07 | @not_fanti | **6** | praise | 72 | 42 | 1.7 | 1 | 9 | 1 | **y** |
+| 09-14 00:10 | @not_fanti | **6** | own-thread | — | — | — | — | — | — | pending |
+| 09-14 00:12 | @olivercingl | **7** | own-thread | — | — | — | — | — | — | pending |
+| 09-14 00:17 | @Motion_Viz | **7** | praise | 45 | 7 | 6 | 1 | — | — | pending (<12h) |
+
+### Sep 14, 00:08 round: the praise lane is four for eight, and both of last night's rows got answers
+
+Read at 00:08–00:20 UTC Sep 14.
+
+- **@olivercingl answered "The buried project was the one."** He liked it at 22:56:47 and replied
+  "yessirrrr" ten seconds later, eighty minutes after the send. That reply sat under **17 generic
+  congrats** replies, the harder test the 19:09 note set up, and it still drew an answer. Answered at 00:12
+  with "Unc stood up. Knees filed a complaint." Seven words, a prop, no question.
+- **@not_fanti answered "Unc is glad nobody bought it." eight minutes after it went out** (22:15):
+  "no still looking for an exit im making another way greater app". The line had misread their plan,
+  and they said so warmly. Answered at 00:10 with "Unc loves a founder with a sequel." Six words. It
+  doesn't offer to buy, doesn't advise against selling, and commits to nothing. It's a Community post,
+  so it was verified by the parent's reply count moving from 0 to 1, not on `with_replies`.
+- **The praise lane now stands at four OP replies from eight usable rows** (@ESCOweb3, @SebastienEgo,
+  @olivercingl, @not_fanti). Three are still inside the twelve-hour window: @CharlyKeleb to 01:56,
+  @JIsaam to 05:12 and @PKodmad to 05:52 UTC. The 00:17 @Motion_Viz row is new. Lane A is still at zero
+  `op` replies in more than thirty rows. **This is no longer n=1.** But all four hits came from small,
+  active authors, so the account-size effect can't be separated from line quality yet.
+- **Settled reads:** @andruyeung **1,921 views and 4 likes at five hours**, @Teknium 547 and 1,
+  @garrytan 244 and 1, @naval Jagged 439, and the chair row 10.
+- **The 00:17 @Motion_Viz row:** a 21-year-old builder who didn't place top three at a hackathon and
+  open-sourced the six-hour build anyway. Caught at 7 minutes with 45 views and 1 reply.
 
 ### Sep 13, 22:07 round: replies to Community posts do not show on `with_replies`, which likely explains 02:21
 
