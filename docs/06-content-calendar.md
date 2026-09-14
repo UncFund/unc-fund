@@ -261,3 +261,20 @@ funny morning line for founders and VCs on Tuesday and Thursday. It still runs a
 `unc-premarket-post` task (the ID is kept; the title is now "Unc morning note"), and it no longer
 depends on the Robinhood connector or skips market holidays. The reply rounds answer every response
 to it before hunting other threads. Rationale and data in `docs/09-premarket-posts.md`.
+
+## Routine schedules corrected to the Eastern clock, 2026-09-14
+
+The routines' cron schedules were written while this computer's clock was on Pacific time. Around
+Sep 13 the clock moved to **Eastern**, and cron runs on the local clock, so every routine started
+firing three hours early: reply rounds 7am to 7pm instead of 10am to 10pm, the morning note at 6am
+instead of 9am. Schedules as of Sep 14, all Eastern:
+
+| Routine | When |
+|---|---|
+| unc-premarket-post (morning note) | 9:00am weekdays |
+| unc-reply-round | 10am, 12, 2, 4, 6, 8, 10pm |
+| unc-news-check | 11am, 1, 3, 5, 7, 9pm |
+| unc-follow-queue | 11:25am, 3:25pm, 7:25pm |
+
+**If the computer's timezone changes again, every schedule shifts with it.** Check `date` against
+these times after any travel or clock change.
