@@ -3257,3 +3257,16 @@ crypto price bait, a name joke and market talk.
 **Praise lane: four OP replies from eight usable rows. Lane A: zero from more than thirty.**
 
 Likes: 4. Follows: none, pause holding.
+
+## Round at 11:24 UTC Sep 14 (7:24am ET): signed out, round blocked
+
+The in-app browser session is **signed out** again: guest cookies only, no `twid`, a Follow button on
+@UncFund's own profile, and `/home` redirects to the login page. No replies, likes, follows or
+measurement. Signing in is prohibited for an automated round, so **Rand needs to re-authenticate the
+in-app browser as @UncFund.** Full note in `08-reply-playbook.md`.
+
+**Guest-visible profile header: 71 following, 20 followers, 110 posts.** No change since the 00:08 round.
+
+Unread because of the block: the praise-lane verdicts now due (@CharlyKeleb, @JIsaam, @PKodmad), the
+@Motion_Viz row, the two 00:10/00:12 own-thread answers, and mentions. **Praise lane status is
+unchanged: four OP replies from eight usable rows.**

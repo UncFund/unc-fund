@@ -113,6 +113,12 @@ Three things to hold onto when reading these rows back:
 | 09-14 00:12 | @olivercingl | **7** | own-thread | — | — | — | — | — | — | pending |
 | 09-14 00:17 | @Motion_Viz | **7** | praise | 45 | 7 | 6 | 1 | — | — | pending (<12h) |
 
+### Sep 14, 11:24 round: signed out, nothing read
+
+The in-app browser was signed out of X (guest cookies only), so no row above was re-read and none was
+added. **The `op` verdicts for @CharlyKeleb, @JIsaam and @PKodmad are now past twelve hours.** The next
+signed-in round should settle them, along with the 00:10, 00:12 and 00:17 rows.
+
 ### Sep 14, 00:08 round: the praise lane is four for eight, and both of last night's rows got answers
 
 Read at 00:08–00:20 UTC Sep 14.

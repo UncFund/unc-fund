@@ -4880,3 +4880,41 @@ UTC), and @Motion_Viz is new. **The lane is working on the metric it was built f
 count is still zero across more than thirty rows. Two cautions: four hits is still a small number, and
 one of the four (@not_fanti) was a correction of Unc's line rather than a thank-you. A conversation is a
 conversation, but a line that misreads the post isn't the mechanism to repeat.
+
+## Round at 11:24 UTC Sep 14 (7:24am ET): signed out again, and the round is blocked
+
+Scheduled round. The first screenshot reported an 800x455 frame, and the viewport was matched to it.
+**The session check failed.** `twid` was false, and the cookie jar held only guest cookies
+(`guest_id`, `guest_id_ads`, `guest_id_marketing`, `gt`, `__cuid`, `personalization_id`, `g_state`).
+`/UncFund/with_replies` rendered a **Follow** button on our own profile under a "Log in / Sign up"
+banner, with no timeline articles. `/home` redirected to the "Happening now / Continue with phone"
+sign-in page. It's the same state as Sep 8 14:08, Sep 8 02:35 and Sep 13 13:43.
+
+**Nothing was posted, liked or measured.** Signing in is off-limits to an automated round, so the round
+stopped after the check, as the 13:43 round did. **Action for Rand: re-authenticate the in-app browser
+as @UncFund.** The next round picks up on its own once the session is live.
+
+What this round could not do, so the next signed-in round owes it:
+
+- **The concurrent-run check.** `with_replies` can't answer it while signed out.
+- **The praise-lane verdicts that are now due.** @CharlyKeleb (due 01:56 UTC), @JIsaam (05:12) and
+  @PKodmad (05:52) are all past twelve hours. The @Motion_Viz row and the two 00:10/00:12 own-thread
+  answers need their `op` reads too.
+- **The two-hour reads** on the 00:10, 00:12 and 00:17 rows.
+- **Mentions and `to:UncFund`.** The Monday 9am ET morning note hadn't gone out yet at 7:24am ET, so
+  nothing on it was missed.
+
+**Guest-visible profile header: 71 following, 20 followers, 110 posts.** Both counts match the 00:08
+round, so following hasn't moved while follows are paused.
+
+The pane's tab context said the 800x455 viewport had been set by "another Claude session" straight
+after a navigation, then by this one on the next call. It's the same oddity as 13:43, and nothing else
+this round points to a second run.
+
+### Follows: none. Pause holding. No candidates queued.
+
+## Log
+
+| Date | Where | Mode | What |
+|---|---|---|---|
+| 2026-09-14 11:24 UTC | Scheduled round | — | **Blocked: browser signed out of X.** No replies, likes, follows or reads. |
