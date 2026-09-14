@@ -121,8 +121,27 @@ Three things to hold onto when reading these rows back:
 | 09-14 17:17 | @vladtenev | **7** | oblivious | 15183 | 4 | **~3,800** | 148 | 1,393 (113m) | 0 | n |
 | 09-14 17:22 | @Artur_Abra | **7** | praise | 4 | 4 | 1 | 0 | Community post | — | **y** |
 | 09-14 19:13 | @Artur_Abra | **6** | own-thread | — | — | — | — | Community post | — | pending |
-| 09-14 19:14 | @RobinhoodApp | **6** | receipt | 16503 | 14 | 1179 (~350 now) | 147 | 15 (4m, early) | — | pending |
+| 09-14 19:14 | @RobinhoodApp | **6** | receipt | 16503 | 14 | 1179 (~350 now) | 147 | 60 (37m, early) | 0 | pending |
 | 09-14 19:16 | @ArunGopidas | **7** | praise | 31 | 106 | 0.3 | 1 | Community post | — | pending (due 07:16 Sep 15) |
+| 09-14 19:20 | @ESCOweb3 | **4** | praise | — | ~2,540 | — | — | 4 (32m) | 0 | pending |
+
+### Sep 14, 19:49 round: nothing posted, and a second hand-sent reply
+
+Read at 19:49–19:52 UTC, thirty minutes after the 19:09 round closed.
+
+- **Unlogged 19:20 reply: "Unc believes in you" on @ESCOweb3's Sep 13 00:58 "Believe…" post.** No logged round sent
+  it, since the 19:09 round's last send was 19:16. It was probably sent by hand. It's logged above as `praise`, four words,
+  with the `p_*` columns unknown except age. It's @ESCOweb3's second timeline reply this week (Sep 12 17:48), which
+  is inside the three-a-week cap. **The day is now eight timeline replies**, so two remain.
+- **Nothing inbound to answer.** Notifications have nothing after @Artur_Abra's 17:38 answer, which the 19:09 round
+  answered. @theblondebroker followed, and the profile is at 26 followers.
+- **Early reads:** vending machine 60 views at 37 minutes (the parent is at 28,806 and 255 replies). The 18:56 popcorn
+  quote is at 15 views.
+- **Nothing posted.** The Following board inside 60 minutes held @blknoiz06's "trade this free" (a trade call), a
+  Morpho vault deposit post (yield, skipped), @relativityspace hardware progress (a brand account with no line
+  beyond restating it), and @altryne's two Fable-relationship jokes at 8–18/min. The build-in-public search was
+  generic day-N logs. At eight for the day, none of that clears a raised bar. The 19:47 news check had already found no
+  fresh drop, so no quote or repost went out.
 
 ### Sep 14, 19:09 round: the praise lane goes seven for nine, and an off-playbook quote post
 
