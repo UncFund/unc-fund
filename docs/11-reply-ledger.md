@@ -130,6 +130,7 @@ Three things to hold onto when reading these rows back:
 | 09-15 01:16 | @VentureCoinist (parent unconfirmed) | 15 | prop | — | — | — | — | 224 (13h) | 1 | n (liked, Luke Martin at 01:20) |
 | 09-15 14:13 | @paulg | **6** | self-own | 25456 | 51 | 499 (~460 now) | 48 | | | |
 | 09-15 14:15 | @kien_hoang18 | **7** | praise | ~1 | 14 | ~0 | 0 | | | pending (due 02:15 Sep 16) |
+| 09-15 15:08 | @ronitrjain | **6** | react news | 2594 | 28 | 93 | 11 | | | |
 
 ### Sep 15, 14:09 round (10:09am ET): both lanes, a @paulg plaque and a pause
 

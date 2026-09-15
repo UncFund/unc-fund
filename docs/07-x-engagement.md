@@ -3383,6 +3383,7 @@ No morning thread, no praise hunting, no follows.
 
 | Time (ET) | Account | Type | Quote text | Parent age at catch |
 |---|---|---|---|---|
+| 11:09am Sep 15 | @ronitrjain (Liquid Compute out of stealth, $15M seed, pending CFTC DCM and DCO applications) | quote | Out of stealth with a clearinghouse application. Unc zipped the vest all the way. | 28m at catch, 30m at send |
 
 ## Sep 14: routines hardened for unattended running
 
@@ -3481,3 +3482,4 @@ replies. Nothing inbound to answer; the 13:02 morning note had 1 view and no rep
 from fourteen settled rows, two for six on the latest six. No quote or repost (no fresh clean drop; the 10:13 news
 check, running in parallel in the same pane, agreed). Likes: @paulg, @kien_hoang18, @ColinGardiner, @Securitize,
 @TokenRelations. No follows. Reads: the 01:16 diamonds reply 224 views and 1 like, farewell card 115 and 1.
+- Sep 15, 11:05am ET (15:05 UTC) news check: one drop, reply plus quote. @ronitrjain (verified) announced Liquid Compute out of stealth with a $15M seed (co-led by Chemistry and FirstMark, YC participating) and pending CFTC applications for DCM and DCO status, a regulated orderbook for compute contracts; surfaced on the News Desk List, caught at 28 minutes with 2,594 views and 11 replies. Reply "Pork bellies, then power, now compute." (six words, venture register, verified on with_replies at 15:08:41, the first click appeared not to land but the reply showed on the second reload, so no retry was sent). Quote "Out of stealth with a clearinghouse application. Unc zipped the vest all the way." verified on the profile at 15:09:53. No outcome predicted on the applications. Skipped under 30 minutes: @therollupco SEC tokenization podcast (promo), @a16z cyber ethnography clip (opinion), @TheMarketRunup interview clip, @robbieklages political guest recap (skip list), @jacqmelinek Beezie podcast article (promo). @EleanorTerrett CLARITY Act Senate vote preview was 39 minutes, past the window and vote-outcome framing. The List rendered slowly and needed wheel scrolling to show more than three posts. Day so far: 3 timeline replies, 1 quote.
