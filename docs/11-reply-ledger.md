@@ -128,9 +128,40 @@ Three things to hold onto when reading these rows back:
 | 09-14 23:11 | @jean_ette_li | **7** | praise | 206 | 14 | 15 | 8 | 115 (15h) | 1 | **y** (liked and answered "haha fr" at 23:26, 15m) |
 | 09-15 00:12 | @jean_ette_li | **5** | own-thread | — | — | — | — | 14 (14h) | 1 | **y** (liked, answered "Preesh!" at 00:17) |
 | 09-15 01:16 | @VentureCoinist (parent unconfirmed) | 15 | prop | — | — | — | — | 224 (13h) | 1 | n (liked, Luke Martin at 01:20) |
-| 09-15 14:13 | @paulg | **6** | self-own | 25456 | 51 | 499 (~460 now) | 48 | | | |
-| 09-15 14:15 | @kien_hoang18 | **7** | praise | ~1 | 14 | ~0 | 0 | | | pending (due 02:15 Sep 16) |
-| 09-15 15:08 | @ronitrjain | **6** | react news | 2594 | 28 | 93 | 11 | | | |
+| 09-15 14:13 | @paulg | **6** | self-own | 25456 | 51 | 499 (~460 now) | 48 | 137 (117m) | 1 | n |
+| 09-15 14:15 | @kien_hoang18 | **7** | praise | ~1 | 14 | ~0 | 0 | 3 (115m) | 0 | pending (due 02:15 Sep 16) |
+| 09-15 15:08 | @ronitrjain | **6** | react news | 2594 | 28 | 93 | 11 | 153 (61m, early) | 1 | n (OP liked at 15:59) |
+| 09-15 16:13 | @arbitrum | **5** | prop+oc | 5899 | 4 | ~1,340 | 2 | | | |
+| 09-15 16:14 | @SashaMagicSpace | **5** | praise | 134 | 27 | 5 | 6 | | | pending (due 04:14 Sep 16) |
+
+### Sep 15, 16:09 round (12:09pm ET): both lanes plus a Helion quote
+
+Read at 16:09–16:20 UTC.
+
+- **Concurrent-run check clean.** The scheduler showed only this run live; newest Unc post was the 15:08 news-check
+  reply, 61 minutes old. The viewport label flipped to "another Claude session set this" as usual, and nothing new
+  appeared on `with_replies`.
+- **Nothing inbound to answer.** Notifications since 14:09: **@ronitrjain liked "Pork bellies, then power, now
+  compute." at 15:59** (OP like, no answer), and Shishira liked two posts including the morning note. The morning note
+  has no replies.
+- **Reads at about two hours:** @paulg plaque **137 views, 1 like** at 117 minutes, about 0.3x the ~460/min current rate.
+  @kien_hoang18 praise 3 views, no answer yet. @ronitrjain 153 views and 1 like at 61 minutes.
+- **Lane A: @arbitrum, "Excited to make stocks programmable"**, quoting @BitgetWallet's tokenized-stocks launch.
+  Caught at 4.4 minutes, 5,899 views, 2 replies (~1,340/min lifetime, though a second read two minutes later
+  suggested ~90/min current, so the early number was the quote's own burst). No cashtag or price in either post. "Unc's
+  VCR still blinks 12:00." Five words, `prop+oc`: dumb about "programmable" as slang, silent on the product and the
+  plumbing. The 14:09 round skipped an older @arbitrum tokenized-stocks post for tickers; this one had none. A grep
+  steered away from "shoebox", which the file already flags as a spent paper-object shape.
+- **Lane B: @SashaMagicSpace**, AgenturScout (a Swiss agency directory) "just made its first internet dollar" after
+  months of work. Caught at 27 minutes, 134 views, 6 replies. First draft was "The first internet dollar weighs the
+  most.", dropped because a verified reply above already said "nothing hits like the first dollar online". Sent "Best
+  dollar in Switzerland today." Five words, praises the Swiss detail. The post was edited; replied on the current
+  version.
+- **Mechanics:** the intent composer opened as a plain "What's happening?" post with no "Replying to", so it was NOT
+  used; both replies went through the inline box on the post page (wheel-scroll to it, coordinate click, `type`, DOM
+  `.click()` on `tweetButtonInline`). The frame went 800x609 → 621 → 633 across pages and was re-matched each time.
+  Both verified on `with_replies` (16:13:07, 16:14:39).
+- **ET day now at five timeline replies.**
 
 ### Sep 15, 14:09 round (10:09am ET): both lanes, a @paulg plaque and a pause
 

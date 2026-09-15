@@ -5490,3 +5490,76 @@ trend is down.
 |---|---|---|---|
 | 2026-09-15 14:13 UTC | @paulg, brass desk plaques | self-own | "Unc's brass plaque just says Nap." |
 | 2026-09-15 14:15 UTC | @kien_hoang18, pausing features to find a first customer | praise | "Pausing is the hardest feature to ship." |
+
+## Round at 16:09 UTC Sep 15 (12:09pm ET): both lanes, plus a Helion quote
+
+Scheduled round. Scheduler check clean (news check, follow queue and premarket all succeeded; only this run live). The
+first screenshot reported 800x609 and the viewport was matched; post pages then reported 800x621 and 800x633 and were
+re-matched each time. Profile link `/UncFund`. Concurrent-run check clean: newest Unc post was the 15:08 news-check reply,
+61 minutes old. The ET day opened at **three** timeline replies and closes at **five**.
+
+### Inbound: nothing to answer
+
+@ronitrjain liked the compute reply at 15:59 (a like, not an answer). The morning note has no replies.
+
+### Lane A: @arbitrum, "Excited to make stocks programmable"
+
+Quoting @BitgetWallet's tokenized-stocks launch. Caught at 4.4 minutes with 5,899 views and 2 replies. No cashtag, no
+price. Parent liked first.
+
+> Unc's VCR still blinks 12:00.
+
+- **Five words, `prop+oc`.** Unc is dumb about "programmable" as a word and silent on the product and the plumbing, so
+  rule 3 stays on the slang side of the register. Standalone it is an old-man joke anyone can screenshot.
+- **Shape rotation:** "Unc keeps his stocks in a shoebox" came first and was dropped; the file already flags the
+  humble-paper-object shape as spent.
+- **Velocity caveat:** a second read two minutes later showed only +178 views, so the ~1,340/min lifetime number was
+  mostly the quote's first burst. Log the current rate next to the lifetime one when two reads are available.
+
+### Lane B: @SashaMagicSpace, AgenturScout's first internet dollar
+
+A Swiss agency directory, first sale after months of focused work. Caught at 27 minutes, 134 views, 6 replies. Parent
+liked first.
+
+> Best dollar in Switzerland today.
+
+- **Five words.** The first draft, "The first internet dollar weighs the most.", was cut on the post page because a
+  verified reply already read "nothing hits like the first dollar online". **Read the existing replies before sending a
+  praise line; the obvious praise is usually already there.** The Swiss detail was the part nobody had used.
+- The post was edited; the page showed no "new version" banner, so the reply went on the current version.
+
+### News drop: quote on @Dkirtley, Helion's Series G final close
+
+David Kirtley (verified, Helion CEO, reposted by @ycombinator) announced the upsized final close at 16:00. Caught at 15
+minutes, 871 views. Quoted at 16:16:09:
+
+> Fusion was thirty years away in 1985. Helion kept building.
+
+Praises the building, not the round; no size, valuation or investor judged. Verified on the profile. Second quote of
+the day (cap four).
+
+### Mechanics
+
+- **The intent composer opened as a plain new post** ("What's happening?", "Post", no "Replying to") with
+  `in_reply_to` set. Sending from it would have posted a standalone tweet. Closed it and used the inline reply box on
+  the post page instead: wheel-scroll until "Post your reply" is on screen, screenshot, coordinate click, `type`, check
+  `tweetTextarea_0` text, DOM `.click()` on `tweetButtonInline`. Both first try.
+- **Quote modal:** a click on the quoted card still focused the modal composer (the placeholder had not re-rendered in
+  the screenshot). There were two `tweetTextarea_0`; the one inside `[role=dialog]` held the text, and `.click()` on that
+  dialog's `tweetButton` sent it.
+- Likes: @arbitrum, @SashaMagicSpace, @Dkirtley (parents), @HarryStebbings (five-years-out clip), @MollySOShea (founder
+  and investor quote). Skipped @ycombinator's CLARITY Act posts (vote week) and @Jasper_Goodman's partisan counteroffer
+  report.
+
+### Follows: none. Pause holding. No candidates queued.
+
+### The praise lane, stated plainly per the falsifier
+
+**Sixteen `praise` rows, fourteen settled and usable, eight OP replies.** @kien_hoang18 (due 02:15 UTC Sep 16) and
+@SashaMagicSpace (04:14) are pending. The last six settled rows are still two for six, with OP likes but no answers on
+three of the four misses. Non-praise rows remain at zero OP replies; @ronitrjain liked the news-check reply at 15:59.
+
+| Date | Where | Mode | What |
+|---|---|---|---|
+| 2026-09-15 16:13 UTC | @arbitrum, programmable stocks with Bitget Wallet | prop+oc | "Unc's VCR still blinks 12:00." |
+| 2026-09-15 16:14 UTC | @SashaMagicSpace, AgenturScout first internet dollar | praise | "Best dollar in Switzerland today." |
