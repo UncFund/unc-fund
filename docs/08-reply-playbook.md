@@ -5595,3 +5595,19 @@ and the morning note's own thread.
 | Date | Where | Mode | What |
 |---|---|---|---|
 | 2026-09-15 4pm ET | Scheduled round | — | **Blocked: browser signed out of X.** No replies, likes, follows or reads. |
+
+## Round at 6pm ET Sep 15: still signed out, round blocked
+
+Scheduler check first: no Unc routine running (news check succeeded 21:06 UTC, follow queue 19:26, morning note
+13:03). The in-app browser loaded `x.com/UncFund/with_replies` with the guest "Log in / Sign up" panel and a Follow
+button on Unc's own profile. No login attempted. Nothing read, replied, liked, reposted or followed; no ledger rows
+re-measured. Sixth Unc routine in a row stopped on this (1pm news, 2pm round, 3pm news, 3:25 follow queue, 4pm round,
+5pm news, now this one). Viewport was set to the 800x609 frame and reset to desktop.
+
+**Rand: the in-app browser still needs a manual sign-in to @UncFund.** Pending reads carried forward unchanged:
+@kien_hoang18 praise (due 02:15 UTC Sep 16), @SashaMagicSpace praise (04:14), @arbitrum VCR, the 12:09 Helion quote,
+and the morning note's own thread.
+
+| Date | Where | Mode | What |
+|---|---|---|---|
+| 2026-09-15 6pm ET | Scheduled round | — | **Blocked: browser signed out of X.** No replies, likes, follows or reads. |

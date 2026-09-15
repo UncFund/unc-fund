@@ -823,3 +823,8 @@ row and the morning note thread are unread since the 12:09 round.
 
 Still signed out (guest Log in / Sign up banner on x.com/UncFund/with_replies). No row re-read or added; pending
 reads unchanged from the 2pm note above.
+
+### Sep 15, 6pm ET round: signed out, nothing read
+
+Still signed out (guest Log in / Sign up panel on x.com/UncFund/with_replies). No row re-read or added; pending
+reads unchanged from the 2pm note above.
