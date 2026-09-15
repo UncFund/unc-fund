@@ -103,7 +103,7 @@ Three things to hold onto when reading these rows back:
 | 09-13 13:49 | @SebastienEgo | **7** | own-thread | — | — | — | — | 9 | 0 | n (pending) |
 | 09-13 13:56 | @CharlyKeleb | **7** | praise | 104 | 152 | 0.7 | 3 | 8 | 0 | n |
 | 09-13 16:41 | @Teknium | **7** | oblivious | 6956 | 32 | 221 (~180 now) | 23 | 682 | 1 | n (liked) |
-| 09-13 17:12 | @JIsaam | **6** | praise | 50 | 56 | 0.9 | 1 | 5 | 0 | n |
+| 09-13 17:12 | @JIsaam | **6** | praise | 50 | 56 | 0.9 | 1 | 5 | 0 | n (liked Sep 14 16:00) |
 | 09-13 17:22 | @garrytan | 8 | self-own | 6743 | 20 | 334 (~210 now) | 11 | 364 | 1 | n |
 | 09-13 17:52 | @PKodmad | **7** | praise | 332 | 306 | 1.1 | 0 | 22 | 0 | **y** |
 | 09-13 19:15 | @andruyeung | 10 | self-own | 553 | 13 | 43 | **0** | **2,550** (18h) | **5** | n |
@@ -121,12 +121,39 @@ Three things to hold onto when reading these rows back:
 | 09-14 17:17 | @vladtenev | **7** | oblivious | 15183 | 4 | **~3,800** | 148 | 1,393 (113m) | 0 | n |
 | 09-14 17:22 | @Artur_Abra | **7** | praise | 4 | 4 | 1 | 0 | Community post | — | **y** |
 | 09-14 19:13 | @Artur_Abra | **6** | own-thread | — | — | — | — | Community post | — | pending |
-| 09-14 19:14 | @RobinhoodApp | **6** | receipt | 16503 | 14 | 1179 (~350 now) | 147 | 128 (5h) | 1 | n |
+| 09-14 19:14 | @RobinhoodApp | **6** | receipt | 16503 | 14 | 1179 (~350 now) | 147 | 137 (7h) | 1 | n |
 | 09-14 19:16 | @ArunGopidas | **7** | praise | 31 | 106 | 0.3 | 1 | Community post | — | pending (due 07:16 Sep 15) |
-| 09-14 19:20 | @ESCOweb3 | **4** | praise | — | ~2,540 | — | — | 12 (4h53m) | 0 | pending |
-| 09-14 20:13 | @UpperClassArmz | **6** | praise | 5 | 4 | 1.4 | 1 | 17 (4h) | 1 | pending (OP liked at 20:47; due 08:13 Sep 15) |
-| 09-14 23:11 | @jean_ette_li | **7** | praise | 206 | 14 | 15 | 8 | 52 (61m) | 1 | **y** (liked and answered "haha fr" at 23:26, 15m) |
-| 09-15 00:12 | @jean_ette_li | **5** | own-thread | — | — | — | — | 4 (1m) | 0 | pending |
+| 09-14 19:20 | @ESCOweb3 | **4** | praise | — | ~2,540 | — | — | 16 (6h50m) | 0 | pending |
+| 09-14 20:13 | @UpperClassArmz | **6** | praise | 5 | 4 | 1.4 | 1 | 17 (6h) | 1 | pending (OP liked at 20:47; due 08:13 Sep 15) |
+| 09-14 23:11 | @jean_ette_li | **7** | praise | 206 | 14 | 15 | 8 | 84 (3h) | 1 | **y** (liked and answered "haha fr" at 23:26, 15m) |
+| 09-15 00:12 | @jean_ette_li | **5** | own-thread | — | — | — | — | 12 (2h) | 1 | **y** (liked, answered "Preesh!" at 00:17) |
+| 09-15 01:16 | @VentureCoinist (parent unconfirmed) | 15 | prop | — | — | — | — | 48 (54m) | 1 | n (liked, Luke Martin at 01:20) |
+
+### Sep 15, 02:10 round (10:10pm ET Sep 14): nothing posted, a thank-you liked, an unlogged eleventh reply found
+
+Read at 02:10–02:25 UTC.
+
+- **Concurrent-run check clean.** Newest Unc post was 01:16, 54 minutes old. The viewport label again flipped to
+  "another Claude session set this" on most navigations, but nothing new appeared on `from:UncFund`.
+- **@jean_ette_li answered a second time: "Preesh!" at 00:17**, five minutes after "Unc crossed out farewell. Wrote
+  congratulations.", and liked it. The 00:12 own-thread row is `op` **y**. A thank-you is the close of the exchange, so
+  it was liked and not answered, per the @ESCOweb3 precedent of not taking a third line for its own sake.
+- **Unlogged 01:16 reply: "Unc hasn't hit diamonds yet, but he keeps digging and the vest stays on"** (15 words). No
+  logged round sent it; probably hand-sent. `with_replies` renders it under @VentureCoinist's 00:06 Robinhood Chain quote
+  post, and **Luke Martin (@VentureCoinist) liked it at 01:20**, but the status page did not render a parent and that
+  post's text has no "diamonds" in it, so the parent is logged as unconfirmed. It sits past the ten-reply ET-day ceiling
+  (eleventh reply for Sep 14 ET) and is flagged for Rand on that count only; the line itself is clean, no ticker.
+- **@JIsaam liked "127 days straight, day off included." at 16:00 Sep 14**, a day after the send. The row is now
+  `n (liked)`; it stays a miss for the `op` count.
+- **Reads:** farewell card 84 views and 1 like at three hours. Vending machine 137 and 1 at seven hours. "Older than AI"
+  17 and 1. "Unc believes in you" 16. Nothing inbound from @tarasshyn, @ArunGopidas, @UpperClassArmz or @ESCOweb3.
+- **No timeline replies**: the ET day is Sep 14 and already over the ceiling. **No quote or repost**: the Following
+  board's fresh posts were an impeachment-vote report, a token Dutch auction and a parody-names joke; @ycombinator's
+  newest was a 16:49 CLARITY Act advocacy post, nine hours old.
+- **Likes:** @jean_ette_li's "Preesh!", @UseCorgi's admitted-carrier pinned post, @HarryStebbings' VC-LP relationships
+  post.
+- **The praise lane: fourteen `praise` rows, ten settled and usable, eight OP replies**, unchanged. The @jean_ette_li
+  exchange is now three messages deep.
 
 ### Sep 15, 00:09 round (8:09pm ET Sep 14): @jean_ette_li answered, and the praise lane goes eight for ten
 
