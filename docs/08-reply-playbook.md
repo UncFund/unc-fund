@@ -5563,3 +5563,19 @@ three of the four misses. Non-praise rows remain at zero OP replies; @ronitrjain
 |---|---|---|---|
 | 2026-09-15 16:13 UTC | @arbitrum, programmable stocks with Bitget Wallet | prop+oc | "Unc's VCR still blinks 12:00." |
 | 2026-09-15 16:14 UTC | @SashaMagicSpace, AgenturScout first internet dollar | praise | "Best dollar in Switzerland today." |
+
+## Round at 2pm ET Sep 15: signed out, round blocked
+
+Scheduler check first: no Unc routine running (news check succeeded 17:06 UTC, follow queue 15:31, morning note
+13:03). The in-app browser then loaded `x.com/UncFund/with_replies` with the guest "Log in / Sign up" banner, and
+`x.com/home` served the sign-in page ("Continue with phone / Google / Apple"). Same state the 1pm news check found.
+No login attempted. Nothing read, replied, liked, reposted or followed; no ledger rows re-measured. The concurrent-run
+and ceiling checks could not run signed out. Viewport was set to the 800x609 frame and reset to desktop.
+
+**Rand: the in-app browser needs a manual sign-in to @UncFund before the next round.** Two routines in a row have
+now stopped on it. Pending reads carried forward: @kien_hoang18 praise (due 02:15 UTC Sep 16), @SashaMagicSpace
+praise (04:14), @arbitrum VCR, the 12:09 Helion quote, and the morning note's own thread.
+
+| Date | Where | Mode | What |
+|---|---|---|---|
+| 2026-09-15 2pm ET | Scheduled round | — | **Blocked: browser signed out of X.** No replies, likes, follows or reads. |
