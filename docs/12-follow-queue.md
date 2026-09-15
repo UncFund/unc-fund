@@ -29,12 +29,12 @@ Status values: `queued`, `followed YYYY-MM-DD`, `rejected: reason`, `reverted YY
 | 2 | @circle | Circle, USDC issuer (verified Sep 14) | followed 2026-09-14 |
 | 3 | @BlackRock | BlackRock, asset manager (verified Sep 14) | followed 2026-09-14 |
 | 4 | @EleanorTerrett | already followed by Rand | followed 2026-09-14 |
-| 5 | @jchamilton75 | Jesse Hamilton, CoinDesk DC policy reporter | queued |
-| 6 | @nikhileshde | Nikhilesh De, CoinDesk policy/regulation reporter | queued |
-| 7 | @SenLummis | Sen. Cynthia Lummis (R-WY), crypto market structure | queued |
-| 8 | @SenGillibrand | Sen. Kirsten Gillibrand (D-NY), co-author with Lummis | queued |
-| 9 | @Paxos | Paxos, regulated stablecoin and tokenization infrastructure (verified Sep 14) | queued |
-| 10 | @stripe | Stripe, payments; owns stablecoin company Bridge (verified Sep 14) | queued |
+| 5 | @jchamilton75 | Jesse Hamilton, CoinDesk DC policy reporter | rejected: account does not exist (Sep 15) |
+| 6 | @nikhileshde | Nikhilesh De, CoinDesk policy/regulation reporter | rejected: no verification badge; display name is "@nikhileshde.bsky.social" though bio matches CoinDesk policy (Sep 15) |
+| 7 | @SenLummis | Sen. Cynthia Lummis (R-WY), crypto market structure | followed 2026-09-15 |
+| 8 | @SenGillibrand | Sen. Kirsten Gillibrand (D-NY), co-author with Lummis | followed 2026-09-15 (already) |
+| 9 | @Paxos | Paxos, regulated stablecoin and tokenization infrastructure (verified Sep 14) | followed 2026-09-15 |
+| 10 | @stripe | Stripe, payments; owns stablecoin company Bridge (verified Sep 14) | followed 2026-09-15 |
 | 11 | @jpmorgan | J.P. Morgan (verified Sep 14) | queued |
 | 12 | @DigitalAssets | Fidelity Digital Assets (verified Sep 14) | queued |
 | 13 | @laurashin | Laura Shin, Unchained host and crypto journalist | queued |
