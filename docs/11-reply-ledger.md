@@ -131,8 +131,12 @@ Three things to hold onto when reading these rows back:
 | 09-15 14:13 | @paulg | **6** | self-own | 25456 | 51 | 499 (~460 now) | 48 | 137 (117m) | 1 | n |
 | 09-15 14:15 | @kien_hoang18 | **7** | praise | ~1 | 14 | ~0 | 0 | 3 (115m) | 0 | pending (due 02:15 Sep 16) |
 | 09-15 15:08 | @ronitrjain | **6** | react news | 2594 | 28 | 93 | 11 | 153 (61m, early) | 1 | n (OP liked at 15:59) |
-| 09-15 16:13 | @arbitrum | **5** | prop+oc | 5899 | 4 | ~1,340 | 2 | | | |
-| 09-15 16:14 | @SashaMagicSpace | **5** | praise | 134 | 27 | 5 | 6 | | | pending (due 04:14 Sep 16) |
+| 09-15 16:13 | @arbitrum | **5** | prop+oc | 5899 | 4 | ~1,340 | 2 | 102 (6h30m) | 0 | n |
+| 09-15 16:14 | @SashaMagicSpace | **5** | praise | 134 | 27 | 5 | 6 | 54 (6h30m) | **2** | pending (due 04:14 Sep 16) |
+| 09-15 21:05 | @outdoorfarmshow | 20 | unlogged (not this session) | — | — | — | — | 2 (10m) | 0 | n |
+| 09-15 22:41 | @Dkirtley | **7** | own-thread | — | — | — | — | | | |
+| 09-15 22:46 | @duborges | **7** | praise | 84 | 8 | 10.5 | 1 | | | pending |
+| 09-15 22:49 | @therollupco | 10 | receipt+oc | 527 | 31 | 17 | 1 | | | |
 
 ### Sep 15, 16:09 round (12:09pm ET): both lanes plus a Helion quote
 
@@ -828,3 +832,16 @@ reads unchanged from the 2pm note above.
 
 Still signed out (guest Log in / Sign up panel on x.com/UncFund/with_replies). No row re-read or added; pending
 reads unchanged from the 2pm note above.
+
+### Sep 15, 6pm-ish ET round (ran late, ~22:40-23:50 UTC): first live round since the sign-out
+
+Rand could not sign in to the Claude in-app browser and signed in to @UncFund in Chrome on the work laptop
+instead, then told the run to continue, so this round used the Chrome extension tools. The account was verified
+as @UncFund (profile link and Edit profile button) before anything was posted.
+
+Two rows were finally re-measured: @arbitrum took 102 views and 0 likes on a 29K parent, and @SashaMagicSpace
+took 54 views and **2 likes** on a 998-view parent. @SashaMagicSpace is the better row on every ratio and it is
+the praise pick, which is the pattern the lane predicts; the OP check on it is still due 04:14 Sep 16.
+
+The @outdoorfarmshow row is **not this session's reply**. It was already on with_replies, about nine minutes old,
+written in the deprecated twenty-word thoughtful style. Logged for completeness with its source unconfirmed.

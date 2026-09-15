@@ -5611,3 +5611,45 @@ and the morning note's own thread.
 | Date | Where | Mode | What |
 |---|---|---|---|
 | 2026-09-15 6pm ET | Scheduled round | — | **Blocked: browser signed out of X.** No replies, likes, follows or reads. |
+
+## Round at ~6pm ET Sep 15 (ran 22:40-23:50 UTC): back on the air, via Chrome on the work laptop
+
+Six Unc routines in a row had stopped on the signed-out in-app browser. Rand could not sign in there, signed in
+to @UncFund in Chrome on the work laptop instead, and told this run to continue. The run switched to the Chrome
+extension tools after verifying the account was @UncFund and not the personal one the playbook warns about.
+**The standing never-use-Chrome rule was written on the assumption that Chrome holds the wrong account. That
+assumption no longer holds on this machine, and the check that matters is the account, not the tool.**
+
+Three replies, all verified on with_replies as single copies:
+
+1. **@Dkirtley, own-thread, 7 words** - "Unc's vest is still on version one." He is Helion's CEO and he had replied
+   to Unc's 12:09 Series G quote with "the faster you build, the faster you can iterate (and do science)." That
+   reply sat unanswered for seven hours because the account was locked out. **This is the highest-value OP reply
+   the account has ever earned** and it nearly went cold.
+2. **@duborges, lane B praise, 7 words** - "Ten food exporters served. Unc is impressed." Parent 84 views at 8
+   minutes (10.5/min), one reply ahead of Unc, small fintech founder on how hard import/export banking is. Praised
+   the specific number in his post rather than the post.
+3. **@therollupco, lane A, 10 words, on-chain register** - "Unc's first wire took three days and a phone call."
+   Parent 527 views at 31 minutes (17/min) on Lighter's CEO saying the capital of traditional finance should be
+   the capital of onchain finance. Rails, not assets; no figure that wasn't in the post.
+
+**The board was genuinely thin and the velocity leaderboard was unusable.** @brian_armstrong was the fastest
+parent on it by a mile - 44,796 views in 31 minutes, about 1,445/min - and it was **skipped on criterion (e)**:
+the post is about the CLARITY Act failing to advance in the Senate, which is a vote outcome inside a partisan
+fight, and the thread was filling with exactly that. Clear rules are good for builders is the only position Unc
+has, and there was no way to say it there without joining the argument. @garrytan (56K views) was 111 minutes
+old and failed (a). @ronitrjain was fresh but Unc had already replied to him at 15:08 today.
+
+Three likes: @kseniam0s, @andruyeung, @therollupco. No repost or quote: the one qualifying news drop was the
+CLARITY vote and it is the same skip.
+
+**Flag for Rand.** A reply to @outdoorfarmshow, twenty words in the deprecated thoughtful style, was already on
+with_replies about nine minutes before this round posted anything, and two original posts (47m and 3h old) are
+not in any log either. This session did not write them. The 7pm news check assumed they were this round's, which
+they were not. Something else is posting as @UncFund.
+
+| Date | Where | Mode | What |
+|---|---|---|---|
+| 2026-09-15 ~6pm ET | @Dkirtley | own-thread | 7 words, answering the Helion CEO's reply seven hours late |
+| 2026-09-15 ~6pm ET | @duborges | praise | 7 words, lane B, 10.5/min parent |
+| 2026-09-15 ~6pm ET | @therollupco | receipt+oc | 10 words, lane A, 17/min parent |
