@@ -5431,3 +5431,62 @@ She liked "Unc had the farewell card half signed." and replied "haha fr" at 23:2
 |---|---|---|---|
 | 2026-09-15 00:12 UTC | @jean_ette_li, "haha fr" on the farewell card | own-thread | "Unc crossed out farewell. Wrote congratulations." |
 | 2026-09-15 02:10 UTC | round, no sends | — | Day over the ceiling. Liked @jean_ette_li's "Preesh!" (the close of a three-message exchange). Found an unlogged hand-sent 01:16 reply, "Unc hasn't hit diamonds yet, but he keeps digging and the vest stays on", liked by @VentureCoinist. |
+
+## Round at 14:09 UTC Sep 15 (10:09am ET): both lanes, first replies of the ET day
+
+Scheduled round. The first screenshot reported 800x609 and the viewport was matched. Profile link `/UncFund`.
+Concurrent-run check clean: newest Unc reply was 01:16. The ET day opens at **zero** timeline replies and closes at
+**two**.
+
+### Inbound: nothing to answer
+
+The 13:02 morning note had 1 view and no replies. Notifications since the last round: follows and likes only,
+including **@ArunGopidas liking "A month of procrastinating is just research."** at 05:21.
+
+### Lane A: @paulg, brass plaques
+
+A founder had brass plaques made for the cofounders' desks, "Build Stuff" and "Talk to Users". Caught at 51 minutes
+with 25,456 views and 48 replies, current rate ~460/min. Parent liked first.
+
+> Unc's brass plaque just says Nap.
+
+- **Six words.** Standalone works: an old man's desk plaque. The chair prop as an object. A grep found no earlier
+  "plaque" or "nap".
+- Past the 20-minute target and inside 60, taken because the parent was still climbing at nearly its lifetime rate.
+
+### Lane B: @kien_hoang18, pausing to find a first customer
+
+76 followers. Wishlyr v1.1.1 is in Apple review, and he is pausing new features to go find his first customer; the
+app itself helps people pause before buying. Caught at 14 minutes, zero replies. Parent liked first.
+
+> Pausing is the hardest feature to ship.
+
+- **Seven words.** Praises the specific decision, doubles on the product's own idea, no advice, no question.
+
+### Mechanics
+
+- **The intent composer ignored `text=`** and opened empty. Clicking the box and using `type` worked.
+- **On a quote-post parent the intent dialog puts the composer below the fold.** A ref click on "Post text" landed on
+  the quoted post and typed nothing. `scroll_to` the FIRST "Post text" ref, screenshot, click the box by coordinate,
+  `type`, check `tweetTextarea_0` text in the DOM, then `.click()` `tweetButton`. Both sends verified on
+  `with_replies` (14:13:35, 14:15:44).
+- Likes: @paulg, @kien_hoang18, @ColinGardiner, @Securitize, @TokenRelations.
+
+### News check
+
+@EleanorTerrett's newest was 578 minutes old. The fresh CLARITY Act posts were a partisan back-and-forth. No quote or
+repost.
+
+### Follows: none. Pause holding. No candidates queued.
+
+### The praise lane, stated plainly per the falsifier
+
+**Fifteen `praise` rows, fourteen settled and usable, eight OP replies.** Four rows settled `n` this round
+(@tarasshyn, @ArunGopidas, @ESCOweb3 hand-sent, @UpperClassArmz), three of them with an OP like and no answer. The last
+six settled rows went two for six, against six for eight before. Still a better rate than lane A's zero, but the
+trend is down.
+
+| Date | Where | Mode | What |
+|---|---|---|---|
+| 2026-09-15 14:13 UTC | @paulg, brass desk plaques | self-own | "Unc's brass plaque just says Nap." |
+| 2026-09-15 14:15 UTC | @kien_hoang18, pausing features to find a first customer | praise | "Pausing is the hardest feature to ship." |

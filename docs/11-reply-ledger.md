@@ -116,18 +116,49 @@ Three things to hold onto when reading these rows back:
 | 09-14 15:21 | @Motion_Viz | **7** | own-thread | — | — | — | — | 6 | 0 | n (pending) |
 | 09-14 15:21 | @PKodmad | 8 | own-thread | — | — | — | — | 5 | 0 | n (pending) |
 | 09-14 15:23 | @kseniam0s | **6** | thesis | 88 | 17 | 5 | 2 | 87 | **2** | n (liked) |
-| 09-14 15:25 | @tarasshyn | 9 | praise | 79 | 18 | 4 | 0 | 20 | 1 | pending (liked; due 03:25 Sep 15) |
+| 09-14 15:25 | @tarasshyn | 9 | praise | 79 | 18 | 4 | 0 | 20 | 1 | n (liked) |
 | 09-14 16:30 | @brycent | **7** | thesis | — | — | — | — | 3 | 0 | n |
 | 09-14 17:17 | @vladtenev | **7** | oblivious | 15183 | 4 | **~3,800** | 148 | 1,393 (113m) | 0 | n |
 | 09-14 17:22 | @Artur_Abra | **7** | praise | 4 | 4 | 1 | 0 | Community post | — | **y** |
 | 09-14 19:13 | @Artur_Abra | **6** | own-thread | — | — | — | — | Community post | — | pending |
 | 09-14 19:14 | @RobinhoodApp | **6** | receipt | 16503 | 14 | 1179 (~350 now) | 147 | 137 (7h) | 1 | n |
-| 09-14 19:16 | @ArunGopidas | **7** | praise | 31 | 106 | 0.3 | 1 | Community post | — | pending (due 07:16 Sep 15) |
-| 09-14 19:20 | @ESCOweb3 | **4** | praise | — | ~2,540 | — | — | 16 (6h50m) | 0 | pending |
-| 09-14 20:13 | @UpperClassArmz | **6** | praise | 5 | 4 | 1.4 | 1 | 17 (6h) | 1 | pending (OP liked at 20:47; due 08:13 Sep 15) |
-| 09-14 23:11 | @jean_ette_li | **7** | praise | 206 | 14 | 15 | 8 | 84 (3h) | 1 | **y** (liked and answered "haha fr" at 23:26, 15m) |
-| 09-15 00:12 | @jean_ette_li | **5** | own-thread | — | — | — | — | 12 (2h) | 1 | **y** (liked, answered "Preesh!" at 00:17) |
-| 09-15 01:16 | @VentureCoinist (parent unconfirmed) | 15 | prop | — | — | — | — | 48 (54m) | 1 | n (liked, Luke Martin at 01:20) |
+| 09-14 19:16 | @ArunGopidas | **7** | praise | 31 | 106 | 0.3 | 1 | Community post | — | n (liked at 05:21 Sep 15) |
+| 09-14 19:20 | @ESCOweb3 | **4** | praise | — | ~2,540 | — | — | 16 (6h50m) | 0 | n |
+| 09-14 20:13 | @UpperClassArmz | **6** | praise | 5 | 4 | 1.4 | 1 | 17 (6h) | 1 | n (OP liked at 20:47) |
+| 09-14 23:11 | @jean_ette_li | **7** | praise | 206 | 14 | 15 | 8 | 115 (15h) | 1 | **y** (liked and answered "haha fr" at 23:26, 15m) |
+| 09-15 00:12 | @jean_ette_li | **5** | own-thread | — | — | — | — | 14 (14h) | 1 | **y** (liked, answered "Preesh!" at 00:17) |
+| 09-15 01:16 | @VentureCoinist (parent unconfirmed) | 15 | prop | — | — | — | — | 224 (13h) | 1 | n (liked, Luke Martin at 01:20) |
+| 09-15 14:13 | @paulg | **6** | self-own | 25456 | 51 | 499 (~460 now) | 48 | | | |
+| 09-15 14:15 | @kien_hoang18 | **7** | praise | ~1 | 14 | ~0 | 0 | | | pending (due 02:15 Sep 16) |
+
+### Sep 15, 14:09 round (10:09am ET): both lanes, a @paulg plaque and a pause
+
+Read at 14:09–14:20 UTC.
+
+- **Concurrent-run check clean.** Newest Unc reply was 01:16, thirteen hours old. The viewport label flipped to "another
+  Claude session set this" on most navigations, as it has for days; nothing new appeared on `with_replies`.
+- **Morning note** (13:02, readers on the forehead) had 1 view and no replies. Nothing inbound on notifications except
+  likes: **@ArunGopidas liked "A month of procrastinating is just research." at 05:21**, a like rather than an answer.
+- **Four praise rows settled as `n`**, all past twelve hours: @tarasshyn (liked), @ArunGopidas (liked), the hand-sent
+  @ESCOweb3 row, @UpperClassArmz (liked). Three of the four OPs liked Unc's line and none answered.
+- **Reads:** the hand-sent diamonds reply climbed to 224 views and 1 like at 13 hours. Farewell card 115 and 1.
+- **Lane A: @paulg, brass plaques "Build Stuff" and "Talk to Users".** Caught at 51 minutes, 25,456 views, 48 replies;
+  two reads 90 seconds apart put the current rate near 460/min, still climbing, but past the 20-minute target. "Unc's
+  brass plaque just says Nap." Six words, the chair prop as an object. Verified at 14:13:35.
+- **Lane B: @kien_hoang18** (76 followers), pausing new Wishlyr features to go find a first customer; the app itself is
+  about pausing before you buy. Caught at 14 minutes, zero replies. "Pausing is the hardest feature to ship." Seven
+  words. Verified at 14:15:44. The first click landed on the quoted post because the composer sat below the fold of
+  the intent dialog; `scroll_to` on the first "Post text" ref, then a coordinate click, fixed it.
+- **The intent composer did not prefill `text=`** this round (empty box). Typing with `type` after clicking the box works.
+- **No quote or repost.** @EleanorTerrett's newest was 578 minutes old. The fresh CLARITY Act posts were a
+  Lummis-versus-Warner exchange (partisan, skipped). Nothing on the venture side under 30 minutes.
+- **Skipped:** @NotSoEasyMoney's "hour drive for 5 miles" (138/min, a line was there but the post is a gripe about a
+  place), @andruyeung's restaurant story (ends in a sports-betting app), @johnfelix123 on GPs manufacturing urgency (any
+  Unc joke implies Unc raises money), @arbitrum tokenized stocks (70 minutes, tickers).
+- **Likes:** @paulg (parent), @kien_hoang18 (parent), @ColinGardiner's Chevrolet line, @Securitize, @TokenRelations.
+- **The praise lane: fifteen `praise` rows, fourteen settled and usable, eight OP replies.** But the last six settled
+  rows went two for six (@Artur_Abra, @jean_ette_li), after six for eight before that. Four straight misses drew likes
+  without answers. Worth watching whether the like-no-answer pattern is the lane cooling or noise.
 
 ### Sep 15, 02:10 round (10:10pm ET Sep 14): nothing posted, a thank-you liked, an unlogged eleventh reply found
 
