@@ -38,9 +38,9 @@ Status values: `queued`, `followed YYYY-MM-DD`, `rejected: reason`, `reverted YY
 | 11 | @jpmorgan | J.P. Morgan (verified Sep 14) | followed 2026-09-15 |
 | 12 | @DigitalAssets | Fidelity Digital Assets (verified Sep 14) | followed 2026-09-15 |
 | 13 | @laurashin | Laura Shin, Unchained host and crypto journalist | followed 2026-09-15 |
-| 14 | @EricBalchunas | Eric Balchunas, Bloomberg ETF analyst | queued |
-| 15 | @SenatorHagerty | Sen. Bill Hagerty (R-TN), stablecoin legislation | queued |
-| 16 | @SenRubenGallego | Sen. Ruben Gallego (D-AZ), Senate Banking | queued |
+| 14 | @EricBalchunas | Eric Balchunas, Bloomberg ETF analyst | followed 2026-09-15 |
+| 15 | @SenatorHagerty | Sen. Bill Hagerty (R-TN), stablecoin legislation | followed 2026-09-15 |
+| 16 | @SenRubenGallego | Sen. Ruben Gallego (D-AZ), Senate Banking | followed 2026-09-15 |
 | 17 | @OndoFinance | Ondo Finance, tokenized treasuries and equities | queued |
 | 18 | @Fidelity | Fidelity Investments (verified Sep 14) | queued |
 | 19 | @StateStreet | State Street (verified Sep 14) | queued |

@@ -3458,6 +3458,15 @@ vending machine 120 and 1, "Unc believes in you" 10.
   Sign up and a Follow button on our own account, and the logged-out interstitial hides the follower counts. Same state
   as the 3:25pm run and every run since 1pm. Manual sign-in to @UncFund still needed. Followed none, rejected none,
   reverted none, no list adds, counts unread. Queue rows untouched: 38 still queued, starting at @EricBalchunas.
+- 7:25pm ET Sep 15, resumed about 7:50pm after Rand said the sign-in had failed in the Claude browser and he had signed
+  in to @UncFund in **Chrome on the work laptop** instead. This run therefore drove Chrome, not the Claude pane — worth
+  knowing for the other routines, which are still pointed at the signed-out Claude browser and will keep stopping until
+  that one is signed in. Confirmed @UncFund signed in (Edit profile button). Followed @EricBalchunas (blue badge, Senior
+  ETF Analyst for @Bloomberg, 620.4K followers, joined 2010), @SenatorHagerty (badge, hagerty.senate.gov, 98.4K) and
+  @SenRubenGallego (badge, gallego.senate.gov, 119.7K); all three read Following after a reload, spaced roughly 90 to
+  120 seconds apart with the list add filling the gap. Rejected none, reverted none. List adds to Unc News Desk: all
+  three, 27 to 30 members (Gallego needed a second attempt — the Pick a List dialog was still loading when the row was
+  first clicked, and two screenshot calls timed out on a busy renderer). Following 96 to 99, followers 28 to 29.
 
 ## Round at 00:09 UTC Sep 15 (8:09pm ET Sep 14): one own-thread answer, day still at the ceiling
 
