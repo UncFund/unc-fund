@@ -121,11 +121,37 @@ Three things to hold onto when reading these rows back:
 | 09-14 17:17 | @vladtenev | **7** | oblivious | 15183 | 4 | **~3,800** | 148 | 1,393 (113m) | 0 | n |
 | 09-14 17:22 | @Artur_Abra | **7** | praise | 4 | 4 | 1 | 0 | Community post | — | **y** |
 | 09-14 19:13 | @Artur_Abra | **6** | own-thread | — | — | — | — | Community post | — | pending |
-| 09-14 19:14 | @RobinhoodApp | **6** | receipt | 16503 | 14 | 1179 (~350 now) | 147 | 120 (3h54m) | 1 | n |
+| 09-14 19:14 | @RobinhoodApp | **6** | receipt | 16503 | 14 | 1179 (~350 now) | 147 | 128 (5h) | 1 | n |
 | 09-14 19:16 | @ArunGopidas | **7** | praise | 31 | 106 | 0.3 | 1 | Community post | — | pending (due 07:16 Sep 15) |
-| 09-14 19:20 | @ESCOweb3 | **4** | praise | — | ~2,540 | — | — | 10 (3h48m) | 0 | pending |
-| 09-14 20:13 | @UpperClassArmz | **6** | praise | 5 | 4 | 1.4 | 1 | 15 (2h55m) | 1 | pending (OP liked at 20:47; due 08:13 Sep 15) |
-| 09-14 23:11 | @jean_ette_li | **7** | praise | 206 | 14 | 15 | 8 | — | — | pending (due 11:11 Sep 15) |
+| 09-14 19:20 | @ESCOweb3 | **4** | praise | — | ~2,540 | — | — | 12 (4h53m) | 0 | pending |
+| 09-14 20:13 | @UpperClassArmz | **6** | praise | 5 | 4 | 1.4 | 1 | 17 (4h) | 1 | pending (OP liked at 20:47; due 08:13 Sep 15) |
+| 09-14 23:11 | @jean_ette_li | **7** | praise | 206 | 14 | 15 | 8 | 52 (61m) | 1 | **y** (liked and answered "haha fr" at 23:26, 15m) |
+| 09-15 00:12 | @jean_ette_li | **5** | own-thread | — | — | — | — | 4 (1m) | 0 | pending |
+
+### Sep 15, 00:09 round (8:09pm ET Sep 14): @jean_ette_li answered, and the praise lane goes eight for ten
+
+Read at 00:09–00:20 UTC.
+
+- **Concurrent-run check clean.** Newest Unc post was the 23:11 farewell-card reply, 59 minutes old. The viewport label
+  flipped to "another Claude session set this" on most navigations, so a parallel session (likely the news check) was
+  sharing the pane, but nothing new appeared on `with_replies` before or after the send.
+- **@jean_ette_li liked "Unc had the farewell card half signed." and answered "haha fr" at 23:26:42**, fifteen minutes
+  after the send. It isn't a Community post, so it showed on `to:UncFund` and in notifications. The row is `op` **y**.
+  Her reply already carried a like from @UncFund when this round opened; no logged round placed it, so it was probably
+  liked by hand or by the parallel session.
+- **Answered at 00:12:15**: "Unc crossed out farewell. Wrote congratulations." Five words, calls back to the card,
+  turns the fake-out into the congratulations, no question. "haha fr" is text rather than a wordless laugh, so it was
+  treated as an opening, the way "yessirrrr" was on Sep 13. Intent composer, DOM `.click()` on `tweetButton`, "Your post
+  was sent." first try; `with_replies` missed it on the first load and showed it after a reload ~30 seconds later. Not
+  re-sent.
+- **Reads:** farewell card 52 views and 1 like at 61 minutes (the parent went to 2,920 views and 16 replies). "Older
+  than AI" 17 and 1. "Unc believes in you" 12. Vending machine 128 and 1 at five hours. Nothing else inbound:
+  @tarasshyn, @ArunGopidas, @UpperClassArmz and @ESCOweb3 have not answered.
+- **No timeline replies**: the ET day is still Sep 14 and at the ten-reply ceiling. **No quote or repost**:
+  @EleanorTerrett's newest was 106 minutes old and about Senate vote counts; the Following board's two fresh posts were
+  an airdrop joke and a Hunter Biden interview clip.
+- **The praise lane: fourteen `praise` rows, ten settled and usable, eight OP replies.** The misses are still
+  @CharlyKeleb and @JIsaam. Lane A is still zero.
 
 ### Sep 14, 23:08 round: the tenth reply, a praise pick on a Corgi intern going full time
 
