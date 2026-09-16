@@ -3562,3 +3562,5 @@ No repost or quote post this round; daily repost/quote count unchanged.
 - STILL BLOCKING EVERYTHING: sign the in-app browser in to @UncFund, or add a permission rule for `mcp__claude-in-chrome__*` in this project.
 
 - Sep 16, 11am ET news check (15:06 UTC): BLOCKED, in-app browser still signed out — eleventh routine in a row. Scheduler clean (reply round, follow queue, morning note all "succeeded", none running). x.com/UncFund showed the guest view (Follow button, "Log in or sign up for X" panel, Log in links). No login attempted; Chrome extension tools not attempted. News Desk List not scanned. Nothing posted, quoted or reposted. Public count still 144 posts.
+
+- Sep 16, 12pm ET reply round (16:10 UTC): BLOCKED, in-app browser still signed out — thirteenth routine in a row. Scheduler clean (news check, follow queue, morning note all "succeeded", none running). x.com/UncFund/with_replies showed the guest "Log in / Sign up" banner. No login attempted; Chrome extension tools not attempted. Morning note, mentions and pending ledger rows unread. Nothing posted, quoted, reposted, liked or followed. Still needs Rand to sign the in-app browser in to @UncFund.
