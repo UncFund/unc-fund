@@ -845,3 +845,8 @@ the praise pick, which is the pattern the lane predicts; the OP check on it is s
 
 The @outdoorfarmshow row is **not this session's reply**. It was already on with_replies, about nine minutes old,
 written in the deprecated twenty-word thoughtful style. Logged for completeness with its source unconfirmed.
+
+**Round 8pm ET Sep 15 (00:09 UTC Sep 16): no rows.** Blocked before the browser — in-app browser signed out of
+@UncFund, Chrome extension tools denied by the permission classifier. The 6pm round's three replies (@Dkirtley,
+@duborges, @therollupco) still have no views/likes read, and the @kien_hoang18 and @SashaMagicSpace `op` reads
+remain pending.

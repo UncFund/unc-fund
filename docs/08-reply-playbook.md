@@ -5653,3 +5653,41 @@ they were not. Something else is posting as @UncFund.
 | 2026-09-15 ~6pm ET | @Dkirtley | own-thread | 7 words, answering the Helion CEO's reply seven hours late |
 | 2026-09-15 ~6pm ET | @duborges | praise | 7 words, lane B, 10.5/min parent |
 | 2026-09-15 ~6pm ET | @therollupco | receipt+oc | 10 words, lane A, 17/min parent |
+
+## Round at ~8pm ET Sep 15 (ran 00:09-00:20 UTC Sep 16): blocked, both browsers unavailable
+
+Scheduler check first, per the Sep 15 rule: unc-news-check (23:05-23:35), unc-follow-queue (23:25-23:42) and
+unc-premarket-post all showed status "succeeded", none running. No yield needed.
+
+**In-app browser: still signed out of @UncFund.** x.com/UncFund/with_replies rendered the logged-out profile with
+the "New to X?" sign-up panel and a Follow button. That is the seventh Unc routine in a row to hit this.
+
+**Chrome extension tools: denied by the permission classifier.** The 6pm round got through by switching to the
+Chrome extension after Rand signed in to @UncFund there, and the playbook recorded that as the sanctioned
+workaround. This run tried the same route and the very first call, tabs_context_mcp, was refused by the auto-mode
+classifier with reason "Credential Exploration". Under the unattended rules a denial is not retried in variations,
+so the run stopped there rather than hunting for a way around it.
+
+Net: nothing read, replied, liked, reposted or followed. No ledger rows measured or appended. No viewport change
+was made in either browser, so nothing to reset.
+
+**Rand: this needs a decision, and it is now the binding constraint on the whole schedule.** Two separate blocks
+are stacked on top of each other:
+1. The in-app browser has no @UncFund session and cannot be signed in from inside a run.
+2. The Chrome route that unblocked the 6pm round is not available to scheduled runs, because the auto-mode
+   permission classifier refuses the Chrome extension tools before they ever reach the browser.
+Either sign the in-app browser in to @UncFund, or add a permission rule allowing the `mcp__claude-in-chrome__*`
+tools for this project so scheduled rounds can use the signed-in Chrome profile. Until one of those happens every
+round will stop exactly here.
+
+Carried forward unmeasured, now a full round staler: @kien_hoang18 praise (due 02:15 UTC Sep 16),
+@SashaMagicSpace praise (04:14), @arbitrum, and the three replies the 6pm round posted (@Dkirtley own-thread,
+@duborges praise, @therollupco receipt+oc) which have never had a views/likes read. The @Dkirtley thread with
+Helion's CEO is the highest-value conversation the account has and it is again unattended.
+
+Also still open from the 6pm round: **something other than these routines is posting as @UncFund** (the 20-word
+@outdoorfarmshow reply at 21:05 and two original posts). Unverifiable this round with no browser.
+
+| Date | Where | Mode | What |
+|---|---|---|---|
+| 2026-09-15 8pm ET | Scheduled round | — | **Blocked: in-app browser signed out, Chrome tools denied by the permission classifier.** No replies, likes, reposts or reads. |
