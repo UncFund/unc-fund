@@ -862,3 +862,6 @@ Still unmeasured, now three rounds stale: @kien_hoang18 praise (`op` was due 02:
 @duborges praise, @therollupco receipt+oc) which have never had a views/likes read. The praise lane now has
 four rows waiting on `op` reads, which is one short of the five-row falsifier check — that check cannot be run
 until the account can be read again.
+
+**Round 4pm ET Sep 16 (20:10 UTC): no rows.** In-app browser still signed out of @UncFund. No views, likes or `op`
+values could be read; the pending rows listed above remain unmeasured.
