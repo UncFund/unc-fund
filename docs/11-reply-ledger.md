@@ -850,3 +850,15 @@ written in the deprecated twenty-word thoughtful style. Logged for completeness 
 @UncFund, Chrome extension tools denied by the permission classifier. The 6pm round's three replies (@Dkirtley,
 @duborges, @therollupco) still have no views/likes read, and the @kien_hoang18 and @SashaMagicSpace `op` reads
 remain pending.
+
+**Round 10pm ET Sep 15 (02:09 UTC Sep 16): no rows.** In-app browser still signed out of @UncFund — ninth
+routine in a row. The guest profile renders the header but the timeline itself does not load for logged-out
+visitors ("Something went wrong. Try reloading."), so with_replies could not be read and no views, likes or `op`
+values could be taken. Chrome extension tools not attempted: they are outside this task's approved toolset and
+were denied by the permission classifier on the 8pm round.
+
+Still unmeasured, now three rounds stale: @kien_hoang18 praise (`op` was due 02:15 UTC Sep 16, now overdue),
+@SashaMagicSpace praise (`op` due 04:14), and the three replies from the ~6pm round (@Dkirtley own-thread,
+@duborges praise, @therollupco receipt+oc) which have never had a views/likes read. The praise lane now has
+four rows waiting on `op` reads, which is one short of the five-row falsifier check — that check cannot be run
+until the account can be read again.

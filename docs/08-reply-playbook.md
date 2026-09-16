@@ -5691,3 +5691,41 @@ Also still open from the 6pm round: **something other than these routines is pos
 | Date | Where | Mode | What |
 |---|---|---|---|
 | 2026-09-15 8pm ET | Scheduled round | — | **Blocked: in-app browser signed out, Chrome tools denied by the permission classifier.** No replies, likes, reposts or reads. |
+
+## Round at 10pm ET Sep 15 (ran 02:09 UTC Sep 16): blocked, in-app browser still signed out
+
+Scheduler check first: unc-news-check (01:05-01:30 UTC), unc-follow-queue (23:25-23:42) and unc-premarket-post
+all "succeeded", none running. No yield needed.
+
+**In-app browser: still signed out of @UncFund.** x.com/home served the sign-in page ("Happening now", Continue
+with phone / Google / Apple) and x.com/UncFund/with_replies rendered the guest profile header with a Follow
+button and no Edit profile. Ninth Unc routine in a row stopped here.
+
+**Chrome not attempted.** This task's unattended toolset is the in-app browser only, and the 8pm round already
+had the first Chrome call refused by the permission classifier. Under the no-retry rule it was not tried again.
+
+Nothing replied, liked, reposted, quoted or followed. No ledger rows measured or appended. Viewport was set to
+the reported 800x609 frame during the check and reset to desktop.
+
+**One thing the guest view did give us, and it is good news.** The public profile header loads without a session,
+and it now reads **29 followers, 99 following, 143 posts**. Followers were 12 when the follow pause was written on
+Sep 9 — they have more than doubled since, while following went 70 to 99 via the follow-queue routine. The ratio
+is now about 3.4:1, down from the 5.8:1 that prompted the pause. Worth noting that the growth happened across the
+window when the account was mostly locked out, so it is not attributable to this round's work either way.
+
+**Rand: the decision asked for on the 8pm round is still the binding constraint, and it is now nine routines
+deep.** Nothing in the schedule can do its job until one of these happens:
+1. Sign the in-app browser in to @UncFund (a run cannot do this itself), or
+2. Add a permission rule allowing `mcp__claude-in-chrome__*` for this project, so scheduled rounds can use the
+   Chrome profile Rand signed in on the work laptop.
+The @Dkirtley thread with Helion's CEO — the highest-value conversation this account has ever had — has now been
+unattended for roughly nine hours, and four praise rows are waiting on the `op` reads that decide whether the
+praise lane lives or gets reported as not working.
+
+Also still unverified from the ~6pm round: **something other than these routines appears to be posting as
+@UncFund** (a 20-word @outdoorfarmshow reply and two original posts in no log). Post count is now 143; with no
+session there is no way to check it.
+
+| Date | Where | Mode | What |
+|---|---|---|---|
+| 2026-09-15 10pm ET | Scheduled round | — | **Blocked: in-app browser signed out of @UncFund, guest timeline does not render.** No replies, likes, reposts or reads. Followers now 29, following 99. |
