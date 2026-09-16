@@ -34,6 +34,7 @@ before an invitation can work — at which point the reply-guy rounds carry the 
 | 2026-09-12 | Saturday | — (skipped) | Nothing posted. Run fired 1:42 PM ET, past the 1:00 PM cutoff, and a morning line was already up from 10:00 AM ET. | — | — | — |
 | 2026-09-14 | Monday | invitation | Monday. Unc has a fresh legal pad and a full coffee. / What are you building? One line. | | | |
 | 2026-09-15 | Tuesday | line | Unc spent twenty minutes this morning looking for the readers on his forehead. / Founders: the fix is closer than you think. | | | |
+| 2026-09-16 | Wednesday | — (blocked) | Nothing posted. Run fired 9:02 AM ET on time, but the in-app browser is signed out of X (Log in / Sign up banner on x.com/UncFund). No login attempted; manual sign-in needed. | — | — | — |
 
 Note on 2026-09-12: the scheduled run landed at **1:42 PM Eastern**, four hours forty-two minutes
 after the 9:00 slot and past the ~1:00 PM cutoff — a morning note in the afternoon reads wrong, so
