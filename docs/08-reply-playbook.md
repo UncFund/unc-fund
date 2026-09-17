@@ -5737,23 +5737,55 @@ session there is no way to check it.
 | 2026-09-16 8pm ET | Scheduled round | — | **Blocked: in-app browser still signed out of @UncFund (twenty-third routine in a row).** No replies, likes, reposts or reads. |
 | 2026-09-16 10pm ET | Scheduled round | — | **Blocked: in-app browser still signed out of @UncFund (twenty-fifth routine in a row).** No replies, likes, reposts or reads. |
 
-### 2026-09-17 ~1:40pm ET round — yielded, two Unc routines still marked running
+### 2026-09-17 ~1:40pm ET round — held for two live routines, then blocked: still signed out
 
-**Yielded before touching the browser.** The scheduler check that runs first showed TWO other Unc routines with
-status `running`:
-- `unc-premarket-post` — started 13:02Z (09:02 ET), still running after ~4h37m.
-- `unc-follow-queue` — started 15:26Z (11:26 ET), still running after ~2h13m.
+**Held first.** The scheduler check showed `unc-premarket-post` (started 13:02Z) and `unc-follow-queue` (started
+15:26Z) both still `running`, so the browser was left alone. Both finished within a minute of that check —
+follow-queue logged "yielded, reply round marked running" and premarket logged "skipped, run fired 1:39pm ET and
+browser still signed out", so all three routines were circling the same second. They were NOT hung; long
+`started_at` gaps on these sessions are normal and are not evidence of a stuck run.
 
-Both are lower priority than this round, but the yield rule is unconditional once a running routine started more
-than two minutes ago, so nothing was opened, clicked, replied, liked or reposted. No ledger rows measured or
-appended. `unc-news-check` was clean (succeeded 17:06Z, 37s run).
+**Then checked, and the original blocker is unchanged: the in-app browser is still signed out of @UncFund.**
+x.com/UncFund/with_replies rendered the guest profile — Follow button, no Edit profile, Log in / Sign up banner —
+and the Replies tab itself failed with "Something went wrong. Try reloading," which is what a guest gets. Nothing
+replied, liked, reposted, quoted or followed; no ledger rows measured or appended. Viewport set to the reported
+800x609 frame for the check and reset to desktop.
 
-**This is now a second blocker stacked on the sign-out.** A routine that hangs holds `running` forever, and under
-the yield rule every later reply round stops on sight of it. Two of them have been hung most of today, so no
-reply round can run at all until they are stopped. Rand: stopping or archiving those two stuck sessions clears
-this one; signing the in-app browser in to @UncFund clears the original blocker underneath it. Neither can be
-done from inside a scheduled run.
+**Public header today: 148 posts, 99 following, 28 followers.** Posts were 145 on Sep 16 4pm and followers 29,
+so the account gained three posts and lost one follower across a window in which no routine could sign in. The
+unexplained posting flagged on Sep 16 is therefore still live and still unverifiable without a session.
+
+**Rand, the ask is unchanged and this is roughly the thirtieth routine to stop here.** Either sign the in-app
+browser in to @UncFund, or allow `mcp__claude-in-chrome__*` for this project so rounds can use the signed-in
+Chrome profile. Until then the @Dkirtley thread stays unattended and the four praise rows keep waiting on the
+`op` reads that decide whether the praise lane lives.
 
 | Date | Where | Mode | What |
 |---|---|---|---|
-| 2026-09-17 1:40pm ET | Scheduled round | — | **Yielded: unc-premarket-post (4h37m) and unc-follow-queue (2h13m) both still marked running.** Browser not touched. No replies, likes, reposts or reads. |
+| 2026-09-17 1:40pm ET | Scheduled round | — | **Blocked: in-app browser still signed out of @UncFund.** Held ~1 min for two live routines first. No replies, likes, reposts or reads. Public header: 148 posts, 99 following, 28 followers. |
+
+### 2026-09-17 6pm ET round — blocked: in-app browser still signed out
+
+**Scheduler was clean this time.** unc-news-check (21:06 UTC) and unc-follow-queue (19:26 UTC) both show `failed`
+with "You've hit your session limit, resets 5:30pm ET", and unc-premarket-post `succeeded` at 17:40 UTC. Nothing
+`running`, so no yield and no hold — the 1:40pm round's stuck-`running` problem cleared on its own.
+
+**The original blocker is unchanged.** x.com/home rendered the "Happening now" sign-in wall — Continue with phone,
+Continue with Google, Continue with Apple, email field. x.com/UncFund rendered the guest profile: Mention and
+Follow buttons, no Edit profile, and the Replies tab failed with "Something went wrong. Try reloading," which is
+what a guest gets. No login was attempted; entering credentials is prohibited in an unattended run. Nothing
+replied, liked, reposted, quoted or followed, and no ledger rows were measured or appended. Viewport set to the
+reported 800x609 frame for the check and reset to desktop.
+
+**Public header: 149 posts, 99 following, 29 followers.** At 1:40pm ET today it read 148 / 99 / 28. So one more
+post went out and one follower came back inside a window where no routine could sign in. That is the same
+unexplained posting flagged on Sep 16 and it stays unverifiable until there is a session.
+
+**Rand, this is about the thirty-first routine to stop here.** Sign the in-app browser in to @UncFund, or allow
+`mcp__claude-in-chrome__*` for this project so rounds can use the signed-in Chrome profile. Until then the
+@Dkirtley thread stays unattended, and the four praise-lane rows still have no `op` reads — the lane cannot be
+judged working or not working while every round is blind.
+
+| Date | Where | Mode | What |
+|---|---|---|---|
+| 2026-09-17 6pm ET | Scheduled round | — | **Blocked: in-app browser still signed out of @UncFund.** Scheduler clean, nothing running. No replies, likes, reposts or reads. Public header: 149 posts, 99 following, 29 followers. |
