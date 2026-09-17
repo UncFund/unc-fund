@@ -54,6 +54,17 @@ first, as this run did. Worth reconciling the two schedules.
 Also note this table is empty above this row: nothing has been logged since the format changed on
 Sep 10, so invitation-versus-line comparison has no data yet.
 
+Note on 2026-09-17: two blockers at once. The run landed at **1:39 PM Eastern**, past the ~1:00 PM
+cutoff, so the Thursday funny line was out of its window regardless. Separately, the in-app browser
+is **still signed out of X** — x.com/UncFund renders the logged-out profile with a Log in / Sign up
+banner, which is the same blocker every run has hit since Sep 16. No login was attempted; a manual
+sign-in is needed. Nothing in this slot, or in the reply rounds, can run until someone signs the
+in-app browser back in as @UncFund.
+
+One thing the logged-out profile did show: followers now read **28, up from 12** when the format
+changed on Sep 10. That is the audience the invitation experiment was waiting on, so the
+invitation-versus-line comparison is worth restarting properly once sign-in is restored.
+
 ## Premarket history (retired 2026-09-10)
 
 # Unc's premarket post (retired)
@@ -166,14 +177,3 @@ Note on 2026-09-10: late run, about 10:37 AM Eastern, so these are regular-sessi
 stayed true through the click. QQQ moved from -0.66% to -0.63% between the first pull and the
 re-pull, flipping the rounding from -0.7% to -0.6%. Posted the fresher number. Post count went
 71 to 72.
-
-Note on 2026-09-17: two blockers at once. The run landed at **1:39 PM Eastern**, past the ~1:00 PM
-cutoff, so the Thursday funny line was out of its window regardless. Separately, the in-app browser
-is **still signed out of X** — x.com/UncFund renders the logged-out profile with a Log in / Sign up
-banner — which is now the fifth consecutive run blocked this way since Sep 16. No login was
-attempted. Nothing in this slot, or in the reply rounds, can run until someone signs the in-app
-browser back in as @UncFund.
-
-One thing the logged-out profile did show: followers now read **28, up from 12** when the format
-changed on Sep 10. That is the audience number the whole invitation experiment was waiting on, so
-the invitation-versus-line comparison is worth restarting properly once sign-in is restored.

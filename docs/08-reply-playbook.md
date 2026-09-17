@@ -5736,3 +5736,24 @@ session there is no way to check it.
 | 2026-09-16 6pm ET | Scheduled round | — | **Blocked: in-app browser still signed out of @UncFund (twentieth routine in a row).** No replies, likes, reposts or reads. |
 | 2026-09-16 8pm ET | Scheduled round | — | **Blocked: in-app browser still signed out of @UncFund (twenty-third routine in a row).** No replies, likes, reposts or reads. |
 | 2026-09-16 10pm ET | Scheduled round | — | **Blocked: in-app browser still signed out of @UncFund (twenty-fifth routine in a row).** No replies, likes, reposts or reads. |
+
+### 2026-09-17 ~1:40pm ET round — yielded, two Unc routines still marked running
+
+**Yielded before touching the browser.** The scheduler check that runs first showed TWO other Unc routines with
+status `running`:
+- `unc-premarket-post` — started 13:02Z (09:02 ET), still running after ~4h37m.
+- `unc-follow-queue` — started 15:26Z (11:26 ET), still running after ~2h13m.
+
+Both are lower priority than this round, but the yield rule is unconditional once a running routine started more
+than two minutes ago, so nothing was opened, clicked, replied, liked or reposted. No ledger rows measured or
+appended. `unc-news-check` was clean (succeeded 17:06Z, 37s run).
+
+**This is now a second blocker stacked on the sign-out.** A routine that hangs holds `running` forever, and under
+the yield rule every later reply round stops on sight of it. Two of them have been hung most of today, so no
+reply round can run at all until they are stopped. Rand: stopping or archiving those two stuck sessions clears
+this one; signing the in-app browser in to @UncFund clears the original blocker underneath it. Neither can be
+done from inside a scheduled run.
+
+| Date | Where | Mode | What |
+|---|---|---|---|
+| 2026-09-17 1:40pm ET | Scheduled round | — | **Yielded: unc-premarket-post (4h37m) and unc-follow-queue (2h13m) both still marked running.** Browser not touched. No replies, likes, reposts or reads. |
