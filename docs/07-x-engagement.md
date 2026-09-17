@@ -3476,6 +3476,17 @@ vending machine 120 and 1, "Unc believes in you" 10.
   sign up panel, Follow button on our own profile). Manual sign-in to @UncFund in the Claude browser needed. Followed
   none, rejected none, reverted none, no list adds; public counts Following 99, followers 29, unchanged. Queue rows
   untouched: 35 queued.
+- 7:56pm ET Sep 17 (23:56 UTC, manual re-run of the 7:25pm slot, which had failed on the session limit at 19:26 UTC):
+  stopped before any follow. Scheduler check clean and no yield needed — unc-reply-round succeeded 22:09 UTC,
+  unc-news-check succeeded 23:06 UTC, unc-premarket-post succeeded 13:02 UTC, none running; the browser pane also had
+  no page open at all, so nothing else was driving it. Step 5 check: the previous follow-queue runs were blocked or
+  yielded, not reverted, so no two-revert pause applied. Loaded x.com/UncFund at the synced 800x609 frame: still signed
+  out of @UncFund — Mention and Follow buttons on Unc's own profile, no Edit profile, no Post compose. No login
+  attempted (prohibited unattended); Chrome extension tools not attempted (outside this task's approved toolset).
+  Followed none, rejected none, reverted none, no list adds. Public counts before and after, unchanged: Following 99,
+  followers 29, 150 posts — identical to the 7pm news check 50 minutes earlier, so no new unexplained post this hour.
+  Queue rows untouched: 35 still queued, starting at @OndoFinance. Still needs Rand to sign the in-app browser in to
+  @UncFund.
 
 ## Round at 00:09 UTC Sep 15 (8:09pm ET Sep 14): one own-thread answer, day still at the ceiling
 
