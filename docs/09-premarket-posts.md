@@ -35,6 +35,7 @@ before an invitation can work — at which point the reply-guy rounds carry the 
 | 2026-09-14 | Monday | invitation | Monday. Unc has a fresh legal pad and a full coffee. / What are you building? One line. | | | |
 | 2026-09-15 | Tuesday | line | Unc spent twenty minutes this morning looking for the readers on his forehead. / Founders: the fix is closer than you think. | | | |
 | 2026-09-16 | Wednesday | — (blocked) | Nothing posted. Run fired 9:02 AM ET on time, but the in-app browser is signed out of X (Log in / Sign up banner on x.com/UncFund). No login attempted; manual sign-in needed. | — | — | — |
+| 2026-09-17 | Thursday | — (skipped + blocked) | Nothing posted. Run fired 1:39 PM ET, past the ~1:00 PM cutoff, so a funny morning line would have read wrong anyway. The in-app browser is also still signed out of X. | — | — | — |
 
 Note on 2026-09-12: the scheduled run landed at **1:42 PM Eastern**, four hours forty-two minutes
 after the 9:00 slot and past the ~1:00 PM cutoff — a morning note in the afternoon reads wrong, so
@@ -165,3 +166,14 @@ Note on 2026-09-10: late run, about 10:37 AM Eastern, so these are regular-sessi
 stayed true through the click. QQQ moved from -0.66% to -0.63% between the first pull and the
 re-pull, flipping the rounding from -0.7% to -0.6%. Posted the fresher number. Post count went
 71 to 72.
+
+Note on 2026-09-17: two blockers at once. The run landed at **1:39 PM Eastern**, past the ~1:00 PM
+cutoff, so the Thursday funny line was out of its window regardless. Separately, the in-app browser
+is **still signed out of X** — x.com/UncFund renders the logged-out profile with a Log in / Sign up
+banner — which is now the fifth consecutive run blocked this way since Sep 16. No login was
+attempted. Nothing in this slot, or in the reply rounds, can run until someone signs the in-app
+browser back in as @UncFund.
+
+One thing the logged-out profile did show: followers now read **28, up from 12** when the format
+changed on Sep 10. That is the audience number the whole invitation experiment was waiting on, so
+the invitation-versus-line comparison is worth restarting properly once sign-in is restored.
