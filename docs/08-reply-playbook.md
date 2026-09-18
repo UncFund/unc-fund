@@ -5789,3 +5789,25 @@ judged working or not working while every round is blind.
 | Date | Where | Mode | What |
 |---|---|---|---|
 | 2026-09-17 6pm ET | Scheduled round | — | **Blocked: in-app browser still signed out of @UncFund.** Scheduler clean, nothing running. No replies, likes, reposts or reads. Public header: 149 posts, 99 following, 29 followers. |
+
+### Round 2026-09-17, 8pm ET — blocked, sign-out unchanged
+
+Scheduler was clean: unc-news-check succeeded 23:56 UTC, unc-follow-queue succeeded 00:00 UTC, unc-premarket-post
+succeeded 17:40 UTC. Nothing running, so no yield. The post-age check could not run the usual way —
+x.com/UncFund/with_replies shows a guest a Follow button and "Something went wrong. Try reloading" instead of the
+timeline — so sign-in state was confirmed on x.com/home, which rendered the "Happening now" wall.
+
+No login attempted. Nothing replied, liked, reposted, quoted or followed, and no ledger rows measured or appended.
+Viewport set to the reported 800x609 frame and reset to desktop.
+
+**Public header: 150 posts, 99 following, 29 followers** — unchanged across the 7pm news check, the 7:25pm follow
+queue and this round. The unexplained posting first flagged Sep 16 did not add anything in the last three hours,
+but the count is still four ahead of what the logged routines can account for.
+
+**Rand: this is roughly the thirty-fourth routine to stop here.** Sign the in-app browser in to @UncFund, or allow
+`mcp__claude-in-chrome__*` for this project so rounds can drive the signed-in Chrome profile. Until then no round
+can post, no `op` value can be read, and the praise lane cannot be judged.
+
+| Date | Where | Mode | What |
+|---|---|---|---|
+| 2026-09-17 8pm ET | Scheduled round | — | **Blocked: in-app browser still signed out of @UncFund.** Scheduler clean, nothing running. No replies, likes, reposts or reads. Public header: 150 posts, 99 following, 29 followers. |

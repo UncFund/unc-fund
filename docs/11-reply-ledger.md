@@ -865,3 +865,8 @@ until the account can be read again.
 
 **Round 4pm ET Sep 16 (20:10 UTC): no rows.** In-app browser still signed out of @UncFund. No views, likes or `op`
 values could be read; the pending rows listed above remain unmeasured.
+
+**Round 8pm ET Sep 17 (00:10 UTC Sep 18): no rows.** In-app browser still signed out. No views, likes or `op`
+values could be read. The praise lane still has four rows waiting on `op` reads (@kien_hoang18, @SashaMagicSpace,
+@duborges, plus the @therollupco and @Dkirtley rows never measured), one short of the five-row falsifier check,
+and that check stays impossible while every round is blind.
