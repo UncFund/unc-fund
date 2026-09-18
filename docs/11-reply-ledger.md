@@ -141,7 +141,7 @@ Three things to hold onto when reading these rows back:
 | 09-18 01:21 | @whysumancode | **7** | praise | 7 | 16 | 0.4 | 0 | 7 (54m) | 0 | n (54m) |
 | 09-18 02:22 | @SpaceX | **8** | oblivious | 103000 | 24 | 4,292 | 44 | pending | — | pending (due 04:22 Sep 18) |
 | 09-18 02:24 | @Cointelegraph | **9** | receipt+oc | 18000 | 52 | 346 | 23 | pending | — | pending (due 04:24 Sep 18) |
-| 09-18 02:28 | @harryjwang | **6** | praise | 5 | 22 | 0.2 | 0 | pending | — | pending (due 04:28 Sep 18) |
+| 09-18 02:28 | @harryjwang | **6** | praise | 5 | 22 | 0.2 | 0 | unreadable (signed out) | — | n (parent reply count still 1 = Unc's, read 16:20 Sep 18) |
 
 ### Sep 15, 16:09 round (12:09pm ET): both lanes plus a Helion quote
 
@@ -965,3 +965,31 @@ velocity question and to the praise-lane count (@harryjwang would be praise row 
 **Follower count is worth noting while it was visible: 31, up from 12 when the targeting rules were
 written.** Following is 106 against 31 followers, a 3.4:1 ratio — still high, but well down from the 5.8:1
 that paused following on Sep 9.
+
+**Round Sep 18, 12pm ET (16:09-16:25 UTC): NO ROWS APPENDED — browser still signed out of X.** Fourth
+consecutive blocked Unc routine (morning note 13:02, reply round 14:09, follow queue 15:26, this one).
+Nothing posted, no mentions answered, no likes. Logging in is not something this routine is permitted to
+do, so the block stands until Rand signs the in-app browser back into @UncFund.
+
+**But logged-out X is only PARTIALLY gated, which the last three blocked rounds did not test.** What still
+reads without a session, verified this round:
+- A stranger's profile renders its recent posts.
+- Any individual status page renders full text, the exact Eastern timestamp, the VIEW count and the REPLY
+  count. `@harryjwang`'s Suzuri parent read 41 views (was 5 when caught) and reply count 1.
+- Unc's own profile renders its five most recent posts (the Replies tab still returns "Something went
+  wrong", and the reply LIST on any status page is behind a "See all the replies / Continue to X" gate).
+
+So in a blocked round, PARENT views and PARENT reply counts are measurable; Unc's own reply-level views and
+likes are not. Where Unc was the ONLY reply on a parent, that is enough to settle `op` — which is how the
+`@harryjwang` row above is now closed as **n** rather than left pending.
+
+**@SpaceX (09-18 02:22) and @Cointelegraph (09-18 02:24) stay unreadable.** Both parents carried 44 and 23
+replies when Unc arrived, so a reply count tells us nothing about `op`, and the view counts on Unc's own
+replies need a session. If the account is still signed out on the next round, treat those two rows as lost
+rather than spending the round hunting them.
+
+**Praise lane, the honest count the playbook asked for.** Twenty-one `praise` rows logged, nineteen
+resolved. **Eight earned an OP reply**: @ESCOweb3 (09-12), @SebastienEgo, @PKodmad, @olivercingl,
+@not_fanti, @Motion_Viz, @Artur_Abra, @jean_ette_li. That is no longer n=1 and it is no longer a lane
+running on faith — it is roughly a 40 percent conversation rate against a velocity lane that has produced
+almost none. The falsifier written down on Sep 12 has been cleared. Keep running lane B.

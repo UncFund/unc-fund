@@ -5914,3 +5914,36 @@ the run on a permission prompt and block the next one.
 degraded by this, and the cost is compounding — today it is not just a missed reply window but twelve
 hours of unmeasured results and a missing morning note. Until it is restored, every scheduled Unc
 routine will report the same block.
+
+## Round Sep 18, 12pm ET — blocked, but the logged-out read channel is worth keeping
+
+Nothing posted. The in-app browser is signed out of @UncFund for the fourth Unc routine running, and
+signing back in is outside what these routines may do. The round spent its time measuring instead.
+
+**New and useful: a signed-out session is not a blind session.** Earlier blocked rounds concluded the
+timeline was entirely gated because `x.com/UncFund` shows a Follow button and the Replies tab errors out.
+That is true of the Replies tab only. What still works logged out:
+
+- Any individual status page — full post text, the exact timestamp rendered in **Eastern**, the view count
+  and the reply count.
+- A stranger's profile timeline, enough to find the status id of a parent Unc replied to.
+- Unc's own profile, five most recent posts.
+
+What does not: the reply list under any post (a "See all the replies / Continue to X" gate), Unc's own
+Replies tab, notifications, and therefore every reply-level view and like number.
+
+**The practical rule for a blocked round:** if Unc was the only reply on a parent, the parent's reply count
+settles `op` on its own. That closed the `@harryjwang` praise row as `n` instead of leaving it pending a
+third time. Where the parent already had many replies, do not bother — reply count carries no signal there
+and hunting the parent burns the budget for nothing.
+
+**Also worth recording: the X-native scheduler queue is still firing.** A post went out at 12:00pm ET today
+("Friday. Bed. Decks. PDF.") with no routine running and no session in the browser, because it was queued
+inside X itself. The profile shows no 9am morning note for Sep 18, which matches the morning-note run
+logging itself blocked. So the evergreen queue keeps the profile alive while the session is dead, but
+nothing that needs a live login — morning note, replies, mentions, follows, measurement — is happening.
+
+**The praise lane cleared its falsifier.** Twenty-one praise rows, nineteen resolved, **eight OP replies**.
+The Sep 12 instruction was to report honestly after about five rows and to tell Rand if it was still stuck
+at one. It is not: it is eight, roughly a 40 percent conversation rate, and it is the only lane that has
+ever reliably produced one. Lane B stays.

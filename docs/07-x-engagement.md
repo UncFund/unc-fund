@@ -3666,3 +3666,18 @@ That routine outranks the news check, so this run yielded per the concurrency ru
 nothing scanned, nothing posted. Note for whoever reads this: that run's last activity is ~55 minutes stale and
 its 10am entry above is already written but uncommitted, so it looks hung rather than active. If it is still
 "running" at the 1pm news check, the stuck session likely needs clearing by hand.
+
+## Sep 18, 12pm ET round — blocked, no repost or quote
+
+No repost, no quote post, no follows, no likes. The in-app browser is signed out of @UncFund and this is
+now the fourth Unc routine in a row to find it that way (morning note 13:02 UTC, reply round 14:09, follow
+queue 15:26, this round 16:09). **Rand needs to sign the in-app browser back into @UncFund; nothing else
+unblocks it.**
+
+Numbers readable without a session, for the record:
+- Profile header: **156 posts, 106 following, 31 followers.** Followers flat against yesterday's 31,
+  following flat at 106, ratio 3.4:1.
+- Recent own-post views are small and consistent with the pre-block trend: 7pm Sep 17 evergreen **12
+  views**, 4pm Sep 17 evergreen **10 views**.
+- The X-native scheduled queue is still posting on its own — a 12:00pm ET post went out today with no
+  session and no routine running. The 9am morning note did NOT go out, matching the blocked morning run.
