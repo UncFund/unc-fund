@@ -5811,3 +5811,55 @@ can post, no `op` value can be read, and the praise lane cannot be judged.
 | Date | Where | Mode | What |
 |---|---|---|---|
 | 2026-09-17 8pm ET | Scheduled round | — | **Blocked: in-app browser still signed out of @UncFund.** Scheduler clean, nothing running. No replies, likes, reposts or reads. Public header: 150 posts, 99 following, 29 followers. |
+
+### Round 2026-09-17, 8pm ET — unblocked mid-run, two replies, and the praise lane answers its question
+
+Rand signed the in-app browser in to @UncFund while the round was writing up its own blocked report. Scheduler
+was clean and with_replies showed nothing newer than Sep 16, so no concurrent round. Viewport set to the reported
+800x609 frame and reset to desktop at the end.
+
+**Lane A — @andyyy, 8 words, prop+oc.** Parent: "There are so many tokenization and institutional announcements
+coming next week." Caught at 33 minutes and 2,668 views, about 81 views a minute, which was the fastest clean
+climber on the Following tab by a wide margin. Reply: *"Unc is zipping the vest all the way."* The vest is
+normally zipped exactly halfway since 2011, so zipping it all the way is the prop paying off a running joke
+rather than restating it. It makes no claim about the plumbing, which is the trap in this register — the post is
+a teaser, and any line that named a number or predicted what ships next week would have been an error a crypto
+reader cannot tell from a joke.
+
+**Lane B — @whysumancode, 7 words, praise.** Day nine of building in public: 500+ downloads and 11 reviews, one
+day after launch. 7 views, 16 minutes old, zero replies, small account. Reply: *"Eleven reviews. That's the
+number Unc reads."* Praise the specific detail, and let Unc have a view about which metric counts without
+committing to anything. Downloads are the number he was proud of; reviews are the number that means somebody
+stayed. Under eight words, no question, no link, no commitment.
+
+**No repost or quote.** The @andyyy post is the kind of thing that normally qualifies as a news drop, but it
+reports a rumour about next week rather than a thing that happened. Quoting it would have meant predicting an
+outcome, which the register forbids. Liked four posts instead.
+
+**The praise lane is working and it is no longer n=1.** Twelve praise replies logged, five of them earned an OP
+reply. The velocity picks have earned none — not @paulg at 25K parent views, not @vladtenev at 15K, not
+@arbitrum at 5.9K. Keep running both lanes; they are buying different things and only one of them compounds.
+
+**Send mechanics — read this before the next round.** Three sends were attempted, two failed silently:
+
+1. Screenshot, then `scroll_to`, then click the Reply coordinate → the page reflowed between the screenshot and
+   the click and the click landed on the Grok button. Nothing posted.
+2. Capture the submit button's `ref` BEFORE opening the composer, then type and click that ref → stale ref, did
+   nothing. The composer cleared anyway, which is exactly the false confirmation the playbook warns about.
+3. `ctrl+Return` with the composer focused → did not send either, though it did leave an empty composer and the
+   parent's reply count ticked up from other people's replies, which together looked like success.
+
+What works, and it worked twice in a row: open the composer, type, take a FRESH screenshot, and click the Reply
+coordinate derived from that screenshot in the VERY NEXT tool call, with no scroll and no other action in
+between. Then verify on with_replies, always. The modal composer (click the parent's "N Replies. Reply" button,
+find "Post text" again, take the FIRST of the two refs) is the most stable version of this because the modal
+does not reflow while you work in it.
+
+**Housekeeping: the "unexplained posts" were never a mystery.** They fire at exact times on the hour — 16:00:01,
+20:00:00, 23:00:00 UTC — from X's own scheduled-post queue, and they are Unc's own written content. Nothing was
+compromised.
+
+| Date | Where | Mode | What |
+|---|---|---|---|
+| 2026-09-17 8pm ET | @andyyy, tokenization announcements | prop+oc | Unc is zipping the vest all the way. (8 words, lane A, 81 views/min parent) |
+| 2026-09-17 8pm ET | @whysumancode, day nine build-in-public | praise | Eleven reviews. That's the number Unc reads. (7 words, lane B, 7-view parent) |

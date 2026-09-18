@@ -131,12 +131,14 @@ Three things to hold onto when reading these rows back:
 | 09-15 14:13 | @paulg | **6** | self-own | 25456 | 51 | 499 (~460 now) | 48 | 137 (117m) | 1 | n |
 | 09-15 14:15 | @kien_hoang18 | **7** | praise | ~1 | 14 | ~0 | 0 | 3 (115m) | 0 | pending (due 02:15 Sep 16) |
 | 09-15 15:08 | @ronitrjain | **6** | react news | 2594 | 28 | 93 | 11 | 153 (61m, early) | 1 | n (OP liked at 15:59) |
-| 09-15 16:13 | @arbitrum | **5** | prop+oc | 5899 | 4 | ~1,340 | 2 | 102 (6h30m) | 0 | n |
-| 09-15 16:14 | @SashaMagicSpace | **5** | praise | 134 | 27 | 5 | 6 | 54 (6h30m) | **2** | pending (due 04:14 Sep 16) |
+| 09-15 16:13 | @arbitrum | **5** | prop+oc | 5899 | 4 | ~1,340 | 2 | 152 (57h) | 0 | n |
+| 09-15 16:14 | @SashaMagicSpace | **5** | praise | 134 | 27 | 5 | 6 | 67 (57h) | **2** | n |
 | 09-15 21:05 | @outdoorfarmshow | 20 | unlogged (not this session) | — | — | — | — | 2 (10m) | 0 | n |
-| 09-15 22:41 | @Dkirtley | **7** | own-thread | — | — | — | — | | | |
-| 09-15 22:46 | @duborges | **7** | praise | 84 | 8 | 10.5 | 1 | | | pending |
-| 09-15 22:49 | @therollupco | 10 | receipt+oc | 527 | 31 | 17 | 1 | | | |
+| 09-15 22:41 | @Dkirtley | **7** | own-thread | — | — | — | — | 5 (50h) | 0 | n |
+| 09-15 22:46 | @duborges | **7** | praise | 84 | 8 | 10.5 | 1 | 92 (50h) | 0 | n |
+| 09-15 22:49 | @therollupco | 10 | receipt+oc | 527 | 31 | 17 | 1 | 8 (50h) | 0 | n |
+| 09-18 01:18 | @andyyy | **8** | prop+oc | 2668 | 33 | 81 | 15 | 8 (5m) | 0 | pending (due 03:18 Sep 18) |
+| 09-18 01:21 | @whysumancode | **7** | praise | 7 | 16 | 0.4 | 0 | 1 (1m) | 0 | pending (due 03:21 Sep 18) |
 
 ### Sep 15, 16:09 round (12:09pm ET): both lanes plus a Helion quote
 
@@ -870,3 +872,31 @@ values could be read; the pending rows listed above remain unmeasured.
 values could be read. The praise lane still has four rows waiting on `op` reads (@kien_hoang18, @SashaMagicSpace,
 @duborges, plus the @therollupco and @Dkirtley rows never measured), one short of the five-row falsifier check,
 and that check stays impossible while every round is blind.
+
+**Round 8pm ET Sep 17 (01:10-01:45 UTC Sep 18): two rows, and the backlog is finally measured.** Rand signed the
+in-app browser in mid-run, so this is the first round since Sep 15 that could read or write anything.
+
+Two replies posted. Lane A: @andyyy, 8 words, `prop+oc` — "Unc is zipping the vest all the way." on his
+tokenization-announcements post, caught at 33 minutes and 2,668 views, about 81 views a minute, reply 16 of 16.
+Lane B: @whysumancode, 7 words, `praise` — "Eleven reviews. That's the number Unc reads." on a day-nine
+build-in-public milestone: 7 views, 16 minutes old, zero replies, exactly the slow-parent small-account shape the
+lane is meant to buy.
+
+Backlog cleared. @Dkirtley own-thread 5 views, @duborges 92, @therollupco 8, @SashaMagicSpace 67 with 2 likes,
+@arbitrum 152. None of those four OPs replied, so all go down `n`. @kien_hoang18 is still the one unread row —
+the with_replies scroll did not reach Sep 15 14:15 inside the round's time budget.
+
+**The praise lane now has twelve rows and five OP replies** (@olivercingl, @not_fanti, @Motion_Viz, @Artur_Abra,
+@jean_ette_li), against seven that got nothing. That is past the five-row falsifier check Rand asked for, and the
+answer is that the lane works: no other mode in this ledger has produced an OP reply at anything like 5-in-12,
+and the velocity picks — @paulg at 25K parent views, @vladtenev at 15K, @arbitrum at 5.9K — have produced none
+at all. Views and conversation really are coming from different posts.
+
+**Posting mechanics, for the next round.** Two send attempts failed silently before one worked, which is the
+old coordinate bug in a new costume. What failed: (1) clicking a Reply button at a coordinate read from a
+screenshot taken BEFORE a `scroll_to` — the page reflowed and the click landed on the Grok button; (2) clicking
+the composer's submit button by a `ref` captured BEFORE the composer was opened — stale, did nothing, and the
+composer cleared anyway. What worked, both times: open the composer, type, take a FRESH screenshot, and click the
+Reply coordinate from that screenshot in the VERY NEXT call with no scrolling in between. `ctrl+Return` in the
+composer also did not send. Verify on with_replies every time — both failures left an empty composer, and one of
+them also bumped the parent's reply count, so neither signal is worth anything.
