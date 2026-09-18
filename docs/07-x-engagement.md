@@ -3487,6 +3487,17 @@ vending machine 120 and 1, "Unc believes in you" 10.
   followers 29, 150 posts — identical to the 7pm news check 50 minutes earlier, so no new unexplained post this hour.
   Queue rows untouched: 35 still queued, starting at @OndoFinance. Still needs Rand to sign the in-app browser in to
   @UncFund.
+- 11:26am ET Sep 18 (15:26 UTC): stopped before any follow. Scheduler check clean — unc-reply-round succeeded 14:09 UTC,
+  unc-news-check succeeded 15:05 UTC, unc-premarket-post succeeded 13:02 UTC, none running — and the browser pane had no
+  page open at all, so nothing else was driving it. Step 5 check: the previous follow-queue run (7:56pm Sep 17) was
+  blocked, not reverted, so no two-revert pause applied. Opened x.com/UncFund/with_replies: the in-app browser is **still
+  signed out of @UncFund** — Log in / Sign up banner, a Follow button on Unc's own profile, no Post compose and no Edit
+  profile. Same state as the 9am morning note and the 10am reply round today. No login attempted (prohibited unattended).
+  Followed none, rejected none, reverted none, no list adds. Public counts unchanged through the run, but they have moved
+  since Sep 17: Following **106** (was 99), followers **31** (was 29), 161 posts (was 150) — so the account is being
+  driven from somewhere else, most likely Rand's Chrome on the work laptop. Worth a check that those seven extra follows
+  are not queue rows this file still shows as `queued`. Queue rows untouched: 35 still queued, starting at @OndoFinance.
+  Still needs Rand to sign the in-app browser in to @UncFund.
 
 ## Round at 00:09 UTC Sep 15 (8:09pm ET Sep 14): one own-thread answer, day still at the ceiling
 
