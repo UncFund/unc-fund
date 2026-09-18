@@ -3613,3 +3613,24 @@ stopped, on top of the in-app browser still being signed out of @UncFund.
 - Sep 17, 9:13pm ET news check, re-run after Rand signed in (01:13 UTC Sep 18): **SESSION RESTORED** — the in-app browser is signed in as @UncFund again, ending the 27-routine blocked streak that ran from Sep 16. x.com/UncFund showed Edit profile, the Post compose button and the You might like rail. Scheduler clean (reply round `succeeded` 00:11 UTC, follow queue `succeeded` 00:00 UTC); with_replies newest own activity was Sep 16 12:04 UTC, so no concurrent run and no yield. News check: no fresh drop. The News Desk List feed and a Latest search over `list:2099581050821194117` together covered the whole sub-30-minute window (11 posts, oldest 30m) and nothing qualified: @andyyy at 28m ("so many tokenization and institutional announcements coming next week", 2.3K views) is anticipation plus an explicit rumor-mill follow-up, not a drop, and quoting it would add a claim beyond what it reports; @andyyy at 25m was portfolio and bull-market talk (skip list); @laurashin at 30m was a SaaS-versus-AI opinion, not news; the rest were @siennacolee and @therollupco chatter. Nothing posted, quoted or reposted. Viewport set to the reported 800x609 frame and reset to desktop. Worth noting for the post-count mystery: signed in, Unc's newest own post on with_replies is Sep 16 12:04 UTC, so nothing has been posted from the account in the last day.
 - Sep 17, 8pm ET reply round (01:10-01:45 UTC Sep 18): **UNBLOCKED.** Rand signed the in-app browser in to @UncFund mid-run, ending roughly thirty-four consecutive blocked routines. Scheduler clean — unc-news-check `succeeded` 23:56 UTC, unc-follow-queue `succeeded` 00:00 UTC, unc-premarket-post `succeeded` 17:40 UTC — nothing running, no yield. Post-age check passed: newest post on with_replies was Sep 16, no concurrent round. **Two replies posted**: @andyyy (lane A, 8 words, on-chain register) and @whysumancode (lane B praise, 7 words). Liked 4: @whysumancode's milestone, @andyyy's tokenization post, @andyyy's Shark Tank post, @therollupco "The lads". No repost or quote — the best on-chain candidate was @andyyy's "announcements coming next week", which is a rumour/teaser rather than a reportable drop, and quoting it would mean predicting an outcome. Followed 0 (still paused). Public header: **150 posts, 99 following, 30 followers** — one follower gained since the 7:25pm follow queue.
 - **The "unexplained posting" mystery is solved, and it is nothing.** `from:UncFund` search shows the extra posts went out at 16:00:01, 20:00:00 and 23:00:00 UTC exactly — on the hour, to the second. These are posts pre-scheduled in X's own scheduler, firing regardless of whether any Claude routine can sign in. They are Unc's own content ("Every VC has an anti-portfolio", "Nephew update: he built the thing", "If you're pre-idea, that's fine"), not an intruder. The Sep 16 flag can be closed; no account compromise, and the post count running ahead of the logs is expected behaviour whenever the scheduled queue is loaded.
+
+## Sep 17, 10pm ET round (02:10-02:35 UTC Sep 18)
+
+**Followers: 30.** Up from 12 on Sep 15 — the account has more than doubled while following stayed at 99, so
+the ratio is now 3.3:1 rather than 5.8:1. Following is still paused per Rand's Sep 9 instruction.
+
+Three replies posted (@SpaceX, @Cointelegraph, @harryjwang) — see `11-reply-ledger.md`. Four likes attempted on
+@kiwicopple's Supabase growth post, @harryjwang's Suzuri post and two @whysumancode build-in-public posts; three
+confirmed registered.
+
+**No repost or quote post this round.** The Coinbase/Stablecore item via @Cointelegraph was a genuine qualifying
+on-chain news drop, but at 52 minutes it was past the ~30 minute cap for putting news on Unc's profile, so it got
+a reply only.
+
+**Queued follow candidate (not followed, per the pause):** @harryjwang — builds Suzuri, an open-source local-first
+markdown/LaTeX writing tool, posts sincere build-in-public updates with real contributor counts. Small, active,
+and exactly the founder profile the praise lane keeps finding value in.
+
+**News noted but not actionable:** @EleanorTerrett reported seven Senate Democrats committing to work in a
+bipartisan fashion to pass the Clarity Act. Eleven hours old by this round, and the underlying item is a group of
+named legislators, which the government-accounts rule keeps Unc away from regardless. Noted here for awareness.

@@ -5863,3 +5863,26 @@ compromised.
 |---|---|---|---|
 | 2026-09-17 8pm ET | @andyyy, tokenization announcements | prop+oc | Unc is zipping the vest all the way. (8 words, lane A, 81 views/min parent) |
 | 2026-09-17 8pm ET | @whysumancode, day nine build-in-public | praise | Eleven reviews. That's the number Unc reads. (7 words, lane B, 7-view parent) |
+
+## Round log: Sep 17, 10pm ET (02:10-02:35 UTC Sep 18)
+
+Three replies, two lanes, no repost. Full rows and reasoning in `11-reply-ledger.md`.
+
+- Lane A: **@SpaceX**, 8 words, oblivious — "Unc has a dentist appointment in 2028 too." Parent 103K views at
+  24 minutes, **4,292 views a minute**, the fastest parent ever taken.
+- Lane A, on-chain register: **@Cointelegraph**, 9 words, receipt+oc — "Candy dish in the lobby. Stablecoins in
+  the back." on Coinbase and Stablecore bringing stablecoin payments to community banks and credit unions.
+- Lane B: **@harryjwang**, 6 words, praise — "Bug reports are love letters, son." on an open-source
+  build-in-public post at 5 views, 22 minutes, zero replies.
+
+All three under ten words; two of three under nine. That is the length arm still being fed.
+
+**The freshness rule earned its keep tonight.** The best-looking setup on the board was @vladtenev on Robinhood
+Ventures putting $25M into Crusoe, 73K views, huge velocity. The relative label said "1h". `time[datetime]` said
+**119 minutes**. Skipped. A second candidate, @andyfang on DoorDash Dot, came in at 62 minutes and was skipped
+too. Reading the datetime rather than the label is the difference between a reply that rides a thread and one
+that lands in a dead one.
+
+**Register discipline note.** @therollupco posted at 12 minutes — fresh, on-topic, and the kind of thing the
+on-chain register exists for — but the framing was about what holding an L1's token does and does not capture.
+That is assets, not rails, and the register skips it however good the timing is.

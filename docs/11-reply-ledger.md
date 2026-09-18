@@ -137,8 +137,11 @@ Three things to hold onto when reading these rows back:
 | 09-15 22:41 | @Dkirtley | **7** | own-thread | — | — | — | — | 5 (50h) | 0 | n |
 | 09-15 22:46 | @duborges | **7** | praise | 84 | 8 | 10.5 | 1 | 92 (50h) | 0 | n |
 | 09-15 22:49 | @therollupco | 10 | receipt+oc | 527 | 31 | 17 | 1 | 8 (50h) | 0 | n |
-| 09-18 01:18 | @andyyy | **8** | prop+oc | 2668 | 33 | 81 | 15 | 8 (5m) | 0 | pending (due 03:18 Sep 18) |
-| 09-18 01:21 | @whysumancode | **7** | praise | 7 | 16 | 0.4 | 0 | 1 (1m) | 0 | pending (due 03:21 Sep 18) |
+| 09-18 01:18 | @andyyy | **8** | prop+oc | 2668 | 33 | 81 | 15 | 109 (56m) | 0 | n (56m) |
+| 09-18 01:21 | @whysumancode | **7** | praise | 7 | 16 | 0.4 | 0 | 7 (54m) | 0 | n (54m) |
+| 09-18 02:22 | @SpaceX | **8** | oblivious | 103000 | 24 | 4,292 | 44 | pending | — | pending (due 04:22 Sep 18) |
+| 09-18 02:24 | @Cointelegraph | **9** | receipt+oc | 18000 | 52 | 346 | 23 | pending | — | pending (due 04:24 Sep 18) |
+| 09-18 02:28 | @harryjwang | **6** | praise | 5 | 22 | 0.2 | 0 | pending | — | pending (due 04:28 Sep 18) |
 
 ### Sep 15, 16:09 round (12:09pm ET): both lanes plus a Helion quote
 
@@ -900,3 +903,49 @@ composer cleared anyway. What worked, both times: open the composer, type, take 
 Reply coordinate from that screenshot in the VERY NEXT call with no scrolling in between. `ctrl+Return` in the
 composer also did not send. Verify on with_replies every time — both failures left an empty composer, and one of
 them also bumped the parent's reply count, so neither signal is worth anything.
+
+### Sep 17, 10pm ET round (02:10-02:35 UTC Sep 18): three replies, two lanes, board was unusually good
+
+Second live round in a row — the in-app browser stayed signed in. Scheduler check clean (news check succeeded
+01:15, follow queue 00:00, morning note done); newest Unc post on with_replies was 48 minutes old, so no
+concurrent run. Followers are now **30**, up from 12 on Sep 15. Following 99.
+
+**Previous round measured, both at ~55 minutes.** @andyyy prop+oc took **109 views, 0 likes** on a 2,668-view
+parent caught at 81/min — roughly 1.3x parent velocity, right on the Sep 10 rule of thumb. @whysumancode praise
+took **7 views, 0 likes** on a 7-view parent, which is the lane B shape working as designed. Neither OP replied
+inside the hour; both go down `n`.
+
+**Lane A: @SpaceX, 8 words, `oblivious`.** "Unc has a dentist appointment in 2028 too." on the Falcon 9 /
+NASA StarBurst rideshare announcement — 103K views at 24 minutes, about **4,292 views a minute**, the fastest
+parent this ledger has ever recorded. Reply 45 of 44 existing. The oblivious-literal read (treating a 2028 launch
+window as a personal calendar conflict) passes the standalone test on its own.
+
+**Second lane A pick, on-chain register: @Cointelegraph, 9 words, `receipt+oc`.** "Candy dish in the lobby.
+Stablecoins in the back." on Coinbase teaming with Stablecore to bring custody, trading and stablecoin payments
+to community banks and credit unions — 18K views at 52 minutes, 346/min. Rails, not assets; no figure quoted
+beyond what the post reports.
+
+**Lane B: @harryjwang, 6 words, `praise`.** "Bug reports are love letters, son." on a sincere open-source
+build-in-public post about Suzuri getting community suggestions, bug reports and code contributions — 5 views,
+22 minutes old, **zero replies**. Exactly the slow-parent small-account shape the lane hunts, and the praise
+names the specific detail (bug reports) rather than the post.
+
+**Two candidates rejected on freshness, and the rule held.** @vladtenev on Robinhood Ventures' $25M into
+Crusoe was the single best venture-news setup on the board — 73K views — but `time[datetime]` put it at **119
+minutes**, so it was skipped under criterion (a) with no exception made. The relative label read "1h", which is
+exactly why the label is never trusted. @andyfang's DoorDash Dot post (YC reposted) was 62 minutes and skipped
+for the same reason.
+
+**Also skipped:** @therollupco at 12 minutes (L1 token value-capture framing — asset talk, fails the register's
+rails-not-assets rule), @joinfrontier "onchain traders are the new athletes" (trading), @leadlagreport on rate
+policy (skip list).
+
+**No repost or quote.** The Cointelegraph drop qualified on substance but was 52 minutes old, past the ~30
+minute cap for putting news on Unc's profile.
+
+**Posting mechanics held.** All three sends worked first time using the Sep 17 recipe: open composer, `form_input`
+by ref, `scroll_to` the composer, take a FRESH screenshot, click the Reply coordinate from that screenshot in the
+very next call. Two of the three needed a second screenshot because the pane rendered black on the first — worth
+knowing that a black screenshot means "not settled", not "not loaded", and re-shooting fixes it. Verified all
+three on `from:UncFund&f=live`, which renders faster than with_replies (the Cointelegraph reply was missing from
+with_replies for a full minute after it had actually sent — post count 153→154 was the earlier tell).
