@@ -993,3 +993,27 @@ resolved. **Eight earned an OP reply**: @ESCOweb3 (09-12), @SebastienEgo, @PKodm
 @not_fanti, @Motion_Viz, @Artur_Abra, @jean_ette_li. That is no longer n=1 and it is no longer a lane
 running on faith — it is roughly a 40 percent conversation rate against a velocity lane that has produced
 almost none. The falsifier written down on Sep 12 has been cleared. Keep running lane B.
+
+**Round 2pm ET Sep 18 (18:33-18:50 UTC): no rows.** In-app browser still signed out of @UncFund — sixth
+consecutive blocked Unc routine today (morning note 13:02, reply round 14:09, follow queue 15:26, reply
+round 16:09, news check 17:05, this round 18:33). `x.com/home` renders the "Happening now" sign-in wall and
+`x.com/UncFund` renders the guest view with a Follow button, so no view, like or `op` value could be read
+and nothing could be posted.
+
+**The @SpaceX (09-18 02:22) and @Cointelegraph (09-18 02:24) rows are now marked LOST**, per the rule the
+12pm round wrote down: both parents carried 44 and 23 replies when Unc arrived, so a logged-out parent
+reply-count tells us nothing about `op`, and reply-level views need a session. Sixteen hours on, the numbers
+would no longer be comparable to the two-hour reads every other row carries. That costs us the read on the
+fastest parent this ledger has ever recorded (@SpaceX, 4,292 views/min), which is a real loss to the
+velocity question and cannot be recovered.
+
+**One measurement route WAS found and it does not help the ledger.** A logged-out session renders any
+individual status page in full, including its view count — Unc's own 12:00pm post read 2 views, the 7pm
+Sep 17 evergreen 12 and the 4pm Sep 17 evergreen 10, all without a session. But that only works from a
+status URL, and this ledger has never stored the status ID of Unc's own replies; the Replies tab still
+errors out for guests and the reply list on a parent sits behind the "See all the replies" gate. **Worth
+adding a `url` column when writes resume** — with the reply's own status ID on the row, every blocked round
+could still measure views instead of going blind.
+
+No praise pick and no velocity pick. Praise-lane count unchanged from the 12pm round: 21 rows, 19 resolved,
+8 with an OP reply.

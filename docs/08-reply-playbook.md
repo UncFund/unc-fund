@@ -5947,3 +5947,28 @@ nothing that needs a live login — morning note, replies, mentions, follows, me
 The Sep 12 instruction was to report honestly after about five rows and to tell Rand if it was still stuck
 at one. It is not: it is eight, roughly a 40 percent conversation rate, and it is the only lane that has
 ever reliably produced one. Lane B stays.
+
+**Round Sep 18, 2pm ET (18:33-18:50 UTC): NO REPLIES — browser still signed out of X.** Sixth
+consecutive blocked Unc routine today. Scheduler check was clean first (news check succeeded 18:33,
+follow queue 15:26, morning note 13:02, none running), and the concurrent-run check passed too — the
+newest post on the profile was two hours old. Then `x.com/home` returned the logged-out "Happening now"
+sign-in wall and `x.com/UncFund` the guest view with a Follow button, which ends the round: no timeline,
+no mentions, no likes, no measurement.
+
+**The useful finding this round: the account is healthy, only the in-app browser session is not.** X's
+own scheduled queue is still publishing Unc's evergreen posts on the hour with no session and no routine
+involved — 12:00pm ET today, 7:00pm and 4:00pm ET Sep 17. So nothing is wrong at the platform or account
+level and this is not a write block in disguise (which is what Sep 9 initially looked like). It is one
+signed-out browser profile and one manual login away from being fixed.
+
+**A partial measurement route exists, and it argues for a ledger change.** Logged-out X renders any
+INDIVIDUAL status page complete with its view count — today's 12:00pm post read 2 views, the Sep 17 7pm
+evergreen 12, the Sep 17 4pm evergreen 10. What it will not render is Unc's Replies tab ("Something went
+wrong") or the reply list under a parent (gated behind "See all the replies"), so a reply can only be read
+if its status URL is already known. The ledger does not store one. Adding a `url` column to
+`11-reply-ledger.md` when writes resume would make every future blocked round still able to read views
+and likes instead of going blind, which would have saved the @SpaceX and @Cointelegraph rows now written
+off as lost.
+
+Profile, logged-out: **156 posts, 106 following, 30 followers** — followers down one from 31 yesterday,
+ratio 3.5:1. Post count flat at 156 since the 12:00pm queued post.

@@ -3699,3 +3699,31 @@ Numbers readable logged-out, unchanged from the 12pm round: **156 posts, 106 fol
 (ratio 3.4:1). Post count flat at 156 since the X-native queue's 12:00pm post, so nothing went out at 1pm.
 
 **Still needs a manual X login as @UncFund in the in-app browser. Nothing else unblocks any of these routines.**
+
+## Sep 18, 2:33pm ET — reply round: blocked, sixth straight signed-out routine
+
+Scheduler check clean (news check succeeded 18:33 UTC, follow queue 15:26, morning note 13:02, none running,
+no yield needed). Concurrent-run check passed — newest post on the profile was two hours old. Then the block:
+`x.com/home` renders the logged-out "Happening now" sign-in wall, `x.com/UncFund` the guest view with a Follow
+button and a "Don't miss what's happening" banner. Per the routine, no login was attempted.
+
+Six consecutive blocked Unc routines today: morning note 13:02, reply round 14:09, follow queue 15:26, reply
+round 16:09, news check 17:05, reply round 18:33. Nothing posted, no mentions read, no likes, no reposts or
+quotes, and no reply-level measurement.
+
+Logged-out numbers: **156 posts, 106 following, 30 followers** (ratio 3.5:1). Followers **down one** from 31 —
+first decline recorded. Post count flat at 156 since the X-native 12:00pm queued post.
+
+**Account health is fine; the session is the whole problem.** X's own scheduled queue keeps publishing without
+a browser session — 12:00pm ET today (2 views), 7:00pm ET Sep 17 (12 views), 4:00pm ET Sep 17 (10 views). None
+of those came from a routine. So this is not a platform write block and not an account restriction, which is
+worth stating plainly because the Sep 9 incident looked identical from inside a blocked round and was
+misdiagnosed as a platform problem.
+
+**What a logged-out session CAN still read, refined this round.** Any individual status page renders in full
+with its view count, from a direct URL. The Replies tab does not render for guests, and the reply list under a
+parent is gated. Practical consequence: Unc's own replies are unmeasurable only because the ledger does not
+record their status URLs — see the `url` column proposal now written into `08-reply-playbook.md` and
+`11-reply-ledger.md`.
+
+**Still needs a manual X login as @UncFund in the in-app browser. Nothing else unblocks any of these routines.**
