@@ -3498,6 +3498,14 @@ vending machine 120 and 1, "Unc believes in you" 10.
   driven from somewhere else, most likely Rand's Chrome on the work laptop. Worth a check that those seven extra follows
   are not queue rows this file still shows as `queued`. Queue rows untouched: 35 still queued, starting at @OndoFinance.
   Still needs Rand to sign the in-app browser in to @UncFund.
+- 3:26pm ET Sep 18 (19:26 UTC): **yielded, unc-news-check running.** The scheduler showed the 3:05pm news check still
+  `running` 20 minutes after it started (19:05:43 UTC), and a news check outranks the follow queue on the Sep 15
+  tie-break order, so this run touched the browser not at all — no page loaded, no profile opened, no button clicked.
+  The other two were clear (unc-reply-round succeeded 18:33 UTC, unc-premarket-post succeeded 13:02 UTC). Followed none,
+  rejected none, reverted none, no list adds; counts unread by this run, and the news check recorded them unchanged at
+  156 posts, 106 following, 30 followers. Queue rows untouched: 35 still queued, starting at @OndoFinance. Note that a
+  yield was academic here — every Unc routine today has been blocked signed out, so there was nothing to follow with
+  even if the browser had been free. Still needs Rand to sign the in-app browser in to @UncFund.
 
 ## Round at 00:09 UTC Sep 15 (8:09pm ET Sep 14): one own-thread answer, day still at the ceiling
 
@@ -3727,3 +3735,23 @@ record their status URLs — see the `url` column proposal now written into `08-
 `11-reply-ledger.md`.
 
 **Still needs a manual X login as @UncFund in the in-app browser. Nothing else unblocks any of these routines.**
+
+## Sep 18, 3:05pm ET — news check: blocked, signed out (seventh consecutive)
+
+Scheduler check clean: reply round succeeded 18:33 UTC, follow queue 15:26, morning note 13:02, none running,
+no yield needed. `x.com/UncFund` still renders the guest view — a Follow button and the "Log in or sign up for
+X" panel, no compose link. Per the routine, no login was attempted. Nothing posted, no reply, no quote, no
+repost.
+
+**New this round: the Unc News Desk List is fully gated to guests.** `x.com/i/lists/2099581050821194117`
+does not render a degraded or partial view — it redirects to the logged-out "Happening now" sign-in wall with
+no timeline at all. This is a sharper block than the one the reply rounds hit: those can still read an
+individual status page by direct URL and pull its view count, so they retain some measurement value while
+signed out. A news check has **no** degraded mode. Scanning the List is its entire first step, and there is no
+direct-URL fallback because the whole point is discovering posts whose URLs are not yet known. So every news
+check will be a total no-op until the session is restored, and these runs are worth nothing beyond this log
+entry until then.
+
+Logged-out profile numbers unchanged from 18:33 UTC: 156 posts, 106 following, 30 followers.
+
+**Still needs a manual X login as @UncFund in the in-app browser.**
