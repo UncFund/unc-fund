@@ -3634,3 +3634,24 @@ and exactly the founder profile the praise lane keeps finding value in.
 **News noted but not actionable:** @EleanorTerrett reported seven Senate Democrats committing to work in a
 bipartisan fashion to pass the Clarity Act. Eleven hours old by this round, and the underlying item is a group of
 named legislators, which the government-accounts rule keeps Unc away from regardless. Noted here for awareness.
+
+## Sep 18, 10am ET — reply round blocked, signed out
+
+Second consecutive routine blocked by the in-app browser being signed out of @UncFund (the 9am morning
+note was the first). No replies, no likes, no repost, no quote post. No measurement either: logged-out
+X gates the whole timeline, so the three pending ledger rows from last night (@SpaceX, @Cointelegraph,
+@harryjwang) went unread and are now ~12 hours overdue.
+
+Only datum captured: **155 posts, 106 following, 31 followers.** Followers are up from 12 when the
+Sep 9 targeting rules were written; the following ratio is down from 5.8:1 to 3.4:1 with following
+still paused. Post count unchanged from last night confirms the 9am morning note did not send.
+
+Needs a manual X login before the next round can do anything.
+
+## Sep 18, 11:06am ET — news check: yielded, unc-reply-round running
+
+Scheduler check showed unc-reply-round with status "running" (started 10:09am ET, last activity 10:11am ET).
+That routine outranks the news check, so this run yielded per the concurrency rule: no browser session opened,
+nothing scanned, nothing posted. Note for whoever reads this: that run's last activity is ~55 minutes stale and
+its 10am entry above is already written but uncommitted, so it looks hung rather than active. If it is still
+"running" at the 1pm news check, the stuck session likely needs clearing by hand.

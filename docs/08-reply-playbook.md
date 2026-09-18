@@ -5886,3 +5886,31 @@ that lands in a dead one.
 **Register discipline note.** @therollupco posted at 12 minutes — fresh, on-topic, and the kind of thing the
 on-chain register exists for — but the framing was about what holding an L1's token does and does not capture.
 That is assets, not rails, and the register skips it however good the timing is.
+
+## Round log: Sep 18, 10am ET (14:09-14:20 UTC)
+
+**Nothing posted. The in-app browser is signed out of X and cannot be signed back in from a scheduled
+run.** This is the second consecutive Unc routine blocked the same way — the 9am morning note hit it
+first this morning, and a news check hit it on the evening of Sep 17 before the session was restored
+by hand.
+
+What the logged-out browser still showed: the profile header only. **155 posts, 106 following, 31
+followers.** Everything else is gated — the Replies tab returns "Something went wrong. Try reloading."
+and the Posts tab renders an empty timeline. No search, no notifications, no Following tab, no view
+counts.
+
+**The post count proves the 9am morning note never sent.** Last night's round ended at 155 (the three
+replies took it 152 to 155). It is still 155 at 10am, so nothing posted this morning. **There is no
+morning note on the board today**, which means step 1 of the round — answering pitches in Unc's own
+thread, the highest-value thing a round does at 455-618 views a reply — has nothing to work with until
+a note goes out. Worth considering a catch-up note once the session is restored rather than waiting for
+Monday's slot.
+
+**Nothing was retried and nothing was forced.** Signing back in would mean entering credentials, which
+is off the table for an unattended run on both counts: it is a prohibited action, and it would freeze
+the run on a permission prompt and block the next one.
+
+**RAND: the in-app browser needs a manual X login for @UncFund.** Three rounds in a row have now been
+degraded by this, and the cost is compounding — today it is not just a missed reply window but twelve
+hours of unmeasured results and a missing morning note. Until it is restored, every scheduled Unc
+routine will report the same block.

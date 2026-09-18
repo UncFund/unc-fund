@@ -949,3 +949,19 @@ very next call. Two of the three needed a second screenshot because the pane ren
 knowing that a black screenshot means "not settled", not "not loaded", and re-shooting fixes it. Verified all
 three on `from:UncFund&f=live`, which renders faster than with_replies (the Cointelegraph reply was missing from
 with_replies for a full minute after it had actually sent — post count 153→154 was the earlier tell).
+
+**Round Sep 18, 10am ET (14:09-14:20 UTC): NO ROWS APPENDED — browser signed out of X.** The in-app
+browser is logged out of @UncFund, so nothing could be posted and, more importantly, **nothing could be
+measured**. Logged-out X now gates the entire timeline: the profile header renders (155 posts, 106
+following, 31 followers) but the Replies tab returns "Something went wrong. Try reloading." and the
+Posts tab renders zero posts. No view counts, no like counts, no OP check.
+
+**Three rows are still pending and are now overdue:** @SpaceX (09-18 02:22), @Cointelegraph (09-18 02:24)
+and @harryjwang (09-18 02:28). They were due at 04:22-04:28 UTC and are now ~12 hours old. The first
+round that gets a signed-in session must read all three before doing anything else — they include the
+fastest parent this ledger has ever recorded (@SpaceX at 4,292 views/min), so the numbers matter to the
+velocity question and to the praise-lane count (@harryjwang would be praise row thirteen).
+
+**Follower count is worth noting while it was visible: 31, up from 12 when the targeting rules were
+written.** Following is 106 against 31 followers, a 3.4:1 ratio — still high, but well down from the 5.8:1
+that paused following on Sep 9.
