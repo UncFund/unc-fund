@@ -36,6 +36,7 @@ before an invitation can work — at which point the reply-guy rounds carry the 
 | 2026-09-15 | Tuesday | line | Unc spent twenty minutes this morning looking for the readers on his forehead. / Founders: the fix is closer than you think. | | | |
 | 2026-09-16 | Wednesday | — (blocked) | Nothing posted. Run fired 9:02 AM ET on time, but the in-app browser is signed out of X (Log in / Sign up banner on x.com/UncFund). No login attempted; manual sign-in needed. | — | — | — |
 | 2026-09-17 | Thursday | — (skipped + blocked) | Nothing posted. Run fired 1:39 PM ET, past the ~1:00 PM cutoff, so a funny morning line would have read wrong anyway. The in-app browser is also still signed out of X. | — | — | — |
+| 2026-09-18 | Friday | — (blocked) | Nothing posted. Run fired 9:02 AM ET, on time and inside the window. The in-app browser is signed out of X again: x.com/UncFund renders the logged-out profile and x.com/home redirects to the login splash. No login attempted. Post held: "It's Friday. Unc's chair is free all weekend and he'd rather read pitches than watch anything. / One line on your company. Drop it below." | — | — | — |
 
 Note on 2026-09-12: the scheduled run landed at **1:42 PM Eastern**, four hours forty-two minutes
 after the 9:00 slot and past the ~1:00 PM cutoff — a morning note in the afternoon reads wrong, so
@@ -64,6 +65,27 @@ in-app browser back in as @UncFund.
 One thing the logged-out profile did show: followers now read **28, up from 12** when the format
 changed on Sep 10. That is the audience the invitation experiment was waiting on, so the
 invitation-versus-line comparison is worth restarting properly once sign-in is restored.
+
+Note on 2026-09-18: the timing was finally right — the run landed at **9:02 AM Eastern**, two
+minutes after the slot, on a Friday, which is an invitation morning. The only thing missing was a
+session. The in-app browser is **signed out of X again**, despite the Sep 17 8pm round reporting the
+session restored and two replies posted. Both checks agree: x.com/UncFund renders the logged-out
+profile with a Follow button and a "New to X?" sidebar, and x.com/home redirects to the
+"Happening now" login splash. No login was attempted.
+
+That the session came back on Sep 17 and is gone again by Sep 18 morning suggests it is **expiring
+or being dropped between runs** rather than simply never having been established. Worth checking
+whether the in-app browser persists cookies across runs at all, because a sign-in that only survives
+a few hours will keep breaking this slot and the reply rounds.
+
+The logged-out profile still reports public counts: **155 posts, 106 following, 31 followers** — up
+from 28 on Sep 17. The audience is growing while the account cannot post to it.
+
+The Friday invitation was written and held rather than discarded, so it can go out in the next run
+that has a session, if that run is still before ~1:00 PM Eastern:
+
+> It's Friday. Unc's chair is free all weekend and he'd rather read pitches than watch anything.
+> One line on your company. Drop it below.
 
 ## Premarket history (retired 2026-09-10)
 
