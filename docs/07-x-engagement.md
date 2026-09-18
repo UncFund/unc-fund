@@ -3681,3 +3681,21 @@ Numbers readable without a session, for the record:
   views**, 4pm Sep 17 evergreen **10 views**.
 - The X-native scheduled queue is still posting on its own — a 12:00pm ET post went out today with no
   session and no routine running. The 9am morning note did NOT go out, matching the blocked morning run.
+
+## Sep 18, 1:05pm ET — news check: blocked, still signed out
+
+Scheduler clear: reply round, follow queue and morning note all "succeeded", none running, so no yield.
+The in-app browser opened with no tab at all; loading https://x.com/UncFund gave the logged-out view —
+"Log in or sign up for X" rail, a Follow button, "Continue to X" interstitial, and no "Post text"
+composer anywhere (the only compose-shaped element is the logged-out `/compose/post?text=%40UncFund+`
+intent link). Per the routine, no login was attempted.
+
+That makes **five consecutive Unc routines blocked by the same signed-out session** today: morning note
+13:02 UTC, reply round 14:09, follow queue 15:26, reply round 16:09, this news check 17:05. The News Desk
+List is private, so a signed-out session cannot read it at all — this run could not scan for drops even
+in principle, let alone reply or quote.
+
+Numbers readable logged-out, unchanged from the 12pm round: **156 posts, 106 following, 31 followers**
+(ratio 3.4:1). Post count flat at 156 since the X-native queue's 12:00pm post, so nothing went out at 1pm.
+
+**Still needs a manual X login as @UncFund in the in-app browser. Nothing else unblocks any of these routines.**
