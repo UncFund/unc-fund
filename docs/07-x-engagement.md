@@ -3506,6 +3506,22 @@ vending machine 120 and 1, "Unc believes in you" 10.
   156 posts, 106 following, 30 followers. Queue rows untouched: 35 still queued, starting at @OndoFinance. Note that a
   yield was academic here — every Unc routine today has been blocked signed out, so there was nothing to follow with
   even if the browser had been free. Still needs Rand to sign the in-app browser in to @UncFund.
+- 9:28pm ET Sep 18 (01:28 UTC Sep 19, the 7:25pm slot firing two hours late): **yielded again, same unc-news-check run
+  still `running`.** This is the second consecutive yield to *one* session — the 3:05pm news check
+  (`local_5db87daa-5f44-4caf-8af1-3adfbf6e737a`, started 19:05:43 UTC) whose last activity was 19:06:47 UTC, one minute
+  in. It has now been silent for **6 hours 21 minutes** while still reported `running`, and a news check outranks the
+  follow queue on the tie-break order, so the rule as written (higher priority, or started more than 2 minutes ago)
+  yields to it every single time. That is a deadlock, not a race: nothing will clear it on its own, and the 11:25am,
+  3:25pm and 7:25pm slots will keep yielding until the dead session is stopped. **Rand needs to stop that session
+  manually** (Runs pane for unc-news-check, or /stop on it); this routine's approved toolset has no way to kill another
+  run, so it did not try. The delayed firing of this slot — 9:28pm rather than 7:25pm — is the same jam the 9pm reply
+  round recorded.
+  The other two were clear: unc-reply-round succeeded 01:26 UTC (the 9:23pm round), unc-premarket-post succeeded
+  13:02 UTC. Step 5 check: no revert in the previous entry, so no two-revert pause applied. The browser was not touched
+  at all — no page loaded, no profile opened, no button clicked. Followed none, rejected none, reverted none, no list
+  adds, counts unread by this run. Queue rows untouched: 35 still queued, starting at @OndoFinance. As with the 3:26pm
+  yield this was academic — every Unc routine since Sep 15 has been blocked signed out, so the follow queue still needs
+  Rand to sign the in-app browser in to @UncFund before it can move at all.
 
 ## Round at 00:09 UTC Sep 15 (8:09pm ET Sep 14): one own-thread answer, day still at the ceiling
 
