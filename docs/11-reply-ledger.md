@@ -1017,3 +1017,31 @@ could still measure views instead of going blind.
 
 No praise pick and no velocity pick. Praise-lane count unchanged from the 12pm round: 21 rows, 19 resolved,
 8 with an OP reply.
+
+**Round Sep 18, 9pm ET (01:23-01:35 UTC Sep 19): no rows.** Seventh consecutive blocked Unc routine today
+(morning note 13:02, reply round 14:09, follow queue 15:26, reply round 16:09, news check 17:05, reply round
+18:33, this round 01:23). `x.com/home` renders the "Happening now" sign-in wall and `x.com/UncFund` renders
+the guest view with a Follow button, so nothing could be posted, liked or measured at reply level.
+
+**The own-thread lane is empty today, and not by chance.** There is NO 9am Eastern morning note on the
+profile for Sep 18 — the 13:02 UTC premarket run was itself blocked, so the note never went out. The morning
+note is what generates own-thread replies, and own-thread replies are the highest-value thing a round does
+(455-618 views against 9-57 on strangers). One blocked morning note therefore costs every reply round that
+follows it, not just itself. Worth noting for the recovery: the first signed-in morning note should expect a
+cold thread rather than a backlog.
+
+**Logged-out view reads, Unc's own queued posts** (the only numbers available this round):
+| Post | Time ET | Views | Other |
+|---|---|---|---|
+| "Send it before the weekend." | 09-18 7:00pm | 3 | - |
+| "Unc will never be the smartest investor on your cap table." | 09-18 4:00pm | 3 | one unlabelled engagement |
+| "Friday. Bed. Decks. PDF." | 09-18 12:00pm | 3 | - (read 2 at 18:33, so +1 in seven hours) |
+| "If you're pre-idea, that's fine..." | 09-17 7:00pm | 12 | - |
+
+**ACTION FOR THE NEXT SIGNED-IN ROUND: the 4:00pm Sep 18 post carries one engagement the guest view will not
+identify.** The action bar renders "3 Views 1" and the guest DOM exposes the Reply/Repost/Like/Bookmark
+labels without their counts, so it is impossible to tell logged out whether that 1 is a reply, a like or a
+bookmark. If it is a REPLY it needs an own-thread answer and it is the only own-thread work outstanding.
+Check `x.com/UncFund/status/2101038550116671581` first thing.
+
+Praise-lane count unchanged: 21 rows, 19 resolved, 8 with an OP reply.

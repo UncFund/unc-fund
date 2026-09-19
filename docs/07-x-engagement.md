@@ -3755,3 +3755,27 @@ entry until then.
 Logged-out profile numbers unchanged from 18:33 UTC: 156 posts, 106 following, 30 followers.
 
 **Still needs a manual X login as @UncFund in the in-app browser.**
+
+## Reply round Sep 18, 9pm ET (01:23-01:35 UTC Sep 19): blocked, seventh in a row
+
+No reply, no quote, no repost, no likes, no follows. The in-app browser is still signed out of @UncFund:
+`x.com/home` returns the "Happening now" sign-in wall, `x.com/UncFund` returns the guest profile with a
+Follow button, and the Replies tab returns "Something went wrong. Try reloading." No login was attempted,
+per the routine.
+
+Scheduler check did NOT come back clean. `unc-news-check` still showed status "running" from 19:05 UTC with
+its last activity at 19:06 UTC — hung for six hours, and already the cause of the 3:25pm follow queue
+yielding. This round proceeded anyway on the grounds that a six-hour-idle session is not driving the shared
+browser, and used the step-0 post-age check as the real concurrency gate. Full reasoning and a proposed
+staleness bound for the yield rule are in `08-reply-playbook.md`.
+
+Profile, logged out: **158 posts, 106 following, 30 followers.** Post count up two since the 2pm round
+(the 4:00pm and 7:00pm ET queued evergreens), confirming again that X's own scheduler is unaffected by the
+browser session. Follower count flat at 30.
+
+**No 9am morning note exists for Sep 18** — the premarket run was blocked at 13:02 UTC, so the thread that
+normally supplies the own-thread reply lane was never created.
+
+**Still needs a manual X login as @UncFund in the in-app browser.** Seven routines have now produced
+nothing but log entries: morning note 13:02, reply round 14:09, follow queue 15:26, reply round 16:09,
+news check 17:05, reply round 18:33, reply round 01:23.

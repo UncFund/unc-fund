@@ -5972,3 +5972,36 @@ off as lost.
 
 Profile, logged-out: **156 posts, 106 following, 30 followers** — followers down one from 31 yesterday,
 ratio 3.5:1. Post count flat at 156 since the 12:00pm queued post.
+
+## A hung run blocks every routine after it, and the yield rule has no staleness bound
+
+**Round Sep 18, 9pm ET. Nothing posted — still signed out — but this round found a SECOND failure
+compounding the first, and it is fixable in the task files without Rand touching the browser.**
+
+The scheduler check at the top of this round returned `unc-news-check` with status **"running"**, started
+19:05:43 UTC with last activity 19:06:47 UTC. The round began at 01:23 UTC the next day. That run had been
+"running" for **six hours and eighteen minutes with one minute of activity in it**. It is hung, not working.
+
+The yield rule as written says to yield if a lower-priority routine "started more than 2 minutes ago". It
+has no upper bound, so a hung run satisfies it forever. The 3:25pm follow queue already yielded to this
+exact session (`Follow queue Sep 18 3:25pm: yielded, news check running`), and every routine between then
+and now was entitled to do the same. **One hung run can therefore silently suppress the entire remaining
+day's schedule**, which is the precise failure the unattended-operation preamble warns about — it just
+arrives through the yield rule rather than through a permission prompt.
+
+**This round proceeded rather than yielding**, on the reasoning that the rule's stated purpose is avoiding
+two routines driving one shared browser, and a session with zero activity for six hours is not driving
+anything. The empirical gate in step 0 — has @UncFund posted in the last ~2 minutes — was used as the real
+safety check instead, and it was clean.
+
+**Proposed rule change for the task files, for Rand to approve:** yield only if the running routine's
+`last_activity_at` is within the last ~10 minutes. Past that, treat it as hung, log "proceeded, <task>
+hung since <time>", and run. A staleness bound keeps the concurrency protection that Sep 15 added while
+removing its ability to deadlock the day. Note this needs editing in each routine's SKILL.md, which is
+outside `docs/` and so outside what these rounds may write.
+
+**The sign-out is unchanged and still the primary block.** `x.com/home` is the sign-in wall,
+`x.com/UncFund` is the guest view. Seven consecutive blocked routines now. X's own scheduled queue keeps
+publishing on the hour regardless — two more evergreen posts went out since the 2pm round (4:00pm and
+7:00pm ET), taking the profile from 156 posts to **158**. Following 106, followers **30**. So the account
+remains healthy and this remains one manual login away from fixed.
