@@ -6010,3 +6010,6 @@ remains healthy and this remains one manual login away from fixed.
 Browser still signed out of X; nothing posted, nothing measured. The hung Sep 18 news-check run is still
 reported as "running" and still deadlocks the scheduler check. The staleness-bound rule proposed on Sep 18
 is still awaiting Rand's approval. Ledger rows from before Sep 18 remain unmeasured.
+**Sep 22, later:** Rand approved the staleness bound. unc-reply-round, unc-news-check and unc-follow-queue
+SKILL.md now treat a "running" run whose last_activity_at is over 10 minutes old as hung and proceed.
+A re-run attempted right after was blocked: the browser is still signed out of @UncFund.
