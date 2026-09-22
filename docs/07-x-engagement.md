@@ -3921,3 +3921,31 @@ here per the paused-following rule rather than followed.
   regardless: the day is at 8 timeline replies against the ceiling of 10, and the news check skips the
   reply at eight or more. Reposts/quotes today: 3 of 4 (10:12am @MollySOShea repost, 2:14pm @ycombinator
   quote, 4:21pm @SnorkelAI repost), so the last slot stays open for the 6pm round.
+
+- Sep 22, 6:09pm ET (22:09-22:40 UTC) reply round: **nothing posted.** Scheduler clear (news check
+  succeeded 21:05, follow queue 19:47, morning note 14:08; the only running reply-round was this
+  session, so no yield). The concurrency check found two @UncFund replies eleven and fifteen minutes
+  old that this session did not write — a `from:UncFund` Latest search resolved them to **six replies
+  Rand hand-posted between 21:49 and 21:58 UTC** to @asdhas9082, @ESCOweb3, @RobinhoodCrypto,
+  @garrytan, @sama and @stanleefounder. Day total therefore **14 timeline replies against the ceiling
+  of 10**, so the round posted no timeline reply. Mentions empty, no outstanding own-thread item, no
+  OP reply since the last round. Four likes (@stanleefounder, @sama, @Teknium, @MorganVonDruitt).
+  Reposts/quotes today stay at 3 of 4 — the last slot went unused because no drop qualified.
+- **For Rand:** the scheduled rounds count the day's replies off the profile, so hand-posted replies
+  are invisible to them until the next round loads. Six at once put the day four over the cap without
+  any round being able to see it coming. Two of them were the identical line "Unc is proud of you",
+  sent to two different strangers ninety seconds apart, which is the repeated-template pattern the
+  cadence rules exist to prevent. Worth a heads-up to the rounds if hand-posting is going to be
+  regular. Separately, those picks got reach the rounds have not: 210 views in twelve minutes on
+  @stanleefounder, 351 in nineteen on @RobinhoodCrypto.
+- **Skipped news drop, recorded because it was a close call:** @ycombinator at 17 minutes on Earendil
+  Robotics (autonomous drone interceptors). A real company spotlight inside the 30-minute window and
+  the only qualifying drop on the board. Skipped on the prime directive — defense and weapons are
+  divisive enough that any warm Unc line under attack drones fails the ten-thousand-strangers test,
+  even though nothing on the literal skip list names the category. Suggest adding defense and weapons
+  to the skip list explicitly so later rounds do not have to re-derive this.
+- **Browser note:** `with_replies` did not render seven of the account's recent replies, including
+  both from the 4pm round. `x.com/search?q=from%3AUncFund&f=live` returned every one of them with
+  target handle and view count in a single pass. Use the search, not the profile, to audit what the
+  account has actually posted. Also: a like's first click can be eaten as a focus event — verify by
+  reading `data-testid` for `unlike`, never by the screenshot.

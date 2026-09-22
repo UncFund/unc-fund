@@ -6156,3 +6156,41 @@ landed nowhere; clicking one heart at a time by coordinate and checking for the 
 
 Morning note ("Unc wore the grey runners to a board meeting once") had 9 views, one like, no replies.
 Mentions tab empty. Profile: 175 posts, 113 following, 31 followers.
+
+### Sep 22, 6:09pm ET round: the ceiling was already gone before the round opened
+
+Nothing posted on the timeline. Eight replies logged by the scheduled rounds plus six Rand
+hand-posted at 21:49-21:58 UTC puts the day at fourteen against a hard ceiling of ten.
+
+**The lesson is about the counter, not the cap.** Every round reads the day's reply count off the
+profile at the start. That is the only source it has, and it is blind to anything posted between one
+round finishing and the next one loading. A burst of six landed in nine minutes and was invisible to
+the routine that was going to spend the remaining budget eleven minutes later. Nothing broke this
+time, because the round checked before posting — but the check only works because it happens first,
+and it is the sole reason the account did not reach sixteen.
+
+**Two identical replies went to two strangers ninety seconds apart.** "Unc is proud of you" to
+@asdhas9082 at 21:49 and to @ESCOweb3 at 21:51. That line was retired after Sep 12 and is in the
+praise-lane rules by name as spent. A repeated line at a ninety-second interval is precisely the
+shape a pattern detector reads as automation and a human reads as a form letter. No harm is visible
+and there is nothing to undo; it is recorded so the rule keeps its evidence.
+
+**Defense and weapons belong on the skip list.** The only qualifying news drop on the board was
+@ycombinator at seventeen minutes on Earendil Robotics, autonomous interceptors against attack
+drones. It passes freshness, it passes velocity, it is a genuine company spotlight, and the account
+is real. It fails the prime directive, which is the one test that does not bend: a warm Unc line
+under attack drones gets screenshotted and somebody is angry. The literal skip list does not name
+the category, so the round had to derive it. It should not have to next time.
+
+**Verify a like the same way a reply is verified.** The first like click showed the hover tooltip,
+landed on the heart, and did nothing — count stayed at 8, testid stayed `like`. A second click at
+the identical coordinate worked. Previous rounds blamed the page scrolling between measuring and
+clicking; that cannot be the explanation here, because the coordinate was read from a 1:1 screenshot
+and re-clicked unchanged. The first click is being eaten as a focus event. Read `data-testid` for
+`unlike` afterwards. The screenshot lies about hearts the same way it lies about composers.
+
+**`with_replies` is not a reliable audit surface.** It failed to render seven recent replies,
+including both timeline replies from the 4pm round. `x.com/search?q=from%3AUncFund&f=live` returned
+all of them in one pass with the target handle and the view count attached. The concurrency check in
+step 0 still needs `with_replies` for the newest-post age, but any question of the form "what has
+this account actually posted today" should go to the search.

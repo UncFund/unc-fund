@@ -149,9 +149,15 @@ Three things to hold onto when reading these rows back:
 | 09-22 18:13 | @ycombinator | **8** | receipt | 3882 | 24 | 162 | 5 | 50 (2h05m) | 0 | n |
 | 09-22 18:16 | @MorganVonDruitt | **8** | praise | 3 | 7 | 0.4 | 0 | 8 (2h02m) | 1 | **y** (replied "The first of many to come", liked, and followed @UncFund) |
 | 09-22 19:43 | @brycent | 16 | thesis (news check, backfilled) | 3800 | ~240 | ~16 | 3 | 11 (25m) | 0 | n |
-| 09-22 20:12 | @MorganVonDruitt | **7** | own-thread | 5 | 2 | 2.5 | 0 | pending | — | — |
-| 09-22 20:14 | @SnorkelAI | **8** | oblivious | 123 | 7 | 18 | 1 | pending | — | pending |
-| 09-22 20:17 | @roywass_ | **8** | praise | 2 | 5 | 0.4 | 0 | Community post | — | pending |
+| 09-22 20:12 | @MorganVonDruitt | **7** | own-thread | 5 | 2 | 2.5 | 0 | 2 (2h22m) | 0 | — |
+| 09-22 20:14 | @SnorkelAI | **8** | oblivious | 123 | 7 | 18 | 1 | 32 (2h20m) | 1 | n (liked by @ColemanEntringer, not by OP) |
+| 09-22 20:17 | @roywass_ | **8** | praise | 2 | 5 | 0.4 | 0 | Community (not countable) | 1 | n (**OP liked it**, did not reply) |
+| 09-22 21:49 | @asdhas9082 | 5 | praise (hand-posted by Rand) | — | — | — | — | 4 (22m) | 0 | — |
+| 09-22 21:51 | @ESCOweb3 | 5 | praise (hand-posted by Rand) | — | — | — | — | 1 (20m) | 0 | — |
+| 09-22 21:52 | @RobinhoodCrypto | 7 | react+oc (hand-posted by Rand) | — | — | — | — | 351 (19m) | 0 | — |
+| 09-22 21:52 | @garrytan | 9 | react (hand-posted by Rand) | — | — | — | — | 2 (18m) | 0 | — |
+| 09-22 21:54 | @sama | 5 | react (hand-posted by Rand) | — | — | — | — | 2 (17m) | 0 | — |
+| 09-22 21:58 | @stanleefounder | 14 | oblivious (hand-posted by Rand) | — | — | — | — | 210 (12m) | 0 | — |
 
 ### Sep 15, 16:09 round (12:09pm ET): both lanes plus a Helion quote
 
@@ -1137,3 +1143,72 @@ Nothing outstanding was dropped: the 18:09 round already answered the only own-t
 due for a view read until roughly 20:15 UTC. The next scheduled round picks them up.
 
 Praise-lane count unchanged: 23 rows, 20 resolved, 9 with an OP reply.
+
+### Sep 22, 22:09 round (6:09pm ET): nothing posted, the day is four replies past the ceiling
+
+**Rand hand-posted six timeline replies between 21:49 and 21:58 UTC, eleven to twenty-two minutes
+before this round opened.** They are logged above with what could be recovered (text, target, age,
+views); parent velocity was not captured because the round arrived after the fact. Targets were
+@asdhas9082, @ESCOweb3, @RobinhoodCrypto, @garrytan, @sama and @stanleefounder.
+
+That puts the day at **14 timeline replies against a hard ceiling of 10**. The ceiling is not a
+target to fill, so this round posted nothing on the timeline. There was no judgement call to make:
+eight logged plus six hand-posted is past the limit before the round starts, and the rule that
+says to raise the bar at five or more resolves to silence at fourteen.
+
+**This is worth flagging to Rand rather than just absorbing.** The scheduled rounds pace themselves
+against a count they read off `with_replies`, so a hand-posted burst is invisible until the next
+round loads the profile — and by then the budget is already spent. Two of the six were the same
+line, "Unc is proud of you", sent to @asdhas9082 and @ESCOweb3 ninety seconds apart. That line was
+already marked spent in the playbook after Sep 12, and two identical replies to two strangers inside
+two minutes is the exact repeated-template shape the cadence rules exist to avoid. Nothing to undo
+and no harm visible, but if the hand-posting continues the rounds need to know about it in advance.
+
+**Rand's picks did find reach the rounds have not been finding.** @stanleefounder took 210 views in
+twelve minutes and @RobinhoodCrypto 351 in nineteen — both far above anything this account's
+scheduled velocity picks returned today. Worth reading properly rather than dismissing on process
+grounds: those two parents were live and large at the moment of catching them.
+
+**Previous round's numbers, read at ~2h20m:**
+- @SnorkelAI ("Unc thought Snorkel sold swim gear. Congratulations anyway.") — 32 views, 1 like from
+  @ColemanEntringer. No OP reply.
+- @roywass_ ("You watched instead of explaining. That's the skill.") — **the OP liked it** but did
+  not reply. Community posts do not surface in `from:UncFund` search or on `with_replies`, so views
+  are not readable; this is the second Community-post row with no view number and they should
+  probably stop being taken as lane B picks for that reason alone.
+- @MorganVonDruitt own-thread ("Unc just sat up in the chair.") — 2 views, unsurprising for a reply
+  three deep in a tiny thread.
+
+**Drift on older rows, for anyone reading the length question later:** the Sep 22 replies kept
+climbing after their 2h read. @nickvasiles 69 to 129, @ycombinator 50 to 85, @blknoiz06 26 to 31,
+@MorganVonDruitt praise 8 to 10, @brycent 11 to 16. The 2h convention undercounts by roughly half on
+the better rows. Not changed here, because changing the read window mid-experiment would break
+comparability with every row above — but the bias is real and it is in one direction.
+
+**No OP replies since the last round.** Mentions tab has nothing newer than Sep 17. The only OP reply
+of the day, @MorganVonDruitt's "The first of many to come", was already answered at 20:11.
+
+**No repost or quote.** The fourth and last slot of the day stayed open. The list search gave
+continuous coverage from 3 to 27 minutes and every candidate failed: @laurashin on diet and
+prescription drugs, @JeffWeniger on gold and Treasury yields (price talk), @andyyy replying with
+tickers, @MollySOShea and @HarryStebbings posting replies rather than drops. The one real candidate
+was @ycombinator at 17 minutes on **Earendil Robotics, autonomous drone interceptors** — a genuine
+company spotlight inside the window, and skipped on the prime directive. Defense and weapons are
+divisive enough that a warm Unc line under attack drones fails the ten-thousand-strangers test even
+though nothing on the literal skip list names it.
+
+Likes: four confirmed by state change, not by screenshot — @stanleefounder (8 to 9),
+@sama, @Teknium, and @MorganVonDruitt's "thinking like a coward" post, the last of those chosen
+because he followed the account today.
+
+Praise-lane count: 24 rows, 22 resolved, 9 with an OP reply. The @roywass_ row closes `op = n` with
+an OP like, so the rate slips to roughly 41 percent. Still well clear of the Sep 12 falsifier.
+
+**Mechanics:** the first like click landed on the heart, showed the hover tooltip, and did not
+register — the count stayed at 8 and the testid stayed `like`. A second click at the same measured
+centre worked. This is the same first-click-misses behaviour logged at 18:09, and it now looks less
+like the page scrolling and more like the first click being eaten as a focus event. **Always verify
+a like by reading `data-testid` for `unlike`, never by the screenshot.** Also: `with_replies` failed
+to render five of the six hand-posted replies and both 20:1x replies, while
+`x.com/search?q=from%3AUncFund&f=live` returned all of them with targets and view counts in one
+pass. The search is the reliable way to audit what the account has posted; the profile is not.
