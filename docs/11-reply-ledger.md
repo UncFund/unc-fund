@@ -142,6 +142,7 @@ Three things to hold onto when reading these rows back:
 | 09-18 02:22 | @SpaceX | **8** | oblivious | 103000 | 24 | 4,292 | 44 | pending | — | pending (due 04:22 Sep 18) |
 | 09-18 02:24 | @Cointelegraph | **9** | receipt+oc | 18000 | 52 | 346 | 23 | pending | — | pending (due 04:24 Sep 18) |
 | 09-18 02:28 | @harryjwang | **6** | praise | 5 | 22 | 0.2 | 0 | unreadable (signed out) | — | n (parent reply count still 1 = Unc's, read 16:20 Sep 18) |
+| 09-22 14:10 | @MollySOShea | 10 | self-own news | 991 | 10 | 99 | 2 | pending | — | pending (due 16:10 Sep 22) |
 
 ### Sep 15, 16:09 round (12:09pm ET): both lanes plus a Helion quote
 

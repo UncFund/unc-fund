@@ -3385,6 +3385,7 @@ No morning thread, no praise hunting, no follows.
 |---|---|---|---|---|
 | 11:09am Sep 15 | @ronitrjain (Liquid Compute out of stealth, $15M seed, pending CFTC DCM and DCO applications) | quote | Out of stealth with a clearinghouse application. Unc zipped the vest all the way. | 28m at catch, 30m at send |
 | 12:16pm Sep 15 | @Dkirtley (Helion final close of upsized Series G, reposted by @ycombinator) | quote | Fusion was thirty years away in 1985. Helion kept building. | 15m at catch, 16m at send |
+| 10:12am Sep 22 | @MollySOShea (a16z launches the Horowitz Andreessen Academy, a residential no-tuition program, applications open today) | repost | — | 10m at catch, ~12m at send |
 
 ## Sep 14: routines hardened for unattended running
 
@@ -3814,3 +3815,5 @@ reasoning as the Sep 18 9pm round.
 
 **Needs Rand: (1) log in to X as @UncFund in the in-app browser, (2) stop the hung unc-news-check session
 from Sep 18 so the scheduler check stops blocking every routine.** No routine has done useful work since Sep 18.
+
+- Sep 22, 10:09am ET (14:09 UTC) news check (fired an hour early, before the 11am slot): scheduler clear (reply round and morning note both succeeded; follow queue last ran Sep 19). Signed in as @UncFund. One fresh drop: @MollySOShea BREAKING on a16z launching the Horowitz Andreessen Academy (verified, 10m, 991 views, ~99/min, 2 replies). Reply "Proof of work over grades. Unc's forklift license finally counts." verified on with_replies at 14:10:43 UTC. Plain repost of the same post: the post showed "Reposted" and the unretweet state after a fresh load, but x.com/UncFund was serving a stale timeline (the 14:06 morning line still read "6m") and did not show it yet; not clicked again because the button toggles. The next round should check the profile. Skipped: @andyyy on Hyperliquid USDC yield buybacks (ticker and yield). The first repost click did not open the menu (the pane was hidden, so screenshots came back black); the second opened it. Day: 1 timeline reply, 1 repost.
