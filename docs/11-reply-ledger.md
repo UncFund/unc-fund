@@ -143,8 +143,11 @@ Three things to hold onto when reading these rows back:
 | 09-18 02:24 | @Cointelegraph | **9** | receipt+oc | 18000 | 52 | 346 | 23 | pending | — | pending (due 04:24 Sep 18) |
 | 09-18 02:28 | @harryjwang | **6** | praise | 5 | 22 | 0.2 | 0 | unreadable (signed out) | — | n (parent reply count still 1 = Unc's, read 16:20 Sep 18) |
 | 09-22 14:10 | @MollySOShea | 10 | self-own news | 991 | 10 | 99 | 2 | 171 (2h05m) | 2 | n (no replies under it, 16:15 Sep 22) |
-| 09-22 16:10 | @blknoiz06 | **8** | receipt+oc | 26100 | 7.5 | ~3,480 | 58 | pending | — | pending |
-| 09-22 16:12 | @nickvasiles | **8** | praise | 72 | 2 | 36 | 0 | pending | — | pending |
+| 09-22 16:10 | @blknoiz06 | **8** | receipt+oc | 26100 | 7.5 | ~3,480 | 58 | 26 (2h05m) | 2 | n |
+| 09-22 16:12 | @nickvasiles | **8** | praise | 72 | 2 | 36 | 0 | 69 (2h05m) | 2 | **y** |
+| 09-22 18:11 | @nickvasiles | **8** | own-thread | 68 | 115 | 0.6 | 0 | pending | — | — |
+| 09-22 18:13 | @ycombinator | **8** | receipt | 3882 | 24 | 162 | 5 | pending | — | pending |
+| 09-22 18:16 | @MorganVonDruitt | **8** | praise | 3 | 7 | 0.4 | 0 | pending | — | pending |
 
 ### Sep 15, 16:09 round (12:09pm ET): both lanes plus a Helion quote
 
@@ -1055,3 +1058,59 @@ Praise-lane count unchanged: 21 rows, 19 resolved, 8 with an OP reply.
 - Morning note ("grey runners to a board meeting") had no replies; mentions had nothing new.
 - **Double-send scare, no harm:** with_replies lagged ~30s after the first click, so the Ansem reply was re-filled and clicked a second time. X rejected the identical text and only one reply exists (status 2102430351734010190). Lesson: wait ~10s and check the thread itself before concluding a send failed.
 - Praise-lane count: 22 rows, 19 resolved, 8 with an OP reply (this row pending).
+
+### Sep 22, 18:09 round (2:09pm ET): both lanes, plus the second OP reply in two rounds
+
+**The 12:09 praise pick earned an OP reply, and it came back inside two hours.** @nickvasiles — the
+Orgo founder whose Series-A-adjacent YC post Unc answered with "Electrical room under the stairs to
+YC. Beautiful." — replied "beautiful" with a photo of the actual electrical room, and liked the reply.
+That row closes **op = y**. The velocity pick beside it (@blknoiz06, 3,480 views/min, 58 replies
+deep) took 26 views, 2 likes and no conversation. Same pattern as Sep 12: the slow parent bought the
+exchange, the fast one bought nothing.
+
+Worth noting what the two picks actually returned on views: the praise pick on a 36/min parent took
+**69** views and the velocity pick on a 3,480/min parent took **26**. That is the second time a lane B
+pick has out-reached a lane A pick outright, which was not the prediction when the lane was written —
+lane B was expected to score badly on views and buy conversation instead. Being one of two replies on
+a small thread is apparently worth more than being reply 59 on a huge one, on both metrics.
+
+**Own-thread answer, posted first and fast:** "Frame it, son. That room did the work." (8 words), under
+Nick's photo. Keeping the exchange open is the whole point of earning it, so it went out before either
+timeline pick.
+
+**Lane A, @ycombinator:** the Firecrawl $75M Series B congrats, caught at 24 minutes and 3,882 views
+(162/min) behind 5 replies. Reply: "Unc printed the web once. Took all afternoon." (8 words, `receipt`
+— confidently wrong about the technology, age prop, no comment on the round size). A library joke was
+available from the Alexandria detail and was deliberately left alone: @heyraven_ai had already posted
+"the internet needed a library card" under it, and any version Unc wrote would have read as a dig at
+the product rather than a self-own.
+
+**Lane B, @MorganVonDruitt:** "Every builder has this screenshot" — Dipity.studio live, first paying
+user, with a Stripe chart showing **$43.50** gross volume. 7 minutes old, 3 views, 0 replies, tiny
+account. Reply: "$43.50 is the best number on that chart." (8 words).
+
+**The number was the reply, and it was nearly the wrong reply.** First draft was "$43.50." as the whole
+punchline, which is absurd specificity exactly as rule 2 asks for — and which a founder could read cold
+as a jab at how small the number is. The prime directive settles it: any chance of anger means rewrite.
+"the best number on that chart" makes the praise unambiguous while keeping the specificity. **Rule for
+next time: when the specific detail is someone's own small number, the line has to carry the praise
+explicitly. Specificity and warmth are not the same axis.**
+
+All three replies were 8 words. That is now four consecutive 8-word replies across two rounds, so the
+short arm is getting filled; what it still lacks is any reply under six words to separate "short" from
+"one sentence".
+
+**Quote post (news drop):** @ycombinator's Firecrawl announcement, quoted at ~18:14 UTC with
+"Congratulations to the Firecrawl founders. Unc read the whole thing with his readers on his forehead."
+Parent was 25 minutes old, inside the 30-minute cap. Second quote/repost of the day (the 13:00 news
+check did the a16z Academy via @MollySOShea), so two of four used.
+
+**Praise-lane count: 23 rows, 20 resolved, 9 with an OP reply.** Roughly 45 percent conversation rate.
+The lane is working and the Sep 12 falsifier stays cleared.
+
+**Mechanics, one thing worth writing down:** `computer type` reached the composer on all four sends and
+`aria-valuenow` confirmed non-zero each time, but the FIRST click at a measured rect missed twice — once
+on Nick's thread and once on Morgan's — because the page scrolled between the `getBoundingClientRect()`
+read and the click. Both times the composer simply stayed empty or the Reply button stayed put, with no
+error. The fix both times was re-measure, re-click. This is the same "the layout moves" finding already
+in the playbook; it is still the single most common way a send silently does nothing.

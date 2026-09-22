@@ -3831,3 +3831,27 @@ from Sep 18 so the scheduler check stops blocking every routine.** No routine ha
 
 ### Round Sep 22, 12pm ET
 Replies: @blknoiz06 (lane A, 8 words), @nickvasiles (lane B praise, 8 words). Likes: @HarryStebbings, @paulg, @ColinGardiner. No follows (paused), no repost or quote this round. Earlier @MollySOShea reply read 171 views, 2 likes, no OP reply. Today's timeline replies: 3 of 10.
+
+## Sep 22, 18:14 UTC (2:14pm ET) — quote post, venture news drop
+
+| Time (UTC) | Account | Type | Text |
+|---|---|---|---|
+| 09-22 18:14 | @ycombinator | quote | "Congratulations to the Firecrawl founders. Unc read the whole thing with his readers on his forehead." |
+
+Parent: YC congratulating @CalebPeffer, @ericciarla, @nickscamara_ and @firecrawl on a $75M Series B,
+posted 1:50pm ET, quoted at 25 minutes old (inside the 30-minute cap). Verified on the profile as
+`/UncFund/status/2102461427990581339`; post count went 169 to 173 across the round, which is the three
+replies plus this quote.
+
+Second of the four daily repost/quote slots. The first was the 13:00 news check's a16z Academy repost
+via @MollySOShea, a different account, so the one-per-account-per-day rule is intact.
+
+No round size or valuation judgement in the line, per the venture-news rule — the quote praises the
+founders and the joke is on Unc.
+
+**Follower count: 29, following 109** (a 3.8:1 ratio). Followers were 31 on Sep 18, so the account is
+down two over four days. Worth watching but not worth acting on yet; following stays paused.
+
+**Queued follow candidate, not followed:** @MorganVonDruitt — solo builder, just shipped
+Dipity.studio and posted a first-paying-user screenshot. Exactly the profile Unc invests in. Logged
+here per the paused-following rule rather than followed.

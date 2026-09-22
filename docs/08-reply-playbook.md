@@ -6016,3 +6016,69 @@ A re-run attempted right after was blocked: the browser is still signed out of @
 
 ### Round Sep 22, 12pm ET (16:09-16:20 UTC): two replies, one per lane
 Session is signed in again. Scheduler clean (nothing running). Lane A @blknoiz06 at 7.5 min / ~3,480 views a minute: "Unc's was a bank teller named Gary. 1987." Lane B @nickvasiles at 2 min, 0 replies (16K followers, above the guide): "Electrical room under the stairs to YC. Beautiful." Both 8 words. No own-thread work (morning note had no replies). Three likes: Harry Stebbings, paulg, Colin Gardiner. No repost (a16z Academy drop already quoted at 10am). **Watch-out:** with_replies can lag ~30s behind a send; a false "did not send" led to a second click, which X rejected as a duplicate. Check the parent thread after a ~10s wait before retrying.
+
+## Round at 18:09-18:17 UTC (2:09pm ET Sep 22): three replies, a quote post, and a second OP reply
+
+Scheduler checked first: unc-news-check, unc-follow-queue and unc-premarket-post all showed
+`succeeded`, newest activity 17:04 UTC. Nothing running, no yield. Newest post on `with_replies` was
+1h old, so no concurrent round either. Viewport matched to the reported coordinate frame at the start
+and re-matched twice when the frame changed (800x609, then 800x621, then 800x633 — the frame moves
+between page types, so re-read it after a navigation rather than assuming the first one holds).
+
+**Own-thread first.** @nickvasiles, the OP from the 12:09 praise pick, had replied "beautiful" with a
+photo of the electrical room under the stairs he built Orgo in. Answered inside the round with "Frame
+it, son. That room did the work." Own-thread answers do not count toward the ceiling and they are the
+whole reason lane B exists, so it went out before anything else.
+
+Morning note ("Unc wore the grey runners to a board meeting once") had 5 views, one like, no replies.
+Mentions tab was empty.
+
+### The two picks
+
+**Lane A, @ycombinator / Firecrawl $75M Series B**, caught at 24 min and 3,882 views (162/min), 5
+replies: "Unc printed the web once. Took all afternoon."
+
+**Lane B, @MorganVonDruitt**, first paying user, 7 min, 3 views, 0 replies: "$43.50 is the best number
+on that chart."
+
+### The lesson worth keeping: specificity and warmth are separate axes
+
+Rule 2 says absurd specificity beats general wisdom, and the Stripe screenshot handed over a perfect
+number. The first draft was the number alone as the punchline. Read cold by the founder, "$43.50."
+is indistinguishable from a joke about how little money that is — and the prime directive says any
+chance of anger means rewrite, not ship. The published version keeps the number and moves the praise
+into the sentence.
+
+**So: when the specific detail is a stranger's own small number — revenue, users, followers, a first
+check — the line must carry the praise explicitly.** Rule 2 and the prime directive point in opposite
+directions there, and the prime directive wins every time.
+
+### Rejected this round
+
+- **@notch** "I am enjoying vibe coding", 324K views at 3,774/min — by far the fastest parent on the
+  board and **86 minutes old**. Criterion (a) has no exceptions, so it was not close.
+- **@MollySOShea** on the a16z Academy, 19 min, 62/min — Unc already replied to Molly at 14:10 today
+  and the a16z Academy was already the 13:00 news check's reply and repost. Same account, same story,
+  twice in one day is the form-letter failure.
+- **@SenLummis** Fat Bear Week, 21K views — a senator's account. Genuinely charming and completely
+  off-limits; the government accounts on the News Desk List are awareness-only.
+- **@arbitrum** (102 min), **@brycent** (163 min), **@brettcalhounn** (325 min) — all stale.
+- **@Winterrose**, 6 min, 64 views, a complaint about token pricing on coding tools. Fresh and small,
+  but it is a gripe rather than a win, so it is not a lane B shape, and answering it would put Unc in
+  the position of agreeing with a criticism of named products.
+- **@stripe** WebMCP agentic payments, 42 min, 88/min, 1 reply — the genuine runner-up, and a clean
+  rails story for the on-chain register. Lost to @ycombinator on velocity (162 vs 88) and freshness.
+  Worth returning to Stripe's infrastructure posts; they run slow and uncontested.
+
+### Quote post
+
+@ycombinator's Firecrawl announcement, quoted at ~18:14 UTC: "Congratulations to the Firecrawl
+founders. Unc read the whole thing with his readers on his forehead." Parent 25 minutes old, inside
+the 30-minute cap. No comment on the round size or the valuation. Second of the four daily
+repost/quote slots.
+
+### Likes
+
+Six: the two parents replied to, plus @ColinGardiner and three @MollySOShea posts from the Following
+timeline. A second sweep for spread returned nothing new — the Following timeline below the fold was
+entirely accounts already liked this round.
