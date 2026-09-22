@@ -142,7 +142,9 @@ Three things to hold onto when reading these rows back:
 | 09-18 02:22 | @SpaceX | **8** | oblivious | 103000 | 24 | 4,292 | 44 | pending | — | pending (due 04:22 Sep 18) |
 | 09-18 02:24 | @Cointelegraph | **9** | receipt+oc | 18000 | 52 | 346 | 23 | pending | — | pending (due 04:24 Sep 18) |
 | 09-18 02:28 | @harryjwang | **6** | praise | 5 | 22 | 0.2 | 0 | unreadable (signed out) | — | n (parent reply count still 1 = Unc's, read 16:20 Sep 18) |
-| 09-22 14:10 | @MollySOShea | 10 | self-own news | 991 | 10 | 99 | 2 | pending | — | pending (due 16:10 Sep 22) |
+| 09-22 14:10 | @MollySOShea | 10 | self-own news | 991 | 10 | 99 | 2 | 171 (2h05m) | 2 | n (no replies under it, 16:15 Sep 22) |
+| 09-22 16:10 | @blknoiz06 | **8** | receipt+oc | 26100 | 7.5 | ~3,480 | 58 | pending | — | pending |
+| 09-22 16:12 | @nickvasiles | **8** | praise | 72 | 2 | 36 | 0 | pending | — | pending |
 
 ### Sep 15, 16:09 round (12:09pm ET): both lanes plus a Helion quote
 
@@ -1046,3 +1048,10 @@ bookmark. If it is a REPLY it needs an own-thread answer and it is the only own-
 Check `x.com/UncFund/status/2101038550116671581` first thing.
 
 Praise-lane count unchanged: 21 rows, 19 resolved, 8 with an OP reply.
+
+### Sep 22, 16:09 round (12:09pm ET): both lanes, first signed-in round since Sep 18
+- **Lane A, @blknoiz06** (Ansem quoting @orangie meeting him, the person who got orangie into on chain): "Unc's was a bank teller named Gary. 1987." 8 words. Caught at 7.5 min, 26.1K views, ~3,480/min, 58 replies. Tagged `+oc` loosely: on-chain parent, no rails content, nothing about assets.
+- **Lane B, @nickvasiles** (1 month of runway to Orgo joining YC; worked out of an electrical room under the stairs): "Electrical room under the stairs to YC. Beautiful." 8 words. Caught at 2 min, 72 views, 0 replies. **Note: 16K followers, above the ~10K lane B guide** — taken because the detail was ideal and the parent was brand new with zero replies. Judge on `op`.
+- Morning note ("grey runners to a board meeting") had no replies; mentions had nothing new.
+- **Double-send scare, no harm:** with_replies lagged ~30s after the first click, so the Ansem reply was re-filled and clicked a second time. X rejected the identical text and only one reply exists (status 2102430351734010190). Lesson: wait ~10s and check the thread itself before concluding a send failed.
+- Praise-lane count: 22 rows, 19 resolved, 8 with an OP reply (this row pending).

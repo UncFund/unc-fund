@@ -6013,3 +6013,6 @@ is still awaiting Rand's approval. Ledger rows from before Sep 18 remain unmeasu
 **Sep 22, later:** Rand approved the staleness bound. unc-reply-round, unc-news-check and unc-follow-queue
 SKILL.md now treat a "running" run whose last_activity_at is over 10 minutes old as hung and proceed.
 A re-run attempted right after was blocked: the browser is still signed out of @UncFund.
+
+### Round Sep 22, 12pm ET (16:09-16:20 UTC): two replies, one per lane
+Session is signed in again. Scheduler clean (nothing running). Lane A @blknoiz06 at 7.5 min / ~3,480 views a minute: "Unc's was a bank teller named Gary. 1987." Lane B @nickvasiles at 2 min, 0 replies (16K followers, above the guide): "Electrical room under the stairs to YC. Beautiful." Both 8 words. No own-thread work (morning note had no replies). Three likes: Harry Stebbings, paulg, Colin Gardiner. No repost (a16z Academy drop already quoted at 10am). **Watch-out:** with_replies can lag ~30s behind a send; a false "did not send" led to a second click, which X rejected as a duplicate. Check the parent thread after a ~10s wait before retrying.
