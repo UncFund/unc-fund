@@ -3522,6 +3522,11 @@ vending machine 120 and 1, "Unc believes in you" 10.
   adds, counts unread by this run. Queue rows untouched: 35 still queued, starting at @OndoFinance. As with the 3:26pm
   yield this was academic — every Unc routine since Sep 15 has been blocked signed out, so the follow queue still needs
   Rand to sign the in-app browser in to @UncFund before it can move at all.
+- 10:10am ET Sep 22 (14:10 UTC, firing well ahead of its 11:25 slot): **yielded, unc-news-check running.** A fresh
+  news check started 14:09:01 UTC with last activity 14:10:05 UTC, seconds old, so not hung under the Sep 22 staleness
+  bound; it outranks the follow queue on the tie-break order, so the rule says yield. unc-reply-round succeeded 14:06 UTC, unc-premarket-post succeeded 14:08 UTC. Browser not touched. Followed
+  none, rejected none, reverted none, no list adds, counts unread. Queue rows untouched: 35 still queued, starting at
+  @OndoFinance.
 
 ## Round at 00:09 UTC Sep 15 (8:09pm ET Sep 14): one own-thread answer, day still at the ceiling
 
