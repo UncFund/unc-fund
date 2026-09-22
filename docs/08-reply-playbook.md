@@ -6005,3 +6005,8 @@ outside `docs/` and so outside what these rounds may write.
 publishing on the hour regardless — two more evergreen posts went out since the 2pm round (4:00pm and
 7:00pm ET), taking the profile from 156 posts to **158**. Following 106, followers **30**. So the account
 remains healthy and this remains one manual login away from fixed.
+
+### Round Sep 22, 10am ET: blocked (signed out, eighth consecutive)
+Browser still signed out of X; nothing posted, nothing measured. The hung Sep 18 news-check run is still
+reported as "running" and still deadlocks the scheduler check. The staleness-bound rule proposed on Sep 18
+is still awaiting Rand's approval. Ledger rows from before Sep 18 remain unmeasured.

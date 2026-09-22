@@ -3795,3 +3795,17 @@ normally supplies the own-thread reply lane was never created.
 **Still needs a manual X login as @UncFund in the in-app browser.** Seven routines have now produced
 nothing but log entries: morning note 13:02, reply round 14:09, follow queue 15:26, reply round 16:09,
 news check 17:05, reply round 18:33, reply round 01:23.
+
+## Reply round Sep 22, 10am ET (14:02-14:06 UTC): blocked, eighth in a row
+
+No reply, no quote, no repost, no likes, no follows. The in-app browser is still signed out of @UncFund:
+`x.com/UncFund` shows the guest profile with "Log in" links and the "Log in or sign up for X" sheet. No
+login was attempted, per the routine. Profile, logged out: **164 posts** (up six since Sep 18 from X's own
+scheduled queue). No morning note or mentions could be read signed out.
+
+Scheduler: `unc-news-check` STILL shows status "running" from Sep 18 19:05 UTC, last activity 19:06 UTC —
+hung for almost four days. Proceeded only as far as a read-only sign-in check, on the same staleness
+reasoning as the Sep 18 9pm round.
+
+**Needs Rand: (1) log in to X as @UncFund in the in-app browser, (2) stop the hung unc-news-check session
+from Sep 18 so the scheduler check stops blocking every routine.** No routine has done useful work since Sep 18.
