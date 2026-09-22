@@ -1114,3 +1114,22 @@ on Nick's thread and once on Morgan's — because the page scrolled between the 
 read and the click. Both times the composer simply stayed empty or the Reply button stayed put, with no
 error. The fix both times was re-measure, re-click. This is the same "the layout moves" finding already
 in the playbook; it is still the single most common way a send silently does nothing.
+
+### Sep 22, 19:40 manual run: YIELDED, no rows
+
+Rand ran the round by hand at 19:40 UTC (3:40pm ET). Scheduler check came back with **unc-news-check
+`running`** — started 19:03:13Z, `last_activity_at` 19:39:57Z, eleven seconds before the check. That is
+a live run, not a hung one, so the 10-minute staleness bound does not apply, and at 37 minutes in it is
+far outside the 2-minute window that would let a higher-priority routine proceed. Yielded per the rule:
+nothing touched in the browser, nothing posted, nothing liked.
+
+Worth noting this was the right call for a second reason. The 18:09 round finished at 18:17 with three
+replies inside six minutes; a second round starting 83 minutes later would have been fine on its own,
+but running it on top of a live news check is exactly the two-runs-one-session collision that on Sep 9
+looked like a platform-wide write block and cost a day of misdiagnosis.
+
+Nothing outstanding was dropped: the 18:09 round already answered the only own-thread item
+(@nickvasiles), the mentions tab was empty, and the three rows appended at 18:11/18:13/18:16 are not
+due for a view read until roughly 20:15 UTC. The next scheduled round picks them up.
+
+Praise-lane count unchanged: 23 rows, 20 resolved, 9 with an OP reply.
