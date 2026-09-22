@@ -101,6 +101,10 @@ Before posting, the with_replies timeline showed nothing from today (latest acti
 so it is the only morning note today. Confirmed on x.com/UncFund: the post appears and the count
 went **164 to 165**.
 
+The scheduled `unc-premarket-post` run then fired late, at about **10:08 AM Eastern**. It found
+today's line already live on x.com/UncFund (165 posts, browser signed in) and skipped, so there is
+still exactly one morning note today.
+
 ## Premarket history (retired 2026-09-10)
 
 # Unc's premarket post (retired)
