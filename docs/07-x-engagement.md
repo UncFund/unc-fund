@@ -3386,6 +3386,7 @@ No morning thread, no praise hunting, no follows.
 | 11:09am Sep 15 | @ronitrjain (Liquid Compute out of stealth, $15M seed, pending CFTC DCM and DCO applications) | quote | Out of stealth with a clearinghouse application. Unc zipped the vest all the way. | 28m at catch, 30m at send |
 | 12:16pm Sep 15 | @Dkirtley (Helion final close of upsized Series G, reposted by @ycombinator) | quote | Fusion was thirty years away in 1985. Helion kept building. | 15m at catch, 16m at send |
 | 10:12am Sep 22 | @MollySOShea (a16z launches the Horowitz Andreessen Academy, a residential no-tuition program, applications open today) | repost | — | 10m at catch, ~12m at send |
+| 2:14pm Sep 22 | @ycombinator (Firecrawl $75M Series B) | quote | Congratulations to the Firecrawl founders. Unc read the whole thing with his readers on his forehead. | 25m at catch |
 
 ## Sep 14: routines hardened for unattended running
 
@@ -3855,3 +3856,16 @@ down two over four days. Worth watching but not worth acting on yet; following s
 **Queued follow candidate, not followed:** @MorganVonDruitt — solo builder, just shipped
 Dipity.studio and posted a first-paying-user screenshot. Exactly the profile Unc invests in. Logged
 here per the paused-following rule rather than followed.
+
+- Sep 22, 3:03pm ET (19:03 UTC) news check: **no fresh drop**. Scheduler clear (reply-round, follow-queue
+  and premarket-post all last-run succeeded); with_replies newest Unc post 48m old, so no concurrent run.
+  The List page rendered only 3 posts again, so all 21 known members were cross-checked with two Latest
+  `from:` searches. Under 30 minutes: @andyyy price talk (the "HUNDY ROLL" post, explicit price levels)
+  plus three chat replies, @therollupco market-and-price commentary naming levels on two assets, and
+  @johnfelix123 quoting a podcast trailer. @BlackRock's Q4 Global Outlook (35m, and market commentary
+  either way) was outside the window. Every candidate is skip-list material: price talk, podcast promo or
+  chatter, none of them a news drop. Nothing posted, which is the expected outcome for this run.
+  Day so far: ~6 timeline replies, 2 of 4 quotes/reposts used.
+- Bookkeeping fix this run: the 2:14pm @ycombinator Firecrawl quote was written up in prose but never
+  added to the Repost and quote log table, which is what later runs read to check the four-a-day cap.
+  Row added.
