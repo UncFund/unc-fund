@@ -3536,6 +3536,26 @@ vending machine 120 and 1, "Unc believes in you" 10.
   reload; no replacement handle guessed, the real one needs finding by search. Reverted none. List adds to Unc News
   Desk: all three (30 to 31 to 32 members confirmed; the Seyffart add was ticked and saved but the 33 count was not
   re-read). Following 106 to 109, followers 29 to 29. 31 rows still queued, starting at @jchervinsky.
+- 3:41pm ET Sep 22 (19:41 UTC; the 3:25pm slot, started late): followed @jchervinsky (blue badge, CEO
+  @HyperliquidPC, Washington DC, hyperliquidpolicy.org, joined 2009, 152.4K followers — bio has moved on from
+  "policy lawyer" to the Hyperliquid policy council but it is the same person and the same beat),
+  @RepFrenchHill (verified plus government badge, "Official account of Rep. French Hill", @FinancialCmte
+  Chairman, hill.house.gov, 38.7K) and @RitchieTorres (blue badge, 218.2K, the personal account, which is the
+  handle the queue names; his bio points to @RepRitchie as the government account and @RitchieTorresNY as the
+  campaign one, neither substituted). All three read Following after a reload, spaced at least 90 seconds apart
+  with the list add filling each gap. Rejected none, reverted none. List adds to Unc News Desk: all three, 33 to
+  34 to 35 members read on the dialog; the Torres add was ticked and saved but the 36 count was not re-read.
+  Scheduler clear at the start (reply round 18:08 to 19:40 succeeded, news check 19:03 to 19:40 succeeded,
+  morning note 14:08 succeeded; none running) and the browser pane had no page open at all, so nothing else was
+  driving it; newest own post was an hour old. Step 5 check: the 11:29am entry recorded no revert, so no
+  two-revert pause. Following 109 to 113, followers 31 to 31.
+- Two count oddities from that run, logged rather than acted on. Following went up **four** on three follows
+  (109 to 113); every one of the three was individually verified as Following after its own reload, so the
+  extra one is not from this routine. Post count also moved 173 to 174 during the run although this routine
+  posts nothing — most likely the 19:40 reply-round post landing in the counter late. Worth a glance next run;
+  if following keeps drifting ahead of the queue, something else is adding follows.
+- Note for the record: followers read **31** at the start of this run, not the 29 the 2:14pm quote-post entry
+  recorded. Up two on the day, so the Sep 18 high of 31 is back.
 
 ## Round at 00:09 UTC Sep 15 (8:09pm ET Sep 14): one own-thread answer, day still at the ceiling
 

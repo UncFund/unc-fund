@@ -45,9 +45,9 @@ Status values: `queued`, `followed YYYY-MM-DD`, `rejected: reason`, `reverted YY
 | 18 | @Fidelity | Fidelity Investments (verified Sep 14) | followed 2026-09-22 |
 | 19 | @StateStreet | State Street (verified Sep 14) | followed 2026-09-22 |
 | 20 | @JSeyff | James Seyffart, Bloomberg ETF analyst | followed 2026-09-22 |
-| 21 | @jchervinsky | Jake Chervinsky, crypto policy lawyer | queued |
-| 22 | @RepFrenchHill | Rep. French Hill (R-AR), House Financial Services | queued |
-| 23 | @RitchieTorres | Rep. Ritchie Torres (D-NY), House Financial Services | queued |
+| 21 | @jchervinsky | Jake Chervinsky, crypto policy lawyer | followed 2026-09-22 |
+| 22 | @RepFrenchHill | Rep. French Hill (R-AR), House Financial Services | followed 2026-09-22 |
+| 23 | @RitchieTorres | Rep. Ritchie Torres (D-NY), House Financial Services | followed 2026-09-22 |
 | 24 | @SECGov | U.S. Securities and Exchange Commission (government badge) | queued |
 | 25 | @CFTC | U.S. Commodity Futures Trading Commission (government badge) | queued |
 | 26 | @HesterPeirce | Hester Peirce, SEC Commissioner | queued |
