@@ -3905,3 +3905,19 @@ here per the paused-following rule rather than followed.
 - **Browser note for every routine:** the repost button in this build does NOT open the repost/quote
   menu. A click on it posts a plain repost directly and flips to "Undo repost". Any routine that wants a
   QUOTE must not reach for that button, because the first click spends the slot.
+
+- Sep 22, 5:03pm ET (21:03-21:05 UTC) news check: no fresh drop. Scheduler clear (reply round succeeded
+  20:18, follow queue 19:47, morning note 14:08; none running, no yield). Newest own post 50m old, so no
+  concurrent run. The News Desk List page rendered only three posts, so a `list:2099581050821194117`
+  Latest search was used as the cross-check and gave continuous coverage from 3m to 35m: @EricBalchunas
+  index-fund and ETF commentary (markets, skip list), @andyyy new profile pic and a one-word reply,
+  @JSeyff ETF share-percentage reply, @laurashin and @DefiIgnas on a WLFI scam article (scam news plus a
+  ticker, skip), @Paxos replying "the future of finance is onchain" to Cointelegraph at 35m. A second
+  cross-check on the top news accounts (@EleanorTerrett, @ycombinator, @a16z, @circle, @Securitize,
+  @BlackRock, @jacqmelinek, @CryptoAmerica_, @TokenRelations, @HarryStebbings, @MollySOShea) found
+  nothing under 30 minutes: oldest fresh was a @BlackRock skilled-trades brand post at 46m, a
+  @ycombinator Early Access Network event plug at 51m (event promo, disqualified), and the @a16z Ben
+  Horowitz academy clip at 64m, whose news was already reposted at 10:12am. No reply was allowed
+  regardless: the day is at 8 timeline replies against the ceiling of 10, and the news check skips the
+  reply at eight or more. Reposts/quotes today: 3 of 4 (10:12am @MollySOShea repost, 2:14pm @ycombinator
+  quote, 4:21pm @SnorkelAI repost), so the last slot stays open for the 6pm round.
