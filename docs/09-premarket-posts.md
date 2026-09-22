@@ -37,6 +37,7 @@ before an invitation can work — at which point the reply-guy rounds carry the 
 | 2026-09-16 | Wednesday | — (blocked) | Nothing posted. Run fired 9:02 AM ET on time, but the in-app browser is signed out of X (Log in / Sign up banner on x.com/UncFund). No login attempted; manual sign-in needed. | — | — | — |
 | 2026-09-17 | Thursday | — (skipped + blocked) | Nothing posted. Run fired 1:39 PM ET, past the ~1:00 PM cutoff, so a funny morning line would have read wrong anyway. The in-app browser is also still signed out of X. | — | — | — |
 | 2026-09-18 | Friday | — (blocked) | Nothing posted. Run fired 9:02 AM ET, on time and inside the window. The in-app browser is signed out of X again: x.com/UncFund renders the logged-out profile and x.com/home redirects to the login splash. No login attempted. Post held: "It's Friday. Unc's chair is free all weekend and he'd rather read pitches than watch anything. / One line on your company. Drop it below." | — | — | — |
+| 2026-09-22 | Tuesday | — (blocked) | Nothing posted. Manual run at 10:03 AM ET, inside the window. In-app browser still signed out of X: x.com/home shows the login splash, x.com/UncFund the logged-out profile. No login attempted. Line held: "Unc wore the grey runners to a board meeting once. / Nobody noticed. Ship the ugly version." | — | — | — |
 
 Note on 2026-09-12: the scheduled run landed at **1:42 PM Eastern**, four hours forty-two minutes
 after the 9:00 slot and past the ~1:00 PM cutoff — a morning note in the afternoon reads wrong, so
@@ -86,6 +87,17 @@ that has a session, if that run is still before ~1:00 PM Eastern:
 
 > It's Friday. Unc's chair is free all weekend and he'd rather read pitches than watch anything.
 > One line on your company. Drop it below.
+
+Note on 2026-09-22: a manual run at **10:03 AM Eastern** on a Tuesday, so a funny-line morning,
+inside the window. The in-app browser is **still signed out of X**, the same state every routine has
+reported since Sep 18. No login attempted. The public profile now reads **164 posts** (155 on
+Sep 18) and **29 followers** (31 on Sep 18). The post count moving while this browser is signed out
+means something else is publishing as @UncFund, which supports the Sep 12 suspicion of a second
+posting path; check it before the next morning note to avoid two in one day. The Friday invitation
+above is still held for the next signed-in Mon/Wed/Fri. Tuesday line held:
+
+> Unc wore the grey runners to a board meeting once.
+> Nobody noticed. Ship the ugly version.
 
 ## Premarket history (retired 2026-09-10)
 
