@@ -3387,6 +3387,7 @@ No morning thread, no praise hunting, no follows.
 | 12:16pm Sep 15 | @Dkirtley (Helion final close of upsized Series G, reposted by @ycombinator) | quote | Fusion was thirty years away in 1985. Helion kept building. | 15m at catch, 16m at send |
 | 10:12am Sep 22 | @MollySOShea (a16z launches the Horowitz Andreessen Academy, a residential no-tuition program, applications open today) | repost | — | 10m at catch, ~12m at send |
 | 2:14pm Sep 22 | @ycombinator (Firecrawl $75M Series B) | quote | Congratulations to the Firecrawl founders. Unc read the whole thing with his readers on his forehead. | 25m at catch |
+| 4:21pm Sep 22 | @SnorkelAI ($350M at a $3.5B valuation, $375M ARR, 18x in under a year) | repost | — (a quote was intended; the repost button fires a plain repost directly instead of opening the repost/quote menu, so the slot was spent as a repost) | 7m at catch, 15m at send |
 
 ## Sep 14: routines hardened for unattended running
 
@@ -3889,3 +3890,18 @@ here per the paused-following rule rather than followed.
 - Bookkeeping fix this run: the 2:14pm @ycombinator Firecrawl quote was written up in prose but never
   added to the Repost and quote log table, which is what later runs read to check the four-a-day cap.
   Row added.
+
+- Sep 22, 4:03pm ET (20:03-20:35 UTC) reply round: scheduler clear (news check succeeded 19:40, follow
+  queue 19:47, morning note 14:08; none running, no yield). Newest own post 25m old, so no concurrent
+  round. Three replies out: one own-thread to @MorganVonDruitt (7 words), lane A @SnorkelAI raise
+  (8 words), lane B @roywass_ TestFlight ship (8 words). One plain repost of @SnorkelAI, third of the
+  four daily repost/quote slots. Three likes. **@MorganVonDruitt replied to Unc, liked the reply and
+  followed the account** — second OP reply off a praise pick in two days. Day total: 8 timeline replies
+  against the ceiling of 10, 1 repost plus this morning's repost and the 2:14pm quote.
+- **Queued follow candidate, not followed (following is paused):** @MorganVonDruitt (@MorganVonDruitt,
+  blue badge, builds Sera and Dipity.studio). He replied to Unc, liked the reply and followed @UncFund
+  unprompted on Sep 22, which is the first unprompted follow-back off a praise reply. Worth the follow
+  queue's attention if Rand reopens following.
+- **Browser note for every routine:** the repost button in this build does NOT open the repost/quote
+  menu. A click on it posts a plain repost directly and flips to "Undo repost". Any routine that wants a
+  QUOTE must not reach for that button, because the first click spends the slot.

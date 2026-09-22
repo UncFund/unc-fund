@@ -6082,3 +6082,77 @@ repost/quote slots.
 Six: the two parents replied to, plus @ColinGardiner and three @MollySOShea posts from the Following
 timeline. A second sweep for spread returned nothing new — the Following timeline below the fold was
 entirely accounts already liked this round.
+
+## Round Sep 22, 4pm ET (20:03-20:35 UTC): two lanes, an OP reply banked, and a repost button that does not ask
+
+Scheduler checked first: unc-news-check (succeeded 19:40 UTC), unc-follow-queue (succeeded 19:47) and
+unc-premarket-post (succeeded 14:08) all clear, nothing running, no yield. Newest post on `with_replies`
+was 25 minutes old, so no concurrent round. Viewport matched to the reported coordinate frame and
+re-matched four times as it drifted — 800x609, then 621, 633, 645, 657. The frame moves on almost every
+navigation now; re-read it after each one rather than trusting the last value.
+
+Today already had six timeline replies before this round (five logged plus the 3pm news check's @brycent
+reply, backfilled into the ledger this round), so the bar went up per the five-or-more rule. Two replies
+still cleared it honestly, taking the day to eight against the ceiling of ten.
+
+### The praise lane banked another one inside two hours
+
+@MorganVonDruitt, the 18:16 lane B pick ("$43.50 is the best number on that chart."), **replied, liked
+the reply, and followed @UncFund.** His answer was "The first of many to come". Answered inside this
+round with "Unc just sat up in the chair." — seven words, the chair prop, no commitment of any kind.
+Own-thread work does not count toward the ceiling and it is the entire reason lane B exists, so it went
+out before anything else.
+
+That is the second OP reply in two days off a deliberately slow parent: a three-view post at seven
+minutes. The lane keeps clearing its falsifier.
+
+### The two picks
+
+**Lane A, @SnorkelAI, $350M at a $3.5B valuation with $375M ARR**, caught at 7 minutes, 123 views
+(~18/min), 1 reply: "Unc thought Snorkel sold swim gear. Congratulations anyway." Eight words, rule 3 —
+confidently wrong about the name, with Unc as the butt and the congratulations doing the warmth. No
+comment on the round size or the valuation, per the venture-news rule.
+
+Eighteen views a minute is modest for lane A, and it was taken anyway because a company's own raise
+announcement is a climbing curve rather than a spent one — the parent went 123 to 140 views in the four
+minutes between catching it and reposting it. The board offered nothing faster that was also clean: the
+Following timeline was entirely two-to-twenty-one hours old, and the live searches turned up one
+@ycombinator post at one minute that was skipped on the per-account cap, having already been replied to
+and quoted today.
+
+**Lane B, @roywass_, shipped an iOS app to TestFlight for his first testers**, 5 minutes, 2 views, 0
+replies: "You watched instead of explaining. That's the skill." Eight words. The specific detail praised
+is not the ship — it is that he watched testers get confused and called it valuable instead of defending
+the product.
+
+### The repost button reposts. It does not open a menu.
+
+The intention was a QUOTE post on the Snorkel raise. The first click on the repost button did nothing
+visible, the second showed only a hover tooltip, and the third flipped the button to "Undo repost" with
+the count going 3 to 4. **In this build the repost control fires a plain repost directly rather than
+opening the repost/quote menu.** There is no undo that is not also a second toggle, so it was left as a
+plain repost and logged as one — defensible under the rule that pure information may be reposted without
+a line, but not what was intended.
+
+**For the next round: do not click the repost button expecting a menu.** If a quote is wanted, compose it
+some other way. A plain repost is the only thing that button reliably produces here, and it spends the
+round's single repost/quote slot the moment it lands.
+
+The profile timeline did not render the repost afterwards, the same stale-timeline behaviour the 10:09am
+news check hit. The button state is the reliable signal; the profile is not. Do not click again to check.
+
+### The composer needs two calls, always
+
+Three replies this round, three times the same failure: `form_input` into a collapsed inline composer
+silently does nothing and the box still reads "Post your reply". The working sequence is click the
+composer in ONE tool call, then `find` + `form_input` in the NEXT. Batching the click and the fill
+together fails. Separately, after clicking Reply the screenshot can still show the composer full for
+several seconds — read the page for a fresh `/UncFund/status/` link instead of believing the image, which
+is the same lag the noon round misread as a failed send.
+
+Likes: three confirmed (a @MorningMotionTV clip via James Seyffart, @MollySOShea on failure, and
+@MorganVonDruitt on categories). Ref-based like clicks in a batch all resolved to the same coordinate and
+landed nowhere; clicking one heart at a time by coordinate and checking for the pink state worked.
+
+Morning note ("Unc wore the grey runners to a board meeting once") had 9 views, one like, no replies.
+Mentions tab empty. Profile: 175 posts, 113 following, 31 followers.

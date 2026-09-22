@@ -145,9 +145,13 @@ Three things to hold onto when reading these rows back:
 | 09-22 14:10 | @MollySOShea | 10 | self-own news | 991 | 10 | 99 | 2 | 171 (2h05m) | 2 | n (no replies under it, 16:15 Sep 22) |
 | 09-22 16:10 | @blknoiz06 | **8** | receipt+oc | 26100 | 7.5 | ~3,480 | 58 | 26 (2h05m) | 2 | n |
 | 09-22 16:12 | @nickvasiles | **8** | praise | 72 | 2 | 36 | 0 | 69 (2h05m) | 2 | **y** |
-| 09-22 18:11 | @nickvasiles | **8** | own-thread | 68 | 115 | 0.6 | 0 | pending | — | — |
-| 09-22 18:13 | @ycombinator | **8** | receipt | 3882 | 24 | 162 | 5 | pending | — | pending |
-| 09-22 18:16 | @MorganVonDruitt | **8** | praise | 3 | 7 | 0.4 | 0 | pending | — | pending |
+| 09-22 18:11 | @nickvasiles | **8** | own-thread | 68 | 115 | 0.6 | 0 | not read (thread render) | — | n |
+| 09-22 18:13 | @ycombinator | **8** | receipt | 3882 | 24 | 162 | 5 | 50 (2h05m) | 0 | n |
+| 09-22 18:16 | @MorganVonDruitt | **8** | praise | 3 | 7 | 0.4 | 0 | 8 (2h02m) | 1 | **y** (replied "The first of many to come", liked, and followed @UncFund) |
+| 09-22 19:43 | @brycent | 16 | thesis (news check, backfilled) | 3800 | ~240 | ~16 | 3 | 11 (25m) | 0 | n |
+| 09-22 20:12 | @MorganVonDruitt | **7** | own-thread | 5 | 2 | 2.5 | 0 | pending | — | — |
+| 09-22 20:14 | @SnorkelAI | **8** | oblivious | 123 | 7 | 18 | 1 | pending | — | pending |
+| 09-22 20:17 | @roywass_ | **8** | praise | 2 | 5 | 0.4 | 0 | Community post | — | pending |
 
 ### Sep 15, 16:09 round (12:09pm ET): both lanes plus a Helion quote
 
