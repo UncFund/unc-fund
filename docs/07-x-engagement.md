@@ -3528,6 +3528,13 @@ vending machine 120 and 1, "Unc believes in you" 10.
   bound; it outranks the follow queue on the tie-break order, so the rule says yield. unc-reply-round succeeded 14:06 UTC, unc-premarket-post succeeded 14:08 UTC. Browser not touched. Followed
   none, rejected none, reverted none, no list adds, counts unread. Queue rows untouched: 35 still queued, starting at
   @OndoFinance.
+- 11:29am ET Sep 22 (15:29 UTC; scheduler clear, all three others succeeded, none running; newest own post an hour
+  old; signed in as @UncFund): followed @Fidelity (gold badge, fidelity.com, joined 2009), @StateStreet (gold badge,
+  statestreet.com, joined 2011) and @JSeyff (blue badge, bio cites Bloomberg and ETFs), all still Following after
+  reload, spaced at least 90 seconds apart. Rejected @OndoFinance: X shows "This account doesn't exist", same after a
+  reload; no replacement handle guessed, the real one needs finding by search. Reverted none. List adds to Unc News
+  Desk: all three (30 to 31 to 32 members confirmed; the Seyffart add was ticked and saved but the 33 count was not
+  re-read). Following 106 to 109, followers 29 to 29. 31 rows still queued, starting at @jchervinsky.
 
 ## Round at 00:09 UTC Sep 15 (8:09pm ET Sep 14): one own-thread answer, day still at the ceiling
 
@@ -3817,3 +3824,5 @@ reasoning as the Sep 18 9pm round.
 from Sep 18 so the scheduler check stops blocking every routine.** No routine has done useful work since Sep 18.
 
 - Sep 22, 10:09am ET (14:09 UTC) news check (fired an hour early, before the 11am slot): scheduler clear (reply round and morning note both succeeded; follow queue last ran Sep 19). Signed in as @UncFund. One fresh drop: @MollySOShea BREAKING on a16z launching the Horowitz Andreessen Academy (verified, 10m, 991 views, ~99/min, 2 replies). Reply "Proof of work over grades. Unc's forklift license finally counts." verified on with_replies at 14:10:43 UTC. Plain repost of the same post: the post showed "Reposted" and the unretweet state after a fresh load, but x.com/UncFund was serving a stale timeline (the 14:06 morning line still read "6m") and did not show it yet; not clicked again because the button toggles. The next round should check the profile. Skipped: @andyyy on Hyperliquid USDC yield buybacks (ticker and yield). The first repost click did not open the menu (the pane was hidden, so screenshots came back black); the second opened it. Day: 1 timeline reply, 1 repost.
+
+- Sep 22, 11:03am ET (15:03 UTC) news check: no fresh drop. Scheduler clear (reply round, morning note, follow queue all succeeded, none running). Signed in as @UncFund; no Unc post in the last 50 minutes. Under 30 minutes on the News Desk: @MollySOShea follow-ups on the a16z Horowitz Andreessen Academy story (1m; already replied to and reposted from Molly at 10:09, so skipped for the per-account cap), @TokenRelations "State of Tokenization: September 2026" monthly roundup article (1m; recurring metrics newsletter, not a drop), @ycombinator Founder Firesides episode with Confido (4m, 2.8K views; podcast promo, and its Series B is described as recent rather than new). Nothing posted. Day so far: 1 timeline reply, 1 repost.

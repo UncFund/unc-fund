@@ -41,10 +41,10 @@ Status values: `queued`, `followed YYYY-MM-DD`, `rejected: reason`, `reverted YY
 | 14 | @EricBalchunas | Eric Balchunas, Bloomberg ETF analyst | followed 2026-09-15 |
 | 15 | @SenatorHagerty | Sen. Bill Hagerty (R-TN), stablecoin legislation | followed 2026-09-15 |
 | 16 | @SenRubenGallego | Sen. Ruben Gallego (D-AZ), Senate Banking | followed 2026-09-15 |
-| 17 | @OndoFinance | Ondo Finance, tokenized treasuries and equities | queued |
-| 18 | @Fidelity | Fidelity Investments (verified Sep 14) | queued |
-| 19 | @StateStreet | State Street (verified Sep 14) | queued |
-| 20 | @JSeyff | James Seyffart, Bloomberg ETF analyst | queued |
+| 17 | @OndoFinance | Ondo Finance, tokenized treasuries and equities | rejected: account does not exist (Sep 22, checked twice) |
+| 18 | @Fidelity | Fidelity Investments (verified Sep 14) | followed 2026-09-22 |
+| 19 | @StateStreet | State Street (verified Sep 14) | followed 2026-09-22 |
+| 20 | @JSeyff | James Seyffart, Bloomberg ETF analyst | followed 2026-09-22 |
 | 21 | @jchervinsky | Jake Chervinsky, crypto policy lawyer | queued |
 | 22 | @RepFrenchHill | Rep. French Hill (R-AR), House Financial Services | queued |
 | 23 | @RitchieTorres | Rep. Ritchie Torres (D-NY), House Financial Services | queued |
