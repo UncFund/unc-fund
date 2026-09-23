@@ -158,8 +158,10 @@ Three things to hold onto when reading these rows back:
 | 09-22 21:52 | @garrytan | 9 | react (hand-posted by Rand) | — | — | — | — | 11 (2h32m) | 0 | n |
 | 09-22 21:54 | @sama | 5 | react (hand-posted by Rand) | — | — | — | — | 10 (2h30m) | 0 | n |
 | 09-22 21:58 | @stanleefounder | 14 | oblivious (hand-posted by Rand) | — | — | — | — | **2,795** (2h26m) | 0 | n |
-| 09-23 00:22 | @ESCOweb3 | **7** | own-thread+oc | 10 | 110 | 0.1 | 0 | 6 (1h50m) | 0 | n |
-| 09-23 00:27 | @andyyy | 18 | receipt+oc (hand-posted by Rand) | — | — | — | — | 62 (1h45m) | 0 | n |
+| 09-23 00:22 | @ESCOweb3 | **7** | own-thread+oc | 10 | 110 | 0.1 | 0 | 6 (1h50m); 14 (15h50m) | 0 | n |
+| 09-23 00:27 | @andyyy | 18 | receipt+oc (hand-posted by Rand) | — | — | — | — | 62 (1h45m); **233** (15h50m) | 0 | n |
+| 09-23 16:14 | @Mo_Ezz14 | **8** | praise+oc | 169 | 13 | 13 | 4 | | | |
+| 09-23 16:15 | @a16z | **8** | prop | 2939 | 4 | ~735 | 1 | | | |
 
 ### Sep 15, 16:09 round (12:09pm ET): both lanes plus a Helion quote
 
@@ -1329,3 +1331,29 @@ the frame drift, which hit again on every navigation (609 on the profile, 621 on
 633 on home). **Prefer `ref` clicks over measured coordinates for like buttons.** Also confirmed again:
 `get_page_text` returns an empty `<main>` on the first call after `navigate` and needs a wait or a second
 call, and `computer scroll` with a coordinate errors unless a screenshot was taken in the same batch first.
+
+### Sep 23, 16:10 round (12:10pm ET, resumed after Rand signed the browser back in): both lanes
+
+First signed-in round today. Morning note never went out (the browser was signed out at 9am), so there
+was no own thread to answer, and there were no new mentions. Late reads on last night's rows: @andyyy
+receipt 62 to **233**, @ESCOweb3 own-thread 6 to 14. Still no new OP replies. Praise-lane count moves to
+26 rows, 10 with an OP reply.
+
+- **Lane B, praise+oc:** @Mo_Ezz14 (angel) quoting @Beezie's record onchain TCG sale, proud he backed it
+  under its old name and uses it as a collector. Reply: "Investor and customer. Best due diligence there
+  is." Eight words. The line praises his investor-and-customer detail and says nothing about the sale price.
+- **Lane A, prop:** @a16z clip of Amjad Masad on young people as heretics, caught at 4 minutes and ~2.9K
+  views. Reply: "Unc's heresy peaked in 1989. Vest fully unzipped." Eight words.
+- Skipped @hellotradeapp (onchain stocks, fast parent, but the product advertises 40x leverage, so a reply
+  reads as endorsing a leverage venue), @DeItaone on the Pilgrim biodefense raise (Ebola and anthrax
+  framing is too close to the illness line for a joke), @ycombinator Earendil Robotics (military drones),
+  @HarryStebbings (past 60 minutes).
+- Likes: 2, @MorganVonDruitt (agent product post) and the @a16z Amjad clip. Both confirmed via the
+  `unlike` testid. Skipped @stanleefounder (his post is a jab at another user). Below the 3 to 6 target.
+
+**Mechanics.** The frame drifted on nearly every navigation (619, 631, 643, 655, 668), so the viewport had to
+be resized to the new frame before each click. The first Reply click on the Mo post, a `ref` click made
+while the frame was off, silently failed. It went through after resizing and clicking by screenshot
+coordinate, and with_replies shows it once, so there was no double post. The first
+with_replies load after the a16z reply did not list it. A reload did. Wait for a reload before calling a
+reply failed.

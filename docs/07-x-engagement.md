@@ -4075,3 +4075,7 @@ here per the paused-following rule rather than followed.
 
 - **Sep 23, 12:09pm ET reply round: blocked.** In-app browser still signed out of X (Log in banner on
   with_replies). No replies, likes, reposts or quotes. Fifth consecutive blocked routine today.
+
+- **Sep 23, 12:10pm ET reply round (resumed after sign-in):** 2 replies, @Mo_Ezz14 (praise+oc, 8 words) and
+  @a16z (prop, 8 words). 2 likes (@MorganVonDruitt, @a16z). No reposts or quotes, no follows. Today's
+  timeline count: 2 of 10.
