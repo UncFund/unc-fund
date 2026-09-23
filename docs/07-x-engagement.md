@@ -3388,6 +3388,7 @@ No morning thread, no praise hunting, no follows.
 | 10:12am Sep 22 | @MollySOShea (a16z launches the Horowitz Andreessen Academy, a residential no-tuition program, applications open today) | repost | — | 10m at catch, ~12m at send |
 | 2:14pm Sep 22 | @ycombinator (Firecrawl $75M Series B) | quote | Congratulations to the Firecrawl founders. Unc read the whole thing with his readers on his forehead. | 25m at catch |
 | 4:21pm Sep 22 | @SnorkelAI ($350M at a $3.5B valuation, $375M ARR, 18x in under a year) | repost | — (a quote was intended; the repost button fires a plain repost directly instead of opening the repost/quote menu, so the slot was spent as a repost) | 7m at catch, 15m at send |
+| 9:07pm Sep 22 | @WatcherGuru (Canada's six biggest banks launch a joint tokenized deposits project for 24/7 blockchain-based payments — BMO, RBC, TD, Scotiabank, National Bank, CIBC) | quote | Unc once sprinted to a bank lobby at 4:58 on a Friday. In the grey runners. | 11m at catch, 11m at send |
 
 ## Sep 14: routines hardened for unattended running
 
@@ -3997,3 +3998,38 @@ here per the paused-following rule rather than followed.
   the two highest-reach replies this account has ever posted, and both were large parents caught live. The
   scheduled rounds are not finding parents of that size inside the freshness window; the board they search
   (Following timeline plus four keyword searches) looks like the binding constraint, not the picking rule.
+
+- Sep 22, 9:03-9:08pm ET (01:03-01:08 UTC Sep 23) news check: **one quote post, no reply.** Scheduler
+  clear (reply round succeeded 00:23:49Z, follow queue 00:19:00Z, morning note 14:08Z; none running).
+  Newest Unc post 37m old, so no concurrent run. Signed in as @UncFund, frame 800x609 then 800x621.
+  **The drop: @WatcherGuru, 8:56pm ET, caught at 7m on a keyword sweep** — "Canada's six biggest banks
+  launch joint tokenized deposits project to enable 24/7 blockchain-based payments", naming BMO, RBC, TD,
+  Scotiabank, National Bank and CIBC. 52.6K views at catch. Verified badge, exact handle confirmed in the
+  DOM. Cross-checked the story against four other accounts carrying it; it is real, but **no established
+  outlet and no News Desk member had posted it** — a `filter:blue_verified` Latest search returned only
+  aggregators and small anon accounts, so @WatcherGuru was the best available source rather than the
+  preferred journalist report. Quoted at 9:07pm, 11m parent age:
+  **"Unc once sprinted to a bank lobby at 4:58 on a Friday. In the grey runners."** (15 words, on-chain
+  register, props, butt of the joke is Unc). Live at /UncFund/status/2102565638166442151.
+- **The News Desk List itself had nothing.** Chronological list search gave continuous coverage 0m to 54m:
+  @robbieklages at 0m was a barbell-thesis post carrying $BTC and $HYPE (tickers); two @andyyy posts at 6m
+  and 7m were Jump Trading / Terra "Crime" and a perps-volume bot accusation (drama, negative, market);
+  @jacqmelinek at 17m and 18m was foraging banter; @siennacolee, @EricBalchunas, @MollySOShea replies were
+  chatter. The drop was found only by widening to a `stablecoin OR tokenized OR tokenization OR "CLARITY
+  Act"` Latest search with `min_faves:5` — **worth keeping as a standing second sweep**, since the biggest
+  on-chain drop of the day never touched the List.
+- **No reply, correctly.** Sep 22 Eastern stands at ~15 timeline replies against a ceiling of 10 (Rand's
+  six hand-posted replies at 21:49-21:58 UTC plus a hand-posted @andyyy orderbook reply at 00:26:51Z), so
+  the "skip the reply at eight or more" rule resolves to silence. The @WatcherGuru replies were full of
+  $XRP ticker talk regardless.
+- **Composer note, corrects the 4:21pm finding.** The 4:21pm run logged that "the repost button fires a
+  plain repost directly instead of opening the repost/quote menu". That is not what happened here: the
+  button opened a Repost/Quote menu normally both times. The real trap is **render lag** — after clicking
+  Quote, the modal takes a beat to appear and a screenshot taken immediately still shows the old page, and
+  a `form_input` that looks like it failed actually lands seconds later. Using `form_input` and then typing
+  produced **doubled, interleaved text**. Caught it before sending, discarded the draft, confirmed via
+  `data-testid` that no stray repost had fired, and retyped clean. **Rule for future runs: type with the
+  keyboard only, never mix `form_input` and `type`, and read the composer back with
+  `[data-testid="tweetTextarea_0"].innerText` before clicking Post — the screenshot lies.**
+- Reposts/quotes today: **4 of 4, cap reached** (10:12am @MollySOShea, 2:14pm @ycombinator, 4:21pm
+  @SnorkelAI, 9:07pm @WatcherGuru). No account used twice. First day the fourth slot has been filled.
