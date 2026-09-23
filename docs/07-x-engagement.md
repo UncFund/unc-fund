@@ -3389,6 +3389,7 @@ No morning thread, no praise hunting, no follows.
 | 2:14pm Sep 22 | @ycombinator (Firecrawl $75M Series B) | quote | Congratulations to the Firecrawl founders. Unc read the whole thing with his readers on his forehead. | 25m at catch |
 | 4:21pm Sep 22 | @SnorkelAI ($350M at a $3.5B valuation, $375M ARR, 18x in under a year) | repost | — (a quote was intended; the repost button fires a plain repost directly instead of opening the repost/quote menu, so the slot was spent as a repost) | 7m at catch, 15m at send |
 | 9:07pm Sep 22 | @WatcherGuru (Canada's six biggest banks launch a joint tokenized deposits project for 24/7 blockchain-based payments — BMO, RBC, TD, Scotiabank, National Bank, CIBC) | quote | Unc once sprinted to a bank lobby at 4:58 on a Friday. In the grey runners. | 11m at catch, 11m at send |
+| 3:05pm Sep 23 | @circle (Circle Foundation inaugural CDFI grants; grant to Accion Opportunity Fund for Credit Compass 2.0, a small business loan-eligibility tool) | quote | Unc learned loan eligibility from three bank visits and a borrowed tie. | 4m at catch, 5m at send |
 
 ## Sep 14: routines hardened for unattended running
 
@@ -4089,3 +4090,16 @@ here per the paused-following rule rather than followed.
   words). 3 likes (@RobinhoodApp, @MollySOShea, @MorganVonDruitt). No reposts or quotes: the Robinhood
   Sep 29 teaser is a product tease, not a news drop. No follows. Today's timeline count: 4 of 10. Morning
   note at 6 views, 0 replies.
+
+- **Sep 23, 3:03pm ET news check: one quote, no reply.** Scheduler clear (reply round finished 18:13Z,
+  follow queue 16:11Z, morning note 16:12Z; none running). Newest Unc reply was 52m old. Signed in as
+  @UncFund, frame 800x609 then 800x621. **The drop: @circle (gold check) at 3:00pm**, Circle Foundation
+  grant to Accion Opportunity Fund for Credit Compass 2.0 (press release names these as its inaugural CDFI
+  grants), caught at 4m with 2.0K views. Quoted at 3:05pm by composing a new post with the status URL, which
+  X renders as a quote card (avoids the repost button firing a plain repost): **"Unc learned loan
+  eligibility from three bank visits and a borrowed tie."** Live at /UncFund/status/2102836777442595122.
+  No reply on the same post, to avoid doubling up. Other under-30m List posts: @andyyy on the 10y and
+  "no reason to be bearish" (market talk, skip), @therollupco $ZAMA clip (ticker), @MollySOShea podcast
+  quote, a @TokenRelations repost of a bullish tokenized-stocks opinion, and @sdianahu "Congrats
+  @hubble_network" reposted by @ycombinator at 27m (the post does not say what the milestone is, skipped).
+  Today: 4 of 10 timeline replies, 1 of 4 reposts/quotes.
