@@ -3557,6 +3557,11 @@ vending machine 120 and 1, "Unc believes in you" 10.
   if following keeps drifting ahead of the queue, something else is adding follows.
 - Note for the record: followers read **31** at the start of this run, not the 29 the 2:14pm quote-post entry
   recorded. Up two on the day, so the Sep 18 high of 31 is back.
+- 8:18pm ET Sep 22 (00:18 UTC Sep 23; the 7:25pm slot, started late): **yielded, unc-reply-round running.** The
+  scheduler showed the 8:15pm reply round live — started 00:15:06 UTC, last_activity_at 00:18:10, six seconds before
+  the check — so it is not hung under the 10-minute staleness bound, and the reply round outranks this routine. Did
+  not open the browser, did not load the profile, followed nothing. Following/followers not read. Queue untouched at
+  the same rows the 3:41pm run left queued.
 
 ## Round at 00:09 UTC Sep 15 (8:09pm ET Sep 14): one own-thread answer, day still at the ceiling
 
