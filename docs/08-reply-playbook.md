@@ -6263,3 +6263,10 @@ in / Sign up. Same state that blocked the 9am morning note. Logging in means ent
 which the routine is not allowed to do, so nothing was read, answered, liked or posted and no ledger rows
 were measured. **Rand needs to sign the in-app browser back into @UncFund**; every Unc routine is dead until
 then. No morning note went out today, so there is no own thread to answer either.
+
+### Reply round Sep 23, 12:09pm ET — blocked, browser still signed out of X
+
+Scheduler check clean (news check 11:03, follow queue 11:29, morning note 9:01 all succeeded, none running).
+https://x.com/UncFund/with_replies still loads signed out with the Log in / Sign up banner. Nothing read,
+answered, liked or posted; no ledger rows measured. Every Unc routine since the 9am note has hit the same
+wall. **Rand needs to sign the in-app browser back into @UncFund** before any round can do work.
