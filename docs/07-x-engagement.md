@@ -4061,3 +4061,4 @@ here per the paused-following rule rather than followed.
 
 - **Sep 23, 10:09am ET reply round: blocked.** In-app browser still signed out of X (Log in banner on
   with_replies). No replies, likes, reposts or quotes. Needs Rand to sign back in to @UncFund.
+- **Sep 23, 11:03am ET news check: blocked.** In-app browser still signed out of X (Log in links and the "Log in or sign up for X" panel on x.com/UncFund). Scheduler clean, nothing running. No login attempted; News Desk List not scanned; nothing posted, quoted or reposted. Manual sign-in to @UncFund in the in-app browser still needed.
