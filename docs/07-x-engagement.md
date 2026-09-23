@@ -4058,3 +4058,6 @@ here per the paused-following rule rather than followed.
   frame drift, which hit every navigation again (609, 621, 633). Two smaller repeats worth keeping:
   `get_page_text` returns an empty `<main>` on the first call after `navigate`, and `computer scroll` with a
   coordinate fails unless a screenshot was taken in the same batch first.
+
+- **Sep 23, 10:09am ET reply round: blocked.** In-app browser still signed out of X (Log in banner on
+  with_replies). No replies, likes, reposts or quotes. Needs Rand to sign back in to @UncFund.

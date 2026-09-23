@@ -6254,3 +6254,12 @@ like and **zero replies**. The playbook rates own-thread replies the single most
 (455-618 views on working VC accounts, against 9-57 on strangers' posts), and the rounds are correctly
 answering every response they get — there just are not any. The own-thread lane has no supply. That is a
 problem with the notes' reach, not with the reply rules, and no change to the reply routine can fix it.
+
+### Reply round Sep 23, 10:09am ET — blocked, browser signed out of X
+
+Scheduler check clean (news check, follow queue and morning note all succeeded, none running). The in-app
+browser opened https://x.com/UncFund/with_replies signed out: "Don't miss what's happening" banner with Log
+in / Sign up. Same state that blocked the 9am morning note. Logging in means entering the account password,
+which the routine is not allowed to do, so nothing was read, answered, liked or posted and no ledger rows
+were measured. **Rand needs to sign the in-app browser back into @UncFund**; every Unc routine is dead until
+then. No morning note went out today, so there is no own thread to answer either.
