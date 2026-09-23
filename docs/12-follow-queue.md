@@ -48,9 +48,9 @@ Status values: `queued`, `followed YYYY-MM-DD`, `rejected: reason`, `reverted YY
 | 21 | @jchervinsky | Jake Chervinsky, crypto policy lawyer | followed 2026-09-22 |
 | 22 | @RepFrenchHill | Rep. French Hill (R-AR), House Financial Services | followed 2026-09-22 |
 | 23 | @RitchieTorres | Rep. Ritchie Torres (D-NY), House Financial Services | followed 2026-09-22 |
-| 24 | @SECGov | U.S. Securities and Exchange Commission (government badge) | queued |
-| 25 | @CFTC | U.S. Commodity Futures Trading Commission (government badge) | queued |
-| 26 | @HesterPeirce | Hester Peirce, SEC Commissioner | queued |
+| 24 | @SECGov | U.S. Securities and Exchange Commission (government badge) | followed 2026-09-23 (list add pending) |
+| 25 | @CFTC | U.S. Commodity Futures Trading Commission (government badge) | followed 2026-09-23 (list add pending) |
+| 26 | @HesterPeirce | Hester Peirce, SEC Commissioner | followed 2026-09-23 |
 | 27 | @coinbase | Coinbase | queued |
 | 28 | @krakenfx | Kraken, tokenized equities (xStocks) | queued |
 | 29 | @RobinhoodApp | Robinhood, stock tokens and Robinhood Chain | queued |

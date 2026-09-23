@@ -3574,6 +3574,16 @@ vending machine 120 and 1, "Unc believes in you" 10.
   round started 16:09 UTC with last activity 16:11:27, seconds old, and outranks this routine; the 9am morning note
   (started 13:01 UTC) also woke up on the sign-in and was active at 16:11:28. Browser not touched. Followed none,
   rejected none, reverted none, no list adds. Queue rows untouched: 28 still queued.
+- 3:29pm ET Sep 23 (19:29 UTC; the 3:25pm slot): followed @SECGov (grey badge, sec.gov, joined 2008, 810.9K),
+  @CFTC (grey badge, cftc.gov, joined 2011, 108.8K) and @HesterPeirce (blue badge, "SEC Commissioner since
+  1/2018", sec.gov link, joined 2012, 128.2K). All three read Following after a reload, spaced at least 90
+  seconds apart. Rejected none, reverted none. List adds to Unc News Desk: @HesterPeirce only (36 to 37). @SECGov
+  and @CFTC are **list add pending**: both attempts on each misfired. On this profile layout the "..." click opens
+  the menu, but a second click at the same spot lands on "About this account". The fix that worked for Peirce:
+  click "..." once, then find "Add/remove from Lists" by ref and click that. Scheduler clear at the start (reply
+  round 18:09 to 18:13 UTC, news check 19:03 to 19:06 UTC, morning note, all succeeded, none running). Signed
+  in, newest own reply 18:11 UTC. Step 5: the previous run recorded no revert. Following 114 to 117, followers 34
+  to 34. 25 rows still queued.
 
 ## Round at 00:09 UTC Sep 15 (8:09pm ET Sep 14): one own-thread answer, day still at the ceiling
 
