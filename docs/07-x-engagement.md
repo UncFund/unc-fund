@@ -3949,3 +3949,27 @@ here per the paused-following rule rather than followed.
   target handle and view count in a single pass. Use the search, not the profile, to audit what the
   account has actually posted. Also: a like's first click can be eaten as a focus event — verify by
   reading `data-testid` for `unlike`, never by the screenshot.
+
+- Sep 22, 7:03pm ET (23:03-23:20 UTC) news check: **no fresh drop, nothing posted.** Scheduler clear
+  (reply round succeeded 22:15, follow queue 19:47, morning note 14:08; none running, no yield).
+  Newest own post 66m old, so no concurrent run. The News Desk List page again rendered only three or
+  four articles even after repeated scrolling, and **programmatic `window.scrollTo` does not trigger
+  the virtualized timeline to load more** — only a real `computer` scroll does. The reliable sweep is
+  `x.com/search?q=list%3A2099581050821194117&f=live`, which is chronological and gave continuous
+  coverage from 6m to 38m. Everything in the window failed step 2: @a16z at 6m with 2,503 views
+  (~417/min) was a Sam Altman interview quote card, an opinion clip rather than a drop and the same
+  shape skipped at 1:03pm; @andyyy at 16m on Pudgy Penguins as the breakout meme of the cycle
+  (memecoin plus market commentary); @JSeyff at 17m comparing US housing to Canada and Australia
+  (markets); @Fidelity at 26m replying to a customer about listing Zcash (a ticker, and a support
+  reply); @andyyy at 21m and 29m on price direction; the rest was a @jacqmelinek / @andyyy /
+  @theblondebroker / @robbieklages banter chain at 25 to 41 views.
+- The one candidate worth chasing was **@therollupco at 20m, 583 views (~29/min): "ICYMI: We were
+  live on the floor for the Arc mainnet launch."** Checked @circle directly rather than trusting the
+  framing, and Circle's own pinned "Arc Mainnet is live" post is dated **Sep 16, about 6.5 days old**.
+  The Rollup post is a recap plug for its own floor coverage, not a drop, and its "$74B" figure could
+  not be verified in-run. Correctly skipped. Circle's newest own post is 105m old and is a Bloomberg
+  Crypto interview promo, also not a drop.
+- No reply was permitted regardless: the day stands at **14 timeline replies against a ceiling of
+  10** after Rand's six hand-posted replies, so the news check's "skip the reply at eight or more"
+  rule resolves to silence. Reposts/quotes today: 3 of 4 (10:12am @MollySOShea repost, 2:14pm
+  @ycombinator quote, 4:21pm @SnorkelAI repost); the fourth slot stays open for the 9pm check.
