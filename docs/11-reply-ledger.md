@@ -160,8 +160,10 @@ Three things to hold onto when reading these rows back:
 | 09-22 21:58 | @stanleefounder | 14 | oblivious (hand-posted by Rand) | — | — | — | — | **2,795** (2h26m) | 0 | n |
 | 09-23 00:22 | @ESCOweb3 | **7** | own-thread+oc | 10 | 110 | 0.1 | 0 | 6 (1h50m); 14 (15h50m) | 0 | n |
 | 09-23 00:27 | @andyyy | 18 | receipt+oc (hand-posted by Rand) | — | — | — | — | 62 (1h45m); **233** (15h50m) | 0 | n |
-| 09-23 16:14 | @Mo_Ezz14 | **8** | praise+oc | 169 | 13 | 13 | 4 | | | |
-| 09-23 16:15 | @a16z | **8** | prop | 2939 | 4 | ~735 | 1 | | | |
+| 09-23 16:14 | @Mo_Ezz14 | **8** | praise+oc | 169 | 13 | 13 | 4 | 10 (1h55m) | 0 | n |
+| 09-23 16:15 | @a16z | **8** | prop | 2939 | 4 | ~735 | 1 | 49 (1h55m) | 0 | n |
+| 09-23 18:10 | @RobinhoodApp | **8** | prop | 12900 | 16 | ~805 | 159 | | | |
+| 09-23 18:11 | @0xgmike | **7** | praise | 35 | 1 | ~35 | 0 | | | |
 
 ### Sep 15, 16:09 round (12:09pm ET): both lanes plus a Helion quote
 
@@ -1357,3 +1359,35 @@ while the frame was off, silently failed. It went through after resizing and cli
 coordinate, and with_replies shows it once, so there was no double post. The first
 with_replies load after the a16z reply did not list it. A reload did. Wait for a reload before calling a
 reply failed.
+
+### Sep 23, 18:09 round (2:09pm ET): both lanes
+
+Scheduler clear (news check finished 17:06, follow queue 16:11, morning note 16:12). Newest Unc post was
+the 16:15 a16z reply, so no concurrent run. Today's 12:12pm morning note ("Wednesday. Unc has the readers
+down and the second coffee poured.") sits at 6 views and no replies, and there are no new mentions or
+replies to Unc since the last round. Nothing own-thread to answer.
+
+Reads at 1h55m on the 12pm picks: @a16z prop **49** views, 0 likes; @Mo_Ezz14 praise+oc **10**, 0 likes.
+No OP reply on either. Praise-lane count: 27 rows, 10 with an OP reply.
+
+- **Lane A, prop:** @RobinhoodApp launch teaser ("Houston, we're almost ready for launch. September 29."),
+  caught at 16 minutes, 12.9K views, ~805/min, 159 replies. Reply: "Unc laid out the vest six days early."
+  Eight words. Sep 29 is six days out, so the specificity is real.
+- **Lane B, praise:** @0xgmike (Mike Hanono, Talus) on rewriting the Talus site because positioning wears
+  out, caught at about one minute, 35 views, 0 replies. Reply: "\"Positioning depreciates\" is going on Unc's
+  fridge." Seven words. Praises his exact line. Talus is an AI-agent project with a crypto side, but the
+  post and the reply are about copywriting only, with no token, so this is not tagged +oc.
+- Skipped @MorganVonDruitt (fresh, tiny, but he had a praise reply and an own-thread yesterday, and going
+  back to the same warm account is the pattern that got the account blocked before), @notthreadguy (quotes an
+  FBI breach headline), @andyyy and @robbieklages (live trading shows), @JSeyff (ETF flow numbers), and
+  @HarryStebbings (past 60 minutes).
+- Likes: 3, @RobinhoodApp teaser, @MollySOShea (Starship documentary), @MorganVonDruitt (sales-depth
+  post). Molly's needed a second ref click, the first one only focused the button. Confirmed by the label
+  reading "Liked" with the count going up by one.
+- Timeline replies today: 4 of 10.
+
+**Mechanics.** The frame drifted 609 to 621 to 633 across navigations, so I resized before every click.
+On @RobinhoodApp, clicking the composer and typing did not land, and form_input did. On @0xgmike,
+form_input filled the box but nothing showed until a coordinate click on the composer, then Reply worked.
+The first with_replies load after the @0xgmike reply did not list it, and a reload did. This is the second
+time today, so reload before calling a reply failed.

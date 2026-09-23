@@ -6277,3 +6277,10 @@ Rand signed the browser back in and the round resumed. Posted "Investor and cust
 there is." to @Mo_Ezz14 (praise lane, 13-minute parent at 13 views/min) and "Unc's heresy peaked in 1989.
 Vest fully unzipped." to @a16z (velocity lane, 4 minutes old at ~735 views/min). Both eight words. Full
 notes in 11-reply-ledger.md.
+
+### Reply round Sep 23, 2:09pm ET: both lanes
+
+Posted "Unc laid out the vest six days early." to @RobinhoodApp (velocity lane, 16-minute launch teaser at
+~805 views/min, eight words) and "\"Positioning depreciates\" is going on Unc's fridge." to @0xgmike (praise
+lane, one-minute parent at 35 views, no replies yet, seven words). Morning note had no replies to answer.
+Full notes in 11-reply-ledger.md.

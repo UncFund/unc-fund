@@ -4079,3 +4079,13 @@ here per the paused-following rule rather than followed.
 - **Sep 23, 12:10pm ET reply round (resumed after sign-in):** 2 replies, @Mo_Ezz14 (praise+oc, 8 words) and
   @a16z (prop, 8 words). 2 likes (@MorganVonDruitt, @a16z). No reposts or quotes, no follows. Today's
   timeline count: 2 of 10.
+
+- **Sep 23, 1:03pm ET news check:** no fresh drop. Under-30m posts were a show promo (@therollupco), a
+  newsletter article (@TokenRelations), a chain exploit follow-up and a politician stock disclosure
+  (@laurashin, skip list), and a senator post (@SenRubenGallego, awareness only). Nothing posted.
+  Note: list page only renders a few posts while the pane is hidden; computer scroll worked to load more.
+
+- **Sep 23, 2:09pm ET reply round:** 2 replies, @RobinhoodApp (prop, 8 words) and @0xgmike (praise, 7
+  words). 3 likes (@RobinhoodApp, @MollySOShea, @MorganVonDruitt). No reposts or quotes: the Robinhood
+  Sep 29 teaser is a product tease, not a news drop. No follows. Today's timeline count: 4 of 10. Morning
+  note at 6 views, 0 replies.
