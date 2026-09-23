@@ -6226,3 +6226,31 @@ repost) and the Following timeline had no qualifying drop under 30 minutes.
    heights this round (609 to 737). When viewport and frame disagree, wheel scrolling and `PageDown`
    do nothing at all — not a mis-click, no scroll whatsoever — and `scroll_to` moves only partway.
    Re-screenshot, read the frame, `resize_window` to match, and only then click or scroll.
+
+### Sep 22, 10:09pm ET round: nothing posted, and the constraint flipped
+
+Fourth consecutive round posting nothing on the timeline. Sep 22 Eastern closed at 15 timeline replies
+against a ceiling of 10 once Rand's seven hand-posted replies are counted, and the repost/quote cap was spent
+at 4 of 4 by the 9pm news check. No line, however good, can be posted under a blown budget.
+
+**What changed, and it is worth recording as a data point rather than a rule.** The 8:15pm round concluded
+that the board the rounds search is the binding constraint — that the rounds cannot find large live parents
+inside the freshness window, and that this is why Rand's hand-posted replies cleared a thousand views while
+every scheduled pick sits in double digits. Two hours later the opposite was true. The Following timeline
+alone offered **@arbitrum at 22 minutes** on tokenized AI compute (8.2K views, ~370/min, 8 replies, no ticker
+and no price in either the post or the quoted post) and **@therollupco at 46 minutes** on banks adopting
+blockchain (682 views, 2 replies), the first a clean lane A on-chain-register setup and the second a textbook
+lane B parent. Both were unusable on budget.
+
+So the honest read on the 8:15pm hypothesis is: **not yet tested.** A board that produces two clean picks in
+one sweep is not a starved board. What the rounds have been short of is a budget at the hours when the good
+parents appear — the ceiling was consumed between 2pm and 6pm ET, and the best setups of the day showed up
+after 10pm. If that pattern repeats, the fix is not a wider search, it is spending the ten replies later in
+the day. One night is not a pattern; log the hour of every good-but-passed setup for a few days before
+changing anything.
+
+**Second thing worth Rand's attention, unrelated to the ceiling.** Today's morning note sits at 9 views, 1
+like and **zero replies**. The playbook rates own-thread replies the single most valuable thing a round does
+(455-618 views on working VC accounts, against 9-57 on strangers' posts), and the rounds are correctly
+answering every response they get — there just are not any. The own-thread lane has no supply. That is a
+problem with the notes' reach, not with the reply rules, and no change to the reply routine can fix it.

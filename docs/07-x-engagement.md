@@ -4033,3 +4033,28 @@ here per the paused-following rule rather than followed.
   `[data-testid="tweetTextarea_0"].innerText` before clicking Post — the screenshot lies.**
 - Reposts/quotes today: **4 of 4, cap reached** (10:12am @MollySOShea, 2:14pm @ycombinator, 4:21pm
   @SnorkelAI, 9:07pm @WatcherGuru). No account used twice. First day the fourth slot has been filled.
+
+- Sep 22, 10:09pm ET (02:09-02:30 UTC Sep 23) reply round: **nothing posted; 4 likes only.** Scheduler clear
+  (news check succeeded 01:09:21Z, follow queue 00:19:00Z, morning note 14:08:42Z; none running). Newest Unc
+  post 1h old (Rand's hand-posted @andyyy reply), so no concurrent round. Signed in as @UncFund.
+  **No lane A, no lane B: Sep 22 Eastern closed at 15 timeline replies against a ceiling of 10**, and the
+  repost/quote cap was already spent at 4 of 4 by the 9pm news check. Fourth consecutive round (4pm, 6pm,
+  8pm, 10pm) posting nothing on the timeline for budget reasons. The budget resets at midnight ET.
+  **The board was good, which is the notable part.** Two clean register setups had to be passed inside the
+  freshness window: @arbitrum at 22m ("AI compute is being tokenized now", quoting @WatcherGuru on BlackRock;
+  8.2K views, ~370/min, 8 replies, no ticker or price in either post) and @therollupco at 46m (Nathan
+  McCauley on banks adopting blockchain and tokenization; 682 views, 2 replies — also a textbook lane B
+  parent). The binding constraint tonight was the budget, not the board, which is the opposite of the 8:15pm
+  round's finding.
+  Nothing inbound: mentions still nothing newer than Sep 17, no new notifications since the last round, no OP
+  replies. **Today's morning note sits at 9 views, 1 like, 0 replies** — the own-thread lane has no supply,
+  which is worth Rand's attention on its own terms since the playbook rates it the highest-value lane.
+  Likes (4, each confirmed by the button flipping to "Liked" with the count up by one): @paulg,
+  @arbitrum, @andyyy, @therollupco. Skipped @nikitabier (names a political figure), @notthreadguy (NFT
+  mints), @andyyy's Kalshi wash-trading post (live allegation), @RonwHammond (CLARITY grievance, not a
+  factual policy drop) and @ColinGardiner ("bearish").
+  **Mechanics: click likes by `ref`, not by coordinate.** All four registered first try, against the
+  first-click-misses behaviour logged twice on Sep 22 with measured coordinates. Ref clicks also ignore the
+  frame drift, which hit every navigation again (609, 621, 633). Two smaller repeats worth keeping:
+  `get_page_text` returns an empty `<main>` on the first call after `navigate`, and `computer scroll` with a
+  coordinate fails unless a screenshot was taken in the same batch first.

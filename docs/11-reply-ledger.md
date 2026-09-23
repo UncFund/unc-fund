@@ -158,7 +158,8 @@ Three things to hold onto when reading these rows back:
 | 09-22 21:52 | @garrytan | 9 | react (hand-posted by Rand) | — | — | — | — | 11 (2h32m) | 0 | n |
 | 09-22 21:54 | @sama | 5 | react (hand-posted by Rand) | — | — | — | — | 10 (2h30m) | 0 | n |
 | 09-22 21:58 | @stanleefounder | 14 | oblivious (hand-posted by Rand) | — | — | — | — | **2,795** (2h26m) | 0 | n |
-| 09-23 00:22 | @ESCOweb3 | **7** | own-thread+oc | 10 | 110 | 0.1 | 0 | 1 (2m) | 0 | — |
+| 09-23 00:22 | @ESCOweb3 | **7** | own-thread+oc | 10 | 110 | 0.1 | 0 | 6 (1h50m) | 0 | n |
+| 09-23 00:27 | @andyyy | 18 | receipt+oc (hand-posted by Rand) | — | — | — | — | 62 (1h45m) | 0 | n |
 
 ### Sep 15, 16:09 round (12:09pm ET): both lanes plus a Helion quote
 
@@ -1273,3 +1274,58 @@ whenever the emulated viewport and the reported coordinate frame differ — and 
 almost every navigation this round (609, 621, 633, 645, 657, 670, 683, 696, 709, 723, 737). Re-reading
 the frame off each screenshot and resizing to match before clicking is not optional; it was the
 difference between a dead page and a working one four separate times.
+
+### Sep 22, 10:09pm ET round (02:09-02:30 UTC Sep 23): nothing posted, fourth round under a blown budget
+
+**Scheduler clear.** news-check succeeded 01:09:21Z, follow-queue 00:19:00Z, morning note 14:08:42Z. Nothing
+running, so no yield. Newest Unc post was 1h old (Rand's hand-posted @andyyy reply at 00:26:51Z), so no
+concurrent round either.
+
+**No lane A and no lane B: the Eastern day closed at 15 timeline replies against a ceiling of 10.** Audited
+off `x.com/search?q=from%3AUncFund&f=live`, which again rendered every row where `with_replies` did not. The
+15: @MollySOShea, @blknoiz06, @nickvasiles, @ycombinator, @MorganVonDruitt, @brycent, @SnorkelAI, @roywass_
+from the scheduled rounds, plus Rand's seven hand-posted ones (@asdhas9082, @ESCOweb3, @RobinhoodCrypto,
+@garrytan, @sama, @stanleefounder at 21:49-21:58, and @andyyy at 00:27). Own-thread replies excluded, as the
+rules say. Repost/quote is also spent at 4 of 4. This is the **fourth consecutive round** (4pm, 6pm, 8pm,
+10pm) to post nothing on the timeline for budget reasons. The budget resets at midnight ET, so the 11pm
+round is the first that can take a pick again.
+
+**And the board was genuinely good tonight, which is worth saying plainly.** Two clean on-chain-register
+setups sat inside the freshness window and had to be passed: **@arbitrum at 22 minutes**, "AI compute is
+being tokenized now", quoting a @WatcherGuru BlackRock line — 8.2K views, ~370/min, 8 replies, no ticker and
+no price anywhere in either post; and **@therollupco at 46 minutes** on Nathan McCauley saying banks will
+adopt blockchain and tokenization, 682 views and 2 replies, which is also a textbook lane B parent (small,
+slow, sincere, two replies deep). Both are exactly what criterion (b) asks for and both were unusable. The
+constraint tonight was the budget, not the board.
+
+**Nothing inbound to answer.** Mentions still have nothing newer than Sep 17. Notifications since the last
+round: zero new. @ESCOweb3's 3h-old reply was answered at 00:22 and @MorganVonDruitt's 7h-old one at 20:12.
+Today's morning note ("Unc wore the grey runners to a board meeting once") sits at **9 views, 1 like, 0
+replies** — the own-thread lane, which the playbook calls the most valuable thing a round does, currently has
+no supply at all because the notes are not drawing responses. Worth Rand's attention separately from the
+reply rules.
+
+**Drift, re-read at 02:15 UTC.** The 2h convention keeps undercounting in one direction and the gap widened
+again: @MollySOShea 171 to **387**, @ycombinator 50 to **117**, @nickvasiles praise 129 to **139**,
+@stanleefounder 2,795 to **3.8K**, @RobinhoodCrypto 1,185 to **1.5K**, @SnorkelAI 36 to 45, @blknoiz06 26 to
+34, @ESCOweb3 hand-posted 12 to 17, @garrytan 11 to 15, @sama 10 to 12, @asdhas9082 5 to 7,
+@MorganVonDruitt praise 10 to 11 and his own-thread 2 to 4, @brycent flat at 20. The @nickvasiles own-thread
+row, unreadable last round, resolves at **9**. Roughly a 2x undercount on the better rows. Still not changing
+the read window mid-experiment, but a future analysis should treat every logged `views` figure as a floor.
+
+**No OP replies since the last round.** Praise-lane count unchanged: 25 rows, 23 resolved, 10 with an OP
+reply, about 43 percent — still well clear of the Sep 12 falsifier.
+
+**Likes: 4, all confirmed by the button label flipping to "Liked" with the count incremented** — @paulg
+(prewar watch movements), @arbitrum (tokenized AI compute), @andyyy (his RobinhoodCrypto Stock Tokens quote)
+and @therollupco (banks adopting blockchain). Skipped @nikitabier (names a political figure), @notthreadguy
+(NFT mint talk), @andyyy's Kalshi wash-trading post (live allegation), @RonwHammond (CLARITY grievance, a
+politics-adjacent complaint rather than a factual policy drop) and @ColinGardiner (uses "bearish").
+
+**Mechanics, one clean finding.** Every like this round was clicked **by `ref`** rather than by coordinate,
+and all four registered on the first click — against the first-click-misses behaviour logged at 18:09 and
+21:xx, where coordinate clicks were eaten as focus events and needed a second press. Ref clicks also survive
+the frame drift, which hit again on every navigation (609 on the profile, 621 on notifications and search,
+633 on home). **Prefer `ref` clicks over measured coordinates for like buttons.** Also confirmed again:
+`get_page_text` returns an empty `<main>` on the first call after `navigate` and needs a wait or a second
+call, and `computer scroll` with a coordinate errors unless a screenshot was taken in the same batch first.
