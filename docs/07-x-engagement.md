@@ -3978,3 +3978,22 @@ here per the paused-following rule rather than followed.
   10** after Rand's six hand-posted replies, so the news check's "skip the reply at eight or more"
   rule resolves to silence. Reposts/quotes today: 3 of 4 (10:12am @MollySOShea repost, 2:14pm
   @ycombinator quote, 4:21pm @SnorkelAI repost); the fourth slot stays open for the 9pm check.
+
+- Sep 22, 8:15pm ET (00:15-00:35 UTC Sep 23) reply round: **one reply, own-thread only; no repost or quote.**
+  Scheduler clear (news check succeeded 00:14:43Z one minute earlier, follow queue 19:47Z, morning note 14:08Z;
+  none running). Newest Unc post 2h old, so no concurrent round. Signed in as @UncFund.
+  Posted: **"Unc wasn't joking. Unc has no material."** (7 words) to @ESCOweb3, answering his laughing-emoji
+  reply to Unc's praise line — an OP reply earned at 22:32 UTC and answered at 00:22 UTC. Verified live on
+  `from:UncFund` search.
+  No timeline picks: Sep 22 Eastern finished at ~14 replies against a ceiling of 10, third round running under
+  a blown budget. Mentions tab still has nothing newer than Sep 17. Today's morning note ("Unc wore the grey
+  runners to a board meeting once") sits at 9 views, 1 like, 0 replies — nothing to answer there.
+  Likes (4, all confirmed by `data-testid` flipping to `unlike`): @garrytan, @brycent, @jacqmelinek, @bcherny.
+  @andyyy's $HYPE "hundy roll" post skipped entirely on the price/ticker rule.
+  Repost/quote slots: 3 of 4 used earlier in the day; no qualifying drop under 30 minutes on the Following
+  timeline, so the fourth slot closed unused for the second day running.
+  **Reach note for Rand:** the six replies Rand hand-posted at 21:49-21:58 UTC resolved at ~2h30m —
+  @stanleefounder **2,795 views** and @RobinhoodCrypto **1,185**, against 5 to 12 for the other four. Those are
+  the two highest-reach replies this account has ever posted, and both were large parents caught live. The
+  scheduled rounds are not finding parents of that size inside the freshness window; the board they search
+  (Following timeline plus four keyword searches) looks like the binding constraint, not the picking rule.

@@ -147,17 +147,18 @@ Three things to hold onto when reading these rows back:
 | 09-22 16:12 | @nickvasiles | **8** | praise | 72 | 2 | 36 | 0 | 69 (2h05m) | 2 | **y** |
 | 09-22 18:11 | @nickvasiles | **8** | own-thread | 68 | 115 | 0.6 | 0 | not read (thread render) | — | n |
 | 09-22 18:13 | @ycombinator | **8** | receipt | 3882 | 24 | 162 | 5 | 50 (2h05m) | 0 | n |
-| 09-22 18:16 | @MorganVonDruitt | **8** | praise | 3 | 7 | 0.4 | 0 | 8 (2h02m) | 1 | **y** (replied "The first of many to come", liked, and followed @UncFund) |
-| 09-22 19:43 | @brycent | 16 | thesis (news check, backfilled) | 3800 | ~240 | ~16 | 3 | 11 (25m) | 0 | n |
-| 09-22 20:12 | @MorganVonDruitt | **7** | own-thread | 5 | 2 | 2.5 | 0 | 2 (2h22m) | 0 | — |
-| 09-22 20:14 | @SnorkelAI | **8** | oblivious | 123 | 7 | 18 | 1 | 32 (2h20m) | 1 | n (liked by @ColemanEntringer, not by OP) |
+| 09-22 18:16 | @MorganVonDruitt | **8** | praise | 3 | 7 | 0.4 | 0 | 10 (6h06m) | 1 | **y** (replied "The first of many to come", liked, and followed @UncFund) |
+| 09-22 19:43 | @brycent | 16 | thesis (news check, backfilled) | 3800 | ~240 | ~16 | 3 | 20 (4h41m) | 0 | n |
+| 09-22 20:12 | @MorganVonDruitt | **7** | own-thread | 5 | 2 | 2.5 | 0 | 2 (4h12m) | 0 | — |
+| 09-22 20:14 | @SnorkelAI | **8** | oblivious | 123 | 7 | 18 | 1 | 36 (4h10m) | 1 | n (liked by @ColemanEntringer, not by OP) |
 | 09-22 20:17 | @roywass_ | **8** | praise | 2 | 5 | 0.4 | 0 | Community (not countable) | 1 | n (**OP liked it**, did not reply) |
-| 09-22 21:49 | @asdhas9082 | 5 | praise (hand-posted by Rand) | — | — | — | — | 4 (22m) | 0 | — |
-| 09-22 21:51 | @ESCOweb3 | 5 | praise (hand-posted by Rand) | — | — | — | — | 1 (20m) | 0 | — |
-| 09-22 21:52 | @RobinhoodCrypto | 7 | react+oc (hand-posted by Rand) | — | — | — | — | 351 (19m) | 0 | — |
-| 09-22 21:52 | @garrytan | 9 | react (hand-posted by Rand) | — | — | — | — | 2 (18m) | 0 | — |
-| 09-22 21:54 | @sama | 5 | react (hand-posted by Rand) | — | — | — | — | 2 (17m) | 0 | — |
-| 09-22 21:58 | @stanleefounder | 14 | oblivious (hand-posted by Rand) | — | — | — | — | 210 (12m) | 0 | — |
+| 09-22 21:49 | @asdhas9082 | 5 | praise (hand-posted by Rand) | — | — | — | — | 5 (2h35m) | 0 | n |
+| 09-22 21:51 | @ESCOweb3 | 5 | praise+oc (hand-posted by Rand) | — | — | — | — | 12 (2h33m) | 0 | **y** (replied 22:32 with laughing emojis and a heart-hands; answered at 00:22) |
+| 09-22 21:52 | @RobinhoodCrypto | 7 | react+oc (hand-posted by Rand) | — | — | — | — | **1,185** (2h32m) | 0 | n |
+| 09-22 21:52 | @garrytan | 9 | react (hand-posted by Rand) | — | — | — | — | 11 (2h32m) | 0 | n |
+| 09-22 21:54 | @sama | 5 | react (hand-posted by Rand) | — | — | — | — | 10 (2h30m) | 0 | n |
+| 09-22 21:58 | @stanleefounder | 14 | oblivious (hand-posted by Rand) | — | — | — | — | **2,795** (2h26m) | 0 | n |
+| 09-23 00:22 | @ESCOweb3 | **7** | own-thread+oc | 10 | 110 | 0.1 | 0 | 1 (2m) | 0 | — |
 
 ### Sep 15, 16:09 round (12:09pm ET): both lanes plus a Helion quote
 
@@ -1212,3 +1213,63 @@ a like by reading `data-testid` for `unlike`, never by the screenshot.** Also: `
 to render five of the six hand-posted replies and both 20:1x replies, while
 `x.com/search?q=from%3AUncFund&f=live` returned all of them with targets and view counts in one
 pass. The search is the reliable way to audit what the account has posted; the profile is not.
+
+### Sep 22, 8:15pm ET round (00:15-00:35 UTC Sep 23): one own-thread reply, no timeline picks
+
+**Scheduler clear.** news-check succeeded at 00:14:43Z (one minute before this round opened, the 7pm
+slot running long), follow-queue succeeded 19:47Z, morning note succeeded 14:08Z. Nothing running, so
+no yield. Newest Unc post on the account was 2h old, so no concurrent round either.
+
+**The day is still over the ceiling, so no lane A and no lane B.** Sep 22 Eastern closed out at
+roughly fourteen timeline replies against a hard ceiling of ten — eight from the scheduled rounds
+plus Rand's six hand-posted ones at 21:49-21:58 UTC. This is the third consecutive round (4pm, 6pm,
+8pm) to post nothing on the timeline for that reason. The 6pm round already worked the board and
+found it thin; this round did not re-run the velocity search, because no line, however good, can be
+posted under a blown budget. The next round that can take a timeline pick is the first one after the
+Eastern day rolls over.
+
+**What the round did post: the own-thread answer, and it was earned.** @ESCOweb3 replied to Unc at
+22:32 UTC with laughing emojis and a heart-hands — the original poster answering, on the "Unc is
+proud of you" praise reply Rand hand-posted at 21:51. Answered at 00:22 UTC with **"Unc wasn't
+joking. Unc has no material."** (7 words, `own-thread+oc`). The oblivious-literal read: ESCO laughed,
+so Unc takes it at face value that he was not making a joke, and the self-own carries the warmth.
+ESCO's post was about deliberate pursuit and winning; nothing in the answer touches crypto, but ESCO
+is a web3 account so the row carries `+oc` per the register's account test.
+
+**Hand-posted rows now resolved, and they are the story of the day.** Read at roughly 2h30m:
+
+| target | views | note |
+|---|---|---|
+| @stanleefounder | **2,795** | best-performing reply this account has ever posted |
+| @RobinhoodCrypto | **1,185** | second best |
+| @ESCOweb3 | 12 | **OP replied** |
+| @garrytan | 11 | |
+| @sama | 10 | |
+| @asdhas9082 | 5 | |
+
+Two of Rand's six cleared a thousand views. Every scheduled velocity pick logged this month is in
+double or low-triple digits. That gap is now too large to keep explaining away on process grounds,
+and it is worth Rand and the rounds looking at the two winners together: @stanleefounder and
+@RobinhoodCrypto were both large, live parents caught while climbing, which is what criterion (b)
+asks for — the rounds have simply not been finding parents of that size inside the freshness window.
+The board the rounds actually see (Following timeline plus four search terms) may be the binding
+constraint rather than the picking rule.
+
+**Drift on the rest, re-read this round:** @brycent 11 to 20, @SnorkelAI 32 to 36, @MorganVonDruitt
+praise 8 to 10, @MorganVonDruitt own-thread flat at 2. The undercount at the 2h read convention holds
+in the same direction as yesterday.
+
+**Praise-lane count: 25 rows, 23 resolved, 10 with an OP reply** — the @ESCOweb3 hand-posted row
+closes `y`. Roughly 43 percent conversation rate, still well clear of the Sep 12 falsifier.
+
+**Mechanics, one new failure mode worth writing down.** `form_input` on the reply composer reports
+success and leaves the visible box empty with Reply greyed out — but the value IS in React state, and
+it merges with anything typed afterwards. The first send attempt produced
+`"Unc wasn't joking. Unc Unc wasn't joking. Unc has no material.has no material."` in the composer,
+and neither `ctrl+a`+`Delete` nor 90 `Backspace` presses cleared it even with the element confirmed
+focused. The fix was to reload the page and use `computer type` alone. **Do not use `form_input` on
+X composers; click and type.** Separately, wheel scrolling and `PageDown` both silently do nothing
+whenever the emulated viewport and the reported coordinate frame differ — and the frame drifted on
+almost every navigation this round (609, 621, 633, 645, 657, 670, 683, 696, 709, 723, 737). Re-reading
+the frame off each screenshot and resizing to match before clicking is not optional; it was the
+difference between a dead page and a working one four separate times.

@@ -6194,3 +6194,35 @@ including both timeline replies from the 4pm round. `x.com/search?q=from%3AUncFu
 all of them in one pass with the target handle and the view count attached. The concurrency check in
 step 0 still needs `with_replies` for the newest-post age, but any question of the form "what has
 this account actually posted today" should go to the search.
+
+## Round Sep 22, 8:15pm ET (00:15-00:35 UTC Sep 23)
+
+Scheduler clear, no concurrent run, newest Unc post 2h old. **One reply posted, own-thread only.**
+
+@ESCOweb3 answered Unc's praise reply with laughing emojis at 22:32 UTC — an OP reply, which is the
+outcome the praise lane exists to buy. Answered fast: **"Unc wasn't joking. Unc has no material."**
+(7 words). Oblivious literal — he laughed, so Unc plays it completely straight and the self-own does
+the warmth. Own-thread replies do not count toward the daily ceiling.
+
+No lane A and no lane B pick: Sep 22 Eastern ended at ~14 timeline replies against a ceiling of 10,
+so the budget was spent before the round opened for the third round running.
+
+Likes: @garrytan (GStack/YC), @brycent (agent UX), @jacqmelinek (the 25-pound Vermont maitake) and
+@bcherny (Lean verification of the Agent SDK). All four confirmed by `data-testid` flipping to
+`unlike`, never by screenshot. @andyyy's $HYPE post was skipped entirely — ticker and price talk, not
+even a like.
+
+No repost or quote. Three of the four daily slots were used earlier (Molly repost, YC quote, Snorkel
+repost) and the Following timeline had no qualifying drop under 30 minutes.
+
+**Two mechanics notes that cost time and should save it next round:**
+
+1. **Never use `form_input` on an X composer.** It reports success, leaves the box visibly empty with
+   Reply greyed out, and silently holds the value in React state where it merges with whatever you
+   type next. The result was a duplicated, garbled draft that no amount of `ctrl+a`+`Delete` or
+   `Backspace` would clear even with the element confirmed focused. Reload the page and use
+   `computer type`.
+2. **The coordinate frame drifts on nearly every navigation.** It moved through eleven different
+   heights this round (609 to 737). When viewport and frame disagree, wheel scrolling and `PageDown`
+   do nothing at all — not a mis-click, no scroll whatsoever — and `scroll_to` moves only partway.
+   Re-screenshot, read the frame, `resize_window` to match, and only then click or scroll.
