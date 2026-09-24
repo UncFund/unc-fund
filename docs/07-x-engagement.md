@@ -4166,3 +4166,9 @@ here per the paused-following rule rather than followed.
   (oblivious, 7 words). No repost or quote, since no qualifying drop was under 30 minutes. 3 likes (@JohannKerbrat,
   @stanleefounder, @brycent). No follows. Found an unlogged hand-posted "Unc is a believer" reply to @andyyy at
   18:16Z. Today: 9 of 10 timeline replies, 1 of 4 reposts/quotes.
+- Sep 24 5:04pm ET news check: no fresh drop. Under 30 min on the List: @TheMarketRunup cybersecurity theme clip with @JeffWeniger (4 min, market commentary), @therollupco Dragonfly podcast clip (10 min, podcast promo), @CoinbasePredict market recap reposted by @coinbase (13 min, recap with political and market items, not a drop). Today at 9 of 10 timeline replies, so only a repost or quote was possible. Nothing posted.
+
+### Sep 24, 6:09pm ET reply round (22:09 UTC)
+No timeline replies: the day was at 10 of 10 after an unlogged 21:18 reply to @ESCOweb3 (probably hand-posted).
+No own-thread replies were owed, and there were no mentions. Last round's replies: @JohannKerbrat 166 views,
+@stanleefounder 24, both with 0 likes. No repost or quote. 3 likes (Molly O'Shea, Harry Stebbings, Paul Graham).

@@ -175,8 +175,9 @@ Three things to hold onto when reading these rows back:
 | 09-24 18:12 | @axelmunktell | **7** | praise | 2 | 2 | ~1 | 0 | 2 (2h) | 0 | n (2h) |
 | 09-24 18:12 | @AshCrypto | 9 | prop+oc | 21511 | 6 | ~3600 | 30 | 136 (2h) | 0 | n |
 | 09-24 18:16 | @andyyy | **4** | react+oc (not posted by a round; likely hand-posted by Rand) | — | — | — | — | 310 (1h55m) | 0 | n |
-| 09-24 20:11 | @JohannKerbrat | **8** | prop+oc | 1804 | 22 | ~82 | 31 | | | |
-| 09-24 20:12 | @stanleefounder | **7** | oblivious | 116 | 32 | ~4 | 0 | | | |
+| 09-24 20:11 | @JohannKerbrat | **8** | prop+oc | 1804 | 22 | ~82 | 31 | 166 (2h) | 0 | n (2h; parent at 14K) |
+| 09-24 20:12 | @stanleefounder | **7** | oblivious | 116 | 32 | ~4 | 0 | 24 (2h) | 0 | n (2h; parent at 460) |
+| 09-24 21:18 | @ESCOweb3 | **6** | react (not posted by a round; likely hand-posted by Rand) — "Unc does the math every morning" under "4 of the most common mistakes entrepreneurs make" | — | — | — | — | 8 (51m) | 1 (ESCO) | n (51m; ESCO liked it) |
 
 ### Sep 15, 16:09 round (12:09pm ET): both lanes plus a Helion quote
 
@@ -1585,3 +1586,21 @@ That worked all three times.
 - Timeline replies today: 9 of 10 (counting the hand-posted @andyyy). Reposts/quotes today: 1 of 4.
 - Mechanics: the frame drifted 609 to 621 to 633 and was re-matched each time. `form_input` then a coordinate
   click on Reply worked both times.
+
+### Round Sep 24, 6:09pm ET (22:09 UTC): ceiling reached, no timeline replies
+
+- Scheduler: news check (21:03-21:05Z), follow queue and premarket all "succeeded", nothing running. The
+  newest Unc post was 21:18, so no concurrent round.
+- **Another unlogged reply:** "Unc does the math every morning" (21:18:16Z) under @ESCOweb3's "4 of the most
+  common mistakes entrepreneurs make". No routine logged it, and the news check had finished by 21:05, so it
+  was probably hand-posted by Rand. @ESCOweb3 liked it at 22:05. Added to the table. **That puts the day at
+  10 of 10 timeline replies**, so this round posted no timeline reply and ran neither lane.
+- Notifications and mentions: no new replies to Unc. The last OP reply (@TheGroovyMentor 17:03) was already
+  answered. Today's 15:27 morning note and yesterday's have no replies.
+- Two-hour reads: @JohannKerbrat prop+oc **166** views, 0 likes. @stanleefounder oblivious 24, 0. No OP replies.
+- No repost or quote. The only fresh drop was @MollySOShea's Neko Health NYC clinic post (16 minutes), but
+  it's a quote of the founder's launch plus her own music-video promo, so it was liked rather than reposted.
+- Likes: 3, @MollySOShea (Neko), @HarryStebbings (podcast post) and @paulg (startup ideas), each confirmed via
+  the `unlike` testid. The @ESCOweb3 parent was already liked.
+- The Following timeline served only three posts and would not paginate, the usual throttle shape.
+- Timeline replies today: 10 of 10. Reposts/quotes today: 1 of 4.
