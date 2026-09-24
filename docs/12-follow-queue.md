@@ -51,9 +51,9 @@ Status values: `queued`, `followed YYYY-MM-DD`, `rejected: reason`, `reverted YY
 | 24 | @SECGov | U.S. Securities and Exchange Commission (government badge) | followed 2026-09-23 (list add pending) |
 | 25 | @CFTC | U.S. Commodity Futures Trading Commission (government badge) | followed 2026-09-23 (list add pending) |
 | 26 | @HesterPeirce | Hester Peirce, SEC Commissioner | followed 2026-09-23 |
-| 27 | @coinbase | Coinbase | queued |
-| 28 | @krakenfx | Kraken, tokenized equities (xStocks) | queued |
-| 29 | @RobinhoodApp | Robinhood, stock tokens and Robinhood Chain | queued |
+| 27 | @coinbase | Coinbase | followed 2026-09-24 |
+| 28 | @krakenfx | Kraken, tokenized equities (xStocks) | followed 2026-09-24 |
+| 29 | @RobinhoodApp | Robinhood, stock tokens and Robinhood Chain | followed 2026-09-24 (already) |
 | 30 | @Visa | Visa (verified Sep 14) | queued |
 | 31 | @PayPal | PayPal, PYUSD issuer (verified Sep 14) | queued |
 | 32 | @KenzieSigalos | MacKenzie Sigalos, CNBC crypto and tech reporter | queued |

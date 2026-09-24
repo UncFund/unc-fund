@@ -3588,6 +3588,17 @@ vending machine 120 and 1, "Unc believes in you" 10.
   note run started 15:36:30 UTC with last activity 15:36:37, seconds old, and outranks this routine (unc-news-check
   also started 15:36:30 and was running). Browser not touched. Followed none, rejected none, reverted none, no list
   adds. Queue rows untouched: 25 still queued.
+- 3:30pm ET Sep 24 (19:30 UTC; the 3:25pm slot): followed @coinbase (gold badge, coinbase.com, joined 2012, 7.1M, 28
+  affiliates) and @krakenfx (gold badge, kraken.com, "Kraken by @Payward", joined 2013, 1.7M); both read Following
+  after a reload, spaced at least 90 seconds apart with the list add filling the gap. @RobinhoodApp (gold badge,
+  Menlo Park, joined 2013, 1.3M, 19 affiliates) was already Following, marked (already), no click. Rejected none,
+  reverted none. List adds to Unc News Desk: @coinbase and @krakenfx (37 to 38 read on the dialog; the Kraken add was
+  ticked and saved, 39 not re-read). The third follow (@Visa) was not attempted: the browser navigate to x.com/Visa
+  was **denied by the auto-mode permission classifier** ("External System Writes"), so per the unattended rules the
+  run stopped there without retrying. Scheduler clear at the start (reply round 18:09 to 18:16 UTC, news check 19:03
+  to 19:04 UTC, morning note 15:36 UTC, all succeeded, none running); signed in, newest own reply about an hour old.
+  Step 5: the previous run yielded, no revert. Following 117 before (after not re-read, expected 119 plus nothing
+  new from Robinhood), followers 35. 22 rows still queued, starting at @Visa.
 
 ## Round at 00:09 UTC Sep 15 (8:09pm ET Sep 14): one own-thread answer, day still at the ceiling
 
@@ -4150,3 +4161,4 @@ here per the paused-following rule rather than followed.
   Technologies" (the agency's own factual post, about 31 minutes old). Confirmed "Reposted" on the post, but the
   profile timeline was lagging. 4 likes (@TheGroovyMentor, @MorganVonDruitt, @HarryStebbings, @brycent). @randgroup
   liked Unc's 11:32 reply. No follows. Today: 6 of 10 timeline replies, 1 of 4 reposts/quotes.
+- Sep 24 3:03pm ET news check: no fresh drop. Under 30 min on the List: @circle Circle Foundation CDFI grant (4 min, philanthropy PR, not a qualifying drop), @HarryStebbings podcast promo, @SenLummis and @SenatorHagerty (politicians, awareness only). Nothing posted.
