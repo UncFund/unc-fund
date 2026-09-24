@@ -39,6 +39,7 @@ before an invitation can work — at which point the reply-guy rounds carry the 
 | 2026-09-18 | Friday | — (blocked) | Nothing posted. Run fired 9:02 AM ET, on time and inside the window. The in-app browser is signed out of X again: x.com/UncFund renders the logged-out profile and x.com/home redirects to the login splash. No login attempted. Post held: "It's Friday. Unc's chair is free all weekend and he'd rather read pitches than watch anything. / One line on your company. Drop it below." | — | — | — |
 | 2026-09-22 | Tuesday | line | Unc wore the grey runners to a board meeting once. / Nobody noticed. Ship the ugly version. | | | |
 | 2026-09-23 | Wednesday | invitation | Wednesday. Unc has the readers down and the second coffee poured. / What are you building? Give him one line. (Posted 12:12 PM ET, late: the 9:01 AM run found X signed out; Rand signed back in and the run resumed.) | | | |
+| 2026-09-24 | Thursday | line | Unc found his readers in the fridge this morning. / Founders: the answer is usually somewhere dumb. Keep looking. (Posted 11:30 AM ET, late: the 9 AM run did not fire; posted on a manual run.) | | | |
 
 Note on 2026-09-12: the scheduled run landed at **1:42 PM Eastern**, four hours forty-two minutes
 after the 9:00 slot and past the ~1:00 PM cutoff — a morning note in the afternoon reads wrong, so
