@@ -164,8 +164,10 @@ Three things to hold onto when reading these rows back:
 | 09-23 16:15 | @a16z | **8** | prop | 2939 | 4 | ~735 | 1 | 49 (1h55m); 103 (4h) | 0 | n |
 | 09-23 18:10 | @RobinhoodApp | **8** | prop | 12900 | 16 | ~805 | 159 | 135 (2h) | 0 | n |
 | 09-23 18:11 | @0xgmike | **7** | praise | 35 | 1 | ~35 | 0 | 6 (2h) | 0 | n |
-| 09-23 20:11 | @HarryStebbings | **8** | prop | 3493 | 24 | ~146 | 4 | | | |
-| 09-23 20:13 | @VynseDev | **7** | praise | ~10 | 3 | ~3 | 0 | | | |
+| 09-23 20:11 | @HarryStebbings | **8** | prop | 3493 | 24 | ~146 | 4 | 249 (19h20m) | 0 | n |
+| 09-23 20:13 | @VynseDev | **7** | praise | ~10 | 3 | ~3 | 0 | 26 (19h20m) | 1 | n (reply count shows 1 but no reply renders in the thread) |
+| 09-24 15:32 | @randgroup | 10 | prop+oc | 8998 | 18 | ~500 | 11 | | | |
+| 09-24 15:34 | @TheGroovyMentor | **8** | praise | 3 | 1 | ~3 | 0 | | | |
 
 ### Sep 15, 16:09 round (12:09pm ET): both lanes plus a Helion quote
 
@@ -1423,3 +1425,38 @@ testid, then click Reply. On the VynseDev page every resize grew the frame by an
 683, 696, 709) and screenshots went fully black after `scroll_to`. Chasing the frame never converged. What
 worked was ignoring the screenshot: ref click on "Post text", `computer type`, check the text via JS, then
 ref click on the "Reply" generic. The post landed first try.
+
+### Sep 24, 15:29 round (11:29am ET): both lanes
+
+Scheduler showed nothing running. The morning-note run's last activity was 15:28:15Z. Its post ("Unc found
+his readers in the fridge this morning.") went out at 15:27:30Z. That is inside the two-minute concurrent-run
+window, but that run had already committed (11:28:07 ET) and was marked succeeded, so the round went ahead.
+The note is brand new at 2 views with no replies. Yesterday's note has none either, and there are no new
+mentions. Nothing own-thread to answer.
+
+Reads at 19h20m on the Sep 23 4pm picks: @HarryStebbings prop **249** views, 0 likes. @VynseDev praise 26
+views, 1 like. Its reply count shows 1 but no reply renders in the thread, so `op` = n. No new OP replies.
+Praise-lane count: about 31 rows, still 10 with an OP reply.
+
+- **Lane A, prop+oc:** @randgroup (354K followers, trading and early-stage investing) on "Trading Apple on a
+  Sunday is the least interesting thing tokenization will ever do", with the next tokens being attention,
+  identity and compute. Caught at about 18 minutes, 8,998 views (~500/min), 11 replies. No ticker or price
+  in the post. Reply: "Tokenize Unc's attention all you want. Still closes at 9pm." Ten words. Self-own
+  on market hours plus the age prop. It says nothing about any asset.
+- **Lane B, praise:** @TheGroovyMentor (Suhail Malik, 8 followers). He built his own SaaS after finding his
+  emails were failing on domain health, not copy. Caught at about 1 minute, 3 views, 0 replies. Reply:
+  "Everyone blames the copy. You checked the pipes." Eight words. The praise names his exact diagnosis.
+- Skipped: the Securitize/ARK tokenized venture fund. The primary post was 152 minutes old, the aggregator
+  copies were 20 to 25 minutes old, and the post names a fund product with a ticker, so it failed the news
+  window and the rails rule. Also skipped @murtaza (ticker list), @conorfkenny (USDT on BTC, tickers),
+  @paulbarron (administration stablecoin plan, political framing), @RWAFoundation_ (chain-ranking bait) and
+  @webdevankit (day 49/100, ends on a question). The Following timeline had nothing under 60 minutes.
+- Likes: 4 (@MartinGTobias, 30 pitches at 5am; @MorganVonDruitt, category ownership; @randgroup; @MollySOShea,
+  Eclipse interview). All four were confirmed via the `unlike` testid.
+- Timeline replies today: 2 of 10.
+
+**Mechanics.** The frame went 609 to 621. The @randgroup page had no inline composer, so this was the
+two-composer modal. Typing went in after a ref click on the first "Post text", the text was confirmed via
+`tweetTextarea_0`, and a ref click on the "Reply" generic posted it. On @TheGroovyMentor, the first ref click
+plus type did not land (the box stayed empty). A coordinate click on the composer, a focus check via
+`document.activeElement` and a retype worked. Both replies showed on with_replies on the first load.

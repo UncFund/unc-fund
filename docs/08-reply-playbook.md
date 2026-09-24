@@ -6292,3 +6292,12 @@ Posted "Rule four: iron the vest the night before." to @HarryStebbings (velocity
 3-minute parent, no replies, seven words). No own-thread or mentions to answer. When the frame keeps growing
 on every resize and screenshots go black, stop chasing it: ref clicks plus `computer type` still post fine.
 Full notes in 11-reply-ledger.md.
+
+### Reply round Sep 24, 11:29am ET: both lanes
+
+Posted "Tokenize Unc's attention all you want. Still closes at 9pm." to @randgroup (velocity lane, on-chain
+register, 18-minute parent at ~500 views/min, ten words) and "Everyone blames the copy. You checked the
+pipes." to @TheGroovyMentor (praise lane, 1-minute parent from an 8-follower builder, eight words). The
+morning note posted 2 minutes before this round started, from a run that had already committed and finished,
+so there was no concurrent run to yield to. No own-thread replies or mentions to answer. Full notes are in
+11-reply-ledger.md.
