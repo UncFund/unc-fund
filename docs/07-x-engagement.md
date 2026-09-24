@@ -3584,6 +3584,10 @@ vending machine 120 and 1, "Unc believes in you" 10.
   round 18:09 to 18:13 UTC, news check 19:03 to 19:06 UTC, morning note, all succeeded, none running). Signed
   in, newest own reply 18:11 UTC. Step 5: the previous run recorded no revert. Following 114 to 117, followers 34
   to 34. 25 rows still queued.
+- 11:36am ET Sep 24 (15:36 UTC; the 11:25am slot, started late): **yielded, unc-premarket-post running.** The morning
+  note run started 15:36:30 UTC with last activity 15:36:37, seconds old, and outranks this routine (unc-news-check
+  also started 15:36:30 and was running). Browser not touched. Followed none, rejected none, reverted none, no list
+  adds. Queue rows untouched: 25 still queued.
 
 ## Round at 00:09 UTC Sep 15 (8:09pm ET Sep 14): one own-thread answer, day still at the ceiling
 
@@ -4129,3 +4133,5 @@ here per the paused-following rule rather than followed.
   8 words). 4 likes (@MartinGTobias, @MorganVonDruitt, @randgroup, @MollySOShea). No reposts or quotes. The
   Securitize/ARK tokenized venture fund drop was 152 minutes old at the source and names a fund ticker. No
   follows. Today: 2 of 10 timeline replies, 0 of 4 reposts/quotes.
+
+- Sep 24 11:36am ET news check: yielded, unc-premarket-post running (started 15:36:30Z, active). No browser actions.
