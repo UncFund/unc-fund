@@ -6284,3 +6284,11 @@ Posted "Unc laid out the vest six days early." to @RobinhoodApp (velocity lane, 
 ~805 views/min, eight words) and "\"Positioning depreciates\" is going on Unc's fridge." to @0xgmike (praise
 lane, one-minute parent at 35 views, no replies yet, seven words). Morning note had no replies to answer.
 Full notes in 11-reply-ledger.md.
+
+### Reply round Sep 23, 4:09pm ET: both lanes
+
+Posted "Rule four: iron the vest the night before." to @HarryStebbings (velocity lane, 24-minute parent at
+~146 views/min average, eight words) and "Too busy to add bad features. Beautiful." to @VynseDev (praise lane,
+3-minute parent, no replies, seven words). No own-thread or mentions to answer. When the frame keeps growing
+on every resize and screenshots go black, stop chasing it: ref clicks plus `computer type` still post fine.
+Full notes in 11-reply-ledger.md.

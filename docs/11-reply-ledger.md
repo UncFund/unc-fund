@@ -160,10 +160,12 @@ Three things to hold onto when reading these rows back:
 | 09-22 21:58 | @stanleefounder | 14 | oblivious (hand-posted by Rand) | — | — | — | — | **2,795** (2h26m) | 0 | n |
 | 09-23 00:22 | @ESCOweb3 | **7** | own-thread+oc | 10 | 110 | 0.1 | 0 | 6 (1h50m); 14 (15h50m) | 0 | n |
 | 09-23 00:27 | @andyyy | 18 | receipt+oc (hand-posted by Rand) | — | — | — | — | 62 (1h45m); **233** (15h50m) | 0 | n |
-| 09-23 16:14 | @Mo_Ezz14 | **8** | praise+oc | 169 | 13 | 13 | 4 | 10 (1h55m) | 0 | n |
-| 09-23 16:15 | @a16z | **8** | prop | 2939 | 4 | ~735 | 1 | 49 (1h55m) | 0 | n |
-| 09-23 18:10 | @RobinhoodApp | **8** | prop | 12900 | 16 | ~805 | 159 | | | |
-| 09-23 18:11 | @0xgmike | **7** | praise | 35 | 1 | ~35 | 0 | | | |
+| 09-23 16:14 | @Mo_Ezz14 | **8** | praise+oc | 169 | 13 | 13 | 4 | 10 (1h55m); 13 (4h) | 1 (OP liked it) | n |
+| 09-23 16:15 | @a16z | **8** | prop | 2939 | 4 | ~735 | 1 | 49 (1h55m); 103 (4h) | 0 | n |
+| 09-23 18:10 | @RobinhoodApp | **8** | prop | 12900 | 16 | ~805 | 159 | 135 (2h) | 0 | n |
+| 09-23 18:11 | @0xgmike | **7** | praise | 35 | 1 | ~35 | 0 | 6 (2h) | 0 | n |
+| 09-23 20:11 | @HarryStebbings | **8** | prop | 3493 | 24 | ~146 | 4 | | | |
+| 09-23 20:13 | @VynseDev | **7** | praise | ~10 | 3 | ~3 | 0 | | | |
 
 ### Sep 15, 16:09 round (12:09pm ET): both lanes plus a Helion quote
 
@@ -1391,3 +1393,33 @@ On @RobinhoodApp, clicking the composer and typing did not land, and form_input 
 form_input filled the box but nothing showed until a coordinate click on the composer, then Reply worked.
 The first with_replies load after the @0xgmike reply did not list it, and a reload did. This is the second
 time today, so reload before calling a reply failed.
+
+### Sep 23, 20:09 round (4:09pm ET): both lanes
+
+Scheduler clear (news check 19:06, follow queue 19:33, morning note 16:12, none running). Newest Unc post was
+the 19:05 Circle quote, so no concurrent run. No new replies or mentions to answer; the 12:12pm morning note
+still has none. Late reads: @RobinhoodApp prop **135** at 2h, @0xgmike praise 6, @a16z up to 103, @Mo_Ezz14
+13 with **one like from the OP himself** (a like, not a reply, so `op` stays n). No new OP replies.
+Praise-lane count: 29 rows, 10 with an OP reply.
+
+- **Lane A, prop:** @HarryStebbings, "Top three rules to crushing pre-interview", caught at 24 minutes, 3,493
+  views (~146/min average, though it had slowed to a crawl: 3,451 at 22m), 4 replies. Reply: "Rule four:
+  iron the vest the night before." Eight words. Only lane A candidate on the board under 60 minutes that
+  was clean; the Following timeline was otherwise 70-80 minutes old or @andyyy perps and ticker talk.
+- **Lane B, praise:** @VynseDev (Vincent, ~4.4K followers, indie app dev) on not shipping to his app for a
+  month because he was busy with two other products, and it grew anyway. Caught at about 3 minutes, 0
+  replies. Reply: "Too busy to add bad features. Beautiful." Seven words, praising his own
+  "prevented me from adding useless features" line. His post shows MRR, which is a founder metric, not a
+  trade, so it clears the skip list.
+- Skipped @andyyy "Perps will eat finance. $LIT" (ticker), @andruyeung on a product going 11/10 to 4/10
+  (a jab at a named product), @stanleefounder (snooping on a stranger's laptop), @brycent (80 minutes).
+- Likes: 3, @HarryStebbings, @brycent, @VynseDev. All confirmed via the `unlike` testid. Harry's needed a
+  second ref click; the first was eaten as focus again.
+- Timeline replies today: 6 of 10.
+
+**Mechanics.** The first Harry attempt typed into a composer that had only just expanded and the Reply
+click did nothing. The retry worked: click the composer, type, confirm the text via the `tweetTextarea_0`
+testid, then click Reply. On the VynseDev page every resize grew the frame by another 13px (645, 657, 670,
+683, 696, 709) and screenshots went fully black after `scroll_to`. Chasing the frame never converged. What
+worked was ignoring the screenshot: ref click on "Post text", `computer type`, check the text via JS, then
+ref click on the "Reply" generic. The post landed first try.
