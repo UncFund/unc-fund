@@ -54,9 +54,9 @@ Status values: `queued`, `followed YYYY-MM-DD`, `rejected: reason`, `reverted YY
 | 27 | @coinbase | Coinbase | followed 2026-09-24 |
 | 28 | @krakenfx | Kraken, tokenized equities (xStocks) | followed 2026-09-24 |
 | 29 | @RobinhoodApp | Robinhood, stock tokens and Robinhood Chain | followed 2026-09-24 (already) |
-| 30 | @Visa | Visa (verified Sep 14) | queued |
-| 31 | @PayPal | PayPal, PYUSD issuer (verified Sep 14) | queued |
-| 32 | @KenzieSigalos | MacKenzie Sigalos, CNBC crypto and tech reporter | queued |
+| 30 | @Visa | Visa (verified Sep 14) | followed 2026-09-24 |
+| 31 | @PayPal | PayPal, PYUSD issuer (verified Sep 14) | followed 2026-09-24 |
+| 32 | @KenzieSigalos | MacKenzie Sigalos, CNBC crypto and tech reporter | followed 2026-09-24 |
 | 33 | @fintechfrank | Frank Chaparro, crypto and fintech journalist | queued |
 | 34 | @NateGeraci | Nate Geraci, ETF analyst | queued |
 | 35 | @SenatorTimScott | Sen. Tim Scott (R-SC), Senate Banking chair | queued |
