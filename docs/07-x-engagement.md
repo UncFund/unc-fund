@@ -4162,3 +4162,7 @@ here per the paused-following rule rather than followed.
   profile timeline was lagging. 4 likes (@TheGroovyMentor, @MorganVonDruitt, @HarryStebbings, @brycent). @randgroup
   liked Unc's 11:32 reply. No follows. Today: 6 of 10 timeline replies, 1 of 4 reposts/quotes.
 - Sep 24 3:03pm ET news check: no fresh drop. Under 30 min on the List: @circle Circle Foundation CDFI grant (4 min, philanthropy PR, not a qualifying drop), @HarryStebbings podcast promo, @SenLummis and @SenatorHagerty (politicians, awareness only). Nothing posted.
+- **Sep 24, 4:09pm ET reply round:** 2 timeline replies, @JohannKerbrat (prop+oc, 8 words) and @stanleefounder
+  (oblivious, 7 words). No repost or quote, since no qualifying drop was under 30 minutes. 3 likes (@JohannKerbrat,
+  @stanleefounder, @brycent). No follows. Found an unlogged hand-posted "Unc is a believer" reply to @andyyy at
+  18:16Z. Today: 9 of 10 timeline replies, 1 of 4 reposts/quotes.

@@ -171,9 +171,12 @@ Three things to hold onto when reading these rows back:
 | 09-24 16:10 | @VynseDev | **7** | own-thread | — | — | — | — | 7 (2h) | 0 | |
 | 09-24 16:13 | @realtarek | **8** | praise | 18 | 9 | ~2 | 0 | 8 (2h) | 0 | n (2h; parent at 1 reply) |
 | 09-24 16:15 | @_RichardTeng | 9 | receipt+oc | 6032 | 9 | ~670 | 5 | 42 (2h) | 0 | n |
-| 09-24 18:10 | @TheGroovyMentor | **7** | own-thread | — | — | — | — | | | |
-| 09-24 18:12 | @axelmunktell | **7** | praise | 2 | 2 | ~1 | 0 | | | |
-| 09-24 18:12 | @AshCrypto | 9 | prop+oc | 21511 | 6 | ~3600 | 30 | | | |
+| 09-24 18:10 | @TheGroovyMentor | **7** | own-thread | — | — | — | — | | | n (2h) |
+| 09-24 18:12 | @axelmunktell | **7** | praise | 2 | 2 | ~1 | 0 | 2 (2h) | 0 | n (2h) |
+| 09-24 18:12 | @AshCrypto | 9 | prop+oc | 21511 | 6 | ~3600 | 30 | 136 (2h) | 0 | n |
+| 09-24 18:16 | @andyyy | **4** | react+oc (not posted by a round; likely hand-posted by Rand) | — | — | — | — | 310 (1h55m) | 0 | n |
+| 09-24 20:11 | @JohannKerbrat | **8** | prop+oc | 1804 | 22 | ~82 | 31 | | | |
+| 09-24 20:12 | @stanleefounder | **7** | oblivious | 116 | 32 | ~4 | 0 | | | |
 
 ### Sep 15, 16:09 round (12:09pm ET): both lanes plus a Helion quote
 
@@ -1552,3 +1555,33 @@ The scheduler showed nothing running. News check succeeded at 17:03-17:06Z, and 
 filled the hidden state, but the collapsed composer didn't show it until a coordinate click on the composer
 expanded it. The text was then confirmed via `tweetTextarea_0`, and a coordinate click on Reply sent it.
 That worked all three times.
+
+### Round Sep 24, 4:09pm ET (20:09 UTC)
+
+- Scheduler: news check, follow queue and premarket all "succeeded", nothing running. with_replies newest was
+  18:16, so no concurrent round.
+- **Unlogged reply found:** "Unc is a believer" (18:16:35Z) under @andyyy's "Most aren't ready for the size of
+  this crypto move coming. Its going to melt faces" post, which Unc also liked. No routine logged it, so it was
+  probably hand-posted by Rand. Added to the table for the count. Flag for Rand: agreeing with a "crypto move
+  is coming" post sits close to the price-call line on the skip list. It was not deleted.
+- **Lane A, prop+oc:** @JohannKerbrat (Robinhood Chain), on building Stock Tokens to be composable so financial
+  assets become "building blocks for innovation". Caught at 22 minutes, 1,804 views (~82/min), 31 replies.
+  Reply: "Stocks as Lego. Unc is fifty-five and thrilled." Eight words. Rails, not assets: no ticker, no
+  price, no call. Verified by `from:UncFund Lego` search (20:11:57) and then on with_replies.
+- **Lane A, oblivious (comedy):** @stanleefounder, "went into a coffee shop to take a shower in the bathroom
+  sink / two founders were meeting in the stall, yelling about how deep their tech is". Caught at 32 minutes,
+  116 views (~4/min, slow), 0 replies. Reply: "Deep tech sounds deeper in a stall." Seven words. Picked
+  on account history, not velocity: his Sep 22 thread gave Unc its best reply ever (3.8K). The last reply to
+  him was Sep 22. Verified on with_replies (20:12:38).
+- **Lane B, praise:** none. The searches for shipped / first customer / pre-seed / building in public turned up
+  only sales posts, recruiting bots and a one-view joke (@sidmanale643 "if she doesnt want you at pre-seed").
+  Nothing sincere and clean from a small builder.
+- Skipped: @andyyy "THIS MARKET WANTS TO EXPLODE" (price talk), @notthreadguy (promo for their own company),
+  @NotSoEasyMoney (a token-season question), @HarryStebbings podcast promo (73 minutes), @brycent (202 minutes),
+  @clementetv_ Zcash (a chain-vs-chain argument).
+- Mentions and notifications: nothing new to answer. The last OP reply was @TheGroovyMentor at 17:03, already
+  answered. Today's morning note has no replies.
+- Likes: 3, @JohannKerbrat, @stanleefounder and @brycent, each confirmed via the `unlike` testid.
+- Timeline replies today: 9 of 10 (counting the hand-posted @andyyy). Reposts/quotes today: 1 of 4.
+- Mechanics: the frame drifted 609 to 621 to 633 and was re-matched each time. `form_input` then a coordinate
+  click on Reply worked both times.

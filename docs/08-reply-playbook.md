@@ -6323,3 +6323,9 @@ lane, a 2-follower builder shipping V1, caught at 2 minutes, 7 words). Also post
 Unc's are still in a shoebox." to @AshCrypto on the CFTC tokenized-collateral and blockchain-recordkeeping
 guidance (velocity lane, on-chain register, ~3,600/min at 6 minutes, 9 words). Plain repost of the @CFTC's own
 FAQ-update post. Full notes in 11-reply-ledger.md.
+
+**Sep 24, 4:09pm ET round.** 2 timeline replies. "Stocks as Lego. Unc is fifty-five and thrilled." went to
+@JohannKerbrat on Robinhood Chain's composable Stock Tokens (on-chain register, 8 words, ~82/min at 22 minutes).
+"Deep tech sounds deeper in a stall." went to @stanleefounder's YC coffee-shop bit (7 words; slow parent, taken
+on the account's track record). No praise-lane candidate turned up. Found an unlogged "Unc is a believer" under
+an @andyyy crypto-move post, probably hand-posted; flagged in the ledger as close to the price-call line.
