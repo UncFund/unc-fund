@@ -6312,3 +6312,14 @@ lane, 9-minute founder post, 0 replies, 8 words) and "Unc's first share came by 
 envelope." to @_RichardTeng (velocity lane, on-chain register, 9-minute tokenized-IPO post at ~670/min, 9
 words). A misplaced click sent a `type` to the page, not the composer, and nothing stray resulted. Check
 `isContentEditable` before typing on X. Full notes in 11-reply-ledger.md.
+
+### Reply round Sep 24, 2:09pm ET: second OP reply of the day, both lanes, CFTC repost
+
+@TheGroovyMentor answered the 11:29 praise reply ("Indeed, that's what the actual issue was") and liked it.
+Unc answered with "Unc's plumber says that about everything too." (7 words, own-thread). That makes two OP
+replies today, both from praise replies to accounts under 50 followers, both caught inside three minutes, and
+in both the praise named the exact detail. Posted "The extra a's are doing honest work." to @axelmunktell (praise
+lane, a 2-follower builder shipping V1, caught at 2 minutes, 7 words). Also posted "Records on a blockchain.
+Unc's are still in a shoebox." to @AshCrypto on the CFTC tokenized-collateral and blockchain-recordkeeping
+guidance (velocity lane, on-chain register, ~3,600/min at 6 minutes, 9 words). Plain repost of the @CFTC's own
+FAQ-update post. Full notes in 11-reply-ledger.md.

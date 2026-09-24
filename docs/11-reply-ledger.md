@@ -167,10 +167,13 @@ Three things to hold onto when reading these rows back:
 | 09-23 20:11 | @HarryStebbings | **8** | prop | 3493 | 24 | ~146 | 4 | 249 (19h20m) | 0 | n |
 | 09-23 20:13 | @VynseDev | **7** | praise | ~10 | 3 | ~3 | 0 | 26 (19h20m) | 1 | **y** (answered "can you believe it's actually all about marketing" at 20:14:44, one minute after the send; found in notifications Sep 24 16:10, answered then) |
 | 09-24 15:32 | @randgroup | 10 | prop+oc | 8998 | 18 | ~500 | 11 | 12 (37m, early) | 0 | n (37m) |
-| 09-24 15:34 | @TheGroovyMentor | **8** | praise | 3 | 1 | ~3 | 0 | 5 (35m, early) | 0 | n (35m; parent went to 4 replies, none to Unc) |
-| 09-24 16:10 | @VynseDev | **7** | own-thread | — | — | — | — | | | |
-| 09-24 16:13 | @realtarek | **8** | praise | 18 | 9 | ~2 | 0 | | | |
-| 09-24 16:15 | @_RichardTeng | 9 | receipt+oc | 6032 | 9 | ~670 | 5 | | | |
+| 09-24 15:34 | @TheGroovyMentor | **8** | praise | 3 | 1 | ~3 | 0 | 5 (35m, early) | 0 | **y** (answered "Indeed, that's what the actual issue was" at 17:03 and liked Unc's reply; answered 18:10) |
+| 09-24 16:10 | @VynseDev | **7** | own-thread | — | — | — | — | 7 (2h) | 0 | |
+| 09-24 16:13 | @realtarek | **8** | praise | 18 | 9 | ~2 | 0 | 8 (2h) | 0 | n (2h; parent at 1 reply) |
+| 09-24 16:15 | @_RichardTeng | 9 | receipt+oc | 6032 | 9 | ~670 | 5 | 42 (2h) | 0 | n |
+| 09-24 18:10 | @TheGroovyMentor | **7** | own-thread | — | — | — | — | | | |
+| 09-24 18:12 | @axelmunktell | **7** | praise | 2 | 2 | ~1 | 0 | | | |
+| 09-24 18:12 | @AshCrypto | 9 | prop+oc | 21511 | 6 | ~3600 | 30 | | | |
 
 ### Sep 15, 16:09 round (12:09pm ET): both lanes plus a Helion quote
 
@@ -1504,3 +1507,48 @@ repost or reply came from those keystrokes. **Before any `type`, confirm `docume
 Otherwise X's single-key shortcuts (l, t, r) are live. `form_input` on the "Post text" ref filled the box
 reliably on both timeline pages, and a coordinate click on Reply sent. The frame drifted 609 to 621 to 633 and
 was re-matched each time.
+
+### Sep 24, 18:09 round (2:09pm ET): a second OP reply today, both lanes, and a CFTC repost
+
+The scheduler showed nothing running. News check succeeded at 17:03-17:06Z, and follow queue and premarket at
+15:36Z. The newest Unc post was 16:15, so no concurrent run.
+
+- **@TheGroovyMentor answered Unc** at 17:03 ("Indeed, that's what the actual issue was") and liked the
+  "checked the pipes" reply. It was found in notifications, as the last round's lesson said. It was answered at
+  18:10:39 with "Unc's plumber says that about everything too." (seven words, own-thread, a self-own on the
+  pipes line). His reply was liked too. **Praise-lane count: about 33 rows, 12 with an OP reply.** Two of today's
+  three praise replies before this round earned one (@VynseDev, @TheGroovyMentor). Both were on accounts under
+  50 followers, caught within three minutes, and the praise named the exact detail.
+- @randgroup liked Unc's lane A reply ("Still closes at 9pm") at 16:13. That's a like from a 354K account, but not a reply.
+- Morning notes (today's and yesterday's) have no replies. There are no new mentions.
+- Two-hour reads: @_RichardTeng receipt+oc **42** views, 0 likes. @realtarek praise 8, 0. @VynseDev own-thread 7.
+- **Lane B, praise:** @axelmunktell (2 followers, building @TwelveLoop): "V1 is ready to be shipped. Time to do
+  aaaaalot of outreach". Caught at about 2 minutes, 2 views, 0 replies. Reply: "The extra a's are doing honest
+  work." Seven words. It praises his exact detail (the stretched "aaaaalot") and commits to nothing.
+  Verified at 18:12:04.
+- **Lane A, prop+oc:** @AshCrypto (verified), "BREAKING: The CFTC just issued new crypto guidance letting firms
+  hold customer funds in tokenized assets and keep records on blockchain." Caught at about 6 minutes, 21,511
+  views (~3,600/min, the fastest parent this round by far), 30 replies. Reply: "Records on a blockchain. Unc's
+  are still in a shoebox." Nine words. It restates only the recordkeeping fact from the post and adds the age
+  prop. No regulator named, no prediction, and nothing about any asset. It didn't show in the thread or on the
+  first with_replies load; `from:UncFund shoebox` search found exactly one copy (18:12:56), and with_replies
+  showed it on the next load. No retry was sent.
+- **Repost:** @CFTC's own post, "Staff Releases Updates to FAQs Concerning Registrants and Registered Entity
+  Activities Relating to Crypto Assets and Blockchain Technologies" (17:43:14Z, about 31 minutes old, 12.3K
+  views). It's an agency's factual action, so it's allowed under the policy rules, as a plain repost with no
+  line. @EleanorTerrett had nothing on it yet. The first ref click on the repost button did not open the menu;
+  a coordinate click did, then "Repost". The post page shows "Reposted" (the `unretweet` testid) after a fresh
+  load. The profile timeline had not shown it after two loads, which reads as profile lag, not a failure.
+  No second click.
+- Skipped: @KingAnt on the same CFTC news (3 minutes, but it closes on institutional-adoption hype and doubles
+  up on Ash), @GordonGekko (bull-market call), @dfinzer RWA aggregation (8 minutes, ~170/min, no clean line
+  inside two minutes), @DialoAgent international numbers (company account, slower than Ash), @George_Kurtz
+  (security product), and @MorganVonDruitt valuation line (liked instead).
+- Likes: 4. @TheGroovyMentor's reply, @MorganVonDruitt, @HarryStebbings and @brycent (Slash payments). All were
+  confirmed via the `unlike` testid. Harry's and Brycent's each needed a second ref click: the first was eaten as focus.
+- Timeline replies today: 6 of 10 (own-thread not counted). Reposts/quotes today: 1 of 4.
+
+**Mechanics.** The frame drifted 609 to 621 to 633 and was re-matched each time. `form_input` on "Post text"
+filled the hidden state, but the collapsed composer didn't show it until a coordinate click on the composer
+expanded it. The text was then confirmed via `tweetTextarea_0`, and a coordinate click on Reply sent it.
+That worked all three times.

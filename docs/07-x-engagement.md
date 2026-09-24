@@ -4141,3 +4141,12 @@ here per the paused-following rule rather than followed.
   answered. 3 likes (@alexisohanian, @brycent, @paulg). No reposts or quotes. @Ondo's Intelligent Portfolios
   launch was fresh, but it is an investment product (rails, never assets). No follows. Today: 4 of 10 timeline
   replies, 0 of 4 reposts/quotes.
+- Sep 24, 13:04 ET (17:04 UTC) news check: no fresh drop. Under 30 minutes on the News Desk: @StateStreet FX carry commentary (market talk), @laurashin clips with tickers (skip list), @Securitize ARKVX subscription explainer (4m, product live since the morning, not a new drop), @Revanth279 seed post (24m, but the raise was in June and it mentions pausing hiring, so skipped). The List only lazy-loaded a few posts at a time. Nothing posted.
+
+- **Sep 24, 2:09pm ET reply round:** 2 timeline replies, @axelmunktell (praise, 7 words) and @AshCrypto (prop+oc,
+  9 words, CFTC tokenized-collateral guidance). 1 own-thread answer to @TheGroovyMentor, who replied to Unc
+  at 1:03pm (second OP reply today). **Repost: @CFTC, 2:14pm ET, plain repost** of "Staff Releases Updates to
+  FAQs Concerning Registrants and Registered Entity Activities Relating to Crypto Assets and Blockchain
+  Technologies" (the agency's own factual post, about 31 minutes old). Confirmed "Reposted" on the post, but the
+  profile timeline was lagging. 4 likes (@TheGroovyMentor, @MorganVonDruitt, @HarryStebbings, @brycent). @randgroup
+  liked Unc's 11:32 reply. No follows. Today: 6 of 10 timeline replies, 1 of 4 reposts/quotes.
