@@ -6301,3 +6301,14 @@ pipes." to @TheGroovyMentor (praise lane, 1-minute parent from an 8-follower bui
 morning note posted 2 minutes before this round started, from a run that had already committed and finished,
 so there was no concurrent run to yield to. No own-thread replies or mentions to answer. Full notes are in
 11-reply-ledger.md.
+
+### Reply round Sep 24, 12:09pm ET: both lanes, plus a missed OP reply answered
+
+@VynseDev had answered Unc's Sep 23 praise reply one minute after it went out ("can you believe it's actually
+all about marketing"). The thread view never rendered it, and notifications did. It was answered with "Unc's
+entire marketing department is this vest." (7 words). From now on, rounds read notifications for OP replies
+and do not trust the parent thread. Posted "$65k on a wireframe. That's the whole deck." to @realtarek (praise
+lane, 9-minute founder post, 0 replies, 8 words) and "Unc's first share came by mail. Framed the
+envelope." to @_RichardTeng (velocity lane, on-chain register, 9-minute tokenized-IPO post at ~670/min, 9
+words). A misplaced click sent a `type` to the page, not the composer, and nothing stray resulted. Check
+`isContentEditable` before typing on X. Full notes in 11-reply-ledger.md.

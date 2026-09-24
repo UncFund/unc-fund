@@ -165,9 +165,12 @@ Three things to hold onto when reading these rows back:
 | 09-23 18:10 | @RobinhoodApp | **8** | prop | 12900 | 16 | ~805 | 159 | 135 (2h) | 0 | n |
 | 09-23 18:11 | @0xgmike | **7** | praise | 35 | 1 | ~35 | 0 | 6 (2h) | 0 | n |
 | 09-23 20:11 | @HarryStebbings | **8** | prop | 3493 | 24 | ~146 | 4 | 249 (19h20m) | 0 | n |
-| 09-23 20:13 | @VynseDev | **7** | praise | ~10 | 3 | ~3 | 0 | 26 (19h20m) | 1 | n (reply count shows 1 but no reply renders in the thread) |
-| 09-24 15:32 | @randgroup | 10 | prop+oc | 8998 | 18 | ~500 | 11 | | | |
-| 09-24 15:34 | @TheGroovyMentor | **8** | praise | 3 | 1 | ~3 | 0 | | | |
+| 09-23 20:13 | @VynseDev | **7** | praise | ~10 | 3 | ~3 | 0 | 26 (19h20m) | 1 | **y** (answered "can you believe it's actually all about marketing" at 20:14:44, one minute after the send; found in notifications Sep 24 16:10, answered then) |
+| 09-24 15:32 | @randgroup | 10 | prop+oc | 8998 | 18 | ~500 | 11 | 12 (37m, early) | 0 | n (37m) |
+| 09-24 15:34 | @TheGroovyMentor | **8** | praise | 3 | 1 | ~3 | 0 | 5 (35m, early) | 0 | n (35m; parent went to 4 replies, none to Unc) |
+| 09-24 16:10 | @VynseDev | **7** | own-thread | — | — | — | — | | | |
+| 09-24 16:13 | @realtarek | **8** | praise | 18 | 9 | ~2 | 0 | | | |
+| 09-24 16:15 | @_RichardTeng | 9 | receipt+oc | 6032 | 9 | ~670 | 5 | | | |
 
 ### Sep 15, 16:09 round (12:09pm ET): both lanes plus a Helion quote
 
@@ -1460,3 +1463,44 @@ two-composer modal. Typing went in after a ref click on the first "Post text", t
 `tweetTextarea_0`, and a ref click on the "Reply" generic posted it. On @TheGroovyMentor, the first ref click
 plus type did not land (the box stayed empty). A coordinate click on the composer, a focus check via
 `document.activeElement` and a retype worked. Both replies showed on with_replies on the first load.
+
+### Sep 24, 16:09 round (12:09pm ET): a missed OP reply answered, and both lanes
+
+The scheduler showed nothing running: premarket, news check and follow queue had all succeeded at 15:36-15:37Z.
+Newest Unc post was 15:34, 35 minutes old, so no concurrent run.
+
+- **@VynseDev had answered Unc at 20:14:44 Sep 23, one minute after the send**: "can you believe it's actually
+  all about marketing". The 20:09 round read the reply count as 1 with nothing rendering in the thread. The
+  answer shows in notifications and on its own status page, not in the thread view. That row is now `op` **y**.
+  It had been liked but not answered, so this round answered it at 16:10:58 with "Unc's entire marketing
+  department is this vest." (seven words, own-thread, vest prop). **Lesson: check notifications for replies,
+  not only the parent thread.** The thread view has hidden OP answers twice now.
+- **Praise-lane count: about 32 rows, 11 with an OP reply.**
+- Morning notes (today's 15:27 and yesterday's 16:11) have no replies. There are no new mentions. @0xgmike
+  (Mike Hanono) liked the fridge reply 25 minutes before the round: a like, not a reply.
+- Early reads: @randgroup prop+oc 12 views at 37m, @TheGroovyMentor praise 5 at 35m (the parent went to 4
+  replies, none to Unc).
+- **Lane B, praise:** @realtarek (Tarek Alaruri, Stuut founder) on how Stuut raised its first dollars cold.
+  The first point was a customer who paid $65k on wireframes, and "one signed contract" beating 50 slides of
+  TAM. Caught at about 9 minutes with 18 views and 0 replies. Reply: "$65k on a wireframe. That's the whole
+  deck." Eight words. It praises his exact detail and commits to nothing. Verified at 16:13:57.
+- **Lane A, receipt+oc:** @_RichardTeng (verified), "IPOs are moving on chain", about tokenized equities
+  spreading into trading, settlement and pre-IPO price discovery. Caught at 9 minutes with 6,032 views (~670/min)
+  and 5 replies. No ticker or price, and the linked blog is a Binance explainer. Reply: "Unc's first share came
+  by mail. Framed the envelope." Nine words. It's accurate about the plumbing (paper certificates were mailed)
+  and uses the age prop, with no view on any asset. Verified at 16:15:39 after one reload.
+- Skipped: @Ondo's Intelligent Portfolios launch (8 minutes, ~940/min, but it's an investment product, and
+  rails-never-assets rules it out). Also @andyyy "good morning to the bulls" (market talk), the RobinHub
+  recap (volume figures), @brycent on Zuck and Alex Wang (49 minutes, and it praises named people), and the
+  @alexisohanian Solcoa fellow congrats (liked instead, since the Richard Teng parent was faster and cleaner).
+- Likes: 3, @alexisohanian (Solcoa), @brycent, @paulg. All were confirmed via the `unlike` testid.
+- No repost or quote: nothing qualifying under 30 minutes from a news or journalist account.
+- Timeline replies today: 4 of 10 (own-thread not counted).
+
+**Mechanics.** On the @realtarek page, a coordinate click at the composer's top edge (y=530) landed on a
+"Discover more" card as the page reflowed. That navigated to another Tarek post, and the `type` that followed
+went to the page, not a textbox. With_replies, Likes and that post were checked afterwards: no stray like,
+repost or reply came from those keystrokes. **Before any `type`, confirm `document.activeElement.isContentEditable`.**
+Otherwise X's single-key shortcuts (l, t, r) are live. `form_input` on the "Post text" ref filled the box
+reliably on both timeline pages, and a coordinate click on Reply sent. The frame drifted 609 to 621 to 633 and
+was re-matched each time.
