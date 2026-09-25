@@ -57,9 +57,9 @@ Status values: `queued`, `followed YYYY-MM-DD`, `rejected: reason`, `reverted YY
 | 30 | @Visa | Visa (verified Sep 14) | followed 2026-09-24 |
 | 31 | @PayPal | PayPal, PYUSD issuer (verified Sep 14) | followed 2026-09-24 |
 | 32 | @KenzieSigalos | MacKenzie Sigalos, CNBC crypto and tech reporter | followed 2026-09-24 |
-| 33 | @fintechfrank | Frank Chaparro, crypto and fintech journalist | queued |
-| 34 | @NateGeraci | Nate Geraci, ETF analyst | queued |
-| 35 | @SenatorTimScott | Sen. Tim Scott (R-SC), Senate Banking chair | queued |
+| 33 | @fintechfrank | Frank Chaparro, crypto and fintech journalist | followed 2026-09-25 |
+| 34 | @NateGeraci | Nate Geraci, ETF analyst | followed 2026-09-25 |
+| 35 | @SenatorTimScott | Sen. Tim Scott (R-SC), Senate Banking chair | followed 2026-09-25 |
 | 36 | @RepJoshG | Rep. Josh Gottheimer (D-NJ), House Financial Services | queued |
 | 37 | @RepBryanSteil | Rep. Bryan Steil (R-WI), digital assets subcommittee | queued |
 | 38 | @USTreasury | U.S. Department of the Treasury (government badge) | queued |

@@ -3609,6 +3609,16 @@ vending machine 120 and 1, "Unc believes in you" 10.
   Scheduler clear at the start (reply round 22:09 to 22:12 UTC, news check 23:03 to 23:05 UTC, morning note 15:36
   UTC, all succeeded, none running); signed in, newest own reply about 2 hours old. Step 5: previous run no
   revert. Following 119 to 122, followers 34 to 34. 19 rows still queued, starting at @fintechfrank.
+- 11:49am ET Sep 25 (15:49 UTC; the 11:25am slot, started late): followed @fintechfrank (blue badge, Frank
+  Chaparro, host of The Crypto Tape, founding reporter at The Block, now head of strategic comms at GSR, 211.3K),
+  @NateGeraci (blue badge, ETF Prime host, president NovaDius Wealth) and @SenatorTimScott (grey government badge,
+  "Chairman of @BankingGOP"). All three read Following after a reload, spaced out with the list add filling each
+  gap. Rejected none, reverted none. List adds to Unc News Desk: all three (42 to 43 to 44 read on the dialog; the
+  Scott add was ticked and saved, 45 not re-read). Ref route for "..." then "Add/remove from Lists" worked first
+  time on all three. Scheduler: unc-reply-round showed "running" but that was the 10:09pm Sep 24 run (started
+  02:09 UTC) with last activity 02:11:50 UTC — proceeded, unc-reply-round hung since 02:11:50 UTC Sep 25. News
+  check 15:03 and morning note 14:17 succeeded. Signed in, newest own post 15:06 UTC, 43 minutes old. Step 5:
+  previous run no revert. Following 122 to 125, followers 35 to 35. 16 rows still queued, starting at @RepJoshG.
 
 ## Round at 00:09 UTC Sep 15 (8:09pm ET Sep 14): one own-thread answer, day still at the ceiling
 
