@@ -40,6 +40,7 @@ before an invitation can work — at which point the reply-guy rounds carry the 
 | 2026-09-22 | Tuesday | line | Unc wore the grey runners to a board meeting once. / Nobody noticed. Ship the ugly version. | | | |
 | 2026-09-23 | Wednesday | invitation | Wednesday. Unc has the readers down and the second coffee poured. / What are you building? Give him one line. (Posted 12:12 PM ET, late: the 9:01 AM run found X signed out; Rand signed back in and the run resumed.) | | | |
 | 2026-09-24 | Thursday | line | Unc found his readers in the fridge this morning. / Founders: the answer is usually somewhere dumb. Keep looking. (Posted 11:30 AM ET, late: the 9 AM run did not fire; posted on a manual run.) | | | |
+| 2026-09-25 | Friday | invitation | Friday. Unc's weekend plan is the comfortable chair and your pitch. / What are you building? One line, below. (Posted about 10:20 AM ET, late: the run fired at 10:17 AM ET. Confirmed on profile, post count 208 to 209.) | | | |
 
 Note on 2026-09-12: the scheduled run landed at **1:42 PM Eastern**, four hours forty-two minutes
 after the 9:00 slot and past the ~1:00 PM cutoff — a morning note in the afternoon reads wrong, so

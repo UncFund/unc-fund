@@ -4185,3 +4185,4 @@ No own-thread replies were owed, and there were no mentions. Last round's replie
 
 - Sep 24, 8:09pm ET round: ceiling of 10 already reached, no replies, no repost or quote. 3 likes (paulg,
   andruyeung, brycent). Johann Kerbrat reply at 208 views after 4h.
+- Sep 24 9:04pm ET news check: no fresh drop posted. Scheduler clear (reply round succeeded 00:12Z). Under 30 min on the List: @krakenfx Oura IPO via IPO xStocks (2 min, 3.8K views; a pitch to buy into one named company's IPO, skipped as asset promotion under rails-never-assets), @laurashin privacy podcast clip (4 min, podcast promo), @therollupco conference clip (30 min, commentary). Day at 10 of 10 timeline replies, 1 of 4 reposts/quotes. Nothing posted.
