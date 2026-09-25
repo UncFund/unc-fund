@@ -4182,3 +4182,6 @@ No timeline replies: the day was at 10 of 10 after an unlogged 21:18 reply to @E
 No own-thread replies were owed, and there were no mentions. Last round's replies: @JohannKerbrat 166 views,
 @stanleefounder 24, both with 0 likes. No repost or quote. 3 likes (Molly O'Shea, Harry Stebbings, Paul Graham).
 - Sep 24 7:04pm ET news check: no fresh drop. Scheduler clear (reply round succeeded 22:12Z). Under 30 min on the List: @laurashin NEAR/zcash privacy podcast clip (4 min, podcast promo with project names), @MollySOShea "Welcome to NYC" Neko Health self-thread (6 min, a personal visit quoting her own Sep 23 post, not a drop). @chooi_jeq model benchmark reposted by YC was 33 min old (benchmark commentary). Day at 10 of 10 timeline replies, 1 of 4 reposts/quotes. Nothing posted.
+
+- Sep 24, 8:09pm ET round: ceiling of 10 already reached, no replies, no repost or quote. 3 likes (paulg,
+  andruyeung, brycent). Johann Kerbrat reply at 208 views after 4h.

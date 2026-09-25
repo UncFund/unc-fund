@@ -175,9 +175,9 @@ Three things to hold onto when reading these rows back:
 | 09-24 18:12 | @axelmunktell | **7** | praise | 2 | 2 | ~1 | 0 | 2 (2h) | 0 | n (2h) |
 | 09-24 18:12 | @AshCrypto | 9 | prop+oc | 21511 | 6 | ~3600 | 30 | 136 (2h) | 0 | n |
 | 09-24 18:16 | @andyyy | **4** | react+oc (not posted by a round; likely hand-posted by Rand) | — | — | — | — | 310 (1h55m) | 0 | n |
-| 09-24 20:11 | @JohannKerbrat | **8** | prop+oc | 1804 | 22 | ~82 | 31 | 166 (2h) | 0 | n (2h; parent at 14K) |
-| 09-24 20:12 | @stanleefounder | **7** | oblivious | 116 | 32 | ~4 | 0 | 24 (2h) | 0 | n (2h; parent at 460) |
-| 09-24 21:18 | @ESCOweb3 | **6** | react (not posted by a round; likely hand-posted by Rand) — "Unc does the math every morning" under "4 of the most common mistakes entrepreneurs make" | — | — | — | — | 8 (51m) | 1 (ESCO) | n (51m; ESCO liked it) |
+| 09-24 20:11 | @JohannKerbrat | **8** | prop+oc | 1804 | 22 | ~82 | 31 | 166 (2h), 208 (4h) | 0 | n (4h; parent at 18.7K) |
+| 09-24 20:12 | @stanleefounder | **7** | oblivious | 116 | 32 | ~4 | 0 | 24 (2h), 38 (4h) | 0 | n (4h; parent at 668) |
+| 09-24 21:18 | @ESCOweb3 | **6** | react (not posted by a round; likely hand-posted by Rand) — "Unc does the math every morning" under "4 of the most common mistakes entrepreneurs make" | — | — | — | — | 8 (51m), 10 (2h51m) | 1 (ESCO) | n (2h51m; ESCO liked it, no reply) |
 
 ### Sep 15, 16:09 round (12:09pm ET): both lanes plus a Helion quote
 
@@ -1604,3 +1604,19 @@ That worked all three times.
   the `unlike` testid. The @ESCOweb3 parent was already liked.
 - The Following timeline served only three posts and would not paginate, the usual throttle shape.
 - Timeline replies today: 10 of 10. Reposts/quotes today: 1 of 4.
+
+### Round Sep 24, 8:09pm ET (00:09 UTC Sep 25): ceiling already reached, no timeline replies
+
+- Scheduler: news check (23:03-23:05Z), follow queue (23:29-23:34Z) and premarket all "succeeded", nothing
+  running. Newest Unc post still 21:18Z, so no concurrent round.
+- Day stands at 10 of 10 timeline replies, so neither lane ran.
+- Notifications and mentions: nothing new since the last round. Today's 15:27 morning note and yesterday's
+  notes still have no replies.
+- Four-hour reads: @JohannKerbrat prop+oc **208** views, 0 likes. @stanleefounder oblivious 38, 0.
+  @ESCOweb3 (hand-posted) 10 views, 1 like. No OP replies.
+- Likes: 3, @paulg (watchmaker careers), @andruyeung (get on X) and @brycent (Cartesia voice test), each
+  confirmed via the `unlike` testid. Skipped @HarryStebbings on Amazon blocking Muse (a named-company fight).
+- Mechanics: frame 800x609, matched. Ref clicks on the Like buttons silently did nothing three times;
+  coordinate clicks from a fresh screenshot worked. Two coordinate clicks on the Home timeline opened the
+  post instead, so paulg and andruyeung were liked from their post pages.
+- No repost or quote. Reposts/quotes today: 1 of 4.
