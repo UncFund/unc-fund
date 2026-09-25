@@ -1620,3 +1620,4 @@ That worked all three times.
   coordinate clicks from a fresh screenshot worked. Two coordinate clicks on the Home timeline opened the
   post instead, so paulg and andruyeung were liked from their post pages.
 - No repost or quote. Reposts/quotes today: 1 of 4.
+| 09-25 15:06 | @a16z | **8** | prop news (Cosign launch, "Introducing Cosign." quoting @eriktorenberg) — "Unc is applying directly. Wore the good vest." | 5485 | 14 | ~390 | 4 | | | |
