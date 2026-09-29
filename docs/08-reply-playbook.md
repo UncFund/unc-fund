@@ -6335,3 +6335,5 @@ an @andyyy crypto-move post, probably hand-posted; flagged in the ledger as clos
 | 2026-09-24 20:09 ET | none | — | Ceiling of 10 reached before the round. Mentions clear, 3 likes, reads logged. |
 
 **Sep 24, 10:09pm ET round.** No timeline replies because the daily ceiling had been reached. 3 likes, and no mentions or OP replies were owed. The session stalled for about 4.5 days after the likes, so the logs were committed on Sep 29.
+
+**Sep 29, 11:00am ET round.** Both lanes. "Unc's lifetime bug count: one. The printer." went to @garrytan (15-minute parent at ~290/min, 7 words). "Fourteen builds, zero regrets. Strong day twenty-five." went to @NatalieZingg (praise lane, 1-minute parent, 7 words). @axelmunktell answered the Sep 24 praise reply four days late with emoji, and Unc answered with "Unc saluted back. Didn't stand up, but saluted." The Sep 25 @a16z Cosign reply reached 6.1K views, the account's best. Full notes in 11-reply-ledger.md.

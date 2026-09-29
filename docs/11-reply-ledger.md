@@ -172,12 +172,16 @@ Three things to hold onto when reading these rows back:
 | 09-24 16:13 | @realtarek | **8** | praise | 18 | 9 | ~2 | 0 | 8 (2h) | 0 | n (2h; parent at 1 reply) |
 | 09-24 16:15 | @_RichardTeng | 9 | receipt+oc | 6032 | 9 | ~670 | 5 | 42 (2h) | 0 | n |
 | 09-24 18:10 | @TheGroovyMentor | **7** | own-thread | — | — | — | — | | | n (2h) |
-| 09-24 18:12 | @axelmunktell | **7** | praise | 2 | 2 | ~1 | 0 | 2 (2h) | 0 | n (2h) |
+| 09-24 18:12 | @axelmunktell | **7** | praise | 2 | 2 | ~1 | 0 | 2 (2h) | 1 (OP liked Sep 28 16:39) | **y** (replied a sweat-smile and salute emoji Sep 28 16:39Z, ~4 days later; answered Sep 29 15:01) |
 | 09-24 18:12 | @AshCrypto | 9 | prop+oc | 21511 | 6 | ~3600 | 30 | 136 (2h) | 0 | n |
 | 09-24 18:16 | @andyyy | **4** | react+oc (not posted by a round; likely hand-posted by Rand) | — | — | — | — | 310 (1h55m) | 0 | n |
 | 09-24 20:11 | @JohannKerbrat | **8** | prop+oc | 1804 | 22 | ~82 | 31 | 166 (2h), 208 (4h) | 0 | n (4h; parent at 18.7K) |
 | 09-24 20:12 | @stanleefounder | **7** | oblivious | 116 | 32 | ~4 | 0 | 24 (2h), 38 (4h) | 0 | n (4h; parent at 668) |
 | 09-24 21:18 | @ESCOweb3 | **6** | react (not posted by a round; likely hand-posted by Rand) — "Unc does the math every morning" under "4 of the most common mistakes entrepreneurs make" | — | — | — | — | 8 (51m), 10 (2h51m) | 1 (ESCO) | n (2h51m; ESCO liked it, no reply) |
+| 09-25 15:06 | @a16z | **8** | prop (news, Cosign launch) | 5485 | 14 | ~390 | 4 | **6.1K** (4 days) | 1 | n (best reply to date; row also logged in the Sep 25 notes below) |
+| 09-29 15:01 | @axelmunktell | **7** | own-thread | — | — | — | — | | | |
+| 09-29 15:01 | @garrytan | **7** | prop | 4373 | 15 | ~290 | 7 | | | |
+| 09-29 15:03 | @NatalieZingg | **7** | praise | 1 | 1 | ~1 | 0 | | | |
 
 ### Sep 15, 16:09 round (12:09pm ET): both lanes plus a Helion quote
 
@@ -1639,3 +1643,17 @@ That worked all three times.
 - **This session then stalled for about 4.5 days.** It resumed on Sep 29 at 14:55Z. The last activity the
   scheduler showed was 02:11Z Sep 25, and the Sep 25 news checks correctly treated it as hung. Nothing was
   posted after the likes. The logs and commit were written on resume, and no new round was started so late.
+
+### Round Sep 29, 11:00am ET (15:00 UTC): both lanes plus a late OP reply answered
+
+- Scheduler: news check, follow queue and premarket all "succeeded", nothing running (the premarket run's last activity was 14:56Z, when it posted the morning note). The newest reply on with_replies was Sep 25, so there was no concurrent round.
+- **Late OP reply:** @axelmunktell answered the Sep 24 praise reply ("The extra a's are doing honest work.") with a sweat-smile and salute emoji on Sep 28 at 16:39Z, and liked it. Found in notifications. Answered with "Unc saluted back. Didn't stand up, but saluted." (7 words, own-thread). Verified on with_replies at 15:01:05.
+- **Lane A, prop:** @garrytan, "Just fixed 28 bugs in gbrain in one fix wave PR with @capydotai and it feels so good". Caught at 15 minutes, 4,373 views (~290/min), 7 replies. Reply: "Unc's lifetime bug count: one. The printer." Seven words. Verified at 15:01:52.
+- **Lane B, praise:** @NatalieZingg (about 300 followers), "Day 25 of my building journey / Building 14 things at once and somehow still not regretting it yet". Caught at 1 minute, 1 view, 0 replies. Reply: "Fourteen builds, zero regrets. Strong day twenty-five." Seven words. Verified at 15:03:31.
+- Skipped: @coinbase crypto-backed loans (18K views at 1 minute, but the post names tickers), @robbieklages Sibos (101 minutes old), @threadguy (a dislike joke).
+- Morning note (14:55Z, "zipped the vest all the way up") had no replies yet. There was no Monday Sep 28 note because the session had stalled. No other mentions.
+- Reads: the Sep 25 @a16z Cosign reply reached **6.1K views, 1 like**, the best result on the account so far.
+- **Praise-lane tally:** about 14 `y` from about 32 praise rows. The lane is clearly earning OP replies. Note that Axel answered four days late, so a `n (2h)` read can still turn into a `y`.
+- Likes: 3, @garrytan (gbrain), @robbieklages (Sibos) and @therollupco (Sibos Miami), each confirmed via the `unlike` testid.
+- Mechanics: the frame drifted 609 to 621 to 633 to 645 and was re-matched each time. On the first try at the Natalie reply, the Reply click did not send. `computer type` then failed twice (text never entered the box); no stray shortcut actions were found on the post. What worked was form_input, a fresh screenshot, then a coordinate click.
+- Timeline replies today: 2 of 10. Reposts/quotes today: 0 of 4.
