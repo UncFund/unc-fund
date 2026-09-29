@@ -1621,3 +1621,21 @@ That worked all three times.
   post instead, so paulg and andruyeung were liked from their post pages.
 - No repost or quote. Reposts/quotes today: 1 of 4.
 | 09-25 15:06 | @a16z | **8** | prop news (Cosign launch, "Introducing Cosign." quoting @eriktorenberg) — "Unc is applying directly. Wore the good vest." | 5485 | 14 | ~390 | 4 | | | |
+
+### Round Sep 24, 10:09pm ET (02:09 UTC Sep 25): ceiling already reached, no timeline replies
+
+- Scheduler: news check (01:03-01:05Z), follow queue and premarket all "succeeded", nothing running. Newest
+  Unc post still 21:18Z, so no concurrent round.
+- The Eastern day was still Sep 24 at 10 of 10 timeline replies, so neither lane ran.
+- Notifications: nothing new since the 17:03Z @TheGroovyMentor OP reply, which was already answered. No
+  morning-note replies.
+- Six-hour reads (views only, from with_replies): @JohannKerbrat prop+oc **222**, @stanleefounder oblivious
+  **54**, @ESCOweb3 (hand-posted) 10 with 1 like. No OP replies.
+- Likes: 3, @HarryStebbings (Higgsfield ARR milestone), @stanleefounder (founders-over-tonight bit) and
+  @MorganVonDruitt (content tool), each confirmed via the `unlike` testid. Skipped @andyyy (SEC KYC rumor)
+  and @mwseibel (government comparison, too close to politics).
+- Mechanics: the frame drifted 609 to 621 to 633. Scrolling the Like button into view with JS, then
+  clicking a coordinate from a fresh screenshot, worked all three times.
+- **This session then stalled for about 4.5 days.** It resumed on Sep 29 at 14:55Z. The last activity the
+  scheduler showed was 02:11Z Sep 25, and the Sep 25 news checks correctly treated it as hung. Nothing was
+  posted after the likes. The logs and commit were written on resume, and no new round was started so late.
