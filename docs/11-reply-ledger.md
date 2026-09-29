@@ -180,8 +180,10 @@ Three things to hold onto when reading these rows back:
 | 09-24 21:18 | @ESCOweb3 | **6** | react (not posted by a round; likely hand-posted by Rand) — "Unc does the math every morning" under "4 of the most common mistakes entrepreneurs make" | — | — | — | — | 8 (51m), 10 (2h51m) | 1 (ESCO) | n (2h51m; ESCO liked it, no reply) |
 | 09-25 15:06 | @a16z | **8** | prop (news, Cosign launch) | 5485 | 14 | ~390 | 4 | **6.1K** (4 days) | 1 | n (best reply to date; row also logged in the Sep 25 notes below) |
 | 09-29 15:01 | @axelmunktell | **7** | own-thread | — | — | — | — | | | |
-| 09-29 15:01 | @garrytan | **7** | prop | 4373 | 15 | ~290 | 7 | | | |
-| 09-29 15:03 | @NatalieZingg | **7** | praise | 1 | 1 | ~1 | 0 | | | |
+| 09-29 15:01 | @garrytan | **7** | prop | 4373 | 15 | ~290 | 7 | 56 (68m) | 0 | n |
+| 09-29 15:03 | @NatalieZingg | **7** | praise | 1 | 1 | ~1 | 0 | 11 (66m) | 2 | n so far (OP liked it and followed Unc at 15:05Z; the reply shows 1 reply that does not render, author unknown) |
+| 09-29 16:11 | @Freddybuilds | **8** | praise | 5 | 7 | ~1 | 0 | | | |
+| 09-29 16:13 | @vladtenev | **4** | prop | 58.6K | 35 | ~1,700 (~900 live) | 275 | | | |
 
 ### Sep 15, 16:09 round (12:09pm ET): both lanes plus a Helion quote
 
@@ -1657,3 +1659,15 @@ That worked all three times.
 - Likes: 3, @garrytan (gbrain), @robbieklages (Sibos) and @therollupco (Sibos Miami), each confirmed via the `unlike` testid.
 - Mechanics: the frame drifted 609 to 621 to 633 to 645 and was re-matched each time. On the first try at the Natalie reply, the Reply click did not send. `computer type` then failed twice (text never entered the box); no stray shortcut actions were found on the post. What worked was form_input, a fresh screenshot, then a coordinate click.
 - Timeline replies today: 2 of 10. Reposts/quotes today: 0 of 4.
+
+### Round Sep 29, 12:09pm ET (16:09 UTC): both lanes again
+
+- Scheduler: news check, follow queue and premarket all "succeeded", nothing running. Newest Unc post was the 15:03Z Natalie reply, so no concurrent round.
+- Notifications: @NatalieZingg liked the praise reply and followed Unc (15:05Z). The reply shows a count of 1 reply that does not render on the post page, so its author is unknown and nothing could be answered. No new mentions. Morning note has no replies.
+- **Lane B, praise:** @Freddybuilds, "3 apps in the Shipaton. Deadline tomorrow night... So today I film." Caught at 7 minutes, 5 views, 0 replies. Reply: "Three apps built. Filming is the victory lap." Eight words. Verified at 16:11:55.
+- **Lane A, prop:** @vladtenev, "See you tonight." quoting the Robinhood Presents event teaser. Caught at 35 minutes, 58.6K views (about 1,700/min average, about 900/min over the three minutes observed), 275 replies. Reply: "Vest ironed. Chair reserved." Four words. Verified at 16:13:02.
+- Reads: @garrytan 56 views, 0 likes at 68 min. @NatalieZingg 11 views, 2 likes (one from the OP) at 66 min.
+- Likes: 3, @vladtenev, @RobinhoodApp (event teaser) and @Freddybuilds, each confirmed via the `unlike` testid.
+- No repost or quote: the Robinhood post is an event teaser, not a news drop.
+- Mechanics: frame drifted 609 to 621 to 633 to 645. The first Freddy Reply click DID send, but with_replies loaded before it landed, so it looked like a failure. The retry filled the box again and the page then showed the reply already posted, so the second click was not made. Lesson: wait about six seconds on the post page and check for the reply in the thread before deciding a send failed.
+- Timeline replies today: 4 of 10. Reposts/quotes today: 0 of 4.
