@@ -182,8 +182,11 @@ Three things to hold onto when reading these rows back:
 | 09-29 15:01 | @axelmunktell | **7** | own-thread | — | — | — | — | | | |
 | 09-29 15:01 | @garrytan | **7** | prop | 4373 | 15 | ~290 | 7 | 56 (68m) | 0 | n |
 | 09-29 15:03 | @NatalieZingg | **7** | praise | 1 | 1 | ~1 | 0 | 11 (66m) | 2 | n so far (OP liked it and followed Unc at 15:05Z; the reply shows 1 reply that does not render, author unknown) |
-| 09-29 16:11 | @Freddybuilds | **8** | praise | 5 | 7 | ~1 | 0 | | | |
-| 09-29 16:13 | @vladtenev | **4** | prop | 58.6K | 35 | ~1,700 (~900 live) | 275 | | | |
+| 09-29 16:11 | @Freddybuilds | **8** | praise | 5 | 7 | ~1 | 0 | 22 parent (2h) | 1 | **y** (16:23Z, "Thanks, I'll try to approach it this way", answered 18:10Z) |
+| 09-29 16:13 | @vladtenev | **4** | prop | 58.6K | 35 | ~1,700 (~900 live) | 275 | 173 (2h) | 2 | n (parent at 154K) |
+| 09-29 18:10 | @Freddybuilds | **6** | own-thread | — | — | — | — | | | |
+| 09-29 18:12 | @sama | **8** | prop | 51.8K | 11 | ~4,800 | 232 | | | |
+| 09-29 18:13 | @Vision4UAI | **8** | praise | 2 | 3 | ~1 | 0 | | | |
 
 ### Sep 15, 16:09 round (12:09pm ET): both lanes plus a Helion quote
 
@@ -1671,3 +1674,17 @@ That worked all three times.
 - No repost or quote: the Robinhood post is an event teaser, not a news drop.
 - Mechanics: frame drifted 609 to 621 to 633 to 645. The first Freddy Reply click DID send, but with_replies loaded before it landed, so it looked like a failure. The retry filled the box again and the page then showed the reply already posted, so the second click was not made. Lesson: wait about six seconds on the post page and check for the reply in the thread before deciding a send failed.
 - Timeline replies today: 4 of 10. Reposts/quotes today: 0 of 4.
+
+### Round Sep 29, 2:09pm ET (18:09 UTC): both lanes plus an OP reply answered
+
+- Scheduler: news check (17:03-17:04Z), follow queue and premarket all "succeeded", nothing running. Newest Unc post was the 16:13Z vladtenev reply, so no concurrent round.
+- **OP reply:** @Freddybuilds answered the 16:11Z praise reply at 16:23Z ("Thanks, I'll try to approach it this way", salute and pray emoji). Answered with "Unc will be watching. Readers on." (6 words, own-thread). Verified on the post page and with_replies (18:10:34Z).
+- **Lane A, prop:** @sama, "Dots are here! A new way to use AI that works 24/7 for you" (OpenAI product launch). Caught at 11 minutes, 51.8K views (~4,800/min), 232 replies. Reply: "Works 24/7. So does the vest, since 2011." Eight words. Verified at 18:12:11. The first Reply click did not send (frame had drifted to 633 then 645); re-matched, form_input again, clicked into the text to expand the toolbar, then a coordinate click worked.
+- **Lane B, praise:** @Vision4UAI (small builder account), "did 7 more live demos this week and something finally clicked, I know exactly who this is for now". Caught at 3 minutes, 2 views, 0 replies. Reply: "Knowing who it's for is the whole company." Eight words. Verified at 18:13:10.
+- Skipped: @HarryStebbings energy-prices post (policy and a named person), @stanleefounder billboard (143 minutes), @RobinhoodApp untitled video (event), @BuyfromBrodyD reseller sales (fine, but Vision4UAI was the better builder fit), OpenAI-launch hot takes from small accounts.
+- Reads: @vladtenev 173 views, 2 likes at about 2h (parent at 154K). @Freddybuilds praise earned an OP reply.
+- Morning note (14:55Z) still has no replies. No new mentions.
+- Likes: 3, @Vision4UAI, @sama and @stanleefounder (billboard), each confirmed via the `unlike` testid. One coordinate click on the stanleefounder page opened a reply instead; went back and retried from a fresh screenshot.
+- Mechanics: while answering Freddy, a click on the collapsed composer opened the "Replying to" chooser; Escape closed it and the reply then sent normally.
+- No repost or quote: the OpenAI Dots launch is a product launch rather than venture news, and the one-per-round slot was left unused.
+- Timeline replies today: 6 of 10. Reposts/quotes today: 0 of 4.
