@@ -184,9 +184,12 @@ Three things to hold onto when reading these rows back:
 | 09-29 15:03 | @NatalieZingg | **7** | praise | 1 | 1 | ~1 | 0 | 11 (66m) | 2 | n so far (OP liked it and followed Unc at 15:05Z; the reply shows 1 reply that does not render, author unknown) |
 | 09-29 16:11 | @Freddybuilds | **8** | praise | 5 | 7 | ~1 | 0 | 22 parent (2h) | 1 | **y** (16:23Z, "Thanks, I'll try to approach it this way", answered 18:10Z) |
 | 09-29 16:13 | @vladtenev | **4** | prop | 58.6K | 35 | ~1,700 (~900 live) | 275 | 173 (2h) | 2 | n (parent at 154K) |
-| 09-29 18:10 | @Freddybuilds | **6** | own-thread | — | — | — | — | | | |
-| 09-29 18:12 | @sama | **8** | prop | 51.8K | 11 | ~4,800 | 232 | | | |
-| 09-29 18:13 | @Vision4UAI | **8** | praise | 2 | 3 | ~1 | 0 | | | |
+| 09-29 18:10 | @Freddybuilds | **6** | own-thread | — | — | — | — | 3 (4h) | 1 (OP) | **y** (19:03Z, "Valeeeeeu", answered 22:10Z) |
+| 09-29 18:12 | @sama | **8** | prop | 51.8K | 11 | ~4,800 | 232 | 12 (4h) | 0 | n |
+| 09-29 18:13 | @Vision4UAI | **8** | praise | 2 | 3 | ~1 | 0 | 2 (4h) | 0 | n (4h) |
+| 09-29 22:10 | @Freddybuilds | **6** | own-thread | — | — | — | — | | | |
+| 09-29 22:12 | @garrytan | **8** | prop | 6983 | 36 | ~195 avg (~40 live) | 19 | | | |
+| 09-29 22:12 | @zoemaestra | **7** | praise | 11 | 2 | ~5 | 0 | | | |
 
 ### Sep 15, 16:09 round (12:09pm ET): both lanes plus a Helion quote
 
@@ -1688,3 +1691,17 @@ That worked all three times.
 - Mechanics: while answering Freddy, a click on the collapsed composer opened the "Replying to" chooser; Escape closed it and the reply then sent normally.
 - No repost or quote: the OpenAI Dots launch is a product launch rather than venture news, and the one-per-round slot was left unused.
 - Timeline replies today: 6 of 10. Reposts/quotes today: 0 of 4.
+
+### Round Sep 29, 6:09pm ET (22:09 UTC): both lanes plus an OP reply answered
+
+- Scheduler: news check and follow queue last runs "failed" on a session limit (not running), premarket "succeeded". Nothing running. Newest Unc post was the 18:13Z Vision4UAI reply, so no concurrent round.
+- **OP reply:** @Freddybuilds answered "Unc will be watching. Readers on." at 19:03Z with "Valeeeeeu" (Brazilian Portuguese for thanks) and liked it. Answered with "Unc learned a new word today." (6 words, own-thread). Verified at 22:10:31Z.
+- **Lane A, prop:** @garrytan, "Just merged a version of OpenClaw's test-audit skill into GStack. Test bloat is a real problem." Caught at 36 minutes, 6,983 views (~195/min average but only ~40/min live), 19 replies. Reply: "Unc's test suite is his nephew clicking around." Eight words. Verified at 22:12:03Z. Second @garrytan reply today (cap is two). The parent was already flattening; picked because nothing fresher cleared the bar.
+- **Lane B, praise:** @zoemaestra (about 1.3K followers, sells assembled DIY electronic music boards), "Cutting off orders for the time being because I woke up and had an insane amount of demand". Caught at 2 minutes, 11 views, 0 replies. Reply: "Woke up to a waitlist. Beautiful problem." Seven words. Verified at 22:12:52Z.
+- Skipped: @RobinhoodApp "One more hour til liftoff" (41 minutes, event teaser, and the chair gag was already spent on @vladtenev today), @jacqmelinek green outfit (at 10 minutes, but framed around charts and bullish vibes, which is price-adjacent), @stanleefounder parody raise post (233 minutes), Latest-search noise.
+- Reads: @sama reply 12 views, 0 likes at 4h. @Vision4UAI praise 2 views, 0 likes, no OP reply at 4h.
+- Morning note (14:55Z) still has no replies. No new mentions.
+- Likes: 3, @garrytan (test-audit), @zoemaestra (orders) and @RobinhoodApp (liftoff), each confirmed via the `unlike` testid.
+- No repost or quote: no qualifying news drop under 30 minutes.
+- Mechanics: frame 609, drifted to 621 and was re-matched. On all three posts the first form_input did not render text; clicking into the box and running form_input again worked, then a coordinate click on Reply sent first time.
+- Timeline replies today: 8 of 10. Reposts/quotes today: 0 of 4.
