@@ -3628,6 +3628,15 @@ vending machine 120 and 1, "Unc believes in you" 10.
   the second attempt. Scheduler clear at the start (reply round 14:59 to 15:12 UTC, morning note 15:01 UTC, news
   check 15:02 UTC, all succeeded, none running); signed in, newest own reply 26 minutes old. Step 5: previous run
   no revert. Following 125 to 128, followers 38 to 38. 13 rows still queued, starting at @iShares.
+- 7:30pm ET Sep 29 (23:30 UTC; the 7:25pm slot): followed @iShares (gold badge, ishares.com/us, "Powered by
+  BlackRock", 174.8K), @vaneck_us (gold badge, vaneck.com, founded 1955, 116.6K) and @Grayscale (gold badge,
+  grayscale.com, Stamford CT, 681.3K). All three read Following after a reload, spaced at least 90 seconds apart.
+  Rejected @BitwiseInvest ("This account doesn't exist", checked twice; real handle needs finding by search). Reverted
+  none. List adds to Unc News Desk: all three (dialog read 48, 49, 50 before each tick; Grayscale saved, 51 not
+  re-read). The VanEck "..." click misfired onto "About this account" once; second attempt worked after waiting for the
+  menu to finish animating before clicking. Scheduler clear (reply round 22:09 to 22:14 UTC, news check 23:03 UTC,
+  morning note 15:01 UTC, all succeeded); signed in, newest own reply 78 minutes old. Step 5: previous run no revert.
+  Following 128 to 131, followers 38 to 38. 9 rows still queued, starting at @Nasdaq.
 
 ## Round at 00:09 UTC Sep 15 (8:09pm ET Sep 14): one own-thread answer, day still at the ceiling
 
@@ -4216,3 +4225,4 @@ No own-thread replies were owed, and there were no mentions. Last round's replie
 - Sep 29, 13:04 ET (17:04 UTC) news check: no fresh drop. Under 30 minutes on the News Desk: @therollupco and @andyyy HOOD Summit floor posts (event plug, nothing announced yet), @robbieklages Sibos inside look (event), @TokenRelations Animecoin primer (token, skip), @JSeyff political dunk (skip). Day so far: 4 timeline replies, 0 quotes/reposts.
 | 2026-09-29 18:09 UTC | Reply round | sama (prop), Vision4UAI (praise), Freddybuilds (own-thread) | 2 timeline replies (both lanes), 1 own-thread answer to Freddybuilds' OP reply, 3 likes, no repost or quote. vladtenev reply at 173 views, 2 likes. Day count 6 of 10. |
 | 2026-09-29 22:09 UTC | Reply round | garrytan (prop), zoemaestra (praise), Freddybuilds (own-thread) | 2 timeline replies (both lanes), 1 own-thread answer to Freddybuilds' second reply, 3 likes, no repost or quote. sama reply at 12 views, Vision4UAI at 2, both 0 likes. Day count 8 of 10. |
+- Sep 29, 19:03 ET (23:03 UTC) news check: no fresh drop. Under 30 minutes on the News Desk: @koomen YC Cyber Night RSVP via YC repost (event plug), @andyyy Robinhood Social launch (social trading feed, too close to positions and tickers, skip), @EricBalchunas post naming a politician (skip). Day so far: 8 timeline replies, 0 quotes/reposts.

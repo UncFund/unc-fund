@@ -63,10 +63,10 @@ Status values: `queued`, `followed YYYY-MM-DD`, `rejected: reason`, `reverted YY
 | 36 | @RepJoshG | Rep. Josh Gottheimer (D-NJ), House Financial Services | followed 2026-09-29 |
 | 37 | @RepBryanSteil | Rep. Bryan Steil (R-WI), digital assets subcommittee | followed 2026-09-29 |
 | 38 | @USTreasury | U.S. Department of the Treasury (government badge) | followed 2026-09-29 |
-| 39 | @iShares | BlackRock iShares ETFs | queued |
-| 40 | @vaneck_us | VanEck | queued |
-| 41 | @BitwiseInvest | Bitwise Asset Management | queued |
-| 42 | @Grayscale | Grayscale Investments | queued |
+| 39 | @iShares | BlackRock iShares ETFs | followed 2026-09-29 |
+| 40 | @vaneck_us | VanEck | followed 2026-09-29 |
+| 41 | @BitwiseInvest | Bitwise Asset Management | rejected: account does not exist (Sep 29, checked twice) |
+| 42 | @Grayscale | Grayscale Investments | followed 2026-09-29 |
 | 43 | @Nasdaq | Nasdaq | queued |
 | 44 | @The_DTCC | DTCC, clearing and settlement | queued |
 | 45 | @CMEGroup | CME Group | queued |
