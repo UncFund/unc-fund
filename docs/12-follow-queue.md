@@ -60,9 +60,9 @@ Status values: `queued`, `followed YYYY-MM-DD`, `rejected: reason`, `reverted YY
 | 33 | @fintechfrank | Frank Chaparro, crypto and fintech journalist | followed 2026-09-25 |
 | 34 | @NateGeraci | Nate Geraci, ETF analyst | followed 2026-09-25 |
 | 35 | @SenatorTimScott | Sen. Tim Scott (R-SC), Senate Banking chair | followed 2026-09-25 |
-| 36 | @RepJoshG | Rep. Josh Gottheimer (D-NJ), House Financial Services | queued |
-| 37 | @RepBryanSteil | Rep. Bryan Steil (R-WI), digital assets subcommittee | queued |
-| 38 | @USTreasury | U.S. Department of the Treasury (government badge) | queued |
+| 36 | @RepJoshG | Rep. Josh Gottheimer (D-NJ), House Financial Services | followed 2026-09-29 |
+| 37 | @RepBryanSteil | Rep. Bryan Steil (R-WI), digital assets subcommittee | followed 2026-09-29 |
+| 38 | @USTreasury | U.S. Department of the Treasury (government badge) | followed 2026-09-29 |
 | 39 | @iShares | BlackRock iShares ETFs | queued |
 | 40 | @vaneck_us | VanEck | queued |
 | 41 | @BitwiseInvest | Bitwise Asset Management | queued |

@@ -3619,6 +3619,15 @@ vending machine 120 and 1, "Unc believes in you" 10.
   02:09 UTC) with last activity 02:11:50 UTC — proceeded, unc-reply-round hung since 02:11:50 UTC Sep 25. News
   check 15:03 and morning note 14:17 succeeded. Signed in, newest own post 15:06 UTC, 43 minutes old. Step 5:
   previous run no revert. Following 122 to 125, followers 35 to 35. 16 rows still queued, starting at @RepJoshG.
+- 11:30am ET Sep 29 (15:30 UTC; the 11:25am slot): followed @RepJoshG (grey government badge, Gottheimer.House.Gov,
+  Financial Services Committee, 35.4K), @RepBryanSteil (grey government badge, steil.house.gov, @FinancialCmte Crypto
+  Subcommittee Chairman, 34.9K) and @USTreasury (grey badge, treasury.gov, joined 2010, 1.1M). All three read Following
+  after a reload, spaced at least 90 seconds apart with the list add filling each gap. Rejected none, reverted none.
+  List adds to Unc News Desk: all three (dialog read 45, 46, 47 before each tick; the Treasury add was saved, 48 not
+  re-read). The Treasury "..." coordinate click misfired onto "About this account" again; the ref route worked on
+  the second attempt. Scheduler clear at the start (reply round 14:59 to 15:12 UTC, morning note 15:01 UTC, news
+  check 15:02 UTC, all succeeded, none running); signed in, newest own reply 26 minutes old. Step 5: previous run
+  no revert. Following 125 to 128, followers 38 to 38. 13 rows still queued, starting at @iShares.
 
 ## Round at 00:09 UTC Sep 15 (8:09pm ET Sep 14): one own-thread answer, day still at the ceiling
 
