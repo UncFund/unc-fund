@@ -67,9 +67,9 @@ Status values: `queued`, `followed YYYY-MM-DD`, `rejected: reason`, `reverted YY
 | 40 | @vaneck_us | VanEck | followed 2026-09-29 |
 | 41 | @BitwiseInvest | Bitwise Asset Management | rejected: account does not exist (Sep 29, checked twice) |
 | 42 | @Grayscale | Grayscale Investments | followed 2026-09-29 |
-| 43 | @Nasdaq | Nasdaq | queued |
-| 44 | @The_DTCC | DTCC, clearing and settlement | queued |
-| 45 | @CMEGroup | CME Group | queued |
+| 43 | @Nasdaq | Nasdaq | followed 2026-09-30 |
+| 44 | @The_DTCC | DTCC, clearing and settlement | followed 2026-09-30 |
+| 45 | @CMEGroup | CME Group | followed 2026-09-30 |
 | 46 | @coincenter | Coin Center, crypto policy nonprofit | queued |
 | 47 | @BlockchainAssn | Blockchain Association, industry trade group | queued |
 | 48 | @crypto_council | Crypto Council for Innovation | queued |

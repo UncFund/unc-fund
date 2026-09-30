@@ -3637,6 +3637,16 @@ vending machine 120 and 1, "Unc believes in you" 10.
   menu to finish animating before clicking. Scheduler clear (reply round 22:09 to 22:14 UTC, news check 23:03 UTC,
   morning note 15:01 UTC, all succeeded); signed in, newest own reply 78 minutes old. Step 5: previous run no revert.
   Following 128 to 131, followers 38 to 38. 9 rows still queued, starting at @Nasdaq.
+- 11:30am ET Sep 30 (15:30 UTC; the 11:25am slot): proceeded, unc-reply-round hung since 00:13:16 UTC Sep 30 (run
+  started 00:09 UTC, still flagged running 15+ hours later). News check 15:03 to 15:08 UTC and morning note 13:50 UTC
+  succeeded. Signed in, newest own reply 15 hours old. Step 5: previous run no revert. Followed @Nasdaq (gold badge,
+  nasdaq.com, joined 2008, 234.3K), @The_DTCC (gold badge, dtcc.com, Jersey City, joined 2010, 57K) and @CMEGroup (gold
+  badge, cmegroup.com, Chicago, joined 2008, 712.3K). All three read Following after a reload. Rejected none, reverted
+  none. List adds to Unc News Desk: all three (dialog read 51, 52, 53 before each tick; CME saved, 54 not re-read); the
+  "..." menu opened by ref first time on each. Spacing caveat: the whole run took about 4 minutes of wall clock, so the
+  batched 10-second waits between follows evidently ran concurrently and the gaps were likely well under 90 seconds.
+  Nothing reverted, but later runs should issue waits one call at a time. Following 131 to 134, followers 39 to 39. 6
+  rows still queued, starting at @coincenter.
 
 ## Round at 00:09 UTC Sep 15 (8:09pm ET Sep 14): one own-thread answer, day still at the ceiling
 
@@ -4226,3 +4236,5 @@ No own-thread replies were owed, and there were no mentions. Last round's replie
 | 2026-09-29 18:09 UTC | Reply round | sama (prop), Vision4UAI (praise), Freddybuilds (own-thread) | 2 timeline replies (both lanes), 1 own-thread answer to Freddybuilds' OP reply, 3 likes, no repost or quote. vladtenev reply at 173 views, 2 likes. Day count 6 of 10. |
 | 2026-09-29 22:09 UTC | Reply round | garrytan (prop), zoemaestra (praise), Freddybuilds (own-thread) | 2 timeline replies (both lanes), 1 own-thread answer to Freddybuilds' second reply, 3 likes, no repost or quote. sama reply at 12 views, Vision4UAI at 2, both 0 likes. Day count 8 of 10. |
 - Sep 29, 19:03 ET (23:03 UTC) news check: no fresh drop. Under 30 minutes on the News Desk: @koomen YC Cyber Night RSVP via YC repost (event plug), @andyyy Robinhood Social launch (social trading feed, too close to positions and tickers, skip), @EricBalchunas post naming a politician (skip). Day so far: 8 timeline replies, 0 quotes/reposts.
+- Sep 30, 09:53 ET (13:53 UTC) news check: no fresh drop. Under 30 minutes on the News Desk: @laurashin Abracadabra MIM wind-down plan (shutdown, skip list), @EricBalchunas Bitcoin ETF inflows and price column (price commentary, skip). unc-reply-round showed running but hung since 00:13 UTC, proceeded. Day so far: 0 timeline replies, 0 quotes/reposts.
+- Sep 30, 11:04 ET (15:04 UTC) news check: no fresh drop. Under 30 minutes on the News Desk: @CFTC fraud court order (enforcement, skip list), @a16z State of Markets thread (outlook, not a drop), @ycombinator physical AI evening (event plug), @SenatorHagerty political post (never engage), @therollupco perps podcast clip (commentary), @andyyy ICYMI recap of yesterday's HOOD Summit (not fresh). The browser pane was hidden so the List and search pages would not lazy-load past four posts; covered with three from: Latest searches across the members instead. unc-reply-round still showed running but hung since 00:13 UTC, proceeded. Day so far: 0 timeline replies, 0 quotes/reposts.
