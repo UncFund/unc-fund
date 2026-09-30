@@ -42,6 +42,7 @@ before an invitation can work — at which point the reply-guy rounds carry the 
 | 2026-09-24 | Thursday | line | Unc found his readers in the fridge this morning. / Founders: the answer is usually somewhere dumb. Keep looking. (Posted 11:30 AM ET, late: the 9 AM run did not fire; posted on a manual run.) | | | |
 | 2026-09-25 | Friday | invitation | Friday. Unc's weekend plan is the comfortable chair and your pitch. / What are you building? One line, below. (Posted about 10:20 AM ET, late: the run fired at 10:17 AM ET. Confirmed on profile, post count 208 to 209.) | | | |
 | 2026-09-29 | Tuesday | line | Unc zipped the vest all the way up this morning. Felt like a Series A. / Founders: dress for the round you want. (Posted about 11:00 AM ET, late: run started 10:54 AM ET on a manual trigger. Confirmed on profile, post count 211 to 212.) | | | |
+| 2026-09-30 | Wednesday | invitation | Midweek. Unc's in the comfortable chair with nothing to read. / Fix that. One line on what you're building. (Posted about 9:52 AM ET, late: run fired 9:50 AM ET. Confirmed on profile, post count 226 to 227.) | | | |
 
 Note on 2026-09-12: the scheduled run landed at **1:42 PM Eastern**, four hours forty-two minutes
 after the 9:00 slot and past the ~1:00 PM cutoff — a morning note in the afternoon reads wrong, so
