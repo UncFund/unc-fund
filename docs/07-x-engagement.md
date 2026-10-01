@@ -3647,6 +3647,16 @@ vending machine 120 and 1, "Unc believes in you" 10.
   batched 10-second waits between follows evidently ran concurrently and the gaps were likely well under 90 seconds.
   Nothing reverted, but later runs should issue waits one call at a time. Following 131 to 134, followers 39 to 39. 6
   rows still queued, starting at @coincenter.
+- 10:27am ET Oct 1 (14:27 UTC; fired about an hour ahead of its 11:25am slot): proceeded, unc-reply-round hung since
+  00:13:16 UTC Sep 30 and unc-news-check hung since 17:07:12 UTC Sep 30 (both still flagged running, far past the
+  10-minute bound). Morning note succeeded 14:26 UTC. Signed in, newest own reply 21 hours old. Step 5: previous run no
+  revert. Followed @coincenter (blue rather than gold badge, but coincenter.org, Washington DC, joined 2014, 65.5K,
+  followed by Eleanor Terrett, so treated as genuine like @DigitalAssets), @BlockchainAssn (gold badge,
+  theblockchainassociation.org, DC, joined 2018, 47.4K) and @crypto_council (gold badge, cryptoforinnovation.org,
+  joined 2021, 25K). All three read Following after a reload. Follows at about 14:28:50, 14:31:05 and 14:33:05 UTC,
+  waits issued one call at a time, so the gaps were real (about 2m15s and 2m). Rejected none, reverted none. List adds
+  to Unc News Desk: all three (dialog read 54, 55, 56 before each tick; Crypto Council saved, 57 not re-read). Following
+  134 to 137, followers 37 to 37 (down two from the 39 logged Sep 30). 3 rows still queued, starting at @DavidSacks.
 
 ## Round at 00:09 UTC Sep 15 (8:09pm ET Sep 14): one own-thread answer, day still at the ceiling
 

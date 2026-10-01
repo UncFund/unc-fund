@@ -70,9 +70,9 @@ Status values: `queued`, `followed YYYY-MM-DD`, `rejected: reason`, `reverted YY
 | 43 | @Nasdaq | Nasdaq | followed 2026-09-30 |
 | 44 | @The_DTCC | DTCC, clearing and settlement | followed 2026-09-30 |
 | 45 | @CMEGroup | CME Group | followed 2026-09-30 |
-| 46 | @coincenter | Coin Center, crypto policy nonprofit | queued |
-| 47 | @BlockchainAssn | Blockchain Association, industry trade group | queued |
-| 48 | @crypto_council | Crypto Council for Innovation | queued |
+| 46 | @coincenter | Coin Center, crypto policy nonprofit | followed 2026-10-01 |
+| 47 | @BlockchainAssn | Blockchain Association, industry trade group | followed 2026-10-01 |
+| 48 | @crypto_council | Crypto Council for Innovation | followed 2026-10-01 |
 | 49 | @DavidSacks | David Sacks, White House AI and crypto adviser | queued |
 | 50 | @FinancialCmte | House Financial Services Committee (majority) | queued |
 | 51 | @FSCDems | House Financial Services Committee Democrats (minority) | queued |
