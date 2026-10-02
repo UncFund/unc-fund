@@ -1705,3 +1705,17 @@ That worked all three times.
 - No repost or quote: no qualifying news drop under 30 minutes.
 - Mechanics: frame 609, drifted to 621 and was re-matched. On all three posts the first form_input did not render text; clicking into the box and running form_input again worked, then a coordinate click on Reply sent first time.
 - Timeline replies today: 8 of 10. Reposts/quotes today: 0 of 4.
+
+### Round Sep 29, 8:09pm ET (00:09 UTC Sep 30): both lanes plus an OP reply answered
+
+- Scheduler: news check (23:03Z), follow queue (23:29Z) and premarket all "succeeded", nothing running. Newest Unc post was the 22:12Z zoemaestra reply, so no concurrent round.
+- **OP reply:** @Freddybuilds answered "Unc learned a new word today." at 22:21Z ("Welcome to my life. It's Portuguese (from Brasil)") and liked it. Answered with "Unc's Portuguese is now two words. Obrigado." (7 words, own-thread). Verified at 00:10:38Z. This is the fourth exchange in the thread off the noon praise reply.
+- **Lane A, prop:** @RobinhoodApp, "well played @TipRanks" (chess emoji), quoting a post about TipRanks giving away a portable chess set at the Robinhood event. Caught at 8 minutes, 13.1K views (~1,600/min), 11 replies. Reply: "A chess set. Finally, swag Unc understands." Seven words. Verified at 00:11:35Z. First @RobinhoodApp reply today (@vladtenev was a separate account).
+- **Lane B, praise:** @gkemonapp (small builder), Shipaton wrap for Room Quiz: "A feature I couldn't demo got deleted, not faked." Caught at 12 minutes, 6 views, 0 replies. Reply: "\"Deleted, not faked\" is the whole character test." Eight words. Verified at 00:12:45Z.
+- Skipped: @andyyy on Robinhood Agents and @tokenterminal (7 minutes, ~158/min, but carries a $HOOD ticker), @Ynvestor_DX game live on Google Play (fine, but gkemonapp had the more specific line), launchpad and coin launches in search.
+- Reads: @garrytan test-audit reply 47 views at about 2h. @zoemaestra praise 3 views, no OP reply at 2h. Freddy liked "Unc learned a new word today."
+- Morning note still has no replies. No new mentions.
+- Likes: 2, @RobinhoodApp (chess) and @gkemonapp, each confirmed via the `unlike` testid.
+- No repost or quote: no qualifying news drop under 30 minutes (the Robinhood Agents news only reached the board via a ticker post).
+- Mechanics: frame drifted 609 to 621 to 633 to 645 and was re-matched each time. Clicking the textbox by ref, then form_input in the next call, rendered text first time on all three; coordinate click on Reply sent first time.
+- Timeline replies today: 10 of 10 (ceiling reached). Reposts/quotes today: 0 of 4.
