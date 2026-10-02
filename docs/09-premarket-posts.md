@@ -44,6 +44,7 @@ before an invitation can work — at which point the reply-guy rounds carry the 
 | 2026-09-29 | Tuesday | line | Unc zipped the vest all the way up this morning. Felt like a Series A. / Founders: dress for the round you want. (Posted about 11:00 AM ET, late: run started 10:54 AM ET on a manual trigger. Confirmed on profile, post count 211 to 212.) | | | |
 | 2026-09-30 | Wednesday | invitation | Midweek. Unc's in the comfortable chair with nothing to read. / Fix that. One line on what you're building. (Posted about 9:52 AM ET, late: run fired 9:50 AM ET. Confirmed on profile, post count 226 to 227.) | | | |
 | 2026-10-01 | Thursday | line | Unc sat in the comfortable chair at 6 AM and called it a standup. / Founders: the meeting can be short. The work can't. (Posted about 10:28 AM ET, late: run fired 10:25 AM ET. Confirmed on profile, post count 229 to 230.) | | | |
+| 2026-10-02 | Friday | invitation | Friday. Unc's readers are clean and his weekend is wide open. / Send him something to read. One line on what you're building. (Posted about 12:52 PM ET, late: run fired 12:49 PM ET, just inside the 1:00 PM cutoff. Confirmed on profile, post count 230 to 231.) | | | |
 
 Note on 2026-09-12: the scheduled run landed at **1:42 PM Eastern**, four hours forty-two minutes
 after the 9:00 slot and past the ~1:00 PM cutoff — a morning note in the afternoon reads wrong, so
