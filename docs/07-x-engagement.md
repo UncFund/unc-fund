@@ -3657,6 +3657,20 @@ vending machine 120 and 1, "Unc believes in you" 10.
   waits issued one call at a time, so the gaps were real (about 2m15s and 2m). Rejected none, reverted none. List adds
   to Unc News Desk: all three (dialog read 54, 55, 56 before each tick; Crypto Council saved, 57 not re-read). Following
   134 to 137, followers 37 to 37 (down two from the 39 logged Sep 30). 3 rows still queued, starting at @DavidSacks.
+- 8:42am ET Oct 2 (12:42 UTC; fired well outside its 11:25am / 3:25pm / 7:25pm slots, before the 9am morning note):
+  proceeded, unc-reply-round hung since 00:13:16 UTC Sep 30 and unc-news-check hung since 17:07:12 UTC Sep 30 (both
+  still flagged running). Morning note last succeeded 14:26 UTC Oct 1. Signed in (Edit profile), newest own reply Sep 30.
+  Step 5: previous run no revert. Followed @DavidSacks (blue badge plus All-In affiliate badge, joined 2007, 1.7M,
+  Craft Ventures / All-In bio; the bio now reads Co-Chair of the President's Council of Advisors on Science and
+  Technology rather than AI and crypto adviser, a White House role all the same, so treated as a match) and
+  @FinancialCmte (grey badge, "Financial Services GOP", financialservices.house.gov, chairman @RepFrenchHill, joined
+  2009, 63.4K). Both read Following after a reload. Follows at about 12:42:40 and 12:44:25 UTC, waits one call at a
+  time (gap about 1m45s). Rejected @FSCDems: display name "FSC", no badge, no bio or link, 0 posts, 56 followers,
+  joined Jan 2025, so not the committee Democrats; the real minority handle needs finding by search before it is
+  queued, which leaves the queue's party balance tilted until then. Reverted none. List adds to Unc News Desk: both
+  (dialog read 57, then 58 before the second tick; the first "..." click on FinancialCmte opened late and a follow-up
+  click landed on About this account, second attempt worked). Following 137 to 139, followers 37 to 37. No queued
+  rows remain.
 
 ## Round at 00:09 UTC Sep 15 (8:09pm ET Sep 14): one own-thread answer, day still at the ceiling
 

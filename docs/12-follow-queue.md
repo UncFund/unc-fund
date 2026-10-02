@@ -73,9 +73,9 @@ Status values: `queued`, `followed YYYY-MM-DD`, `rejected: reason`, `reverted YY
 | 46 | @coincenter | Coin Center, crypto policy nonprofit | followed 2026-10-01 |
 | 47 | @BlockchainAssn | Blockchain Association, industry trade group | followed 2026-10-01 |
 | 48 | @crypto_council | Crypto Council for Innovation | followed 2026-10-01 |
-| 49 | @DavidSacks | David Sacks, White House AI and crypto adviser | queued |
-| 50 | @FinancialCmte | House Financial Services Committee (majority) | queued |
-| 51 | @FSCDems | House Financial Services Committee Democrats (minority) | queued |
+| 49 | @DavidSacks | David Sacks, White House AI and crypto adviser | followed 2026-10-02 |
+| 50 | @FinancialCmte | House Financial Services Committee (majority) | followed 2026-10-02 |
+| 51 | @FSCDems | House Financial Services Committee Democrats (minority) | rejected: not the committee — display name "FSC", no badge, no bio or link, 0 posts, 56 followers, joined Jan 2025 (Oct 2) |
 
 ## Not queued, and why
 
