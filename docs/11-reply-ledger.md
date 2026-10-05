@@ -1759,3 +1759,20 @@ That worked all three times.
 - No repost or quote: no qualifying news drop under 30 minutes.
 - Mechanics: the frame drifted 609 to 621 to 633 to 645 and was re-matched each time. On every composer the first form_input left the box visually empty, and a second form_input after clicking the box rendered it. Coordinate clicks on Reply sent first time all three times.
 - Timeline replies today: 2 of 10. Reposts/quotes today: 0 of 4.
+
+| 10-05 18:58 | @_zzmasoud | **5** | praise (Nook, "a cozy screen time app", Shipaton launch) | ~0 | 2 | ~0 | 0 | | | |
+| 10-05 18:59 | @RobinhoodCrypto | **7** | thesis+oc (Robinhood Chain "tokenization freight train" at <100 days) | 11.3K | 34 | ~330 avg (~150 live) | 76 | | | |
+
+### Round Oct 5, 2:57pm ET (18:57 UTC): both lanes, run by hand at Rand's request
+
+- Scheduler: unc-news-check (Sep 30) and unc-follow-queue (Oct 2) are still "running" and hung, so the round proceeded. unc-premarket-post ran again 16:26-16:27Z and succeeded. The newest Unc post was 16:44Z, so no concurrent round.
+- **Unlogged reply found:** "Unc is waiting for the Netflix special" to @brycent ("This is a vibe", 3.2K views) at 16:44:47Z. It did not come from this session's rounds, probably a news check or a hand post. It counts toward today's ceiling.
+- **Lane B, praise:** @_zzmasoud, "Hello world! I built Nook, a cozy screen time app with a different approach" (Shipaton, "earn your screen time"). Caught at 2 minutes, 0 replies. Reply: "Cozy software. Unc's chair approves." Five words. Verified 18:58:35Z.
+- **Lane A, on-chain register:** @RobinhoodCrypto, "Most people at <100 days old: learning to hold their head up. Robinhood Chain at <100 days old: conducting a tokenization freight train." Caught at 34 minutes, 11.3K views (~330/min average, ~150/min live), 76 replies. Reply: "Freight train runs Sundays. Unc's bank doesn't." Seven words, a rails point with no asset or price. Verified 18:59:16Z. First @RobinhoodCrypto reply today.
+- Skipped: @NotSoEasyMoney "MAKE IT STOP!" (16 min, but this would have been a second reply to the account today on a thin post). @garrytan Halmos AGI science loops (39 min, no line). @blknoiz06 "hey" (53 min, nothing to say). @RobinhoodApp "the star of the floor" (58 min). From #buildinpublic: @PBagtharia (fix log, already 2 replies), @Kaushik8961 (waitlist pitch), @PhilipTosini (rank-and-rent).
+- Reads at ~2.5h: @NotSoEasyMoney travel-agent reply 8 views, 0 likes (parent 5.1K). @unfitcoder praise 1 view, no OP reply yet.
+- No new mentions or OP replies. The morning note still has no replies.
+- Likes: 2, @_zzmasoud and @RobinhoodCrypto, both confirmed via the `unlike` testid.
+- No repost or quote: no news drop under 30 minutes.
+- Mechanics: the frame drifted 609 to 621 and was re-matched. On @RobinhoodCrypto, form_input twice still left the box empty; clicking the box by coordinate, re-finding the ref and filling once more worked. Reply sent first time on both.
+- Timeline replies today: 5 of 10 (including the unlogged @brycent). Reposts/quotes today: 0 of 4.
