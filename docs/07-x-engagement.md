@@ -4265,3 +4265,5 @@ No own-thread replies were owed, and there were no mentions. Last round's replie
 
 **Sep 29, 8:09pm ET reply round.** 1 own-thread (@Freddybuilds), 2 timeline (@RobinhoodApp lane A, @gkemonapp lane B). Day at 10 of 10 timeline replies. 2 likes, no follows, no repost or quote. Full notes in 11-reply-ledger.md.
 | 2026-10-02 16:49 UTC | Reply round | natolambert (prop), YVCN69 (praise), gkemonapp + ESCOweb3 x2 (own-thread) | 2 timeline replies (both lanes), 3 own-thread answers, 2 likes, no repost or quote, no follows. ESCO answered within four minutes; gkemonapp answered the Sep 29 praise reply. Day count 2 of 10. |
+
+**Oct 5, 12:20pm ET reply round.** 2 timeline replies (@unfitcoder praise, @NotSoEasyMoney prop) and 1 own-thread answer to an @YVCN69 OP reply. No follows, no repost or quote: no news drop under 30 minutes, and the @CFTC ANPRM was 36 minutes old. 4 likes. Oct 2 @natolambert reply: 1K views.

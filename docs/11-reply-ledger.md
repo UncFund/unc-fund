@@ -1722,9 +1722,9 @@ That worked all three times.
 
 | 10-02 16:51 | @gkemonapp | **7** | own-thread | — | — | — | — | | | |
 | 10-02 16:53 | @ESCOweb3 | **8** | own-thread+oc (mention, joke pitch "$500 @ $5,000") | — | — | — | — | 6 (5m) | 0 | **y** (16:57Z, "unc replies are respected", answered 17:03Z) |
-| 10-02 16:59 | @natolambert | **9** | prop (venture news, Trillium Labs non-profit launch) | 4727 | 21 | ~230 (~175 live) | 35 | | | |
-| 10-02 17:00 | @YVCN69 | **8** | praise | 3 | 8 | ~0.4 | 0 | | | |
-| 10-02 17:03 | @ESCOweb3 | **7** | own-thread+oc | — | — | — | — | | | |
+| 10-02 16:59 | @natolambert | **9** | prop (venture news, Trillium Labs non-profit launch) | 4727 | 21 | ~230 (~175 live) | 35 | 1K (3d) | 0 | n |
+| 10-02 17:00 | @YVCN69 | **8** | praise | 3 | 8 | ~0.4 | 0 | 39 (3d) | 0 | **y** (18:59Z, "Exactly why I post them raw...", answered Oct 5 16:21Z) |
+| 10-02 17:03 | @ESCOweb3 | **7** | own-thread+oc | — | — | — | — | 12 (3d) | 1 | y (17:17Z, laughing emoji; liked Oct 5) |
 
 ### Round Oct 2, 12:49pm ET (16:49 UTC): both lanes, a late OP reply and a joke pitch answered
 
@@ -1739,4 +1739,23 @@ That worked all three times.
 - Likes: 2, @natolambert and @YVCN69, each confirmed via the `unlike` testid. A third on the gkemonapp reply did not register and was left.
 - Mechanics: the pane was unstable all round. The frame drifted 609 to 621 to 633 to 645 to 657 to 670, at one point the tab silently reset to a 1024x768 viewport at DPR 2, and screenshots often timed out or showed a zoomed crop. What worked: re-match the viewport, scroll the button into view with JS and read its rect, then a coordinate click from a fresh screenshot (adjusted by frame/viewport height when they differ). Clicking the generic "Reply" ref sent once (ESCO) and silently cleared the box without sending once (natolambert).
 - No repost or quote: Trillium Labs is a non-profit launch, and the slot was left unused.
+- Timeline replies today: 2 of 10. Reposts/quotes today: 0 of 4.
+
+| 10-05 16:21 | @YVCN69 | **9** | own-thread (OP reply to the Oct 2 praise reply) | — | — | — | — | | | |
+| 10-05 16:23 | @unfitcoder | **8** | praise | 2 | 3 | ~0.7 | 0 | | | |
+| 10-05 16:24 | @NotSoEasyMoney | **6** | prop (Token2049 "breathtaking" hotel view that is a farm) | 2721 | 34 | ~80 avg (~25 live) | 20 | | | |
+
+### Round Oct 5, 12:20pm ET (16:20 UTC): both lanes plus an OP reply answered
+
+- Scheduler: unc-news-check "running" since Sep 30 17:07Z and unc-follow-queue "running" since Oct 2 16:51Z, both hung (well past the 10-minute bound), proceeded. unc-premarket-post succeeded (Monday note at 16:10Z). Newest Unc reply was Oct 2 17:03Z, so no concurrent round.
+- **OP reply:** @YVCN69 answered the Oct 2 praise reply on Oct 2 18:59Z ("Exactly why I post them raw. 227 abandoned checkouts isn't a failure stat, it's the roadmap..."). Answered with "A roadmap with 227 stops. Unc packed a sandwich." (9 words, own-thread). Verified 16:21:35Z. Liked Yacine's reply. The Oct 2 YVCN69 praise row is a **y**.
+- @ESCOweb3 replied with laughing emoji on Oct 2 17:17Z. It was liked and not answered, since an emoji needs no line.
+- **Lane B, praise:** @unfitcoder (small #100DaysOfCode builder), "Day 204. Exam day done. Linux exam tomorrow... Two exams back to back while the interview pipeline keeps moving." Caught at 3 minutes, 2 views, 0 replies. Reply: "Day 204 through exam week. That's the résumé." Eight words. Verified 16:23:35Z.
+- **Lane A, prop:** @NotSoEasyMoney, "The views from my hotel for Token2049 are breathtaking" over a photo of farmland. Caught at 34 minutes, 2,721 views (~80/min average, but only ~25/min live, so it was flattening), 20 replies. Reply: "Unc used the same travel agent." Six words, on the self-own and confidently-wrong lane. It is crypto-adjacent but contains no asset talk, so it is not the on-chain register. Verified 16:24:26Z.
+- Skipped: @stanleefounder's roommate raised $20M and borrowed $1,400 for rent (25 min at ~11/min; the line "Raised $20 million, borrowed $1,400. Textbook capital efficiency." was ready, but it was held to avoid three timeline replies in four minutes). @CFTC ANPRM on crypto asset transactions (36 min, past the 30-minute repost window, and the round had no line for it). @andyyy competitor-marketing callout (drama). @20thr $42M Series B (202 min, stale). @Ali_Mlk092 (16-year-old founder; preferred an adult builder, as on Oct 2).
+- Reads: the Oct 2 @natolambert reply took 1K views and 0 likes, the second-best reply after the Sep 25 a16z one. @YVCN69 praise 39 views, OP reply. ESCO "Two-finger typing" 12 views, 1 like.
+- Morning notes: the Oct 5 Monday note (16:10Z, 3 views) and the Oct 2 note have no replies. No new mentions.
+- Likes: 4, @YVCN69's reply, @ESCOweb3's emoji reply, @NotSoEasyMoney and @stanleefounder, each confirmed via the `unlike` testid.
+- No repost or quote: no qualifying news drop under 30 minutes.
+- Mechanics: the frame drifted 609 to 621 to 633 to 645 and was re-matched each time. On every composer the first form_input left the box visually empty, and a second form_input after clicking the box rendered it. Coordinate clicks on Reply sent first time all three times.
 - Timeline replies today: 2 of 10. Reposts/quotes today: 0 of 4.
