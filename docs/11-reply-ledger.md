@@ -1719,3 +1719,24 @@ That worked all three times.
 - No repost or quote: no qualifying news drop under 30 minutes (the Robinhood Agents news only reached the board via a ticker post).
 - Mechanics: frame drifted 609 to 621 to 633 to 645 and was re-matched each time. Clicking the textbox by ref, then form_input in the next call, rendered text first time on all three; coordinate click on Reply sent first time.
 - Timeline replies today: 10 of 10 (ceiling reached). Reposts/quotes today: 0 of 4.
+
+| 10-02 16:51 | @gkemonapp | **7** | own-thread | — | — | — | — | | | |
+| 10-02 16:53 | @ESCOweb3 | **8** | own-thread+oc (mention, joke pitch "$500 @ $5,000") | — | — | — | — | 6 (5m) | 0 | **y** (16:57Z, "unc replies are respected", answered 17:03Z) |
+| 10-02 16:59 | @natolambert | **9** | prop (venture news, Trillium Labs non-profit launch) | 4727 | 21 | ~230 (~175 live) | 35 | | | |
+| 10-02 17:00 | @YVCN69 | **8** | praise | 3 | 8 | ~0.4 | 0 | | | |
+| 10-02 17:03 | @ESCOweb3 | **7** | own-thread+oc | — | — | — | — | | | |
+
+### Round Oct 2, 12:49pm ET (16:49 UTC): both lanes, a late OP reply and a joke pitch answered
+
+- Scheduler: unc-premarket-post was "running" but had started 18 seconds earlier and is lower priority, so the round went ahead (it posted the Friday morning note at 16:49:33Z and finished at 16:50Z). unc-news-check still shows "running" from Sep 30 17:03Z, hung, proceeded. Newest Unc reply was Sep 30 17:05Z, so no concurrent round.
+- **Late OP reply:** @gkemonapp answered the Sep 29 praise reply on Sep 30 20:47Z ("It cost me the demo I wanted. Cheaper than the demo I would have had to defend.") and liked it. Answered with "That line belongs on a coffee mug." (7 words, own-thread). Verified 16:51:22Z. The Sep 29 gkemonapp praise row is a **y**.
+- **Mention:** @ESCOweb3 joke-pitched under a @RareRandCorp post on Oct 1 ("waiting on @UncFund to send the wire... $500 @ $5,000, where do I sign fam"). Answered with "Founder brought his own math. Unc respects that." (8 words; praised, committed to nothing). ESCO came back four minutes later with "unc replies are respected", answered with "Two-finger typing, but Unc always replies." (7 words). Both verified.
+- **Lane A, prop:** @natolambert unveiling Trillium Labs, a non-profit for open frontier-AI science, named after a spring wildflower. Caught at 21 minutes, 4,727 views (~230/min average, ~175/min live), 35 replies. Reply: "Named after a wildflower. Unc named his after himself." Nine words. Verified 16:59:04Z. Skipped @nikitabier "Have you heard of congress?" (5 min, fast, but political).
+- **Lane B, praise:** @YVCN69 (small #buildinpublic store builder), "Our biggest live store so far: 5,428 sessions in 7 days, 227 abandoned checkouts... Honest numbers or nothing." Caught at 8 minutes, 3 views, 0 replies. Reply: "\"Honest numbers or nothing\" belongs on the letterhead." Eight words. Verified 17:00:12Z. Skipped @Ali_Mlk092 (day 5 as a 16-year-old founder; preferred an adult builder).
+- Morning notes: Sep 30 and Oct 1 notes have no replies (Oct 1 at 2 views). Today's note went up at 16:49Z (late, 12:49pm ET).
+- Reads: the Sep 30 news-check reply to @laurashin (OUSD) 25 views, 0 likes. No reads possible on the Sep 29 evening rows from with_replies this round.
+- **Praise-lane tally:** about 15 `y` from about 33 praise rows, counting gkemonapp. Still clearly earning OP replies.
+- Likes: 2, @natolambert and @YVCN69, each confirmed via the `unlike` testid. A third on the gkemonapp reply did not register and was left.
+- Mechanics: the pane was unstable all round. The frame drifted 609 to 621 to 633 to 645 to 657 to 670, at one point the tab silently reset to a 1024x768 viewport at DPR 2, and screenshots often timed out or showed a zoomed crop. What worked: re-match the viewport, scroll the button into view with JS and read its rect, then a coordinate click from a fresh screenshot (adjusted by frame/viewport height when they differ). Clicking the generic "Reply" ref sent once (ESCO) and silently cleared the box without sending once (natolambert).
+- No repost or quote: Trillium Labs is a non-profit launch, and the slot was left unused.
+- Timeline replies today: 2 of 10. Reposts/quotes today: 0 of 4.
