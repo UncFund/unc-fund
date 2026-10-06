@@ -1742,7 +1742,7 @@ That worked all three times.
 - Timeline replies today: 2 of 10. Reposts/quotes today: 0 of 4.
 
 | 10-05 16:21 | @YVCN69 | **9** | own-thread (OP reply to the Oct 2 praise reply) | — | — | — | — | | | |
-| 10-05 16:23 | @unfitcoder | **8** | praise | 2 | 3 | ~0.7 | 0 | | | |
+| 10-05 16:23 | @unfitcoder | **8** | praise | 2 | 3 | ~0.7 | 0 | | | **y** (Oct 6 11:50Z, "Résumé gets read once, the streak gets checked daily", answered 14:11Z) |
 | 10-05 16:24 | @NotSoEasyMoney | **6** | prop (Token2049 "breathtaking" hotel view that is a farm) | 2721 | 34 | ~80 avg (~25 live) | 20 | | | |
 
 ### Round Oct 5, 12:20pm ET (16:20 UTC): both lanes plus an OP reply answered
@@ -1760,8 +1760,8 @@ That worked all three times.
 - Mechanics: the frame drifted 609 to 621 to 633 to 645 and was re-matched each time. On every composer the first form_input left the box visually empty, and a second form_input after clicking the box rendered it. Coordinate clicks on Reply sent first time all three times.
 - Timeline replies today: 2 of 10. Reposts/quotes today: 0 of 4.
 
-| 10-05 18:58 | @_zzmasoud | **5** | praise (Nook, "a cozy screen time app", Shipaton launch) | ~0 | 2 | ~0 | 0 | | | |
-| 10-05 18:59 | @RobinhoodCrypto | **7** | thesis+oc (Robinhood Chain "tokenization freight train" at <100 days) | 11.3K | 34 | ~330 avg (~150 live) | 76 | | | |
+| 10-05 18:58 | @_zzmasoud | **5** | praise (Nook, "a cozy screen time app", Shipaton launch) | ~0 | 2 | ~0 | 0 | 8 (19h) | 1 | n (liked it) |
+| 10-05 18:59 | @RobinhoodCrypto | **7** | thesis+oc (Robinhood Chain "tokenization freight train" at <100 days) | 11.3K | 34 | ~330 avg (~150 live) | 76 | 231 (19h) | 1 | n |
 
 ### Round Oct 5, 2:57pm ET (18:57 UTC): both lanes, run by hand at Rand's request
 
@@ -1776,3 +1776,21 @@ That worked all three times.
 - No repost or quote: no news drop under 30 minutes.
 - Mechanics: the frame drifted 609 to 621 and was re-matched. On @RobinhoodCrypto, form_input twice still left the box empty; clicking the box by coordinate, re-finding the ref and filling once more worked. Reply sent first time on both.
 - Timeline replies today: 5 of 10 (including the unlogged @brycent). Reposts/quotes today: 0 of 4.
+
+| 10-06 14:11 | @unfitcoder | **6** | own-thread (OP reply to the Oct 5 praise reply) | — | — | — | — | | | |
+| 10-06 14:13 | @RobinhoodApp | **7** | prop (Robinhood NASCAR Camry, "Heim Time in Houston") | ~14K | 13 | ~1,080 | 19 | | | |
+| 10-06 14:14 | @bhavyapandya07 | **8** | praise (client found portfolio via Discord, booked a call) | 7 | 9 | ~0.8 | 0 | | | |
+
+### Round Oct 6, 10:09am ET (14:09 UTC): both lanes plus an OP reply answered
+
+- Scheduler: unc-news-check "running" since Sep 30 17:07Z and unc-follow-queue "running" since Oct 2 16:51Z, both hung, proceeded. unc-premarket-post last succeeded Oct 5. Newest Unc post was Oct 5 18:59Z, so no concurrent round.
+- **OP reply:** @unfitcoder answered the Oct 5 praise reply at 11:50Z ("Ha, that's the plan. Résumé gets read once, the streak gets checked daily"). Answered with "Then Unc will be checking daily." (6 words, own-thread). Verified 14:11:43Z. Liked Harsh's reply. The Oct 5 unfitcoder praise row is a **y**.
+- **Lane A, prop:** @RobinhoodApp, "Heim Time in Houston" quoting a photo of the Corey Heim #67 Robinhood Camry at HOOD Summit. Caught at 13 minutes, ~14K views (~1,080/min), 19 replies. Reply: "Unc drives the same Camry. Fewer sponsors." Seven words. Verified 14:13:02Z. First @RobinhoodApp reply today.
+- **Lane B, praise:** @bhavyapandya07 (small PM/design engineer), "A client found my portfolio through Discord and booked a call with me." Caught at 9 minutes, 7 views, 0 replies. Reply: "The portfolio did the cold email for you." Eight words. Verified 14:14:33Z.
+- Skipped: @RobinHubHB "Robinhood Chain is now the biggest L2 by network revenue" (6 min, ~90/min, but an unverified stat from what may be a fan account, and Robinhood Chain was yesterday's on-chain reply). @stanleefounder co-founder parody (15 min, ~4/min, no line). @NotSoEasyMoney stream title (61 min, Burry/market talk). @striver_79 shipped post (large account, no line). @Eleanor42032721 Day 216 metrics (too close in shape to yesterday's Day 204 line).
+- Reads at ~19h: @RobinhoodCrypto on-chain reply 231 views, 1 like, no OP reply. @_zzmasoud praise 8 views, 1 like (OP liked it, no reply). @brycent hand reply 17 views.
+- Morning note: no Oct 6 note on the profile yet at 14:10Z. The Oct 5 and Oct 2 notes still have no replies. No other new mentions.
+- Likes: 3, @unfitcoder's reply, @RobinhoodApp and @bhavyapandya07, each confirmed via the `unlike` testid.
+- No repost or quote: no qualifying news drop under 30 minutes.
+- Mechanics: frame drifted 609 to 621 to 633 to 645 to 657 and was re-matched each time. On unfitcoder the first form_input left the box empty and a second one after clicking worked. On RobinhoodApp the post-click screenshot still showed the text and a spinner, but a DOM check showed the reply had already posted, so it was not re-filled; checking the DOM for the new @UncFund article before retrying avoids a double post.
+- Timeline replies today: 2 of 10. Reposts/quotes today: 0 of 4.
