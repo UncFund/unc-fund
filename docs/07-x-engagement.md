@@ -3671,6 +3671,11 @@ vending machine 120 and 1, "Unc believes in you" 10.
   (dialog read 57, then 58 before the second tick; the first "..." click on FinancialCmte opened late and a follow-up
   click landed on About this account, second attempt worked). Following 137 to 139, followers 37 to 37. No queued
   rows remain.
+- 2:33pm ET Nov 3 (19:33 UTC; EST since Nov 1, so UTC minus 5): nothing to do, no rows in 12-follow-queue.md are
+  "queued" (last ones cleared Oct 2). Scheduler clear: reply round, news check and morning note last runs all
+  succeeded (Oct 6, Sep 30, Oct 7), none running. Browser not opened. Followed none, rejected none, reverted none, no
+  list adds, counts not read. The queue needs new rows from Rand (the "Not queued" handles, the real @FSCDems
+  equivalent, Bitwise and Ondo handles) before this routine has work again.
 
 ## Round at 00:09 UTC Sep 15 (8:09pm ET Sep 14): one own-thread answer, day still at the ceiling
 
