@@ -3676,6 +3676,11 @@ vending machine 120 and 1, "Unc believes in you" 10.
   succeeded (Oct 6, Sep 30, Oct 7), none running. Browser not opened. Followed none, rejected none, reverted none, no
   list adds, counts not read. The queue needs new rows from Rand (the "Not queued" handles, the real @FSCDems
   equivalent, Bitwise and Ondo handles) before this routine has work again.
+- 12:28pm ET Nov 10 (17:28 UTC; fired about an hour after its 11:25 slot, right after the 12:26 reply round,
+  news check and morning note all finished): blocked. Scheduler clear (all three succeeded, none
+  running). x.com/UncFund shows Log in links, so the in-app browser is still signed out of @UncFund; no login
+  attempted. No rows in 12-follow-queue.md are "queued" anyway. Followed none, rejected none, reverted none, no list
+  adds, counts not readable while signed out.
 
 ## Round at 00:09 UTC Sep 15 (8:09pm ET Sep 14): one own-thread answer, day still at the ceiling
 
