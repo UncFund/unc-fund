@@ -6353,3 +6353,5 @@ an @andyyy crypto-move post, probably hand-posted; flagged in the ledger as clos
 **Oct 5, 2:57pm ET round (by hand).** Both lanes. Lane B: "Cozy software. Unc's chair approves." to @_zzmasoud's Nook launch (2-minute parent, 5 words). Lane A, on-chain register: "Freight train runs Sundays. Unc's bank doesn't." to @RobinhoodCrypto's Robinhood Chain freight-train post (34-minute parent, ~150/min live, 7 words). Found an unlogged 16:44Z reply to @brycent from another session. Full notes in 11-reply-ledger.md.
 
 **Nov 9, 12:30pm ET round.** Blocked: X signed out in the in-app browser, redirect to login on with_replies. No replies, no likes, no ledger rows, no metrics read. Needs Rand to sign back in.
+
+**Nov 10, 12:26pm ET round.** Blocked: X still signed out in the in-app browser, with_replies redirects to login. No replies, no likes, no ledger rows, no metrics read. Second straight day; needs Rand to sign back in.
