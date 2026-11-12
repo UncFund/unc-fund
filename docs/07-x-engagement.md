@@ -3681,6 +3681,10 @@ vending machine 120 and 1, "Unc believes in you" 10.
   running). x.com/UncFund shows Log in links, so the in-app browser is still signed out of @UncFund; no login
   attempted. No rows in 12-follow-queue.md are "queued" anyway. Followed none, rejected none, reverted none, no list
   adds, counts not readable while signed out.
+- 3:30pm ET Nov 12 (20:30 UTC): blocked. Scheduler clear (reply round, news check and morning note all
+  succeeded, none running). x.com/UncFund/with_replies redirects to the X login dialog, so the in-app browser is
+  still signed out of @UncFund; no login attempted. No rows in 12-follow-queue.md are "queued" anyway. Followed
+  none, rejected none, reverted none, no list adds, counts not readable while signed out.
 
 ## Round at 00:09 UTC Sep 15 (8:09pm ET Sep 14): one own-thread answer, day still at the ceiling
 
