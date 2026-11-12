@@ -6373,3 +6373,5 @@ an @andyyy crypto-move post, probably hand-posted; flagged in the ledger as clos
 **Nov 11, 8:09pm ET round.** Blocked: X still signed out in the in-app browser, with_replies redirects to login. No replies, no likes, no ledger rows, no metrics read. Third straight day; needs Rand to sign back in.
 
 **Nov 11, 10:09pm ET round.** Blocked: X still signed out in the in-app browser, with_replies redirects to login. No replies, no likes, no ledger rows, no metrics read. Third straight day; needs Rand to sign back in.
+
+**Nov 12, 11:52am ET round.** Blocked: X still signed out in the in-app browser, with_replies redirects to the login panel. Scheduler showed unc-news-check and unc-premarket-post started in the same second (16:51:57 UTC); both rank below the reply round, so this run proceeded. No login attempted. No replies, no likes, no ledger rows, no metrics read. Fourth straight day; needs Rand to sign back in.
