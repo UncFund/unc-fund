@@ -6379,3 +6379,5 @@ an @andyyy crypto-move post, probably hand-posted; flagged in the ledger as clos
 **Nov 12, 12:10pm ET round.** Blocked: X still signed out in the in-app browser, with_replies redirects to the login panel (17:10 UTC). Scheduler clear: news check, morning note and follow queue all finished by 16:54 UTC, none running. No login attempted. No replies, no likes, no ledger rows, no metrics read. Fourth straight day; needs Rand to sign back in.
 
 **Nov 12, 2:10pm ET round.** Blocked: X still signed out in the in-app browser, with_replies redirects to the login panel (19:10 UTC). Scheduler clear: news check succeeded 18:04 UTC, follow queue 16:54, morning note 16:52, none running. No login attempted. No replies, no likes, no ledger rows, no metrics read. Fourth straight day; needs Rand to sign back in.
+
+**Nov 12, 4:10pm ET round.** Blocked: X still signed out in the in-app browser, with_replies redirects to the login panel (21:10 UTC). Scheduler clear: follow queue succeeded 20:31 UTC, news check 20:04, morning note 16:52, none running. No login attempted. No replies, no likes, no ledger rows, no metrics read. Fourth straight day; needs Rand to sign back in.
